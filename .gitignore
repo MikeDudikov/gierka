@@ -1,9 +1,0 @@
-__pycache__/
-*.py[cod]
-.venv/
-.vs/
-.idea/
-Binaries/
-DerivedDataCache/
-Intermediate/
-Saved/
