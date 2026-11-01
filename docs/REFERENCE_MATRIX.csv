@@ -1,0 +1,29 @@
+requirement_id,area,requirement,evidence,status,verification
+REQ-001,Silnik,Odtworzenie gry w Unity Engine,Polecenie użytkownika,WYMAGANIE_POTWIERDZONE,Uruchomienie projektu w rzeczywistym Unity Editor oraz identyfikacja wersji w raporcie buildu
+REQ-002,Mechaniki,Zachowanie wszystkich mechanik pierwowzoru,Polecenie użytkownika,WYMAGANIE_POTWIERDZONE,Testy stanów i zdarzeń porównane z pomiarami oryginału dla pełnego katalogu reguł
+REQ-003,Treść,Zachowanie całej treści i wszystkich misji,Polecenie użytkownika,WYMAGANIE_POTWIERDZONE,Pełny katalog treści oryginału oraz przejście każdej pozycji w remake’u
+REQ-004,AI,Zachowanie zachowań AI przeciwników,Polecenie użytkownika,WYMAGANIE_POTWIERDZONE,Porównanie decyzji i reakcji w powtarzalnych scenariuszach z kontrolowanym stanem początkowym
+REQ-005,Tempo,Zachowanie tempa rozgrywki,Polecenie użytkownika,WYMAGANIE_POTWIERDZONE,Porównanie czasów zdarzeń i wpływu renderowania na symulację
+REQ-006,Prezentacja,Kosmetyczna modernizacja przy zachowaniu wyglądu i informacji pierwowzoru,Polecenie użytkownika,WYMAGANIE_POTWIERDZONE,Porównania obrazu kamery sylwetek palety UI animacji oraz testy niezmienionego stanu gry
+REQ-007,Czcionki,Zachowanie czcionek pierwowzoru,Polecenie użytkownika,WYMAGANIE_POTWIERDZONE,Identyfikacja plików lub glifów oraz porównanie kształtów odstępów i układu tekstu
+REQ-008,Platforma,Uruchamianie gotowej gry na Windows 11,Polecenie użytkownika,WYMAGANIE_POTWIERDZONE,Uruchomienie zbudowanego wydania na czystym Windows 11 bez Unity Editor
+REQ-009,Ekran,Start w pełnym ekranie w rozdzielczości 1280x1024,Polecenie użytkownika,WYMAGANIE_POTWIERDZONE,Pomiar rzeczywistego trybu okna i rozdzielczości po starcie restarcie oraz Alt+Tab
+REQ-010,Sprzęt,Działanie na laptopie i5 3.6 GHz z 16 GB RAM oraz RTX 3050 Ti,Polecenie użytkownika,WYMAGANIE_POTWIERDZONE,Pomiary CPU GPU RAM VRAM i przycięć na opisanym docelowym stanowisku
+REQ-011,Zakres,Zachowanie doświadczenia oryginału bez nowych mechanik i usług,Polecenie użytkownika,WYMAGANIE_POTWIERDZONE,Przegląd pełnej listy funkcji i testy porównawcze wszystkich ekranów i scenariuszy
+SRC-001,Materiały,Odczytywalne i sprawdzone archiwum obrazu płyty,Załącznik wskazany przez użytkownika przekracza limit transferu 32 MiB,BLOKADA_DOSTEPU,Lokalny plik z rozmiarem SHA-256 oraz poprawnym testem integralności archiwum
+SRC-002,Kod oryginału,Ustalenie czy obraz zawiera kod źródłowy,Nie odczytano zawartości obrazu,NIEZBADANE,Inwentaryzacja rzeczywistych plików i rozróżnienie źródeł od skompilowanych programów
+SRC-003,Wersja oryginału,Identyfikacja wersji języka i poprawek,Nie uruchomiono ani nie zinwentaryzowano oryginału,NIEZBADANE,Metadane plików ekrany wersji i raport konfiguracji uruchomienia
+SRC-004,Integralność danych,Katalog plików i zasobów z hashami,Nie odczytano archiwum,NIEZBADANE,Odtwarzalny katalog oraz kontrola CRC i SHA-256
+REF-001,Mechaniki referencyjne,Potwierdzone reguły statystyki i czasy oryginału,Brak lokalnych pomiarów i odczytanych danych,NIEZBADANE,Scenariusze pomiarowe i tabela reguł z odnośnikami do źródeł
+REF-002,AI referencyjne,Potwierdzone priorytety warunki i reakcje AI,Brak kodu i zmierzonych przebiegów,NIEZBADANE,Ślady decyzji i porównania kontrolowanych sytuacji w oryginale
+REF-003,Treść referencyjna,Kompletna lista trybów map misji i warunków ukończenia,Brak inwentaryzacji działającej gry,NIEZBADANE,Katalog treści z dowodem uruchomienia i ukończenia każdej pozycji
+REF-004,Obraz referencyjny,Potwierdzona kamera kadrowanie proporcje paleta i UI,Brak przeanalizowanych zrzutów lub nagrań,NIEZBADANE,Opisane klatki oryginału z ustawieniami i odnośnikami czasu
+REF-005,Fonty referencyjne,Identyfikacja oryginalnych fontów lub atlasów glifów,Brak przeanalizowanych zasobów tekstowych,NIEZBADANE,Katalog fontów i test porównawczy wszystkich potrzebnych znaków
+REF-006,Audio referencyjne,Komplet muzyki dźwięków i reguł odtwarzania,Brak katalogu audio i odsłuchu,NIEZBADANE,Hashowane zasoby oraz porównania momentów odtwarzania pętli i poziomów
+REF-007,Sterowanie referencyjne,Komplet poleceń skrótów reakcji i zachowania kamery,Brak sesji kontrolnej oryginału,NIEZBADANE,Rejestrowane wejścia i porównanie reakcji w powtarzalnych scenariuszach
+REF-008,Zapis i odczyt,Zachowanie funkcji zapisywania i odtwarzania stanu,Brak zapisów i testów oryginału,NIEZBADANE,Porównanie istotnego stanu gry przed i po wczytaniu dla całego katalogu przypadków
+REF-009,Losowość i zegar,Zidentyfikowany wpływ czasu klatek losowości i pauzy,Brak powtarzalnych pomiarów,NIEZBADANE,Seria kontrolowanych przebiegów ze stanem początkowym i pomiarem czasu
+ENV-001,Unity Editor,Działający Editor z modułem budowania Windows,Instalator Unity CLI i oficjalny katalog wydań zablokowane przez proxy HTTP 403,BLOKADA_SIECI,Rzeczywisty import kompilacja test Editor oraz budowanie playera Windows
+ENV-002,Licencja Unity,Uprawniona aktywna licencja potrzebna do wykonania Editor,Brak potwierdzonego stanu licencji,NIEZWERYFIKOWANE,Oficjalny status licencji bez ujawniania wartości danych uwierzytelniających
+ENV-003,Stanowisko docelowe,Dokładny model CPU parametry GPU sterownik i tryb zasilania,Podano rodzinę CPU częstotliwość RAM i model GPU,DANE_NIEPELNE,Raport sprzętu i warunków z rzeczywistego stanowiska pomiarowego
+REL-001,Gotowość wydania,Pełne testy porównawcze i uruchomienie ukończonej gry,Brak implementacji i badań oryginału,NIEURUCHOMIONE,Raport bramki wydania ze wskazaniem commitu artefaktów wszystkich wyników i pozostałych różnic
