@@ -1,3 +1,4 @@
 pycdlib==1.22.0
 pefile==2024.8.26
 Pillow==13.0.0
+-r requirements-binary-analysis.txt

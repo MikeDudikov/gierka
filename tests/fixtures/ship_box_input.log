@@ -1,0 +1,1453 @@
+Mono path[0] = 'Z:/workspace/gierka/artifacts/unity-reference/Windows/AncientConquestReference_Data/Managed'
+Mono config path = 'Z:/workspace/gierka/artifacts/unity-reference/Windows/MonoBleedingEdge/etc'
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Initialize engine version: 6000.3.27f2 (22188f149405)
+[Subsystems] Discovering subsystems at path Z:/workspace/gierka/artifacts/unity-reference/Windows/AncientConquestReference_Data/UnitySubsystems
+d3d12: failed to create D3D12 device (0x80004005).
+GfxDevice: creating device client; kGfxThreadingModeClientWorkerJobs
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 470 (ID=0x6cd)
+    Vendor:   NVIDIA
+    VRAM:     5888 MB
+    Driver:   31.0.13.9135
+FMOD failed to initialize any audio devices, running on emulated software output with no sound. Please check your audio drivers and/or hardware for malfunction.
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.193 seconds
+- Finished resetting the current domain, in  0.002 seconds
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+GpuFence::Create(): Failed to create ID3D11Fence, error 0x80004001
+<RI> Initializing input.
+EnableMouseInPointer failed with the following error: Call not implemented.
+Using Windows.Gaming.Input
+Direct3D: detected that vsync is broken (it does not limit frame rate properly). Delta time will now be calculated using cpu-side time stampling until the game window is moved.
+UnloadTime: 2.262000 ms
+Terrain reference display: 1920x1080; fullscreen=True; mode=ExclusiveFullScreen
+Terrain reference view: origin_cells=9,0; source_rect=576,0,960,540; scale=2; world=1536x1536; layers=8
+Terrain reference ready: mission=miss000; rendering=SpriteRenderer; diagnostic-only=True
+Mission object reference seeds: source=45; selected=45; source_constructors_executed=0
+Mission object reference setup: player=1,1; source_saved_origin=15,0; source_view_cells=9,8; diagnostic_camera_unchanged=True
+Mission object reference reef: id=00000005; cell=22,19; variant=2
+Mission object reference reef: id=00000006; cell=16,22; variant=3
+Mission object reference reef: id=00000009; cell=3,5; variant=2
+Mission object reference reef: id=0000000a; cell=20,10; variant=2
+Mission object reference reef: id=00000021; cell=5,21; variant=2
+Mission unit reference reef draw: order=22; id=00000005; depth=20200
+Mission unit reference reef draw: order=21; id=00000006; depth=20200
+Mission unit reference reef draw: order=20; id=00000009; depth=20200
+Mission unit reference reef draw: order=19; id=0000000a; depth=20200
+Mission unit reference reef draw: order=18; id=00000021; depth=20200
+Mission object reference ready: reefs=5; reference_state=1; frame=0; empty_collision_reference=True; simulation=False
+Mission unit reference seeds: ships=8; components=29; source_constructors_executed=0
+Mission unit reference grid: cells=576; claimed=8; pending_orders=0; simulation=False
+Mission unit reference ship: id=0000000b; cell=16,2; model=0; heading=5; frame=20; mask=131; anchor=1028,132; depth=19812
+Mission unit reference ship: id=0000000c; cell=21,5; model=0; heading=4; frame=16; mask=131; anchor=1348,324; depth=19620
+Mission unit reference ship: id=0000000d; cell=19,4; model=7; heading=4; frame=16; mask=163; anchor=1212,252; depth=19676
+Mission unit reference ship: id=00000010; cell=11,18; model=1; heading=0; frame=0; mask=131; anchor=704,1152; depth=18784
+Mission unit reference ship: id=00000027; cell=9,21; model=6; heading=1; frame=4; mask=139; anchor=572,1340; depth=18588
+Mission unit reference ship: id=00000028; cell=10,22; model=6; heading=1; frame=4; mask=139; anchor=636,1404; depth=18524
+Mission unit reference ship: id=00000029; cell=6,13; model=6; heading=1; frame=4; mask=139; anchor=380,828; depth=19100
+Mission unit reference ship: id=0000002a; cell=6,14; model=6; heading=1; frame=4; mask=139; anchor=380,892; depth=19036
+Mission unit reference draw: order=10; id=0000002a; part=0; depth=21000
+Mission unit reference draw: order=11; id=00000029; part=0; depth=21000
+Mission unit reference draw: order=12; id=00000028; part=0; depth=21000
+Mission unit reference draw: order=13; id=00000027; part=0; depth=21000
+Mission unit reference draw: order=14; id=00000010; part=0; depth=21000
+Mission unit reference draw: order=15; id=0000000d; part=0; depth=21000
+Mission unit reference draw: order=16; id=0000000c; part=0; depth=21000
+Mission unit reference draw: order=17; id=0000000b; part=0; depth=21000
+Mission unit reference draw: order=23; id=0000000b; part=1; depth=19812
+Mission unit reference draw: order=24; id=0000000b; part=7; depth=19812
+Mission unit reference draw: order=25; id=0000000d; part=1; depth=19676
+Mission unit reference draw: order=26; id=0000000d; part=5; depth=19676
+Mission unit reference draw: order=27; id=0000000d; part=7; depth=19676
+Mission unit reference draw: order=28; id=0000000c; part=1; depth=19620
+Mission unit reference draw: order=29; id=0000000c; part=7; depth=19620
+Mission unit reference draw: order=30; id=00000029; part=1; depth=19100
+Mission unit reference draw: order=31; id=00000029; part=3; depth=19100
+Mission unit reference draw: order=32; id=00000029; part=7; depth=19100
+Mission unit reference draw: order=33; id=0000002a; part=1; depth=19036
+Mission unit reference draw: order=34; id=0000002a; part=3; depth=19036
+Mission unit reference draw: order=35; id=0000002a; part=7; depth=19036
+Mission unit reference draw: order=36; id=00000010; part=1; depth=18784
+Mission unit reference draw: order=37; id=00000010; part=7; depth=18784
+Mission unit reference draw: order=38; id=00000027; part=1; depth=18588
+Mission unit reference draw: order=39; id=00000027; part=3; depth=18588
+Mission unit reference draw: order=40; id=00000027; part=7; depth=18588
+Mission unit reference draw: order=41; id=00000028; part=1; depth=18524
+Mission unit reference draw: order=42; id=00000028; part=3; depth=18524
+Mission unit reference draw: order=43; id=00000028; part=7; depth=18524
+Mission unit reference ready: state=1; frozen=True; renderers=29; full_world_order=False
+[ShipPointerReference] ready: canvas=1920,1080; origin=576,0; scale=2; input=InputSystem.onEvent; actor=0000000b; actors=8; fog=False; other_object_slots=empty; membership=explicit-ui-and-simulation; planner_membership=bounded-different-group; audio=False; full_game=False
+[ShipPointerReference] registration: node=0; kind=reef; id=00000005; depth=20200; components=1
+[ShipPointerReference] registration: node=1; kind=reef; id=00000006; depth=20200; components=1
+[ShipPointerReference] registration: node=2; kind=reef; id=00000009; depth=20200; components=1
+[ShipPointerReference] registration: node=3; kind=reef; id=0000000a; depth=20200; components=1
+[ShipPointerReference] registration: node=4; kind=inline_parent; id=0000000b; depth=19812; components=2
+[ShipPointerReference] registration: node=5; kind=separate_shadow; id=0000000b; depth=21000; components=1
+[ShipPointerReference] registration: node=6; kind=inline_parent; id=0000000c; depth=19620; components=2
+[ShipPointerReference] registration: node=7; kind=separate_shadow; id=0000000c; depth=21000; components=1
+[ShipPointerReference] registration: node=8; kind=inline_parent; id=0000000d; depth=19676; components=3
+[ShipPointerReference] registration: node=9; kind=separate_shadow; id=0000000d; depth=21000; components=1
+[ShipPointerReference] registration: node=10; kind=inline_parent; id=00000010; depth=18784; components=2
+[ShipPointerReference] registration: node=11; kind=separate_shadow; id=00000010; depth=21000; components=1
+[ShipPointerReference] registration: node=12; kind=reef; id=00000021; depth=20200; components=1
+[ShipPointerReference] registration: node=13; kind=inline_parent; id=00000027; depth=18588; components=3
+[ShipPointerReference] registration: node=14; kind=separate_shadow; id=00000027; depth=21000; components=1
+[ShipPointerReference] registration: node=15; kind=inline_parent; id=00000028; depth=18524; components=3
+[ShipPointerReference] registration: node=16; kind=separate_shadow; id=00000028; depth=21000; components=1
+[ShipPointerReference] registration: node=17; kind=inline_parent; id=00000029; depth=19100; components=3
+[ShipPointerReference] registration: node=18; kind=separate_shadow; id=00000029; depth=21000; components=1
+[ShipPointerReference] registration: node=19; kind=inline_parent; id=0000002a; depth=19036; components=3
+[ShipPointerReference] registration: node=20; kind=separate_shadow; id=0000002a; depth=21000; components=1
+[ShipBoxReplay] starting: input=synthetic-InputSystem-QueueStateEvent; os_input=False
+[ShipPointerReference] event: index=0; counter=0; visual_ms=0; message=96; raw=448,200; logical=224,100; world=800,100; cell=12,1; has_map=True; picked=none; cursor=0; selected=False; pending=False; ui_group=-1; simulation_group=-1; rng=0; outcome=handled
+[ShipPointerReference] checkpoint: stage=initial; counter=0; visual_ms=0; selected=False; pending=False; ui_group=-1; simulation_group=-1; group_count=0; selection_visual_flag=0; selector_state=0; selector_exists=False; selector_frame=0; selector_drawn=-1; selector_visible=False; selector_last_counter=0; health_visible=False; health_exists=False; cursor=0; cursor_frame=0; cursor_visible=True; cursor_last_tick=0; cursor_interval=10000; confirm=False; confirm_frame=-1; confirm_stored=0; confirm_visible=False; confirm_last_tick=0; held=True
+[ShipBoxReference] checkpoint: stage=initial; candidate=False; active=False; visible=False; start=0,0; extent=0,0; phase=0; last_ms=0
+[ShipPointerReference] motion: counter=0; cell=16,2; world=1028,132; published=1028,132; frame=20; drawn=20; heading=5; state=0; pending_flags=0; active_flags=0; reserved=-1; rng=0; can_request=True
+[ShipPointerReference] visual_queue: stage=initial; nodes=0; source_depth=1020; base_renderers=34; confirm_late=True; cursor_gui=False
+[ShipPointerReference] visual: stage=initial; kind=selector; exists=False; visible=False; sprite=none; position=0,0; order=0; sampling=Point
+[ShipPointerReference] visual: stage=initial; kind=health; exists=False; visible=False; sprite=HEALTH_100_60; position=0,0; order=0; sampling=Point
+[ShipPointerReference] visual: stage=initial; kind=confirm; exists=False; visible=False; sprite=none; position=0,0; order=46; sampling=Point
+[ShipPointerReference] visual: stage=initial; kind=cursor; exists=True; visible=True; sprite=CUR_STD_N00; position=224,100; order=32767; scale=2; sampling=Point
+[ShipPointerReference] queue: stage=initial; node=20; kind=separate_shadow; id=0000002a; part=0; depth=21000; order=10
+[ShipPointerReference] queue: stage=initial; node=18; kind=separate_shadow; id=00000029; part=0; depth=21000; order=11
+[ShipPointerReference] queue: stage=initial; node=16; kind=separate_shadow; id=00000028; part=0; depth=21000; order=12
+[ShipPointerReference] queue: stage=initial; node=14; kind=separate_shadow; id=00000027; part=0; depth=21000; order=13
+[ShipPointerReference] queue: stage=initial; node=11; kind=separate_shadow; id=00000010; part=0; depth=21000; order=14
+[ShipPointerReference] queue: stage=initial; node=9; kind=separate_shadow; id=0000000d; part=0; depth=21000; order=15
+[ShipPointerReference] queue: stage=initial; node=7; kind=separate_shadow; id=0000000c; part=0; depth=21000; order=16
+[ShipPointerReference] queue: stage=initial; node=5; kind=separate_shadow; id=0000000b; part=0; depth=21000; order=17
+[ShipPointerReference] queue: stage=initial; node=12; kind=reef; id=00000021; part=-1; depth=20200; order=18
+[ShipPointerReference] queue: stage=initial; node=3; kind=reef; id=0000000a; part=-1; depth=20200; order=19
+[ShipPointerReference] queue: stage=initial; node=2; kind=reef; id=00000009; part=-1; depth=20200; order=20
+[ShipPointerReference] queue: stage=initial; node=1; kind=reef; id=00000006; part=-1; depth=20200; order=21
+[ShipPointerReference] queue: stage=initial; node=0; kind=reef; id=00000005; part=-1; depth=20200; order=22
+[ShipPointerReference] queue: stage=initial; node=4; kind=inline_parent; id=0000000b; part=1; depth=19812; order=23
+[ShipPointerReference] queue: stage=initial; node=4; kind=inline_parent; id=0000000b; part=7; depth=19812; order=24
+[ShipPointerReference] queue: stage=initial; node=8; kind=inline_parent; id=0000000d; part=1; depth=19676; order=25
+[ShipPointerReference] queue: stage=initial; node=8; kind=inline_parent; id=0000000d; part=5; depth=19676; order=26
+[ShipPointerReference] queue: stage=initial; node=8; kind=inline_parent; id=0000000d; part=7; depth=19676; order=27
+[ShipPointerReference] queue: stage=initial; node=6; kind=inline_parent; id=0000000c; part=1; depth=19620; order=28
+[ShipPointerReference] queue: stage=initial; node=6; kind=inline_parent; id=0000000c; part=7; depth=19620; order=29
+[ShipPointerReference] queue: stage=initial; node=17; kind=inline_parent; id=00000029; part=1; depth=19100; order=30
+[ShipPointerReference] queue: stage=initial; node=17; kind=inline_parent; id=00000029; part=3; depth=19100; order=31
+[ShipPointerReference] queue: stage=initial; node=17; kind=inline_parent; id=00000029; part=7; depth=19100; order=32
+[ShipPointerReference] queue: stage=initial; node=19; kind=inline_parent; id=0000002a; part=1; depth=19036; order=33
+[ShipPointerReference] queue: stage=initial; node=19; kind=inline_parent; id=0000002a; part=3; depth=19036; order=34
+[ShipPointerReference] queue: stage=initial; node=19; kind=inline_parent; id=0000002a; part=7; depth=19036; order=35
+[ShipPointerReference] queue: stage=initial; node=10; kind=inline_parent; id=00000010; part=1; depth=18784; order=36
+[ShipPointerReference] queue: stage=initial; node=10; kind=inline_parent; id=00000010; part=7; depth=18784; order=37
+[ShipPointerReference] queue: stage=initial; node=13; kind=inline_parent; id=00000027; part=1; depth=18588; order=38
+[ShipPointerReference] queue: stage=initial; node=13; kind=inline_parent; id=00000027; part=3; depth=18588; order=39
+[ShipPointerReference] queue: stage=initial; node=13; kind=inline_parent; id=00000027; part=7; depth=18588; order=40
+[ShipPointerReference] queue: stage=initial; node=15; kind=inline_parent; id=00000028; part=1; depth=18524; order=41
+[ShipPointerReference] queue: stage=initial; node=15; kind=inline_parent; id=00000028; part=3; depth=18524; order=42
+[ShipPointerReference] queue: stage=initial; node=15; kind=inline_parent; id=00000028; part=7; depth=18524; order=43
+[ShipBoxReplay] stage: initial; counter=0; visual_ms=0
+Direct3D: detected that vsync is broken (it does not limit frame rate properly). Delta time will now be calculated using cpu-side time stampling until the game window is moved.
+[ShipPointerReference] event: index=1; counter=0; visual_ms=0; message=96; raw=848,200; logical=424,100; world=1000,100; cell=15,1; has_map=True; picked=none; cursor=0; selected=False; pending=False; ui_group=-1; simulation_group=-1; rng=0; outcome=handled
+[ShipPointerReference] event: index=2; counter=0; visual_ms=0; message=97; raw=848,200; logical=424,100; world=1000,100; cell=15,1; has_map=True; picked=none; cursor=0; selected=False; pending=False; ui_group=-1; simulation_group=-1; rng=0; outcome=handled
+[ShipPointerReference] checkpoint: stage=box-down; counter=0; visual_ms=0; selected=False; pending=False; ui_group=-1; simulation_group=-1; group_count=0; selection_visual_flag=0; selector_state=0; selector_exists=False; selector_frame=0; selector_drawn=-1; selector_visible=False; selector_last_counter=0; health_visible=False; health_exists=False; cursor=0; cursor_frame=0; cursor_visible=True; cursor_last_tick=0; cursor_interval=10000; confirm=False; confirm_frame=-1; confirm_stored=0; confirm_visible=False; confirm_last_tick=0; held=True
+[ShipBoxReference] checkpoint: stage=box-down; candidate=True; active=False; visible=False; start=1000,100; extent=0,0; phase=0; last_ms=0
+[ShipPointerReference] motion: counter=0; cell=16,2; world=1028,132; published=1028,132; frame=20; drawn=20; heading=5; state=0; pending_flags=0; active_flags=0; reserved=-1; rng=0; can_request=True
+[ShipPointerReference] visual_queue: stage=box-down; nodes=0; source_depth=1020; base_renderers=34; confirm_late=True; cursor_gui=False
+[ShipPointerReference] visual: stage=box-down; kind=selector; exists=False; visible=False; sprite=none; position=0,0; order=0; sampling=Point
+[ShipPointerReference] visual: stage=box-down; kind=health; exists=False; visible=False; sprite=HEALTH_100_60; position=0,0; order=0; sampling=Point
+[ShipPointerReference] visual: stage=box-down; kind=confirm; exists=False; visible=False; sprite=none; position=0,0; order=46; sampling=Point
+[ShipPointerReference] visual: stage=box-down; kind=cursor; exists=True; visible=True; sprite=CUR_STD_N00; position=424,100; order=32767; scale=2; sampling=Point
+[ShipPointerReference] queue: stage=box-down; node=20; kind=separate_shadow; id=0000002a; part=0; depth=21000; order=10
+[ShipPointerReference] queue: stage=box-down; node=18; kind=separate_shadow; id=00000029; part=0; depth=21000; order=11
+[ShipPointerReference] queue: stage=box-down; node=16; kind=separate_shadow; id=00000028; part=0; depth=21000; order=12
+[ShipPointerReference] queue: stage=box-down; node=14; kind=separate_shadow; id=00000027; part=0; depth=21000; order=13
+[ShipPointerReference] queue: stage=box-down; node=11; kind=separate_shadow; id=00000010; part=0; depth=21000; order=14
+[ShipPointerReference] queue: stage=box-down; node=9; kind=separate_shadow; id=0000000d; part=0; depth=21000; order=15
+[ShipPointerReference] queue: stage=box-down; node=7; kind=separate_shadow; id=0000000c; part=0; depth=21000; order=16
+[ShipPointerReference] queue: stage=box-down; node=5; kind=separate_shadow; id=0000000b; part=0; depth=21000; order=17
+[ShipPointerReference] queue: stage=box-down; node=12; kind=reef; id=00000021; part=-1; depth=20200; order=18
+[ShipPointerReference] queue: stage=box-down; node=3; kind=reef; id=0000000a; part=-1; depth=20200; order=19
+[ShipPointerReference] queue: stage=box-down; node=2; kind=reef; id=00000009; part=-1; depth=20200; order=20
+[ShipPointerReference] queue: stage=box-down; node=1; kind=reef; id=00000006; part=-1; depth=20200; order=21
+[ShipPointerReference] queue: stage=box-down; node=0; kind=reef; id=00000005; part=-1; depth=20200; order=22
+[ShipPointerReference] queue: stage=box-down; node=4; kind=inline_parent; id=0000000b; part=1; depth=19812; order=23
+[ShipPointerReference] queue: stage=box-down; node=4; kind=inline_parent; id=0000000b; part=7; depth=19812; order=24
+[ShipPointerReference] queue: stage=box-down; node=8; kind=inline_parent; id=0000000d; part=1; depth=19676; order=25
+[ShipPointerReference] queue: stage=box-down; node=8; kind=inline_parent; id=0000000d; part=5; depth=19676; order=26
+[ShipPointerReference] queue: stage=box-down; node=8; kind=inline_parent; id=0000000d; part=7; depth=19676; order=27
+[ShipPointerReference] queue: stage=box-down; node=6; kind=inline_parent; id=0000000c; part=1; depth=19620; order=28
+[ShipPointerReference] queue: stage=box-down; node=6; kind=inline_parent; id=0000000c; part=7; depth=19620; order=29
+[ShipPointerReference] queue: stage=box-down; node=17; kind=inline_parent; id=00000029; part=1; depth=19100; order=30
+[ShipPointerReference] queue: stage=box-down; node=17; kind=inline_parent; id=00000029; part=3; depth=19100; order=31
+[ShipPointerReference] queue: stage=box-down; node=17; kind=inline_parent; id=00000029; part=7; depth=19100; order=32
+[ShipPointerReference] queue: stage=box-down; node=19; kind=inline_parent; id=0000002a; part=1; depth=19036; order=33
+[ShipPointerReference] queue: stage=box-down; node=19; kind=inline_parent; id=0000002a; part=3; depth=19036; order=34
+[ShipPointerReference] queue: stage=box-down; node=19; kind=inline_parent; id=0000002a; part=7; depth=19036; order=35
+[ShipPointerReference] queue: stage=box-down; node=10; kind=inline_parent; id=00000010; part=1; depth=18784; order=36
+[ShipPointerReference] queue: stage=box-down; node=10; kind=inline_parent; id=00000010; part=7; depth=18784; order=37
+[ShipPointerReference] queue: stage=box-down; node=13; kind=inline_parent; id=00000027; part=1; depth=18588; order=38
+[ShipPointerReference] queue: stage=box-down; node=13; kind=inline_parent; id=00000027; part=3; depth=18588; order=39
+[ShipPointerReference] queue: stage=box-down; node=13; kind=inline_parent; id=00000027; part=7; depth=18588; order=40
+[ShipPointerReference] queue: stage=box-down; node=15; kind=inline_parent; id=00000028; part=1; depth=18524; order=41
+[ShipPointerReference] queue: stage=box-down; node=15; kind=inline_parent; id=00000028; part=3; depth=18524; order=42
+[ShipPointerReference] queue: stage=box-down; node=15; kind=inline_parent; id=00000028; part=7; depth=18524; order=43
+[ShipBoxReplay] stage: box-down; counter=0; visual_ms=0
+[ShipPointerReference] event: index=3; counter=0; visual_ms=0; message=96; raw=864,400; logical=432,200; world=1008,200; cell=15,3; has_map=True; picked=none; cursor=0; selected=False; pending=False; ui_group=-1; simulation_group=-1; rng=0; outcome=handled
+[ShipPointerReference] checkpoint: stage=threshold-one-axis; counter=0; visual_ms=0; selected=False; pending=False; ui_group=-1; simulation_group=-1; group_count=0; selection_visual_flag=0; selector_state=0; selector_exists=False; selector_frame=0; selector_drawn=-1; selector_visible=False; selector_last_counter=0; health_visible=False; health_exists=False; cursor=0; cursor_frame=0; cursor_visible=True; cursor_last_tick=0; cursor_interval=10000; confirm=False; confirm_frame=-1; confirm_stored=0; confirm_visible=False; confirm_last_tick=0; held=True
+[ShipBoxReference] checkpoint: stage=threshold-one-axis; candidate=True; active=False; visible=False; start=1000,100; extent=0,0; phase=0; last_ms=0
+[ShipPointerReference] motion: counter=0; cell=16,2; world=1028,132; published=1028,132; frame=20; drawn=20; heading=5; state=0; pending_flags=0; active_flags=0; reserved=-1; rng=0; can_request=True
+[ShipPointerReference] visual_queue: stage=threshold-one-axis; nodes=0; source_depth=1020; base_renderers=34; confirm_late=True; cursor_gui=False
+[ShipPointerReference] visual: stage=threshold-one-axis; kind=selector; exists=False; visible=False; sprite=none; position=0,0; order=0; sampling=Point
+[ShipPointerReference] visual: stage=threshold-one-axis; kind=health; exists=False; visible=False; sprite=HEALTH_100_60; position=0,0; order=0; sampling=Point
+[ShipPointerReference] visual: stage=threshold-one-axis; kind=confirm; exists=False; visible=False; sprite=none; position=0,0; order=46; sampling=Point
+[ShipPointerReference] visual: stage=threshold-one-axis; kind=cursor; exists=True; visible=True; sprite=CUR_STD_N00; position=432,200; order=32767; scale=2; sampling=Point
+[ShipPointerReference] queue: stage=threshold-one-axis; node=20; kind=separate_shadow; id=0000002a; part=0; depth=21000; order=10
+[ShipPointerReference] queue: stage=threshold-one-axis; node=18; kind=separate_shadow; id=00000029; part=0; depth=21000; order=11
+[ShipPointerReference] queue: stage=threshold-one-axis; node=16; kind=separate_shadow; id=00000028; part=0; depth=21000; order=12
+[ShipPointerReference] queue: stage=threshold-one-axis; node=14; kind=separate_shadow; id=00000027; part=0; depth=21000; order=13
+[ShipPointerReference] queue: stage=threshold-one-axis; node=11; kind=separate_shadow; id=00000010; part=0; depth=21000; order=14
+[ShipPointerReference] queue: stage=threshold-one-axis; node=9; kind=separate_shadow; id=0000000d; part=0; depth=21000; order=15
+[ShipPointerReference] queue: stage=threshold-one-axis; node=7; kind=separate_shadow; id=0000000c; part=0; depth=21000; order=16
+[ShipPointerReference] queue: stage=threshold-one-axis; node=5; kind=separate_shadow; id=0000000b; part=0; depth=21000; order=17
+[ShipPointerReference] queue: stage=threshold-one-axis; node=12; kind=reef; id=00000021; part=-1; depth=20200; order=18
+[ShipPointerReference] queue: stage=threshold-one-axis; node=3; kind=reef; id=0000000a; part=-1; depth=20200; order=19
+[ShipPointerReference] queue: stage=threshold-one-axis; node=2; kind=reef; id=00000009; part=-1; depth=20200; order=20
+[ShipPointerReference] queue: stage=threshold-one-axis; node=1; kind=reef; id=00000006; part=-1; depth=20200; order=21
+[ShipPointerReference] queue: stage=threshold-one-axis; node=0; kind=reef; id=00000005; part=-1; depth=20200; order=22
+[ShipPointerReference] queue: stage=threshold-one-axis; node=4; kind=inline_parent; id=0000000b; part=1; depth=19812; order=23
+[ShipPointerReference] queue: stage=threshold-one-axis; node=4; kind=inline_parent; id=0000000b; part=7; depth=19812; order=24
+[ShipPointerReference] queue: stage=threshold-one-axis; node=8; kind=inline_parent; id=0000000d; part=1; depth=19676; order=25
+[ShipPointerReference] queue: stage=threshold-one-axis; node=8; kind=inline_parent; id=0000000d; part=5; depth=19676; order=26
+[ShipPointerReference] queue: stage=threshold-one-axis; node=8; kind=inline_parent; id=0000000d; part=7; depth=19676; order=27
+[ShipPointerReference] queue: stage=threshold-one-axis; node=6; kind=inline_parent; id=0000000c; part=1; depth=19620; order=28
+[ShipPointerReference] queue: stage=threshold-one-axis; node=6; kind=inline_parent; id=0000000c; part=7; depth=19620; order=29
+[ShipPointerReference] queue: stage=threshold-one-axis; node=17; kind=inline_parent; id=00000029; part=1; depth=19100; order=30
+[ShipPointerReference] queue: stage=threshold-one-axis; node=17; kind=inline_parent; id=00000029; part=3; depth=19100; order=31
+[ShipPointerReference] queue: stage=threshold-one-axis; node=17; kind=inline_parent; id=00000029; part=7; depth=19100; order=32
+[ShipPointerReference] queue: stage=threshold-one-axis; node=19; kind=inline_parent; id=0000002a; part=1; depth=19036; order=33
+[ShipPointerReference] queue: stage=threshold-one-axis; node=19; kind=inline_parent; id=0000002a; part=3; depth=19036; order=34
+[ShipPointerReference] queue: stage=threshold-one-axis; node=19; kind=inline_parent; id=0000002a; part=7; depth=19036; order=35
+[ShipPointerReference] queue: stage=threshold-one-axis; node=10; kind=inline_parent; id=00000010; part=1; depth=18784; order=36
+[ShipPointerReference] queue: stage=threshold-one-axis; node=10; kind=inline_parent; id=00000010; part=7; depth=18784; order=37
+[ShipPointerReference] queue: stage=threshold-one-axis; node=13; kind=inline_parent; id=00000027; part=1; depth=18588; order=38
+[ShipPointerReference] queue: stage=threshold-one-axis; node=13; kind=inline_parent; id=00000027; part=3; depth=18588; order=39
+[ShipPointerReference] queue: stage=threshold-one-axis; node=13; kind=inline_parent; id=00000027; part=7; depth=18588; order=40
+[ShipPointerReference] queue: stage=threshold-one-axis; node=15; kind=inline_parent; id=00000028; part=1; depth=18524; order=41
+[ShipPointerReference] queue: stage=threshold-one-axis; node=15; kind=inline_parent; id=00000028; part=3; depth=18524; order=42
+[ShipPointerReference] queue: stage=threshold-one-axis; node=15; kind=inline_parent; id=00000028; part=7; depth=18524; order=43
+[ShipBoxReplay] stage: threshold-one-axis; counter=0; visual_ms=0
+[ShipPointerReference] event: index=4; counter=0; visual_ms=0; message=96; raw=868,220; logical=434,110; world=1010,110; cell=15,1; has_map=True; picked=none; cursor=0; selected=False; pending=False; ui_group=-1; simulation_group=-1; rng=0; outcome=handled
+[ShipPointerReference] checkpoint: stage=activated-zero; counter=0; visual_ms=0; selected=False; pending=False; ui_group=-1; simulation_group=-1; group_count=0; selection_visual_flag=0; selector_state=0; selector_exists=False; selector_frame=0; selector_drawn=-1; selector_visible=False; selector_last_counter=0; health_visible=False; health_exists=False; cursor=0; cursor_frame=0; cursor_visible=True; cursor_last_tick=0; cursor_interval=10000; confirm=False; confirm_frame=-1; confirm_stored=0; confirm_visible=False; confirm_last_tick=0; held=True
+[ShipBoxReference] checkpoint: stage=activated-zero; candidate=True; active=True; visible=False; start=1000,100; extent=0,0; phase=0; last_ms=0
+[ShipPointerReference] motion: counter=0; cell=16,2; world=1028,132; published=1028,132; frame=20; drawn=20; heading=5; state=0; pending_flags=0; active_flags=0; reserved=-1; rng=0; can_request=True
+[ShipPointerReference] visual_queue: stage=activated-zero; nodes=0; source_depth=1020; base_renderers=34; confirm_late=True; cursor_gui=False
+[ShipPointerReference] visual: stage=activated-zero; kind=selector; exists=False; visible=False; sprite=none; position=0,0; order=0; sampling=Point
+[ShipPointerReference] visual: stage=activated-zero; kind=health; exists=False; visible=False; sprite=HEALTH_100_60; position=0,0; order=0; sampling=Point
+[ShipPointerReference] visual: stage=activated-zero; kind=confirm; exists=False; visible=False; sprite=none; position=0,0; order=47; sampling=Point
+[ShipPointerReference] visual: stage=activated-zero; kind=cursor; exists=True; visible=True; sprite=CUR_STD_N00; position=434,110; order=32767; scale=2; sampling=Point
+[ShipPointerReference] queue: stage=activated-zero; node=20; kind=separate_shadow; id=0000002a; part=0; depth=21000; order=10
+[ShipPointerReference] queue: stage=activated-zero; node=18; kind=separate_shadow; id=00000029; part=0; depth=21000; order=11
+[ShipPointerReference] queue: stage=activated-zero; node=16; kind=separate_shadow; id=00000028; part=0; depth=21000; order=12
+[ShipPointerReference] queue: stage=activated-zero; node=14; kind=separate_shadow; id=00000027; part=0; depth=21000; order=13
+[ShipPointerReference] queue: stage=activated-zero; node=11; kind=separate_shadow; id=00000010; part=0; depth=21000; order=14
+[ShipPointerReference] queue: stage=activated-zero; node=9; kind=separate_shadow; id=0000000d; part=0; depth=21000; order=15
+[ShipPointerReference] queue: stage=activated-zero; node=7; kind=separate_shadow; id=0000000c; part=0; depth=21000; order=16
+[ShipPointerReference] queue: stage=activated-zero; node=5; kind=separate_shadow; id=0000000b; part=0; depth=21000; order=17
+[ShipPointerReference] queue: stage=activated-zero; node=12; kind=reef; id=00000021; part=-1; depth=20200; order=18
+[ShipPointerReference] queue: stage=activated-zero; node=3; kind=reef; id=0000000a; part=-1; depth=20200; order=19
+[ShipPointerReference] queue: stage=activated-zero; node=2; kind=reef; id=00000009; part=-1; depth=20200; order=20
+[ShipPointerReference] queue: stage=activated-zero; node=1; kind=reef; id=00000006; part=-1; depth=20200; order=21
+[ShipPointerReference] queue: stage=activated-zero; node=0; kind=reef; id=00000005; part=-1; depth=20200; order=22
+[ShipPointerReference] queue: stage=activated-zero; node=4; kind=inline_parent; id=0000000b; part=1; depth=19812; order=23
+[ShipPointerReference] queue: stage=activated-zero; node=4; kind=inline_parent; id=0000000b; part=7; depth=19812; order=24
+[ShipPointerReference] queue: stage=activated-zero; node=8; kind=inline_parent; id=0000000d; part=1; depth=19676; order=25
+[ShipPointerReference] queue: stage=activated-zero; node=8; kind=inline_parent; id=0000000d; part=5; depth=19676; order=26
+[ShipPointerReference] queue: stage=activated-zero; node=8; kind=inline_parent; id=0000000d; part=7; depth=19676; order=27
+[ShipPointerReference] queue: stage=activated-zero; node=6; kind=inline_parent; id=0000000c; part=1; depth=19620; order=28
+[ShipPointerReference] queue: stage=activated-zero; node=6; kind=inline_parent; id=0000000c; part=7; depth=19620; order=29
+[ShipPointerReference] queue: stage=activated-zero; node=17; kind=inline_parent; id=00000029; part=1; depth=19100; order=30
+[ShipPointerReference] queue: stage=activated-zero; node=17; kind=inline_parent; id=00000029; part=3; depth=19100; order=31
+[ShipPointerReference] queue: stage=activated-zero; node=17; kind=inline_parent; id=00000029; part=7; depth=19100; order=32
+[ShipPointerReference] queue: stage=activated-zero; node=19; kind=inline_parent; id=0000002a; part=1; depth=19036; order=33
+[ShipPointerReference] queue: stage=activated-zero; node=19; kind=inline_parent; id=0000002a; part=3; depth=19036; order=34
+[ShipPointerReference] queue: stage=activated-zero; node=19; kind=inline_parent; id=0000002a; part=7; depth=19036; order=35
+[ShipPointerReference] queue: stage=activated-zero; node=10; kind=inline_parent; id=00000010; part=1; depth=18784; order=36
+[ShipPointerReference] queue: stage=activated-zero; node=10; kind=inline_parent; id=00000010; part=7; depth=18784; order=37
+[ShipPointerReference] queue: stage=activated-zero; node=13; kind=inline_parent; id=00000027; part=1; depth=18588; order=38
+[ShipPointerReference] queue: stage=activated-zero; node=13; kind=inline_parent; id=00000027; part=3; depth=18588; order=39
+[ShipPointerReference] queue: stage=activated-zero; node=13; kind=inline_parent; id=00000027; part=7; depth=18588; order=40
+[ShipPointerReference] queue: stage=activated-zero; node=15; kind=inline_parent; id=00000028; part=1; depth=18524; order=41
+[ShipPointerReference] queue: stage=activated-zero; node=15; kind=inline_parent; id=00000028; part=3; depth=18524; order=42
+[ShipPointerReference] queue: stage=activated-zero; node=15; kind=inline_parent; id=00000028; part=7; depth=18524; order=43
+[ShipBoxReplay] stage: activated-zero; counter=0; visual_ms=0
+[ShipPointerReference] event: index=5; counter=0; visual_ms=0; message=96; raw=1068,420; logical=534,210; world=1110,210; cell=17,3; has_map=True; picked=none; cursor=0; selected=False; pending=False; ui_group=-1; simulation_group=-1; rng=0; outcome=handled
+[ShipPointerReference] checkpoint: stage=extent-unpublished; counter=0; visual_ms=0; selected=False; pending=False; ui_group=-1; simulation_group=-1; group_count=0; selection_visual_flag=0; selector_state=0; selector_exists=False; selector_frame=0; selector_drawn=-1; selector_visible=False; selector_last_counter=0; health_visible=False; health_exists=False; cursor=0; cursor_frame=0; cursor_visible=True; cursor_last_tick=0; cursor_interval=10000; confirm=False; confirm_frame=-1; confirm_stored=0; confirm_visible=False; confirm_last_tick=0; held=True
+[ShipBoxReference] checkpoint: stage=extent-unpublished; candidate=True; active=True; visible=False; start=1000,100; extent=111,111; phase=0; last_ms=0
+[ShipPointerReference] motion: counter=0; cell=16,2; world=1028,132; published=1028,132; frame=20; drawn=20; heading=5; state=0; pending_flags=0; active_flags=0; reserved=-1; rng=0; can_request=True
+[ShipPointerReference] visual_queue: stage=extent-unpublished; nodes=0; source_depth=1020; base_renderers=34; confirm_late=True; cursor_gui=False
+[ShipPointerReference] visual: stage=extent-unpublished; kind=selector; exists=False; visible=False; sprite=none; position=0,0; order=0; sampling=Point
+[ShipPointerReference] visual: stage=extent-unpublished; kind=health; exists=False; visible=False; sprite=HEALTH_100_60; position=0,0; order=0; sampling=Point
+[ShipPointerReference] visual: stage=extent-unpublished; kind=confirm; exists=False; visible=False; sprite=none; position=0,0; order=47; sampling=Point
+[ShipPointerReference] visual: stage=extent-unpublished; kind=cursor; exists=True; visible=True; sprite=CUR_STD_N00; position=534,210; order=32767; scale=2; sampling=Point
+[ShipPointerReference] queue: stage=extent-unpublished; node=20; kind=separate_shadow; id=0000002a; part=0; depth=21000; order=10
+[ShipPointerReference] queue: stage=extent-unpublished; node=18; kind=separate_shadow; id=00000029; part=0; depth=21000; order=11
+[ShipPointerReference] queue: stage=extent-unpublished; node=16; kind=separate_shadow; id=00000028; part=0; depth=21000; order=12
+[ShipPointerReference] queue: stage=extent-unpublished; node=14; kind=separate_shadow; id=00000027; part=0; depth=21000; order=13
+[ShipPointerReference] queue: stage=extent-unpublished; node=11; kind=separate_shadow; id=00000010; part=0; depth=21000; order=14
+[ShipPointerReference] queue: stage=extent-unpublished; node=9; kind=separate_shadow; id=0000000d; part=0; depth=21000; order=15
+[ShipPointerReference] queue: stage=extent-unpublished; node=7; kind=separate_shadow; id=0000000c; part=0; depth=21000; order=16
+[ShipPointerReference] queue: stage=extent-unpublished; node=5; kind=separate_shadow; id=0000000b; part=0; depth=21000; order=17
+[ShipPointerReference] queue: stage=extent-unpublished; node=12; kind=reef; id=00000021; part=-1; depth=20200; order=18
+[ShipPointerReference] queue: stage=extent-unpublished; node=3; kind=reef; id=0000000a; part=-1; depth=20200; order=19
+[ShipPointerReference] queue: stage=extent-unpublished; node=2; kind=reef; id=00000009; part=-1; depth=20200; order=20
+[ShipPointerReference] queue: stage=extent-unpublished; node=1; kind=reef; id=00000006; part=-1; depth=20200; order=21
+[ShipPointerReference] queue: stage=extent-unpublished; node=0; kind=reef; id=00000005; part=-1; depth=20200; order=22
+[ShipPointerReference] queue: stage=extent-unpublished; node=4; kind=inline_parent; id=0000000b; part=1; depth=19812; order=23
+[ShipPointerReference] queue: stage=extent-unpublished; node=4; kind=inline_parent; id=0000000b; part=7; depth=19812; order=24
+[ShipPointerReference] queue: stage=extent-unpublished; node=8; kind=inline_parent; id=0000000d; part=1; depth=19676; order=25
+[ShipPointerReference] queue: stage=extent-unpublished; node=8; kind=inline_parent; id=0000000d; part=5; depth=19676; order=26
+[ShipPointerReference] queue: stage=extent-unpublished; node=8; kind=inline_parent; id=0000000d; part=7; depth=19676; order=27
+[ShipPointerReference] queue: stage=extent-unpublished; node=6; kind=inline_parent; id=0000000c; part=1; depth=19620; order=28
+[ShipPointerReference] queue: stage=extent-unpublished; node=6; kind=inline_parent; id=0000000c; part=7; depth=19620; order=29
+[ShipPointerReference] queue: stage=extent-unpublished; node=17; kind=inline_parent; id=00000029; part=1; depth=19100; order=30
+[ShipPointerReference] queue: stage=extent-unpublished; node=17; kind=inline_parent; id=00000029; part=3; depth=19100; order=31
+[ShipPointerReference] queue: stage=extent-unpublished; node=17; kind=inline_parent; id=00000029; part=7; depth=19100; order=32
+[ShipPointerReference] queue: stage=extent-unpublished; node=19; kind=inline_parent; id=0000002a; part=1; depth=19036; order=33
+[ShipPointerReference] queue: stage=extent-unpublished; node=19; kind=inline_parent; id=0000002a; part=3; depth=19036; order=34
+[ShipPointerReference] queue: stage=extent-unpublished; node=19; kind=inline_parent; id=0000002a; part=7; depth=19036; order=35
+[ShipPointerReference] queue: stage=extent-unpublished; node=10; kind=inline_parent; id=00000010; part=1; depth=18784; order=36
+[ShipPointerReference] queue: stage=extent-unpublished; node=10; kind=inline_parent; id=00000010; part=7; depth=18784; order=37
+[ShipPointerReference] queue: stage=extent-unpublished; node=13; kind=inline_parent; id=00000027; part=1; depth=18588; order=38
+[ShipPointerReference] queue: stage=extent-unpublished; node=13; kind=inline_parent; id=00000027; part=3; depth=18588; order=39
+[ShipPointerReference] queue: stage=extent-unpublished; node=13; kind=inline_parent; id=00000027; part=7; depth=18588; order=40
+[ShipPointerReference] queue: stage=extent-unpublished; node=15; kind=inline_parent; id=00000028; part=1; depth=18524; order=41
+[ShipPointerReference] queue: stage=extent-unpublished; node=15; kind=inline_parent; id=00000028; part=3; depth=18524; order=42
+[ShipPointerReference] queue: stage=extent-unpublished; node=15; kind=inline_parent; id=00000028; part=7; depth=18524; order=43
+[ShipBoxReplay] stage: extent-unpublished; counter=0; visual_ms=0
+[ShipPointerReference] motion: counter=1; cell=16,2; world=1028,132; published=1028,132; frame=20; drawn=20; heading=5; state=0; pending_flags=0; active_flags=1024; reserved=-1; rng=12345; can_request=True
+[ShipPointerReference] checkpoint: stage=visible-forward; counter=1; visual_ms=93; selected=False; pending=False; ui_group=-1; simulation_group=-1; group_count=0; selection_visual_flag=0; selector_state=0; selector_exists=False; selector_frame=0; selector_drawn=-1; selector_visible=False; selector_last_counter=0; health_visible=False; health_exists=False; cursor=0; cursor_frame=0; cursor_visible=True; cursor_last_tick=0; cursor_interval=10000; confirm=False; confirm_frame=-1; confirm_stored=0; confirm_visible=False; confirm_last_tick=0; held=True
+[ShipBoxReference] checkpoint: stage=visible-forward; candidate=True; active=True; visible=True; start=1000,100; extent=111,111; phase=1; last_ms=93
+[ShipPointerReference] motion: counter=1; cell=16,2; world=1028,132; published=1028,132; frame=20; drawn=20; heading=5; state=0; pending_flags=0; active_flags=1024; reserved=-1; rng=12345; can_request=True
+[ShipPointerReference] visual_queue: stage=visible-forward; nodes=0; source_depth=1020; base_renderers=34; confirm_late=True; cursor_gui=False
+[ShipPointerReference] visual: stage=visible-forward; kind=selector; exists=False; visible=False; sprite=none; position=0,0; order=0; sampling=Point
+[ShipPointerReference] visual: stage=visible-forward; kind=health; exists=False; visible=False; sprite=HEALTH_100_60; position=0,0; order=0; sampling=Point
+[ShipPointerReference] visual: stage=visible-forward; kind=confirm; exists=False; visible=False; sprite=none; position=0,0; order=47; sampling=Point
+[ShipPointerReference] visual: stage=visible-forward; kind=cursor; exists=True; visible=True; sprite=CUR_STD_N00; position=534,210; order=32767; scale=2; sampling=Point
+[ShipPointerReference] queue: stage=visible-forward; node=20; kind=separate_shadow; id=0000002a; part=0; depth=21000; order=10
+[ShipPointerReference] queue: stage=visible-forward; node=18; kind=separate_shadow; id=00000029; part=0; depth=21000; order=11
+[ShipPointerReference] queue: stage=visible-forward; node=16; kind=separate_shadow; id=00000028; part=0; depth=21000; order=12
+[ShipPointerReference] queue: stage=visible-forward; node=14; kind=separate_shadow; id=00000027; part=0; depth=21000; order=13
+[ShipPointerReference] queue: stage=visible-forward; node=11; kind=separate_shadow; id=00000010; part=0; depth=21000; order=14
+[ShipPointerReference] queue: stage=visible-forward; node=9; kind=separate_shadow; id=0000000d; part=0; depth=21000; order=15
+[ShipPointerReference] queue: stage=visible-forward; node=7; kind=separate_shadow; id=0000000c; part=0; depth=21000; order=16
+[ShipPointerReference] queue: stage=visible-forward; node=5; kind=separate_shadow; id=0000000b; part=0; depth=21000; order=17
+[ShipPointerReference] queue: stage=visible-forward; node=12; kind=reef; id=00000021; part=-1; depth=20200; order=18
+[ShipPointerReference] queue: stage=visible-forward; node=3; kind=reef; id=0000000a; part=-1; depth=20200; order=19
+[ShipPointerReference] queue: stage=visible-forward; node=2; kind=reef; id=00000009; part=-1; depth=20200; order=20
+[ShipPointerReference] queue: stage=visible-forward; node=1; kind=reef; id=00000006; part=-1; depth=20200; order=21
+[ShipPointerReference] queue: stage=visible-forward; node=0; kind=reef; id=00000005; part=-1; depth=20200; order=22
+[ShipPointerReference] queue: stage=visible-forward; node=4; kind=inline_parent; id=0000000b; part=1; depth=19812; order=23
+[ShipPointerReference] queue: stage=visible-forward; node=4; kind=inline_parent; id=0000000b; part=7; depth=19812; order=24
+[ShipPointerReference] queue: stage=visible-forward; node=8; kind=inline_parent; id=0000000d; part=1; depth=19676; order=25
+[ShipPointerReference] queue: stage=visible-forward; node=8; kind=inline_parent; id=0000000d; part=5; depth=19676; order=26
+[ShipPointerReference] queue: stage=visible-forward; node=8; kind=inline_parent; id=0000000d; part=7; depth=19676; order=27
+[ShipPointerReference] queue: stage=visible-forward; node=6; kind=inline_parent; id=0000000c; part=1; depth=19620; order=28
+[ShipPointerReference] queue: stage=visible-forward; node=6; kind=inline_parent; id=0000000c; part=7; depth=19620; order=29
+[ShipPointerReference] queue: stage=visible-forward; node=17; kind=inline_parent; id=00000029; part=1; depth=19100; order=30
+[ShipPointerReference] queue: stage=visible-forward; node=17; kind=inline_parent; id=00000029; part=3; depth=19100; order=31
+[ShipPointerReference] queue: stage=visible-forward; node=17; kind=inline_parent; id=00000029; part=7; depth=19100; order=32
+[ShipPointerReference] queue: stage=visible-forward; node=19; kind=inline_parent; id=0000002a; part=1; depth=19036; order=33
+[ShipPointerReference] queue: stage=visible-forward; node=19; kind=inline_parent; id=0000002a; part=3; depth=19036; order=34
+[ShipPointerReference] queue: stage=visible-forward; node=19; kind=inline_parent; id=0000002a; part=7; depth=19036; order=35
+[ShipPointerReference] queue: stage=visible-forward; node=10; kind=inline_parent; id=00000010; part=1; depth=18784; order=36
+[ShipPointerReference] queue: stage=visible-forward; node=10; kind=inline_parent; id=00000010; part=7; depth=18784; order=37
+[ShipPointerReference] queue: stage=visible-forward; node=13; kind=inline_parent; id=00000027; part=1; depth=18588; order=38
+[ShipPointerReference] queue: stage=visible-forward; node=13; kind=inline_parent; id=00000027; part=3; depth=18588; order=39
+[ShipPointerReference] queue: stage=visible-forward; node=13; kind=inline_parent; id=00000027; part=7; depth=18588; order=40
+[ShipPointerReference] queue: stage=visible-forward; node=15; kind=inline_parent; id=00000028; part=1; depth=18524; order=41
+[ShipPointerReference] queue: stage=visible-forward; node=15; kind=inline_parent; id=00000028; part=3; depth=18524; order=42
+[ShipPointerReference] queue: stage=visible-forward; node=15; kind=inline_parent; id=00000028; part=7; depth=18524; order=43
+[ShipBoxReplay] stage: visible-forward; counter=1; visual_ms=93
+[ShipPointerReference] event: index=6; counter=1; visual_ms=93; message=99; raw=1068,420; logical=534,210; world=1110,210; cell=17,3; has_map=True; picked=none; cursor=0; selected=False; pending=False; ui_group=-1; simulation_group=-1; rng=12345; outcome=handled
+[ShipPointerReference] checkpoint: stage=box-right-down; counter=1; visual_ms=93; selected=False; pending=False; ui_group=-1; simulation_group=-1; group_count=0; selection_visual_flag=0; selector_state=0; selector_exists=False; selector_frame=0; selector_drawn=-1; selector_visible=False; selector_last_counter=0; health_visible=False; health_exists=False; cursor=0; cursor_frame=0; cursor_visible=True; cursor_last_tick=0; cursor_interval=10000; confirm=False; confirm_frame=-1; confirm_stored=0; confirm_visible=False; confirm_last_tick=0; held=True
+[ShipBoxReference] checkpoint: stage=box-right-down; candidate=True; active=True; visible=True; start=1000,100; extent=111,111; phase=1; last_ms=93
+[ShipPointerReference] motion: counter=1; cell=16,2; world=1028,132; published=1028,132; frame=20; drawn=20; heading=5; state=0; pending_flags=0; active_flags=1024; reserved=-1; rng=12345; can_request=True
+[ShipPointerReference] visual_queue: stage=box-right-down; nodes=0; source_depth=1020; base_renderers=34; confirm_late=True; cursor_gui=False
+[ShipPointerReference] visual: stage=box-right-down; kind=selector; exists=False; visible=False; sprite=none; position=0,0; order=0; sampling=Point
+[ShipPointerReference] visual: stage=box-right-down; kind=health; exists=False; visible=False; sprite=HEALTH_100_60; position=0,0; order=0; sampling=Point
+[ShipPointerReference] visual: stage=box-right-down; kind=confirm; exists=False; visible=False; sprite=none; position=0,0; order=47; sampling=Point
+[ShipPointerReference] visual: stage=box-right-down; kind=cursor; exists=True; visible=True; sprite=CUR_STD_N00; position=534,210; order=32767; scale=2; sampling=Point
+[ShipPointerReference] queue: stage=box-right-down; node=20; kind=separate_shadow; id=0000002a; part=0; depth=21000; order=10
+[ShipPointerReference] queue: stage=box-right-down; node=18; kind=separate_shadow; id=00000029; part=0; depth=21000; order=11
+[ShipPointerReference] queue: stage=box-right-down; node=16; kind=separate_shadow; id=00000028; part=0; depth=21000; order=12
+[ShipPointerReference] queue: stage=box-right-down; node=14; kind=separate_shadow; id=00000027; part=0; depth=21000; order=13
+[ShipPointerReference] queue: stage=box-right-down; node=11; kind=separate_shadow; id=00000010; part=0; depth=21000; order=14
+[ShipPointerReference] queue: stage=box-right-down; node=9; kind=separate_shadow; id=0000000d; part=0; depth=21000; order=15
+[ShipPointerReference] queue: stage=box-right-down; node=7; kind=separate_shadow; id=0000000c; part=0; depth=21000; order=16
+[ShipPointerReference] queue: stage=box-right-down; node=5; kind=separate_shadow; id=0000000b; part=0; depth=21000; order=17
+[ShipPointerReference] queue: stage=box-right-down; node=12; kind=reef; id=00000021; part=-1; depth=20200; order=18
+[ShipPointerReference] queue: stage=box-right-down; node=3; kind=reef; id=0000000a; part=-1; depth=20200; order=19
+[ShipPointerReference] queue: stage=box-right-down; node=2; kind=reef; id=00000009; part=-1; depth=20200; order=20
+[ShipPointerReference] queue: stage=box-right-down; node=1; kind=reef; id=00000006; part=-1; depth=20200; order=21
+[ShipPointerReference] queue: stage=box-right-down; node=0; kind=reef; id=00000005; part=-1; depth=20200; order=22
+[ShipPointerReference] queue: stage=box-right-down; node=4; kind=inline_parent; id=0000000b; part=1; depth=19812; order=23
+[ShipPointerReference] queue: stage=box-right-down; node=4; kind=inline_parent; id=0000000b; part=7; depth=19812; order=24
+[ShipPointerReference] queue: stage=box-right-down; node=8; kind=inline_parent; id=0000000d; part=1; depth=19676; order=25
+[ShipPointerReference] queue: stage=box-right-down; node=8; kind=inline_parent; id=0000000d; part=5; depth=19676; order=26
+[ShipPointerReference] queue: stage=box-right-down; node=8; kind=inline_parent; id=0000000d; part=7; depth=19676; order=27
+[ShipPointerReference] queue: stage=box-right-down; node=6; kind=inline_parent; id=0000000c; part=1; depth=19620; order=28
+[ShipPointerReference] queue: stage=box-right-down; node=6; kind=inline_parent; id=0000000c; part=7; depth=19620; order=29
+[ShipPointerReference] queue: stage=box-right-down; node=17; kind=inline_parent; id=00000029; part=1; depth=19100; order=30
+[ShipPointerReference] queue: stage=box-right-down; node=17; kind=inline_parent; id=00000029; part=3; depth=19100; order=31
+[ShipPointerReference] queue: stage=box-right-down; node=17; kind=inline_parent; id=00000029; part=7; depth=19100; order=32
+[ShipPointerReference] queue: stage=box-right-down; node=19; kind=inline_parent; id=0000002a; part=1; depth=19036; order=33
+[ShipPointerReference] queue: stage=box-right-down; node=19; kind=inline_parent; id=0000002a; part=3; depth=19036; order=34
+[ShipPointerReference] queue: stage=box-right-down; node=19; kind=inline_parent; id=0000002a; part=7; depth=19036; order=35
+[ShipPointerReference] queue: stage=box-right-down; node=10; kind=inline_parent; id=00000010; part=1; depth=18784; order=36
+[ShipPointerReference] queue: stage=box-right-down; node=10; kind=inline_parent; id=00000010; part=7; depth=18784; order=37
+[ShipPointerReference] queue: stage=box-right-down; node=13; kind=inline_parent; id=00000027; part=1; depth=18588; order=38
+[ShipPointerReference] queue: stage=box-right-down; node=13; kind=inline_parent; id=00000027; part=3; depth=18588; order=39
+[ShipPointerReference] queue: stage=box-right-down; node=13; kind=inline_parent; id=00000027; part=7; depth=18588; order=40
+[ShipPointerReference] queue: stage=box-right-down; node=15; kind=inline_parent; id=00000028; part=1; depth=18524; order=41
+[ShipPointerReference] queue: stage=box-right-down; node=15; kind=inline_parent; id=00000028; part=3; depth=18524; order=42
+[ShipPointerReference] queue: stage=box-right-down; node=15; kind=inline_parent; id=00000028; part=7; depth=18524; order=43
+[ShipBoxReplay] stage: box-right-down; counter=1; visual_ms=93
+[ShipPointerReference] event: index=7; counter=1; visual_ms=93; message=100; raw=1068,420; logical=534,210; world=1110,210; cell=17,3; has_map=True; picked=none; cursor=0; selected=False; pending=False; ui_group=-1; simulation_group=-1; rng=12345; outcome=box-handled
+[ShipPointerReference] checkpoint: stage=box-right-release; counter=1; visual_ms=93; selected=False; pending=False; ui_group=-1; simulation_group=-1; group_count=0; selection_visual_flag=0; selector_state=0; selector_exists=False; selector_frame=0; selector_drawn=-1; selector_visible=False; selector_last_counter=0; health_visible=False; health_exists=False; cursor=0; cursor_frame=0; cursor_visible=True; cursor_last_tick=0; cursor_interval=10000; confirm=False; confirm_frame=-1; confirm_stored=0; confirm_visible=False; confirm_last_tick=0; held=True
+[ShipBoxReference] checkpoint: stage=box-right-release; candidate=True; active=True; visible=True; start=1000,100; extent=111,111; phase=1; last_ms=93
+[ShipPointerReference] motion: counter=1; cell=16,2; world=1028,132; published=1028,132; frame=20; drawn=20; heading=5; state=0; pending_flags=0; active_flags=1024; reserved=-1; rng=12345; can_request=True
+[ShipPointerReference] visual_queue: stage=box-right-release; nodes=0; source_depth=1020; base_renderers=34; confirm_late=True; cursor_gui=False
+[ShipPointerReference] visual: stage=box-right-release; kind=selector; exists=False; visible=False; sprite=none; position=0,0; order=0; sampling=Point
+[ShipPointerReference] visual: stage=box-right-release; kind=health; exists=False; visible=False; sprite=HEALTH_100_60; position=0,0; order=0; sampling=Point
+[ShipPointerReference] visual: stage=box-right-release; kind=confirm; exists=False; visible=False; sprite=none; position=0,0; order=47; sampling=Point
+[ShipPointerReference] visual: stage=box-right-release; kind=cursor; exists=True; visible=True; sprite=CUR_STD_N00; position=534,210; order=32767; scale=2; sampling=Point
+[ShipPointerReference] queue: stage=box-right-release; node=20; kind=separate_shadow; id=0000002a; part=0; depth=21000; order=10
+[ShipPointerReference] queue: stage=box-right-release; node=18; kind=separate_shadow; id=00000029; part=0; depth=21000; order=11
+[ShipPointerReference] queue: stage=box-right-release; node=16; kind=separate_shadow; id=00000028; part=0; depth=21000; order=12
+[ShipPointerReference] queue: stage=box-right-release; node=14; kind=separate_shadow; id=00000027; part=0; depth=21000; order=13
+[ShipPointerReference] queue: stage=box-right-release; node=11; kind=separate_shadow; id=00000010; part=0; depth=21000; order=14
+[ShipPointerReference] queue: stage=box-right-release; node=9; kind=separate_shadow; id=0000000d; part=0; depth=21000; order=15
+[ShipPointerReference] queue: stage=box-right-release; node=7; kind=separate_shadow; id=0000000c; part=0; depth=21000; order=16
+[ShipPointerReference] queue: stage=box-right-release; node=5; kind=separate_shadow; id=0000000b; part=0; depth=21000; order=17
+[ShipPointerReference] queue: stage=box-right-release; node=12; kind=reef; id=00000021; part=-1; depth=20200; order=18
+[ShipPointerReference] queue: stage=box-right-release; node=3; kind=reef; id=0000000a; part=-1; depth=20200; order=19
+[ShipPointerReference] queue: stage=box-right-release; node=2; kind=reef; id=00000009; part=-1; depth=20200; order=20
+[ShipPointerReference] queue: stage=box-right-release; node=1; kind=reef; id=00000006; part=-1; depth=20200; order=21
+[ShipPointerReference] queue: stage=box-right-release; node=0; kind=reef; id=00000005; part=-1; depth=20200; order=22
+[ShipPointerReference] queue: stage=box-right-release; node=4; kind=inline_parent; id=0000000b; part=1; depth=19812; order=23
+[ShipPointerReference] queue: stage=box-right-release; node=4; kind=inline_parent; id=0000000b; part=7; depth=19812; order=24
+[ShipPointerReference] queue: stage=box-right-release; node=8; kind=inline_parent; id=0000000d; part=1; depth=19676; order=25
+[ShipPointerReference] queue: stage=box-right-release; node=8; kind=inline_parent; id=0000000d; part=5; depth=19676; order=26
+[ShipPointerReference] queue: stage=box-right-release; node=8; kind=inline_parent; id=0000000d; part=7; depth=19676; order=27
+[ShipPointerReference] queue: stage=box-right-release; node=6; kind=inline_parent; id=0000000c; part=1; depth=19620; order=28
+[ShipPointerReference] queue: stage=box-right-release; node=6; kind=inline_parent; id=0000000c; part=7; depth=19620; order=29
+[ShipPointerReference] queue: stage=box-right-release; node=17; kind=inline_parent; id=00000029; part=1; depth=19100; order=30
+[ShipPointerReference] queue: stage=box-right-release; node=17; kind=inline_parent; id=00000029; part=3; depth=19100; order=31
+[ShipPointerReference] queue: stage=box-right-release; node=17; kind=inline_parent; id=00000029; part=7; depth=19100; order=32
+[ShipPointerReference] queue: stage=box-right-release; node=19; kind=inline_parent; id=0000002a; part=1; depth=19036; order=33
+[ShipPointerReference] queue: stage=box-right-release; node=19; kind=inline_parent; id=0000002a; part=3; depth=19036; order=34
+[ShipPointerReference] queue: stage=box-right-release; node=19; kind=inline_parent; id=0000002a; part=7; depth=19036; order=35
+[ShipPointerReference] queue: stage=box-right-release; node=10; kind=inline_parent; id=00000010; part=1; depth=18784; order=36
+[ShipPointerReference] queue: stage=box-right-release; node=10; kind=inline_parent; id=00000010; part=7; depth=18784; order=37
+[ShipPointerReference] queue: stage=box-right-release; node=13; kind=inline_parent; id=00000027; part=1; depth=18588; order=38
+[ShipPointerReference] queue: stage=box-right-release; node=13; kind=inline_parent; id=00000027; part=3; depth=18588; order=39
+[ShipPointerReference] queue: stage=box-right-release; node=13; kind=inline_parent; id=00000027; part=7; depth=18588; order=40
+[ShipPointerReference] queue: stage=box-right-release; node=15; kind=inline_parent; id=00000028; part=1; depth=18524; order=41
+[ShipPointerReference] queue: stage=box-right-release; node=15; kind=inline_parent; id=00000028; part=3; depth=18524; order=42
+[ShipPointerReference] queue: stage=box-right-release; node=15; kind=inline_parent; id=00000028; part=7; depth=18524; order=43
+[ShipBoxReplay] stage: box-right-release; counter=1; visual_ms=93
+[ShipBoxReference] release: bounds=15,1,3,3; members=0000000b; outcome=selected-source0b
+[ShipPointerReference] event: index=8; counter=1; visual_ms=93; message=98; raw=1068,420; logical=534,210; world=1110,210; cell=17,3; has_map=True; picked=none; cursor=0; selected=True; pending=True; ui_group=-1; simulation_group=-1; rng=12345; outcome=box-handled
+[ShipPointerReference] checkpoint: stage=selected-box; counter=1; visual_ms=93; selected=True; pending=True; ui_group=-1; simulation_group=-1; group_count=0; selection_visual_flag=1; selector_state=1; selector_exists=True; selector_frame=0; selector_drawn=-1; selector_visible=False; selector_last_counter=0; health_visible=False; health_exists=True; cursor=0; cursor_frame=0; cursor_visible=True; cursor_last_tick=0; cursor_interval=10000; confirm=False; confirm_frame=-1; confirm_stored=0; confirm_visible=False; confirm_last_tick=0; held=True
+[ShipBoxReference] checkpoint: stage=selected-box; candidate=False; active=False; visible=False; start=1000,100; extent=0,0; phase=0; last_ms=0
+[ShipPointerReference] motion: counter=1; cell=16,2; world=1028,132; published=1028,132; frame=20; drawn=20; heading=5; state=0; pending_flags=0; active_flags=1024; reserved=-1; rng=12345; can_request=True
+[ShipPointerReference] visual_queue: stage=selected-box; nodes=2; source_depth=1020; base_renderers=34; confirm_late=True; cursor_gui=False
+[ShipPointerReference] visual: stage=selected-box; kind=selector; exists=True; visible=False; sprite=none; position=1026,130; order=45; sampling=Point
+[ShipPointerReference] visual: stage=selected-box; kind=health; exists=True; visible=False; sprite=HEALTH_100_60; position=0,0; order=44; sampling=Point
+[ShipPointerReference] visual: stage=selected-box; kind=confirm; exists=False; visible=False; sprite=none; position=0,0; order=46; sampling=Point
+[ShipPointerReference] visual: stage=selected-box; kind=cursor; exists=True; visible=True; sprite=CUR_STD_N00; position=534,210; order=32767; scale=2; sampling=Point
+[ShipPointerReference] queue: stage=selected-box; node=20; kind=separate_shadow; id=0000002a; part=0; depth=21000; order=10
+[ShipPointerReference] queue: stage=selected-box; node=18; kind=separate_shadow; id=00000029; part=0; depth=21000; order=11
+[ShipPointerReference] queue: stage=selected-box; node=16; kind=separate_shadow; id=00000028; part=0; depth=21000; order=12
+[ShipPointerReference] queue: stage=selected-box; node=14; kind=separate_shadow; id=00000027; part=0; depth=21000; order=13
+[ShipPointerReference] queue: stage=selected-box; node=11; kind=separate_shadow; id=00000010; part=0; depth=21000; order=14
+[ShipPointerReference] queue: stage=selected-box; node=9; kind=separate_shadow; id=0000000d; part=0; depth=21000; order=15
+[ShipPointerReference] queue: stage=selected-box; node=7; kind=separate_shadow; id=0000000c; part=0; depth=21000; order=16
+[ShipPointerReference] queue: stage=selected-box; node=5; kind=separate_shadow; id=0000000b; part=0; depth=21000; order=17
+[ShipPointerReference] queue: stage=selected-box; node=12; kind=reef; id=00000021; part=-1; depth=20200; order=18
+[ShipPointerReference] queue: stage=selected-box; node=3; kind=reef; id=0000000a; part=-1; depth=20200; order=19
+[ShipPointerReference] queue: stage=selected-box; node=2; kind=reef; id=00000009; part=-1; depth=20200; order=20
+[ShipPointerReference] queue: stage=selected-box; node=1; kind=reef; id=00000006; part=-1; depth=20200; order=21
+[ShipPointerReference] queue: stage=selected-box; node=0; kind=reef; id=00000005; part=-1; depth=20200; order=22
+[ShipPointerReference] queue: stage=selected-box; node=4; kind=inline_parent; id=0000000b; part=1; depth=19812; order=23
+[ShipPointerReference] queue: stage=selected-box; node=4; kind=inline_parent; id=0000000b; part=7; depth=19812; order=24
+[ShipPointerReference] queue: stage=selected-box; node=8; kind=inline_parent; id=0000000d; part=1; depth=19676; order=25
+[ShipPointerReference] queue: stage=selected-box; node=8; kind=inline_parent; id=0000000d; part=5; depth=19676; order=26
+[ShipPointerReference] queue: stage=selected-box; node=8; kind=inline_parent; id=0000000d; part=7; depth=19676; order=27
+[ShipPointerReference] queue: stage=selected-box; node=6; kind=inline_parent; id=0000000c; part=1; depth=19620; order=28
+[ShipPointerReference] queue: stage=selected-box; node=6; kind=inline_parent; id=0000000c; part=7; depth=19620; order=29
+[ShipPointerReference] queue: stage=selected-box; node=17; kind=inline_parent; id=00000029; part=1; depth=19100; order=30
+[ShipPointerReference] queue: stage=selected-box; node=17; kind=inline_parent; id=00000029; part=3; depth=19100; order=31
+[ShipPointerReference] queue: stage=selected-box; node=17; kind=inline_parent; id=00000029; part=7; depth=19100; order=32
+[ShipPointerReference] queue: stage=selected-box; node=19; kind=inline_parent; id=0000002a; part=1; depth=19036; order=33
+[ShipPointerReference] queue: stage=selected-box; node=19; kind=inline_parent; id=0000002a; part=3; depth=19036; order=34
+[ShipPointerReference] queue: stage=selected-box; node=19; kind=inline_parent; id=0000002a; part=7; depth=19036; order=35
+[ShipPointerReference] queue: stage=selected-box; node=10; kind=inline_parent; id=00000010; part=1; depth=18784; order=36
+[ShipPointerReference] queue: stage=selected-box; node=10; kind=inline_parent; id=00000010; part=7; depth=18784; order=37
+[ShipPointerReference] queue: stage=selected-box; node=13; kind=inline_parent; id=00000027; part=1; depth=18588; order=38
+[ShipPointerReference] queue: stage=selected-box; node=13; kind=inline_parent; id=00000027; part=3; depth=18588; order=39
+[ShipPointerReference] queue: stage=selected-box; node=13; kind=inline_parent; id=00000027; part=7; depth=18588; order=40
+[ShipPointerReference] queue: stage=selected-box; node=15; kind=inline_parent; id=00000028; part=1; depth=18524; order=41
+[ShipPointerReference] queue: stage=selected-box; node=15; kind=inline_parent; id=00000028; part=3; depth=18524; order=42
+[ShipPointerReference] queue: stage=selected-box; node=15; kind=inline_parent; id=00000028; part=7; depth=18524; order=43
+[ShipBoxReplay] stage: selected-box; counter=1; visual_ms=93
+[ShipPointerReference] event: index=9; counter=1; visual_ms=93; message=96; raw=448,600; logical=224,300; world=800,300; cell=12,4; has_map=True; picked=none; cursor=7; selected=True; pending=True; ui_group=-1; simulation_group=-1; rng=12345; outcome=handled
+[ShipPointerReference] event: index=10; counter=1; visual_ms=93; message=97; raw=448,600; logical=224,300; world=800,300; cell=12,4; has_map=True; picked=none; cursor=7; selected=True; pending=True; ui_group=-1; simulation_group=-1; rng=12345; outcome=handled
+[ShipPointerReference] checkpoint: stage=empty-down; counter=1; visual_ms=93; selected=True; pending=True; ui_group=-1; simulation_group=-1; group_count=0; selection_visual_flag=1; selector_state=1; selector_exists=True; selector_frame=0; selector_drawn=-1; selector_visible=False; selector_last_counter=0; health_visible=False; health_exists=True; cursor=7; cursor_frame=0; cursor_visible=True; cursor_last_tick=0; cursor_interval=150; confirm=False; confirm_frame=-1; confirm_stored=0; confirm_visible=False; confirm_last_tick=0; held=True
+[ShipBoxReference] checkpoint: stage=empty-down; candidate=True; active=False; visible=False; start=800,300; extent=0,0; phase=0; last_ms=0
+[ShipPointerReference] motion: counter=1; cell=16,2; world=1028,132; published=1028,132; frame=20; drawn=20; heading=5; state=0; pending_flags=0; active_flags=1024; reserved=-1; rng=12345; can_request=True
+[ShipPointerReference] visual_queue: stage=empty-down; nodes=2; source_depth=1020; base_renderers=34; confirm_late=True; cursor_gui=False
+[ShipPointerReference] visual: stage=empty-down; kind=selector; exists=True; visible=False; sprite=none; position=1026,130; order=45; sampling=Point
+[ShipPointerReference] visual: stage=empty-down; kind=health; exists=True; visible=False; sprite=HEALTH_100_60; position=0,0; order=44; sampling=Point
+[ShipPointerReference] visual: stage=empty-down; kind=confirm; exists=False; visible=False; sprite=none; position=0,0; order=46; sampling=Point
+[ShipPointerReference] visual: stage=empty-down; kind=cursor; exists=True; visible=True; sprite=CUR_SEA_N00; position=206,283; order=32767; scale=2; sampling=Point
+[ShipPointerReference] queue: stage=empty-down; node=20; kind=separate_shadow; id=0000002a; part=0; depth=21000; order=10
+[ShipPointerReference] queue: stage=empty-down; node=18; kind=separate_shadow; id=00000029; part=0; depth=21000; order=11
+[ShipPointerReference] queue: stage=empty-down; node=16; kind=separate_shadow; id=00000028; part=0; depth=21000; order=12
+[ShipPointerReference] queue: stage=empty-down; node=14; kind=separate_shadow; id=00000027; part=0; depth=21000; order=13
+[ShipPointerReference] queue: stage=empty-down; node=11; kind=separate_shadow; id=00000010; part=0; depth=21000; order=14
+[ShipPointerReference] queue: stage=empty-down; node=9; kind=separate_shadow; id=0000000d; part=0; depth=21000; order=15
+[ShipPointerReference] queue: stage=empty-down; node=7; kind=separate_shadow; id=0000000c; part=0; depth=21000; order=16
+[ShipPointerReference] queue: stage=empty-down; node=5; kind=separate_shadow; id=0000000b; part=0; depth=21000; order=17
+[ShipPointerReference] queue: stage=empty-down; node=12; kind=reef; id=00000021; part=-1; depth=20200; order=18
+[ShipPointerReference] queue: stage=empty-down; node=3; kind=reef; id=0000000a; part=-1; depth=20200; order=19
+[ShipPointerReference] queue: stage=empty-down; node=2; kind=reef; id=00000009; part=-1; depth=20200; order=20
+[ShipPointerReference] queue: stage=empty-down; node=1; kind=reef; id=00000006; part=-1; depth=20200; order=21
+[ShipPointerReference] queue: stage=empty-down; node=0; kind=reef; id=00000005; part=-1; depth=20200; order=22
+[ShipPointerReference] queue: stage=empty-down; node=4; kind=inline_parent; id=0000000b; part=1; depth=19812; order=23
+[ShipPointerReference] queue: stage=empty-down; node=4; kind=inline_parent; id=0000000b; part=7; depth=19812; order=24
+[ShipPointerReference] queue: stage=empty-down; node=8; kind=inline_parent; id=0000000d; part=1; depth=19676; order=25
+[ShipPointerReference] queue: stage=empty-down; node=8; kind=inline_parent; id=0000000d; part=5; depth=19676; order=26
+[ShipPointerReference] queue: stage=empty-down; node=8; kind=inline_parent; id=0000000d; part=7; depth=19676; order=27
+[ShipPointerReference] queue: stage=empty-down; node=6; kind=inline_parent; id=0000000c; part=1; depth=19620; order=28
+[ShipPointerReference] queue: stage=empty-down; node=6; kind=inline_parent; id=0000000c; part=7; depth=19620; order=29
+[ShipPointerReference] queue: stage=empty-down; node=17; kind=inline_parent; id=00000029; part=1; depth=19100; order=30
+[ShipPointerReference] queue: stage=empty-down; node=17; kind=inline_parent; id=00000029; part=3; depth=19100; order=31
+[ShipPointerReference] queue: stage=empty-down; node=17; kind=inline_parent; id=00000029; part=7; depth=19100; order=32
+[ShipPointerReference] queue: stage=empty-down; node=19; kind=inline_parent; id=0000002a; part=1; depth=19036; order=33
+[ShipPointerReference] queue: stage=empty-down; node=19; kind=inline_parent; id=0000002a; part=3; depth=19036; order=34
+[ShipPointerReference] queue: stage=empty-down; node=19; kind=inline_parent; id=0000002a; part=7; depth=19036; order=35
+[ShipPointerReference] queue: stage=empty-down; node=10; kind=inline_parent; id=00000010; part=1; depth=18784; order=36
+[ShipPointerReference] queue: stage=empty-down; node=10; kind=inline_parent; id=00000010; part=7; depth=18784; order=37
+[ShipPointerReference] queue: stage=empty-down; node=13; kind=inline_parent; id=00000027; part=1; depth=18588; order=38
+[ShipPointerReference] queue: stage=empty-down; node=13; kind=inline_parent; id=00000027; part=3; depth=18588; order=39
+[ShipPointerReference] queue: stage=empty-down; node=13; kind=inline_parent; id=00000027; part=7; depth=18588; order=40
+[ShipPointerReference] queue: stage=empty-down; node=15; kind=inline_parent; id=00000028; part=1; depth=18524; order=41
+[ShipPointerReference] queue: stage=empty-down; node=15; kind=inline_parent; id=00000028; part=3; depth=18524; order=42
+[ShipPointerReference] queue: stage=empty-down; node=15; kind=inline_parent; id=00000028; part=7; depth=18524; order=43
+[ShipBoxReplay] stage: empty-down; counter=1; visual_ms=93
+[ShipPointerReference] event: index=11; counter=1; visual_ms=93; message=96; raw=488,640; logical=244,320; world=820,320; cell=12,5; has_map=True; picked=none; cursor=7; selected=True; pending=True; ui_group=-1; simulation_group=-1; rng=12345; outcome=handled
+[ShipPointerReference] checkpoint: stage=empty-activate; counter=1; visual_ms=93; selected=True; pending=True; ui_group=-1; simulation_group=-1; group_count=0; selection_visual_flag=1; selector_state=1; selector_exists=True; selector_frame=0; selector_drawn=-1; selector_visible=False; selector_last_counter=0; health_visible=False; health_exists=True; cursor=7; cursor_frame=0; cursor_visible=True; cursor_last_tick=0; cursor_interval=150; confirm=False; confirm_frame=-1; confirm_stored=0; confirm_visible=False; confirm_last_tick=0; held=True
+[ShipBoxReference] checkpoint: stage=empty-activate; candidate=True; active=True; visible=False; start=800,300; extent=0,0; phase=0; last_ms=93
+[ShipPointerReference] motion: counter=1; cell=16,2; world=1028,132; published=1028,132; frame=20; drawn=20; heading=5; state=0; pending_flags=0; active_flags=1024; reserved=-1; rng=12345; can_request=True
+[ShipPointerReference] visual_queue: stage=empty-activate; nodes=2; source_depth=1020; base_renderers=34; confirm_late=True; cursor_gui=False
+[ShipPointerReference] visual: stage=empty-activate; kind=selector; exists=True; visible=False; sprite=none; position=1026,130; order=45; sampling=Point
+[ShipPointerReference] visual: stage=empty-activate; kind=health; exists=True; visible=False; sprite=HEALTH_100_60; position=0,0; order=44; sampling=Point
+[ShipPointerReference] visual: stage=empty-activate; kind=confirm; exists=False; visible=False; sprite=none; position=0,0; order=47; sampling=Point
+[ShipPointerReference] visual: stage=empty-activate; kind=cursor; exists=True; visible=True; sprite=CUR_SEA_N00; position=226,303; order=32767; scale=2; sampling=Point
+[ShipPointerReference] queue: stage=empty-activate; node=20; kind=separate_shadow; id=0000002a; part=0; depth=21000; order=10
+[ShipPointerReference] queue: stage=empty-activate; node=18; kind=separate_shadow; id=00000029; part=0; depth=21000; order=11
+[ShipPointerReference] queue: stage=empty-activate; node=16; kind=separate_shadow; id=00000028; part=0; depth=21000; order=12
+[ShipPointerReference] queue: stage=empty-activate; node=14; kind=separate_shadow; id=00000027; part=0; depth=21000; order=13
+[ShipPointerReference] queue: stage=empty-activate; node=11; kind=separate_shadow; id=00000010; part=0; depth=21000; order=14
+[ShipPointerReference] queue: stage=empty-activate; node=9; kind=separate_shadow; id=0000000d; part=0; depth=21000; order=15
+[ShipPointerReference] queue: stage=empty-activate; node=7; kind=separate_shadow; id=0000000c; part=0; depth=21000; order=16
+[ShipPointerReference] queue: stage=empty-activate; node=5; kind=separate_shadow; id=0000000b; part=0; depth=21000; order=17
+[ShipPointerReference] queue: stage=empty-activate; node=12; kind=reef; id=00000021; part=-1; depth=20200; order=18
+[ShipPointerReference] queue: stage=empty-activate; node=3; kind=reef; id=0000000a; part=-1; depth=20200; order=19
+[ShipPointerReference] queue: stage=empty-activate; node=2; kind=reef; id=00000009; part=-1; depth=20200; order=20
+[ShipPointerReference] queue: stage=empty-activate; node=1; kind=reef; id=00000006; part=-1; depth=20200; order=21
+[ShipPointerReference] queue: stage=empty-activate; node=0; kind=reef; id=00000005; part=-1; depth=20200; order=22
+[ShipPointerReference] queue: stage=empty-activate; node=4; kind=inline_parent; id=0000000b; part=1; depth=19812; order=23
+[ShipPointerReference] queue: stage=empty-activate; node=4; kind=inline_parent; id=0000000b; part=7; depth=19812; order=24
+[ShipPointerReference] queue: stage=empty-activate; node=8; kind=inline_parent; id=0000000d; part=1; depth=19676; order=25
+[ShipPointerReference] queue: stage=empty-activate; node=8; kind=inline_parent; id=0000000d; part=5; depth=19676; order=26
+[ShipPointerReference] queue: stage=empty-activate; node=8; kind=inline_parent; id=0000000d; part=7; depth=19676; order=27
+[ShipPointerReference] queue: stage=empty-activate; node=6; kind=inline_parent; id=0000000c; part=1; depth=19620; order=28
+[ShipPointerReference] queue: stage=empty-activate; node=6; kind=inline_parent; id=0000000c; part=7; depth=19620; order=29
+[ShipPointerReference] queue: stage=empty-activate; node=17; kind=inline_parent; id=00000029; part=1; depth=19100; order=30
+[ShipPointerReference] queue: stage=empty-activate; node=17; kind=inline_parent; id=00000029; part=3; depth=19100; order=31
+[ShipPointerReference] queue: stage=empty-activate; node=17; kind=inline_parent; id=00000029; part=7; depth=19100; order=32
+[ShipPointerReference] queue: stage=empty-activate; node=19; kind=inline_parent; id=0000002a; part=1; depth=19036; order=33
+[ShipPointerReference] queue: stage=empty-activate; node=19; kind=inline_parent; id=0000002a; part=3; depth=19036; order=34
+[ShipPointerReference] queue: stage=empty-activate; node=19; kind=inline_parent; id=0000002a; part=7; depth=19036; order=35
+[ShipPointerReference] queue: stage=empty-activate; node=10; kind=inline_parent; id=00000010; part=1; depth=18784; order=36
+[ShipPointerReference] queue: stage=empty-activate; node=10; kind=inline_parent; id=00000010; part=7; depth=18784; order=37
+[ShipPointerReference] queue: stage=empty-activate; node=13; kind=inline_parent; id=00000027; part=1; depth=18588; order=38
+[ShipPointerReference] queue: stage=empty-activate; node=13; kind=inline_parent; id=00000027; part=3; depth=18588; order=39
+[ShipPointerReference] queue: stage=empty-activate; node=13; kind=inline_parent; id=00000027; part=7; depth=18588; order=40
+[ShipPointerReference] queue: stage=empty-activate; node=15; kind=inline_parent; id=00000028; part=1; depth=18524; order=41
+[ShipPointerReference] queue: stage=empty-activate; node=15; kind=inline_parent; id=00000028; part=3; depth=18524; order=42
+[ShipPointerReference] queue: stage=empty-activate; node=15; kind=inline_parent; id=00000028; part=7; depth=18524; order=43
+[ShipBoxReplay] stage: empty-activate; counter=1; visual_ms=93
+[ShipPointerReference] event: index=12; counter=1; visual_ms=93; message=96; raw=648,800; logical=324,400; world=900,400; cell=14,6; has_map=True; picked=none; cursor=0; selected=True; pending=True; ui_group=-1; simulation_group=-1; rng=12345; outcome=handled
+[ShipPointerReference] checkpoint: stage=empty-extent; counter=1; visual_ms=93; selected=True; pending=True; ui_group=-1; simulation_group=-1; group_count=0; selection_visual_flag=1; selector_state=1; selector_exists=True; selector_frame=0; selector_drawn=-1; selector_visible=False; selector_last_counter=0; health_visible=False; health_exists=True; cursor=0; cursor_frame=0; cursor_visible=True; cursor_last_tick=0; cursor_interval=10000; confirm=False; confirm_frame=-1; confirm_stored=0; confirm_visible=False; confirm_last_tick=0; held=True
+[ShipBoxReference] checkpoint: stage=empty-extent; candidate=True; active=True; visible=False; start=800,300; extent=101,101; phase=0; last_ms=93
+[ShipPointerReference] motion: counter=1; cell=16,2; world=1028,132; published=1028,132; frame=20; drawn=20; heading=5; state=0; pending_flags=0; active_flags=1024; reserved=-1; rng=12345; can_request=True
+[ShipPointerReference] visual_queue: stage=empty-extent; nodes=2; source_depth=1020; base_renderers=34; confirm_late=True; cursor_gui=False
+[ShipPointerReference] visual: stage=empty-extent; kind=selector; exists=True; visible=False; sprite=none; position=1026,130; order=45; sampling=Point
+[ShipPointerReference] visual: stage=empty-extent; kind=health; exists=True; visible=False; sprite=HEALTH_100_60; position=0,0; order=44; sampling=Point
+[ShipPointerReference] visual: stage=empty-extent; kind=confirm; exists=False; visible=False; sprite=none; position=0,0; order=47; sampling=Point
+[ShipPointerReference] visual: stage=empty-extent; kind=cursor; exists=True; visible=True; sprite=CUR_STD_N00; position=324,400; order=32767; scale=2; sampling=Point
+[ShipPointerReference] queue: stage=empty-extent; node=20; kind=separate_shadow; id=0000002a; part=0; depth=21000; order=10
+[ShipPointerReference] queue: stage=empty-extent; node=18; kind=separate_shadow; id=00000029; part=0; depth=21000; order=11
+[ShipPointerReference] queue: stage=empty-extent; node=16; kind=separate_shadow; id=00000028; part=0; depth=21000; order=12
+[ShipPointerReference] queue: stage=empty-extent; node=14; kind=separate_shadow; id=00000027; part=0; depth=21000; order=13
+[ShipPointerReference] queue: stage=empty-extent; node=11; kind=separate_shadow; id=00000010; part=0; depth=21000; order=14
+[ShipPointerReference] queue: stage=empty-extent; node=9; kind=separate_shadow; id=0000000d; part=0; depth=21000; order=15
+[ShipPointerReference] queue: stage=empty-extent; node=7; kind=separate_shadow; id=0000000c; part=0; depth=21000; order=16
+[ShipPointerReference] queue: stage=empty-extent; node=5; kind=separate_shadow; id=0000000b; part=0; depth=21000; order=17
+[ShipPointerReference] queue: stage=empty-extent; node=12; kind=reef; id=00000021; part=-1; depth=20200; order=18
+[ShipPointerReference] queue: stage=empty-extent; node=3; kind=reef; id=0000000a; part=-1; depth=20200; order=19
+[ShipPointerReference] queue: stage=empty-extent; node=2; kind=reef; id=00000009; part=-1; depth=20200; order=20
+[ShipPointerReference] queue: stage=empty-extent; node=1; kind=reef; id=00000006; part=-1; depth=20200; order=21
+[ShipPointerReference] queue: stage=empty-extent; node=0; kind=reef; id=00000005; part=-1; depth=20200; order=22
+[ShipPointerReference] queue: stage=empty-extent; node=4; kind=inline_parent; id=0000000b; part=1; depth=19812; order=23
+[ShipPointerReference] queue: stage=empty-extent; node=4; kind=inline_parent; id=0000000b; part=7; depth=19812; order=24
+[ShipPointerReference] queue: stage=empty-extent; node=8; kind=inline_parent; id=0000000d; part=1; depth=19676; order=25
+[ShipPointerReference] queue: stage=empty-extent; node=8; kind=inline_parent; id=0000000d; part=5; depth=19676; order=26
+[ShipPointerReference] queue: stage=empty-extent; node=8; kind=inline_parent; id=0000000d; part=7; depth=19676; order=27
+[ShipPointerReference] queue: stage=empty-extent; node=6; kind=inline_parent; id=0000000c; part=1; depth=19620; order=28
+[ShipPointerReference] queue: stage=empty-extent; node=6; kind=inline_parent; id=0000000c; part=7; depth=19620; order=29
+[ShipPointerReference] queue: stage=empty-extent; node=17; kind=inline_parent; id=00000029; part=1; depth=19100; order=30
+[ShipPointerReference] queue: stage=empty-extent; node=17; kind=inline_parent; id=00000029; part=3; depth=19100; order=31
+[ShipPointerReference] queue: stage=empty-extent; node=17; kind=inline_parent; id=00000029; part=7; depth=19100; order=32
+[ShipPointerReference] queue: stage=empty-extent; node=19; kind=inline_parent; id=0000002a; part=1; depth=19036; order=33
+[ShipPointerReference] queue: stage=empty-extent; node=19; kind=inline_parent; id=0000002a; part=3; depth=19036; order=34
+[ShipPointerReference] queue: stage=empty-extent; node=19; kind=inline_parent; id=0000002a; part=7; depth=19036; order=35
+[ShipPointerReference] queue: stage=empty-extent; node=10; kind=inline_parent; id=00000010; part=1; depth=18784; order=36
+[ShipPointerReference] queue: stage=empty-extent; node=10; kind=inline_parent; id=00000010; part=7; depth=18784; order=37
+[ShipPointerReference] queue: stage=empty-extent; node=13; kind=inline_parent; id=00000027; part=1; depth=18588; order=38
+[ShipPointerReference] queue: stage=empty-extent; node=13; kind=inline_parent; id=00000027; part=3; depth=18588; order=39
+[ShipPointerReference] queue: stage=empty-extent; node=13; kind=inline_parent; id=00000027; part=7; depth=18588; order=40
+[ShipPointerReference] queue: stage=empty-extent; node=15; kind=inline_parent; id=00000028; part=1; depth=18524; order=41
+[ShipPointerReference] queue: stage=empty-extent; node=15; kind=inline_parent; id=00000028; part=3; depth=18524; order=42
+[ShipPointerReference] queue: stage=empty-extent; node=15; kind=inline_parent; id=00000028; part=7; depth=18524; order=43
+[ShipBoxReplay] stage: empty-extent; counter=1; visual_ms=93
+[ShipBoxReference] release: bounds=12,4,3,3; members=none; outcome=preserved
+[ShipPointerReference] event: index=13; counter=1; visual_ms=93; message=98; raw=648,800; logical=324,400; world=900,400; cell=14,6; has_map=True; picked=none; cursor=0; selected=True; pending=True; ui_group=-1; simulation_group=-1; rng=12345; outcome=box-handled
+[ShipPointerReference] checkpoint: stage=empty-preserved; counter=1; visual_ms=93; selected=True; pending=True; ui_group=-1; simulation_group=-1; group_count=0; selection_visual_flag=1; selector_state=1; selector_exists=True; selector_frame=0; selector_drawn=-1; selector_visible=False; selector_last_counter=0; health_visible=False; health_exists=True; cursor=0; cursor_frame=0; cursor_visible=True; cursor_last_tick=0; cursor_interval=10000; confirm=False; confirm_frame=-1; confirm_stored=0; confirm_visible=False; confirm_last_tick=0; held=True
+[ShipBoxReference] checkpoint: stage=empty-preserved; candidate=False; active=False; visible=False; start=800,300; extent=0,0; phase=0; last_ms=0
+[ShipPointerReference] motion: counter=1; cell=16,2; world=1028,132; published=1028,132; frame=20; drawn=20; heading=5; state=0; pending_flags=0; active_flags=1024; reserved=-1; rng=12345; can_request=True
+[ShipPointerReference] visual_queue: stage=empty-preserved; nodes=2; source_depth=1020; base_renderers=34; confirm_late=True; cursor_gui=False
+[ShipPointerReference] visual: stage=empty-preserved; kind=selector; exists=True; visible=False; sprite=none; position=1026,130; order=45; sampling=Point
+[ShipPointerReference] visual: stage=empty-preserved; kind=health; exists=True; visible=False; sprite=HEALTH_100_60; position=0,0; order=44; sampling=Point
+[ShipPointerReference] visual: stage=empty-preserved; kind=confirm; exists=False; visible=False; sprite=none; position=0,0; order=46; sampling=Point
+[ShipPointerReference] visual: stage=empty-preserved; kind=cursor; exists=True; visible=True; sprite=CUR_STD_N00; position=324,400; order=32767; scale=2; sampling=Point
+[ShipPointerReference] queue: stage=empty-preserved; node=20; kind=separate_shadow; id=0000002a; part=0; depth=21000; order=10
+[ShipPointerReference] queue: stage=empty-preserved; node=18; kind=separate_shadow; id=00000029; part=0; depth=21000; order=11
+[ShipPointerReference] queue: stage=empty-preserved; node=16; kind=separate_shadow; id=00000028; part=0; depth=21000; order=12
+[ShipPointerReference] queue: stage=empty-preserved; node=14; kind=separate_shadow; id=00000027; part=0; depth=21000; order=13
+[ShipPointerReference] queue: stage=empty-preserved; node=11; kind=separate_shadow; id=00000010; part=0; depth=21000; order=14
+[ShipPointerReference] queue: stage=empty-preserved; node=9; kind=separate_shadow; id=0000000d; part=0; depth=21000; order=15
+[ShipPointerReference] queue: stage=empty-preserved; node=7; kind=separate_shadow; id=0000000c; part=0; depth=21000; order=16
+[ShipPointerReference] queue: stage=empty-preserved; node=5; kind=separate_shadow; id=0000000b; part=0; depth=21000; order=17
+[ShipPointerReference] queue: stage=empty-preserved; node=12; kind=reef; id=00000021; part=-1; depth=20200; order=18
+[ShipPointerReference] queue: stage=empty-preserved; node=3; kind=reef; id=0000000a; part=-1; depth=20200; order=19
+[ShipPointerReference] queue: stage=empty-preserved; node=2; kind=reef; id=00000009; part=-1; depth=20200; order=20
+[ShipPointerReference] queue: stage=empty-preserved; node=1; kind=reef; id=00000006; part=-1; depth=20200; order=21
+[ShipPointerReference] queue: stage=empty-preserved; node=0; kind=reef; id=00000005; part=-1; depth=20200; order=22
+[ShipPointerReference] queue: stage=empty-preserved; node=4; kind=inline_parent; id=0000000b; part=1; depth=19812; order=23
+[ShipPointerReference] queue: stage=empty-preserved; node=4; kind=inline_parent; id=0000000b; part=7; depth=19812; order=24
+[ShipPointerReference] queue: stage=empty-preserved; node=8; kind=inline_parent; id=0000000d; part=1; depth=19676; order=25
+[ShipPointerReference] queue: stage=empty-preserved; node=8; kind=inline_parent; id=0000000d; part=5; depth=19676; order=26
+[ShipPointerReference] queue: stage=empty-preserved; node=8; kind=inline_parent; id=0000000d; part=7; depth=19676; order=27
+[ShipPointerReference] queue: stage=empty-preserved; node=6; kind=inline_parent; id=0000000c; part=1; depth=19620; order=28
+[ShipPointerReference] queue: stage=empty-preserved; node=6; kind=inline_parent; id=0000000c; part=7; depth=19620; order=29
+[ShipPointerReference] queue: stage=empty-preserved; node=17; kind=inline_parent; id=00000029; part=1; depth=19100; order=30
+[ShipPointerReference] queue: stage=empty-preserved; node=17; kind=inline_parent; id=00000029; part=3; depth=19100; order=31
+[ShipPointerReference] queue: stage=empty-preserved; node=17; kind=inline_parent; id=00000029; part=7; depth=19100; order=32
+[ShipPointerReference] queue: stage=empty-preserved; node=19; kind=inline_parent; id=0000002a; part=1; depth=19036; order=33
+[ShipPointerReference] queue: stage=empty-preserved; node=19; kind=inline_parent; id=0000002a; part=3; depth=19036; order=34
+[ShipPointerReference] queue: stage=empty-preserved; node=19; kind=inline_parent; id=0000002a; part=7; depth=19036; order=35
+[ShipPointerReference] queue: stage=empty-preserved; node=10; kind=inline_parent; id=00000010; part=1; depth=18784; order=36
+[ShipPointerReference] queue: stage=empty-preserved; node=10; kind=inline_parent; id=00000010; part=7; depth=18784; order=37
+[ShipPointerReference] queue: stage=empty-preserved; node=13; kind=inline_parent; id=00000027; part=1; depth=18588; order=38
+[ShipPointerReference] queue: stage=empty-preserved; node=13; kind=inline_parent; id=00000027; part=3; depth=18588; order=39
+[ShipPointerReference] queue: stage=empty-preserved; node=13; kind=inline_parent; id=00000027; part=7; depth=18588; order=40
+[ShipPointerReference] queue: stage=empty-preserved; node=15; kind=inline_parent; id=00000028; part=1; depth=18524; order=41
+[ShipPointerReference] queue: stage=empty-preserved; node=15; kind=inline_parent; id=00000028; part=3; depth=18524; order=42
+[ShipPointerReference] queue: stage=empty-preserved; node=15; kind=inline_parent; id=00000028; part=7; depth=18524; order=43
+[ShipBoxReplay] stage: empty-preserved; counter=1; visual_ms=93
+[ShipPointerReference] event: index=14; counter=1; visual_ms=93; message=96; raw=1068,420; logical=534,210; world=1110,210; cell=17,3; has_map=True; picked=none; cursor=7; selected=True; pending=True; ui_group=-1; simulation_group=-1; rng=12345; outcome=handled
+[ShipPointerReference] event: index=15; counter=1; visual_ms=93; message=97; raw=1068,420; logical=534,210; world=1110,210; cell=17,3; has_map=True; picked=none; cursor=7; selected=True; pending=True; ui_group=-1; simulation_group=-1; rng=12345; outcome=handled
+[ShipPointerReference] checkpoint: stage=reverse-down; counter=1; visual_ms=93; selected=True; pending=True; ui_group=-1; simulation_group=-1; group_count=0; selection_visual_flag=1; selector_state=1; selector_exists=True; selector_frame=0; selector_drawn=-1; selector_visible=False; selector_last_counter=0; health_visible=False; health_exists=True; cursor=7; cursor_frame=0; cursor_visible=True; cursor_last_tick=0; cursor_interval=150; confirm=False; confirm_frame=-1; confirm_stored=0; confirm_visible=False; confirm_last_tick=0; held=True
+[ShipBoxReference] checkpoint: stage=reverse-down; candidate=True; active=False; visible=False; start=1110,210; extent=0,0; phase=0; last_ms=0
+[ShipPointerReference] motion: counter=1; cell=16,2; world=1028,132; published=1028,132; frame=20; drawn=20; heading=5; state=0; pending_flags=0; active_flags=1024; reserved=-1; rng=12345; can_request=True
+[ShipPointerReference] visual_queue: stage=reverse-down; nodes=2; source_depth=1020; base_renderers=34; confirm_late=True; cursor_gui=False
+[ShipPointerReference] visual: stage=reverse-down; kind=selector; exists=True; visible=False; sprite=none; position=1026,130; order=45; sampling=Point
+[ShipPointerReference] visual: stage=reverse-down; kind=health; exists=True; visible=False; sprite=HEALTH_100_60; position=0,0; order=44; sampling=Point
+[ShipPointerReference] visual: stage=reverse-down; kind=confirm; exists=False; visible=False; sprite=none; position=0,0; order=46; sampling=Point
+[ShipPointerReference] visual: stage=reverse-down; kind=cursor; exists=True; visible=True; sprite=CUR_SEA_N00; position=516,193; order=32767; scale=2; sampling=Point
+[ShipPointerReference] queue: stage=reverse-down; node=20; kind=separate_shadow; id=0000002a; part=0; depth=21000; order=10
+[ShipPointerReference] queue: stage=reverse-down; node=18; kind=separate_shadow; id=00000029; part=0; depth=21000; order=11
+[ShipPointerReference] queue: stage=reverse-down; node=16; kind=separate_shadow; id=00000028; part=0; depth=21000; order=12
+[ShipPointerReference] queue: stage=reverse-down; node=14; kind=separate_shadow; id=00000027; part=0; depth=21000; order=13
+[ShipPointerReference] queue: stage=reverse-down; node=11; kind=separate_shadow; id=00000010; part=0; depth=21000; order=14
+[ShipPointerReference] queue: stage=reverse-down; node=9; kind=separate_shadow; id=0000000d; part=0; depth=21000; order=15
+[ShipPointerReference] queue: stage=reverse-down; node=7; kind=separate_shadow; id=0000000c; part=0; depth=21000; order=16
+[ShipPointerReference] queue: stage=reverse-down; node=5; kind=separate_shadow; id=0000000b; part=0; depth=21000; order=17
+[ShipPointerReference] queue: stage=reverse-down; node=12; kind=reef; id=00000021; part=-1; depth=20200; order=18
+[ShipPointerReference] queue: stage=reverse-down; node=3; kind=reef; id=0000000a; part=-1; depth=20200; order=19
+[ShipPointerReference] queue: stage=reverse-down; node=2; kind=reef; id=00000009; part=-1; depth=20200; order=20
+[ShipPointerReference] queue: stage=reverse-down; node=1; kind=reef; id=00000006; part=-1; depth=20200; order=21
+[ShipPointerReference] queue: stage=reverse-down; node=0; kind=reef; id=00000005; part=-1; depth=20200; order=22
+[ShipPointerReference] queue: stage=reverse-down; node=4; kind=inline_parent; id=0000000b; part=1; depth=19812; order=23
+[ShipPointerReference] queue: stage=reverse-down; node=4; kind=inline_parent; id=0000000b; part=7; depth=19812; order=24
+[ShipPointerReference] queue: stage=reverse-down; node=8; kind=inline_parent; id=0000000d; part=1; depth=19676; order=25
+[ShipPointerReference] queue: stage=reverse-down; node=8; kind=inline_parent; id=0000000d; part=5; depth=19676; order=26
+[ShipPointerReference] queue: stage=reverse-down; node=8; kind=inline_parent; id=0000000d; part=7; depth=19676; order=27
+[ShipPointerReference] queue: stage=reverse-down; node=6; kind=inline_parent; id=0000000c; part=1; depth=19620; order=28
+[ShipPointerReference] queue: stage=reverse-down; node=6; kind=inline_parent; id=0000000c; part=7; depth=19620; order=29
+[ShipPointerReference] queue: stage=reverse-down; node=17; kind=inline_parent; id=00000029; part=1; depth=19100; order=30
+[ShipPointerReference] queue: stage=reverse-down; node=17; kind=inline_parent; id=00000029; part=3; depth=19100; order=31
+[ShipPointerReference] queue: stage=reverse-down; node=17; kind=inline_parent; id=00000029; part=7; depth=19100; order=32
+[ShipPointerReference] queue: stage=reverse-down; node=19; kind=inline_parent; id=0000002a; part=1; depth=19036; order=33
+[ShipPointerReference] queue: stage=reverse-down; node=19; kind=inline_parent; id=0000002a; part=3; depth=19036; order=34
+[ShipPointerReference] queue: stage=reverse-down; node=19; kind=inline_parent; id=0000002a; part=7; depth=19036; order=35
+[ShipPointerReference] queue: stage=reverse-down; node=10; kind=inline_parent; id=00000010; part=1; depth=18784; order=36
+[ShipPointerReference] queue: stage=reverse-down; node=10; kind=inline_parent; id=00000010; part=7; depth=18784; order=37
+[ShipPointerReference] queue: stage=reverse-down; node=13; kind=inline_parent; id=00000027; part=1; depth=18588; order=38
+[ShipPointerReference] queue: stage=reverse-down; node=13; kind=inline_parent; id=00000027; part=3; depth=18588; order=39
+[ShipPointerReference] queue: stage=reverse-down; node=13; kind=inline_parent; id=00000027; part=7; depth=18588; order=40
+[ShipPointerReference] queue: stage=reverse-down; node=15; kind=inline_parent; id=00000028; part=1; depth=18524; order=41
+[ShipPointerReference] queue: stage=reverse-down; node=15; kind=inline_parent; id=00000028; part=3; depth=18524; order=42
+[ShipPointerReference] queue: stage=reverse-down; node=15; kind=inline_parent; id=00000028; part=7; depth=18524; order=43
+[ShipBoxReplay] stage: reverse-down; counter=1; visual_ms=93
+[ShipPointerReference] event: index=16; counter=1; visual_ms=93; message=96; raw=1044,396; logical=522,198; world=1098,198; cell=17,3; has_map=True; picked=none; cursor=7; selected=True; pending=True; ui_group=-1; simulation_group=-1; rng=12345; outcome=handled
+[ShipPointerReference] checkpoint: stage=reverse-activate; counter=1; visual_ms=93; selected=True; pending=True; ui_group=-1; simulation_group=-1; group_count=0; selection_visual_flag=1; selector_state=1; selector_exists=True; selector_frame=0; selector_drawn=-1; selector_visible=False; selector_last_counter=0; health_visible=False; health_exists=True; cursor=7; cursor_frame=0; cursor_visible=True; cursor_last_tick=0; cursor_interval=150; confirm=False; confirm_frame=-1; confirm_stored=0; confirm_visible=False; confirm_last_tick=0; held=True
+[ShipBoxReference] checkpoint: stage=reverse-activate; candidate=True; active=True; visible=False; start=1110,210; extent=0,0; phase=0; last_ms=93
+[ShipPointerReference] motion: counter=1; cell=16,2; world=1028,132; published=1028,132; frame=20; drawn=20; heading=5; state=0; pending_flags=0; active_flags=1024; reserved=-1; rng=12345; can_request=True
+[ShipPointerReference] visual_queue: stage=reverse-activate; nodes=2; source_depth=1020; base_renderers=34; confirm_late=True; cursor_gui=False
+[ShipPointerReference] visual: stage=reverse-activate; kind=selector; exists=True; visible=False; sprite=none; position=1026,130; order=45; sampling=Point
+[ShipPointerReference] visual: stage=reverse-activate; kind=health; exists=True; visible=False; sprite=HEALTH_100_60; position=0,0; order=44; sampling=Point
+[ShipPointerReference] visual: stage=reverse-activate; kind=confirm; exists=False; visible=False; sprite=none; position=0,0; order=47; sampling=Point
+[ShipPointerReference] visual: stage=reverse-activate; kind=cursor; exists=True; visible=True; sprite=CUR_SEA_N00; position=504,181; order=32767; scale=2; sampling=Point
+[ShipPointerReference] queue: stage=reverse-activate; node=20; kind=separate_shadow; id=0000002a; part=0; depth=21000; order=10
+[ShipPointerReference] queue: stage=reverse-activate; node=18; kind=separate_shadow; id=00000029; part=0; depth=21000; order=11
+[ShipPointerReference] queue: stage=reverse-activate; node=16; kind=separate_shadow; id=00000028; part=0; depth=21000; order=12
+[ShipPointerReference] queue: stage=reverse-activate; node=14; kind=separate_shadow; id=00000027; part=0; depth=21000; order=13
+[ShipPointerReference] queue: stage=reverse-activate; node=11; kind=separate_shadow; id=00000010; part=0; depth=21000; order=14
+[ShipPointerReference] queue: stage=reverse-activate; node=9; kind=separate_shadow; id=0000000d; part=0; depth=21000; order=15
+[ShipPointerReference] queue: stage=reverse-activate; node=7; kind=separate_shadow; id=0000000c; part=0; depth=21000; order=16
+[ShipPointerReference] queue: stage=reverse-activate; node=5; kind=separate_shadow; id=0000000b; part=0; depth=21000; order=17
+[ShipPointerReference] queue: stage=reverse-activate; node=12; kind=reef; id=00000021; part=-1; depth=20200; order=18
+[ShipPointerReference] queue: stage=reverse-activate; node=3; kind=reef; id=0000000a; part=-1; depth=20200; order=19
+[ShipPointerReference] queue: stage=reverse-activate; node=2; kind=reef; id=00000009; part=-1; depth=20200; order=20
+[ShipPointerReference] queue: stage=reverse-activate; node=1; kind=reef; id=00000006; part=-1; depth=20200; order=21
+[ShipPointerReference] queue: stage=reverse-activate; node=0; kind=reef; id=00000005; part=-1; depth=20200; order=22
+[ShipPointerReference] queue: stage=reverse-activate; node=4; kind=inline_parent; id=0000000b; part=1; depth=19812; order=23
+[ShipPointerReference] queue: stage=reverse-activate; node=4; kind=inline_parent; id=0000000b; part=7; depth=19812; order=24
+[ShipPointerReference] queue: stage=reverse-activate; node=8; kind=inline_parent; id=0000000d; part=1; depth=19676; order=25
+[ShipPointerReference] queue: stage=reverse-activate; node=8; kind=inline_parent; id=0000000d; part=5; depth=19676; order=26
+[ShipPointerReference] queue: stage=reverse-activate; node=8; kind=inline_parent; id=0000000d; part=7; depth=19676; order=27
+[ShipPointerReference] queue: stage=reverse-activate; node=6; kind=inline_parent; id=0000000c; part=1; depth=19620; order=28
+[ShipPointerReference] queue: stage=reverse-activate; node=6; kind=inline_parent; id=0000000c; part=7; depth=19620; order=29
+[ShipPointerReference] queue: stage=reverse-activate; node=17; kind=inline_parent; id=00000029; part=1; depth=19100; order=30
+[ShipPointerReference] queue: stage=reverse-activate; node=17; kind=inline_parent; id=00000029; part=3; depth=19100; order=31
+[ShipPointerReference] queue: stage=reverse-activate; node=17; kind=inline_parent; id=00000029; part=7; depth=19100; order=32
+[ShipPointerReference] queue: stage=reverse-activate; node=19; kind=inline_parent; id=0000002a; part=1; depth=19036; order=33
+[ShipPointerReference] queue: stage=reverse-activate; node=19; kind=inline_parent; id=0000002a; part=3; depth=19036; order=34
+[ShipPointerReference] queue: stage=reverse-activate; node=19; kind=inline_parent; id=0000002a; part=7; depth=19036; order=35
+[ShipPointerReference] queue: stage=reverse-activate; node=10; kind=inline_parent; id=00000010; part=1; depth=18784; order=36
+[ShipPointerReference] queue: stage=reverse-activate; node=10; kind=inline_parent; id=00000010; part=7; depth=18784; order=37
+[ShipPointerReference] queue: stage=reverse-activate; node=13; kind=inline_parent; id=00000027; part=1; depth=18588; order=38
+[ShipPointerReference] queue: stage=reverse-activate; node=13; kind=inline_parent; id=00000027; part=3; depth=18588; order=39
+[ShipPointerReference] queue: stage=reverse-activate; node=13; kind=inline_parent; id=00000027; part=7; depth=18588; order=40
+[ShipPointerReference] queue: stage=reverse-activate; node=15; kind=inline_parent; id=00000028; part=1; depth=18524; order=41
+[ShipPointerReference] queue: stage=reverse-activate; node=15; kind=inline_parent; id=00000028; part=3; depth=18524; order=42
+[ShipPointerReference] queue: stage=reverse-activate; node=15; kind=inline_parent; id=00000028; part=7; depth=18524; order=43
+[ShipBoxReplay] stage: reverse-activate; counter=1; visual_ms=93
+[ShipPointerReference] event: index=17; counter=1; visual_ms=93; message=96; raw=848,200; logical=424,100; world=1000,100; cell=15,1; has_map=True; picked=none; cursor=0; selected=True; pending=True; ui_group=-1; simulation_group=-1; rng=12345; outcome=handled
+[ShipPointerReference] checkpoint: stage=reverse-extent; counter=1; visual_ms=93; selected=True; pending=True; ui_group=-1; simulation_group=-1; group_count=0; selection_visual_flag=1; selector_state=1; selector_exists=True; selector_frame=0; selector_drawn=-1; selector_visible=False; selector_last_counter=0; health_visible=False; health_exists=True; cursor=0; cursor_frame=0; cursor_visible=True; cursor_last_tick=0; cursor_interval=10000; confirm=False; confirm_frame=-1; confirm_stored=0; confirm_visible=False; confirm_last_tick=0; held=True
+[ShipBoxReference] checkpoint: stage=reverse-extent; candidate=True; active=True; visible=False; start=1110,210; extent=-109,-109; phase=0; last_ms=93
+[ShipPointerReference] motion: counter=1; cell=16,2; world=1028,132; published=1028,132; frame=20; drawn=20; heading=5; state=0; pending_flags=0; active_flags=1024; reserved=-1; rng=12345; can_request=True
+[ShipPointerReference] visual_queue: stage=reverse-extent; nodes=2; source_depth=1020; base_renderers=34; confirm_late=True; cursor_gui=False
+[ShipPointerReference] visual: stage=reverse-extent; kind=selector; exists=True; visible=False; sprite=none; position=1026,130; order=45; sampling=Point
+[ShipPointerReference] visual: stage=reverse-extent; kind=health; exists=True; visible=False; sprite=HEALTH_100_60; position=0,0; order=44; sampling=Point
+[ShipPointerReference] visual: stage=reverse-extent; kind=confirm; exists=False; visible=False; sprite=none; position=0,0; order=47; sampling=Point
+[ShipPointerReference] visual: stage=reverse-extent; kind=cursor; exists=True; visible=True; sprite=CUR_STD_N00; position=424,100; order=32767; scale=2; sampling=Point
+[ShipPointerReference] queue: stage=reverse-extent; node=20; kind=separate_shadow; id=0000002a; part=0; depth=21000; order=10
+[ShipPointerReference] queue: stage=reverse-extent; node=18; kind=separate_shadow; id=00000029; part=0; depth=21000; order=11
+[ShipPointerReference] queue: stage=reverse-extent; node=16; kind=separate_shadow; id=00000028; part=0; depth=21000; order=12
+[ShipPointerReference] queue: stage=reverse-extent; node=14; kind=separate_shadow; id=00000027; part=0; depth=21000; order=13
+[ShipPointerReference] queue: stage=reverse-extent; node=11; kind=separate_shadow; id=00000010; part=0; depth=21000; order=14
+[ShipPointerReference] queue: stage=reverse-extent; node=9; kind=separate_shadow; id=0000000d; part=0; depth=21000; order=15
+[ShipPointerReference] queue: stage=reverse-extent; node=7; kind=separate_shadow; id=0000000c; part=0; depth=21000; order=16
+[ShipPointerReference] queue: stage=reverse-extent; node=5; kind=separate_shadow; id=0000000b; part=0; depth=21000; order=17
+[ShipPointerReference] queue: stage=reverse-extent; node=12; kind=reef; id=00000021; part=-1; depth=20200; order=18
+[ShipPointerReference] queue: stage=reverse-extent; node=3; kind=reef; id=0000000a; part=-1; depth=20200; order=19
+[ShipPointerReference] queue: stage=reverse-extent; node=2; kind=reef; id=00000009; part=-1; depth=20200; order=20
+[ShipPointerReference] queue: stage=reverse-extent; node=1; kind=reef; id=00000006; part=-1; depth=20200; order=21
+[ShipPointerReference] queue: stage=reverse-extent; node=0; kind=reef; id=00000005; part=-1; depth=20200; order=22
+[ShipPointerReference] queue: stage=reverse-extent; node=4; kind=inline_parent; id=0000000b; part=1; depth=19812; order=23
+[ShipPointerReference] queue: stage=reverse-extent; node=4; kind=inline_parent; id=0000000b; part=7; depth=19812; order=24
+[ShipPointerReference] queue: stage=reverse-extent; node=8; kind=inline_parent; id=0000000d; part=1; depth=19676; order=25
+[ShipPointerReference] queue: stage=reverse-extent; node=8; kind=inline_parent; id=0000000d; part=5; depth=19676; order=26
+[ShipPointerReference] queue: stage=reverse-extent; node=8; kind=inline_parent; id=0000000d; part=7; depth=19676; order=27
+[ShipPointerReference] queue: stage=reverse-extent; node=6; kind=inline_parent; id=0000000c; part=1; depth=19620; order=28
+[ShipPointerReference] queue: stage=reverse-extent; node=6; kind=inline_parent; id=0000000c; part=7; depth=19620; order=29
+[ShipPointerReference] queue: stage=reverse-extent; node=17; kind=inline_parent; id=00000029; part=1; depth=19100; order=30
+[ShipPointerReference] queue: stage=reverse-extent; node=17; kind=inline_parent; id=00000029; part=3; depth=19100; order=31
+[ShipPointerReference] queue: stage=reverse-extent; node=17; kind=inline_parent; id=00000029; part=7; depth=19100; order=32
+[ShipPointerReference] queue: stage=reverse-extent; node=19; kind=inline_parent; id=0000002a; part=1; depth=19036; order=33
+[ShipPointerReference] queue: stage=reverse-extent; node=19; kind=inline_parent; id=0000002a; part=3; depth=19036; order=34
+[ShipPointerReference] queue: stage=reverse-extent; node=19; kind=inline_parent; id=0000002a; part=7; depth=19036; order=35
+[ShipPointerReference] queue: stage=reverse-extent; node=10; kind=inline_parent; id=00000010; part=1; depth=18784; order=36
+[ShipPointerReference] queue: stage=reverse-extent; node=10; kind=inline_parent; id=00000010; part=7; depth=18784; order=37
+[ShipPointerReference] queue: stage=reverse-extent; node=13; kind=inline_parent; id=00000027; part=1; depth=18588; order=38
+[ShipPointerReference] queue: stage=reverse-extent; node=13; kind=inline_parent; id=00000027; part=3; depth=18588; order=39
+[ShipPointerReference] queue: stage=reverse-extent; node=13; kind=inline_parent; id=00000027; part=7; depth=18588; order=40
+[ShipPointerReference] queue: stage=reverse-extent; node=15; kind=inline_parent; id=00000028; part=1; depth=18524; order=41
+[ShipPointerReference] queue: stage=reverse-extent; node=15; kind=inline_parent; id=00000028; part=3; depth=18524; order=42
+[ShipPointerReference] queue: stage=reverse-extent; node=15; kind=inline_parent; id=00000028; part=7; depth=18524; order=43
+[ShipBoxReplay] stage: reverse-extent; counter=1; visual_ms=93
+[ShipPointerReference] motion: counter=2; cell=16,2; world=1028,132; published=1028,132; frame=20; drawn=20; heading=5; state=0; pending_flags=0; active_flags=1024; reserved=-1; rng=3554416254; can_request=True
+[ShipPointerReference] checkpoint: stage=visible-reverse; counter=2; visual_ms=184; selected=True; pending=True; ui_group=-1; simulation_group=-1; group_count=0; selection_visual_flag=1; selector_state=1; selector_exists=True; selector_frame=1; selector_drawn=0; selector_visible=True; selector_last_counter=2; health_visible=False; health_exists=True; cursor=0; cursor_frame=0; cursor_visible=True; cursor_last_tick=0; cursor_interval=10000; confirm=False; confirm_frame=-1; confirm_stored=0; confirm_visible=False; confirm_last_tick=0; held=True
+[ShipBoxReference] checkpoint: stage=visible-reverse; candidate=True; active=True; visible=True; start=1110,210; extent=-109,-109; phase=1; last_ms=184
+[ShipPointerReference] motion: counter=2; cell=16,2; world=1028,132; published=1028,132; frame=20; drawn=20; heading=5; state=0; pending_flags=0; active_flags=1024; reserved=-1; rng=3554416254; can_request=True
+[ShipPointerReference] visual_queue: stage=visible-reverse; nodes=2; source_depth=1020; base_renderers=34; confirm_late=True; cursor_gui=False
+[ShipPointerReference] visual: stage=visible-reverse; kind=selector; exists=True; visible=True; sprite=RAM_056X05600; position=1026,130; order=45; sampling=Point
+[ShipPointerReference] visual: stage=visible-reverse; kind=health; exists=True; visible=False; sprite=HEALTH_100_60; position=0,0; order=44; sampling=Point
+[ShipPointerReference] visual: stage=visible-reverse; kind=confirm; exists=False; visible=False; sprite=none; position=0,0; order=47; sampling=Point
+[ShipPointerReference] visual: stage=visible-reverse; kind=cursor; exists=True; visible=True; sprite=CUR_STD_N00; position=424,100; order=32767; scale=2; sampling=Point
+[ShipPointerReference] queue: stage=visible-reverse; node=20; kind=separate_shadow; id=0000002a; part=0; depth=21000; order=10
+[ShipPointerReference] queue: stage=visible-reverse; node=18; kind=separate_shadow; id=00000029; part=0; depth=21000; order=11
+[ShipPointerReference] queue: stage=visible-reverse; node=16; kind=separate_shadow; id=00000028; part=0; depth=21000; order=12
+[ShipPointerReference] queue: stage=visible-reverse; node=14; kind=separate_shadow; id=00000027; part=0; depth=21000; order=13
+[ShipPointerReference] queue: stage=visible-reverse; node=11; kind=separate_shadow; id=00000010; part=0; depth=21000; order=14
+[ShipPointerReference] queue: stage=visible-reverse; node=9; kind=separate_shadow; id=0000000d; part=0; depth=21000; order=15
+[ShipPointerReference] queue: stage=visible-reverse; node=7; kind=separate_shadow; id=0000000c; part=0; depth=21000; order=16
+[ShipPointerReference] queue: stage=visible-reverse; node=5; kind=separate_shadow; id=0000000b; part=0; depth=21000; order=17
+[ShipPointerReference] queue: stage=visible-reverse; node=12; kind=reef; id=00000021; part=-1; depth=20200; order=18
+[ShipPointerReference] queue: stage=visible-reverse; node=3; kind=reef; id=0000000a; part=-1; depth=20200; order=19
+[ShipPointerReference] queue: stage=visible-reverse; node=2; kind=reef; id=00000009; part=-1; depth=20200; order=20
+[ShipPointerReference] queue: stage=visible-reverse; node=1; kind=reef; id=00000006; part=-1; depth=20200; order=21
+[ShipPointerReference] queue: stage=visible-reverse; node=0; kind=reef; id=00000005; part=-1; depth=20200; order=22
+[ShipPointerReference] queue: stage=visible-reverse; node=4; kind=inline_parent; id=0000000b; part=1; depth=19812; order=23
+[ShipPointerReference] queue: stage=visible-reverse; node=4; kind=inline_parent; id=0000000b; part=7; depth=19812; order=24
+[ShipPointerReference] queue: stage=visible-reverse; node=8; kind=inline_parent; id=0000000d; part=1; depth=19676; order=25
+[ShipPointerReference] queue: stage=visible-reverse; node=8; kind=inline_parent; id=0000000d; part=5; depth=19676; order=26
+[ShipPointerReference] queue: stage=visible-reverse; node=8; kind=inline_parent; id=0000000d; part=7; depth=19676; order=27
+[ShipPointerReference] queue: stage=visible-reverse; node=6; kind=inline_parent; id=0000000c; part=1; depth=19620; order=28
+[ShipPointerReference] queue: stage=visible-reverse; node=6; kind=inline_parent; id=0000000c; part=7; depth=19620; order=29
+[ShipPointerReference] queue: stage=visible-reverse; node=17; kind=inline_parent; id=00000029; part=1; depth=19100; order=30
+[ShipPointerReference] queue: stage=visible-reverse; node=17; kind=inline_parent; id=00000029; part=3; depth=19100; order=31
+[ShipPointerReference] queue: stage=visible-reverse; node=17; kind=inline_parent; id=00000029; part=7; depth=19100; order=32
+[ShipPointerReference] queue: stage=visible-reverse; node=19; kind=inline_parent; id=0000002a; part=1; depth=19036; order=33
+[ShipPointerReference] queue: stage=visible-reverse; node=19; kind=inline_parent; id=0000002a; part=3; depth=19036; order=34
+[ShipPointerReference] queue: stage=visible-reverse; node=19; kind=inline_parent; id=0000002a; part=7; depth=19036; order=35
+[ShipPointerReference] queue: stage=visible-reverse; node=10; kind=inline_parent; id=00000010; part=1; depth=18784; order=36
+[ShipPointerReference] queue: stage=visible-reverse; node=10; kind=inline_parent; id=00000010; part=7; depth=18784; order=37
+[ShipPointerReference] queue: stage=visible-reverse; node=13; kind=inline_parent; id=00000027; part=1; depth=18588; order=38
+[ShipPointerReference] queue: stage=visible-reverse; node=13; kind=inline_parent; id=00000027; part=3; depth=18588; order=39
+[ShipPointerReference] queue: stage=visible-reverse; node=13; kind=inline_parent; id=00000027; part=7; depth=18588; order=40
+[ShipPointerReference] queue: stage=visible-reverse; node=15; kind=inline_parent; id=00000028; part=1; depth=18524; order=41
+[ShipPointerReference] queue: stage=visible-reverse; node=15; kind=inline_parent; id=00000028; part=3; depth=18524; order=42
+[ShipPointerReference] queue: stage=visible-reverse; node=15; kind=inline_parent; id=00000028; part=7; depth=18524; order=43
+[ShipBoxReplay] stage: visible-reverse; counter=2; visual_ms=184
+[ShipBoxReference] release: bounds=15,1,3,3; members=0000000b; outcome=selected-source0b
+[ShipPointerReference] event: index=18; counter=2; visual_ms=184; message=98; raw=848,200; logical=424,100; world=1000,100; cell=15,1; has_map=True; picked=none; cursor=0; selected=True; pending=True; ui_group=-1; simulation_group=-1; rng=3554416254; outcome=box-handled
+[ShipPointerReference] checkpoint: stage=reverse-selected; counter=2; visual_ms=184; selected=True; pending=True; ui_group=-1; simulation_group=-1; group_count=0; selection_visual_flag=1; selector_state=1; selector_exists=True; selector_frame=1; selector_drawn=0; selector_visible=True; selector_last_counter=2; health_visible=False; health_exists=True; cursor=0; cursor_frame=0; cursor_visible=True; cursor_last_tick=0; cursor_interval=10000; confirm=False; confirm_frame=-1; confirm_stored=0; confirm_visible=False; confirm_last_tick=0; held=True
+[ShipBoxReference] checkpoint: stage=reverse-selected; candidate=False; active=False; visible=False; start=1110,210; extent=0,0; phase=0; last_ms=0
+[ShipPointerReference] motion: counter=2; cell=16,2; world=1028,132; published=1028,132; frame=20; drawn=20; heading=5; state=0; pending_flags=0; active_flags=1024; reserved=-1; rng=3554416254; can_request=True
+[ShipPointerReference] visual_queue: stage=reverse-selected; nodes=2; source_depth=1020; base_renderers=34; confirm_late=True; cursor_gui=False
+[ShipPointerReference] visual: stage=reverse-selected; kind=selector; exists=True; visible=True; sprite=RAM_056X05600; position=1026,130; order=45; sampling=Point
+[ShipPointerReference] visual: stage=reverse-selected; kind=health; exists=True; visible=False; sprite=HEALTH_100_60; position=0,0; order=44; sampling=Point
+[ShipPointerReference] visual: stage=reverse-selected; kind=confirm; exists=False; visible=False; sprite=none; position=0,0; order=46; sampling=Point
+[ShipPointerReference] visual: stage=reverse-selected; kind=cursor; exists=True; visible=True; sprite=CUR_STD_N00; position=424,100; order=32767; scale=2; sampling=Point
+[ShipPointerReference] queue: stage=reverse-selected; node=20; kind=separate_shadow; id=0000002a; part=0; depth=21000; order=10
+[ShipPointerReference] queue: stage=reverse-selected; node=18; kind=separate_shadow; id=00000029; part=0; depth=21000; order=11
+[ShipPointerReference] queue: stage=reverse-selected; node=16; kind=separate_shadow; id=00000028; part=0; depth=21000; order=12
+[ShipPointerReference] queue: stage=reverse-selected; node=14; kind=separate_shadow; id=00000027; part=0; depth=21000; order=13
+[ShipPointerReference] queue: stage=reverse-selected; node=11; kind=separate_shadow; id=00000010; part=0; depth=21000; order=14
+[ShipPointerReference] queue: stage=reverse-selected; node=9; kind=separate_shadow; id=0000000d; part=0; depth=21000; order=15
+[ShipPointerReference] queue: stage=reverse-selected; node=7; kind=separate_shadow; id=0000000c; part=0; depth=21000; order=16
+[ShipPointerReference] queue: stage=reverse-selected; node=5; kind=separate_shadow; id=0000000b; part=0; depth=21000; order=17
+[ShipPointerReference] queue: stage=reverse-selected; node=12; kind=reef; id=00000021; part=-1; depth=20200; order=18
+[ShipPointerReference] queue: stage=reverse-selected; node=3; kind=reef; id=0000000a; part=-1; depth=20200; order=19
+[ShipPointerReference] queue: stage=reverse-selected; node=2; kind=reef; id=00000009; part=-1; depth=20200; order=20
+[ShipPointerReference] queue: stage=reverse-selected; node=1; kind=reef; id=00000006; part=-1; depth=20200; order=21
+[ShipPointerReference] queue: stage=reverse-selected; node=0; kind=reef; id=00000005; part=-1; depth=20200; order=22
+[ShipPointerReference] queue: stage=reverse-selected; node=4; kind=inline_parent; id=0000000b; part=1; depth=19812; order=23
+[ShipPointerReference] queue: stage=reverse-selected; node=4; kind=inline_parent; id=0000000b; part=7; depth=19812; order=24
+[ShipPointerReference] queue: stage=reverse-selected; node=8; kind=inline_parent; id=0000000d; part=1; depth=19676; order=25
+[ShipPointerReference] queue: stage=reverse-selected; node=8; kind=inline_parent; id=0000000d; part=5; depth=19676; order=26
+[ShipPointerReference] queue: stage=reverse-selected; node=8; kind=inline_parent; id=0000000d; part=7; depth=19676; order=27
+[ShipPointerReference] queue: stage=reverse-selected; node=6; kind=inline_parent; id=0000000c; part=1; depth=19620; order=28
+[ShipPointerReference] queue: stage=reverse-selected; node=6; kind=inline_parent; id=0000000c; part=7; depth=19620; order=29
+[ShipPointerReference] queue: stage=reverse-selected; node=17; kind=inline_parent; id=00000029; part=1; depth=19100; order=30
+[ShipPointerReference] queue: stage=reverse-selected; node=17; kind=inline_parent; id=00000029; part=3; depth=19100; order=31
+[ShipPointerReference] queue: stage=reverse-selected; node=17; kind=inline_parent; id=00000029; part=7; depth=19100; order=32
+[ShipPointerReference] queue: stage=reverse-selected; node=19; kind=inline_parent; id=0000002a; part=1; depth=19036; order=33
+[ShipPointerReference] queue: stage=reverse-selected; node=19; kind=inline_parent; id=0000002a; part=3; depth=19036; order=34
+[ShipPointerReference] queue: stage=reverse-selected; node=19; kind=inline_parent; id=0000002a; part=7; depth=19036; order=35
+[ShipPointerReference] queue: stage=reverse-selected; node=10; kind=inline_parent; id=00000010; part=1; depth=18784; order=36
+[ShipPointerReference] queue: stage=reverse-selected; node=10; kind=inline_parent; id=00000010; part=7; depth=18784; order=37
+[ShipPointerReference] queue: stage=reverse-selected; node=13; kind=inline_parent; id=00000027; part=1; depth=18588; order=38
+[ShipPointerReference] queue: stage=reverse-selected; node=13; kind=inline_parent; id=00000027; part=3; depth=18588; order=39
+[ShipPointerReference] queue: stage=reverse-selected; node=13; kind=inline_parent; id=00000027; part=7; depth=18588; order=40
+[ShipPointerReference] queue: stage=reverse-selected; node=15; kind=inline_parent; id=00000028; part=1; depth=18524; order=41
+[ShipPointerReference] queue: stage=reverse-selected; node=15; kind=inline_parent; id=00000028; part=3; depth=18524; order=42
+[ShipPointerReference] queue: stage=reverse-selected; node=15; kind=inline_parent; id=00000028; part=7; depth=18524; order=43
+[ShipBoxReplay] stage: reverse-selected; counter=2; visual_ms=184
+[ShipPointerReference] event: index=19; counter=2; visual_ms=184; message=96; raw=852,204; logical=426,102; world=1002,102; cell=15,1; has_map=True; picked=none; cursor=0; selected=True; pending=True; ui_group=-1; simulation_group=-1; rng=3554416254; outcome=handled
+[ShipPointerReference] event: index=20; counter=2; visual_ms=184; message=97; raw=852,204; logical=426,102; world=1002,102; cell=15,1; has_map=True; picked=none; cursor=0; selected=True; pending=True; ui_group=-1; simulation_group=-1; rng=3554416254; outcome=handled
+[ShipPointerReference] checkpoint: stage=fleet-down; counter=2; visual_ms=184; selected=True; pending=True; ui_group=-1; simulation_group=-1; group_count=0; selection_visual_flag=1; selector_state=1; selector_exists=True; selector_frame=1; selector_drawn=0; selector_visible=True; selector_last_counter=2; health_visible=False; health_exists=True; cursor=0; cursor_frame=0; cursor_visible=True; cursor_last_tick=0; cursor_interval=10000; confirm=False; confirm_frame=-1; confirm_stored=0; confirm_visible=False; confirm_last_tick=0; held=True
+[ShipBoxReference] checkpoint: stage=fleet-down; candidate=True; active=False; visible=False; start=1002,102; extent=0,0; phase=0; last_ms=0
+[ShipPointerReference] motion: counter=2; cell=16,2; world=1028,132; published=1028,132; frame=20; drawn=20; heading=5; state=0; pending_flags=0; active_flags=1024; reserved=-1; rng=3554416254; can_request=True
+[ShipPointerReference] visual_queue: stage=fleet-down; nodes=2; source_depth=1020; base_renderers=34; confirm_late=True; cursor_gui=False
+[ShipPointerReference] visual: stage=fleet-down; kind=selector; exists=True; visible=True; sprite=RAM_056X05600; position=1026,130; order=45; sampling=Point
+[ShipPointerReference] visual: stage=fleet-down; kind=health; exists=True; visible=False; sprite=HEALTH_100_60; position=0,0; order=44; sampling=Point
+[ShipPointerReference] visual: stage=fleet-down; kind=confirm; exists=False; visible=False; sprite=none; position=0,0; order=46; sampling=Point
+[ShipPointerReference] visual: stage=fleet-down; kind=cursor; exists=True; visible=True; sprite=CUR_STD_N00; position=426,102; order=32767; scale=2; sampling=Point
+[ShipPointerReference] queue: stage=fleet-down; node=20; kind=separate_shadow; id=0000002a; part=0; depth=21000; order=10
+[ShipPointerReference] queue: stage=fleet-down; node=18; kind=separate_shadow; id=00000029; part=0; depth=21000; order=11
+[ShipPointerReference] queue: stage=fleet-down; node=16; kind=separate_shadow; id=00000028; part=0; depth=21000; order=12
+[ShipPointerReference] queue: stage=fleet-down; node=14; kind=separate_shadow; id=00000027; part=0; depth=21000; order=13
+[ShipPointerReference] queue: stage=fleet-down; node=11; kind=separate_shadow; id=00000010; part=0; depth=21000; order=14
+[ShipPointerReference] queue: stage=fleet-down; node=9; kind=separate_shadow; id=0000000d; part=0; depth=21000; order=15
+[ShipPointerReference] queue: stage=fleet-down; node=7; kind=separate_shadow; id=0000000c; part=0; depth=21000; order=16
+[ShipPointerReference] queue: stage=fleet-down; node=5; kind=separate_shadow; id=0000000b; part=0; depth=21000; order=17
+[ShipPointerReference] queue: stage=fleet-down; node=12; kind=reef; id=00000021; part=-1; depth=20200; order=18
+[ShipPointerReference] queue: stage=fleet-down; node=3; kind=reef; id=0000000a; part=-1; depth=20200; order=19
+[ShipPointerReference] queue: stage=fleet-down; node=2; kind=reef; id=00000009; part=-1; depth=20200; order=20
+[ShipPointerReference] queue: stage=fleet-down; node=1; kind=reef; id=00000006; part=-1; depth=20200; order=21
+[ShipPointerReference] queue: stage=fleet-down; node=0; kind=reef; id=00000005; part=-1; depth=20200; order=22
+[ShipPointerReference] queue: stage=fleet-down; node=4; kind=inline_parent; id=0000000b; part=1; depth=19812; order=23
+[ShipPointerReference] queue: stage=fleet-down; node=4; kind=inline_parent; id=0000000b; part=7; depth=19812; order=24
+[ShipPointerReference] queue: stage=fleet-down; node=8; kind=inline_parent; id=0000000d; part=1; depth=19676; order=25
+[ShipPointerReference] queue: stage=fleet-down; node=8; kind=inline_parent; id=0000000d; part=5; depth=19676; order=26
+[ShipPointerReference] queue: stage=fleet-down; node=8; kind=inline_parent; id=0000000d; part=7; depth=19676; order=27
+[ShipPointerReference] queue: stage=fleet-down; node=6; kind=inline_parent; id=0000000c; part=1; depth=19620; order=28
+[ShipPointerReference] queue: stage=fleet-down; node=6; kind=inline_parent; id=0000000c; part=7; depth=19620; order=29
+[ShipPointerReference] queue: stage=fleet-down; node=17; kind=inline_parent; id=00000029; part=1; depth=19100; order=30
+[ShipPointerReference] queue: stage=fleet-down; node=17; kind=inline_parent; id=00000029; part=3; depth=19100; order=31
+[ShipPointerReference] queue: stage=fleet-down; node=17; kind=inline_parent; id=00000029; part=7; depth=19100; order=32
+[ShipPointerReference] queue: stage=fleet-down; node=19; kind=inline_parent; id=0000002a; part=1; depth=19036; order=33
+[ShipPointerReference] queue: stage=fleet-down; node=19; kind=inline_parent; id=0000002a; part=3; depth=19036; order=34
+[ShipPointerReference] queue: stage=fleet-down; node=19; kind=inline_parent; id=0000002a; part=7; depth=19036; order=35
+[ShipPointerReference] queue: stage=fleet-down; node=10; kind=inline_parent; id=00000010; part=1; depth=18784; order=36
+[ShipPointerReference] queue: stage=fleet-down; node=10; kind=inline_parent; id=00000010; part=7; depth=18784; order=37
+[ShipPointerReference] queue: stage=fleet-down; node=13; kind=inline_parent; id=00000027; part=1; depth=18588; order=38
+[ShipPointerReference] queue: stage=fleet-down; node=13; kind=inline_parent; id=00000027; part=3; depth=18588; order=39
+[ShipPointerReference] queue: stage=fleet-down; node=13; kind=inline_parent; id=00000027; part=7; depth=18588; order=40
+[ShipPointerReference] queue: stage=fleet-down; node=15; kind=inline_parent; id=00000028; part=1; depth=18524; order=41
+[ShipPointerReference] queue: stage=fleet-down; node=15; kind=inline_parent; id=00000028; part=3; depth=18524; order=42
+[ShipPointerReference] queue: stage=fleet-down; node=15; kind=inline_parent; id=00000028; part=7; depth=18524; order=43
+[ShipBoxReplay] stage: fleet-down; counter=2; visual_ms=184
+[ShipPointerReference] event: index=21; counter=2; visual_ms=184; message=96; raw=876,228; logical=438,114; world=1014,114; cell=15,1; has_map=True; picked=none; cursor=0; selected=True; pending=True; ui_group=-1; simulation_group=-1; rng=3554416254; outcome=handled
+[ShipPointerReference] checkpoint: stage=fleet-activate; counter=2; visual_ms=184; selected=True; pending=True; ui_group=-1; simulation_group=-1; group_count=0; selection_visual_flag=1; selector_state=1; selector_exists=True; selector_frame=1; selector_drawn=0; selector_visible=True; selector_last_counter=2; health_visible=False; health_exists=True; cursor=0; cursor_frame=0; cursor_visible=True; cursor_last_tick=0; cursor_interval=10000; confirm=False; confirm_frame=-1; confirm_stored=0; confirm_visible=False; confirm_last_tick=0; held=True
+[ShipBoxReference] checkpoint: stage=fleet-activate; candidate=True; active=True; visible=False; start=1002,102; extent=0,0; phase=0; last_ms=184
+[ShipPointerReference] motion: counter=2; cell=16,2; world=1028,132; published=1028,132; frame=20; drawn=20; heading=5; state=0; pending_flags=0; active_flags=1024; reserved=-1; rng=3554416254; can_request=True
+[ShipPointerReference] visual_queue: stage=fleet-activate; nodes=2; source_depth=1020; base_renderers=34; confirm_late=True; cursor_gui=False
+[ShipPointerReference] visual: stage=fleet-activate; kind=selector; exists=True; visible=True; sprite=RAM_056X05600; position=1026,130; order=45; sampling=Point
+[ShipPointerReference] visual: stage=fleet-activate; kind=health; exists=True; visible=False; sprite=HEALTH_100_60; position=0,0; order=44; sampling=Point
+[ShipPointerReference] visual: stage=fleet-activate; kind=confirm; exists=False; visible=False; sprite=none; position=0,0; order=47; sampling=Point
+[ShipPointerReference] visual: stage=fleet-activate; kind=cursor; exists=True; visible=True; sprite=CUR_STD_N00; position=438,114; order=32767; scale=2; sampling=Point
+[ShipPointerReference] queue: stage=fleet-activate; node=20; kind=separate_shadow; id=0000002a; part=0; depth=21000; order=10
+[ShipPointerReference] queue: stage=fleet-activate; node=18; kind=separate_shadow; id=00000029; part=0; depth=21000; order=11
+[ShipPointerReference] queue: stage=fleet-activate; node=16; kind=separate_shadow; id=00000028; part=0; depth=21000; order=12
+[ShipPointerReference] queue: stage=fleet-activate; node=14; kind=separate_shadow; id=00000027; part=0; depth=21000; order=13
+[ShipPointerReference] queue: stage=fleet-activate; node=11; kind=separate_shadow; id=00000010; part=0; depth=21000; order=14
+[ShipPointerReference] queue: stage=fleet-activate; node=9; kind=separate_shadow; id=0000000d; part=0; depth=21000; order=15
+[ShipPointerReference] queue: stage=fleet-activate; node=7; kind=separate_shadow; id=0000000c; part=0; depth=21000; order=16
+[ShipPointerReference] queue: stage=fleet-activate; node=5; kind=separate_shadow; id=0000000b; part=0; depth=21000; order=17
+[ShipPointerReference] queue: stage=fleet-activate; node=12; kind=reef; id=00000021; part=-1; depth=20200; order=18
+[ShipPointerReference] queue: stage=fleet-activate; node=3; kind=reef; id=0000000a; part=-1; depth=20200; order=19
+[ShipPointerReference] queue: stage=fleet-activate; node=2; kind=reef; id=00000009; part=-1; depth=20200; order=20
+[ShipPointerReference] queue: stage=fleet-activate; node=1; kind=reef; id=00000006; part=-1; depth=20200; order=21
+[ShipPointerReference] queue: stage=fleet-activate; node=0; kind=reef; id=00000005; part=-1; depth=20200; order=22
+[ShipPointerReference] queue: stage=fleet-activate; node=4; kind=inline_parent; id=0000000b; part=1; depth=19812; order=23
+[ShipPointerReference] queue: stage=fleet-activate; node=4; kind=inline_parent; id=0000000b; part=7; depth=19812; order=24
+[ShipPointerReference] queue: stage=fleet-activate; node=8; kind=inline_parent; id=0000000d; part=1; depth=19676; order=25
+[ShipPointerReference] queue: stage=fleet-activate; node=8; kind=inline_parent; id=0000000d; part=5; depth=19676; order=26
+[ShipPointerReference] queue: stage=fleet-activate; node=8; kind=inline_parent; id=0000000d; part=7; depth=19676; order=27
+[ShipPointerReference] queue: stage=fleet-activate; node=6; kind=inline_parent; id=0000000c; part=1; depth=19620; order=28
+[ShipPointerReference] queue: stage=fleet-activate; node=6; kind=inline_parent; id=0000000c; part=7; depth=19620; order=29
+[ShipPointerReference] queue: stage=fleet-activate; node=17; kind=inline_parent; id=00000029; part=1; depth=19100; order=30
+[ShipPointerReference] queue: stage=fleet-activate; node=17; kind=inline_parent; id=00000029; part=3; depth=19100; order=31
+[ShipPointerReference] queue: stage=fleet-activate; node=17; kind=inline_parent; id=00000029; part=7; depth=19100; order=32
+[ShipPointerReference] queue: stage=fleet-activate; node=19; kind=inline_parent; id=0000002a; part=1; depth=19036; order=33
+[ShipPointerReference] queue: stage=fleet-activate; node=19; kind=inline_parent; id=0000002a; part=3; depth=19036; order=34
+[ShipPointerReference] queue: stage=fleet-activate; node=19; kind=inline_parent; id=0000002a; part=7; depth=19036; order=35
+[ShipPointerReference] queue: stage=fleet-activate; node=10; kind=inline_parent; id=00000010; part=1; depth=18784; order=36
+[ShipPointerReference] queue: stage=fleet-activate; node=10; kind=inline_parent; id=00000010; part=7; depth=18784; order=37
+[ShipPointerReference] queue: stage=fleet-activate; node=13; kind=inline_parent; id=00000027; part=1; depth=18588; order=38
+[ShipPointerReference] queue: stage=fleet-activate; node=13; kind=inline_parent; id=00000027; part=3; depth=18588; order=39
+[ShipPointerReference] queue: stage=fleet-activate; node=13; kind=inline_parent; id=00000027; part=7; depth=18588; order=40
+[ShipPointerReference] queue: stage=fleet-activate; node=15; kind=inline_parent; id=00000028; part=1; depth=18524; order=41
+[ShipPointerReference] queue: stage=fleet-activate; node=15; kind=inline_parent; id=00000028; part=3; depth=18524; order=42
+[ShipPointerReference] queue: stage=fleet-activate; node=15; kind=inline_parent; id=00000028; part=7; depth=18524; order=43
+[ShipBoxReplay] stage: fleet-activate; counter=2; visual_ms=184
+[ShipPointerReference] event: index=22; counter=2; visual_ms=184; message=96; raw=1848,1000; logical=924,500; world=1500,500; cell=23,7; has_map=True; picked=none; cursor=7; selected=True; pending=True; ui_group=-1; simulation_group=-1; rng=3554416254; outcome=handled
+[ShipPointerReference] checkpoint: stage=fleet-extent; counter=2; visual_ms=184; selected=True; pending=True; ui_group=-1; simulation_group=-1; group_count=0; selection_visual_flag=1; selector_state=1; selector_exists=True; selector_frame=1; selector_drawn=0; selector_visible=True; selector_last_counter=2; health_visible=False; health_exists=True; cursor=7; cursor_frame=1; cursor_visible=True; cursor_last_tick=184; cursor_interval=150; confirm=False; confirm_frame=-1; confirm_stored=0; confirm_visible=False; confirm_last_tick=0; held=True
+[ShipBoxReference] checkpoint: stage=fleet-extent; candidate=True; active=True; visible=False; start=1002,102; extent=499,399; phase=0; last_ms=184
+[ShipPointerReference] motion: counter=2; cell=16,2; world=1028,132; published=1028,132; frame=20; drawn=20; heading=5; state=0; pending_flags=0; active_flags=1024; reserved=-1; rng=3554416254; can_request=True
+[ShipPointerReference] visual_queue: stage=fleet-extent; nodes=2; source_depth=1020; base_renderers=34; confirm_late=True; cursor_gui=False
+[ShipPointerReference] visual: stage=fleet-extent; kind=selector; exists=True; visible=True; sprite=RAM_056X05600; position=1026,130; order=45; sampling=Point
+[ShipPointerReference] visual: stage=fleet-extent; kind=health; exists=True; visible=False; sprite=HEALTH_100_60; position=0,0; order=44; sampling=Point
+[ShipPointerReference] visual: stage=fleet-extent; kind=confirm; exists=False; visible=False; sprite=none; position=0,0; order=47; sampling=Point
+[ShipPointerReference] visual: stage=fleet-extent; kind=cursor; exists=True; visible=True; sprite=CUR_SEA_N01; position=906,483; order=32767; scale=2; sampling=Point
+[ShipPointerReference] queue: stage=fleet-extent; node=20; kind=separate_shadow; id=0000002a; part=0; depth=21000; order=10
+[ShipPointerReference] queue: stage=fleet-extent; node=18; kind=separate_shadow; id=00000029; part=0; depth=21000; order=11
+[ShipPointerReference] queue: stage=fleet-extent; node=16; kind=separate_shadow; id=00000028; part=0; depth=21000; order=12
+[ShipPointerReference] queue: stage=fleet-extent; node=14; kind=separate_shadow; id=00000027; part=0; depth=21000; order=13
+[ShipPointerReference] queue: stage=fleet-extent; node=11; kind=separate_shadow; id=00000010; part=0; depth=21000; order=14
+[ShipPointerReference] queue: stage=fleet-extent; node=9; kind=separate_shadow; id=0000000d; part=0; depth=21000; order=15
+[ShipPointerReference] queue: stage=fleet-extent; node=7; kind=separate_shadow; id=0000000c; part=0; depth=21000; order=16
+[ShipPointerReference] queue: stage=fleet-extent; node=5; kind=separate_shadow; id=0000000b; part=0; depth=21000; order=17
+[ShipPointerReference] queue: stage=fleet-extent; node=12; kind=reef; id=00000021; part=-1; depth=20200; order=18
+[ShipPointerReference] queue: stage=fleet-extent; node=3; kind=reef; id=0000000a; part=-1; depth=20200; order=19
+[ShipPointerReference] queue: stage=fleet-extent; node=2; kind=reef; id=00000009; part=-1; depth=20200; order=20
+[ShipPointerReference] queue: stage=fleet-extent; node=1; kind=reef; id=00000006; part=-1; depth=20200; order=21
+[ShipPointerReference] queue: stage=fleet-extent; node=0; kind=reef; id=00000005; part=-1; depth=20200; order=22
+[ShipPointerReference] queue: stage=fleet-extent; node=4; kind=inline_parent; id=0000000b; part=1; depth=19812; order=23
+[ShipPointerReference] queue: stage=fleet-extent; node=4; kind=inline_parent; id=0000000b; part=7; depth=19812; order=24
+[ShipPointerReference] queue: stage=fleet-extent; node=8; kind=inline_parent; id=0000000d; part=1; depth=19676; order=25
+[ShipPointerReference] queue: stage=fleet-extent; node=8; kind=inline_parent; id=0000000d; part=5; depth=19676; order=26
+[ShipPointerReference] queue: stage=fleet-extent; node=8; kind=inline_parent; id=0000000d; part=7; depth=19676; order=27
+[ShipPointerReference] queue: stage=fleet-extent; node=6; kind=inline_parent; id=0000000c; part=1; depth=19620; order=28
+[ShipPointerReference] queue: stage=fleet-extent; node=6; kind=inline_parent; id=0000000c; part=7; depth=19620; order=29
+[ShipPointerReference] queue: stage=fleet-extent; node=17; kind=inline_parent; id=00000029; part=1; depth=19100; order=30
+[ShipPointerReference] queue: stage=fleet-extent; node=17; kind=inline_parent; id=00000029; part=3; depth=19100; order=31
+[ShipPointerReference] queue: stage=fleet-extent; node=17; kind=inline_parent; id=00000029; part=7; depth=19100; order=32
+[ShipPointerReference] queue: stage=fleet-extent; node=19; kind=inline_parent; id=0000002a; part=1; depth=19036; order=33
+[ShipPointerReference] queue: stage=fleet-extent; node=19; kind=inline_parent; id=0000002a; part=3; depth=19036; order=34
+[ShipPointerReference] queue: stage=fleet-extent; node=19; kind=inline_parent; id=0000002a; part=7; depth=19036; order=35
+[ShipPointerReference] queue: stage=fleet-extent; node=10; kind=inline_parent; id=00000010; part=1; depth=18784; order=36
+[ShipPointerReference] queue: stage=fleet-extent; node=10; kind=inline_parent; id=00000010; part=7; depth=18784; order=37
+[ShipPointerReference] queue: stage=fleet-extent; node=13; kind=inline_parent; id=00000027; part=1; depth=18588; order=38
+[ShipPointerReference] queue: stage=fleet-extent; node=13; kind=inline_parent; id=00000027; part=3; depth=18588; order=39
+[ShipPointerReference] queue: stage=fleet-extent; node=13; kind=inline_parent; id=00000027; part=7; depth=18588; order=40
+[ShipPointerReference] queue: stage=fleet-extent; node=15; kind=inline_parent; id=00000028; part=1; depth=18524; order=41
+[ShipPointerReference] queue: stage=fleet-extent; node=15; kind=inline_parent; id=00000028; part=3; depth=18524; order=42
+[ShipPointerReference] queue: stage=fleet-extent; node=15; kind=inline_parent; id=00000028; part=7; depth=18524; order=43
+[ShipBoxReplay] stage: fleet-extent; counter=2; visual_ms=184
+[ShipBoxReference] release: bounds=15,1,9,7; members=0000000b,0000000d,0000000c; outcome=unsupported-fleet-set
+[ShipPointerReference] event: index=23; counter=2; visual_ms=184; message=98; raw=1848,1000; logical=924,500; world=1500,500; cell=23,7; has_map=True; picked=none; cursor=7; selected=True; pending=True; ui_group=-1; simulation_group=-1; rng=3554416254; outcome=box-handled
+[ShipPointerReference] checkpoint: stage=fleet-guarded; counter=2; visual_ms=184; selected=True; pending=True; ui_group=-1; simulation_group=-1; group_count=0; selection_visual_flag=1; selector_state=1; selector_exists=True; selector_frame=1; selector_drawn=0; selector_visible=True; selector_last_counter=2; health_visible=False; health_exists=True; cursor=7; cursor_frame=1; cursor_visible=True; cursor_last_tick=184; cursor_interval=150; confirm=False; confirm_frame=-1; confirm_stored=0; confirm_visible=False; confirm_last_tick=0; held=True
+[ShipBoxReference] checkpoint: stage=fleet-guarded; candidate=False; active=False; visible=False; start=1002,102; extent=0,0; phase=0; last_ms=0
+[ShipPointerReference] motion: counter=2; cell=16,2; world=1028,132; published=1028,132; frame=20; drawn=20; heading=5; state=0; pending_flags=0; active_flags=1024; reserved=-1; rng=3554416254; can_request=True
+[ShipPointerReference] visual_queue: stage=fleet-guarded; nodes=2; source_depth=1020; base_renderers=34; confirm_late=True; cursor_gui=False
+[ShipPointerReference] visual: stage=fleet-guarded; kind=selector; exists=True; visible=True; sprite=RAM_056X05600; position=1026,130; order=45; sampling=Point
+[ShipPointerReference] visual: stage=fleet-guarded; kind=health; exists=True; visible=False; sprite=HEALTH_100_60; position=0,0; order=44; sampling=Point
+[ShipPointerReference] visual: stage=fleet-guarded; kind=confirm; exists=False; visible=False; sprite=none; position=0,0; order=46; sampling=Point
+[ShipPointerReference] visual: stage=fleet-guarded; kind=cursor; exists=True; visible=True; sprite=CUR_SEA_N01; position=906,483; order=32767; scale=2; sampling=Point
+[ShipPointerReference] queue: stage=fleet-guarded; node=20; kind=separate_shadow; id=0000002a; part=0; depth=21000; order=10
+[ShipPointerReference] queue: stage=fleet-guarded; node=18; kind=separate_shadow; id=00000029; part=0; depth=21000; order=11
+[ShipPointerReference] queue: stage=fleet-guarded; node=16; kind=separate_shadow; id=00000028; part=0; depth=21000; order=12
+[ShipPointerReference] queue: stage=fleet-guarded; node=14; kind=separate_shadow; id=00000027; part=0; depth=21000; order=13
+[ShipPointerReference] queue: stage=fleet-guarded; node=11; kind=separate_shadow; id=00000010; part=0; depth=21000; order=14
+[ShipPointerReference] queue: stage=fleet-guarded; node=9; kind=separate_shadow; id=0000000d; part=0; depth=21000; order=15
+[ShipPointerReference] queue: stage=fleet-guarded; node=7; kind=separate_shadow; id=0000000c; part=0; depth=21000; order=16
+[ShipPointerReference] queue: stage=fleet-guarded; node=5; kind=separate_shadow; id=0000000b; part=0; depth=21000; order=17
+[ShipPointerReference] queue: stage=fleet-guarded; node=12; kind=reef; id=00000021; part=-1; depth=20200; order=18
+[ShipPointerReference] queue: stage=fleet-guarded; node=3; kind=reef; id=0000000a; part=-1; depth=20200; order=19
+[ShipPointerReference] queue: stage=fleet-guarded; node=2; kind=reef; id=00000009; part=-1; depth=20200; order=20
+[ShipPointerReference] queue: stage=fleet-guarded; node=1; kind=reef; id=00000006; part=-1; depth=20200; order=21
+[ShipPointerReference] queue: stage=fleet-guarded; node=0; kind=reef; id=00000005; part=-1; depth=20200; order=22
+[ShipPointerReference] queue: stage=fleet-guarded; node=4; kind=inline_parent; id=0000000b; part=1; depth=19812; order=23
+[ShipPointerReference] queue: stage=fleet-guarded; node=4; kind=inline_parent; id=0000000b; part=7; depth=19812; order=24
+[ShipPointerReference] queue: stage=fleet-guarded; node=8; kind=inline_parent; id=0000000d; part=1; depth=19676; order=25
+[ShipPointerReference] queue: stage=fleet-guarded; node=8; kind=inline_parent; id=0000000d; part=5; depth=19676; order=26
+[ShipPointerReference] queue: stage=fleet-guarded; node=8; kind=inline_parent; id=0000000d; part=7; depth=19676; order=27
+[ShipPointerReference] queue: stage=fleet-guarded; node=6; kind=inline_parent; id=0000000c; part=1; depth=19620; order=28
+[ShipPointerReference] queue: stage=fleet-guarded; node=6; kind=inline_parent; id=0000000c; part=7; depth=19620; order=29
+[ShipPointerReference] queue: stage=fleet-guarded; node=17; kind=inline_parent; id=00000029; part=1; depth=19100; order=30
+[ShipPointerReference] queue: stage=fleet-guarded; node=17; kind=inline_parent; id=00000029; part=3; depth=19100; order=31
+[ShipPointerReference] queue: stage=fleet-guarded; node=17; kind=inline_parent; id=00000029; part=7; depth=19100; order=32
+[ShipPointerReference] queue: stage=fleet-guarded; node=19; kind=inline_parent; id=0000002a; part=1; depth=19036; order=33
+[ShipPointerReference] queue: stage=fleet-guarded; node=19; kind=inline_parent; id=0000002a; part=3; depth=19036; order=34
+[ShipPointerReference] queue: stage=fleet-guarded; node=19; kind=inline_parent; id=0000002a; part=7; depth=19036; order=35
+[ShipPointerReference] queue: stage=fleet-guarded; node=10; kind=inline_parent; id=00000010; part=1; depth=18784; order=36
+[ShipPointerReference] queue: stage=fleet-guarded; node=10; kind=inline_parent; id=00000010; part=7; depth=18784; order=37
+[ShipPointerReference] queue: stage=fleet-guarded; node=13; kind=inline_parent; id=00000027; part=1; depth=18588; order=38
+[ShipPointerReference] queue: stage=fleet-guarded; node=13; kind=inline_parent; id=00000027; part=3; depth=18588; order=39
+[ShipPointerReference] queue: stage=fleet-guarded; node=13; kind=inline_parent; id=00000027; part=7; depth=18588; order=40
+[ShipPointerReference] queue: stage=fleet-guarded; node=15; kind=inline_parent; id=00000028; part=1; depth=18524; order=41
+[ShipPointerReference] queue: stage=fleet-guarded; node=15; kind=inline_parent; id=00000028; part=3; depth=18524; order=42
+[ShipPointerReference] queue: stage=fleet-guarded; node=15; kind=inline_parent; id=00000028; part=7; depth=18524; order=43
+[ShipBoxReplay] stage: fleet-guarded; counter=2; visual_ms=184
+[ShipPointerReference] event: index=24; counter=2; visual_ms=184; message=96; raw=448,600; logical=224,300; world=800,300; cell=12,4; has_map=True; picked=none; cursor=7; selected=True; pending=True; ui_group=-1; simulation_group=-1; rng=3554416254; outcome=handled
+[ShipPointerReference] event: index=25; counter=2; visual_ms=184; message=97; raw=448,600; logical=224,300; world=800,300; cell=12,4; has_map=True; picked=none; cursor=7; selected=True; pending=True; ui_group=-1; simulation_group=-1; rng=3554416254; outcome=handled
+[ShipPointerReference] checkpoint: stage=cancel-down; counter=2; visual_ms=184; selected=True; pending=True; ui_group=-1; simulation_group=-1; group_count=0; selection_visual_flag=1; selector_state=1; selector_exists=True; selector_frame=1; selector_drawn=0; selector_visible=True; selector_last_counter=2; health_visible=False; health_exists=True; cursor=7; cursor_frame=1; cursor_visible=True; cursor_last_tick=184; cursor_interval=150; confirm=False; confirm_frame=-1; confirm_stored=0; confirm_visible=False; confirm_last_tick=0; held=True
+[ShipBoxReference] checkpoint: stage=cancel-down; candidate=True; active=False; visible=False; start=800,300; extent=0,0; phase=0; last_ms=0
+[ShipPointerReference] motion: counter=2; cell=16,2; world=1028,132; published=1028,132; frame=20; drawn=20; heading=5; state=0; pending_flags=0; active_flags=1024; reserved=-1; rng=3554416254; can_request=True
+[ShipPointerReference] visual_queue: stage=cancel-down; nodes=2; source_depth=1020; base_renderers=34; confirm_late=True; cursor_gui=False
+[ShipPointerReference] visual: stage=cancel-down; kind=selector; exists=True; visible=True; sprite=RAM_056X05600; position=1026,130; order=45; sampling=Point
+[ShipPointerReference] visual: stage=cancel-down; kind=health; exists=True; visible=False; sprite=HEALTH_100_60; position=0,0; order=44; sampling=Point
+[ShipPointerReference] visual: stage=cancel-down; kind=confirm; exists=False; visible=False; sprite=none; position=0,0; order=46; sampling=Point
+[ShipPointerReference] visual: stage=cancel-down; kind=cursor; exists=True; visible=True; sprite=CUR_SEA_N01; position=206,283; order=32767; scale=2; sampling=Point
+[ShipPointerReference] queue: stage=cancel-down; node=20; kind=separate_shadow; id=0000002a; part=0; depth=21000; order=10
+[ShipPointerReference] queue: stage=cancel-down; node=18; kind=separate_shadow; id=00000029; part=0; depth=21000; order=11
+[ShipPointerReference] queue: stage=cancel-down; node=16; kind=separate_shadow; id=00000028; part=0; depth=21000; order=12
+[ShipPointerReference] queue: stage=cancel-down; node=14; kind=separate_shadow; id=00000027; part=0; depth=21000; order=13
+[ShipPointerReference] queue: stage=cancel-down; node=11; kind=separate_shadow; id=00000010; part=0; depth=21000; order=14
+[ShipPointerReference] queue: stage=cancel-down; node=9; kind=separate_shadow; id=0000000d; part=0; depth=21000; order=15
+[ShipPointerReference] queue: stage=cancel-down; node=7; kind=separate_shadow; id=0000000c; part=0; depth=21000; order=16
+[ShipPointerReference] queue: stage=cancel-down; node=5; kind=separate_shadow; id=0000000b; part=0; depth=21000; order=17
+[ShipPointerReference] queue: stage=cancel-down; node=12; kind=reef; id=00000021; part=-1; depth=20200; order=18
+[ShipPointerReference] queue: stage=cancel-down; node=3; kind=reef; id=0000000a; part=-1; depth=20200; order=19
+[ShipPointerReference] queue: stage=cancel-down; node=2; kind=reef; id=00000009; part=-1; depth=20200; order=20
+[ShipPointerReference] queue: stage=cancel-down; node=1; kind=reef; id=00000006; part=-1; depth=20200; order=21
+[ShipPointerReference] queue: stage=cancel-down; node=0; kind=reef; id=00000005; part=-1; depth=20200; order=22
+[ShipPointerReference] queue: stage=cancel-down; node=4; kind=inline_parent; id=0000000b; part=1; depth=19812; order=23
+[ShipPointerReference] queue: stage=cancel-down; node=4; kind=inline_parent; id=0000000b; part=7; depth=19812; order=24
+[ShipPointerReference] queue: stage=cancel-down; node=8; kind=inline_parent; id=0000000d; part=1; depth=19676; order=25
+[ShipPointerReference] queue: stage=cancel-down; node=8; kind=inline_parent; id=0000000d; part=5; depth=19676; order=26
+[ShipPointerReference] queue: stage=cancel-down; node=8; kind=inline_parent; id=0000000d; part=7; depth=19676; order=27
+[ShipPointerReference] queue: stage=cancel-down; node=6; kind=inline_parent; id=0000000c; part=1; depth=19620; order=28
+[ShipPointerReference] queue: stage=cancel-down; node=6; kind=inline_parent; id=0000000c; part=7; depth=19620; order=29
+[ShipPointerReference] queue: stage=cancel-down; node=17; kind=inline_parent; id=00000029; part=1; depth=19100; order=30
+[ShipPointerReference] queue: stage=cancel-down; node=17; kind=inline_parent; id=00000029; part=3; depth=19100; order=31
+[ShipPointerReference] queue: stage=cancel-down; node=17; kind=inline_parent; id=00000029; part=7; depth=19100; order=32
+[ShipPointerReference] queue: stage=cancel-down; node=19; kind=inline_parent; id=0000002a; part=1; depth=19036; order=33
+[ShipPointerReference] queue: stage=cancel-down; node=19; kind=inline_parent; id=0000002a; part=3; depth=19036; order=34
+[ShipPointerReference] queue: stage=cancel-down; node=19; kind=inline_parent; id=0000002a; part=7; depth=19036; order=35
+[ShipPointerReference] queue: stage=cancel-down; node=10; kind=inline_parent; id=00000010; part=1; depth=18784; order=36
+[ShipPointerReference] queue: stage=cancel-down; node=10; kind=inline_parent; id=00000010; part=7; depth=18784; order=37
+[ShipPointerReference] queue: stage=cancel-down; node=13; kind=inline_parent; id=00000027; part=1; depth=18588; order=38
+[ShipPointerReference] queue: stage=cancel-down; node=13; kind=inline_parent; id=00000027; part=3; depth=18588; order=39
+[ShipPointerReference] queue: stage=cancel-down; node=13; kind=inline_parent; id=00000027; part=7; depth=18588; order=40
+[ShipPointerReference] queue: stage=cancel-down; node=15; kind=inline_parent; id=00000028; part=1; depth=18524; order=41
+[ShipPointerReference] queue: stage=cancel-down; node=15; kind=inline_parent; id=00000028; part=3; depth=18524; order=42
+[ShipPointerReference] queue: stage=cancel-down; node=15; kind=inline_parent; id=00000028; part=7; depth=18524; order=43
+[ShipBoxReplay] stage: cancel-down; counter=2; visual_ms=184
+[ShipPointerReference] event: index=26; counter=2; visual_ms=184; message=96; raw=488,640; logical=244,320; world=820,320; cell=12,5; has_map=True; picked=none; cursor=7; selected=True; pending=True; ui_group=-1; simulation_group=-1; rng=3554416254; outcome=handled
+[ShipPointerReference] checkpoint: stage=cancel-active; counter=2; visual_ms=184; selected=True; pending=True; ui_group=-1; simulation_group=-1; group_count=0; selection_visual_flag=1; selector_state=1; selector_exists=True; selector_frame=1; selector_drawn=0; selector_visible=True; selector_last_counter=2; health_visible=False; health_exists=True; cursor=7; cursor_frame=1; cursor_visible=True; cursor_last_tick=184; cursor_interval=150; confirm=False; confirm_frame=-1; confirm_stored=0; confirm_visible=False; confirm_last_tick=0; held=True
+[ShipBoxReference] checkpoint: stage=cancel-active; candidate=True; active=True; visible=False; start=800,300; extent=0,0; phase=0; last_ms=184
+[ShipPointerReference] motion: counter=2; cell=16,2; world=1028,132; published=1028,132; frame=20; drawn=20; heading=5; state=0; pending_flags=0; active_flags=1024; reserved=-1; rng=3554416254; can_request=True
+[ShipPointerReference] visual_queue: stage=cancel-active; nodes=2; source_depth=1020; base_renderers=34; confirm_late=True; cursor_gui=False
+[ShipPointerReference] visual: stage=cancel-active; kind=selector; exists=True; visible=True; sprite=RAM_056X05600; position=1026,130; order=45; sampling=Point
+[ShipPointerReference] visual: stage=cancel-active; kind=health; exists=True; visible=False; sprite=HEALTH_100_60; position=0,0; order=44; sampling=Point
+[ShipPointerReference] visual: stage=cancel-active; kind=confirm; exists=False; visible=False; sprite=none; position=0,0; order=47; sampling=Point
+[ShipPointerReference] visual: stage=cancel-active; kind=cursor; exists=True; visible=True; sprite=CUR_SEA_N01; position=226,303; order=32767; scale=2; sampling=Point
+[ShipPointerReference] queue: stage=cancel-active; node=20; kind=separate_shadow; id=0000002a; part=0; depth=21000; order=10
+[ShipPointerReference] queue: stage=cancel-active; node=18; kind=separate_shadow; id=00000029; part=0; depth=21000; order=11
+[ShipPointerReference] queue: stage=cancel-active; node=16; kind=separate_shadow; id=00000028; part=0; depth=21000; order=12
+[ShipPointerReference] queue: stage=cancel-active; node=14; kind=separate_shadow; id=00000027; part=0; depth=21000; order=13
+[ShipPointerReference] queue: stage=cancel-active; node=11; kind=separate_shadow; id=00000010; part=0; depth=21000; order=14
+[ShipPointerReference] queue: stage=cancel-active; node=9; kind=separate_shadow; id=0000000d; part=0; depth=21000; order=15
+[ShipPointerReference] queue: stage=cancel-active; node=7; kind=separate_shadow; id=0000000c; part=0; depth=21000; order=16
+[ShipPointerReference] queue: stage=cancel-active; node=5; kind=separate_shadow; id=0000000b; part=0; depth=21000; order=17
+[ShipPointerReference] queue: stage=cancel-active; node=12; kind=reef; id=00000021; part=-1; depth=20200; order=18
+[ShipPointerReference] queue: stage=cancel-active; node=3; kind=reef; id=0000000a; part=-1; depth=20200; order=19
+[ShipPointerReference] queue: stage=cancel-active; node=2; kind=reef; id=00000009; part=-1; depth=20200; order=20
+[ShipPointerReference] queue: stage=cancel-active; node=1; kind=reef; id=00000006; part=-1; depth=20200; order=21
+[ShipPointerReference] queue: stage=cancel-active; node=0; kind=reef; id=00000005; part=-1; depth=20200; order=22
+[ShipPointerReference] queue: stage=cancel-active; node=4; kind=inline_parent; id=0000000b; part=1; depth=19812; order=23
+[ShipPointerReference] queue: stage=cancel-active; node=4; kind=inline_parent; id=0000000b; part=7; depth=19812; order=24
+[ShipPointerReference] queue: stage=cancel-active; node=8; kind=inline_parent; id=0000000d; part=1; depth=19676; order=25
+[ShipPointerReference] queue: stage=cancel-active; node=8; kind=inline_parent; id=0000000d; part=5; depth=19676; order=26
+[ShipPointerReference] queue: stage=cancel-active; node=8; kind=inline_parent; id=0000000d; part=7; depth=19676; order=27
+[ShipPointerReference] queue: stage=cancel-active; node=6; kind=inline_parent; id=0000000c; part=1; depth=19620; order=28
+[ShipPointerReference] queue: stage=cancel-active; node=6; kind=inline_parent; id=0000000c; part=7; depth=19620; order=29
+[ShipPointerReference] queue: stage=cancel-active; node=17; kind=inline_parent; id=00000029; part=1; depth=19100; order=30
+[ShipPointerReference] queue: stage=cancel-active; node=17; kind=inline_parent; id=00000029; part=3; depth=19100; order=31
+[ShipPointerReference] queue: stage=cancel-active; node=17; kind=inline_parent; id=00000029; part=7; depth=19100; order=32
+[ShipPointerReference] queue: stage=cancel-active; node=19; kind=inline_parent; id=0000002a; part=1; depth=19036; order=33
+[ShipPointerReference] queue: stage=cancel-active; node=19; kind=inline_parent; id=0000002a; part=3; depth=19036; order=34
+[ShipPointerReference] queue: stage=cancel-active; node=19; kind=inline_parent; id=0000002a; part=7; depth=19036; order=35
+[ShipPointerReference] queue: stage=cancel-active; node=10; kind=inline_parent; id=00000010; part=1; depth=18784; order=36
+[ShipPointerReference] queue: stage=cancel-active; node=10; kind=inline_parent; id=00000010; part=7; depth=18784; order=37
+[ShipPointerReference] queue: stage=cancel-active; node=13; kind=inline_parent; id=00000027; part=1; depth=18588; order=38
+[ShipPointerReference] queue: stage=cancel-active; node=13; kind=inline_parent; id=00000027; part=3; depth=18588; order=39
+[ShipPointerReference] queue: stage=cancel-active; node=13; kind=inline_parent; id=00000027; part=7; depth=18588; order=40
+[ShipPointerReference] queue: stage=cancel-active; node=15; kind=inline_parent; id=00000028; part=1; depth=18524; order=41
+[ShipPointerReference] queue: stage=cancel-active; node=15; kind=inline_parent; id=00000028; part=3; depth=18524; order=42
+[ShipPointerReference] queue: stage=cancel-active; node=15; kind=inline_parent; id=00000028; part=7; depth=18524; order=43
+[ShipBoxReplay] stage: cancel-active; counter=2; visual_ms=184
+[ShipPointerReference] cancel: counter=2; selected=True; synthesized_up=False
+[ShipPointerReference] checkpoint: stage=device-cancelled; counter=2; visual_ms=184; selected=True; pending=True; ui_group=-1; simulation_group=-1; group_count=0; selection_visual_flag=1; selector_state=1; selector_exists=True; selector_frame=1; selector_drawn=0; selector_visible=True; selector_last_counter=2; health_visible=False; health_exists=True; cursor=0; cursor_frame=0; cursor_visible=True; cursor_last_tick=184; cursor_interval=10000; confirm=False; confirm_frame=-1; confirm_stored=0; confirm_visible=False; confirm_last_tick=0; held=True
+[ShipBoxReference] checkpoint: stage=device-cancelled; candidate=False; active=False; visible=False; start=800,300; extent=0,0; phase=0; last_ms=0
+[ShipPointerReference] motion: counter=2; cell=16,2; world=1028,132; published=1028,132; frame=20; drawn=20; heading=5; state=0; pending_flags=0; active_flags=1024; reserved=-1; rng=3554416254; can_request=True
+[ShipPointerReference] visual_queue: stage=device-cancelled; nodes=2; source_depth=1020; base_renderers=34; confirm_late=True; cursor_gui=False
+[ShipPointerReference] visual: stage=device-cancelled; kind=selector; exists=True; visible=True; sprite=RAM_056X05600; position=1026,130; order=45; sampling=Point
+[ShipPointerReference] visual: stage=device-cancelled; kind=health; exists=True; visible=False; sprite=HEALTH_100_60; position=0,0; order=44; sampling=Point
+[ShipPointerReference] visual: stage=device-cancelled; kind=confirm; exists=False; visible=False; sprite=none; position=0,0; order=46; sampling=Point
+[ShipPointerReference] visual: stage=device-cancelled; kind=cursor; exists=True; visible=True; sprite=CUR_STD_N00; position=244,320; order=32767; scale=2; sampling=Point
+[ShipPointerReference] queue: stage=device-cancelled; node=20; kind=separate_shadow; id=0000002a; part=0; depth=21000; order=10
+[ShipPointerReference] queue: stage=device-cancelled; node=18; kind=separate_shadow; id=00000029; part=0; depth=21000; order=11
+[ShipPointerReference] queue: stage=device-cancelled; node=16; kind=separate_shadow; id=00000028; part=0; depth=21000; order=12
+[ShipPointerReference] queue: stage=device-cancelled; node=14; kind=separate_shadow; id=00000027; part=0; depth=21000; order=13
+[ShipPointerReference] queue: stage=device-cancelled; node=11; kind=separate_shadow; id=00000010; part=0; depth=21000; order=14
+[ShipPointerReference] queue: stage=device-cancelled; node=9; kind=separate_shadow; id=0000000d; part=0; depth=21000; order=15
+[ShipPointerReference] queue: stage=device-cancelled; node=7; kind=separate_shadow; id=0000000c; part=0; depth=21000; order=16
+[ShipPointerReference] queue: stage=device-cancelled; node=5; kind=separate_shadow; id=0000000b; part=0; depth=21000; order=17
+[ShipPointerReference] queue: stage=device-cancelled; node=12; kind=reef; id=00000021; part=-1; depth=20200; order=18
+[ShipPointerReference] queue: stage=device-cancelled; node=3; kind=reef; id=0000000a; part=-1; depth=20200; order=19
+[ShipPointerReference] queue: stage=device-cancelled; node=2; kind=reef; id=00000009; part=-1; depth=20200; order=20
+[ShipPointerReference] queue: stage=device-cancelled; node=1; kind=reef; id=00000006; part=-1; depth=20200; order=21
+[ShipPointerReference] queue: stage=device-cancelled; node=0; kind=reef; id=00000005; part=-1; depth=20200; order=22
+[ShipPointerReference] queue: stage=device-cancelled; node=4; kind=inline_parent; id=0000000b; part=1; depth=19812; order=23
+[ShipPointerReference] queue: stage=device-cancelled; node=4; kind=inline_parent; id=0000000b; part=7; depth=19812; order=24
+[ShipPointerReference] queue: stage=device-cancelled; node=8; kind=inline_parent; id=0000000d; part=1; depth=19676; order=25
+[ShipPointerReference] queue: stage=device-cancelled; node=8; kind=inline_parent; id=0000000d; part=5; depth=19676; order=26
+[ShipPointerReference] queue: stage=device-cancelled; node=8; kind=inline_parent; id=0000000d; part=7; depth=19676; order=27
+[ShipPointerReference] queue: stage=device-cancelled; node=6; kind=inline_parent; id=0000000c; part=1; depth=19620; order=28
+[ShipPointerReference] queue: stage=device-cancelled; node=6; kind=inline_parent; id=0000000c; part=7; depth=19620; order=29
+[ShipPointerReference] queue: stage=device-cancelled; node=17; kind=inline_parent; id=00000029; part=1; depth=19100; order=30
+[ShipPointerReference] queue: stage=device-cancelled; node=17; kind=inline_parent; id=00000029; part=3; depth=19100; order=31
+[ShipPointerReference] queue: stage=device-cancelled; node=17; kind=inline_parent; id=00000029; part=7; depth=19100; order=32
+[ShipPointerReference] queue: stage=device-cancelled; node=19; kind=inline_parent; id=0000002a; part=1; depth=19036; order=33
+[ShipPointerReference] queue: stage=device-cancelled; node=19; kind=inline_parent; id=0000002a; part=3; depth=19036; order=34
+[ShipPointerReference] queue: stage=device-cancelled; node=19; kind=inline_parent; id=0000002a; part=7; depth=19036; order=35
+[ShipPointerReference] queue: stage=device-cancelled; node=10; kind=inline_parent; id=00000010; part=1; depth=18784; order=36
+[ShipPointerReference] queue: stage=device-cancelled; node=10; kind=inline_parent; id=00000010; part=7; depth=18784; order=37
+[ShipPointerReference] queue: stage=device-cancelled; node=13; kind=inline_parent; id=00000027; part=1; depth=18588; order=38
+[ShipPointerReference] queue: stage=device-cancelled; node=13; kind=inline_parent; id=00000027; part=3; depth=18588; order=39
+[ShipPointerReference] queue: stage=device-cancelled; node=13; kind=inline_parent; id=00000027; part=7; depth=18588; order=40
+[ShipPointerReference] queue: stage=device-cancelled; node=15; kind=inline_parent; id=00000028; part=1; depth=18524; order=41
+[ShipPointerReference] queue: stage=device-cancelled; node=15; kind=inline_parent; id=00000028; part=3; depth=18524; order=42
+[ShipPointerReference] queue: stage=device-cancelled; node=15; kind=inline_parent; id=00000028; part=7; depth=18524; order=43
+[ShipBoxReplay] stage: device-cancelled; counter=2; visual_ms=184
+[ShipPointerReference] event: index=27; counter=2; visual_ms=184; message=96; raw=492,640; logical=246,320; world=822,320; cell=12,5; has_map=True; picked=none; cursor=7; selected=True; pending=True; ui_group=-1; simulation_group=-1; rng=3554416254; outcome=handled
+[ShipPointerReference] checkpoint: stage=recovered; counter=2; visual_ms=184; selected=True; pending=True; ui_group=-1; simulation_group=-1; group_count=0; selection_visual_flag=1; selector_state=1; selector_exists=True; selector_frame=1; selector_drawn=0; selector_visible=True; selector_last_counter=2; health_visible=False; health_exists=True; cursor=7; cursor_frame=0; cursor_visible=True; cursor_last_tick=184; cursor_interval=150; confirm=False; confirm_frame=-1; confirm_stored=0; confirm_visible=False; confirm_last_tick=0; held=True
+[ShipBoxReference] checkpoint: stage=recovered; candidate=False; active=False; visible=False; start=800,300; extent=0,0; phase=0; last_ms=0
+[ShipPointerReference] motion: counter=2; cell=16,2; world=1028,132; published=1028,132; frame=20; drawn=20; heading=5; state=0; pending_flags=0; active_flags=1024; reserved=-1; rng=3554416254; can_request=True
+[ShipPointerReference] visual_queue: stage=recovered; nodes=2; source_depth=1020; base_renderers=34; confirm_late=True; cursor_gui=False
+[ShipPointerReference] visual: stage=recovered; kind=selector; exists=True; visible=True; sprite=RAM_056X05600; position=1026,130; order=45; sampling=Point
+[ShipPointerReference] visual: stage=recovered; kind=health; exists=True; visible=False; sprite=HEALTH_100_60; position=0,0; order=44; sampling=Point
+[ShipPointerReference] visual: stage=recovered; kind=confirm; exists=False; visible=False; sprite=none; position=0,0; order=46; sampling=Point
+[ShipPointerReference] visual: stage=recovered; kind=cursor; exists=True; visible=True; sprite=CUR_SEA_N00; position=228,303; order=32767; scale=2; sampling=Point
+[ShipPointerReference] queue: stage=recovered; node=20; kind=separate_shadow; id=0000002a; part=0; depth=21000; order=10
+[ShipPointerReference] queue: stage=recovered; node=18; kind=separate_shadow; id=00000029; part=0; depth=21000; order=11
+[ShipPointerReference] queue: stage=recovered; node=16; kind=separate_shadow; id=00000028; part=0; depth=21000; order=12
+[ShipPointerReference] queue: stage=recovered; node=14; kind=separate_shadow; id=00000027; part=0; depth=21000; order=13
+[ShipPointerReference] queue: stage=recovered; node=11; kind=separate_shadow; id=00000010; part=0; depth=21000; order=14
+[ShipPointerReference] queue: stage=recovered; node=9; kind=separate_shadow; id=0000000d; part=0; depth=21000; order=15
+[ShipPointerReference] queue: stage=recovered; node=7; kind=separate_shadow; id=0000000c; part=0; depth=21000; order=16
+[ShipPointerReference] queue: stage=recovered; node=5; kind=separate_shadow; id=0000000b; part=0; depth=21000; order=17
+[ShipPointerReference] queue: stage=recovered; node=12; kind=reef; id=00000021; part=-1; depth=20200; order=18
+[ShipPointerReference] queue: stage=recovered; node=3; kind=reef; id=0000000a; part=-1; depth=20200; order=19
+[ShipPointerReference] queue: stage=recovered; node=2; kind=reef; id=00000009; part=-1; depth=20200; order=20
+[ShipPointerReference] queue: stage=recovered; node=1; kind=reef; id=00000006; part=-1; depth=20200; order=21
+[ShipPointerReference] queue: stage=recovered; node=0; kind=reef; id=00000005; part=-1; depth=20200; order=22
+[ShipPointerReference] queue: stage=recovered; node=4; kind=inline_parent; id=0000000b; part=1; depth=19812; order=23
+[ShipPointerReference] queue: stage=recovered; node=4; kind=inline_parent; id=0000000b; part=7; depth=19812; order=24
+[ShipPointerReference] queue: stage=recovered; node=8; kind=inline_parent; id=0000000d; part=1; depth=19676; order=25
+[ShipPointerReference] queue: stage=recovered; node=8; kind=inline_parent; id=0000000d; part=5; depth=19676; order=26
+[ShipPointerReference] queue: stage=recovered; node=8; kind=inline_parent; id=0000000d; part=7; depth=19676; order=27
+[ShipPointerReference] queue: stage=recovered; node=6; kind=inline_parent; id=0000000c; part=1; depth=19620; order=28
+[ShipPointerReference] queue: stage=recovered; node=6; kind=inline_parent; id=0000000c; part=7; depth=19620; order=29
+[ShipPointerReference] queue: stage=recovered; node=17; kind=inline_parent; id=00000029; part=1; depth=19100; order=30
+[ShipPointerReference] queue: stage=recovered; node=17; kind=inline_parent; id=00000029; part=3; depth=19100; order=31
+[ShipPointerReference] queue: stage=recovered; node=17; kind=inline_parent; id=00000029; part=7; depth=19100; order=32
+[ShipPointerReference] queue: stage=recovered; node=19; kind=inline_parent; id=0000002a; part=1; depth=19036; order=33
+[ShipPointerReference] queue: stage=recovered; node=19; kind=inline_parent; id=0000002a; part=3; depth=19036; order=34
+[ShipPointerReference] queue: stage=recovered; node=19; kind=inline_parent; id=0000002a; part=7; depth=19036; order=35
+[ShipPointerReference] queue: stage=recovered; node=10; kind=inline_parent; id=00000010; part=1; depth=18784; order=36
+[ShipPointerReference] queue: stage=recovered; node=10; kind=inline_parent; id=00000010; part=7; depth=18784; order=37
+[ShipPointerReference] queue: stage=recovered; node=13; kind=inline_parent; id=00000027; part=1; depth=18588; order=38
+[ShipPointerReference] queue: stage=recovered; node=13; kind=inline_parent; id=00000027; part=3; depth=18588; order=39
+[ShipPointerReference] queue: stage=recovered; node=13; kind=inline_parent; id=00000027; part=7; depth=18588; order=40
+[ShipPointerReference] queue: stage=recovered; node=15; kind=inline_parent; id=00000028; part=1; depth=18524; order=41
+[ShipPointerReference] queue: stage=recovered; node=15; kind=inline_parent; id=00000028; part=3; depth=18524; order=42
+[ShipPointerReference] queue: stage=recovered; node=15; kind=inline_parent; id=00000028; part=7; depth=18524; order=43
+[ShipBoxReplay] stage: recovered; counter=2; visual_ms=184
+[ShipPointerReference] event: index=28; counter=2; visual_ms=184; message=96; raw=896,256; logical=448,128; world=1024,128; cell=16,2; has_map=True; picked=none; cursor=0; selected=True; pending=True; ui_group=-1; simulation_group=-1; rng=3554416254; outcome=handled
+[ShipPointerReference] event: index=29; counter=2; visual_ms=184; message=97; raw=896,256; logical=448,128; world=1024,128; cell=16,2; has_map=True; picked=none; cursor=0; selected=True; pending=True; ui_group=-1; simulation_group=-1; rng=3554416254; outcome=handled
+[ShipPointerReference] checkpoint: stage=one-cell-down; counter=2; visual_ms=184; selected=True; pending=True; ui_group=-1; simulation_group=-1; group_count=0; selection_visual_flag=1; selector_state=1; selector_exists=True; selector_frame=1; selector_drawn=0; selector_visible=True; selector_last_counter=2; health_visible=False; health_exists=True; cursor=0; cursor_frame=0; cursor_visible=True; cursor_last_tick=184; cursor_interval=10000; confirm=False; confirm_frame=-1; confirm_stored=0; confirm_visible=False; confirm_last_tick=0; held=True
+[ShipBoxReference] checkpoint: stage=one-cell-down; candidate=True; active=False; visible=False; start=1024,128; extent=0,0; phase=0; last_ms=0
+[ShipPointerReference] motion: counter=2; cell=16,2; world=1028,132; published=1028,132; frame=20; drawn=20; heading=5; state=0; pending_flags=0; active_flags=1024; reserved=-1; rng=3554416254; can_request=True
+[ShipPointerReference] visual_queue: stage=one-cell-down; nodes=2; source_depth=1020; base_renderers=34; confirm_late=True; cursor_gui=False
+[ShipPointerReference] visual: stage=one-cell-down; kind=selector; exists=True; visible=True; sprite=RAM_056X05600; position=1026,130; order=45; sampling=Point
+[ShipPointerReference] visual: stage=one-cell-down; kind=health; exists=True; visible=False; sprite=HEALTH_100_60; position=0,0; order=44; sampling=Point
+[ShipPointerReference] visual: stage=one-cell-down; kind=confirm; exists=False; visible=False; sprite=none; position=0,0; order=46; sampling=Point
+[ShipPointerReference] visual: stage=one-cell-down; kind=cursor; exists=True; visible=True; sprite=CUR_STD_N00; position=448,128; order=32767; scale=2; sampling=Point
+[ShipPointerReference] queue: stage=one-cell-down; node=20; kind=separate_shadow; id=0000002a; part=0; depth=21000; order=10
+[ShipPointerReference] queue: stage=one-cell-down; node=18; kind=separate_shadow; id=00000029; part=0; depth=21000; order=11
+[ShipPointerReference] queue: stage=one-cell-down; node=16; kind=separate_shadow; id=00000028; part=0; depth=21000; order=12
+[ShipPointerReference] queue: stage=one-cell-down; node=14; kind=separate_shadow; id=00000027; part=0; depth=21000; order=13
+[ShipPointerReference] queue: stage=one-cell-down; node=11; kind=separate_shadow; id=00000010; part=0; depth=21000; order=14
+[ShipPointerReference] queue: stage=one-cell-down; node=9; kind=separate_shadow; id=0000000d; part=0; depth=21000; order=15
+[ShipPointerReference] queue: stage=one-cell-down; node=7; kind=separate_shadow; id=0000000c; part=0; depth=21000; order=16
+[ShipPointerReference] queue: stage=one-cell-down; node=5; kind=separate_shadow; id=0000000b; part=0; depth=21000; order=17
+[ShipPointerReference] queue: stage=one-cell-down; node=12; kind=reef; id=00000021; part=-1; depth=20200; order=18
+[ShipPointerReference] queue: stage=one-cell-down; node=3; kind=reef; id=0000000a; part=-1; depth=20200; order=19
+[ShipPointerReference] queue: stage=one-cell-down; node=2; kind=reef; id=00000009; part=-1; depth=20200; order=20
+[ShipPointerReference] queue: stage=one-cell-down; node=1; kind=reef; id=00000006; part=-1; depth=20200; order=21
+[ShipPointerReference] queue: stage=one-cell-down; node=0; kind=reef; id=00000005; part=-1; depth=20200; order=22
+[ShipPointerReference] queue: stage=one-cell-down; node=4; kind=inline_parent; id=0000000b; part=1; depth=19812; order=23
+[ShipPointerReference] queue: stage=one-cell-down; node=4; kind=inline_parent; id=0000000b; part=7; depth=19812; order=24
+[ShipPointerReference] queue: stage=one-cell-down; node=8; kind=inline_parent; id=0000000d; part=1; depth=19676; order=25
+[ShipPointerReference] queue: stage=one-cell-down; node=8; kind=inline_parent; id=0000000d; part=5; depth=19676; order=26
+[ShipPointerReference] queue: stage=one-cell-down; node=8; kind=inline_parent; id=0000000d; part=7; depth=19676; order=27
+[ShipPointerReference] queue: stage=one-cell-down; node=6; kind=inline_parent; id=0000000c; part=1; depth=19620; order=28
+[ShipPointerReference] queue: stage=one-cell-down; node=6; kind=inline_parent; id=0000000c; part=7; depth=19620; order=29
+[ShipPointerReference] queue: stage=one-cell-down; node=17; kind=inline_parent; id=00000029; part=1; depth=19100; order=30
+[ShipPointerReference] queue: stage=one-cell-down; node=17; kind=inline_parent; id=00000029; part=3; depth=19100; order=31
+[ShipPointerReference] queue: stage=one-cell-down; node=17; kind=inline_parent; id=00000029; part=7; depth=19100; order=32
+[ShipPointerReference] queue: stage=one-cell-down; node=19; kind=inline_parent; id=0000002a; part=1; depth=19036; order=33
+[ShipPointerReference] queue: stage=one-cell-down; node=19; kind=inline_parent; id=0000002a; part=3; depth=19036; order=34
+[ShipPointerReference] queue: stage=one-cell-down; node=19; kind=inline_parent; id=0000002a; part=7; depth=19036; order=35
+[ShipPointerReference] queue: stage=one-cell-down; node=10; kind=inline_parent; id=00000010; part=1; depth=18784; order=36
+[ShipPointerReference] queue: stage=one-cell-down; node=10; kind=inline_parent; id=00000010; part=7; depth=18784; order=37
+[ShipPointerReference] queue: stage=one-cell-down; node=13; kind=inline_parent; id=00000027; part=1; depth=18588; order=38
+[ShipPointerReference] queue: stage=one-cell-down; node=13; kind=inline_parent; id=00000027; part=3; depth=18588; order=39
+[ShipPointerReference] queue: stage=one-cell-down; node=13; kind=inline_parent; id=00000027; part=7; depth=18588; order=40
+[ShipPointerReference] queue: stage=one-cell-down; node=15; kind=inline_parent; id=00000028; part=1; depth=18524; order=41
+[ShipPointerReference] queue: stage=one-cell-down; node=15; kind=inline_parent; id=00000028; part=3; depth=18524; order=42
+[ShipPointerReference] queue: stage=one-cell-down; node=15; kind=inline_parent; id=00000028; part=7; depth=18524; order=43
+[ShipBoxReplay] stage: one-cell-down; counter=2; visual_ms=184
+[ShipPointerReference] event: index=30; counter=2; visual_ms=184; message=96; raw=928,288; logical=464,144; world=1040,144; cell=16,2; has_map=True; picked=none; cursor=0; selected=True; pending=True; ui_group=-1; simulation_group=-1; rng=3554416254; outcome=handled
+[ShipPointerReference] checkpoint: stage=one-cell-activate; counter=2; visual_ms=184; selected=True; pending=True; ui_group=-1; simulation_group=-1; group_count=0; selection_visual_flag=1; selector_state=1; selector_exists=True; selector_frame=1; selector_drawn=0; selector_visible=True; selector_last_counter=2; health_visible=False; health_exists=True; cursor=0; cursor_frame=0; cursor_visible=True; cursor_last_tick=184; cursor_interval=10000; confirm=False; confirm_frame=-1; confirm_stored=0; confirm_visible=False; confirm_last_tick=0; held=True
+[ShipBoxReference] checkpoint: stage=one-cell-activate; candidate=True; active=True; visible=False; start=1024,128; extent=0,0; phase=0; last_ms=184
+[ShipPointerReference] motion: counter=2; cell=16,2; world=1028,132; published=1028,132; frame=20; drawn=20; heading=5; state=0; pending_flags=0; active_flags=1024; reserved=-1; rng=3554416254; can_request=True
+[ShipPointerReference] visual_queue: stage=one-cell-activate; nodes=2; source_depth=1020; base_renderers=34; confirm_late=True; cursor_gui=False
+[ShipPointerReference] visual: stage=one-cell-activate; kind=selector; exists=True; visible=True; sprite=RAM_056X05600; position=1026,130; order=45; sampling=Point
+[ShipPointerReference] visual: stage=one-cell-activate; kind=health; exists=True; visible=False; sprite=HEALTH_100_60; position=0,0; order=44; sampling=Point
+[ShipPointerReference] visual: stage=one-cell-activate; kind=confirm; exists=False; visible=False; sprite=none; position=0,0; order=47; sampling=Point
+[ShipPointerReference] visual: stage=one-cell-activate; kind=cursor; exists=True; visible=True; sprite=CUR_STD_N00; position=464,144; order=32767; scale=2; sampling=Point
+[ShipPointerReference] queue: stage=one-cell-activate; node=20; kind=separate_shadow; id=0000002a; part=0; depth=21000; order=10
+[ShipPointerReference] queue: stage=one-cell-activate; node=18; kind=separate_shadow; id=00000029; part=0; depth=21000; order=11
+[ShipPointerReference] queue: stage=one-cell-activate; node=16; kind=separate_shadow; id=00000028; part=0; depth=21000; order=12
+[ShipPointerReference] queue: stage=one-cell-activate; node=14; kind=separate_shadow; id=00000027; part=0; depth=21000; order=13
+[ShipPointerReference] queue: stage=one-cell-activate; node=11; kind=separate_shadow; id=00000010; part=0; depth=21000; order=14
+[ShipPointerReference] queue: stage=one-cell-activate; node=9; kind=separate_shadow; id=0000000d; part=0; depth=21000; order=15
+[ShipPointerReference] queue: stage=one-cell-activate; node=7; kind=separate_shadow; id=0000000c; part=0; depth=21000; order=16
+[ShipPointerReference] queue: stage=one-cell-activate; node=5; kind=separate_shadow; id=0000000b; part=0; depth=21000; order=17
+[ShipPointerReference] queue: stage=one-cell-activate; node=12; kind=reef; id=00000021; part=-1; depth=20200; order=18
+[ShipPointerReference] queue: stage=one-cell-activate; node=3; kind=reef; id=0000000a; part=-1; depth=20200; order=19
+[ShipPointerReference] queue: stage=one-cell-activate; node=2; kind=reef; id=00000009; part=-1; depth=20200; order=20
+[ShipPointerReference] queue: stage=one-cell-activate; node=1; kind=reef; id=00000006; part=-1; depth=20200; order=21
+[ShipPointerReference] queue: stage=one-cell-activate; node=0; kind=reef; id=00000005; part=-1; depth=20200; order=22
+[ShipPointerReference] queue: stage=one-cell-activate; node=4; kind=inline_parent; id=0000000b; part=1; depth=19812; order=23
+[ShipPointerReference] queue: stage=one-cell-activate; node=4; kind=inline_parent; id=0000000b; part=7; depth=19812; order=24
+[ShipPointerReference] queue: stage=one-cell-activate; node=8; kind=inline_parent; id=0000000d; part=1; depth=19676; order=25
+[ShipPointerReference] queue: stage=one-cell-activate; node=8; kind=inline_parent; id=0000000d; part=5; depth=19676; order=26
+[ShipPointerReference] queue: stage=one-cell-activate; node=8; kind=inline_parent; id=0000000d; part=7; depth=19676; order=27
+[ShipPointerReference] queue: stage=one-cell-activate; node=6; kind=inline_parent; id=0000000c; part=1; depth=19620; order=28
+[ShipPointerReference] queue: stage=one-cell-activate; node=6; kind=inline_parent; id=0000000c; part=7; depth=19620; order=29
+[ShipPointerReference] queue: stage=one-cell-activate; node=17; kind=inline_parent; id=00000029; part=1; depth=19100; order=30
+[ShipPointerReference] queue: stage=one-cell-activate; node=17; kind=inline_parent; id=00000029; part=3; depth=19100; order=31
+[ShipPointerReference] queue: stage=one-cell-activate; node=17; kind=inline_parent; id=00000029; part=7; depth=19100; order=32
+[ShipPointerReference] queue: stage=one-cell-activate; node=19; kind=inline_parent; id=0000002a; part=1; depth=19036; order=33
+[ShipPointerReference] queue: stage=one-cell-activate; node=19; kind=inline_parent; id=0000002a; part=3; depth=19036; order=34
+[ShipPointerReference] queue: stage=one-cell-activate; node=19; kind=inline_parent; id=0000002a; part=7; depth=19036; order=35
+[ShipPointerReference] queue: stage=one-cell-activate; node=10; kind=inline_parent; id=00000010; part=1; depth=18784; order=36
+[ShipPointerReference] queue: stage=one-cell-activate; node=10; kind=inline_parent; id=00000010; part=7; depth=18784; order=37
+[ShipPointerReference] queue: stage=one-cell-activate; node=13; kind=inline_parent; id=00000027; part=1; depth=18588; order=38
+[ShipPointerReference] queue: stage=one-cell-activate; node=13; kind=inline_parent; id=00000027; part=3; depth=18588; order=39
+[ShipPointerReference] queue: stage=one-cell-activate; node=13; kind=inline_parent; id=00000027; part=7; depth=18588; order=40
+[ShipPointerReference] queue: stage=one-cell-activate; node=15; kind=inline_parent; id=00000028; part=1; depth=18524; order=41
+[ShipPointerReference] queue: stage=one-cell-activate; node=15; kind=inline_parent; id=00000028; part=3; depth=18524; order=42
+[ShipPointerReference] queue: stage=one-cell-activate; node=15; kind=inline_parent; id=00000028; part=7; depth=18524; order=43
+[ShipBoxReplay] stage: one-cell-activate; counter=2; visual_ms=184
+[ShipPointerReference] event: index=31; counter=2; visual_ms=184; message=96; raw=960,320; logical=480,160; world=1056,160; cell=16,2; has_map=True; picked=0000000b; cursor=6; selected=True; pending=True; ui_group=-1; simulation_group=-1; rng=3554416254; outcome=handled
+[ShipPointerReference] checkpoint: stage=one-cell-extent; counter=2; visual_ms=184; selected=True; pending=True; ui_group=-1; simulation_group=-1; group_count=0; selection_visual_flag=1; selector_state=1; selector_exists=True; selector_frame=1; selector_drawn=0; selector_visible=True; selector_last_counter=2; health_visible=False; health_exists=True; cursor=6; cursor_frame=0; cursor_visible=True; cursor_last_tick=184; cursor_interval=10000; confirm=False; confirm_frame=-1; confirm_stored=0; confirm_visible=False; confirm_last_tick=0; held=True
+[ShipBoxReference] checkpoint: stage=one-cell-extent; candidate=True; active=True; visible=False; start=1024,128; extent=33,33; phase=0; last_ms=184
+[ShipPointerReference] motion: counter=2; cell=16,2; world=1028,132; published=1028,132; frame=20; drawn=20; heading=5; state=0; pending_flags=0; active_flags=1024; reserved=-1; rng=3554416254; can_request=True
+[ShipPointerReference] visual_queue: stage=one-cell-extent; nodes=2; source_depth=1020; base_renderers=34; confirm_late=True; cursor_gui=False
+[ShipPointerReference] visual: stage=one-cell-extent; kind=selector; exists=True; visible=True; sprite=RAM_056X05600; position=1026,130; order=45; sampling=Point
+[ShipPointerReference] visual: stage=one-cell-extent; kind=health; exists=True; visible=False; sprite=HEALTH_100_60; position=0,0; order=44; sampling=Point
+[ShipPointerReference] visual: stage=one-cell-extent; kind=confirm; exists=False; visible=False; sprite=none; position=0,0; order=47; sampling=Point
+[ShipPointerReference] visual: stage=one-cell-extent; kind=cursor; exists=True; visible=True; sprite=CUR_SELECT_N00; position=480,160; order=32767; scale=2; sampling=Point
+[ShipPointerReference] queue: stage=one-cell-extent; node=20; kind=separate_shadow; id=0000002a; part=0; depth=21000; order=10
+[ShipPointerReference] queue: stage=one-cell-extent; node=18; kind=separate_shadow; id=00000029; part=0; depth=21000; order=11
+[ShipPointerReference] queue: stage=one-cell-extent; node=16; kind=separate_shadow; id=00000028; part=0; depth=21000; order=12
+[ShipPointerReference] queue: stage=one-cell-extent; node=14; kind=separate_shadow; id=00000027; part=0; depth=21000; order=13
+[ShipPointerReference] queue: stage=one-cell-extent; node=11; kind=separate_shadow; id=00000010; part=0; depth=21000; order=14
+[ShipPointerReference] queue: stage=one-cell-extent; node=9; kind=separate_shadow; id=0000000d; part=0; depth=21000; order=15
+[ShipPointerReference] queue: stage=one-cell-extent; node=7; kind=separate_shadow; id=0000000c; part=0; depth=21000; order=16
+[ShipPointerReference] queue: stage=one-cell-extent; node=5; kind=separate_shadow; id=0000000b; part=0; depth=21000; order=17
+[ShipPointerReference] queue: stage=one-cell-extent; node=12; kind=reef; id=00000021; part=-1; depth=20200; order=18
+[ShipPointerReference] queue: stage=one-cell-extent; node=3; kind=reef; id=0000000a; part=-1; depth=20200; order=19
+[ShipPointerReference] queue: stage=one-cell-extent; node=2; kind=reef; id=00000009; part=-1; depth=20200; order=20
+[ShipPointerReference] queue: stage=one-cell-extent; node=1; kind=reef; id=00000006; part=-1; depth=20200; order=21
+[ShipPointerReference] queue: stage=one-cell-extent; node=0; kind=reef; id=00000005; part=-1; depth=20200; order=22
+[ShipPointerReference] queue: stage=one-cell-extent; node=4; kind=inline_parent; id=0000000b; part=1; depth=19812; order=23
+[ShipPointerReference] queue: stage=one-cell-extent; node=4; kind=inline_parent; id=0000000b; part=7; depth=19812; order=24
+[ShipPointerReference] queue: stage=one-cell-extent; node=8; kind=inline_parent; id=0000000d; part=1; depth=19676; order=25
+[ShipPointerReference] queue: stage=one-cell-extent; node=8; kind=inline_parent; id=0000000d; part=5; depth=19676; order=26
+[ShipPointerReference] queue: stage=one-cell-extent; node=8; kind=inline_parent; id=0000000d; part=7; depth=19676; order=27
+[ShipPointerReference] queue: stage=one-cell-extent; node=6; kind=inline_parent; id=0000000c; part=1; depth=19620; order=28
+[ShipPointerReference] queue: stage=one-cell-extent; node=6; kind=inline_parent; id=0000000c; part=7; depth=19620; order=29
+[ShipPointerReference] queue: stage=one-cell-extent; node=17; kind=inline_parent; id=00000029; part=1; depth=19100; order=30
+[ShipPointerReference] queue: stage=one-cell-extent; node=17; kind=inline_parent; id=00000029; part=3; depth=19100; order=31
+[ShipPointerReference] queue: stage=one-cell-extent; node=17; kind=inline_parent; id=00000029; part=7; depth=19100; order=32
+[ShipPointerReference] queue: stage=one-cell-extent; node=19; kind=inline_parent; id=0000002a; part=1; depth=19036; order=33
+[ShipPointerReference] queue: stage=one-cell-extent; node=19; kind=inline_parent; id=0000002a; part=3; depth=19036; order=34
+[ShipPointerReference] queue: stage=one-cell-extent; node=19; kind=inline_parent; id=0000002a; part=7; depth=19036; order=35
+[ShipPointerReference] queue: stage=one-cell-extent; node=10; kind=inline_parent; id=00000010; part=1; depth=18784; order=36
+[ShipPointerReference] queue: stage=one-cell-extent; node=10; kind=inline_parent; id=00000010; part=7; depth=18784; order=37
+[ShipPointerReference] queue: stage=one-cell-extent; node=13; kind=inline_parent; id=00000027; part=1; depth=18588; order=38
+[ShipPointerReference] queue: stage=one-cell-extent; node=13; kind=inline_parent; id=00000027; part=3; depth=18588; order=39
+[ShipPointerReference] queue: stage=one-cell-extent; node=13; kind=inline_parent; id=00000027; part=7; depth=18588; order=40
+[ShipPointerReference] queue: stage=one-cell-extent; node=15; kind=inline_parent; id=00000028; part=1; depth=18524; order=41
+[ShipPointerReference] queue: stage=one-cell-extent; node=15; kind=inline_parent; id=00000028; part=3; depth=18524; order=42
+[ShipPointerReference] queue: stage=one-cell-extent; node=15; kind=inline_parent; id=00000028; part=7; depth=18524; order=43
+[ShipBoxReplay] stage: one-cell-extent; counter=2; visual_ms=184
+[ShipBoxReference] release: bounds=16,2,1,1; members=0000000b; outcome=preserved
+[ShipPointerReference] event: index=32; counter=2; visual_ms=184; message=98; raw=960,320; logical=480,160; world=1056,160; cell=16,2; has_map=True; picked=0000000b; cursor=6; selected=True; pending=True; ui_group=-1; simulation_group=-1; rng=3554416254; outcome=box-handled
+[ShipPointerReference] checkpoint: stage=one-cell-preserved; counter=2; visual_ms=184; selected=True; pending=True; ui_group=-1; simulation_group=-1; group_count=0; selection_visual_flag=1; selector_state=1; selector_exists=True; selector_frame=1; selector_drawn=0; selector_visible=True; selector_last_counter=2; health_visible=False; health_exists=True; cursor=6; cursor_frame=0; cursor_visible=True; cursor_last_tick=184; cursor_interval=10000; confirm=False; confirm_frame=-1; confirm_stored=0; confirm_visible=False; confirm_last_tick=0; held=True
+[ShipBoxReference] checkpoint: stage=one-cell-preserved; candidate=False; active=False; visible=False; start=1024,128; extent=0,0; phase=0; last_ms=0
+[ShipPointerReference] motion: counter=2; cell=16,2; world=1028,132; published=1028,132; frame=20; drawn=20; heading=5; state=0; pending_flags=0; active_flags=1024; reserved=-1; rng=3554416254; can_request=True
+[ShipPointerReference] visual_queue: stage=one-cell-preserved; nodes=2; source_depth=1020; base_renderers=34; confirm_late=True; cursor_gui=False
+[ShipPointerReference] visual: stage=one-cell-preserved; kind=selector; exists=True; visible=True; sprite=RAM_056X05600; position=1026,130; order=45; sampling=Point
+[ShipPointerReference] visual: stage=one-cell-preserved; kind=health; exists=True; visible=False; sprite=HEALTH_100_60; position=0,0; order=44; sampling=Point
+[ShipPointerReference] visual: stage=one-cell-preserved; kind=confirm; exists=False; visible=False; sprite=none; position=0,0; order=46; sampling=Point
+[ShipPointerReference] visual: stage=one-cell-preserved; kind=cursor; exists=True; visible=True; sprite=CUR_SELECT_N00; position=480,160; order=32767; scale=2; sampling=Point
+[ShipPointerReference] queue: stage=one-cell-preserved; node=20; kind=separate_shadow; id=0000002a; part=0; depth=21000; order=10
+[ShipPointerReference] queue: stage=one-cell-preserved; node=18; kind=separate_shadow; id=00000029; part=0; depth=21000; order=11
+[ShipPointerReference] queue: stage=one-cell-preserved; node=16; kind=separate_shadow; id=00000028; part=0; depth=21000; order=12
+[ShipPointerReference] queue: stage=one-cell-preserved; node=14; kind=separate_shadow; id=00000027; part=0; depth=21000; order=13
+[ShipPointerReference] queue: stage=one-cell-preserved; node=11; kind=separate_shadow; id=00000010; part=0; depth=21000; order=14
+[ShipPointerReference] queue: stage=one-cell-preserved; node=9; kind=separate_shadow; id=0000000d; part=0; depth=21000; order=15
+[ShipPointerReference] queue: stage=one-cell-preserved; node=7; kind=separate_shadow; id=0000000c; part=0; depth=21000; order=16
+[ShipPointerReference] queue: stage=one-cell-preserved; node=5; kind=separate_shadow; id=0000000b; part=0; depth=21000; order=17
+[ShipPointerReference] queue: stage=one-cell-preserved; node=12; kind=reef; id=00000021; part=-1; depth=20200; order=18
+[ShipPointerReference] queue: stage=one-cell-preserved; node=3; kind=reef; id=0000000a; part=-1; depth=20200; order=19
+[ShipPointerReference] queue: stage=one-cell-preserved; node=2; kind=reef; id=00000009; part=-1; depth=20200; order=20
+[ShipPointerReference] queue: stage=one-cell-preserved; node=1; kind=reef; id=00000006; part=-1; depth=20200; order=21
+[ShipPointerReference] queue: stage=one-cell-preserved; node=0; kind=reef; id=00000005; part=-1; depth=20200; order=22
+[ShipPointerReference] queue: stage=one-cell-preserved; node=4; kind=inline_parent; id=0000000b; part=1; depth=19812; order=23
+[ShipPointerReference] queue: stage=one-cell-preserved; node=4; kind=inline_parent; id=0000000b; part=7; depth=19812; order=24
+[ShipPointerReference] queue: stage=one-cell-preserved; node=8; kind=inline_parent; id=0000000d; part=1; depth=19676; order=25
+[ShipPointerReference] queue: stage=one-cell-preserved; node=8; kind=inline_parent; id=0000000d; part=5; depth=19676; order=26
+[ShipPointerReference] queue: stage=one-cell-preserved; node=8; kind=inline_parent; id=0000000d; part=7; depth=19676; order=27
+[ShipPointerReference] queue: stage=one-cell-preserved; node=6; kind=inline_parent; id=0000000c; part=1; depth=19620; order=28
+[ShipPointerReference] queue: stage=one-cell-preserved; node=6; kind=inline_parent; id=0000000c; part=7; depth=19620; order=29
+[ShipPointerReference] queue: stage=one-cell-preserved; node=17; kind=inline_parent; id=00000029; part=1; depth=19100; order=30
+[ShipPointerReference] queue: stage=one-cell-preserved; node=17; kind=inline_parent; id=00000029; part=3; depth=19100; order=31
+[ShipPointerReference] queue: stage=one-cell-preserved; node=17; kind=inline_parent; id=00000029; part=7; depth=19100; order=32
+[ShipPointerReference] queue: stage=one-cell-preserved; node=19; kind=inline_parent; id=0000002a; part=1; depth=19036; order=33
+[ShipPointerReference] queue: stage=one-cell-preserved; node=19; kind=inline_parent; id=0000002a; part=3; depth=19036; order=34
+[ShipPointerReference] queue: stage=one-cell-preserved; node=19; kind=inline_parent; id=0000002a; part=7; depth=19036; order=35
+[ShipPointerReference] queue: stage=one-cell-preserved; node=10; kind=inline_parent; id=00000010; part=1; depth=18784; order=36
+[ShipPointerReference] queue: stage=one-cell-preserved; node=10; kind=inline_parent; id=00000010; part=7; depth=18784; order=37
+[ShipPointerReference] queue: stage=one-cell-preserved; node=13; kind=inline_parent; id=00000027; part=1; depth=18588; order=38
+[ShipPointerReference] queue: stage=one-cell-preserved; node=13; kind=inline_parent; id=00000027; part=3; depth=18588; order=39
+[ShipPointerReference] queue: stage=one-cell-preserved; node=13; kind=inline_parent; id=00000027; part=7; depth=18588; order=40
+[ShipPointerReference] queue: stage=one-cell-preserved; node=15; kind=inline_parent; id=00000028; part=1; depth=18524; order=41
+[ShipPointerReference] queue: stage=one-cell-preserved; node=15; kind=inline_parent; id=00000028; part=3; depth=18524; order=42
+[ShipPointerReference] queue: stage=one-cell-preserved; node=15; kind=inline_parent; id=00000028; part=7; depth=18524; order=43
+[ShipBoxReplay] stage: one-cell-preserved; counter=2; visual_ms=184
+[ShipBoxReplay] complete: counter=2; input=synthetic-InputSystem-QueueStateEvent; os_input=False
+[ShipPointerReference] cancel: counter=2; selected=True; synthesized_up=False
+[ShipPointerReference] cancel: counter=2; selected=True; synthesized_up=False
+[ShipPointerReference] cleanup: input_unsubscribed=True; visual_refs_cleared=True
+Mission unit reference cleanup: claimed_released=8; visual_refs_cleared=True
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input System polling thread exited.
+Input System module state changed to: Shutdown.
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer.

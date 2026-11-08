@@ -1,0 +1,138 @@
+{
+  "date": "2026-11-02",
+  "base_commit": "864d5bdcb6c727495676c7a0d439615077a206a6",
+  "working_tree": true,
+  "published": false,
+  "target": [
+    1920,
+    1080
+  ],
+  "scope": "Source-derived static miss000 terrain; one precomposed SpriteRenderer image in opt-in diagnostic mode, not gameplay",
+  "tests": 94,
+  "skipped": 0,
+  "source_comparisons": {
+    "dib_pixel_buffers": 522,
+    "rle_pixel_buffers": 1062,
+    "unique_terrain_frames": 264,
+    "original_map_lookups": 4608,
+    "original_map_boundaries": 6,
+    "csharp_map_contract_guards": 44,
+    "viewport_integer_cases": 1080
+  },
+  "runtime_dll_sha256": "a3d98c1d40911cf0205e5ae553542edaeb2207383d1d3f88720e7a266db6d19f",
+  "build": {
+    "result": "Succeeded",
+    "platform": "StandaloneWindows64",
+    "output": "/workspace/gierka/artifacts/unity-reference/Windows/AncientConquestReference.exe",
+    "editorVersion": "6000.3.27f2",
+    "warnings": 0,
+    "errors": 0,
+    "bytes": 143660987,
+    "resolution": "1920x1080",
+    "development": false
+  },
+  "terrain_runtime": {
+    "report": "artifacts/terrain/runtime-final/report.json",
+    "cases": [
+      {
+        "name": "origin-0-0",
+        "origin_cells": [
+          0,
+          0
+        ],
+        "mean_rgb_error": 0.0,
+        "max_channel_error": 0,
+        "exact_pixel_fraction": 1.0,
+        "exit": 0,
+        "capture": "artifacts/terrain/runtime-final/origin-0-0/frame-02.png"
+      },
+      {
+        "name": "interior-4-4",
+        "origin_cells": [
+          4,
+          4
+        ],
+        "mean_rgb_error": 0.0,
+        "max_channel_error": 0,
+        "exact_pixel_fraction": 1.0,
+        "exit": 0,
+        "capture": "artifacts/terrain/runtime-final/interior-4-4/frame-01.png"
+      },
+      {
+        "name": "clamped-999-999",
+        "origin_cells": [
+          9,
+          15
+        ],
+        "mean_rgb_error": 0.0,
+        "max_channel_error": 0,
+        "exact_pixel_fraction": 1.0,
+        "exit": 0,
+        "capture": "artifacts/terrain/runtime-final/clamped-999-999/frame-01.png"
+      }
+    ]
+  },
+  "briefing_regression": {
+    "report": "artifacts/terrain/briefing-regression-final/report.json",
+    "stages": 39,
+    "captures": 11,
+    "exit": 0
+  },
+  "menu_regression": {
+    "report": "artifacts/terrain/menu-regression-final/report.json",
+    "stages": 27,
+    "captures": 5,
+    "exit": 0
+  },
+  "archive": {
+    "archive": "artifacts/terrain/AncientConquest-Prototype-Terrain-Windows-x64-1920x1080.zip",
+    "bytes": 47030087,
+    "sha256": "c4faa6a8ff23f542a487ff36b4d1f00b175598801db645797f821e78ca90a17c",
+    "file_count": 178,
+    "validation": "ZIP CRC and SHA256 of every decompressed file matched build or explicit package extra"
+  },
+  "source_sha256": {
+    "Unity/AncientConquest/Assets/AncientConquest/Editor/BuildReferenceWindows.cs": "720e8dba3f8c8374599b582db624306ee47aec819bab915bd18e717a487f048a",
+    "Unity/AncientConquest/Assets/AncientConquest/Editor/ValidateMenuInput.cs": "16ea4e733569bfb1a8fa1c8fd763e6f13570adfcb8f5f20d070b5ab43b98fb95",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/BriefingDifficultySelection.cs": "d068062ede1d046f700393c84a8e258780c9d1d54b20908f91a24b1395472611",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/BriefingPanel.cs": "5f7dfa1606ee556a7c879022a443b91926b8a2204c12c4da0aa97f4f067adc22",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/Diagnostics/BriefingInputReplay.cs": "da45e210a0ac0c3d6d8a46dd5764229809af8dcb7240a3124400b4bff4339993",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/Diagnostics/MenuInputReplay.cs": "9de40ee0d552c01cd93aaccc398c89e9e4cc44e5bb8ca2eb67501c3cff371dda",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/MainMenuButton.cs": "1cfe6db61bdba6237eb748bd7df3f92b8a6c33955ac88b50fc1d3da330e54aac",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/NativeMenuCanvas.cs": "c8ee8a644ef3c960ddf63a7b450d35042163fe7c906edf0dae0795c10be6598f",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/NativeMenuFrame.cs": "9adfbf8465576c712e5d306c7564e802c56ae16f9a38985e60480f00f3089e91",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/RgbaResourceTexture.cs": "bfe98339b9fdc0d1c8e17154f306bcb74f45b37985f7a39cc76191fab87f6038",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/Simulation/BossAiMessageGate.cs": "92b0efb4fb6dfcbf1a47a103455bcaf10194f47576e6c490b10e0c1551a031dd",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/Simulation/SingleStepClock.cs": "e30a65784197edbcf174039dec5f72cea252b289f14972d4fafc0a488ec69539",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/TerrainMapData.cs": "bfe77e756982948f3018ea67a50098d87d7b8b973d24da5bc9930a080d65f815",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/TerrainReferenceFrame.cs": "34bab51001f3c0c37c43ff74437446bc07cadcf7f78400768afb7aaf7736fe8e",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/TerrainViewport.cs": "01884de20a9d1dd9f8d4acdda170005822de414913753563447840e195f3f3e8"
+  },
+  "artifact_sha256": {
+    "artifacts/terrain/build-report-final.json": "c50cb57055b618ed65b3c727df437b7d12ae08c6b29044eabfb2497017fa95af",
+    "artifacts/terrain/windows-build-terrain-final.log": "223827cc00585fc1bab51295aa47bd8d2820c3f1348d0dcabfdf004a288075d8",
+    "artifacts/terrain/full-tests-terrain.txt": "b293c03039427e1609d91365d7d79bdebec6597fe86ac40478131ec23dbe326c",
+    "artifacts/terrain/runtime-final/report.json": "7065a269a18a6a23fa4ee245600fc7b29431dcde1fbc17d5ce77cdc971a1eb23",
+    "artifacts/terrain/briefing-regression-final/report.json": "dcf9982cef1d1781753a0d43fa19dc48b7bdd176979ddf155c39b16e7e9b6d78",
+    "artifacts/terrain/menu-regression-final/report.json": "3986435c9ce5658c4921425444aab27f0148c7e2c68332a4008d1d612719d1ca",
+    "artifacts/terrain/prototype-package-manifest.json": "a9d81aa3b18ea606659671a8e51aae72f0d6e4bd4f64ffb4f2b4a607e9204290",
+    "artifacts/terrain/source-integrity.json": "8791d8aa81b47d3962d80dda69445f615bcc739bd8723ccc5c0b6050572d6343"
+  },
+  "meta_integrity": {
+    "missing_cs_metas": [],
+    "duplicate_guids": {},
+    "meta_count": 48
+  },
+  "pre_existing_runtime_warning": "ComputeBuffer garbage-collection disposal warning also present in previous briefing/menu milestone; not attributed to this change",
+  "limits": [
+    "Windows Mono player under Wine/X11; native Windows11 and RTX3050Ti laptop not tested",
+    "Diagnostic SpriteRenderer viewport only; original camera/FOV, controls and gameplay not validated",
+    "No OS input injected; no player-input, navigation, panning or zoom test",
+    "Timed diagnostic Application.Quit(0) is not a product/menu Quit test",
+    "Static base-palette original terrain; no unit AI, simulation, audio or final2026art claim",
+    "Static screenshots do not establish frame rate, animation quality or hardware performance",
+    "Normal Start disabled; no full AI, objects, mission simulation or modern2026world art",
+    "OS input under Wine unresolved; menu/briefing checks synthetic",
+    "No screenshot of running original game available"
+  ]
+}

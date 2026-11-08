@@ -1,0 +1,1620 @@
+{
+  "date": "2026-11-03",
+  "base_commit": "864d5bdcb6c727495676c7a0d439615077a206a6",
+  "working_tree": true,
+  "published": false,
+  "target": [
+    1920,
+    1080
+  ],
+  "scope": "Ship virtual mask hit predicate and checked archive staging; no worldpicker/mouse/selection integration. Existing ship order/render regression.",
+  "previous_milestone": "docs/evidence/milestone-20261103-order-cycle.json",
+  "tests": {
+    "full_discovery": 194,
+    "skipped": 0,
+    "seconds": 181.146,
+    "targeted": 5,
+    "targeted_seconds": 14.36,
+    "targeted_included_in_full": true,
+    "earlier_discovery_interrupted_by_user": true
+  },
+  "native_csharp": {
+    "passed": true,
+    "original_exe_sha256": "cb7746b288d23de2a0343ba51c154f961b3e3683b73bcc31e9a38b2c6b1e2021",
+    "fixture_sha256": "8119cc2cb7e645edc671f2ba8daea5d1878a61ddeb0acca254e59a0c92163245",
+    "native_calls": 432428,
+    "original_mask_planes": 96,
+    "synthetic_padded_planes": 24,
+    "full_plane_pixels": 423960,
+    "point_cases": 8468,
+    "guard_count": 13,
+    "guards": [
+      "zero-width",
+      "zero-height",
+      "oversize-width",
+      "oversize-height",
+      "null-sequence",
+      "wrong-count",
+      "null-plane",
+      "wrong-plane-length",
+      "owned-planes",
+      "invalid-heading",
+      "coarse-before-heading",
+      "rectangle-before-heading",
+      "turn-before-heading"
+    ],
+    "checked_compilation": true,
+    "warnings_as_errors": true,
+    "source_sha256": {
+      "Unity/AncientConquest/Assets/AncientConquest/Runtime/Simulation/ShipPointerMask.cs": "8fdad43ca202e37020efb20c53d3025dcaec2f8386ced66bc89697a2a6d44d1c",
+      "tests/fixtures/ShipPointerMaskProbe.cs": "a41b79e787735cb8aadf3baa3af614743419112f6545f33833f0398521d8b70d",
+      "tools/probe_ship_pointer_mask.py": "672873cd09665f3abd0a94f7dad51e721069e3492d63cbf6c8709e0934ba08e5",
+      "tools/stage_ship_picking.py": "5b85922055f31972b3ae41e9d16bd5ad9cf6150e84b9f0e7d46e72f959cd9a14"
+    },
+    "validator_sha256": "58e7254e79178f4e8ddcd0cf857c6500a0a6ba28b9e694df217fc3943ff5e0a2",
+    "mono_runtime": "/workspace/toolchains/Unity/6000.3.27f2/Editor/Data/MonoBleedingEdge/bin-linux64/mono",
+    "compiler_command": [
+      "/workspace/toolchains/Unity/6000.3.27f2/Editor/Data/MonoBleedingEdge/bin-linux64/mono",
+      "/workspace/toolchains/Unity/6000.3.27f2/Editor/Data/MonoBleedingEdge/lib/mono/4.5/csc.exe"
+    ],
+    "unicorn_version": "2.1.4",
+    "native_hooks": [],
+    "scope": "Actual ship virtual hit, original sequence lookup and bit query; null output pointer",
+    "excluded": [
+      "world picking and neighbours",
+      "fog",
+      "ownership",
+      "selection and mouse events",
+      "other original object hit predicates",
+      "non-null object result output"
+    ]
+  },
+  "build": {
+    "result": "Succeeded",
+    "platform": "StandaloneWindows64",
+    "output": "/workspace/gierka/artifacts/unity-reference/Windows/AncientConquestReference.exe",
+    "editorVersion": "6000.3.27f2",
+    "warnings": 0,
+    "errors": 0,
+    "bytes": 146364475,
+    "resolution": "1920x1080",
+    "development": false
+  },
+  "runtime_dll_sha256": "e211062e1098162e28bc1dcdf66ef9851a8dbfb2666f18d486b6e7e4443e2e89",
+  "source_integrity": {
+    "csharp_count": 47,
+    "meta_count": 96,
+    "unchanged_after_build": true
+  },
+  "source_sha256": {
+    "Unity/AncientConquest/Assets/AncientConquest/Editor/BuildReferenceWindows.cs": "d22bfcc9605e8dc3989600cdda72a135320da79a93411a94944104eb50727411",
+    "Unity/AncientConquest/Assets/AncientConquest/Editor/ValidateMenuInput.cs": "16ea4e733569bfb1a8fa1c8fd763e6f13570adfcb8f5f20d070b5ab43b98fb95",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/BriefingDifficultySelection.cs": "d068062ede1d046f700393c84a8e258780c9d1d54b20908f91a24b1395472611",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/BriefingPanel.cs": "5f7dfa1606ee556a7c879022a443b91926b8a2204c12c4da0aa97f4f067adc22",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/Diagnostics/BriefingInputReplay.cs": "da45e210a0ac0c3d6d8a46dd5764229809af8dcb7240a3124400b4bff4339993",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/Diagnostics/MenuInputReplay.cs": "9de40ee0d552c01cd93aaccc398c89e9e4cc44e5bb8ca2eb67501c3cff371dda",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/MainMenuButton.cs": "1cfe6db61bdba6237eb748bd7df3f92b8a6c33955ac88b50fc1d3da330e54aac",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/MissionInitialSetup.cs": "e354d48e69e56cc59b71d142c5a68d49f73f5966174ad3408a0feb59d23ebd8e",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/MissionObjectReference.cs": "78890d7b912d0edf358f3babe69f19f9459b7c25df6c28ea15e4cc97986d53bc",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/MissionObjectSeed.cs": "65b6f22142fbdb26fa0239f6d0ed11d921dedaa0eec55d470f48e76f401c1c14",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/MissionObjectSelection.cs": "f2ec3c49d62bd6598992f154c4fe58e8948da21dcf2ece1c6e42643dc2a58fbd",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/MissionOccupancyGrid.cs": "7c38445f0ab30250458966db8f559fdabba3dafa2273a17c5d7edba9178f3bbd",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/MissionReefSeed.cs": "9f823f56e6605d6931c903026ff8b0249b84efe75f9b8c0748bc070e320686e6",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/MissionShipReference.cs": "8ef861619917f421c8b0894f9aada1e21312066e84fc423732df6303ac2d5dc2",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/MissionShipSeed.cs": "7cf66a30c96092ae0a0eff341dab9e07fe37b1ba227369368d44a65252ac3c7b",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/NativeMenuCanvas.cs": "c8ee8a644ef3c960ddf63a7b450d35042163fe7c906edf0dae0795c10be6598f",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/NativeMenuFrame.cs": "9adfbf8465576c712e5d306c7564e802c56ae16f9a38985e60480f00f3089e91",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/RgbaResourceTexture.cs": "bfe98339b9fdc0d1c8e17154f306bcb74f45b37985f7a39cc76191fab87f6038",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/ShipAdjacentReference.cs": "c43652565ebca9e9826594077e2f5f2ee455a0e7bc43d6e77502487ff232e67a",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/ShipMovementReference.cs": "b2bd54ab289f9d4b831e6958ef046c4ce36f2a3a3cbf621f24048df90b7c838d",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/ShipOrderReference.cs": "fc490f5ee857d040cdfa3f728d4f6e18c951f0eb7b9a9829fe96ac9fa119e4c5",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/ShipRouteReference.cs": "7a87711c43821041f50ae3deb5ac502c70c4e13ca360aef88041465c9978e61b",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/Simulation/BossAiMessageGate.cs": "92b0efb4fb6dfcbf1a47a103455bcaf10194f47576e6c490b10e0c1551a031dd",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/Simulation/PreparedShipMovement.cs": "dc56968babe342bfa9dfedb5b417a3acae6e3cb69e997c2f13c07b07be35467d",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/Simulation/ShipAdjacentMovement.cs": "b9c8fe2c2b062b6dc2281fd4f2225ae6ee3a759f94ef2502597a392383f2c55f",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/Simulation/ShipAdjacentPlanner.cs": "0849f2906628c2023283f405ed8dd5c6ca09988c65ceea82bbcd3959597f5b76",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/Simulation/ShipAdjacentQuery.cs": "cefdc73085476fd738a55b2feed8c8586cc1b741bcc1cdaff2a5f7b5b3278721",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/Simulation/ShipFrameProgression.cs": "761c5349e390ea00c46c8ed93a7212a6fa4f941d856c8727145a4de1968cafcf",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/Simulation/ShipIdleProgression.cs": "d0c5499d81e0ceab9ced84d03146b1ae1eea2c856b214ba9f4e735ebb38ab9f4",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/Simulation/ShipMoveOrder.cs": "caa73d42265622175b3b9d44c4125972beae0d682c768d8ca263dbc1b9561cd9",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/Simulation/ShipMoveRequestInbox.cs": "62eb735aae590d46f42a12f789f4b2278ec71d0ca98bfbe0b6633ceacd183217",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/Simulation/ShipPointerMask.cs": "8fdad43ca202e37020efb20c53d3025dcaec2f8386ced66bc89697a2a6d44d1c",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/Simulation/ShipReplanPlanner.cs": "10c24c31a9e0a21e7e5dc135128dbb57639806cfac5891dd8ec412ba3001a705",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/Simulation/ShipRouteMovement.cs": "e5abd93a0e5792739dbda684d8309564e373b79fdffa47820a7c2f2dccd2a076",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/Simulation/ShipRoutePlan.cs": "fc51279b1219c6a34370813fdde82a3dc87423dd995ccfa6c1f52850397e127f",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/Simulation/ShipRoutePlanner.cs": "ca758c38adca07087cf3f113c2edf729ae28aeba23e07444cb9e22198bb3f3af",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/Simulation/ShipTurnProgression.cs": "8b6f6c0afb043c49bc10748062d087c309b54db689a6f0037969d62fc6ccb2c8",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/Simulation/SingleStepClock.cs": "e30a65784197edbcf174039dec5f72cea252b289f14972d4fafc0a488ec69539",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/Simulation/SourceNearestPathfinder.cs": "d52ed7ef3c5a0da7999db732be4144ee2b6b65ae87e4a2953f3c12b3f9941774",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/Simulation/SourcePathfinder.cs": "124870a6bd2142722696108ed904f127d9d425d9f6e7135c0dec7ced4a29a38a",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/Simulation/SourceWaveField.cs": "f0bf73ebf4ba2018acf29c6b679a8ecc577e7e95d384585d2eb88c24334e055c",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/SourceCohortOrderReference.cs": "d679acf26b9828e0e2f08c5814aff80be260d5a2e21d314bd0f787dd33d8a44e",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/SourceShipPoseReference.cs": "5ba875b7eb083ecf0700cdf8fa2d22064369748a74faca8e9210f475d1467c38",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/SourceSpriteDepthQueue.cs": "29cfd8a9b7ca3dbcbd8d7cc33261c5d1304405da42eb64250e20ad101e39447f",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/TerrainMapData.cs": "bfe77e756982948f3018ea67a50098d87d7b8b973d24da5bc9930a080d65f815",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/TerrainReferenceFrame.cs": "209b8abc2c1a9d4892d37ffebcf9b025dc6c955f6167161bdc0cda8f8149499d",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/TerrainViewport.cs": "01884de20a9d1dd9f8d4acdda170005822de414913753563447840e195f3f3e8"
+  },
+  "resources": {
+    "sets": 7,
+    "new_mask_families": 4,
+    "original_mask_planes": 96,
+    "bytes": 52800,
+    "payload_sha256": "60f3696904880fa4c4a51da2094f96145b30859013463369d1b953aebf3ba240"
+  },
+  "order_render_regression": {
+    "cases": 2,
+    "frames": 35,
+    "rois": 105,
+    "global_mean_max": 0,
+    "global_channel_max": 0,
+    "roi_channel_max": 0,
+    "attempts": 45,
+    "rejected": 10,
+    "cleanup": [
+      8,
+      8
+    ],
+    "queue_reads": 1190,
+    "exact_earlier_checkpoint_rejections": 7,
+    "unclassified_rejections": 3
+  },
+  "regression_is_new_input_validation": false,
+  "independent_review": {
+    "encoded_pngs_rehashed": 80,
+    "decoded_rgb_pngs_rehashed": 80,
+    "accepted_frames": 35,
+    "rois": 105,
+    "mean_and_max_rgb_error": 0,
+    "runtime_state_fields": 54,
+    "actual_queue_reads": 1190,
+    "csharp_files": 47,
+    "valid_unique_metas": 96,
+    "full_tests": 194,
+    "skipped": 0,
+    "test_seconds": 181.146,
+    "independent_readonly_agent_review": "world_pointer_qa: no material defect; source/harness/fixture/provenance/PNG checked",
+    "rejected_attempt_classification": {
+      "exact_earlier": 7,
+      "unclassified": 3,
+      "classified_by": "world_pointer_qa"
+    }
+  },
+  "next_source_contracts": {
+    "world_picker_native_queries": 1206,
+    "world_picker_ported_to_csharp": false,
+    "single_actor_group_dispatch_native_positive_cases": 6,
+    "single_actor_group_dispatch_native_negative_cases": 3,
+    "normal_single_actor_ninth_byte": 0,
+    "fallback_ninth_byte": 255,
+    "pending_selection_group_membership_action": 41,
+    "movement_action": 20,
+    "group0_effects_not_integrated_into_frozen_group_minus1_simulation": true
+  },
+  "config_draft": {
+    "draft_id": "a772870d-781c-4522-aa6f-de8b982b96ff~cecfgdraft_f63c6e07355c8192a0f34be8e0fde31c",
+    "previous_revision": 17,
+    "revision": 18,
+    "start_saved": true,
+    "seventh_mask_stage_saved": true,
+    "other_settings_unchanged": true,
+    "published": false
+  },
+  "deliverables": {
+    "zip_generated": false,
+    "presentation_preview_generated": false,
+    "internal_framebuffers_only": true
+  },
+  "evidence": {
+    "README.md": {
+      "bytes": 32305,
+      "sha256": "70dae7115bf5ed8d856983722c3ed6d5f48bfdde946b5b6791c8dbd2e4d023fc"
+    },
+    "Unity/AncientConquest/Assets/Resources/ShipPickingGenerated/ShipPickingManifest.json": {
+      "bytes": 22991,
+      "sha256": "b3dd42407980032faab9f534bfb1d42f63572947c2d248205cbdfb9ddfd33e67"
+    },
+    "artifacts/world-input/commands/cursor-export/00515df0.c": {
+      "bytes": 1949,
+      "sha256": "e61567f7454cce7c76a872b05251975b2d50460541469b4cdf9cb2b0056b0f35"
+    },
+    "artifacts/world-input/commands/cursor-export/00515df0.refs.txt": {
+      "bytes": 112,
+      "sha256": "65408e5faacd923a890265d3da85f88af24f27c1f8abbda1dc42f1f5ce84db34"
+    },
+    "artifacts/world-input/commands/cursor-export/00516380.c": {
+      "bytes": 3243,
+      "sha256": "befd6e1cc598ed639eca5c62794653b58d48e742db1cf692bbe1028f9a8a648e"
+    },
+    "artifacts/world-input/commands/cursor-export/00516380.refs.txt": {
+      "bytes": 28,
+      "sha256": "fbf0d7ca4a56b7e5526433f879f9fc079d032097fff8f624e4b76de3060c6ef8"
+    },
+    "artifacts/world-input/commands/cursor-export/00516640.c": {
+      "bytes": 3502,
+      "sha256": "baeda3cfdc51b6801e2f55966fb633b82e34617e6280ef31b47ba307c0c63e7d"
+    },
+    "artifacts/world-input/commands/cursor-export/00516640.refs.txt": {
+      "bytes": 224,
+      "sha256": "e9bc398ad41541c8684b2290c4c6f312520585fe02d05a69bd5475eaaf84a0cc"
+    },
+    "artifacts/world-input/commands/cursor-export/005168d0.c": {
+      "bytes": 327,
+      "sha256": "441337f19c34136a8707e0f01c1976dd27b0ee393f19f338b892cfc077a73398"
+    },
+    "artifacts/world-input/commands/cursor-export/005168d0.refs.txt": {
+      "bytes": 392,
+      "sha256": "41f99f6f35473a9e9599eb3c873c44bf879b9818cd35a5db1a7cbe4bb2ca0aa7"
+    },
+    "artifacts/world-input/commands/cursor-export/00516ba0.c": {
+      "bytes": 3105,
+      "sha256": "d4c1995a0f4e79b64d307bc703fd7b562c13d1c5339e48834446a33bf0f73935"
+    },
+    "artifacts/world-input/commands/cursor-export/00516ba0.refs.txt": {
+      "bytes": 56,
+      "sha256": "d060ef4c928807187f480592930c535c4f02889119d0ba786f92d7776420b594"
+    },
+    "artifacts/world-input/commands/cursor-export/00516e30.c": {
+      "bytes": 8221,
+      "sha256": "f74fac194eadcf6af5febefa685788ce530292011ac9973cd096c334db4a258c"
+    },
+    "artifacts/world-input/commands/cursor-export/00516e30.refs.txt": {
+      "bytes": 196,
+      "sha256": "a993acf9f8ef23a46dbd15a412a5fe02ef28fe06487c3a17e22cceb839db1e34"
+    },
+    "artifacts/world-input/commands/cursor-export/00517540.c": {
+      "bytes": 8142,
+      "sha256": "79d6cc0e7d07c912c5a4fb50f0ecbc7a76a514d8a650819b68db48804033d229"
+    },
+    "artifacts/world-input/commands/cursor-export/00517540.refs.txt": {
+      "bytes": 56,
+      "sha256": "955a56c8ce7c7c78e4a041d192ecd65a3095221210cb7d322849d2e0f589385e"
+    },
+    "artifacts/world-input/commands/cursor-export/00517a60.c": {
+      "bytes": 1508,
+      "sha256": "8a6f38d25e38c59690fe3c466876dcf86ab4f60509c6ce51715c0447de1676cd"
+    },
+    "artifacts/world-input/commands/cursor-export/00517a60.refs.txt": {
+      "bytes": 84,
+      "sha256": "3e7aedb46dfb07b6f0a54c11bb46e433663f672d18b59b5a3edd05bae7714b51"
+    },
+    "artifacts/world-input/commands/cursor-export/00517b90.c": {
+      "bytes": 3153,
+      "sha256": "62711bfc0393394dcd045d9b96ebe565a5b6dc26b64aa6ef62a63960b0127190"
+    },
+    "artifacts/world-input/commands/cursor-export/00517b90.refs.txt": {
+      "bytes": 28,
+      "sha256": "7ad879fdcd7f93a467693efbff400805121c3dde8c41512e9e84d0dc41f1fca2"
+    },
+    "artifacts/world-input/commands/cursor-export/00518070.c": {
+      "bytes": 16951,
+      "sha256": "e5253c3ee17e2a69e01e3b58040da6cee3975c05ab4980c313b6111aa80418f1"
+    },
+    "artifacts/world-input/commands/cursor-export/00518070.refs.txt": {
+      "bytes": 28,
+      "sha256": "f7660522a76666b26e6bae5feecbd45dfa7905b2f8345d301deaaf0a12d10645"
+    },
+    "artifacts/world-input/commands/cursor-export/00518c90.c": {
+      "bytes": 873,
+      "sha256": "fb47dfc242097b2daaabb306f824748f2272acca60b7bcfa1b03761555c18885"
+    },
+    "artifacts/world-input/commands/cursor-export/00518c90.refs.txt": {
+      "bytes": 140,
+      "sha256": "637e0859e00f5a99b10884c9e9ac297111742395125e224bb79b0eac0d6e6da3"
+    },
+    "artifacts/world-input/commands/cursor-export/00518d40.c": {
+      "bytes": 464,
+      "sha256": "1013db9ed0409d440a81f3ca548cf764b21b916e0fb410d054df85f6494a002e"
+    },
+    "artifacts/world-input/commands/cursor-export/00518d40.refs.txt": {
+      "bytes": 476,
+      "sha256": "bf59b9e8b818c32373396ad1ccb3d997d4b88c4f6c08746f35a5317dbf6a6e58"
+    },
+    "artifacts/world-input/commands/cursor-export/00556610.c": {
+      "bytes": 347,
+      "sha256": "49e1c1430ed1c7bafc47c4f87def50d154934cc9f50c02ee0ccf508bb7df60c1"
+    },
+    "artifacts/world-input/commands/cursor-export/00556610.refs.txt": {
+      "bytes": 26572,
+      "sha256": "63b3ed4c8e0c495580b674b946ff89aac9f3851e7ef266149108f4973461b543"
+    },
+    "artifacts/world-input/commands/cursor-export/00556880.c": {
+      "bytes": 14679,
+      "sha256": "2950cdcd160f47c3c59e83027941beb809cd4adde62d3d24af440ddeed9c78d2"
+    },
+    "artifacts/world-input/commands/cursor-export/00556880.refs.txt": {
+      "bytes": 20664,
+      "sha256": "3c5eaa43ae307c1ea32f1ce5da0523f82a64c8a50307d3ae6dbd587c26518bc7"
+    },
+    "artifacts/world-input/commands/cursor-export/00587318.c": {
+      "bytes": 1235,
+      "sha256": "22d0901b1bb5c91ce561d48b4f33b8a4ea37f247bd03bd5c802029710b29c5df"
+    },
+    "artifacts/world-input/commands/cursor-export/00587318.refs.txt": {
+      "bytes": 22988,
+      "sha256": "7d20332a605ded5e0ab365e406684affcddbdaf5b40c1137b4fb5b5f8c401089"
+    },
+    "artifacts/world-input/commands/export.log": {
+      "bytes": 5967,
+      "sha256": "fef8fe0cb33982a06e2c54000c467d95c60ae882e8538f36e7a7d4a404a7d12f"
+    },
+    "artifacts/world-input/commands/headless.log": {
+      "bytes": 5044,
+      "sha256": "e0bf9ff1e03cc0f928f7a38d76aa110de0eee540ca901a838df051ced316ee1e"
+    },
+    "artifacts/world-input/commands/mail-analysis/004cc650.asm.txt": {
+      "bytes": 1550,
+      "sha256": "bc33d94b516705843a286ecf13eac8938370c3e9a797a704741a74a34f124ab9"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/0042b910.c": {
+      "bytes": 12259,
+      "sha256": "a3ed2dfdac04e81c311bf862a0c5f51203e1ff7d407ee59aecdca8c950ccab92"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/0042b910.refs.txt": {
+      "bytes": 28,
+      "sha256": "24404fe605cfe14bf68dc613f2e7b0d08f2aa7adf1d582ec43fdebada4ffb53e"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/0049ab30.c": {
+      "bytes": 18615,
+      "sha256": "841c58066f29b32f6628e7531905c070fe040b987cf681f11b886a90523215bf"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/0049ab30.refs.txt": {
+      "bytes": 14,
+      "sha256": "ce0fec739f889179a03e4eaf9ee09c2432cc38109d36cedaced245349f97246b"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/0049b840.c": {
+      "bytes": 680,
+      "sha256": "7897df4454e559fc290663ad50d9547f4228500626e0bb9ffe8f5ee0259c43b9"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/0049b840.refs.txt": {
+      "bytes": 28,
+      "sha256": "7da193fbd3de9bbe0d29c4c909b20ade82f28c9d1619e0498b007fd52d61ee2d"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/0049bd20.c": {
+      "bytes": 399,
+      "sha256": "c88975f046e5d1590010efc85aefcc89d2952d16bd861d377c8e690164e53259"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/0049bd20.refs.txt": {
+      "bytes": 28,
+      "sha256": "21b65ee9dd0ccfdf74c6da6fe79ca53c896b3d63ddf49d6c6fbfa77ae305ccc5"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/0049bd60.c": {
+      "bytes": 2001,
+      "sha256": "13e0dc015b9f567c01f5a29fefdf2c0196b4f4589fd64417108bb0ac8dfbf22b"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/0049bd60.refs.txt": {
+      "bytes": 336,
+      "sha256": "d18c18e5f488ab8b00f2fb27a7af67a5f04e8ff7a7c2eb29fddda5dee59ecf22"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/0049c020.c": {
+      "bytes": 284,
+      "sha256": "6e290aa76dc368a19bf431c109188da5aeead6af50ffdec9a7ee9fff344326ba"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/0049c020.refs.txt": {
+      "bytes": 1596,
+      "sha256": "6068bec61e389b1c136be42100f36ca1c00b8b1de1dd24a4b4aff502e847e7d0"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/0049c1a0.c": {
+      "bytes": 241,
+      "sha256": "1f59cc78ab30073c82c9da25061ba5b23f67af027cb4d7d42780a364fee4afae"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/0049c1a0.refs.txt": {
+      "bytes": 28,
+      "sha256": "cf9bf46690491ae49dfa5353cda409836e506aad658678a16fa03781ae007c84"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/0049c250.c": {
+      "bytes": 317,
+      "sha256": "4510cb6ec283b05d0e8c6fcd591ddca705caa8c19d78be28d674b7b118375ddb"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/0049c250.refs.txt": {
+      "bytes": 364,
+      "sha256": "8c6ed9494710e05c2d8e28ed03e56d1335225cba877263fcc5b5d051dd03d43b"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/0049c2c0.c": {
+      "bytes": 292,
+      "sha256": "c46254133aa20148bb8965727f8c7a6fe50a0f376b2f80c0e97d05fda559645e"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/0049c2c0.refs.txt": {
+      "bytes": 28,
+      "sha256": "44dc0bb7cb1114f2a052134addb0a1a9d5304946e5508f99ac9d6d5ed7b79b6d"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/0049c2f0.c": {
+      "bytes": 1306,
+      "sha256": "300520151783dedbb7f09269fff03a037e4f68966f6262c270d11c5d982eb021"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/0049c2f0.refs.txt": {
+      "bytes": 196,
+      "sha256": "60e8f63106c2284920a8a2375e820cbafce615a622298f8fe159effd74173ffa"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/0049c3f0.c": {
+      "bytes": 1601,
+      "sha256": "4fca3d15269c2cd571bc55a709622b5a5b9cf6d8556583afcb9db63663e547d0"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/0049c3f0.refs.txt": {
+      "bytes": 84,
+      "sha256": "36aeb000ad8534a8f34a58379c66fbadf38744acaeda59606e1a1e9f96fff01c"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/0049c520.c": {
+      "bytes": 1761,
+      "sha256": "a5a9e3769711d267fe1618f884fd70f392554ab04b98150851ccd4f391b686bb"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/0049c520.refs.txt": {
+      "bytes": 56,
+      "sha256": "ab8436cb7ef6e773b3daa64ae3c554e45c3cf95259bda9d4ef750b639ed41910"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/0049c670.c": {
+      "bytes": 1057,
+      "sha256": "f74616e7e12e1b981ba642b32595fecd8f74d27eccf58b211b5d3f5b82bb489a"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/0049c670.refs.txt": {
+      "bytes": 28,
+      "sha256": "8412ea5ef54eac239a05ddb33b070d9fb349c356660ff89abcd7445f6e70be3a"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/0049c830.c": {
+      "bytes": 2978,
+      "sha256": "a6828efe0dc380c136cda2169702f872ee6d128aec0ac3adee4bcc77b1c17448"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/0049c830.refs.txt": {
+      "bytes": 56,
+      "sha256": "4291d449a6814e8b681546101bc6dd0249e3c2a8c2e266f7522d33fb7f03eb98"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/0049ca60.c": {
+      "bytes": 1239,
+      "sha256": "d6022d42c4a65502fdcd1ed1868595b5381a826c7634680e9dd6fd78e4325dad"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/0049ca60.refs.txt": {
+      "bytes": 28,
+      "sha256": "d9072cb64b0b486002b0708dd32ecffe0770293f28d24e723c8881485c06f47c"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/0049cb40.c": {
+      "bytes": 7117,
+      "sha256": "821f8c0c4f11691bf3b0fef136b93faa0cf3c0429dc28b630969a0717f14b858"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/0049cb40.refs.txt": {
+      "bytes": 28,
+      "sha256": "ab982882008c7afd3ec3aeacc47ab468145fa26842e772d86aa05ba37de95704"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/0049cf00.c": {
+      "bytes": 3168,
+      "sha256": "b97d7f5011b144dc2d5e8946a4d0bc72f1f26260715a6194126007c2a91027e9"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/0049cf00.refs.txt": {
+      "bytes": 28,
+      "sha256": "543f63289ed5994d471dc1782ab87b14afaeb5c81bb46a99b820e396d542592c"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/0049d280.c": {
+      "bytes": 268,
+      "sha256": "036b6e88641e1872fafa8652a9e226a4eb212b09c255ea25882f49a32a45c5d3"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/0049d280.refs.txt": {
+      "bytes": 28,
+      "sha256": "6dc2a32b5ef48a7bc8ebf50be504f95bb76955b7624b81eb53936b983ac16f2f"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/0049d2c0.c": {
+      "bytes": 581,
+      "sha256": "eb89af6fd0b1362b54d30637009618a86b29f82ffeeedfa98cc4a7cdc3546274"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/0049d2c0.refs.txt": {
+      "bytes": 224,
+      "sha256": "226578d287b14639cb5f3f4c39fe91355e037a9614c70e624110ca18dd5f20c4"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/0049d320.c": {
+      "bytes": 987,
+      "sha256": "1fcb5354d61d6fcd06da6fe597ef878e941abde3def7b7721031369ab534233f"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/0049d320.refs.txt": {
+      "bytes": 224,
+      "sha256": "18b5f4268451cdda5294927a55df23f1a9ec9e983fee536f96df1b20e071b31c"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/0049d3c0.c": {
+      "bytes": 4203,
+      "sha256": "5c5f5217b6b04149d5871fea46bfae93e8a1ea48a410e705110df4b63dfbe052"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/0049d3c0.refs.txt": {
+      "bytes": 28,
+      "sha256": "0a0f632746ef8c63bdefb7461441ccffec292fbeca31ed376552366b8e3e8313"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/0049d790.c": {
+      "bytes": 6171,
+      "sha256": "18870caf9bb067ec5d514a55d6e54c681e9bdd1bc6a7e0257f4f5746f8c1bc95"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/0049d790.refs.txt": {
+      "bytes": 28,
+      "sha256": "d9f09ba15f44a13d124a8db631b4f2c3d00f306c5167353950a9c81040340708"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/0049dc40.c": {
+      "bytes": 465,
+      "sha256": "be50c8c9ca0da585c28388a9bc4323d2ea91df00e93f96a93f8499c6b48f8b59"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/0049dc40.refs.txt": {
+      "bytes": 28,
+      "sha256": "534178879e35e81dccd1e3e587b990a01077732a9429d40b26d943ca8cdf9d9d"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/0049dc90.c": {
+      "bytes": 1623,
+      "sha256": "a854ded3d4098ca8a5d31312070734a5553fb32a3719f4f71c476543099dbb4c"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/0049dc90.refs.txt": {
+      "bytes": 28,
+      "sha256": "394a8fce9ae868a67f709de694fff1bf37a5cf18b8aa4d501b3572b9a309bd19"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/0049dda0.c": {
+      "bytes": 994,
+      "sha256": "09ea30000cdaa887427102abf5ac6c590fa7bdc077c8d7b4c900b0af89e140f3"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/0049dda0.refs.txt": {
+      "bytes": 28,
+      "sha256": "50dc5e704c210beee36ff198d47a43cdd26320c7b40766f7eef102b741de6538"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/0049de70.c": {
+      "bytes": 1561,
+      "sha256": "e00902a2d5c3de3f4adc36a20cb446b61f88050374049a70336251b42901eb96"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/0049de70.refs.txt": {
+      "bytes": 28,
+      "sha256": "69921b81b0cc92e7c9487207e5a6d654b0aa1a953ed5c800b4ba7bb17db887aa"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/0049dfb0.c": {
+      "bytes": 1544,
+      "sha256": "12dae6c1685c43e8f9826565372bc88f38a3bd23f561ff08db76974941bd324a"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/0049dfb0.refs.txt": {
+      "bytes": 28,
+      "sha256": "d6a342c0dac1f1fc2e92328edf32fb778ccf1d36f1bbb1d0f07bd4947ecd1019"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/0049e0e0.c": {
+      "bytes": 1363,
+      "sha256": "61b32ddfb3e50b72bf171b03e003026e5ef043d2bed70685977d1045ffb51193"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/0049e0e0.refs.txt": {
+      "bytes": 28,
+      "sha256": "8d135d63026999fb7ae4c0f800bc4730c256cbc6d250bbe60b2bb14cdf9b3164"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/0049e230.c": {
+      "bytes": 3089,
+      "sha256": "19ebbbd8978bb7f3d5b8f277b85ade0daead1166ad0f5bffa7255b15fe8b9f5d"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/0049e230.refs.txt": {
+      "bytes": 28,
+      "sha256": "c37d1ce6bd4cc8c0aa0b55b989599ae0d6eb0f52e156697961135ee5abe26464"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/0049e490.c": {
+      "bytes": 2704,
+      "sha256": "6a74d32de5ab60df020b518172b0f77e3897b6e06bf1a620b8cd2912af1194d2"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/0049e490.refs.txt": {
+      "bytes": 28,
+      "sha256": "9c82ce77570bf7e30008abb38f762903969a67f96cebe74cade24101f8a65882"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/0049e620.c": {
+      "bytes": 2443,
+      "sha256": "2db83606ed6d2d815a4a689cd283e43a6175c8adb3d16e74493dd88267bde792"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/0049e620.refs.txt": {
+      "bytes": 28,
+      "sha256": "d359978cd48f05ae3fdcf5456929f6f2a42425c7865f4ccaaf8b910499fd649b"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/0049e760.c": {
+      "bytes": 1428,
+      "sha256": "5d46b80104de33ae4b6c75da6f08e0af631adddd8c04d63f30703f9e824176f5"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/0049e760.refs.txt": {
+      "bytes": 28,
+      "sha256": "f93a201a2a4529c8b30ec47a9b7e6e265b3916b0a7a21afc7a7f4538e7682574"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/0049e850.c": {
+      "bytes": 5289,
+      "sha256": "fe06a19cef1a6c00c948f61b11d23eb44e2b40ee6bfb75ff19941567f50d5498"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/0049e850.refs.txt": {
+      "bytes": 28,
+      "sha256": "84e6d121070448e7961d8933e38fa6ca19ff2e3fb32f1862feb86c18339ce84d"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/0049ecb0.c": {
+      "bytes": 1744,
+      "sha256": "80f0f67452451f6654788f3f409f7d8c1a63b836a603cdd16883854683e70c8c"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/0049ecb0.refs.txt": {
+      "bytes": 28,
+      "sha256": "9881d4f3cf4e17f033fffa5566ee86a093db1875a0290bb3e16f08f961885f06"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/0049f9e0.c": {
+      "bytes": 2407,
+      "sha256": "1d1b454aa61f5da24b699b99a514e4e5bc97e20cc922d40cd3bc608569fa4284"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/0049f9e0.refs.txt": {
+      "bytes": 28,
+      "sha256": "139055b568a29f0092258d11431fdd8fcdf7160a873d818e14b33592d6454c20"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/0049fb80.c": {
+      "bytes": 5021,
+      "sha256": "a1035d7db6061207317cf77fd308a073c309274b50aec7e3427c886024e7d9d7"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/0049fb80.refs.txt": {
+      "bytes": 28,
+      "sha256": "5b6f17f0648939704a679c07f3094de6fdfe6ae2ed2ab27df402ca7a3b2dddee"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/0049fe60.c": {
+      "bytes": 2992,
+      "sha256": "85146ee6282f664c8a9d4a58bd0e493bfec117ef8526e0d5c4fecccca4e14817"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/0049fe60.refs.txt": {
+      "bytes": 28,
+      "sha256": "49fb361063ffc762b7cf7281e1d8a6c0e3e13dbd00dd38e768e33530258b8ac8"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/004a0010.c": {
+      "bytes": 3922,
+      "sha256": "d3dd41af6e271a06268a9553beea23eff0ce094d1156876afb11880a3d024e65"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/004a0010.refs.txt": {
+      "bytes": 28,
+      "sha256": "1b21ef0b04d262935ee8379ab7961988909c0ed4da6945820e8073c8e75ebd47"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/004a1340.c": {
+      "bytes": 654,
+      "sha256": "a56abb1cb60ed350c83a95e6f6fbe65f181fef461afb3025cc4ca3cad059ff3a"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/004a1340.refs.txt": {
+      "bytes": 168,
+      "sha256": "563f1d914cc7a2a76db12474721057a93e9ad92d4b629f5b0918f60bfdf05062"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/004a1c60.c": {
+      "bytes": 1846,
+      "sha256": "2ad8de6894b7d21cee30c646359d132c1edfd0fd70ac40635520492259c5709f"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/004a1c60.refs.txt": {
+      "bytes": 588,
+      "sha256": "81fcd84575f1ed6e7ba39374b7da991aab801328f8b6ab14b4856f17c89c57d5"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/004a2050.c": {
+      "bytes": 1516,
+      "sha256": "757833fd30e6de18c36d126378b366d7f1f4bce31d133a8bc3dbb6aa2c09d057"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/004a2050.refs.txt": {
+      "bytes": 168,
+      "sha256": "63b0e93a8d80abb4bfeced0733bc42057f66bb7e8042871654eb2ed0d6e6e551"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/004a2570.c": {
+      "bytes": 241,
+      "sha256": "032261a98bf29fb3a38fb95bc8a9b18070f8a70b92938140585cff4a9d3cf559"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/004a2570.refs.txt": {
+      "bytes": 28,
+      "sha256": "cd52039e40ab42dd9cc840527097c706b31e1e219ae0c8b10a6c6e6d0c52230b"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/004a2590.c": {
+      "bytes": 340,
+      "sha256": "17ab986c2f4c66536cc8890dda879f05fbcdeee34b98b4590279fc2396108cb0"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/004a2590.refs.txt": {
+      "bytes": 28,
+      "sha256": "7e133cb3c4eadd5dc113098869937c8109d72b1ec330fa8443e4664c24c13b5d"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/004a27b0.c": {
+      "bytes": 909,
+      "sha256": "995d71edc3e0802ac50c7af961684d7ede06bc3c967ea54d8cbda238473bc9aa"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/004a27b0.refs.txt": {
+      "bytes": 28,
+      "sha256": "bfc16b324e71daa03950f2bda3f21d33b2e0b41d59ab41105ba5ae4f7c843d1e"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/004a2830.c": {
+      "bytes": 2164,
+      "sha256": "28bdaa423798e8cbb103dac115efbd80b07299fc1efa5fa72054a856ce540cae"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/004a2830.refs.txt": {
+      "bytes": 28,
+      "sha256": "7aed1ca90f1e993657836fdc62476e2cc27042dfef9b4652c3b06523b94decd6"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/004a2990.c": {
+      "bytes": 1615,
+      "sha256": "e84a836060b9ed26e969a6424e20e32965277e01a5cd6949db5b1b91e32997ad"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/004a2990.refs.txt": {
+      "bytes": 28,
+      "sha256": "cffe60703f1ebaf39254ac760451e93f5a79d57b5aa53c646deb505b7ffdc800"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/004a2b10.c": {
+      "bytes": 2325,
+      "sha256": "6b8ae713e0c8ad863d5ecb0229dd836eaf85032fbfca8d9a34ae2d86bd1ff568"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/004a2b10.refs.txt": {
+      "bytes": 56,
+      "sha256": "f5ff7d88cab28bcaed35822046b27564d9df8a3854dae2a091368bff073eddda"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/004a2c80.c": {
+      "bytes": 3851,
+      "sha256": "2a5827badf57d609a426128e400a2c96e04fec6d01f5ccb4b968af6c03386a24"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/004a2c80.refs.txt": {
+      "bytes": 56,
+      "sha256": "b7deb63ab9eed40be8b508a1e77dc405ec58d6b249d864d913a89144881ba178"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/004c4f40.c": {
+      "bytes": 2022,
+      "sha256": "a374198300e2d57b74361c20c89ae9971297cc1a8626587d564c377c8f0e6b7c"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/004c4f40.refs.txt": {
+      "bytes": 28,
+      "sha256": "9bcbe28a718b6ad67c1d9375d980d321865021721256c1ba4ffbd470744062c0"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/004c53e0.c": {
+      "bytes": 686,
+      "sha256": "75782a335312d53059be4734a1261b768848589648ea7e5f90133b9a5487f9ea"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/004c53e0.refs.txt": {
+      "bytes": 28,
+      "sha256": "5ca91ac84b2c39594f3b339e84685c0edda56642b9f0225ebfb51c5eacfd5c9b"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/004ccc30.c": {
+      "bytes": 1864,
+      "sha256": "c5d0cd5851b21e07db277ad3eca891ba0a417c8a3a32c1d1c178ca2bf643b9b0"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/004ccc30.refs.txt": {
+      "bytes": 56,
+      "sha256": "8181200367ed5a7eb265c1b7abc64896f32ce3fe9004a53977a4aed0c96214d9"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/004ce5e0.c": {
+      "bytes": 286,
+      "sha256": "b5f1b99d8a976b332ee6fdc7602a43c356f0356baa4ac88b4f339294e54098d8"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/004ce5e0.refs.txt": {
+      "bytes": 112,
+      "sha256": "2bed361fd7bbed3216d77d0e72010bd0080ad071991448a939019df98b24758b"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/004ce6c0.c": {
+      "bytes": 1469,
+      "sha256": "406344d2b500f25a3fd1e9e14e247698e8bfdb12801e4524ccd66afbed06b93b"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/004ce6c0.refs.txt": {
+      "bytes": 140,
+      "sha256": "626c29c4978fbec5de81c99c39b31dee8394cd11f141295d251bbc801c804f87"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/004cec00.c": {
+      "bytes": 919,
+      "sha256": "00683256172f0adbb7141ad6b2c3abf8503a38f3dce8019ed63040e1bd8273bb"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/004cec00.refs.txt": {
+      "bytes": 56,
+      "sha256": "f7b97ed9d7fe242b64c5ba76965eb4ff22bdf2aad10af4c001f91fc1a2af3326"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/004cf2c0.c": {
+      "bytes": 3718,
+      "sha256": "e2ebc6b60b6ba9b98b00b567934091817c7c050895844a35fe84d28819b8cc52"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/004cf2c0.refs.txt": {
+      "bytes": 84,
+      "sha256": "7dc40120c8135ff88178042d0756a1a2c9fa23db8c4b9055c0fc62787b71bf79"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/004cfbc0.c": {
+      "bytes": 1407,
+      "sha256": "d7ab93d4b516c5a1ed9a326947083064da3cfc55bbb24819b09d9be6be910524"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/004cfbc0.refs.txt": {
+      "bytes": 56,
+      "sha256": "c251e07a4700a68ce19c06ab22f3ceec28d046d750a8454f09a22b7f3b9dd97f"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/004d04a0.c": {
+      "bytes": 2742,
+      "sha256": "c68fad218656c2871ae5b29b1a049fd2265810f962bf002f371d9d48c10e549f"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/004d04a0.refs.txt": {
+      "bytes": 28,
+      "sha256": "d5a3cf45de4a05147a8a2c7596f74ab6179dbb94aa696efb85295c2cb3adc60d"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/0050e590.c": {
+      "bytes": 469,
+      "sha256": "cdd8a3155273d826552d9b58229022b79990bd742273456b7dfdb71d75dffc14"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/0050e590.refs.txt": {
+      "bytes": 4900,
+      "sha256": "57b385f9f381fa462c771642a122d08a27e88a2a3a41e5ee6bdf611932e1fa82"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/0051f520.c": {
+      "bytes": 789,
+      "sha256": "25ba82f558468567290aedf4357e1191d288355b90bfad616373b58c88cedf1e"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/0051f520.refs.txt": {
+      "bytes": 560,
+      "sha256": "bb725b695a2a5634ba0344e3e8c4964ecad3c6ee3377c54b0f7ec8d2d1135288"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/00520c50.c": {
+      "bytes": 2950,
+      "sha256": "e0e65838c88ba4744041aed37cd9ad2292b896838d0b6f2a3a1d73a50b4d8b91"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/00520c50.refs.txt": {
+      "bytes": 1316,
+      "sha256": "27477947e68b84b203dceb32df05b0b33af834d424a7a15179bfb9a717d93a36"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/00520ea0.c": {
+      "bytes": 4963,
+      "sha256": "0ea51af9b8576c3cbe3f312ba3c1060e360ba50ab5687977ca49962e554bc629"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/00520ea0.refs.txt": {
+      "bytes": 56,
+      "sha256": "49ad908ce013d8ff987759c884c37b57dcb4f28fee65cd628729ae86df21182b"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/00540540.c": {
+      "bytes": 120,
+      "sha256": "acd9f455e1d99421556537497fb0c31fdd2c020a71772b953569d9aea1c52c76"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/00540540.refs.txt": {
+      "bytes": 4760,
+      "sha256": "000879c66bf8793963f00793ed9fc5edf6ae9621b163ce700a9c6a9caf154a59"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/00542550.c": {
+      "bytes": 49,
+      "sha256": "d626e1c2ab2b786da1c243fc8279263fefd8d7768af8def39f9d210de75fc1c0"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/00542550.refs.txt": {
+      "bytes": 1288,
+      "sha256": "9f0d2a5a6e082f01647e0b0d2552f8e2ec0ecba9bda817e32f811591ad44d11f"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/00556610.c": {
+      "bytes": 347,
+      "sha256": "49e1c1430ed1c7bafc47c4f87def50d154934cc9f50c02ee0ccf508bb7df60c1"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/00556610.refs.txt": {
+      "bytes": 26572,
+      "sha256": "63b3ed4c8e0c495580b674b946ff89aac9f3851e7ef266149108f4973461b543"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/00556880.c": {
+      "bytes": 14679,
+      "sha256": "2950cdcd160f47c3c59e83027941beb809cd4adde62d3d24af440ddeed9c78d2"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/00556880.refs.txt": {
+      "bytes": 20664,
+      "sha256": "3c5eaa43ae307c1ea32f1ce5da0523f82a64c8a50307d3ae6dbd587c26518bc7"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/005576e0.c": {
+      "bytes": 155,
+      "sha256": "d200be604b892def6b5a17992bc41d6934c606f38b996bcc1ce7d9c36f50f1ef"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/005576e0.refs.txt": {
+      "bytes": 20692,
+      "sha256": "3351be844b9b063e653f401b363395d4c7232f34a65890ae05c9f2082c25529e"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/00558f80.c": {
+      "bytes": 559,
+      "sha256": "95f89727d1fef3c93864c45d219e3c0339dc877ea84fdabaf7c48ded1586b297"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/00558f80.refs.txt": {
+      "bytes": 5404,
+      "sha256": "d4673cdaa358cb110787fa6c37196ba9b61a555faed6cb9fe5325e0a78e7fc7e"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/005593a0.c": {
+      "bytes": 401,
+      "sha256": "055ea7924c0253badaf408b29a9510990ca38ada5b89bfda9feb8c6598e779c1"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/005593a0.refs.txt": {
+      "bytes": 336,
+      "sha256": "b467ad9d6103cb62ff061f50ae5b7e79c1d4df145b7b811f353d84ebb30ada80"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/0055b440.c": {
+      "bytes": 795,
+      "sha256": "5fe4c3b956f3cfe4281c62856dfbf1d88ca6c45ffa14ed812a63dbf639b85195"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/0055b440.refs.txt": {
+      "bytes": 4144,
+      "sha256": "792bfc6b1c058459d64b5439769a3d819a188b747837a4007d5a10104a2c2974"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/00587318.c": {
+      "bytes": 1235,
+      "sha256": "22d0901b1bb5c91ce561d48b4f33b8a4ea37f247bd03bd5c802029710b29c5df"
+    },
+    "artifacts/world-input/commands/mail-analysis/export/00587318.refs.txt": {
+      "bytes": 22988,
+      "sha256": "7d20332a605ded5e0ab365e406684affcddbdaf5b40c1137b4fb5b5f8c401089"
+    },
+    "artifacts/world-input/commands/mail-analysis/export.log": {
+      "bytes": 10782,
+      "sha256": "d8b62c1c5f4d2083881c47e9b14deb7b00bbee046f0657266ce2d40a403ec0a0"
+    },
+    "artifacts/world-input/commands/mail-analysis/headless.log": {
+      "bytes": 8759,
+      "sha256": "55b71e82c166d5c346d5fc2cf2dc41be769668637003ce6903faf807e46dcc35"
+    },
+    "artifacts/world-input/commands/single-actor/native-first.json": {
+      "bytes": 5197,
+      "sha256": "89c563e4986e81445a28b131e659ff65d44b0c88f46410a49b6ad80ff16070da"
+    },
+    "artifacts/world-input/commands/single-actor/native-pending-selection.json": {
+      "bytes": 9408,
+      "sha256": "11878346f705d67b7a81a757da45907be57a45651721229cdfaa7fb580ce215b"
+    },
+    "artifacts/world-input/commands/single-actor/native-slot5-existing-group.json": {
+      "bytes": 5197,
+      "sha256": "89c563e4986e81445a28b131e659ff65d44b0c88f46410a49b6ad80ff16070da"
+    },
+    "artifacts/world-input/commands/single-actor/pending-run-02.log": {
+      "bytes": 5346,
+      "sha256": "488ba9110b4c2439134de6d310330c871230431f8afa7068faa442fadb04d45a"
+    },
+    "artifacts/world-input/commands/single-actor/pending-run-final-raw-human1.log": {
+      "bytes": 5346,
+      "sha256": "488ba9110b4c2439134de6d310330c871230431f8afa7068faa442fadb04d45a"
+    },
+    "artifacts/world-input/commands/single-actor/pending-run-final.log": {
+      "bytes": 5346,
+      "sha256": "488ba9110b4c2439134de6d310330c871230431f8afa7068faa442fadb04d45a"
+    },
+    "artifacts/world-input/commands/single-actor/pending-run.log": {
+      "bytes": 889,
+      "sha256": "356dd90dd933532fabe5875a6f55c1cdbd1a16e3fb50490a4ccf0f0d2e1183a4"
+    },
+    "artifacts/world-input/commands/single-actor/probe.py": {
+      "bytes": 4664,
+      "sha256": "d486c9db21a33449c52bf4bff197c9df0782819eb45ebfd59f90e2b4aa14e68d"
+    },
+    "artifacts/world-input/commands/single-actor/probe_pending_selection.py": {
+      "bytes": 4300,
+      "sha256": "53271d158e5ee2e64c062068566b9237d5855807a1e4596a9ab039d3e35654d7"
+    },
+    "artifacts/world-input/commands/single-actor/probe_slot5.py": {
+      "bytes": 4805,
+      "sha256": "1a138951ce0ab43abbb1b9f99156064585ac398bcbb6643bcde0ad930b4e090b"
+    },
+    "artifacts/world-input/commands/single-actor/slot5-run.log": {
+      "bytes": 3474,
+      "sha256": "08686f715a0ce2ce6e747a478c1008038d957882a3ad8ce5568b6e6968637e0c"
+    },
+    "artifacts/world-input/commands/single-actor/source-contract-manifest.json": {
+      "bytes": 3979,
+      "sha256": "87fcefb92a6b8a423698ec86830a6dadcc6e086351c63e09729f51e1903b0fe8"
+    },
+    "artifacts/world-input/picking/ExportPicking.java": {
+      "bytes": 1576,
+      "sha256": "f3d5a4c8cb454bad01036be109895e7918a4ac575e909904a29b9c04ac38b970"
+    },
+    "artifacts/world-input/picking/build-report.json": {
+      "bytes": 319,
+      "sha256": "1ea895e4fd9f015e0fa034f154b6f195cef39472cc17afe69849c8cbb64bed04"
+    },
+    "artifacts/world-input/picking/config-draft-save.json": {
+      "bytes": 263,
+      "sha256": "9c9d7881e6211dd1201f4f6aa3f0b051e70477166d9c15591c9c21cd182e73bd"
+    },
+    "artifacts/world-input/picking/export-neighbours.log": {
+      "bytes": 5985,
+      "sha256": "8549fc04b2a58c0208ea097ac8d9d6e4f642f6f3663f5c4eb9c5f79612cd9d2e"
+    },
+    "artifacts/world-input/picking/export-world.log": {
+      "bytes": 9593,
+      "sha256": "506ba909f3fafc6db9cd7eef41f58793682fca286f4c3a06b80aea4bbc971904"
+    },
+    "artifacts/world-input/picking/export.log": {
+      "bytes": 9879,
+      "sha256": "e6d433101e3a4c7ebb0989cbe943fed09e2632921fd7447821b4f0eb62fd4234"
+    },
+    "artifacts/world-input/picking/final-audit.json": {
+      "bytes": 571,
+      "sha256": "888ff8b9e401617aea92f2d630d3ee7d6e3ad015eda5a51cc9f7f1bbdd8f9f30"
+    },
+    "artifacts/world-input/picking/headless-neighbours.log": {
+      "bytes": 5082,
+      "sha256": "6b56d0b444ec636269530b9ab9ea99c68597f837a1338a22fb72f727a64d7f83"
+    },
+    "artifacts/world-input/picking/headless-world.log": {
+      "bytes": 8950,
+      "sha256": "564ad97d28c41b271921d7dafbcfec5084af79da9b5059bb7a682c11e7212b9c"
+    },
+    "artifacts/world-input/picking/headless.log": {
+      "bytes": 9236,
+      "sha256": "44bfd6cbd85c8b55e03d3e1938919661d4db22ea333c93bc6261a2cfd080f896"
+    },
+    "artifacts/world-input/picking/install-config-saved.sh": {
+      "bytes": 2534,
+      "sha256": "ea780c594927587dd4d3964b2fc83523778e50f938328ce577abb816b5bbdfc8"
+    },
+    "artifacts/world-input/picking/mask-csharp-validation-final.json": {
+      "bytes": 2015,
+      "sha256": "348066bd2e3a6e975f3f9f9a0d35d4dc856782a0402ee50ee671bd964ae41b19"
+    },
+    "artifacts/world-input/picking/mask-csharp-validation.json": {
+      "bytes": 2015,
+      "sha256": "bd64e95688078b3637cc3a26a6950706a5dbe37e50ea6c38f126facc21b74313"
+    },
+    "artifacts/world-input/picking/mask-targeted-tests.log": {
+      "bytes": 1050,
+      "sha256": "49be1852ba99ac56e0071ebeca840f1b59d1f311c1b9d78415262d60c5f0d9fd"
+    },
+    "artifacts/world-input/picking/mask-validation-final-launch.log": {
+      "bytes": 110,
+      "sha256": "175961c0e142fecefdd3ca9966e3446ee3332a0ea34a536b5b1439d7856b94a4"
+    },
+    "artifacts/world-input/picking/mask-validation-launch.log": {
+      "bytes": 110,
+      "sha256": "175961c0e142fecefdd3ca9966e3446ee3332a0ea34a536b5b1439d7856b94a4"
+    },
+    "artifacts/world-input/picking/native-mask-probe-02.log": {
+      "bytes": 90,
+      "sha256": "59fe45e500fdc6f8359cddd971550ee911d28895791055ac3208ce5bd0ad3cec"
+    },
+    "artifacts/world-input/picking/native-mask-probe.log": {
+      "bytes": 1153,
+      "sha256": "d6a5bc40a681eefffcbe6a7e86da1a77631f7f4327c17e3f483166b55a66a77c"
+    },
+    "artifacts/world-input/picking/native-world-picker-order.json": {
+      "bytes": 1313034,
+      "sha256": "fd7837e70722b52d44a2d75682db7d2a2cd594d5bf238fb6eee1b94b4ead2472"
+    },
+    "artifacts/world-input/picking/native-world-picker-order.log": {
+      "bytes": 318,
+      "sha256": "8289c80c65871becb70c5fe75d76e1e38aacb2efcbfda1c29ae3dc841de31600"
+    },
+    "artifacts/world-input/picking/neighbours-export/00499530.c": {
+      "bytes": 368,
+      "sha256": "32e62d9bcebf0ded364f51e00b4ccfd20aed12a346fdea555dffe95cb272ce16"
+    },
+    "artifacts/world-input/picking/neighbours-export/00499530.refs.txt": {
+      "bytes": 28,
+      "sha256": "d1a74db67184e42897a93dd7cfedea3f3dab38b6b9d5a8467d626e889e29a0d6"
+    },
+    "artifacts/world-input/picking/neighbours-export/0049a1d0.c": {
+      "bytes": 482,
+      "sha256": "369e7f89c84f070dadf27a44e53fa3f8d75262c6713f4d9367e133b4c9e788a2"
+    },
+    "artifacts/world-input/picking/neighbours-export/0049a1d0.refs.txt": {
+      "bytes": 196,
+      "sha256": "35f04a608f537bc366c901651f4ebcce0d17be8e2c521977682cc970ece2b6c6"
+    },
+    "artifacts/world-input/picking/neighbours-export/004a1150.c": {
+      "bytes": 1140,
+      "sha256": "8862937b8c42c3480e3737eb4a77a94c088a0fd2c3e9e64fa2ecf01f3f3a6f78"
+    },
+    "artifacts/world-input/picking/neighbours-export/004a1150.refs.txt": {
+      "bytes": 448,
+      "sha256": "a045545e6fca7797495fe7f8aa78b4821b87c7a7a5a05ef7b59e07e3aef034a3"
+    },
+    "artifacts/world-input/picking/neighbours-export/004cc500.c": {
+      "bytes": 1004,
+      "sha256": "2c95648cbfddab4b3160ab51e2266492f61fc624030568c59bc39779aaa95de4"
+    },
+    "artifacts/world-input/picking/neighbours-export/004cc500.refs.txt": {
+      "bytes": 28,
+      "sha256": "9103e09f10bb06ec471df939a2cc95c23b9677d7628b2e8bb864b30c035312c7"
+    },
+    "artifacts/world-input/picking/neighbours-export/004cc650.c": {
+      "bytes": 390,
+      "sha256": "22b536cbe9d110d8ef20a3ba885890eb8dc6c3f68577187674d70c2f819f1fe4"
+    },
+    "artifacts/world-input/picking/neighbours-export/004cc650.refs.txt": {
+      "bytes": 84,
+      "sha256": "20906f34428c045161b40ac22a7c019a6409eb7665a6da7b64e9f2dfa3cd0e5a"
+    },
+    "artifacts/world-input/picking/neighbours-export/004cc8c0.c": {
+      "bytes": 728,
+      "sha256": "ff10ed4b25db7248b46c68a3fd4b3017cda3647b0ab37badbbc88740afcc960e"
+    },
+    "artifacts/world-input/picking/neighbours-export/004cc8c0.refs.txt": {
+      "bytes": 56,
+      "sha256": "19ae0e8c53b9de1232ceef159f8395b426fa44a316d2fb401ed86be9157d2888"
+    },
+    "artifacts/world-input/picking/neighbours-export/004cc970.c": {
+      "bytes": 4055,
+      "sha256": "e021378da23e14315fa65f7fb5b1002e7e9ae52456a2c18c132363dffa9cded4"
+    },
+    "artifacts/world-input/picking/neighbours-export/004cc970.refs.txt": {
+      "bytes": 112,
+      "sha256": "377bdd2b3a1fff693a99e4f5debc922f32f22f4eec12a9cc881f64407eb4e352"
+    },
+    "artifacts/world-input/picking/neighbours-export/004d50b0.c": {
+      "bytes": 675,
+      "sha256": "755f4468813db89b53c1c1609e651e08201cd1fb14debb26e39e77fc3339a212"
+    },
+    "artifacts/world-input/picking/neighbours-export/004d50b0.refs.txt": {
+      "bytes": 224,
+      "sha256": "a8ca129a5996b986950d49665e921973ccebd2a23df0da8a721d68f5f2ac05c0"
+    },
+    "artifacts/world-input/picking/neighbours-export/0050e590.c": {
+      "bytes": 469,
+      "sha256": "cdd8a3155273d826552d9b58229022b79990bd742273456b7dfdb71d75dffc14"
+    },
+    "artifacts/world-input/picking/neighbours-export/0050e590.refs.txt": {
+      "bytes": 4900,
+      "sha256": "57b385f9f381fa462c771642a122d08a27e88a2a3a41e5ee6bdf611932e1fa82"
+    },
+    "artifacts/world-input/picking/neighbours-export/00520c50.c": {
+      "bytes": 2950,
+      "sha256": "e0e65838c88ba4744041aed37cd9ad2292b896838d0b6f2a3a1d73a50b4d8b91"
+    },
+    "artifacts/world-input/picking/neighbours-export/00520c50.refs.txt": {
+      "bytes": 1316,
+      "sha256": "27477947e68b84b203dceb32df05b0b33af834d424a7a15179bfb9a717d93a36"
+    },
+    "artifacts/world-input/picking/neighbours-export/00542530.c": {
+      "bytes": 189,
+      "sha256": "9a11bda2425f3c9e5e4de22b890b59dee97d1a73135a8ea24a8f73072baab424"
+    },
+    "artifacts/world-input/picking/neighbours-export/00542530.refs.txt": {
+      "bytes": 700,
+      "sha256": "b4aa122046bbae7b2c497198d8cb5146150bc8067266bb27ca87081543a802cb"
+    },
+    "artifacts/world-input/picking/neighbours-export/005576e0.c": {
+      "bytes": 155,
+      "sha256": "d200be604b892def6b5a17992bc41d6934c606f38b996bcc1ce7d9c36f50f1ef"
+    },
+    "artifacts/world-input/picking/neighbours-export/005576e0.refs.txt": {
+      "bytes": 20692,
+      "sha256": "3351be844b9b063e653f401b363395d4c7232f34a65890ae05c9f2082c25529e"
+    },
+    "artifacts/world-input/picking/neighbours-export/00557700.c": {
+      "bytes": 234,
+      "sha256": "be860e35b2273e832400f6c2a6a2234650b5e0c3176318989907f9845910acb4"
+    },
+    "artifacts/world-input/picking/neighbours-export/00557700.refs.txt": {
+      "bytes": 5572,
+      "sha256": "b2738ecd485cb4d2f814c7d2617e0516f3dca753746e358cd05ac8c943038092"
+    },
+    "artifacts/world-input/picking/neighbours-export/00561470.c": {
+      "bytes": 372,
+      "sha256": "559fae7853c99808d29091a6fb4df878effe3d663e852fed449eb1772380fee1"
+    },
+    "artifacts/world-input/picking/neighbours-export/00561470.refs.txt": {
+      "bytes": 140,
+      "sha256": "0278ef091b5d3fc7f48a3c63d8f20b86d8ee4af9a4146e614720185a0625f27a"
+    },
+    "artifacts/world-input/picking/order-regression/normal/active-cleared-1-attempts.json": {
+      "bytes": 2277,
+      "sha256": "4c6f8672795a014d3f94091e185f08d99fd20fbb0f83ea46e9df3b5819a6937a"
+    },
+    "artifacts/world-input/picking/order-regression/normal/active-cleared-1-metrics.json": {
+      "bytes": 1333,
+      "sha256": "c68e9936b3d04812e12dc54204aeacd1e43f072d11e638601564278fb76f85b5"
+    },
+    "artifacts/world-input/picking/order-regression/normal/captures.json": {
+      "bytes": 66022,
+      "sha256": "1db56bd9b6ff44ec4629e0430ecc6f44fd13894529f56e60b8b3a64114c8201c"
+    },
+    "artifacts/world-input/picking/order-regression/normal/geometry.txt": {
+      "bytes": 56,
+      "sha256": "df3cefe0e71af78e8e7c35481055e5b5d26f74dd7a61f72f7e59ac82203acc3d"
+    },
+    "artifacts/world-input/picking/order-regression/normal/idle-published-1-attempts.json": {
+      "bytes": 4819,
+      "sha256": "3f031b21298fe6a05829af3bad3bee4a06a148fd07dd15ecd6af4583b18d36cd"
+    },
+    "artifacts/world-input/picking/order-regression/normal/idle-published-1-metrics.json": {
+      "bytes": 1333,
+      "sha256": "aded4697874a16351a4bd1f08e12a93b41556a0e4928a39d0d447a130ff9576d"
+    },
+    "artifacts/world-input/picking/order-regression/normal/initial-attempts.json": {
+      "bytes": 1852,
+      "sha256": "5df9e028b4352ea0ade98d845bfef13a26c54bda39c6f6344bfdc1c332e30570"
+    },
+    "artifacts/world-input/picking/order-regression/normal/initial-metrics.json": {
+      "bytes": 1332,
+      "sha256": "8b184664438cd560b09c87f42ccf44e751f747812f553f867817e14ae4567404"
+    },
+    "artifacts/world-input/picking/order-regression/normal/launch.json": {
+      "bytes": 43555,
+      "sha256": "03132848904a94882d413d7e2f37247bc08f4ab72e9d3beaa6eeee3732f56714"
+    },
+    "artifacts/world-input/picking/order-regression/normal/moving-1-attempts.json": {
+      "bytes": 4247,
+      "sha256": "b6a39e65c9471e30a1bc8d33b266808ea732e5c778ae06b458547e81773166df"
+    },
+    "artifacts/world-input/picking/order-regression/normal/moving-1-metrics.json": {
+      "bytes": 1332,
+      "sha256": "bcbae3d2ffe95d35be13a17d9fd574887665a71884a6e74178649c617ed444f0"
+    },
+    "artifacts/world-input/picking/order-regression/normal/path-1-attempts.json": {
+      "bytes": 1962,
+      "sha256": "69ab996ebb75c11497da3a6574da79a3f04572b49869160c2ae1455964ea359b"
+    },
+    "artifacts/world-input/picking/order-regression/normal/path-1-metrics.json": {
+      "bytes": 1332,
+      "sha256": "8b184664438cd560b09c87f42ccf44e751f747812f553f867817e14ae4567404"
+    },
+    "artifacts/world-input/picking/order-regression/normal/path-complete-1-attempts.json": {
+      "bytes": 4432,
+      "sha256": "9862996c30ce75b4f757813637d5f16bbadf23626f19c12877c8d0aced20463b"
+    },
+    "artifacts/world-input/picking/order-regression/normal/path-complete-1-metrics.json": {
+      "bytes": 1333,
+      "sha256": "c68e9936b3d04812e12dc54204aeacd1e43f072d11e638601564278fb76f85b5"
+    },
+    "artifacts/world-input/picking/order-regression/normal/player.log": {
+      "bytes": 73453,
+      "sha256": "39f92fb1e7472906bc53382a26a8160ea92bc02493c5c7fc93b4f63a4993785a"
+    },
+    "artifacts/world-input/picking/order-regression/normal/promoted-1-attempts.json": {
+      "bytes": 1933,
+      "sha256": "332db91c5b81798deaefccc7bf383095b10e80d774306dbd9ea6d8c9f37b6dcb"
+    },
+    "artifacts/world-input/picking/order-regression/normal/promoted-1-metrics.json": {
+      "bytes": 1332,
+      "sha256": "8b184664438cd560b09c87f42ccf44e751f747812f553f867817e14ae4567404"
+    },
+    "artifacts/world-input/picking/order-regression/normal/report.json": {
+      "bytes": 231116,
+      "sha256": "f58a07bb6a6f223f03ad3e8cec7e70bf7f4729fc840f04b23f032bb11fda143c"
+    },
+    "artifacts/world-input/picking/order-regression/normal/request-1-attempts.json": {
+      "bytes": 1893,
+      "sha256": "0feb2a625ca7434559af208510432ef0b3481e1b3877e2077e8c5c84b2655c27"
+    },
+    "artifacts/world-input/picking/order-regression/normal/request-1-metrics.json": {
+      "bytes": 1332,
+      "sha256": "8b184664438cd560b09c87f42ccf44e751f747812f553f867817e14ae4567404"
+    },
+    "artifacts/world-input/picking/order-regression/normal/reserved-1-attempts.json": {
+      "bytes": 2038,
+      "sha256": "9e84d415ac1775a0de7a9013f8e2c8c9a927acf1b44d59c57e5a92162d38761e"
+    },
+    "artifacts/world-input/picking/order-regression/normal/reserved-1-metrics.json": {
+      "bytes": 1332,
+      "sha256": "6b7d9d6380391abb95f12f5e74fb96aa8f1b573483c763d7756e92e3b60f604f"
+    },
+    "artifacts/world-input/picking/order-regression/normal/stop-request-1-attempts.json": {
+      "bytes": 2222,
+      "sha256": "97ef0badc39a0e44d2f2efb29e880e895405961d72fab0a3ade581244bc5eb03"
+    },
+    "artifacts/world-input/picking/order-regression/normal/stop-request-1-metrics.json": {
+      "bytes": 1333,
+      "sha256": "c68e9936b3d04812e12dc54204aeacd1e43f072d11e638601564278fb76f85b5"
+    },
+    "artifacts/world-input/picking/order-regression/normal/transferred-1-attempts.json": {
+      "bytes": 4328,
+      "sha256": "136a8c53e5de4468479945d4a321d56dc3800f9d558a495987236773b16f7364"
+    },
+    "artifacts/world-input/picking/order-regression/normal/transferred-1-metrics.json": {
+      "bytes": 1332,
+      "sha256": "6ff29d4cb24ed52b9e2475449c053fbc21fd8a25501e2fad4784e46bcbc235ae"
+    },
+    "artifacts/world-input/picking/order-regression/normal/turn-1-attempts.json": {
+      "bytes": 4143,
+      "sha256": "605ec6de8236ecdf3b979597af86d59c7825d7d7bb30d0cfef35d4f3791c7f1e"
+    },
+    "artifacts/world-input/picking/order-regression/normal/turn-1-metrics.json": {
+      "bytes": 1332,
+      "sha256": "6f05033cf040ececf769b529c92cdd0679e391b20e0bebb41357539994d9d0cd"
+    },
+    "artifacts/world-input/picking/order-regression/normal/wine-launch.log": {
+      "bytes": 3302,
+      "sha256": "5fc989c067d2a86fde0446714efbbbe96b0920309d8694755814162ae415b57e"
+    },
+    "artifacts/world-input/picking/order-regression/normal/xvfb.log": {
+      "bytes": 81,
+      "sha256": "e2861dbf17c9cb74d57668ceaa0ec8111c014cd26d10d2d0dffdf37188dac690"
+    },
+    "artifacts/world-input/picking/order-regression/report.json": {
+      "bytes": 770539,
+      "sha256": "113a339e1e5dd21da8bf63d1dd786d274a5e628fe2627623da917c6544b5f6f9"
+    },
+    "artifacts/world-input/picking/order-regression/two-after-clear/active-cleared-1-attempts.json": {
+      "bytes": 2277,
+      "sha256": "53ebacd84ca5bc19c938438f54714d4a0f8b1c2f052f8e64f2b159f1724fc0b6"
+    },
+    "artifacts/world-input/picking/order-regression/two-after-clear/active-cleared-1-metrics.json": {
+      "bytes": 1333,
+      "sha256": "c68e9936b3d04812e12dc54204aeacd1e43f072d11e638601564278fb76f85b5"
+    },
+    "artifacts/world-input/picking/order-regression/two-after-clear/active-cleared-2-attempts.json": {
+      "bytes": 2741,
+      "sha256": "d54255522aedd68c62ef10f031aeed5c4c5d12e0dedec818bffcf1e97d8c26ea"
+    },
+    "artifacts/world-input/picking/order-regression/two-after-clear/active-cleared-2-metrics.json": {
+      "bytes": 1332,
+      "sha256": "fdb606925ca29cb705f2a3f574b0e7eeb452d4cf7ee0b629bc6b8cf89b2c01d4"
+    },
+    "artifacts/world-input/picking/order-regression/two-after-clear/captures.json": {
+      "bytes": 121439,
+      "sha256": "91311c47e49eafaad079610b99dcd6622b96023945fc2b16d00208c52b0711eb"
+    },
+    "artifacts/world-input/picking/order-regression/two-after-clear/geometry.txt": {
+      "bytes": 56,
+      "sha256": "822e348f1875ebdefc935fc13650d9d38cf1d03426e3ce189fef88e5c0feffa8"
+    },
+    "artifacts/world-input/picking/order-regression/two-after-clear/idle-published-1-attempts.json": {
+      "bytes": 4819,
+      "sha256": "c0bdf4648df660111e25d7e64148bccade8aaf22c58d44ef39058319110ebb31"
+    },
+    "artifacts/world-input/picking/order-regression/two-after-clear/idle-published-1-metrics.json": {
+      "bytes": 1333,
+      "sha256": "aded4697874a16351a4bd1f08e12a93b41556a0e4928a39d0d447a130ff9576d"
+    },
+    "artifacts/world-input/picking/order-regression/two-after-clear/idle-published-2-attempts.json": {
+      "bytes": 2794,
+      "sha256": "86a9e202407a977848b898b7983f595db432dda9e5ec9412555a9ef77df02735"
+    },
+    "artifacts/world-input/picking/order-regression/two-after-clear/idle-published-2-metrics.json": {
+      "bytes": 1332,
+      "sha256": "5fd198d2d33a3eb33c7a6c30419dfd0521372c55fd9ef62501338a165eda813f"
+    },
+    "artifacts/world-input/picking/order-regression/two-after-clear/initial-attempts.json": {
+      "bytes": 1853,
+      "sha256": "b3977531177a56756012a0e5d20cfb364060f279e1f461ce73bf4b135fbe9674"
+    },
+    "artifacts/world-input/picking/order-regression/two-after-clear/initial-metrics.json": {
+      "bytes": 1332,
+      "sha256": "8b184664438cd560b09c87f42ccf44e751f747812f553f867817e14ae4567404"
+    },
+    "artifacts/world-input/picking/order-regression/two-after-clear/launch.json": {
+      "bytes": 62110,
+      "sha256": "8599a9722945e2b85f7fe82f9f7fb095529ba958915572803508e36529fa2fd9"
+    },
+    "artifacts/world-input/picking/order-regression/two-after-clear/moving-1-attempts.json": {
+      "bytes": 4247,
+      "sha256": "2530e94f74c72d0df68f4b1249ec37c5ccc30712f12cb1140506481d65e94a56"
+    },
+    "artifacts/world-input/picking/order-regression/two-after-clear/moving-1-metrics.json": {
+      "bytes": 1332,
+      "sha256": "bcbae3d2ffe95d35be13a17d9fd574887665a71884a6e74178649c617ed444f0"
+    },
+    "artifacts/world-input/picking/order-regression/two-after-clear/moving-2-attempts.json": {
+      "bytes": 5183,
+      "sha256": "fc2d6a5f261bfe366325fb2fed4b26fa33f1807138f3fbc378252d36431d813a"
+    },
+    "artifacts/world-input/picking/order-regression/two-after-clear/moving-2-metrics.json": {
+      "bytes": 1333,
+      "sha256": "6fcf1413f8b7983165a281f4d1be6d9ce9fb1a7e0d7b2940c9007705978b48a8"
+    },
+    "artifacts/world-input/picking/order-regression/two-after-clear/path-1-attempts.json": {
+      "bytes": 1962,
+      "sha256": "bab4a15c1218e9a1003ed93d7abd7d94442da6ba763e0e7880924c8f54dd902a"
+    },
+    "artifacts/world-input/picking/order-regression/two-after-clear/path-1-metrics.json": {
+      "bytes": 1332,
+      "sha256": "8b184664438cd560b09c87f42ccf44e751f747812f553f867817e14ae4567404"
+    },
+    "artifacts/world-input/picking/order-regression/two-after-clear/path-2-attempts.json": {
+      "bytes": 2429,
+      "sha256": "e774a47a0f532218a587383ed287e63e746156146f718fe1b08c4bfbb0e10eca"
+    },
+    "artifacts/world-input/picking/order-regression/two-after-clear/path-2-metrics.json": {
+      "bytes": 1333,
+      "sha256": "aded4697874a16351a4bd1f08e12a93b41556a0e4928a39d0d447a130ff9576d"
+    },
+    "artifacts/world-input/picking/order-regression/two-after-clear/path-complete-1-attempts.json": {
+      "bytes": 4432,
+      "sha256": "9925789bf37d4b8637dd07a4eff40a279260d165eea1b3d58edb5e253adbfe5a"
+    },
+    "artifacts/world-input/picking/order-regression/two-after-clear/path-complete-1-metrics.json": {
+      "bytes": 1333,
+      "sha256": "c68e9936b3d04812e12dc54204aeacd1e43f072d11e638601564278fb76f85b5"
+    },
+    "artifacts/world-input/picking/order-regression/two-after-clear/path-complete-2-attempts.json": {
+      "bytes": 2639,
+      "sha256": "802d37eff47f96d4b25849a32eb301272808d09e2ed519497f56cb2c7d9021f9"
+    },
+    "artifacts/world-input/picking/order-regression/two-after-clear/path-complete-2-metrics.json": {
+      "bytes": 1332,
+      "sha256": "fdb606925ca29cb705f2a3f574b0e7eeb452d4cf7ee0b629bc6b8cf89b2c01d4"
+    },
+    "artifacts/world-input/picking/order-regression/two-after-clear/player.log": {
+      "bytes": 132278,
+      "sha256": "e09ac70e64d360d41c84847a62403757ce2fe31184477e74c635a57fdeaa4ecc"
+    },
+    "artifacts/world-input/picking/order-regression/two-after-clear/promoted-1-attempts.json": {
+      "bytes": 1934,
+      "sha256": "19a2b307b10fdd66a330fcba288b4532c291826bf87281a236fb0d36f88aeee2"
+    },
+    "artifacts/world-input/picking/order-regression/two-after-clear/promoted-1-metrics.json": {
+      "bytes": 1332,
+      "sha256": "8b184664438cd560b09c87f42ccf44e751f747812f553f867817e14ae4567404"
+    },
+    "artifacts/world-input/picking/order-regression/two-after-clear/promoted-2-attempts.json": {
+      "bytes": 2401,
+      "sha256": "26284cb3702d8ccd58c47e0b4fc275fd8dce7d80120be7b59e78c5612b2776a1"
+    },
+    "artifacts/world-input/picking/order-regression/two-after-clear/promoted-2-metrics.json": {
+      "bytes": 1333,
+      "sha256": "aded4697874a16351a4bd1f08e12a93b41556a0e4928a39d0d447a130ff9576d"
+    },
+    "artifacts/world-input/picking/order-regression/two-after-clear/report.json": {
+      "bytes": 413128,
+      "sha256": "4a801693115785de94b08b3ee0531b01cca55a4155f5e4913246b2574cc43d17"
+    },
+    "artifacts/world-input/picking/order-regression/two-after-clear/request-1-attempts.json": {
+      "bytes": 1893,
+      "sha256": "4d988a94208f5d5b022f8be88d368ea150475410fcde851da7b65036b8639945"
+    },
+    "artifacts/world-input/picking/order-regression/two-after-clear/request-1-metrics.json": {
+      "bytes": 1332,
+      "sha256": "8b184664438cd560b09c87f42ccf44e751f747812f553f867817e14ae4567404"
+    },
+    "artifacts/world-input/picking/order-regression/two-after-clear/request-2-attempts.json": {
+      "bytes": 2360,
+      "sha256": "e9069105f4dbd0ec8c7671b83c118d5a256794d340c2e8c349513ca9d15bf2b1"
+    },
+    "artifacts/world-input/picking/order-regression/two-after-clear/request-2-metrics.json": {
+      "bytes": 1333,
+      "sha256": "aded4697874a16351a4bd1f08e12a93b41556a0e4928a39d0d447a130ff9576d"
+    },
+    "artifacts/world-input/picking/order-regression/two-after-clear/reserved-1-attempts.json": {
+      "bytes": 2038,
+      "sha256": "57d9ded3cfdc62e926b118a30f65e7e56d2110ff444afc3f02736b70513aa3a1"
+    },
+    "artifacts/world-input/picking/order-regression/two-after-clear/reserved-1-metrics.json": {
+      "bytes": 1332,
+      "sha256": "6b7d9d6380391abb95f12f5e74fb96aa8f1b573483c763d7756e92e3b60f604f"
+    },
+    "artifacts/world-input/picking/order-regression/two-after-clear/reserved-2-attempts.json": {
+      "bytes": 2504,
+      "sha256": "91179d752f7d3d2dafcf1c445dcfcad13a63eaf62ca7ffee07b3eaf98b126401"
+    },
+    "artifacts/world-input/picking/order-regression/two-after-clear/reserved-2-metrics.json": {
+      "bytes": 1333,
+      "sha256": "5887357e205f71958788302577532cace72af5521cda02cb504dbdcc46b9b683"
+    },
+    "artifacts/world-input/picking/order-regression/two-after-clear/stop-request-1-attempts.json": {
+      "bytes": 2223,
+      "sha256": "826e818588eb811b485a4600418e682282c556b620fda0388521c5a7b2ac886c"
+    },
+    "artifacts/world-input/picking/order-regression/two-after-clear/stop-request-1-metrics.json": {
+      "bytes": 1333,
+      "sha256": "c68e9936b3d04812e12dc54204aeacd1e43f072d11e638601564278fb76f85b5"
+    },
+    "artifacts/world-input/picking/order-regression/two-after-clear/stop-request-2-attempts.json": {
+      "bytes": 2688,
+      "sha256": "82d179a18ee2f75f80e295e42c82c6b9f4b3b6435dc1743d7ea2d6a536af49e2"
+    },
+    "artifacts/world-input/picking/order-regression/two-after-clear/stop-request-2-metrics.json": {
+      "bytes": 1332,
+      "sha256": "fdb606925ca29cb705f2a3f574b0e7eeb452d4cf7ee0b629bc6b8cf89b2c01d4"
+    },
+    "artifacts/world-input/picking/order-regression/two-after-clear/transferred-1-attempts.json": {
+      "bytes": 2122,
+      "sha256": "b71ce97a797ccb65cefcdc2cd09b0f24799963d27d6a382e50bedca6a4f64ff0"
+    },
+    "artifacts/world-input/picking/order-regression/two-after-clear/transferred-1-metrics.json": {
+      "bytes": 1332,
+      "sha256": "6ff29d4cb24ed52b9e2475449c053fbc21fd8a25501e2fad4784e46bcbc235ae"
+    },
+    "artifacts/world-input/picking/order-regression/two-after-clear/transferred-2-attempts.json": {
+      "bytes": 2589,
+      "sha256": "1d715b9df9b2f79c645f8c58f30d7bc34494faaec04ba006b04dc56137dc5579"
+    },
+    "artifacts/world-input/picking/order-regression/two-after-clear/transferred-2-metrics.json": {
+      "bytes": 1333,
+      "sha256": "c34488f7ab50a1ff486de9b7b64a5e5415f1d42c7aa8168bafcd88b8d55b4766"
+    },
+    "artifacts/world-input/picking/order-regression/two-after-clear/turn-1-attempts.json": {
+      "bytes": 4143,
+      "sha256": "428e501dbf61bf86e86c335cd4ea428dd16e81f48f7623f098d61364c5774123"
+    },
+    "artifacts/world-input/picking/order-regression/two-after-clear/turn-1-metrics.json": {
+      "bytes": 1332,
+      "sha256": "6f05033cf040ececf769b529c92cdd0679e391b20e0bebb41357539994d9d0cd"
+    },
+    "artifacts/world-input/picking/order-regression/two-after-clear/turn-2-attempts.json": {
+      "bytes": 2461,
+      "sha256": "2cfeb07abfe9cee4cb77ef2dfbd835d8a7f5e960f5298245c0f276aa385e2234"
+    },
+    "artifacts/world-input/picking/order-regression/two-after-clear/turn-2-metrics.json": {
+      "bytes": 1333,
+      "sha256": "809ee602161f65f79e237a697e8167625fcbb3252963a29ba343f0637689e84c"
+    },
+    "artifacts/world-input/picking/order-regression/two-after-clear/wine-launch.log": {
+      "bytes": 3238,
+      "sha256": "d0679f973a173c7db1bb4aabc4fd27f316c5f30d5d5bf607d145ff7ac8323edd"
+    },
+    "artifacts/world-input/picking/order-regression/two-after-clear/xvfb.log": {
+      "bytes": 64,
+      "sha256": "87e9572cf030493a1f7ba83d385129046b224374ca1414911674b30fc44276d7"
+    },
+    "artifacts/world-input/picking/order-regression-aggregate.json": {
+      "bytes": 291,
+      "sha256": "862a03d34bf55419dff11c01cfb50faef67f5e55ba66b22f6b686c1b7b9a5d90"
+    },
+    "artifacts/world-input/picking/order-regression-launch.log": {
+      "bytes": 133,
+      "sha256": "0f2df71c4e4909a1bb35813d05e0a5f31385eb00222e2ad20abf3fa4773a8bba"
+    },
+    "artifacts/world-input/picking/pause-status.json": {
+      "bytes": 778,
+      "sha256": "3e637aed8c941466edccc0e1e59bf9f8302b0f8a45514b3eea32a70520c088bb"
+    },
+    "artifacts/world-input/picking/probe_world_picker_order.py": {
+      "bytes": 6856,
+      "sha256": "edac398f8a75d9041457ed1ab49a6de6b62cd072b629a09f3c2a58ecbcbbbd6e"
+    },
+    "artifacts/world-input/picking/source-integrity.json": {
+      "bytes": 7503,
+      "sha256": "864868345e4275581e572a66dc8d132d3298454e8bacdc337b75f76cdf19f95a"
+    },
+    "artifacts/world-input/picking/unittest-resumed.log": {
+      "bytes": 35094,
+      "sha256": "3d93b5269d5e2e260b8845254f25402f25e97291a5916fefabc8162fb962dd24"
+    },
+    "artifacts/world-input/picking/windows-build-01.log": {
+      "bytes": 619058,
+      "sha256": "8d1a6e172c28fa98f24e44e086080f0793bd28c02e262b85c819276bc772599f"
+    },
+    "artifacts/world-input/picking/world-roots/00518d90.c": {
+      "bytes": 5361,
+      "sha256": "b800041a71eb0457e1c4e5b3d4b844ac4e490c74d9f8884cee82883bbf0451b5"
+    },
+    "artifacts/world-input/picking/world-roots/0051cd60.c": {
+      "bytes": 43334,
+      "sha256": "f3eb3e5845d651a517cf5b9bde1c424f24b51ad508cf5b8d0b462b02a922bf77"
+    },
+    "artifacts/world-input/picking/world-roots/00522ce0.c": {
+      "bytes": 10722,
+      "sha256": "21ce12168904d488339739fe2030b028602ef6b381928d25d6470246cda986d9"
+    },
+    "artifacts/world-input/picking/world-roots/0052e3e0.c": {
+      "bytes": 8328,
+      "sha256": "7664eccd90ab9baa493a9371514a7388f7545089d5d967fcb56e684acbd46910"
+    },
+    "artifacts/world-input/picking/world-roots/0052fb40.c": {
+      "bytes": 2533,
+      "sha256": "be093e87f9a74a00621cb90551c15680a3f06867f01591f8324f7f4176f90089"
+    },
+    "artifacts/world-input/picking/world-roots/references.txt": {
+      "bytes": 4894,
+      "sha256": "3326b21c482bdb136de49428d825616246c91925cc61f5ec1e18aaf07a41808e"
+    },
+    "docs/REFERENCE_MATRIX.csv": {
+      "bytes": 27985,
+      "sha256": "1ad8e3575d7968c96ef398a6bdfade035cbc1e8b3467ae3c79c4b73578c0b984"
+    },
+    "docs/REMAKE_PLAN.md": {
+      "bytes": 46635,
+      "sha256": "f9d463f1c100cd03f687e2c9c1c4d3c055c6f9b35d0f8118e531b0eeea33479c"
+    },
+    "docs/SHIP_POINTER_MASK_EVIDENCE.md": {
+      "bytes": 6093,
+      "sha256": "75527bea708fcf8842091d5bb7676325bf7018dafc71f4caae02613a4d360ed9"
+    },
+    "docs/SHIP_POINTER_RESUME.md": {
+      "bytes": 5579,
+      "sha256": "c4c19ff48359a4f5c86fcfb344db35c82a22086eec44dc871644c4be3c509b9d"
+    },
+    "docs/UnityProjectContext.md": {
+      "bytes": 54019,
+      "sha256": "426c62e801fc70285f58386f07d5542e41b8a632eb03afc451dd1fe8b4d0a328"
+    },
+    "docs/VALIDATION.md": {
+      "bytes": 5655,
+      "sha256": "d3d96bb32e70dd9573963337755f720e72077e7ff86701ec241baf6b2f9bb1c1"
+    },
+    "docs/WORLD_COMMAND_SOURCE_EVIDENCE.md": {
+      "bytes": 4404,
+      "sha256": "58bb6e32b20462fa24126a165f3c0c954903b5568f61f2c1c4243629abf1b026"
+    },
+    "docs/WORLD_PICKER_ORDER_EVIDENCE.md": {
+      "bytes": 4722,
+      "sha256": "c2690aaa5ec3a929d15216f227e122d100adbb66642e21e210cf5d4bb6d90897"
+    },
+    "tests/fixtures/ShipPointerMaskProbe.cs": {
+      "bytes": 4635,
+      "sha256": "a41b79e787735cb8aadf3baa3af614743419112f6545f33833f0398521d8b70d"
+    },
+    "tests/fixtures/ship_pointer_mask.json": {
+      "bytes": 2205676,
+      "sha256": "8119cc2cb7e645edc671f2ba8daea5d1878a61ddeb0acca254e59a0c92163245"
+    },
+    "tests/test_ship_pointer_mask.py": {
+      "bytes": 1449,
+      "sha256": "799e4104c3cf3d877d17edd9a3d14881e6d1a0636c7cdf7b4358b08ba82f0a76"
+    },
+    "tests/test_stage_ship_picking.py": {
+      "bytes": 2749,
+      "sha256": "a64f7ca4b07ba6821f6c66c520e117434b085d976ad535afc8ff3dc1f818c8ce"
+    },
+    "tools/probe_ship_pointer_mask.py": {
+      "bytes": 6533,
+      "sha256": "672873cd09665f3abd0a94f7dad51e721069e3492d63cbf6c8709e0934ba08e5"
+    },
+    "tools/stage_ship_picking.py": {
+      "bytes": 5284,
+      "sha256": "5b85922055f31972b3ae41e9d16bd5ad9cf6150e84b9f0e7d46e72f959cd9a14"
+    },
+    "tools/validate_ship_pointer_mask.py": {
+      "bytes": 5872,
+      "sha256": "58e7254e79178f4e8ddcd0cf857c6500a0a6ba28b9e694df217fc3943ff5e0a2"
+    }
+  },
+  "limitations": [
+    "Mask oracle executes original hit/query/sequence routines with declared geometry/sequence; not full actor constructor or loader",
+    "Separate masks are not renderedalpha; precision0 returnsTrue before geometry; domainheading/size guards are adapter contracts",
+    "New mask predicate is not yet consumed by Unity input;35frames are existingorder/render regression",
+    "Worldpicker and group command proofs are source-only; no C#port or actualclickintegration yet",
+    "No complete game/Life/AI/combat/weather/save/final2026art;normalStartdisabled",
+    "Wine/Xvfb notnativeWin11/OSmouse/targethardwareperformance proof",
+    "Only normal andtwo-after-clear legacyorder scenarios repeated,notallhistoricalregressions",
+    "Previous unittest-final.log interrupted by user is historical,notPASS;freshresumed194passed"
+  ]
+}

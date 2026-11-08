@@ -1,0 +1,69 @@
+{
+  "date": "2026-11-02",
+  "base_commit": "864d5bdcb6c727495676c7a0d439615077a206a6",
+  "working_tree": true,
+  "target": [
+    1920,
+    1080
+  ],
+  "tests": 80,
+  "skipped": 0,
+  "differential_cases": {
+    "boss_gate": 35,
+    "menu_button": 150,
+    "clock": 1287,
+    "briefing_difficulty": 558
+  },
+  "briefing_lines_native_x86": 15,
+  "runtime_dll_sha256": "65b034e1e47ed2b4d3f9b411644f971d7da3376fb67480e80c9389f62d939da7",
+  "briefing_replay": {
+    "stages": 39,
+    "captures": 11,
+    "exit": 0,
+    "report": "artifacts/briefing/player-native-ui-sampling/report.json"
+  },
+  "menu_regression": {
+    "stages": 27,
+    "captures": 5,
+    "exit": 0,
+    "report": "artifacts/briefing/menu-regression-final/report.json"
+  },
+  "build": {
+    "result": "Succeeded",
+    "platform": "StandaloneWindows64",
+    "output": "/workspace/gierka/artifacts/unity-reference/Windows/AncientConquestReference.exe",
+    "editorVersion": "6000.3.27f2",
+    "warnings": 0,
+    "errors": 0,
+    "bytes": 133455363,
+    "resolution": "1920x1080",
+    "development": false
+  },
+  "archive": {
+    "archive": "artifacts/briefing/AncientConquest-UIPrototype-Briefing-Windows-x64-1920x1080.zip",
+    "bytes": 46295506,
+    "sha256": "a52f76e13fc1440e5461388ff0677778f74d325746bebb167450782bcd266977",
+    "file_count": 176,
+    "validation": "ZIP CRC and SHA256 of every decompressed file matched current build"
+  },
+  "source_sha256": {
+    "Unity/AncientConquest/Assets/AncientConquest/Editor/ValidateMenuInput.cs": "16ea4e733569bfb1a8fa1c8fd763e6f13570adfcb8f5f20d070b5ab43b98fb95",
+    "Unity/AncientConquest/Assets/AncientConquest/Editor/BuildReferenceWindows.cs": "8331cbffbea4db027c34be6e3cec05da108cc8c69c7ce0bf100c43bf42d658dc",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/RgbaResourceTexture.cs": "bfe98339b9fdc0d1c8e17154f306bcb74f45b37985f7a39cc76191fab87f6038",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/BriefingDifficultySelection.cs": "d068062ede1d046f700393c84a8e258780c9d1d54b20908f91a24b1395472611",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/NativeMenuFrame.cs": "51129f4e964f5be0d53bb4596c9a1e9a00e216b5db80782f667b3a5a9ea2dec5",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/MainMenuButton.cs": "1cfe6db61bdba6237eb748bd7df3f92b8a6c33955ac88b50fc1d3da330e54aac",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/BriefingPanel.cs": "5f7dfa1606ee556a7c879022a443b91926b8a2204c12c4da0aa97f4f067adc22",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/NativeMenuCanvas.cs": "c8ee8a644ef3c960ddf63a7b450d35042163fe7c906edf0dae0795c10be6598f",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/Simulation/SingleStepClock.cs": "e30a65784197edbcf174039dec5f72cea252b289f14972d4fafc0a488ec69539",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/Simulation/BossAiMessageGate.cs": "92b0efb4fb6dfcbf1a47a103455bcaf10194f47576e6c490b10e0c1551a031dd",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/Diagnostics/MenuInputReplay.cs": "9de40ee0d552c01cd93aaccc398c89e9e4cc44e5bb8ca2eb67501c3cff371dda",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/Diagnostics/BriefingInputReplay.cs": "da45e210a0ac0c3d6d8a46dd5764229809af8dcb7240a3124400b4bff4339993"
+  },
+  "limits": [
+    "StartGame, fullgameplay, briefing audio and final2026art incomplete",
+    "OS/WineRAWINPUT and nativeWindows11/laptop notvalidated",
+    "SyntheticInputSystem player tests only",
+    "Originalgame runtime not available"
+  ]
+}

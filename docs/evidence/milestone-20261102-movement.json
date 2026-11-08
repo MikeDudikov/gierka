@@ -1,0 +1,459 @@
+{
+  "date": "2026-11-02",
+  "base_commit": "864d5bdcb6c727495676c7a0d439615077a206a6",
+  "working_tree": true,
+  "published": false,
+  "target": [
+    1920,
+    1080
+  ],
+  "scope": "One opt-in controlled source0b prepared native route, seven stationary source ships and five reefs. Not a playable mission or final2026art.",
+  "previous_milestone": "docs/evidence/milestone-20261102-ships.json",
+  "tests": 143,
+  "skipped": 0,
+  "comparisons": {
+    "move_request_csharp_scenarios": 45,
+    "move_request_observations": 169,
+    "move_request_guards": 10,
+    "prepared_movement_cases": 6,
+    "prepared_movement_snapshots": 186,
+    "prepared_movement_calls": 180,
+    "prepared_movement_guards": 40,
+    "native_pose_publications": 115,
+    "forward_phase_cases": 224,
+    "forward_arithmetic_cases": 64,
+    "source_setter_renderer_rows_without_hooks": 45,
+    "staged_poses": 88,
+    "staged_component_instances": 264,
+    "staged_planes": 152,
+    "primary_qa_controls": 318,
+    "independent_retry_controls": 14
+  },
+  "build": {
+    "result": "Succeeded",
+    "platform": "StandaloneWindows64",
+    "output": "/workspace/gierka/artifacts/unity-reference/Windows/AncientConquestReference.exe",
+    "editorVersion": "6000.3.27f2",
+    "warnings": 0,
+    "errors": 0,
+    "bytes": 146184267,
+    "resolution": "1920x1080",
+    "development": false
+  },
+  "runtime_dll_sha256": "4d31ab124c18d6d0d0e935e0325d79782bfac160cf2d56aad1945e9a9903504c",
+  "runtime_movement": {
+    "report": "artifacts/movement/runtime-complete-final/report.json",
+    "helper_sha256": "ac37af28a8adbe67ee4b1e1d06a54ba15f9bd70edb3f99a2429ae2f9efaa6694",
+    "wholeframe_max_channel_error_limit": 4,
+    "stale_presentation_attempts_rejected": 3,
+    "sessions": [
+      {
+        "stop_at_call": 44,
+        "captures": [
+          {
+            "stage": "initial",
+            "screenshot": "initial-attempt-01.png",
+            "global_mean_rgb_error": 0,
+            "global_max_channel_error": 0,
+            "ship_regions": 3,
+            "presentation_attempts": 1
+          },
+          {
+            "stage": "reserved",
+            "screenshot": "reserved-attempt-01.png",
+            "global_mean_rgb_error": 0,
+            "global_max_channel_error": 0,
+            "ship_regions": 3,
+            "presentation_attempts": 1
+          },
+          {
+            "stage": "animation-only",
+            "screenshot": "animation-only-attempt-01.png",
+            "global_mean_rgb_error": 0,
+            "global_max_channel_error": 0,
+            "ship_regions": 3,
+            "presentation_attempts": 1
+          },
+          {
+            "stage": "first-pixel",
+            "screenshot": "first-pixel-attempt-02.png",
+            "global_mean_rgb_error": 0,
+            "global_max_channel_error": 0,
+            "ship_regions": 3,
+            "presentation_attempts": 2
+          },
+          {
+            "stage": "before-transfer",
+            "screenshot": "before-transfer-attempt-02.png",
+            "global_mean_rgb_error": 0,
+            "global_max_channel_error": 0,
+            "ship_regions": 3,
+            "presentation_attempts": 2
+          },
+          {
+            "stage": "transferred",
+            "screenshot": "transferred-attempt-02.png",
+            "global_mean_rgb_error": 0,
+            "global_max_channel_error": 0,
+            "ship_regions": 3,
+            "presentation_attempts": 2
+          },
+          {
+            "stage": "arrived",
+            "screenshot": "arrived-attempt-01.png",
+            "global_mean_rgb_error": 0,
+            "global_max_channel_error": 0,
+            "ship_regions": 3,
+            "presentation_attempts": 1
+          }
+        ],
+        "released_claims": 8,
+        "exit_code": 0
+      },
+      {
+        "stop_at_call": 1,
+        "captures": [
+          {
+            "stage": "initial",
+            "screenshot": "initial-attempt-01.png",
+            "global_mean_rgb_error": 0,
+            "global_max_channel_error": 0,
+            "ship_regions": 3,
+            "presentation_attempts": 1
+          },
+          {
+            "stage": "reserved",
+            "screenshot": "reserved-attempt-01.png",
+            "global_mean_rgb_error": 0,
+            "global_max_channel_error": 0,
+            "ship_regions": 3,
+            "presentation_attempts": 1
+          }
+        ],
+        "released_claims": 9,
+        "exit_code": 0
+      }
+    ]
+  },
+  "regressions": {
+    "units": {
+      "sessions": 3,
+      "full_ship_regions": 8,
+      "rgb_mean_max": 0
+    },
+    "objects": {
+      "sessions": 4,
+      "rgb_mean_max": 0
+    },
+    "terrain": {
+      "sessions": 3,
+      "rgb_mean_max": 0
+    },
+    "briefing": {
+      "stages": 39,
+      "captures": 11,
+      "quit_callback_exit_code": 0,
+      "synthetic_input": true
+    },
+    "menu": {
+      "stages": 27,
+      "captures": 5,
+      "commands": 6,
+      "quit_callback_exit_code": 0,
+      "synthetic_input": true
+    }
+  },
+  "package": {
+    "archive": "artifacts/movement/AncientConquest-Prototype-Movement-Windows-x64-1920x1080.zip",
+    "bytes": 46980327,
+    "sha256": "fd40fb7f1efe78ded0baff8d703c45e0c9c0a4401cd004052da6929ed24d7ad3",
+    "file_count": 184,
+    "verification_passes": 2
+  },
+  "config_draft": {
+    "draft_id": "a772870d-781c-4522-aa6f-de8b982b96ff~cecfgdraft_f63c6e07355c8192a0f34be8e0fde31c",
+    "revision": 11,
+    "requires_publish": true,
+    "published": false,
+    "preserved": {
+      "repositories": true,
+      "network_policy": true,
+      "secrets": true,
+      "runtime_requirements": true,
+      "pending_runtime_requirements": true
+    },
+    "staging_script_count": 1,
+    "prior_start_instructions_preserved": true
+  },
+  "source_integrity": {
+    "missing_cs_metas": [],
+    "malformed_guids": [],
+    "duplicate_guids": {},
+    "meta_count": 73
+  },
+  "source_sha256": {
+    "Unity/AncientConquest/Assets/AncientConquest/Editor/BuildReferenceWindows.cs": "f88179e2117bb1b4f76e37b9162412b4bbeaecbe7a7aa9077b8e46d4beffa589",
+    "Unity/AncientConquest/Assets/AncientConquest/Editor/ValidateMenuInput.cs": "16ea4e733569bfb1a8fa1c8fd763e6f13570adfcb8f5f20d070b5ab43b98fb95",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/BriefingDifficultySelection.cs": "d068062ede1d046f700393c84a8e258780c9d1d54b20908f91a24b1395472611",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/BriefingPanel.cs": "5f7dfa1606ee556a7c879022a443b91926b8a2204c12c4da0aa97f4f067adc22",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/Diagnostics/BriefingInputReplay.cs": "da45e210a0ac0c3d6d8a46dd5764229809af8dcb7240a3124400b4bff4339993",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/Diagnostics/MenuInputReplay.cs": "9de40ee0d552c01cd93aaccc398c89e9e4cc44e5bb8ca2eb67501c3cff371dda",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/MainMenuButton.cs": "1cfe6db61bdba6237eb748bd7df3f92b8a6c33955ac88b50fc1d3da330e54aac",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/MissionInitialSetup.cs": "e354d48e69e56cc59b71d142c5a68d49f73f5966174ad3408a0feb59d23ebd8e",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/MissionObjectReference.cs": "6b36c359fc41518e4e76d62ecf4fb8470573e7f8f12bb1afc3c6e566aac691a2",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/MissionObjectSeed.cs": "65b6f22142fbdb26fa0239f6d0ed11d921dedaa0eec55d470f48e76f401c1c14",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/MissionObjectSelection.cs": "f2ec3c49d62bd6598992f154c4fe58e8948da21dcf2ece1c6e42643dc2a58fbd",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/MissionOccupancyGrid.cs": "7c38445f0ab30250458966db8f559fdabba3dafa2273a17c5d7edba9178f3bbd",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/MissionReefSeed.cs": "9f823f56e6605d6931c903026ff8b0249b84efe75f9b8c0748bc070e320686e6",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/MissionShipReference.cs": "54557e534bb804dd15bfd95d22ff11666dea1b66140ff05313e46e86f0741d26",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/MissionShipSeed.cs": "7cf66a30c96092ae0a0eff341dab9e07fe37b1ba227369368d44a65252ac3c7b",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/NativeMenuCanvas.cs": "c8ee8a644ef3c960ddf63a7b450d35042163fe7c906edf0dae0795c10be6598f",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/NativeMenuFrame.cs": "9adfbf8465576c712e5d306c7564e802c56ae16f9a38985e60480f00f3089e91",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/RgbaResourceTexture.cs": "bfe98339b9fdc0d1c8e17154f306bcb74f45b37985f7a39cc76191fab87f6038",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/ShipMovementReference.cs": "8b12ba87cbcced2ffd1edae63c607fa9190ecbeb7a3a0e38fb677a049d9c84ca",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/Simulation/BossAiMessageGate.cs": "92b0efb4fb6dfcbf1a47a103455bcaf10194f47576e6c490b10e0c1551a031dd",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/Simulation/PreparedShipMovement.cs": "dc56968babe342bfa9dfedb5b417a3acae6e3cb69e997c2f13c07b07be35467d",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/Simulation/ShipFrameProgression.cs": "761c5349e390ea00c46c8ed93a7212a6fa4f941d856c8727145a4de1968cafcf",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/Simulation/ShipMoveRequestInbox.cs": "62eb735aae590d46f42a12f789f4b2278ec71d0ca98bfbe0b6633ceacd183217",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/Simulation/SingleStepClock.cs": "e30a65784197edbcf174039dec5f72cea252b289f14972d4fafc0a488ec69539",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/TerrainMapData.cs": "bfe77e756982948f3018ea67a50098d87d7b8b973d24da5bc9930a080d65f815",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/TerrainReferenceFrame.cs": "62352a63c19a1567ef0182419cd04f7306afb9ff47c511f02985146a978fad47",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/TerrainViewport.cs": "01884de20a9d1dd9f8d4acdda170005822de414913753563447840e195f3f3e8"
+  },
+  "evidence": {
+    "README.md": {
+      "bytes": 18434,
+      "sha256": "5f39fbe1bab4985543c340655cd0cef548c25de94a6f096fb8a19dc313206478"
+    },
+    "artifacts/movement/animation/ship-forward-publication-tracked-validation.json": {
+      "bytes": 9883,
+      "sha256": "f99d4936aa089be1eec9b26122fb39cee7689390c5f426b7fac0b7fd69bb8a53"
+    },
+    "artifacts/movement/animation/ship-frame-progression-csharp-validation.json": {
+      "bytes": 70589,
+      "sha256": "d91229db7d424a3bf2d0f2c1b46e432974e521508544f0ebb41cc59f648f4acc"
+    },
+    "artifacts/movement/briefing-regression/report.json": {
+      "bytes": 13035,
+      "sha256": "74e41c296d26e7d7d12ea3ec2c2ab5d5c0f3df0bd3ff45982eb54edd95268c83"
+    },
+    "artifacts/movement/build-report.json": {
+      "bytes": 319,
+      "sha256": "b3ed66c3e2504bee3eb85553ac2f82f01bc2edecf2842975c0eb42c9bcaa5431"
+    },
+    "artifacts/movement/capture-retry-controls-global/report.json": {
+      "bytes": 85048,
+      "sha256": "6f6d88eecc992309a1f51e05ba243b4b3ab5dcf27f6616585aa089d8d62e5c81"
+    },
+    "artifacts/movement/config-draft-verification.json": {
+      "bytes": 416,
+      "sha256": "512e5b63a0d45656eb3e8da9eceac1b2bac968f0d33edb37ce1795f482ce2520"
+    },
+    "artifacts/movement/first-failure-analysis.json": {
+      "bytes": 577,
+      "sha256": "ee6f02f72b73ff397562dc45a19cae91075b5d0838b8981887235e5ee5d67207"
+    },
+    "artifacts/movement/kinematics/driver-review.json": {
+      "bytes": 2365,
+      "sha256": "31f640597a9a17b4edf62a6c5321c7c8c250d44673fcf05b1ee7dfef75925937"
+    },
+    "artifacts/movement/kinematics/pose-publication-validation.json": {
+      "bytes": 44580,
+      "sha256": "79667e3862bf88c0a5967a4ab41542df12f5c388c5c1c5a8fd64cc3661e3b8ff"
+    },
+    "artifacts/movement/kinematics/prepared-movement-csharp-validation.json": {
+      "bytes": 10875,
+      "sha256": "450c2cff9eb1a6122030220058066c1a9a340d6df2e5195b3dd3db209be1c146"
+    },
+    "artifacts/movement/menu-regression/report.json": {
+      "bytes": 5953,
+      "sha256": "5c813c328e2c650c7bd1f250c589cde7f8ea4eda74a42283205c14aff8c1b996"
+    },
+    "artifacts/movement/objects-regression/report.json": {
+      "bytes": 37233,
+      "sha256": "959bf4c8b31478ab05df2dc22fe1b4cc1f082d11c93406fcb0fc8fb6a3602f83"
+    },
+    "artifacts/movement/orders/csharp-validation-final.json": {
+      "bytes": 258809,
+      "sha256": "dec3b8c646446fc62e63108dd112776dd7dbcf6f7742170f08b2eab774527368"
+    },
+    "artifacts/movement/prototype-package-manifest.json": {
+      "bytes": 38762,
+      "sha256": "12f37992526ae67a61acc53fb50e17b6aeeb208f94adf78b0240cf1ae4ad021f"
+    },
+    "artifacts/movement/qa-helper-controls-complete/capture-report.json": {
+      "bytes": 10902,
+      "sha256": "66631599cde936c430d95b3e25534bbff71438069b794b47778a6f745531d04f"
+    },
+    "artifacts/movement/qa-helper-controls-complete/ghost-control-report.json": {
+      "bytes": 2394,
+      "sha256": "c1c84a500574774beba6765cccc29ea1cc4c50e39263cf981743a80b08ff6c42"
+    },
+    "artifacts/movement/qa-helper-controls-complete/global-boundary-report.json": {
+      "bytes": 4210,
+      "sha256": "bc5179b8cfc6b078d884bf47769c2bf01b2c36015daaf4dbf884c928187d4547"
+    },
+    "artifacts/movement/qa-helper-controls-complete/report.json": {
+      "bytes": 228693,
+      "sha256": "6a26bf26da964667194874f73a1dd456c390d47ee21572eb6564bc3f72d4b48a"
+    },
+    "artifacts/movement/qa-helper-controls-final/report.json": {
+      "bytes": 224168,
+      "sha256": "ce7f40b5c2d61d18025ef328fa54fd69d06f77ecb41714833247e1379b230271"
+    },
+    "artifacts/movement/qa-helper-controls/report.json": {
+      "bytes": 224254,
+      "sha256": "0317e63195c2ca06e1c2cc3edc462a24d501725df94853540817daea9c0da2db"
+    },
+    "artifacts/movement/runtime-complete-final/report.json": {
+      "bytes": 112059,
+      "sha256": "adc1e6d873d06e17d385dc2bb15f1b0ac57d8535b442090467889d2b270ce8ed"
+    },
+    "artifacts/movement/runtime-final/failure.json": {
+      "bytes": 1073,
+      "sha256": "0b98bc74db564680f0bb87733eb5684a367a83d611c395930940aabd4b8c79e5"
+    },
+    "artifacts/movement/runtime-strict-final/report.json": {
+      "bytes": 107842,
+      "sha256": "e0474ae90352c8b081c744dd27659d6fc538f629e355d2ec81047c494250b1e9"
+    },
+    "artifacts/movement/source-integrity.json": {
+      "bytes": 4254,
+      "sha256": "fadfb576fd1e28bf44fbb7d0e3dcb0a7320770a586566062ddf5f6ba3d2ff60b"
+    },
+    "artifacts/movement/terrain-regression/report.json": {
+      "bytes": 17320,
+      "sha256": "e1bacbd49ec916f1846759c3acfff832c7ecfe0f6c38bfb14411555236846c49"
+    },
+    "artifacts/movement/time/ship-clock-validation-final.json": {
+      "bytes": 59364,
+      "sha256": "b45620bec1733d57157df1c3aca396a48613b53fdbf8f7e0f46eb7aa4cf02740"
+    },
+    "artifacts/movement/units-regression/report.json": {
+      "bytes": 63877,
+      "sha256": "9c5e9b66c44184ec0a06283adba5d4ee08fb21dc98be5c550994a282be50edef"
+    },
+    "artifacts/movement/unittest-final.log": {
+      "bytes": 24515,
+      "sha256": "612f3da8c8c21a6caf6e7bd1699f770916cfe044b2058268c341a3ff9ca391b1"
+    },
+    "artifacts/movement/unity-build-01.log": {
+      "bytes": 66959,
+      "sha256": "42d581e52420d5ba4e32dcff7e2c0e0d59a247eec34a42fdf15c9246e5edc76a"
+    },
+    "artifacts/movement/unity-build-02.log": {
+      "bytes": 617080,
+      "sha256": "f14ebef79054c67e8efdb0884bb8a487ea6bcbe84d96f5dd5facc3b47343c868"
+    },
+    "artifacts/movement/weather/weather-validation.json": {
+      "bytes": 35937,
+      "sha256": "7490eec95bd4f2b742fe82052816f4c231e8458dae088142bbd607ad4c54ce3b"
+    },
+    "docs/REFERENCE_MATRIX.csv": {
+      "bytes": 17232,
+      "sha256": "f09799e7c2f66dbb10080c138997a9beb33a741507d55773db59b29278903039"
+    },
+    "docs/REMAKE_PLAN.md": {
+      "bytes": 30775,
+      "sha256": "0e29a3129e9ee9346136fc4c9e7211bbfa25a42ce59b22847f4c4becc9098c98"
+    },
+    "docs/SHIP_MOVEMENT_ANIMATION_EVIDENCE.md": {
+      "bytes": 14686,
+      "sha256": "fb66bae3aef868a9fc76d23f035e21b0e2857caed1b82f4199265e1f0964abf9"
+    },
+    "docs/SHIP_MOVEMENT_CLOCK_EVIDENCE.md": {
+      "bytes": 10946,
+      "sha256": "d68de0a6bb5a5925ecda441f0e52bfcb3759343e001b57401b8817a2a129e291"
+    },
+    "docs/SHIP_MOVEMENT_EVIDENCE.md": {
+      "bytes": 11158,
+      "sha256": "a04c2626c3ffa30b124c600f184789da1215d331bbd2cadca01fd99b2a4bafde"
+    },
+    "docs/SHIP_MOVEMENT_RUNTIME_VALIDATION.md": {
+      "bytes": 9489,
+      "sha256": "b06e6614039983de69cbc31fbe80a2010cc7e640e5dc7c6c4cd9efde4a899df8"
+    },
+    "docs/SHIP_MOVEMENT_WEATHER_EVIDENCE.md": {
+      "bytes": 7853,
+      "sha256": "7e477a999537abf1f0d1bc85d6b4fda197af315394c04051c90b75c9ecc7626e"
+    },
+    "docs/SHIP_ORDER_EVIDENCE.md": {
+      "bytes": 12961,
+      "sha256": "4acfbbd6575e52f602589e8e0452d68946f53aa0079a2dc8dade27429fd9d60f"
+    },
+    "docs/UnityProjectContext.md": {
+      "bytes": 31976,
+      "sha256": "20c595c0e678517ae896a817d1ba1c6b64051ef973bf1c489e287a3fa6d88815"
+    },
+    "docs/VALIDATION.md": {
+      "bytes": 8791,
+      "sha256": "ace9c5a3e9a641a2b93b7f65b3a5573d43654fcf22d8004979ea6623cecb44c6"
+    },
+    "tests/fixtures/prepared_ship_movement.json": {
+      "bytes": 206588,
+      "sha256": "28931c2849e05f46c7fd005c0f7b923f1d19bf26c045148a1a2388191cf2d374"
+    },
+    "tests/fixtures/ship_forward_publication.json": {
+      "bytes": 9974,
+      "sha256": "9567c1a18cd894892af9a97841ff5c73399a0b0030847a7a562a064b2f42b666"
+    },
+    "tests/test_prepared_ship_movement.py": {
+      "bytes": 1850,
+      "sha256": "0de76abc99b73f07d1861923fc7893429a3edbc0001aa8bc9e0b93d7422af930"
+    },
+    "tests/test_ship_forward_publication.py": {
+      "bytes": 1299,
+      "sha256": "f99bf1073eced9377a2dd04665499f5540086c4cce283fb5c374ca25689016fc"
+    },
+    "tests/test_ship_frame_progression.py": {
+      "bytes": 1774,
+      "sha256": "1d94dc39924c9a79e050ae3a26377f78782c160d79e3fa3bbf1813912f8a5e37"
+    },
+    "tests/test_ship_move_request.py": {
+      "bytes": 1257,
+      "sha256": "a0c5ca54506fcfd2d964d154f8dcf0d9b9698af53640861549b3d1fb483b335c"
+    },
+    "tests/test_stage_ship_movement.py": {
+      "bytes": 15089,
+      "sha256": "6cc8500a561a9a51509bb511542e96829d43edfa0f04a5d0e068252c31fec745"
+    },
+    "tools/probe_ship_kinematics.py": {
+      "bytes": 14561,
+      "sha256": "333c344b5f75ddd4693038ad7996dfe753816a1f6d5637c9beeb388109dd9732"
+    },
+    "tools/smoke_ship_movement.py": {
+      "bytes": 29125,
+      "sha256": "ac37af28a8adbe67ee4b1e1d06a54ba15f9bd70edb3f99a2429ae2f9efaa6694"
+    },
+    "tools/stage_ship_movement.py": {
+      "bytes": 7644,
+      "sha256": "ea9a627bb11f3a3cbef0e7450e106c39438db9e0d474f94aaea6bdef745ea28f"
+    },
+    "tools/validate_prepared_ship_movement.py": {
+      "bytes": 9090,
+      "sha256": "4df17ebb54922f14436c33d94afdf185f2d9f4a1df13e647ecf54898ff6dc878"
+    },
+    "tools/validate_ship_forward_publication.py": {
+      "bytes": 7421,
+      "sha256": "6288cee46c0118aeed6076829b01d9cffc8a263bc59f89c50cd352deb646e13c"
+    },
+    "tools/validate_ship_frame_progression.py": {
+      "bytes": 7390,
+      "sha256": "4c7245f6a977dc43286736a80ac67a39b44a207f65f5ed9e41890114bd38dbf1"
+    },
+    "tools/validate_ship_move_request.py": {
+      "bytes": 21042,
+      "sha256": "bc9dc1457eed19aecfa0b69cd16482bd123b818f241f0b0c8022fe467fca25cc"
+    }
+  },
+  "limitations": [
+    "Windows Mono player under Wine/Xvfb; native Windows11 and target i5/RTX3050Ti laptop not tested",
+    "One explicitly prepared source0b route16,2 to15,3, wind0/heading5, upgrade0, fullhealth and seven stationary source ships",
+    "No OS input, general pathfinding, full command collection, combat, AI, idle RNG or complete mission simulation",
+    "Harness checkpoint holds freeze diagnostic time; they do not reproduce the original pause mode or establish real-time cadence",
+    "Whole1920x1080 viewport and complete source0b/c/d planes at origin9,0 scale2; other source ships remain outside this crop",
+    "Known34-component cohort order only; no dynamic full-world sorter or other source classes",
+    "Base-palette source art is a fidelity reference, not final2026art or a performance claim",
+    "Diagnostic Application.Quit(0) is not evidence for the product/menu Quit callback"
+  ]
+}

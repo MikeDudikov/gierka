@@ -1,0 +1,1318 @@
+[ShipFleetControl] ready: first_normal_move=True; ctrl_recall=True; group_task_scheduler=False; source_art=True; full_game=False
+[ShipFleetSelection] checkpoint: stage=initial; members=none; pending=False; selected=False; counter=0
+[ShipFleetControl] selection: stage=initial; group=-1; temporary=0; dispatched=False
+[ShipFleetMotion] stage: initial; counter=0
+[ShipFleetMotion] actor: initial	11	16	2	1028	132	0	0	5	0	0	0	0	0	-1	0	0	0	0	20	0	0	0	1200	0	0	20	1028	132			64,11;115,13;141,12;318,41;342,42;443,16;513,39;538,40	0	0	0	0	4294967295	4294965247	0	0	0	0	0	0	0	0	0	0	0	0	0			0000000000000000000000000000000000000000000000000000	-1
+[ShipFleetMotion] part: initial; id=11; index=0; sprite=BLB1A020; order=17; world=1028,132
+[ShipFleetMotion] part: initial; id=11; index=1; sprite=CORP_1A0015; order=23; world=1028,132
+[ShipFleetMotion] part: initial; id=11; index=7; sprite=PARUS11A10015; order=24; world=1028,132
+[ShipFleetMotion] actor: initial	12	21	5	1348	324	0	0	4	0	0	0	0	0	-1	0	0	0	0	16	0	0	0	1200	0	0	16	1348	324			64,11;115,13;141,12;318,41;342,42;443,16;513,39;538,40	0	0	0	0	4294967295	4294965247	0	0	0	0	0	0	0	0	0	0	0	0	0			0000000000000000000000000000000000000000000000000000	-1
+[ShipFleetMotion] part: initial; id=12; index=0; sprite=BLB1A016; order=16; world=1348,324
+[ShipFleetMotion] part: initial; id=12; index=1; sprite=CORP_1A0012; order=28; world=1348,324
+[ShipFleetMotion] part: initial; id=12; index=7; sprite=PARUS11A10012; order=29; world=1348,324
+[ShipFleetMotion] actor: initial	13	19	4	1212	252	0	0	4	0	0	0	0	0	-1	0	0	0	0	16	0	0	0	884	0	0	16	1212	252			64,11;115,13;141,12;318,41;342,42;443,16;513,39;538,40	0	0	0	0	4294967295	4294967039	0	0	0	0	0	0	0	0	0	0	0	0	0			0000000000000000000000000000000000000000000000000000	-1
+[ShipFleetMotion] part: initial; id=13; index=0; sprite=BLB1H016; order=15; world=1212,252
+[ShipFleetMotion] part: initial; id=13; index=1; sprite=CORP_1H0016; order=25; world=1212,252
+[ShipFleetMotion] part: initial; id=13; index=5; sprite=ARMOR_1H0012; order=26; world=1212,252
+[ShipFleetMotion] part: initial; id=13; index=7; sprite=PARUS11H10012; order=27; world=1212,252
+[ShipFleetMotion] queue: stage=initial; node=20; kind=separate_shadow; id=0000002a; part=0; depth=21000; order=10
+[ShipFleetMotion] queue: stage=initial; node=18; kind=separate_shadow; id=00000029; part=0; depth=21000; order=11
+[ShipFleetMotion] queue: stage=initial; node=16; kind=separate_shadow; id=00000028; part=0; depth=21000; order=12
+[ShipFleetMotion] queue: stage=initial; node=14; kind=separate_shadow; id=00000027; part=0; depth=21000; order=13
+[ShipFleetMotion] queue: stage=initial; node=11; kind=separate_shadow; id=00000010; part=0; depth=21000; order=14
+[ShipFleetMotion] queue: stage=initial; node=9; kind=separate_shadow; id=0000000d; part=0; depth=21000; order=15
+[ShipFleetMotion] queue: stage=initial; node=7; kind=separate_shadow; id=0000000c; part=0; depth=21000; order=16
+[ShipFleetMotion] queue: stage=initial; node=5; kind=separate_shadow; id=0000000b; part=0; depth=21000; order=17
+[ShipFleetMotion] queue: stage=initial; node=12; kind=reef; id=00000021; part=-1; depth=20200; order=18
+[ShipFleetMotion] queue: stage=initial; node=3; kind=reef; id=0000000a; part=-1; depth=20200; order=19
+[ShipFleetMotion] queue: stage=initial; node=2; kind=reef; id=00000009; part=-1; depth=20200; order=20
+[ShipFleetMotion] queue: stage=initial; node=1; kind=reef; id=00000006; part=-1; depth=20200; order=21
+[ShipFleetMotion] queue: stage=initial; node=0; kind=reef; id=00000005; part=-1; depth=20200; order=22
+[ShipFleetMotion] queue: stage=initial; node=4; kind=inline_parent; id=0000000b; part=1; depth=19812; order=23
+[ShipFleetMotion] queue: stage=initial; node=4; kind=inline_parent; id=0000000b; part=7; depth=19812; order=24
+[ShipFleetMotion] queue: stage=initial; node=8; kind=inline_parent; id=0000000d; part=1; depth=19676; order=25
+[ShipFleetMotion] queue: stage=initial; node=8; kind=inline_parent; id=0000000d; part=5; depth=19676; order=26
+[ShipFleetMotion] queue: stage=initial; node=8; kind=inline_parent; id=0000000d; part=7; depth=19676; order=27
+[ShipFleetMotion] queue: stage=initial; node=6; kind=inline_parent; id=0000000c; part=1; depth=19620; order=28
+[ShipFleetMotion] queue: stage=initial; node=6; kind=inline_parent; id=0000000c; part=7; depth=19620; order=29
+[ShipFleetMotion] queue: stage=initial; node=17; kind=inline_parent; id=00000029; part=1; depth=19100; order=30
+[ShipFleetMotion] queue: stage=initial; node=17; kind=inline_parent; id=00000029; part=3; depth=19100; order=31
+[ShipFleetMotion] queue: stage=initial; node=17; kind=inline_parent; id=00000029; part=7; depth=19100; order=32
+[ShipFleetMotion] queue: stage=initial; node=19; kind=inline_parent; id=0000002a; part=1; depth=19036; order=33
+[ShipFleetMotion] queue: stage=initial; node=19; kind=inline_parent; id=0000002a; part=3; depth=19036; order=34
+[ShipFleetMotion] queue: stage=initial; node=19; kind=inline_parent; id=0000002a; part=7; depth=19036; order=35
+[ShipFleetMotion] queue: stage=initial; node=10; kind=inline_parent; id=00000010; part=1; depth=18784; order=36
+[ShipFleetMotion] queue: stage=initial; node=10; kind=inline_parent; id=00000010; part=7; depth=18784; order=37
+[ShipFleetMotion] queue: stage=initial; node=13; kind=inline_parent; id=00000027; part=1; depth=18588; order=38
+[ShipFleetMotion] queue: stage=initial; node=13; kind=inline_parent; id=00000027; part=3; depth=18588; order=39
+[ShipFleetMotion] queue: stage=initial; node=13; kind=inline_parent; id=00000027; part=7; depth=18588; order=40
+[ShipFleetMotion] queue: stage=initial; node=15; kind=inline_parent; id=00000028; part=1; depth=18524; order=41
+[ShipFleetMotion] queue: stage=initial; node=15; kind=inline_parent; id=00000028; part=3; depth=18524; order=42
+[ShipFleetMotion] queue: stage=initial; node=15; kind=inline_parent; id=00000028; part=7; depth=18524; order=43
+[ShipFleetMotion] end: initial
+[ShipFleetSelection] checkpoint: stage=b-down; members=none; pending=False; selected=False; counter=0
+[ShipFleetControl] selection: stage=b-down; group=-1; temporary=0; dispatched=False
+[ShipFleetMotion] stage: b-down; counter=0
+[ShipFleetMotion] actor: b-down	11	16	2	1028	132	0	0	5	0	0	0	0	0	-1	0	0	0	0	20	0	0	0	1200	0	0	20	1028	132			64,11;115,13;141,12;318,41;342,42;443,16;513,39;538,40	0	0	0	0	4294967295	4294965247	0	0	0	0	0	0	0	0	0	0	0	0	0			0000000000000000000000000000000000000000000000000000	-1
+[ShipFleetMotion] part: b-down; id=11; index=0; sprite=BLB1A020; order=17; world=1028,132
+[ShipFleetMotion] part: b-down; id=11; index=1; sprite=CORP_1A0015; order=23; world=1028,132
+[ShipFleetMotion] part: b-down; id=11; index=7; sprite=PARUS11A10015; order=24; world=1028,132
+[ShipFleetMotion] actor: b-down	12	21	5	1348	324	0	0	4	0	0	0	0	0	-1	0	0	0	0	16	0	0	0	1200	0	0	16	1348	324			64,11;115,13;141,12;318,41;342,42;443,16;513,39;538,40	0	0	0	0	4294967295	4294965247	0	0	0	0	0	0	0	0	0	0	0	0	0			0000000000000000000000000000000000000000000000000000	-1
+[ShipFleetMotion] part: b-down; id=12; index=0; sprite=BLB1A016; order=16; world=1348,324
+[ShipFleetMotion] part: b-down; id=12; index=1; sprite=CORP_1A0012; order=28; world=1348,324
+[ShipFleetMotion] part: b-down; id=12; index=7; sprite=PARUS11A10012; order=29; world=1348,324
+[ShipFleetMotion] actor: b-down	13	19	4	1212	252	0	0	4	0	0	0	0	0	-1	0	0	0	0	16	0	0	0	884	0	0	16	1212	252			64,11;115,13;141,12;318,41;342,42;443,16;513,39;538,40	0	0	0	0	4294967295	4294967039	0	0	0	0	0	0	0	0	0	0	0	0	0			0000000000000000000000000000000000000000000000000000	-1
+[ShipFleetMotion] part: b-down; id=13; index=0; sprite=BLB1H016; order=15; world=1212,252
+[ShipFleetMotion] part: b-down; id=13; index=1; sprite=CORP_1H0016; order=25; world=1212,252
+[ShipFleetMotion] part: b-down; id=13; index=5; sprite=ARMOR_1H0012; order=26; world=1212,252
+[ShipFleetMotion] part: b-down; id=13; index=7; sprite=PARUS11H10012; order=27; world=1212,252
+[ShipFleetMotion] queue: stage=b-down; node=20; kind=separate_shadow; id=0000002a; part=0; depth=21000; order=10
+[ShipFleetMotion] queue: stage=b-down; node=18; kind=separate_shadow; id=00000029; part=0; depth=21000; order=11
+[ShipFleetMotion] queue: stage=b-down; node=16; kind=separate_shadow; id=00000028; part=0; depth=21000; order=12
+[ShipFleetMotion] queue: stage=b-down; node=14; kind=separate_shadow; id=00000027; part=0; depth=21000; order=13
+[ShipFleetMotion] queue: stage=b-down; node=11; kind=separate_shadow; id=00000010; part=0; depth=21000; order=14
+[ShipFleetMotion] queue: stage=b-down; node=9; kind=separate_shadow; id=0000000d; part=0; depth=21000; order=15
+[ShipFleetMotion] queue: stage=b-down; node=7; kind=separate_shadow; id=0000000c; part=0; depth=21000; order=16
+[ShipFleetMotion] queue: stage=b-down; node=5; kind=separate_shadow; id=0000000b; part=0; depth=21000; order=17
+[ShipFleetMotion] queue: stage=b-down; node=12; kind=reef; id=00000021; part=-1; depth=20200; order=18
+[ShipFleetMotion] queue: stage=b-down; node=3; kind=reef; id=0000000a; part=-1; depth=20200; order=19
+[ShipFleetMotion] queue: stage=b-down; node=2; kind=reef; id=00000009; part=-1; depth=20200; order=20
+[ShipFleetMotion] queue: stage=b-down; node=1; kind=reef; id=00000006; part=-1; depth=20200; order=21
+[ShipFleetMotion] queue: stage=b-down; node=0; kind=reef; id=00000005; part=-1; depth=20200; order=22
+[ShipFleetMotion] queue: stage=b-down; node=4; kind=inline_parent; id=0000000b; part=1; depth=19812; order=23
+[ShipFleetMotion] queue: stage=b-down; node=4; kind=inline_parent; id=0000000b; part=7; depth=19812; order=24
+[ShipFleetMotion] queue: stage=b-down; node=8; kind=inline_parent; id=0000000d; part=1; depth=19676; order=25
+[ShipFleetMotion] queue: stage=b-down; node=8; kind=inline_parent; id=0000000d; part=5; depth=19676; order=26
+[ShipFleetMotion] queue: stage=b-down; node=8; kind=inline_parent; id=0000000d; part=7; depth=19676; order=27
+[ShipFleetMotion] queue: stage=b-down; node=6; kind=inline_parent; id=0000000c; part=1; depth=19620; order=28
+[ShipFleetMotion] queue: stage=b-down; node=6; kind=inline_parent; id=0000000c; part=7; depth=19620; order=29
+[ShipFleetMotion] queue: stage=b-down; node=17; kind=inline_parent; id=00000029; part=1; depth=19100; order=30
+[ShipFleetMotion] queue: stage=b-down; node=17; kind=inline_parent; id=00000029; part=3; depth=19100; order=31
+[ShipFleetMotion] queue: stage=b-down; node=17; kind=inline_parent; id=00000029; part=7; depth=19100; order=32
+[ShipFleetMotion] queue: stage=b-down; node=19; kind=inline_parent; id=0000002a; part=1; depth=19036; order=33
+[ShipFleetMotion] queue: stage=b-down; node=19; kind=inline_parent; id=0000002a; part=3; depth=19036; order=34
+[ShipFleetMotion] queue: stage=b-down; node=19; kind=inline_parent; id=0000002a; part=7; depth=19036; order=35
+[ShipFleetMotion] queue: stage=b-down; node=10; kind=inline_parent; id=00000010; part=1; depth=18784; order=36
+[ShipFleetMotion] queue: stage=b-down; node=10; kind=inline_parent; id=00000010; part=7; depth=18784; order=37
+[ShipFleetMotion] queue: stage=b-down; node=13; kind=inline_parent; id=00000027; part=1; depth=18588; order=38
+[ShipFleetMotion] queue: stage=b-down; node=13; kind=inline_parent; id=00000027; part=3; depth=18588; order=39
+[ShipFleetMotion] queue: stage=b-down; node=13; kind=inline_parent; id=00000027; part=7; depth=18588; order=40
+[ShipFleetMotion] queue: stage=b-down; node=15; kind=inline_parent; id=00000028; part=1; depth=18524; order=41
+[ShipFleetMotion] queue: stage=b-down; node=15; kind=inline_parent; id=00000028; part=3; depth=18524; order=42
+[ShipFleetMotion] queue: stage=b-down; node=15; kind=inline_parent; id=00000028; part=7; depth=18524; order=43
+[ShipFleetMotion] end: b-down
+[ShipFleetSelection] checkpoint: stage=b-up; members=0000000b; pending=True; selected=True; counter=0
+[ShipFleetControl] selection: stage=b-up; group=-1; temporary=1; dispatched=False
+[ShipFleetMotion] stage: b-up; counter=0
+[ShipFleetMotion] actor: b-up	11	16	2	1028	132	0	0	5	0	0	0	0	0	-1	0	0	0	0	20	0	0	0	1200	0	0	20	1028	132			64,11;115,13;141,12;318,41;342,42;443,16;513,39;538,40	0	0	0	0	4294967295	4294965247	0	0	0	0	0	0	0	0	0	0	0	0	0			0000000000000000000000000000000000000000000000000000	-1
+[ShipFleetMotion] part: b-up; id=11; index=0; sprite=BLB1A020; order=17; world=1028,132
+[ShipFleetMotion] part: b-up; id=11; index=1; sprite=CORP_1A0015; order=23; world=1028,132
+[ShipFleetMotion] part: b-up; id=11; index=7; sprite=PARUS11A10015; order=24; world=1028,132
+[ShipFleetMotion] actor: b-up	12	21	5	1348	324	0	0	4	0	0	0	0	0	-1	0	0	0	0	16	0	0	0	1200	0	0	16	1348	324			64,11;115,13;141,12;318,41;342,42;443,16;513,39;538,40	0	0	0	0	4294967295	4294965247	0	0	0	0	0	0	0	0	0	0	0	0	0			0000000000000000000000000000000000000000000000000000	-1
+[ShipFleetMotion] part: b-up; id=12; index=0; sprite=BLB1A016; order=16; world=1348,324
+[ShipFleetMotion] part: b-up; id=12; index=1; sprite=CORP_1A0012; order=28; world=1348,324
+[ShipFleetMotion] part: b-up; id=12; index=7; sprite=PARUS11A10012; order=29; world=1348,324
+[ShipFleetMotion] actor: b-up	13	19	4	1212	252	0	0	4	0	0	0	0	0	-1	0	0	0	0	16	0	0	0	884	0	0	16	1212	252			64,11;115,13;141,12;318,41;342,42;443,16;513,39;538,40	0	0	0	0	4294967295	4294967039	0	0	0	0	0	0	0	0	0	0	0	0	0			0000000000000000000000000000000000000000000000000000	-1
+[ShipFleetMotion] part: b-up; id=13; index=0; sprite=BLB1H016; order=15; world=1212,252
+[ShipFleetMotion] part: b-up; id=13; index=1; sprite=CORP_1H0016; order=25; world=1212,252
+[ShipFleetMotion] part: b-up; id=13; index=5; sprite=ARMOR_1H0012; order=26; world=1212,252
+[ShipFleetMotion] part: b-up; id=13; index=7; sprite=PARUS11H10012; order=27; world=1212,252
+[ShipFleetMotion] queue: stage=b-up; node=20; kind=separate_shadow; id=0000002a; part=0; depth=21000; order=10
+[ShipFleetMotion] queue: stage=b-up; node=18; kind=separate_shadow; id=00000029; part=0; depth=21000; order=11
+[ShipFleetMotion] queue: stage=b-up; node=16; kind=separate_shadow; id=00000028; part=0; depth=21000; order=12
+[ShipFleetMotion] queue: stage=b-up; node=14; kind=separate_shadow; id=00000027; part=0; depth=21000; order=13
+[ShipFleetMotion] queue: stage=b-up; node=11; kind=separate_shadow; id=00000010; part=0; depth=21000; order=14
+[ShipFleetMotion] queue: stage=b-up; node=9; kind=separate_shadow; id=0000000d; part=0; depth=21000; order=15
+[ShipFleetMotion] queue: stage=b-up; node=7; kind=separate_shadow; id=0000000c; part=0; depth=21000; order=16
+[ShipFleetMotion] queue: stage=b-up; node=5; kind=separate_shadow; id=0000000b; part=0; depth=21000; order=17
+[ShipFleetMotion] queue: stage=b-up; node=12; kind=reef; id=00000021; part=-1; depth=20200; order=18
+[ShipFleetMotion] queue: stage=b-up; node=3; kind=reef; id=0000000a; part=-1; depth=20200; order=19
+[ShipFleetMotion] queue: stage=b-up; node=2; kind=reef; id=00000009; part=-1; depth=20200; order=20
+[ShipFleetMotion] queue: stage=b-up; node=1; kind=reef; id=00000006; part=-1; depth=20200; order=21
+[ShipFleetMotion] queue: stage=b-up; node=0; kind=reef; id=00000005; part=-1; depth=20200; order=22
+[ShipFleetMotion] queue: stage=b-up; node=4; kind=inline_parent; id=0000000b; part=1; depth=19812; order=23
+[ShipFleetMotion] queue: stage=b-up; node=4; kind=inline_parent; id=0000000b; part=7; depth=19812; order=24
+[ShipFleetMotion] queue: stage=b-up; node=8; kind=inline_parent; id=0000000d; part=1; depth=19676; order=25
+[ShipFleetMotion] queue: stage=b-up; node=8; kind=inline_parent; id=0000000d; part=5; depth=19676; order=26
+[ShipFleetMotion] queue: stage=b-up; node=8; kind=inline_parent; id=0000000d; part=7; depth=19676; order=27
+[ShipFleetMotion] queue: stage=b-up; node=6; kind=inline_parent; id=0000000c; part=1; depth=19620; order=28
+[ShipFleetMotion] queue: stage=b-up; node=6; kind=inline_parent; id=0000000c; part=7; depth=19620; order=29
+[ShipFleetMotion] queue: stage=b-up; node=17; kind=inline_parent; id=00000029; part=1; depth=19100; order=30
+[ShipFleetMotion] queue: stage=b-up; node=17; kind=inline_parent; id=00000029; part=3; depth=19100; order=31
+[ShipFleetMotion] queue: stage=b-up; node=17; kind=inline_parent; id=00000029; part=7; depth=19100; order=32
+[ShipFleetMotion] queue: stage=b-up; node=19; kind=inline_parent; id=0000002a; part=1; depth=19036; order=33
+[ShipFleetMotion] queue: stage=b-up; node=19; kind=inline_parent; id=0000002a; part=3; depth=19036; order=34
+[ShipFleetMotion] queue: stage=b-up; node=19; kind=inline_parent; id=0000002a; part=7; depth=19036; order=35
+[ShipFleetMotion] queue: stage=b-up; node=10; kind=inline_parent; id=00000010; part=1; depth=18784; order=36
+[ShipFleetMotion] queue: stage=b-up; node=10; kind=inline_parent; id=00000010; part=7; depth=18784; order=37
+[ShipFleetMotion] queue: stage=b-up; node=13; kind=inline_parent; id=00000027; part=1; depth=18588; order=38
+[ShipFleetMotion] queue: stage=b-up; node=13; kind=inline_parent; id=00000027; part=3; depth=18588; order=39
+[ShipFleetMotion] queue: stage=b-up; node=13; kind=inline_parent; id=00000027; part=7; depth=18588; order=40
+[ShipFleetMotion] queue: stage=b-up; node=15; kind=inline_parent; id=00000028; part=1; depth=18524; order=41
+[ShipFleetMotion] queue: stage=b-up; node=15; kind=inline_parent; id=00000028; part=3; depth=18524; order=42
+[ShipFleetMotion] queue: stage=b-up; node=15; kind=inline_parent; id=00000028; part=7; depth=18524; order=43
+[ShipFleetMotion] end: b-up
+[ShipFleetSelection] checkpoint: stage=add-c-down; members=0000000b; pending=True; selected=True; counter=0
+[ShipFleetControl] selection: stage=add-c-down; group=-1; temporary=1; dispatched=False
+[ShipFleetMotion] stage: add-c-down; counter=0
+[ShipFleetMotion] actor: add-c-down	11	16	2	1028	132	0	0	5	0	0	0	0	0	-1	0	0	0	0	20	0	0	0	1200	0	0	20	1028	132			64,11;115,13;141,12;318,41;342,42;443,16;513,39;538,40	0	0	0	0	4294967295	4294965247	0	0	0	0	0	0	0	0	0	0	0	0	0			0000000000000000000000000000000000000000000000000000	-1
+[ShipFleetMotion] part: add-c-down; id=11; index=0; sprite=BLB1A020; order=17; world=1028,132
+[ShipFleetMotion] part: add-c-down; id=11; index=1; sprite=CORP_1A0015; order=23; world=1028,132
+[ShipFleetMotion] part: add-c-down; id=11; index=7; sprite=PARUS11A10015; order=24; world=1028,132
+[ShipFleetMotion] actor: add-c-down	12	21	5	1348	324	0	0	4	0	0	0	0	0	-1	0	0	0	0	16	0	0	0	1200	0	0	16	1348	324			64,11;115,13;141,12;318,41;342,42;443,16;513,39;538,40	0	0	0	0	4294967295	4294965247	0	0	0	0	0	0	0	0	0	0	0	0	0			0000000000000000000000000000000000000000000000000000	-1
+[ShipFleetMotion] part: add-c-down; id=12; index=0; sprite=BLB1A016; order=16; world=1348,324
+[ShipFleetMotion] part: add-c-down; id=12; index=1; sprite=CORP_1A0012; order=28; world=1348,324
+[ShipFleetMotion] part: add-c-down; id=12; index=7; sprite=PARUS11A10012; order=29; world=1348,324
+[ShipFleetMotion] actor: add-c-down	13	19	4	1212	252	0	0	4	0	0	0	0	0	-1	0	0	0	0	16	0	0	0	884	0	0	16	1212	252			64,11;115,13;141,12;318,41;342,42;443,16;513,39;538,40	0	0	0	0	4294967295	4294967039	0	0	0	0	0	0	0	0	0	0	0	0	0			0000000000000000000000000000000000000000000000000000	-1
+[ShipFleetMotion] part: add-c-down; id=13; index=0; sprite=BLB1H016; order=15; world=1212,252
+[ShipFleetMotion] part: add-c-down; id=13; index=1; sprite=CORP_1H0016; order=25; world=1212,252
+[ShipFleetMotion] part: add-c-down; id=13; index=5; sprite=ARMOR_1H0012; order=26; world=1212,252
+[ShipFleetMotion] part: add-c-down; id=13; index=7; sprite=PARUS11H10012; order=27; world=1212,252
+[ShipFleetMotion] queue: stage=add-c-down; node=20; kind=separate_shadow; id=0000002a; part=0; depth=21000; order=10
+[ShipFleetMotion] queue: stage=add-c-down; node=18; kind=separate_shadow; id=00000029; part=0; depth=21000; order=11
+[ShipFleetMotion] queue: stage=add-c-down; node=16; kind=separate_shadow; id=00000028; part=0; depth=21000; order=12
+[ShipFleetMotion] queue: stage=add-c-down; node=14; kind=separate_shadow; id=00000027; part=0; depth=21000; order=13
+[ShipFleetMotion] queue: stage=add-c-down; node=11; kind=separate_shadow; id=00000010; part=0; depth=21000; order=14
+[ShipFleetMotion] queue: stage=add-c-down; node=9; kind=separate_shadow; id=0000000d; part=0; depth=21000; order=15
+[ShipFleetMotion] queue: stage=add-c-down; node=7; kind=separate_shadow; id=0000000c; part=0; depth=21000; order=16
+[ShipFleetMotion] queue: stage=add-c-down; node=5; kind=separate_shadow; id=0000000b; part=0; depth=21000; order=17
+[ShipFleetMotion] queue: stage=add-c-down; node=12; kind=reef; id=00000021; part=-1; depth=20200; order=18
+[ShipFleetMotion] queue: stage=add-c-down; node=3; kind=reef; id=0000000a; part=-1; depth=20200; order=19
+[ShipFleetMotion] queue: stage=add-c-down; node=2; kind=reef; id=00000009; part=-1; depth=20200; order=20
+[ShipFleetMotion] queue: stage=add-c-down; node=1; kind=reef; id=00000006; part=-1; depth=20200; order=21
+[ShipFleetMotion] queue: stage=add-c-down; node=0; kind=reef; id=00000005; part=-1; depth=20200; order=22
+[ShipFleetMotion] queue: stage=add-c-down; node=4; kind=inline_parent; id=0000000b; part=1; depth=19812; order=23
+[ShipFleetMotion] queue: stage=add-c-down; node=4; kind=inline_parent; id=0000000b; part=7; depth=19812; order=24
+[ShipFleetMotion] queue: stage=add-c-down; node=8; kind=inline_parent; id=0000000d; part=1; depth=19676; order=25
+[ShipFleetMotion] queue: stage=add-c-down; node=8; kind=inline_parent; id=0000000d; part=5; depth=19676; order=26
+[ShipFleetMotion] queue: stage=add-c-down; node=8; kind=inline_parent; id=0000000d; part=7; depth=19676; order=27
+[ShipFleetMotion] queue: stage=add-c-down; node=6; kind=inline_parent; id=0000000c; part=1; depth=19620; order=28
+[ShipFleetMotion] queue: stage=add-c-down; node=6; kind=inline_parent; id=0000000c; part=7; depth=19620; order=29
+[ShipFleetMotion] queue: stage=add-c-down; node=17; kind=inline_parent; id=00000029; part=1; depth=19100; order=30
+[ShipFleetMotion] queue: stage=add-c-down; node=17; kind=inline_parent; id=00000029; part=3; depth=19100; order=31
+[ShipFleetMotion] queue: stage=add-c-down; node=17; kind=inline_parent; id=00000029; part=7; depth=19100; order=32
+[ShipFleetMotion] queue: stage=add-c-down; node=19; kind=inline_parent; id=0000002a; part=1; depth=19036; order=33
+[ShipFleetMotion] queue: stage=add-c-down; node=19; kind=inline_parent; id=0000002a; part=3; depth=19036; order=34
+[ShipFleetMotion] queue: stage=add-c-down; node=19; kind=inline_parent; id=0000002a; part=7; depth=19036; order=35
+[ShipFleetMotion] queue: stage=add-c-down; node=10; kind=inline_parent; id=00000010; part=1; depth=18784; order=36
+[ShipFleetMotion] queue: stage=add-c-down; node=10; kind=inline_parent; id=00000010; part=7; depth=18784; order=37
+[ShipFleetMotion] queue: stage=add-c-down; node=13; kind=inline_parent; id=00000027; part=1; depth=18588; order=38
+[ShipFleetMotion] queue: stage=add-c-down; node=13; kind=inline_parent; id=00000027; part=3; depth=18588; order=39
+[ShipFleetMotion] queue: stage=add-c-down; node=13; kind=inline_parent; id=00000027; part=7; depth=18588; order=40
+[ShipFleetMotion] queue: stage=add-c-down; node=15; kind=inline_parent; id=00000028; part=1; depth=18524; order=41
+[ShipFleetMotion] queue: stage=add-c-down; node=15; kind=inline_parent; id=00000028; part=3; depth=18524; order=42
+[ShipFleetMotion] queue: stage=add-c-down; node=15; kind=inline_parent; id=00000028; part=7; depth=18524; order=43
+[ShipFleetMotion] end: add-c-down
+[ShipFleetSelection] checkpoint: stage=add-c-up; members=0000000b,0000000c; pending=True; selected=True; counter=0
+[ShipFleetControl] selection: stage=add-c-up; group=-1; temporary=2; dispatched=False
+[ShipFleetMotion] stage: add-c-up; counter=0
+[ShipFleetMotion] actor: add-c-up	11	16	2	1028	132	0	0	5	0	0	0	0	0	-1	0	0	0	0	20	0	0	0	1200	0	0	20	1028	132			64,11;115,13;141,12;318,41;342,42;443,16;513,39;538,40	0	0	0	0	4294967295	4294965247	0	0	0	0	0	0	0	0	0	0	0	0	0			0000000000000000000000000000000000000000000000000000	-1
+[ShipFleetMotion] part: add-c-up; id=11; index=0; sprite=BLB1A020; order=17; world=1028,132
+[ShipFleetMotion] part: add-c-up; id=11; index=1; sprite=CORP_1A0015; order=23; world=1028,132
+[ShipFleetMotion] part: add-c-up; id=11; index=7; sprite=PARUS11A10015; order=24; world=1028,132
+[ShipFleetMotion] actor: add-c-up	12	21	5	1348	324	0	0	4	0	0	0	0	0	-1	0	0	0	0	16	0	0	0	1200	0	0	16	1348	324			64,11;115,13;141,12;318,41;342,42;443,16;513,39;538,40	0	0	0	0	4294967295	4294965247	0	0	0	0	0	0	0	0	0	0	0	0	0			0000000000000000000000000000000000000000000000000000	-1
+[ShipFleetMotion] part: add-c-up; id=12; index=0; sprite=BLB1A016; order=16; world=1348,324
+[ShipFleetMotion] part: add-c-up; id=12; index=1; sprite=CORP_1A0012; order=28; world=1348,324
+[ShipFleetMotion] part: add-c-up; id=12; index=7; sprite=PARUS11A10012; order=29; world=1348,324
+[ShipFleetMotion] actor: add-c-up	13	19	4	1212	252	0	0	4	0	0	0	0	0	-1	0	0	0	0	16	0	0	0	884	0	0	16	1212	252			64,11;115,13;141,12;318,41;342,42;443,16;513,39;538,40	0	0	0	0	4294967295	4294967039	0	0	0	0	0	0	0	0	0	0	0	0	0			0000000000000000000000000000000000000000000000000000	-1
+[ShipFleetMotion] part: add-c-up; id=13; index=0; sprite=BLB1H016; order=15; world=1212,252
+[ShipFleetMotion] part: add-c-up; id=13; index=1; sprite=CORP_1H0016; order=25; world=1212,252
+[ShipFleetMotion] part: add-c-up; id=13; index=5; sprite=ARMOR_1H0012; order=26; world=1212,252
+[ShipFleetMotion] part: add-c-up; id=13; index=7; sprite=PARUS11H10012; order=27; world=1212,252
+[ShipFleetMotion] queue: stage=add-c-up; node=20; kind=separate_shadow; id=0000002a; part=0; depth=21000; order=10
+[ShipFleetMotion] queue: stage=add-c-up; node=18; kind=separate_shadow; id=00000029; part=0; depth=21000; order=11
+[ShipFleetMotion] queue: stage=add-c-up; node=16; kind=separate_shadow; id=00000028; part=0; depth=21000; order=12
+[ShipFleetMotion] queue: stage=add-c-up; node=14; kind=separate_shadow; id=00000027; part=0; depth=21000; order=13
+[ShipFleetMotion] queue: stage=add-c-up; node=11; kind=separate_shadow; id=00000010; part=0; depth=21000; order=14
+[ShipFleetMotion] queue: stage=add-c-up; node=9; kind=separate_shadow; id=0000000d; part=0; depth=21000; order=15
+[ShipFleetMotion] queue: stage=add-c-up; node=7; kind=separate_shadow; id=0000000c; part=0; depth=21000; order=16
+[ShipFleetMotion] queue: stage=add-c-up; node=5; kind=separate_shadow; id=0000000b; part=0; depth=21000; order=17
+[ShipFleetMotion] queue: stage=add-c-up; node=12; kind=reef; id=00000021; part=-1; depth=20200; order=18
+[ShipFleetMotion] queue: stage=add-c-up; node=3; kind=reef; id=0000000a; part=-1; depth=20200; order=19
+[ShipFleetMotion] queue: stage=add-c-up; node=2; kind=reef; id=00000009; part=-1; depth=20200; order=20
+[ShipFleetMotion] queue: stage=add-c-up; node=1; kind=reef; id=00000006; part=-1; depth=20200; order=21
+[ShipFleetMotion] queue: stage=add-c-up; node=0; kind=reef; id=00000005; part=-1; depth=20200; order=22
+[ShipFleetMotion] queue: stage=add-c-up; node=4; kind=inline_parent; id=0000000b; part=1; depth=19812; order=23
+[ShipFleetMotion] queue: stage=add-c-up; node=4; kind=inline_parent; id=0000000b; part=7; depth=19812; order=24
+[ShipFleetMotion] queue: stage=add-c-up; node=8; kind=inline_parent; id=0000000d; part=1; depth=19676; order=25
+[ShipFleetMotion] queue: stage=add-c-up; node=8; kind=inline_parent; id=0000000d; part=5; depth=19676; order=26
+[ShipFleetMotion] queue: stage=add-c-up; node=8; kind=inline_parent; id=0000000d; part=7; depth=19676; order=27
+[ShipFleetMotion] queue: stage=add-c-up; node=6; kind=inline_parent; id=0000000c; part=1; depth=19620; order=28
+[ShipFleetMotion] queue: stage=add-c-up; node=6; kind=inline_parent; id=0000000c; part=7; depth=19620; order=29
+[ShipFleetMotion] queue: stage=add-c-up; node=17; kind=inline_parent; id=00000029; part=1; depth=19100; order=30
+[ShipFleetMotion] queue: stage=add-c-up; node=17; kind=inline_parent; id=00000029; part=3; depth=19100; order=31
+[ShipFleetMotion] queue: stage=add-c-up; node=17; kind=inline_parent; id=00000029; part=7; depth=19100; order=32
+[ShipFleetMotion] queue: stage=add-c-up; node=19; kind=inline_parent; id=0000002a; part=1; depth=19036; order=33
+[ShipFleetMotion] queue: stage=add-c-up; node=19; kind=inline_parent; id=0000002a; part=3; depth=19036; order=34
+[ShipFleetMotion] queue: stage=add-c-up; node=19; kind=inline_parent; id=0000002a; part=7; depth=19036; order=35
+[ShipFleetMotion] queue: stage=add-c-up; node=10; kind=inline_parent; id=00000010; part=1; depth=18784; order=36
+[ShipFleetMotion] queue: stage=add-c-up; node=10; kind=inline_parent; id=00000010; part=7; depth=18784; order=37
+[ShipFleetMotion] queue: stage=add-c-up; node=13; kind=inline_parent; id=00000027; part=1; depth=18588; order=38
+[ShipFleetMotion] queue: stage=add-c-up; node=13; kind=inline_parent; id=00000027; part=3; depth=18588; order=39
+[ShipFleetMotion] queue: stage=add-c-up; node=13; kind=inline_parent; id=00000027; part=7; depth=18588; order=40
+[ShipFleetMotion] queue: stage=add-c-up; node=15; kind=inline_parent; id=00000028; part=1; depth=18524; order=41
+[ShipFleetMotion] queue: stage=add-c-up; node=15; kind=inline_parent; id=00000028; part=3; depth=18524; order=42
+[ShipFleetMotion] queue: stage=add-c-up; node=15; kind=inline_parent; id=00000028; part=7; depth=18524; order=43
+[ShipFleetMotion] end: add-c-up
+[ShipFleetSelection] checkpoint: stage=add-d-down; members=0000000b,0000000c; pending=True; selected=True; counter=0
+[ShipFleetControl] selection: stage=add-d-down; group=-1; temporary=2; dispatched=False
+[ShipFleetMotion] stage: add-d-down; counter=0
+[ShipFleetMotion] actor: add-d-down	11	16	2	1028	132	0	0	5	0	0	0	0	0	-1	0	0	0	0	20	0	0	0	1200	0	0	20	1028	132			64,11;115,13;141,12;318,41;342,42;443,16;513,39;538,40	0	0	0	0	4294967295	4294965247	0	0	0	0	0	0	0	0	0	0	0	0	0			0000000000000000000000000000000000000000000000000000	-1
+[ShipFleetMotion] part: add-d-down; id=11; index=0; sprite=BLB1A020; order=17; world=1028,132
+[ShipFleetMotion] part: add-d-down; id=11; index=1; sprite=CORP_1A0015; order=23; world=1028,132
+[ShipFleetMotion] part: add-d-down; id=11; index=7; sprite=PARUS11A10015; order=24; world=1028,132
+[ShipFleetMotion] actor: add-d-down	12	21	5	1348	324	0	0	4	0	0	0	0	0	-1	0	0	0	0	16	0	0	0	1200	0	0	16	1348	324			64,11;115,13;141,12;318,41;342,42;443,16;513,39;538,40	0	0	0	0	4294967295	4294965247	0	0	0	0	0	0	0	0	0	0	0	0	0			0000000000000000000000000000000000000000000000000000	-1
+[ShipFleetMotion] part: add-d-down; id=12; index=0; sprite=BLB1A016; order=16; world=1348,324
+[ShipFleetMotion] part: add-d-down; id=12; index=1; sprite=CORP_1A0012; order=28; world=1348,324
+[ShipFleetMotion] part: add-d-down; id=12; index=7; sprite=PARUS11A10012; order=29; world=1348,324
+[ShipFleetMotion] actor: add-d-down	13	19	4	1212	252	0	0	4	0	0	0	0	0	-1	0	0	0	0	16	0	0	0	884	0	0	16	1212	252			64,11;115,13;141,12;318,41;342,42;443,16;513,39;538,40	0	0	0	0	4294967295	4294967039	0	0	0	0	0	0	0	0	0	0	0	0	0			0000000000000000000000000000000000000000000000000000	-1
+[ShipFleetMotion] part: add-d-down; id=13; index=0; sprite=BLB1H016; order=15; world=1212,252
+[ShipFleetMotion] part: add-d-down; id=13; index=1; sprite=CORP_1H0016; order=25; world=1212,252
+[ShipFleetMotion] part: add-d-down; id=13; index=5; sprite=ARMOR_1H0012; order=26; world=1212,252
+[ShipFleetMotion] part: add-d-down; id=13; index=7; sprite=PARUS11H10012; order=27; world=1212,252
+[ShipFleetMotion] queue: stage=add-d-down; node=20; kind=separate_shadow; id=0000002a; part=0; depth=21000; order=10
+[ShipFleetMotion] queue: stage=add-d-down; node=18; kind=separate_shadow; id=00000029; part=0; depth=21000; order=11
+[ShipFleetMotion] queue: stage=add-d-down; node=16; kind=separate_shadow; id=00000028; part=0; depth=21000; order=12
+[ShipFleetMotion] queue: stage=add-d-down; node=14; kind=separate_shadow; id=00000027; part=0; depth=21000; order=13
+[ShipFleetMotion] queue: stage=add-d-down; node=11; kind=separate_shadow; id=00000010; part=0; depth=21000; order=14
+[ShipFleetMotion] queue: stage=add-d-down; node=9; kind=separate_shadow; id=0000000d; part=0; depth=21000; order=15
+[ShipFleetMotion] queue: stage=add-d-down; node=7; kind=separate_shadow; id=0000000c; part=0; depth=21000; order=16
+[ShipFleetMotion] queue: stage=add-d-down; node=5; kind=separate_shadow; id=0000000b; part=0; depth=21000; order=17
+[ShipFleetMotion] queue: stage=add-d-down; node=12; kind=reef; id=00000021; part=-1; depth=20200; order=18
+[ShipFleetMotion] queue: stage=add-d-down; node=3; kind=reef; id=0000000a; part=-1; depth=20200; order=19
+[ShipFleetMotion] queue: stage=add-d-down; node=2; kind=reef; id=00000009; part=-1; depth=20200; order=20
+[ShipFleetMotion] queue: stage=add-d-down; node=1; kind=reef; id=00000006; part=-1; depth=20200; order=21
+[ShipFleetMotion] queue: stage=add-d-down; node=0; kind=reef; id=00000005; part=-1; depth=20200; order=22
+[ShipFleetMotion] queue: stage=add-d-down; node=4; kind=inline_parent; id=0000000b; part=1; depth=19812; order=23
+[ShipFleetMotion] queue: stage=add-d-down; node=4; kind=inline_parent; id=0000000b; part=7; depth=19812; order=24
+[ShipFleetMotion] queue: stage=add-d-down; node=8; kind=inline_parent; id=0000000d; part=1; depth=19676; order=25
+[ShipFleetMotion] queue: stage=add-d-down; node=8; kind=inline_parent; id=0000000d; part=5; depth=19676; order=26
+[ShipFleetMotion] queue: stage=add-d-down; node=8; kind=inline_parent; id=0000000d; part=7; depth=19676; order=27
+[ShipFleetMotion] queue: stage=add-d-down; node=6; kind=inline_parent; id=0000000c; part=1; depth=19620; order=28
+[ShipFleetMotion] queue: stage=add-d-down; node=6; kind=inline_parent; id=0000000c; part=7; depth=19620; order=29
+[ShipFleetMotion] queue: stage=add-d-down; node=17; kind=inline_parent; id=00000029; part=1; depth=19100; order=30
+[ShipFleetMotion] queue: stage=add-d-down; node=17; kind=inline_parent; id=00000029; part=3; depth=19100; order=31
+[ShipFleetMotion] queue: stage=add-d-down; node=17; kind=inline_parent; id=00000029; part=7; depth=19100; order=32
+[ShipFleetMotion] queue: stage=add-d-down; node=19; kind=inline_parent; id=0000002a; part=1; depth=19036; order=33
+[ShipFleetMotion] queue: stage=add-d-down; node=19; kind=inline_parent; id=0000002a; part=3; depth=19036; order=34
+[ShipFleetMotion] queue: stage=add-d-down; node=19; kind=inline_parent; id=0000002a; part=7; depth=19036; order=35
+[ShipFleetMotion] queue: stage=add-d-down; node=10; kind=inline_parent; id=00000010; part=1; depth=18784; order=36
+[ShipFleetMotion] queue: stage=add-d-down; node=10; kind=inline_parent; id=00000010; part=7; depth=18784; order=37
+[ShipFleetMotion] queue: stage=add-d-down; node=13; kind=inline_parent; id=00000027; part=1; depth=18588; order=38
+[ShipFleetMotion] queue: stage=add-d-down; node=13; kind=inline_parent; id=00000027; part=3; depth=18588; order=39
+[ShipFleetMotion] queue: stage=add-d-down; node=13; kind=inline_parent; id=00000027; part=7; depth=18588; order=40
+[ShipFleetMotion] queue: stage=add-d-down; node=15; kind=inline_parent; id=00000028; part=1; depth=18524; order=41
+[ShipFleetMotion] queue: stage=add-d-down; node=15; kind=inline_parent; id=00000028; part=3; depth=18524; order=42
+[ShipFleetMotion] queue: stage=add-d-down; node=15; kind=inline_parent; id=00000028; part=7; depth=18524; order=43
+[ShipFleetMotion] end: add-d-down
+[ShipFleetSelection] checkpoint: stage=add-d-up; members=0000000b,0000000c,0000000d; pending=True; selected=True; counter=0
+[ShipFleetControl] selection: stage=add-d-up; group=-1; temporary=3; dispatched=False
+[ShipFleetMotion] stage: add-d-up; counter=0
+[ShipFleetMotion] actor: add-d-up	11	16	2	1028	132	0	0	5	0	0	0	0	0	-1	0	0	0	0	20	0	0	0	1200	0	0	20	1028	132			64,11;115,13;141,12;318,41;342,42;443,16;513,39;538,40	0	0	0	0	4294967295	4294965247	0	0	0	0	0	0	0	0	0	0	0	0	0			0000000000000000000000000000000000000000000000000000	-1
+[ShipFleetMotion] part: add-d-up; id=11; index=0; sprite=BLB1A020; order=17; world=1028,132
+[ShipFleetMotion] part: add-d-up; id=11; index=1; sprite=CORP_1A0015; order=23; world=1028,132
+[ShipFleetMotion] part: add-d-up; id=11; index=7; sprite=PARUS11A10015; order=24; world=1028,132
+[ShipFleetMotion] actor: add-d-up	12	21	5	1348	324	0	0	4	0	0	0	0	0	-1	0	0	0	0	16	0	0	0	1200	0	0	16	1348	324			64,11;115,13;141,12;318,41;342,42;443,16;513,39;538,40	0	0	0	0	4294967295	4294965247	0	0	0	0	0	0	0	0	0	0	0	0	0			0000000000000000000000000000000000000000000000000000	-1
+[ShipFleetMotion] part: add-d-up; id=12; index=0; sprite=BLB1A016; order=16; world=1348,324
+[ShipFleetMotion] part: add-d-up; id=12; index=1; sprite=CORP_1A0012; order=28; world=1348,324
+[ShipFleetMotion] part: add-d-up; id=12; index=7; sprite=PARUS11A10012; order=29; world=1348,324
+[ShipFleetMotion] actor: add-d-up	13	19	4	1212	252	0	0	4	0	0	0	0	0	-1	0	0	0	0	16	0	0	0	884	0	0	16	1212	252			64,11;115,13;141,12;318,41;342,42;443,16;513,39;538,40	0	0	0	0	4294967295	4294967039	0	0	0	0	0	0	0	0	0	0	0	0	0			0000000000000000000000000000000000000000000000000000	-1
+[ShipFleetMotion] part: add-d-up; id=13; index=0; sprite=BLB1H016; order=15; world=1212,252
+[ShipFleetMotion] part: add-d-up; id=13; index=1; sprite=CORP_1H0016; order=25; world=1212,252
+[ShipFleetMotion] part: add-d-up; id=13; index=5; sprite=ARMOR_1H0012; order=26; world=1212,252
+[ShipFleetMotion] part: add-d-up; id=13; index=7; sprite=PARUS11H10012; order=27; world=1212,252
+[ShipFleetMotion] queue: stage=add-d-up; node=20; kind=separate_shadow; id=0000002a; part=0; depth=21000; order=10
+[ShipFleetMotion] queue: stage=add-d-up; node=18; kind=separate_shadow; id=00000029; part=0; depth=21000; order=11
+[ShipFleetMotion] queue: stage=add-d-up; node=16; kind=separate_shadow; id=00000028; part=0; depth=21000; order=12
+[ShipFleetMotion] queue: stage=add-d-up; node=14; kind=separate_shadow; id=00000027; part=0; depth=21000; order=13
+[ShipFleetMotion] queue: stage=add-d-up; node=11; kind=separate_shadow; id=00000010; part=0; depth=21000; order=14
+[ShipFleetMotion] queue: stage=add-d-up; node=9; kind=separate_shadow; id=0000000d; part=0; depth=21000; order=15
+[ShipFleetMotion] queue: stage=add-d-up; node=7; kind=separate_shadow; id=0000000c; part=0; depth=21000; order=16
+[ShipFleetMotion] queue: stage=add-d-up; node=5; kind=separate_shadow; id=0000000b; part=0; depth=21000; order=17
+[ShipFleetMotion] queue: stage=add-d-up; node=12; kind=reef; id=00000021; part=-1; depth=20200; order=18
+[ShipFleetMotion] queue: stage=add-d-up; node=3; kind=reef; id=0000000a; part=-1; depth=20200; order=19
+[ShipFleetMotion] queue: stage=add-d-up; node=2; kind=reef; id=00000009; part=-1; depth=20200; order=20
+[ShipFleetMotion] queue: stage=add-d-up; node=1; kind=reef; id=00000006; part=-1; depth=20200; order=21
+[ShipFleetMotion] queue: stage=add-d-up; node=0; kind=reef; id=00000005; part=-1; depth=20200; order=22
+[ShipFleetMotion] queue: stage=add-d-up; node=4; kind=inline_parent; id=0000000b; part=1; depth=19812; order=23
+[ShipFleetMotion] queue: stage=add-d-up; node=4; kind=inline_parent; id=0000000b; part=7; depth=19812; order=24
+[ShipFleetMotion] queue: stage=add-d-up; node=8; kind=inline_parent; id=0000000d; part=1; depth=19676; order=25
+[ShipFleetMotion] queue: stage=add-d-up; node=8; kind=inline_parent; id=0000000d; part=5; depth=19676; order=26
+[ShipFleetMotion] queue: stage=add-d-up; node=8; kind=inline_parent; id=0000000d; part=7; depth=19676; order=27
+[ShipFleetMotion] queue: stage=add-d-up; node=6; kind=inline_parent; id=0000000c; part=1; depth=19620; order=28
+[ShipFleetMotion] queue: stage=add-d-up; node=6; kind=inline_parent; id=0000000c; part=7; depth=19620; order=29
+[ShipFleetMotion] queue: stage=add-d-up; node=17; kind=inline_parent; id=00000029; part=1; depth=19100; order=30
+[ShipFleetMotion] queue: stage=add-d-up; node=17; kind=inline_parent; id=00000029; part=3; depth=19100; order=31
+[ShipFleetMotion] queue: stage=add-d-up; node=17; kind=inline_parent; id=00000029; part=7; depth=19100; order=32
+[ShipFleetMotion] queue: stage=add-d-up; node=19; kind=inline_parent; id=0000002a; part=1; depth=19036; order=33
+[ShipFleetMotion] queue: stage=add-d-up; node=19; kind=inline_parent; id=0000002a; part=3; depth=19036; order=34
+[ShipFleetMotion] queue: stage=add-d-up; node=19; kind=inline_parent; id=0000002a; part=7; depth=19036; order=35
+[ShipFleetMotion] queue: stage=add-d-up; node=10; kind=inline_parent; id=00000010; part=1; depth=18784; order=36
+[ShipFleetMotion] queue: stage=add-d-up; node=10; kind=inline_parent; id=00000010; part=7; depth=18784; order=37
+[ShipFleetMotion] queue: stage=add-d-up; node=13; kind=inline_parent; id=00000027; part=1; depth=18588; order=38
+[ShipFleetMotion] queue: stage=add-d-up; node=13; kind=inline_parent; id=00000027; part=3; depth=18588; order=39
+[ShipFleetMotion] queue: stage=add-d-up; node=13; kind=inline_parent; id=00000027; part=7; depth=18588; order=40
+[ShipFleetMotion] queue: stage=add-d-up; node=15; kind=inline_parent; id=00000028; part=1; depth=18524; order=41
+[ShipFleetMotion] queue: stage=add-d-up; node=15; kind=inline_parent; id=00000028; part=3; depth=18524; order=42
+[ShipFleetMotion] queue: stage=add-d-up; node=15; kind=inline_parent; id=00000028; part=7; depth=18524; order=43
+[ShipFleetMotion] end: add-d-up
+[ShipFleetSelection] checkpoint: stage=dispatch-down; members=0000000b,0000000c,0000000d; pending=True; selected=True; counter=0
+[ShipFleetControl] selection: stage=dispatch-down; group=-1; temporary=3; dispatched=False
+[ShipFleetMotion] stage: dispatch-down; counter=0
+[ShipFleetMotion] actor: dispatch-down	11	16	2	1028	132	0	0	5	0	0	0	0	0	-1	0	0	0	0	20	0	0	0	1200	0	0	20	1028	132			64,11;115,13;141,12;318,41;342,42;443,16;513,39;538,40	0	0	0	0	4294967295	4294965247	0	0	0	0	0	0	0	0	0	0	0	0	0			0000000000000000000000000000000000000000000000000000	-1
+[ShipFleetMotion] part: dispatch-down; id=11; index=0; sprite=BLB1A020; order=17; world=1028,132
+[ShipFleetMotion] part: dispatch-down; id=11; index=1; sprite=CORP_1A0015; order=23; world=1028,132
+[ShipFleetMotion] part: dispatch-down; id=11; index=7; sprite=PARUS11A10015; order=24; world=1028,132
+[ShipFleetMotion] actor: dispatch-down	12	21	5	1348	324	0	0	4	0	0	0	0	0	-1	0	0	0	0	16	0	0	0	1200	0	0	16	1348	324			64,11;115,13;141,12;318,41;342,42;443,16;513,39;538,40	0	0	0	0	4294967295	4294965247	0	0	0	0	0	0	0	0	0	0	0	0	0			0000000000000000000000000000000000000000000000000000	-1
+[ShipFleetMotion] part: dispatch-down; id=12; index=0; sprite=BLB1A016; order=16; world=1348,324
+[ShipFleetMotion] part: dispatch-down; id=12; index=1; sprite=CORP_1A0012; order=28; world=1348,324
+[ShipFleetMotion] part: dispatch-down; id=12; index=7; sprite=PARUS11A10012; order=29; world=1348,324
+[ShipFleetMotion] actor: dispatch-down	13	19	4	1212	252	0	0	4	0	0	0	0	0	-1	0	0	0	0	16	0	0	0	884	0	0	16	1212	252			64,11;115,13;141,12;318,41;342,42;443,16;513,39;538,40	0	0	0	0	4294967295	4294967039	0	0	0	0	0	0	0	0	0	0	0	0	0			0000000000000000000000000000000000000000000000000000	-1
+[ShipFleetMotion] part: dispatch-down; id=13; index=0; sprite=BLB1H016; order=15; world=1212,252
+[ShipFleetMotion] part: dispatch-down; id=13; index=1; sprite=CORP_1H0016; order=25; world=1212,252
+[ShipFleetMotion] part: dispatch-down; id=13; index=5; sprite=ARMOR_1H0012; order=26; world=1212,252
+[ShipFleetMotion] part: dispatch-down; id=13; index=7; sprite=PARUS11H10012; order=27; world=1212,252
+[ShipFleetMotion] queue: stage=dispatch-down; node=20; kind=separate_shadow; id=0000002a; part=0; depth=21000; order=10
+[ShipFleetMotion] queue: stage=dispatch-down; node=18; kind=separate_shadow; id=00000029; part=0; depth=21000; order=11
+[ShipFleetMotion] queue: stage=dispatch-down; node=16; kind=separate_shadow; id=00000028; part=0; depth=21000; order=12
+[ShipFleetMotion] queue: stage=dispatch-down; node=14; kind=separate_shadow; id=00000027; part=0; depth=21000; order=13
+[ShipFleetMotion] queue: stage=dispatch-down; node=11; kind=separate_shadow; id=00000010; part=0; depth=21000; order=14
+[ShipFleetMotion] queue: stage=dispatch-down; node=9; kind=separate_shadow; id=0000000d; part=0; depth=21000; order=15
+[ShipFleetMotion] queue: stage=dispatch-down; node=7; kind=separate_shadow; id=0000000c; part=0; depth=21000; order=16
+[ShipFleetMotion] queue: stage=dispatch-down; node=5; kind=separate_shadow; id=0000000b; part=0; depth=21000; order=17
+[ShipFleetMotion] queue: stage=dispatch-down; node=12; kind=reef; id=00000021; part=-1; depth=20200; order=18
+[ShipFleetMotion] queue: stage=dispatch-down; node=3; kind=reef; id=0000000a; part=-1; depth=20200; order=19
+[ShipFleetMotion] queue: stage=dispatch-down; node=2; kind=reef; id=00000009; part=-1; depth=20200; order=20
+[ShipFleetMotion] queue: stage=dispatch-down; node=1; kind=reef; id=00000006; part=-1; depth=20200; order=21
+[ShipFleetMotion] queue: stage=dispatch-down; node=0; kind=reef; id=00000005; part=-1; depth=20200; order=22
+[ShipFleetMotion] queue: stage=dispatch-down; node=4; kind=inline_parent; id=0000000b; part=1; depth=19812; order=23
+[ShipFleetMotion] queue: stage=dispatch-down; node=4; kind=inline_parent; id=0000000b; part=7; depth=19812; order=24
+[ShipFleetMotion] queue: stage=dispatch-down; node=8; kind=inline_parent; id=0000000d; part=1; depth=19676; order=25
+[ShipFleetMotion] queue: stage=dispatch-down; node=8; kind=inline_parent; id=0000000d; part=5; depth=19676; order=26
+[ShipFleetMotion] queue: stage=dispatch-down; node=8; kind=inline_parent; id=0000000d; part=7; depth=19676; order=27
+[ShipFleetMotion] queue: stage=dispatch-down; node=6; kind=inline_parent; id=0000000c; part=1; depth=19620; order=28
+[ShipFleetMotion] queue: stage=dispatch-down; node=6; kind=inline_parent; id=0000000c; part=7; depth=19620; order=29
+[ShipFleetMotion] queue: stage=dispatch-down; node=17; kind=inline_parent; id=00000029; part=1; depth=19100; order=30
+[ShipFleetMotion] queue: stage=dispatch-down; node=17; kind=inline_parent; id=00000029; part=3; depth=19100; order=31
+[ShipFleetMotion] queue: stage=dispatch-down; node=17; kind=inline_parent; id=00000029; part=7; depth=19100; order=32
+[ShipFleetMotion] queue: stage=dispatch-down; node=19; kind=inline_parent; id=0000002a; part=1; depth=19036; order=33
+[ShipFleetMotion] queue: stage=dispatch-down; node=19; kind=inline_parent; id=0000002a; part=3; depth=19036; order=34
+[ShipFleetMotion] queue: stage=dispatch-down; node=19; kind=inline_parent; id=0000002a; part=7; depth=19036; order=35
+[ShipFleetMotion] queue: stage=dispatch-down; node=10; kind=inline_parent; id=00000010; part=1; depth=18784; order=36
+[ShipFleetMotion] queue: stage=dispatch-down; node=10; kind=inline_parent; id=00000010; part=7; depth=18784; order=37
+[ShipFleetMotion] queue: stage=dispatch-down; node=13; kind=inline_parent; id=00000027; part=1; depth=18588; order=38
+[ShipFleetMotion] queue: stage=dispatch-down; node=13; kind=inline_parent; id=00000027; part=3; depth=18588; order=39
+[ShipFleetMotion] queue: stage=dispatch-down; node=13; kind=inline_parent; id=00000027; part=7; depth=18588; order=40
+[ShipFleetMotion] queue: stage=dispatch-down; node=15; kind=inline_parent; id=00000028; part=1; depth=18524; order=41
+[ShipFleetMotion] queue: stage=dispatch-down; node=15; kind=inline_parent; id=00000028; part=3; depth=18524; order=42
+[ShipFleetMotion] queue: stage=dispatch-down; node=15; kind=inline_parent; id=00000028; part=7; depth=18524; order=43
+[ShipFleetMotion] end: dispatch-down
+[ShipFleetControl] packet: id=11; action=41; payload=010000000000
+[ShipFleetControl] packet: id=12; action=41; payload=010000000000
+[ShipFleetControl] packet: id=13; action=41; payload=010000000000
+[ShipFleetControl] packet: id=11; action=20; payload=120000000500000000
+[ShipFleetControl] packet: id=12; action=20; payload=140000000600000000
+[ShipFleetControl] packet: id=13; action=20; payload=130000000400000000
+[ShipFleetSelection] checkpoint: stage=dispatch-up; members=0000000b,0000000c,0000000d; pending=False; selected=True; counter=0
+[ShipFleetControl] selection: stage=dispatch-up; group=0; temporary=0; dispatched=True
+[ShipFleetMotion] stage: dispatch-up; counter=0
+[ShipFleetMotion] actor: dispatch-up	11	16	2	1028	132	0	0	5	0	0	0	0	0	-1	0	0	0	0	20	0	0	0	1200	0	0	20	1028	132			64,11;115,13;141,12;318,41;342,42;443,16;513,39;538,40	128	0	0	0	4294967295	4294965247	18	5	0	0	0	0	0	0	0	0	0	0	0			0000000012000000050000000000000000000000000000000000	0
+[ShipFleetMotion] part: dispatch-up; id=11; index=0; sprite=BLB1A020; order=17; world=1028,132
+[ShipFleetMotion] part: dispatch-up; id=11; index=1; sprite=CORP_1A0015; order=23; world=1028,132
+[ShipFleetMotion] part: dispatch-up; id=11; index=7; sprite=PARUS11A10015; order=24; world=1028,132
+[ShipFleetMotion] actor: dispatch-up	12	21	5	1348	324	0	0	4	0	0	0	0	0	-1	0	0	0	0	16	0	0	0	1200	0	0	16	1348	324			64,11;115,13;141,12;318,41;342,42;443,16;513,39;538,40	128	0	0	0	4294967295	4294965247	20	6	0	0	0	0	0	0	0	0	0	0	0			0000000014000000060000000000000000000000000000000000	0
+[ShipFleetMotion] part: dispatch-up; id=12; index=0; sprite=BLB1A016; order=16; world=1348,324
+[ShipFleetMotion] part: dispatch-up; id=12; index=1; sprite=CORP_1A0012; order=28; world=1348,324
+[ShipFleetMotion] part: dispatch-up; id=12; index=7; sprite=PARUS11A10012; order=29; world=1348,324
+[ShipFleetMotion] actor: dispatch-up	13	19	4	1212	252	0	0	4	0	0	0	0	0	-1	0	0	0	0	16	0	0	0	884	0	0	16	1212	252			64,11;115,13;141,12;318,41;342,42;443,16;513,39;538,40	128	0	0	0	4294967295	4294967039	19	4	0	0	0	0	0	0	0	0	0	0	0			0000000013000000040000000000000000000000000000000000	0
+[ShipFleetMotion] part: dispatch-up; id=13; index=0; sprite=BLB1H016; order=15; world=1212,252
+[ShipFleetMotion] part: dispatch-up; id=13; index=1; sprite=CORP_1H0016; order=25; world=1212,252
+[ShipFleetMotion] part: dispatch-up; id=13; index=5; sprite=ARMOR_1H0012; order=26; world=1212,252
+[ShipFleetMotion] part: dispatch-up; id=13; index=7; sprite=PARUS11H10012; order=27; world=1212,252
+[ShipFleetMotion] queue: stage=dispatch-up; node=20; kind=separate_shadow; id=0000002a; part=0; depth=21000; order=10
+[ShipFleetMotion] queue: stage=dispatch-up; node=18; kind=separate_shadow; id=00000029; part=0; depth=21000; order=11
+[ShipFleetMotion] queue: stage=dispatch-up; node=16; kind=separate_shadow; id=00000028; part=0; depth=21000; order=12
+[ShipFleetMotion] queue: stage=dispatch-up; node=14; kind=separate_shadow; id=00000027; part=0; depth=21000; order=13
+[ShipFleetMotion] queue: stage=dispatch-up; node=11; kind=separate_shadow; id=00000010; part=0; depth=21000; order=14
+[ShipFleetMotion] queue: stage=dispatch-up; node=9; kind=separate_shadow; id=0000000d; part=0; depth=21000; order=15
+[ShipFleetMotion] queue: stage=dispatch-up; node=7; kind=separate_shadow; id=0000000c; part=0; depth=21000; order=16
+[ShipFleetMotion] queue: stage=dispatch-up; node=5; kind=separate_shadow; id=0000000b; part=0; depth=21000; order=17
+[ShipFleetMotion] queue: stage=dispatch-up; node=12; kind=reef; id=00000021; part=-1; depth=20200; order=18
+[ShipFleetMotion] queue: stage=dispatch-up; node=3; kind=reef; id=0000000a; part=-1; depth=20200; order=19
+[ShipFleetMotion] queue: stage=dispatch-up; node=2; kind=reef; id=00000009; part=-1; depth=20200; order=20
+[ShipFleetMotion] queue: stage=dispatch-up; node=1; kind=reef; id=00000006; part=-1; depth=20200; order=21
+[ShipFleetMotion] queue: stage=dispatch-up; node=0; kind=reef; id=00000005; part=-1; depth=20200; order=22
+[ShipFleetMotion] queue: stage=dispatch-up; node=4; kind=inline_parent; id=0000000b; part=1; depth=19812; order=23
+[ShipFleetMotion] queue: stage=dispatch-up; node=4; kind=inline_parent; id=0000000b; part=7; depth=19812; order=24
+[ShipFleetMotion] queue: stage=dispatch-up; node=8; kind=inline_parent; id=0000000d; part=1; depth=19676; order=25
+[ShipFleetMotion] queue: stage=dispatch-up; node=8; kind=inline_parent; id=0000000d; part=5; depth=19676; order=26
+[ShipFleetMotion] queue: stage=dispatch-up; node=8; kind=inline_parent; id=0000000d; part=7; depth=19676; order=27
+[ShipFleetMotion] queue: stage=dispatch-up; node=6; kind=inline_parent; id=0000000c; part=1; depth=19620; order=28
+[ShipFleetMotion] queue: stage=dispatch-up; node=6; kind=inline_parent; id=0000000c; part=7; depth=19620; order=29
+[ShipFleetMotion] queue: stage=dispatch-up; node=17; kind=inline_parent; id=00000029; part=1; depth=19100; order=30
+[ShipFleetMotion] queue: stage=dispatch-up; node=17; kind=inline_parent; id=00000029; part=3; depth=19100; order=31
+[ShipFleetMotion] queue: stage=dispatch-up; node=17; kind=inline_parent; id=00000029; part=7; depth=19100; order=32
+[ShipFleetMotion] queue: stage=dispatch-up; node=19; kind=inline_parent; id=0000002a; part=1; depth=19036; order=33
+[ShipFleetMotion] queue: stage=dispatch-up; node=19; kind=inline_parent; id=0000002a; part=3; depth=19036; order=34
+[ShipFleetMotion] queue: stage=dispatch-up; node=19; kind=inline_parent; id=0000002a; part=7; depth=19036; order=35
+[ShipFleetMotion] queue: stage=dispatch-up; node=10; kind=inline_parent; id=00000010; part=1; depth=18784; order=36
+[ShipFleetMotion] queue: stage=dispatch-up; node=10; kind=inline_parent; id=00000010; part=7; depth=18784; order=37
+[ShipFleetMotion] queue: stage=dispatch-up; node=13; kind=inline_parent; id=00000027; part=1; depth=18588; order=38
+[ShipFleetMotion] queue: stage=dispatch-up; node=13; kind=inline_parent; id=00000027; part=3; depth=18588; order=39
+[ShipFleetMotion] queue: stage=dispatch-up; node=13; kind=inline_parent; id=00000027; part=7; depth=18588; order=40
+[ShipFleetMotion] queue: stage=dispatch-up; node=15; kind=inline_parent; id=00000028; part=1; depth=18524; order=41
+[ShipFleetMotion] queue: stage=dispatch-up; node=15; kind=inline_parent; id=00000028; part=3; depth=18524; order=42
+[ShipFleetMotion] queue: stage=dispatch-up; node=15; kind=inline_parent; id=00000028; part=7; depth=18524; order=43
+[ShipFleetMotion] end: dispatch-up
+[ShipFleetSelection] checkpoint: stage=tick-1; members=0000000b,0000000c,0000000d; pending=False; selected=True; counter=1
+[ShipFleetControl] selection: stage=tick-1; group=0; temporary=0; dispatched=True
+[ShipFleetMotion] stage: tick-1; counter=1
+[ShipFleetMotion] actor: tick-1	11	16	2	1028	132	2	0	5	7	1	0	0	0	-1	0	138	1	4	47	0	1	0	1200	0	0	20	1028	132			64,11;115,13;141,12;318,41;342,42;443,16;513,39;538,40	0	1152	0	0	4294967295	4294965247	18	5	18	5	0	1	25	0	0	18	5	16	2	1000020007110003000712000400071200050006		0000000012000000050000000000000000000000000000000000	0
+[ShipFleetMotion] part: tick-1; id=11; index=0; sprite=BLB1A020; order=17; world=1028,132
+[ShipFleetMotion] part: tick-1; id=11; index=1; sprite=CORP_1A0015; order=23; world=1028,132
+[ShipFleetMotion] part: tick-1; id=11; index=7; sprite=PARUS11A10015; order=24; world=1028,132
+[ShipFleetMotion] actor: tick-1	12	21	5	1348	324	2	0	4	5	1	0	0	0	-1	0	164	1	2	44	0	1	0	1200	0	0	16	1348	324			64,11;115,13;141,12;318,41;342,42;443,16;513,39;538,40	0	1152	0	0	4294967295	4294965247	20	6	20	6	0	1	25	0	0	20	6	21	5	15000500051400060005		0000000014000000060000000000000000000000000000000000	0
+[ShipFleetMotion] part: tick-1; id=12; index=0; sprite=BLB1A016; order=16; world=1348,324
+[ShipFleetMotion] part: tick-1; id=12; index=1; sprite=CORP_1A0012; order=28; world=1348,324
+[ShipFleetMotion] part: tick-1; id=12; index=7; sprite=PARUS11A10012; order=29; world=1348,324
+[ShipFleetMotion] actor: tick-1	13	19	4	1212	252	0	0	4	0	0	0	0	0	-1	0	0	0	0	16	0	1	12345	884	0	0	16	1212	252			64,11;115,13;141,12;318,41;342,42;443,16;513,39;538,40	0	1152	0	0	4294967295	4294967039	19	4	19	4	1	0	25	0	0	19	4	19	4			0000000013000000040000000000000000000000000000000000	0
+[ShipFleetMotion] part: tick-1; id=13; index=0; sprite=BLB1H016; order=15; world=1212,252
+[ShipFleetMotion] part: tick-1; id=13; index=1; sprite=CORP_1H0016; order=25; world=1212,252
+[ShipFleetMotion] part: tick-1; id=13; index=5; sprite=ARMOR_1H0012; order=26; world=1212,252
+[ShipFleetMotion] part: tick-1; id=13; index=7; sprite=PARUS11H10012; order=27; world=1212,252
+[ShipFleetMotion] queue: stage=tick-1; node=20; kind=separate_shadow; id=0000002a; part=0; depth=21000; order=10
+[ShipFleetMotion] queue: stage=tick-1; node=18; kind=separate_shadow; id=00000029; part=0; depth=21000; order=11
+[ShipFleetMotion] queue: stage=tick-1; node=16; kind=separate_shadow; id=00000028; part=0; depth=21000; order=12
+[ShipFleetMotion] queue: stage=tick-1; node=14; kind=separate_shadow; id=00000027; part=0; depth=21000; order=13
+[ShipFleetMotion] queue: stage=tick-1; node=11; kind=separate_shadow; id=00000010; part=0; depth=21000; order=14
+[ShipFleetMotion] queue: stage=tick-1; node=9; kind=separate_shadow; id=0000000d; part=0; depth=21000; order=15
+[ShipFleetMotion] queue: stage=tick-1; node=7; kind=separate_shadow; id=0000000c; part=0; depth=21000; order=16
+[ShipFleetMotion] queue: stage=tick-1; node=5; kind=separate_shadow; id=0000000b; part=0; depth=21000; order=17
+[ShipFleetMotion] queue: stage=tick-1; node=12; kind=reef; id=00000021; part=-1; depth=20200; order=18
+[ShipFleetMotion] queue: stage=tick-1; node=3; kind=reef; id=0000000a; part=-1; depth=20200; order=19
+[ShipFleetMotion] queue: stage=tick-1; node=2; kind=reef; id=00000009; part=-1; depth=20200; order=20
+[ShipFleetMotion] queue: stage=tick-1; node=1; kind=reef; id=00000006; part=-1; depth=20200; order=21
+[ShipFleetMotion] queue: stage=tick-1; node=0; kind=reef; id=00000005; part=-1; depth=20200; order=22
+[ShipFleetMotion] queue: stage=tick-1; node=4; kind=inline_parent; id=0000000b; part=1; depth=19812; order=23
+[ShipFleetMotion] queue: stage=tick-1; node=4; kind=inline_parent; id=0000000b; part=7; depth=19812; order=24
+[ShipFleetMotion] queue: stage=tick-1; node=8; kind=inline_parent; id=0000000d; part=1; depth=19676; order=25
+[ShipFleetMotion] queue: stage=tick-1; node=8; kind=inline_parent; id=0000000d; part=5; depth=19676; order=26
+[ShipFleetMotion] queue: stage=tick-1; node=8; kind=inline_parent; id=0000000d; part=7; depth=19676; order=27
+[ShipFleetMotion] queue: stage=tick-1; node=6; kind=inline_parent; id=0000000c; part=1; depth=19620; order=28
+[ShipFleetMotion] queue: stage=tick-1; node=6; kind=inline_parent; id=0000000c; part=7; depth=19620; order=29
+[ShipFleetMotion] queue: stage=tick-1; node=17; kind=inline_parent; id=00000029; part=1; depth=19100; order=30
+[ShipFleetMotion] queue: stage=tick-1; node=17; kind=inline_parent; id=00000029; part=3; depth=19100; order=31
+[ShipFleetMotion] queue: stage=tick-1; node=17; kind=inline_parent; id=00000029; part=7; depth=19100; order=32
+[ShipFleetMotion] queue: stage=tick-1; node=19; kind=inline_parent; id=0000002a; part=1; depth=19036; order=33
+[ShipFleetMotion] queue: stage=tick-1; node=19; kind=inline_parent; id=0000002a; part=3; depth=19036; order=34
+[ShipFleetMotion] queue: stage=tick-1; node=19; kind=inline_parent; id=0000002a; part=7; depth=19036; order=35
+[ShipFleetMotion] queue: stage=tick-1; node=10; kind=inline_parent; id=00000010; part=1; depth=18784; order=36
+[ShipFleetMotion] queue: stage=tick-1; node=10; kind=inline_parent; id=00000010; part=7; depth=18784; order=37
+[ShipFleetMotion] queue: stage=tick-1; node=13; kind=inline_parent; id=00000027; part=1; depth=18588; order=38
+[ShipFleetMotion] queue: stage=tick-1; node=13; kind=inline_parent; id=00000027; part=3; depth=18588; order=39
+[ShipFleetMotion] queue: stage=tick-1; node=13; kind=inline_parent; id=00000027; part=7; depth=18588; order=40
+[ShipFleetMotion] queue: stage=tick-1; node=15; kind=inline_parent; id=00000028; part=1; depth=18524; order=41
+[ShipFleetMotion] queue: stage=tick-1; node=15; kind=inline_parent; id=00000028; part=3; depth=18524; order=42
+[ShipFleetMotion] queue: stage=tick-1; node=15; kind=inline_parent; id=00000028; part=7; depth=18524; order=43
+[ShipFleetMotion] end: tick-1
+[ShipFleetMotion] publication: 3; id=11; index=0; frame=48; world=1028,132; depth=19812
+[ShipFleetMotion] publication: 3; id=12; index=0; frame=45; world=1348,324; depth=19620
+[ShipFleetSelection] checkpoint: stage=tick-3; members=0000000b,0000000c,0000000d; pending=False; selected=True; counter=3
+[ShipFleetControl] selection: stage=tick-3; group=0; temporary=0; dispatched=True
+[ShipFleetMotion] stage: tick-3; counter=3
+[ShipFleetMotion] actor: tick-3	11	16	2	1028	132	2	0	5	7	1	0	0	0	-1	0	138	1	4	48	3	3	0	1200	0	0	48	1028	132	48,1028,132,19812		64,11;115,13;141,12;318,41;342,42;443,16;513,39;538,40	0	1152	0	0	4294967295	4294965247	18	5	18	5	0	1	25	0	0	18	5	16	2	1000020007110003000712000400071200050006		0000000012000000050000000000000000000000000000000000	0
+[ShipFleetMotion] part: tick-3; id=11; index=0; sprite=BLB1A048; order=17; world=1028,132
+[ShipFleetMotion] part: tick-3; id=11; index=1; sprite=CORP_1A0016; order=23; world=1028,132
+[ShipFleetMotion] part: tick-3; id=11; index=7; sprite=PARUS11A10016; order=24; world=1028,132
+[ShipFleetMotion] actor: tick-3	12	21	5	1348	324	2	0	4	5	1	0	0	0	-1	0	164	1	2	45	3	3	0	1200	0	0	45	1348	324	45,1348,324,19620		64,11;115,13;141,12;318,41;342,42;443,16;513,39;538,40	0	1152	0	0	4294967295	4294965247	20	6	20	6	0	1	25	0	0	20	6	21	5	15000500051400060005		0000000014000000060000000000000000000000000000000000	0
+[ShipFleetMotion] part: tick-3; id=12; index=0; sprite=BLB1A045; order=16; world=1348,324
+[ShipFleetMotion] part: tick-3; id=12; index=1; sprite=CORP_1A0013; order=28; world=1348,324
+[ShipFleetMotion] part: tick-3; id=12; index=7; sprite=PARUS11A10013; order=29; world=1348,324
+[ShipFleetMotion] actor: tick-3	13	19	4	1212	252	0	0	4	0	0	0	0	0	-1	0	0	0	0	16	0	3	2802067423	884	0	0	16	1212	252			64,11;115,13;141,12;318,41;342,42;443,16;513,39;538,40	0	1152	0	0	4294967295	4294967039	19	4	19	4	1	0	25	0	0	19	4	19	4			0000000013000000040000000000000000000000000000000000	0
+[ShipFleetMotion] part: tick-3; id=13; index=0; sprite=BLB1H016; order=15; world=1212,252
+[ShipFleetMotion] part: tick-3; id=13; index=1; sprite=CORP_1H0016; order=25; world=1212,252
+[ShipFleetMotion] part: tick-3; id=13; index=5; sprite=ARMOR_1H0012; order=26; world=1212,252
+[ShipFleetMotion] part: tick-3; id=13; index=7; sprite=PARUS11H10012; order=27; world=1212,252
+[ShipFleetMotion] queue: stage=tick-3; node=20; kind=separate_shadow; id=0000002a; part=0; depth=21000; order=10
+[ShipFleetMotion] queue: stage=tick-3; node=18; kind=separate_shadow; id=00000029; part=0; depth=21000; order=11
+[ShipFleetMotion] queue: stage=tick-3; node=16; kind=separate_shadow; id=00000028; part=0; depth=21000; order=12
+[ShipFleetMotion] queue: stage=tick-3; node=14; kind=separate_shadow; id=00000027; part=0; depth=21000; order=13
+[ShipFleetMotion] queue: stage=tick-3; node=11; kind=separate_shadow; id=00000010; part=0; depth=21000; order=14
+[ShipFleetMotion] queue: stage=tick-3; node=9; kind=separate_shadow; id=0000000d; part=0; depth=21000; order=15
+[ShipFleetMotion] queue: stage=tick-3; node=7; kind=separate_shadow; id=0000000c; part=0; depth=21000; order=16
+[ShipFleetMotion] queue: stage=tick-3; node=5; kind=separate_shadow; id=0000000b; part=0; depth=21000; order=17
+[ShipFleetMotion] queue: stage=tick-3; node=12; kind=reef; id=00000021; part=-1; depth=20200; order=18
+[ShipFleetMotion] queue: stage=tick-3; node=3; kind=reef; id=0000000a; part=-1; depth=20200; order=19
+[ShipFleetMotion] queue: stage=tick-3; node=2; kind=reef; id=00000009; part=-1; depth=20200; order=20
+[ShipFleetMotion] queue: stage=tick-3; node=1; kind=reef; id=00000006; part=-1; depth=20200; order=21
+[ShipFleetMotion] queue: stage=tick-3; node=0; kind=reef; id=00000005; part=-1; depth=20200; order=22
+[ShipFleetMotion] queue: stage=tick-3; node=4; kind=inline_parent; id=0000000b; part=1; depth=19812; order=23
+[ShipFleetMotion] queue: stage=tick-3; node=4; kind=inline_parent; id=0000000b; part=7; depth=19812; order=24
+[ShipFleetMotion] queue: stage=tick-3; node=8; kind=inline_parent; id=0000000d; part=1; depth=19676; order=25
+[ShipFleetMotion] queue: stage=tick-3; node=8; kind=inline_parent; id=0000000d; part=5; depth=19676; order=26
+[ShipFleetMotion] queue: stage=tick-3; node=8; kind=inline_parent; id=0000000d; part=7; depth=19676; order=27
+[ShipFleetMotion] queue: stage=tick-3; node=6; kind=inline_parent; id=0000000c; part=1; depth=19620; order=28
+[ShipFleetMotion] queue: stage=tick-3; node=6; kind=inline_parent; id=0000000c; part=7; depth=19620; order=29
+[ShipFleetMotion] queue: stage=tick-3; node=17; kind=inline_parent; id=00000029; part=1; depth=19100; order=30
+[ShipFleetMotion] queue: stage=tick-3; node=17; kind=inline_parent; id=00000029; part=3; depth=19100; order=31
+[ShipFleetMotion] queue: stage=tick-3; node=17; kind=inline_parent; id=00000029; part=7; depth=19100; order=32
+[ShipFleetMotion] queue: stage=tick-3; node=19; kind=inline_parent; id=0000002a; part=1; depth=19036; order=33
+[ShipFleetMotion] queue: stage=tick-3; node=19; kind=inline_parent; id=0000002a; part=3; depth=19036; order=34
+[ShipFleetMotion] queue: stage=tick-3; node=19; kind=inline_parent; id=0000002a; part=7; depth=19036; order=35
+[ShipFleetMotion] queue: stage=tick-3; node=10; kind=inline_parent; id=00000010; part=1; depth=18784; order=36
+[ShipFleetMotion] queue: stage=tick-3; node=10; kind=inline_parent; id=00000010; part=7; depth=18784; order=37
+[ShipFleetMotion] queue: stage=tick-3; node=13; kind=inline_parent; id=00000027; part=1; depth=18588; order=38
+[ShipFleetMotion] queue: stage=tick-3; node=13; kind=inline_parent; id=00000027; part=3; depth=18588; order=39
+[ShipFleetMotion] queue: stage=tick-3; node=13; kind=inline_parent; id=00000027; part=7; depth=18588; order=40
+[ShipFleetMotion] queue: stage=tick-3; node=15; kind=inline_parent; id=00000028; part=1; depth=18524; order=41
+[ShipFleetMotion] queue: stage=tick-3; node=15; kind=inline_parent; id=00000028; part=3; depth=18524; order=42
+[ShipFleetMotion] queue: stage=tick-3; node=15; kind=inline_parent; id=00000028; part=7; depth=18524; order=43
+[ShipFleetMotion] end: tick-3
+[ShipFleetMotion] publication: 6; id=11; index=0; frame=49; world=1028,132; depth=19812
+[ShipFleetMotion] publication: 6; id=12; index=0; frame=46; world=1348,324; depth=19620
+[ShipFleetMotion] publication: 9; id=11; index=0; frame=50; world=1028,132; depth=19812
+[ShipFleetMotion] publication: 9; id=12; index=0; frame=20; world=1348,324; depth=19620
+[ShipFleetSelection] checkpoint: stage=tick-10; members=0000000b,0000000c,0000000d; pending=False; selected=True; counter=10
+[ShipFleetControl] selection: stage=tick-10; group=0; temporary=0; dispatched=True
+[ShipFleetMotion] stage: tick-10; counter=10
+[ShipFleetMotion] actor: tick-10	11	16	2	1028	132	2	0	6	7	1	0	0	0	-1	0	138	1	4	50	9	10	0	1200	0	0	50	1028	132			64,11;115,13;141,12;164,12;318,41;342,42;443,16;513,39;538,40	0	1152	0	0	4294967295	4294965247	18	5	18	5	0	1	25	0	0	18	5	16	2	1000020007110003000712000400071200050006		0000000012000000050000000000000000000000000000000000	0
+[ShipFleetMotion] part: tick-10; id=11; index=0; sprite=BLB1A050; order=17; world=1028,132
+[ShipFleetMotion] part: tick-10; id=11; index=1; sprite=CORP_1A0018; order=23; world=1028,132
+[ShipFleetMotion] part: tick-10; id=11; index=7; sprite=PARUS11A10018; order=24; world=1028,132
+[ShipFleetMotion] actor: tick-10	12	21	5	1348	324	5	1	5	5	1	720	720	0	164	164	164	1	2	20	9	10	0	1200	0	1	20	1348	324		164,12	64,11;115,13;141,12;164,12;318,41;342,42;443,16;513,39;538,40	0	1152	0	0	4294967295	4294965247	20	6	20	6	0	1	25	0	0	20	6	21	5	15000500051400060005		0000000014000000060000000000000000000000000000000000	0
+[ShipFleetMotion] part: tick-10; id=12; index=0; sprite=BLB1A020; order=16; world=1348,324
+[ShipFleetMotion] part: tick-10; id=12; index=1; sprite=CORP_1A0015; order=28; world=1348,324
+[ShipFleetMotion] part: tick-10; id=12; index=7; sprite=PARUS11A10015; order=29; world=1348,324
+[ShipFleetMotion] actor: tick-10	13	19	4	1212	252	0	0	4	0	0	0	0	0	-1	0	0	0	0	16	0	10	551188310	884	0	0	16	1212	252			64,11;115,13;141,12;164,12;318,41;342,42;443,16;513,39;538,40	0	1152	0	0	4294967295	4294967039	19	4	19	4	1	0	25	0	0	19	4	19	4			0000000013000000040000000000000000000000000000000000	0
+[ShipFleetMotion] part: tick-10; id=13; index=0; sprite=BLB1H016; order=15; world=1212,252
+[ShipFleetMotion] part: tick-10; id=13; index=1; sprite=CORP_1H0016; order=25; world=1212,252
+[ShipFleetMotion] part: tick-10; id=13; index=5; sprite=ARMOR_1H0012; order=26; world=1212,252
+[ShipFleetMotion] part: tick-10; id=13; index=7; sprite=PARUS11H10012; order=27; world=1212,252
+[ShipFleetMotion] queue: stage=tick-10; node=20; kind=separate_shadow; id=0000002a; part=0; depth=21000; order=10
+[ShipFleetMotion] queue: stage=tick-10; node=18; kind=separate_shadow; id=00000029; part=0; depth=21000; order=11
+[ShipFleetMotion] queue: stage=tick-10; node=16; kind=separate_shadow; id=00000028; part=0; depth=21000; order=12
+[ShipFleetMotion] queue: stage=tick-10; node=14; kind=separate_shadow; id=00000027; part=0; depth=21000; order=13
+[ShipFleetMotion] queue: stage=tick-10; node=11; kind=separate_shadow; id=00000010; part=0; depth=21000; order=14
+[ShipFleetMotion] queue: stage=tick-10; node=9; kind=separate_shadow; id=0000000d; part=0; depth=21000; order=15
+[ShipFleetMotion] queue: stage=tick-10; node=7; kind=separate_shadow; id=0000000c; part=0; depth=21000; order=16
+[ShipFleetMotion] queue: stage=tick-10; node=5; kind=separate_shadow; id=0000000b; part=0; depth=21000; order=17
+[ShipFleetMotion] queue: stage=tick-10; node=12; kind=reef; id=00000021; part=-1; depth=20200; order=18
+[ShipFleetMotion] queue: stage=tick-10; node=3; kind=reef; id=0000000a; part=-1; depth=20200; order=19
+[ShipFleetMotion] queue: stage=tick-10; node=2; kind=reef; id=00000009; part=-1; depth=20200; order=20
+[ShipFleetMotion] queue: stage=tick-10; node=1; kind=reef; id=00000006; part=-1; depth=20200; order=21
+[ShipFleetMotion] queue: stage=tick-10; node=0; kind=reef; id=00000005; part=-1; depth=20200; order=22
+[ShipFleetMotion] queue: stage=tick-10; node=4; kind=inline_parent; id=0000000b; part=1; depth=19812; order=23
+[ShipFleetMotion] queue: stage=tick-10; node=4; kind=inline_parent; id=0000000b; part=7; depth=19812; order=24
+[ShipFleetMotion] queue: stage=tick-10; node=8; kind=inline_parent; id=0000000d; part=1; depth=19676; order=25
+[ShipFleetMotion] queue: stage=tick-10; node=8; kind=inline_parent; id=0000000d; part=5; depth=19676; order=26
+[ShipFleetMotion] queue: stage=tick-10; node=8; kind=inline_parent; id=0000000d; part=7; depth=19676; order=27
+[ShipFleetMotion] queue: stage=tick-10; node=6; kind=inline_parent; id=0000000c; part=1; depth=19620; order=28
+[ShipFleetMotion] queue: stage=tick-10; node=6; kind=inline_parent; id=0000000c; part=7; depth=19620; order=29
+[ShipFleetMotion] queue: stage=tick-10; node=17; kind=inline_parent; id=00000029; part=1; depth=19100; order=30
+[ShipFleetMotion] queue: stage=tick-10; node=17; kind=inline_parent; id=00000029; part=3; depth=19100; order=31
+[ShipFleetMotion] queue: stage=tick-10; node=17; kind=inline_parent; id=00000029; part=7; depth=19100; order=32
+[ShipFleetMotion] queue: stage=tick-10; node=19; kind=inline_parent; id=0000002a; part=1; depth=19036; order=33
+[ShipFleetMotion] queue: stage=tick-10; node=19; kind=inline_parent; id=0000002a; part=3; depth=19036; order=34
+[ShipFleetMotion] queue: stage=tick-10; node=19; kind=inline_parent; id=0000002a; part=7; depth=19036; order=35
+[ShipFleetMotion] queue: stage=tick-10; node=10; kind=inline_parent; id=00000010; part=1; depth=18784; order=36
+[ShipFleetMotion] queue: stage=tick-10; node=10; kind=inline_parent; id=00000010; part=7; depth=18784; order=37
+[ShipFleetMotion] queue: stage=tick-10; node=13; kind=inline_parent; id=00000027; part=1; depth=18588; order=38
+[ShipFleetMotion] queue: stage=tick-10; node=13; kind=inline_parent; id=00000027; part=3; depth=18588; order=39
+[ShipFleetMotion] queue: stage=tick-10; node=13; kind=inline_parent; id=00000027; part=7; depth=18588; order=40
+[ShipFleetMotion] queue: stage=tick-10; node=15; kind=inline_parent; id=00000028; part=1; depth=18524; order=41
+[ShipFleetMotion] queue: stage=tick-10; node=15; kind=inline_parent; id=00000028; part=3; depth=18524; order=42
+[ShipFleetMotion] queue: stage=tick-10; node=15; kind=inline_parent; id=00000028; part=7; depth=18524; order=43
+[ShipFleetMotion] end: tick-10
+[ShipFleetMotion] publication: 12; id=11; index=0; frame=51; world=1028,132; depth=19812
+[ShipFleetMotion] publication: 14; id=12; index=0; frame=21; world=1347,325; depth=19619
+[ShipFleetMotion] publication: 15; id=11; index=0; frame=52; world=1028,132; depth=19812
+[ShipFleetMotion] publication: 16; id=12; index=0; frame=22; world=1346,326; depth=19618
+[ShipFleetMotion] publication: 17; id=13; index=0; frame=72; world=1212,252; depth=19676
+[ShipFleetMotion] publication: 18; id=11; index=0; frame=28; world=1028,132; depth=19812
+[ShipFleetMotion] publication: 18; id=12; index=0; frame=23; world=1345,327; depth=19617
+[ShipFleetMotion] publication: 19; id=12; index=0; frame=23; world=1344,328; depth=19616
+[ShipFleetMotion] publication: 20; id=12; index=0; frame=23; world=1343,329; depth=19615
+[ShipFleetMotion] publication: 21; id=12; index=0; frame=20; world=1342,330; depth=19614
+[ShipFleetMotion] publication: 22; id=12; index=0; frame=20; world=1341,331; depth=19613
+[ShipFleetMotion] publication: 23; id=11; index=0; frame=29; world=1029,133; depth=19811
+[ShipFleetMotion] publication: 23; id=12; index=0; frame=20; world=1340,332; depth=19612
+[ShipFleetMotion] publication: 24; id=12; index=0; frame=21; world=1339,333; depth=19611
+[ShipFleetMotion] publication: 25; id=11; index=0; frame=30; world=1030,134; depth=19810
+[ShipFleetMotion] publication: 25; id=12; index=0; frame=21; world=1338,334; depth=19610
+[ShipFleetSelection] checkpoint: stage=tick-25; members=0000000b,0000000c,0000000d; pending=False; selected=True; counter=25
+[ShipFleetControl] selection: stage=tick-25; group=0; temporary=0; dispatched=True
+[ShipFleetMotion] stage: tick-25; counter=25
+[ShipFleetMotion] actor: tick-25	11	16	2	1030	134	5	1	7	7	1	5040	2160	0	89	89	138	1	4	30	24	25	0	1200	0	1	30	1030	134	30,1030,134,19810		64,11;89,11;115,13;141,12;164,12;318,41;342,42;443,16;513,39;538,40	0	1152	0	0	4294967295	4294965247	18	5	18	5	0	1	25	0	0	18	5	16	2	1000020007110003000712000400071200050006		0000000012000000050000000000000000000000000000000000	0
+[ShipFleetMotion] part: tick-25; id=11; index=0; sprite=BLB1A030; order=17; world=1030,134
+[ShipFleetMotion] part: tick-25; id=11; index=1; sprite=CORP_1A0021; order=23; world=1030,134
+[ShipFleetMotion] part: tick-25; id=11; index=7; sprite=PARUS11A10021; order=24; world=1030,134
+[ShipFleetMotion] actor: tick-25	12	21	5	1338	334	5	1	5	5	1	11520	7920	0	164	164	164	1	2	21	24	25	0	1200	0	1	21	1338	334	21,1338,334,19610		64,11;89,11;115,13;141,12;164,12;318,41;342,42;443,16;513,39;538,40	0	1152	0	0	4294967295	4294965247	20	6	20	6	0	1	25	0	0	20	6	21	5	15000500051400060005		0000000014000000060000000000000000000000000000000000	0
+[ShipFleetMotion] part: tick-25; id=12; index=0; sprite=BLB1A021; order=16; world=1338,334
+[ShipFleetMotion] part: tick-25; id=12; index=1; sprite=CORP_1A0015; order=28; world=1338,334
+[ShipFleetMotion] part: tick-25; id=12; index=7; sprite=PARUS11A10015; order=29; world=1338,334
+[ShipFleetMotion] actor: tick-25	13	19	4	1212	252	0	0	4	0	1	0	0	0	-1	0	0	0	0	73	17	25	2103497953	884	0	0	72	1212	252			64,11;89,11;115,13;141,12;164,12;318,41;342,42;443,16;513,39;538,40	0	1152	0	0	4294967295	4294967039	19	4	19	4	1	0	25	0	0	19	4	19	4			0000000013000000040000000000000000000000000000000000	0
+[ShipFleetMotion] part: tick-25; id=13; index=0; sprite=BLB1H060; order=15; world=1212,252
+[ShipFleetMotion] part: tick-25; id=13; index=1; sprite=CORP_1H0060; order=25; world=1212,252
+[ShipFleetMotion] part: tick-25; id=13; index=5; sprite=ARMOR_1H0028; order=26; world=1212,252
+[ShipFleetMotion] part: tick-25; id=13; index=7; sprite=PARUS11H10028; order=27; world=1212,252
+[ShipFleetMotion] queue: stage=tick-25; node=20; kind=separate_shadow; id=0000002a; part=0; depth=21000; order=10
+[ShipFleetMotion] queue: stage=tick-25; node=18; kind=separate_shadow; id=00000029; part=0; depth=21000; order=11
+[ShipFleetMotion] queue: stage=tick-25; node=16; kind=separate_shadow; id=00000028; part=0; depth=21000; order=12
+[ShipFleetMotion] queue: stage=tick-25; node=14; kind=separate_shadow; id=00000027; part=0; depth=21000; order=13
+[ShipFleetMotion] queue: stage=tick-25; node=11; kind=separate_shadow; id=00000010; part=0; depth=21000; order=14
+[ShipFleetMotion] queue: stage=tick-25; node=9; kind=separate_shadow; id=0000000d; part=0; depth=21000; order=15
+[ShipFleetMotion] queue: stage=tick-25; node=7; kind=separate_shadow; id=0000000c; part=0; depth=21000; order=16
+[ShipFleetMotion] queue: stage=tick-25; node=5; kind=separate_shadow; id=0000000b; part=0; depth=21000; order=17
+[ShipFleetMotion] queue: stage=tick-25; node=12; kind=reef; id=00000021; part=-1; depth=20200; order=18
+[ShipFleetMotion] queue: stage=tick-25; node=3; kind=reef; id=0000000a; part=-1; depth=20200; order=19
+[ShipFleetMotion] queue: stage=tick-25; node=2; kind=reef; id=00000009; part=-1; depth=20200; order=20
+[ShipFleetMotion] queue: stage=tick-25; node=1; kind=reef; id=00000006; part=-1; depth=20200; order=21
+[ShipFleetMotion] queue: stage=tick-25; node=0; kind=reef; id=00000005; part=-1; depth=20200; order=22
+[ShipFleetMotion] queue: stage=tick-25; node=4; kind=inline_parent; id=0000000b; part=1; depth=19810; order=23
+[ShipFleetMotion] queue: stage=tick-25; node=4; kind=inline_parent; id=0000000b; part=7; depth=19810; order=24
+[ShipFleetMotion] queue: stage=tick-25; node=8; kind=inline_parent; id=0000000d; part=1; depth=19676; order=25
+[ShipFleetMotion] queue: stage=tick-25; node=8; kind=inline_parent; id=0000000d; part=5; depth=19676; order=26
+[ShipFleetMotion] queue: stage=tick-25; node=8; kind=inline_parent; id=0000000d; part=7; depth=19676; order=27
+[ShipFleetMotion] queue: stage=tick-25; node=6; kind=inline_parent; id=0000000c; part=1; depth=19610; order=28
+[ShipFleetMotion] queue: stage=tick-25; node=6; kind=inline_parent; id=0000000c; part=7; depth=19610; order=29
+[ShipFleetMotion] queue: stage=tick-25; node=17; kind=inline_parent; id=00000029; part=1; depth=19100; order=30
+[ShipFleetMotion] queue: stage=tick-25; node=17; kind=inline_parent; id=00000029; part=3; depth=19100; order=31
+[ShipFleetMotion] queue: stage=tick-25; node=17; kind=inline_parent; id=00000029; part=7; depth=19100; order=32
+[ShipFleetMotion] queue: stage=tick-25; node=19; kind=inline_parent; id=0000002a; part=1; depth=19036; order=33
+[ShipFleetMotion] queue: stage=tick-25; node=19; kind=inline_parent; id=0000002a; part=3; depth=19036; order=34
+[ShipFleetMotion] queue: stage=tick-25; node=19; kind=inline_parent; id=0000002a; part=7; depth=19036; order=35
+[ShipFleetMotion] queue: stage=tick-25; node=10; kind=inline_parent; id=00000010; part=1; depth=18784; order=36
+[ShipFleetMotion] queue: stage=tick-25; node=10; kind=inline_parent; id=00000010; part=7; depth=18784; order=37
+[ShipFleetMotion] queue: stage=tick-25; node=13; kind=inline_parent; id=00000027; part=1; depth=18588; order=38
+[ShipFleetMotion] queue: stage=tick-25; node=13; kind=inline_parent; id=00000027; part=3; depth=18588; order=39
+[ShipFleetMotion] queue: stage=tick-25; node=13; kind=inline_parent; id=00000027; part=7; depth=18588; order=40
+[ShipFleetMotion] queue: stage=tick-25; node=15; kind=inline_parent; id=00000028; part=1; depth=18524; order=41
+[ShipFleetMotion] queue: stage=tick-25; node=15; kind=inline_parent; id=00000028; part=3; depth=18524; order=42
+[ShipFleetMotion] queue: stage=tick-25; node=15; kind=inline_parent; id=00000028; part=7; depth=18524; order=43
+[ShipFleetMotion] end: tick-25
+[ShipFleetMotion] publication: 26; id=12; index=0; frame=21; world=1336,336; depth=19608
+[ShipFleetMotion] publication: 27; id=11; index=0; frame=31; world=1031,135; depth=19809
+[ShipFleetMotion] publication: 27; id=12; index=0; frame=22; world=1335,337; depth=19607
+[ShipFleetMotion] publication: 28; id=11; index=0; frame=31; world=1032,136; depth=19808
+[ShipFleetMotion] publication: 28; id=12; index=0; frame=22; world=1333,339; depth=19605
+[ShipFleetMotion] publication: 29; id=11; index=0; frame=31; world=1033,137; depth=19807
+[ShipFleetMotion] publication: 29; id=12; index=0; frame=22; world=1332,340; depth=19604
+[ShipFleetMotion] publication: 30; id=11; index=0; frame=28; world=1034,138; depth=19806
+[ShipFleetMotion] publication: 30; id=12; index=0; frame=23; world=1330,342; depth=19602
+[ShipFleetMotion] publication: 31; id=11; index=0; frame=28; world=1035,139; depth=19805
+[ShipFleetMotion] publication: 31; id=12; index=0; frame=23; world=1328,344; depth=19600
+[ShipFleetMotion] publication: 32; id=11; index=0; frame=28; world=1036,140; depth=19804
+[ShipFleetMotion] publication: 32; id=12; index=0; frame=23; world=1326,346; depth=19598
+[ShipFleetMotion] publication: 33; id=11; index=0; frame=29; world=1037,141; depth=19803
+[ShipFleetMotion] publication: 33; id=12; index=0; frame=20; world=1324,348; depth=19596
+[ShipFleetMotion] publication: 34; id=11; index=0; frame=29; world=1038,142; depth=19802
+[ShipFleetMotion] publication: 34; id=12; index=0; frame=20; world=1322,350; depth=19594
+[ShipFleetMotion] publication: 35; id=11; index=0; frame=29; world=1040,144; depth=19800
+[ShipFleetMotion] publication: 35; id=12; index=0; frame=20; world=1320,352; depth=19592
+[ShipFleetMotion] publication: 35; id=13; index=0; frame=73; world=1212,252; depth=19676
+[ShipFleetMotion] publication: 36; id=11; index=0; frame=30; world=1041,145; depth=19799
+[ShipFleetMotion] publication: 36; id=12; index=0; frame=21; world=1318,354; depth=19590
+[ShipFleetMotion] publication: 37; id=11; index=0; frame=30; world=1043,147; depth=19797
+[ShipFleetMotion] publication: 37; id=12; index=0; frame=21; world=1316,356; depth=19588
+[ShipFleetMotion] publication: 38; id=11; index=0; frame=30; world=1044,148; depth=19796
+[ShipFleetMotion] publication: 38; id=12; index=0; frame=21; world=1314,358; depth=19586
+[ShipFleetMotion] publication: 39; id=11; index=0; frame=31; world=1046,150; depth=19794
+[ShipFleetMotion] publication: 39; id=12; index=0; frame=22; world=1311,361; depth=19583
+[ShipFleetMotion] publication: 40; id=11; index=0; frame=31; world=1048,152; depth=19792
+[ShipFleetMotion] publication: 40; id=12; index=0; frame=22; world=1309,363; depth=19581
+[ShipFleetMotion] publication: 41; id=11; index=0; frame=31; world=1050,154; depth=19790
+[ShipFleetMotion] publication: 41; id=12; index=0; frame=22; world=1307,365; depth=19579
+[ShipFleetMotion] publication: 42; id=11; index=0; frame=28; world=1052,156; depth=19788
+[ShipFleetMotion] publication: 42; id=12; index=0; frame=23; world=1304,368; depth=19576
+[ShipFleetMotion] publication: 43; id=11; index=0; frame=28; world=1054,158; depth=19786
+[ShipFleetMotion] publication: 43; id=12; index=0; frame=23; world=1302,370; depth=19574
+[ShipFleetMotion] publication: 44; id=11; index=0; frame=28; world=1056,160; depth=19784
+[ShipFleetMotion] publication: 44; id=12; index=0; frame=23; world=1300,372; depth=19572
+[ShipFleetMotion] publication: 45; id=11; index=0; frame=29; world=1058,162; depth=19782
+[ShipFleetMotion] publication: 45; id=12; index=0; frame=20; world=1298,374; depth=19570
+[ShipFleetMotion] publication: 46; id=11; index=0; frame=29; world=1060,164; depth=19780
+[ShipFleetMotion] publication: 46; id=12; index=0; frame=20; world=1296,376; depth=19568
+[ShipFleetMotion] publication: 47; id=11; index=0; frame=29; world=1062,166; depth=19778
+[ShipFleetMotion] publication: 47; id=12; index=0; frame=20; world=1294,378; depth=19566
+[ShipFleetMotion] publication: 48; id=11; index=0; frame=30; world=1065,169; depth=19775
+[ShipFleetMotion] publication: 48; id=12; index=0; frame=21; world=1292,380; depth=19564
+[ShipFleetMotion] publication: 49; id=11; index=0; frame=30; world=1067,171; depth=19773
+[ShipFleetMotion] publication: 49; id=12; index=0; frame=21; world=1290,382; depth=19562
+[ShipFleetMotion] publication: 50; id=11; index=0; frame=30; world=1070,174; depth=19770
+[ShipFleetMotion] publication: 50; id=12; index=0; frame=21; world=1289,383; depth=19561
+[ShipFleetSelection] checkpoint: stage=tick-50; members=0000000b,0000000c,0000000d; pending=False; selected=True; counter=50
+[ShipFleetControl] selection: stage=tick-50; group=0; temporary=0; dispatched=True
+[ShipFleetMotion] stage: tick-50; counter=50
+[ShipFleetMotion] actor: tick-50	11	17	3	1070	174	5	0	7	7	1	23040	2160	0	114	114	138	0	3	30	48	50	0	1200	0	1	30	1070	174	30,1070,174,19770		89,11;114,11;115,13;164,12;318,41;342,42;443,16;513,39;538,40	0	1152	0	0	4294967295	4294965247	18	5	18	5	0	48	25	0	0	18	5	17	3	110003000712000400071200050006		0000000012000000050000000000000000000000000000000000	0
+[ShipFleetMotion] part: tick-50; id=11; index=0; sprite=BLB1A030; order=17; world=1070,174
+[ShipFleetMotion] part: tick-50; id=11; index=1; sprite=CORP_1A0021; order=23; world=1070,174
+[ShipFleetMotion] part: tick-50; id=11; index=7; sprite=PARUS11A10021; order=24; world=1070,174
+[ShipFleetMotion] actor: tick-50	12	20	6	1289	383	4	0	5	5	1	16098	8323	-832	-1	164	164	1	2	21	48	50	0	1200	0	1	21	1289	383	21,1289,383,19561		89,11;114,11;115,13;164,12;318,41;342,42;443,16;513,39;538,40	0	1024	0	0	4294967295	4294965247	20	6	20	6	0	1	25	0	0	20	6	21	5	15000500051400060005		0000000014000000060000000000000000000000000000000000	0
+[ShipFleetMotion] part: tick-50; id=12; index=0; sprite=BLB1A021; order=16; world=1289,383
+[ShipFleetMotion] part: tick-50; id=12; index=1; sprite=CORP_1A0015; order=28; world=1289,383
+[ShipFleetMotion] part: tick-50; id=12; index=7; sprite=PARUS11A10015; order=29; world=1289,383
+[ShipFleetMotion] actor: tick-50	13	19	4	1212	252	0	0	4	0	1	0	0	0	-1	0	0	0	0	74	35	50	3650472078	884	0	0	73	1212	252			89,11;114,11;115,13;164,12;318,41;342,42;443,16;513,39;538,40	0	1152	0	0	4294967295	4294967039	19	4	19	4	1	0	25	0	0	19	4	19	4			0000000013000000040000000000000000000000000000000000	0
+[ShipFleetMotion] part: tick-50; id=13; index=0; sprite=BLB1H017; order=15; world=1212,252
+[ShipFleetMotion] part: tick-50; id=13; index=1; sprite=CORP_1H0017; order=25; world=1212,252
+[ShipFleetMotion] part: tick-50; id=13; index=5; sprite=ARMOR_1H0012; order=26; world=1212,252
+[ShipFleetMotion] part: tick-50; id=13; index=7; sprite=PARUS11H10012; order=27; world=1212,252
+[ShipFleetMotion] queue: stage=tick-50; node=20; kind=separate_shadow; id=0000002a; part=0; depth=21000; order=10
+[ShipFleetMotion] queue: stage=tick-50; node=18; kind=separate_shadow; id=00000029; part=0; depth=21000; order=11
+[ShipFleetMotion] queue: stage=tick-50; node=16; kind=separate_shadow; id=00000028; part=0; depth=21000; order=12
+[ShipFleetMotion] queue: stage=tick-50; node=14; kind=separate_shadow; id=00000027; part=0; depth=21000; order=13
+[ShipFleetMotion] queue: stage=tick-50; node=11; kind=separate_shadow; id=00000010; part=0; depth=21000; order=14
+[ShipFleetMotion] queue: stage=tick-50; node=9; kind=separate_shadow; id=0000000d; part=0; depth=21000; order=15
+[ShipFleetMotion] queue: stage=tick-50; node=7; kind=separate_shadow; id=0000000c; part=0; depth=21000; order=16
+[ShipFleetMotion] queue: stage=tick-50; node=5; kind=separate_shadow; id=0000000b; part=0; depth=21000; order=17
+[ShipFleetMotion] queue: stage=tick-50; node=12; kind=reef; id=00000021; part=-1; depth=20200; order=18
+[ShipFleetMotion] queue: stage=tick-50; node=3; kind=reef; id=0000000a; part=-1; depth=20200; order=19
+[ShipFleetMotion] queue: stage=tick-50; node=2; kind=reef; id=00000009; part=-1; depth=20200; order=20
+[ShipFleetMotion] queue: stage=tick-50; node=1; kind=reef; id=00000006; part=-1; depth=20200; order=21
+[ShipFleetMotion] queue: stage=tick-50; node=0; kind=reef; id=00000005; part=-1; depth=20200; order=22
+[ShipFleetMotion] queue: stage=tick-50; node=4; kind=inline_parent; id=0000000b; part=1; depth=19770; order=23
+[ShipFleetMotion] queue: stage=tick-50; node=4; kind=inline_parent; id=0000000b; part=7; depth=19770; order=24
+[ShipFleetMotion] queue: stage=tick-50; node=8; kind=inline_parent; id=0000000d; part=1; depth=19676; order=25
+[ShipFleetMotion] queue: stage=tick-50; node=8; kind=inline_parent; id=0000000d; part=5; depth=19676; order=26
+[ShipFleetMotion] queue: stage=tick-50; node=8; kind=inline_parent; id=0000000d; part=7; depth=19676; order=27
+[ShipFleetMotion] queue: stage=tick-50; node=6; kind=inline_parent; id=0000000c; part=1; depth=19561; order=28
+[ShipFleetMotion] queue: stage=tick-50; node=6; kind=inline_parent; id=0000000c; part=7; depth=19561; order=29
+[ShipFleetMotion] queue: stage=tick-50; node=17; kind=inline_parent; id=00000029; part=1; depth=19100; order=30
+[ShipFleetMotion] queue: stage=tick-50; node=17; kind=inline_parent; id=00000029; part=3; depth=19100; order=31
+[ShipFleetMotion] queue: stage=tick-50; node=17; kind=inline_parent; id=00000029; part=7; depth=19100; order=32
+[ShipFleetMotion] queue: stage=tick-50; node=19; kind=inline_parent; id=0000002a; part=1; depth=19036; order=33
+[ShipFleetMotion] queue: stage=tick-50; node=19; kind=inline_parent; id=0000002a; part=3; depth=19036; order=34
+[ShipFleetMotion] queue: stage=tick-50; node=19; kind=inline_parent; id=0000002a; part=7; depth=19036; order=35
+[ShipFleetMotion] queue: stage=tick-50; node=10; kind=inline_parent; id=00000010; part=1; depth=18784; order=36
+[ShipFleetMotion] queue: stage=tick-50; node=10; kind=inline_parent; id=00000010; part=7; depth=18784; order=37
+[ShipFleetMotion] queue: stage=tick-50; node=13; kind=inline_parent; id=00000027; part=1; depth=18588; order=38
+[ShipFleetMotion] queue: stage=tick-50; node=13; kind=inline_parent; id=00000027; part=3; depth=18588; order=39
+[ShipFleetMotion] queue: stage=tick-50; node=13; kind=inline_parent; id=00000027; part=7; depth=18588; order=40
+[ShipFleetMotion] queue: stage=tick-50; node=15; kind=inline_parent; id=00000028; part=1; depth=18524; order=41
+[ShipFleetMotion] queue: stage=tick-50; node=15; kind=inline_parent; id=00000028; part=3; depth=18524; order=42
+[ShipFleetMotion] queue: stage=tick-50; node=15; kind=inline_parent; id=00000028; part=7; depth=18524; order=43
+[ShipFleetMotion] end: tick-50
+[ShipFleetMotion] publication: 51; id=11; index=0; frame=31; world=1072,176; depth=19768
+[ShipFleetMotion] publication: 51; id=12; index=0; frame=22; world=1287,385; depth=19559
+[ShipFleetMotion] publication: 52; id=11; index=0; frame=31; world=1075,179; depth=19765
+[ShipFleetMotion] publication: 52; id=12; index=0; frame=22; world=1285,387; depth=19557
+[ShipFleetMotion] publication: 53; id=11; index=0; frame=31; world=1078,182; depth=19762
+[ShipFleetMotion] publication: 53; id=12; index=0; frame=22; world=1284,388; depth=19556
+[ShipFleetMotion] publication: 53; id=13; index=0; frame=74; world=1212,252; depth=19676
+[ShipFleetMotion] publication: 54; id=11; index=0; frame=28; world=1081,185; depth=19759
+[ShipFleetMotion] publication: 55; id=11; index=0; frame=28; world=1084,188; depth=19756
+[ShipFleetMotion] publication: 56; id=11; index=0; frame=28; world=1087,191; depth=19753
+[ShipFleetMotion] publication: 57; id=11; index=0; frame=29; world=1090,194; depth=19750
+[ShipFleetMotion] publication: 58; id=11; index=0; frame=29; world=1092,196; depth=19748
+[ShipFleetMotion] publication: 59; id=11; index=0; frame=29; world=1095,199; depth=19745
+[ShipFleetMotion] publication: 60; id=11; index=0; frame=30; world=1099,203; depth=19741
+[ShipFleetMotion] publication: 61; id=11; index=0; frame=30; world=1102,206; depth=19738
+[ShipFleetMotion] publication: 62; id=11; index=0; frame=30; world=1106,210; depth=19734
+[ShipFleetMotion] publication: 63; id=11; index=0; frame=31; world=1109,213; depth=19731
+[ShipFleetMotion] publication: 64; id=11; index=0; frame=31; world=1113,217; depth=19727
+[ShipFleetMotion] publication: 65; id=11; index=0; frame=31; world=1117,221; depth=19723
+[ShipFleetMotion] publication: 66; id=11; index=0; frame=28; world=1121,225; depth=19719
+[ShipFleetMotion] publication: 67; id=11; index=0; frame=28; world=1125,229; depth=19715
+[ShipFleetMotion] publication: 67; id=12; index=0; frame=76; world=1284,388; depth=19556
+[ShipFleetMotion] publication: 68; id=11; index=0; frame=28; world=1129,233; depth=19711
+[ShipFleetMotion] publication: 69; id=11; index=0; frame=29; world=1133,237; depth=19707
+[ShipFleetMotion] publication: 70; id=11; index=0; frame=29; world=1137,241; depth=19703
+[ShipFleetMotion] publication: 71; id=11; index=0; frame=29; world=1141,245; depth=19699
+[ShipFleetMotion] publication: 71; id=13; index=0; frame=75; world=1212,252; depth=19676
+[ShipFleetMotion] publication: 72; id=11; index=0; frame=30; world=1145,249; depth=19695
+[ShipFleetMotion] publication: 73; id=11; index=0; frame=30; world=1149,253; depth=19691
+[ShipFleetMotion] publication: 74; id=11; index=0; frame=30; world=1153,257; depth=19687
+[ShipFleetMotion] publication: 75; id=11; index=0; frame=31; world=1156,260; depth=19684
+[ShipFleetMotion] publication: 76; id=11; index=0; frame=24; world=1156,260; depth=19684
+[ShipFleetMotion] publication: 76; id=11; index=1; frame=24; world=1156,266; depth=19678
+[ShipFleetMotion] publication: 77; id=11; index=0; frame=24; world=1156,272; depth=19672
+[ShipFleetMotion] publication: 78; id=11; index=0; frame=24; world=1156,278; depth=19666
+[ShipFleetMotion] publication: 79; id=11; index=0; frame=25; world=1156,284; depth=19660
+[ShipFleetMotion] publication: 80; id=11; index=0; frame=25; world=1156,290; depth=19654
+[ShipFleetSelection] checkpoint: stage=tick-80; members=0000000b,0000000c,0000000d; pending=False; selected=True; counter=80
+[ShipFleetControl] selection: stage=tick-80; group=0; temporary=0; dispatched=True
+[ShipFleetMotion] stage: tick-80; counter=80
+[ShipFleetMotion] actor: tick-80	11	18	4	1156	290	5	1	6	6	1	36000	0	0	138	138	138	1	2	25	79	80	0	1200	0	1	25	1156	290	25,1156,290,19654		114,11;115,13;138,11;164,12;318,41;342,42;443,16;513,39;538,40	0	1152	0	0	4294967295	4294965247	18	5	18	5	0	73	25	0	0	18	5	18	4	12000400061200050006		0000000012000000050000000000000000000000000000000000	0
+[ShipFleetMotion] part: tick-80; id=11; index=0; sprite=BLB1A025; order=17; world=1156,290
+[ShipFleetMotion] part: tick-80; id=11; index=1; sprite=CORP_1A0018; order=26; world=1156,290
+[ShipFleetMotion] part: tick-80; id=11; index=7; sprite=PARUS11A10018; order=27; world=1156,290
+[ShipFleetMotion] actor: tick-80	12	20	6	1284	388	0	1	5	5	1	0	8623	-832	-1	164	164	1	2	77	67	80	3104096455	1200	0	0	76	1284	388			114,11;115,13;138,11;164,12;318,41;342,42;443,16;513,39;538,40	0	1024	0	0	4294967295	4294965247	20	6	20	6	0	1	25	0	0	20	6	21	5	15000500051400060005		0000000014000000060000000000000000000000000000000000	0
+[ShipFleetMotion] part: tick-80; id=12; index=0; sprite=BLB1A061; order=16; world=1284,388
+[ShipFleetMotion] part: tick-80; id=12; index=1; sprite=CORP_1A0029; order=28; world=1284,388
+[ShipFleetMotion] part: tick-80; id=12; index=7; sprite=PARUS11A10029; order=29; world=1284,388
+[ShipFleetMotion] actor: tick-80	13	19	4	1212	252	0	0	4	0	-1	0	0	0	-1	0	0	0	0	75	71	80	2490222064	884	0	0	75	1212	252			114,11;115,13;138,11;164,12;318,41;342,42;443,16;513,39;538,40	0	1152	0	0	4294967295	4294967039	19	4	19	4	1	0	25	0	0	19	4	19	4			0000000013000000040000000000000000000000000000000000	0
+[ShipFleetMotion] part: tick-80; id=13; index=0; sprite=BLB1H017; order=15; world=1212,252
+[ShipFleetMotion] part: tick-80; id=13; index=1; sprite=CORP_1H0017; order=23; world=1212,252
+[ShipFleetMotion] part: tick-80; id=13; index=5; sprite=ARMOR_1H0012; order=24; world=1212,252
+[ShipFleetMotion] part: tick-80; id=13; index=7; sprite=PARUS11H10012; order=25; world=1212,252
+[ShipFleetMotion] queue: stage=tick-80; node=20; kind=separate_shadow; id=0000002a; part=0; depth=21000; order=10
+[ShipFleetMotion] queue: stage=tick-80; node=18; kind=separate_shadow; id=00000029; part=0; depth=21000; order=11
+[ShipFleetMotion] queue: stage=tick-80; node=16; kind=separate_shadow; id=00000028; part=0; depth=21000; order=12
+[ShipFleetMotion] queue: stage=tick-80; node=14; kind=separate_shadow; id=00000027; part=0; depth=21000; order=13
+[ShipFleetMotion] queue: stage=tick-80; node=11; kind=separate_shadow; id=00000010; part=0; depth=21000; order=14
+[ShipFleetMotion] queue: stage=tick-80; node=9; kind=separate_shadow; id=0000000d; part=0; depth=21000; order=15
+[ShipFleetMotion] queue: stage=tick-80; node=7; kind=separate_shadow; id=0000000c; part=0; depth=21000; order=16
+[ShipFleetMotion] queue: stage=tick-80; node=5; kind=separate_shadow; id=0000000b; part=0; depth=21000; order=17
+[ShipFleetMotion] queue: stage=tick-80; node=12; kind=reef; id=00000021; part=-1; depth=20200; order=18
+[ShipFleetMotion] queue: stage=tick-80; node=3; kind=reef; id=0000000a; part=-1; depth=20200; order=19
+[ShipFleetMotion] queue: stage=tick-80; node=2; kind=reef; id=00000009; part=-1; depth=20200; order=20
+[ShipFleetMotion] queue: stage=tick-80; node=1; kind=reef; id=00000006; part=-1; depth=20200; order=21
+[ShipFleetMotion] queue: stage=tick-80; node=0; kind=reef; id=00000005; part=-1; depth=20200; order=22
+[ShipFleetMotion] queue: stage=tick-80; node=8; kind=inline_parent; id=0000000d; part=1; depth=19676; order=23
+[ShipFleetMotion] queue: stage=tick-80; node=8; kind=inline_parent; id=0000000d; part=5; depth=19676; order=24
+[ShipFleetMotion] queue: stage=tick-80; node=8; kind=inline_parent; id=0000000d; part=7; depth=19676; order=25
+[ShipFleetMotion] queue: stage=tick-80; node=4; kind=inline_parent; id=0000000b; part=1; depth=19654; order=26
+[ShipFleetMotion] queue: stage=tick-80; node=4; kind=inline_parent; id=0000000b; part=7; depth=19654; order=27
+[ShipFleetMotion] queue: stage=tick-80; node=6; kind=inline_parent; id=0000000c; part=1; depth=19556; order=28
+[ShipFleetMotion] queue: stage=tick-80; node=6; kind=inline_parent; id=0000000c; part=7; depth=19556; order=29
+[ShipFleetMotion] queue: stage=tick-80; node=17; kind=inline_parent; id=00000029; part=1; depth=19100; order=30
+[ShipFleetMotion] queue: stage=tick-80; node=17; kind=inline_parent; id=00000029; part=3; depth=19100; order=31
+[ShipFleetMotion] queue: stage=tick-80; node=17; kind=inline_parent; id=00000029; part=7; depth=19100; order=32
+[ShipFleetMotion] queue: stage=tick-80; node=19; kind=inline_parent; id=0000002a; part=1; depth=19036; order=33
+[ShipFleetMotion] queue: stage=tick-80; node=19; kind=inline_parent; id=0000002a; part=3; depth=19036; order=34
+[ShipFleetMotion] queue: stage=tick-80; node=19; kind=inline_parent; id=0000002a; part=7; depth=19036; order=35
+[ShipFleetMotion] queue: stage=tick-80; node=10; kind=inline_parent; id=00000010; part=1; depth=18784; order=36
+[ShipFleetMotion] queue: stage=tick-80; node=10; kind=inline_parent; id=00000010; part=7; depth=18784; order=37
+[ShipFleetMotion] queue: stage=tick-80; node=13; kind=inline_parent; id=00000027; part=1; depth=18588; order=38
+[ShipFleetMotion] queue: stage=tick-80; node=13; kind=inline_parent; id=00000027; part=3; depth=18588; order=39
+[ShipFleetMotion] queue: stage=tick-80; node=13; kind=inline_parent; id=00000027; part=7; depth=18588; order=40
+[ShipFleetMotion] queue: stage=tick-80; node=15; kind=inline_parent; id=00000028; part=1; depth=18524; order=41
+[ShipFleetMotion] queue: stage=tick-80; node=15; kind=inline_parent; id=00000028; part=3; depth=18524; order=42
+[ShipFleetMotion] queue: stage=tick-80; node=15; kind=inline_parent; id=00000028; part=7; depth=18524; order=43
+[ShipFleetMotion] end: tick-80
+[ShipFleetMotion] publication: 81; id=11; index=0; frame=25; world=1156,296; depth=19648
+[ShipFleetMotion] publication: 82; id=11; index=0; frame=26; world=1156,302; depth=19642
+[ShipFleetMotion] publication: 83; id=11; index=0; frame=26; world=1156,307; depth=19637
+[ShipFleetMotion] publication: 84; id=11; index=0; frame=26; world=1156,313; depth=19631
+[ShipFleetMotion] publication: 85; id=11; index=0; frame=27; world=1156,318; depth=19626
+[ShipFleetMotion] publication: 85; id=12; index=0; frame=77; world=1284,388; depth=19556
+[ShipFleetMotion] publication: 86; id=11; index=0; frame=27; world=1156,323; depth=19621
+[ShipFleetMotion] publication: 87; id=11; index=0; frame=27; world=1156,324; depth=19620
+[ShipFleetMotion] publication: 88; id=13; index=0; frame=75; world=1212,252; depth=19676
+[ShipFleetMotion] publication: 101; id=11; index=0; frame=80; world=1156,324; depth=19620
+[ShipFleetMotion] publication: 103; id=12; index=0; frame=78; world=1284,388; depth=19556
+[ShipFleetMotion] publication: 106; id=13; index=0; frame=74; world=1212,252; depth=19676
+[ShipFleetMotion] publication: 119; id=11; index=0; frame=81; world=1156,324; depth=19620
+[ShipFleetSelection] checkpoint: stage=tick-120; members=0000000b,0000000c,0000000d; pending=False; selected=True; counter=120
+[ShipFleetControl] selection: stage=tick-120; group=0; temporary=0; dispatched=True
+[ShipFleetMotion] stage: tick-120; counter=120
+[ShipFleetMotion] actor: tick-120	11	18	5	1156	324	0	1	6	6	1	0	1410	-2511	-1	138	138	1	2	82	119	120	88489753	1200	0	0	81	1156	324			115,13;138,11;164,12;318,41;342,42;443,16;513,39;538,40	0	1024	0	0	4294967295	4294965247	18	5	18	5	0	73	25	0	0	18	5	18	4	12000400061200050006		0000000012000000050000000000000000000000000000000000	0
+[ShipFleetMotion] part: tick-120; id=11; index=0; sprite=BLB1A025; order=17; world=1156,324
+[ShipFleetMotion] part: tick-120; id=11; index=1; sprite=CORP_1A0018; order=26; world=1156,324
+[ShipFleetMotion] part: tick-120; id=11; index=7; sprite=PARUS11A10018; order=27; world=1156,324
+[ShipFleetMotion] actor: tick-120	12	20	6	1284	388	0	1	5	5	1	0	8623	-832	-1	164	164	1	2	79	103	120	1049906079	1200	0	0	78	1284	388			115,13;138,11;164,12;318,41;342,42;443,16;513,39;538,40	0	1024	0	0	4294967295	4294965247	20	6	20	6	0	1	25	0	0	20	6	21	5	15000500051400060005		0000000014000000060000000000000000000000000000000000	0
+[ShipFleetMotion] part: tick-120; id=12; index=0; sprite=BLB1A069; order=16; world=1284,388
+[ShipFleetMotion] part: tick-120; id=12; index=1; sprite=CORP_1A0037; order=28; world=1284,388
+[ShipFleetMotion] part: tick-120; id=12; index=7; sprite=PARUS11A10037; order=29; world=1284,388
+[ShipFleetMotion] actor: tick-120	13	19	4	1212	252	0	0	4	0	-1	0	0	0	-1	0	0	0	0	73	106	120	4268361064	884	0	0	74	1212	252			115,13;138,11;164,12;318,41;342,42;443,16;513,39;538,40	0	1152	0	0	4294967295	4294967039	19	4	19	4	1	0	25	0	0	19	4	19	4			0000000013000000040000000000000000000000000000000000	0
+[ShipFleetMotion] part: tick-120; id=13; index=0; sprite=BLB1H068; order=15; world=1212,252
+[ShipFleetMotion] part: tick-120; id=13; index=1; sprite=CORP_1H0068; order=23; world=1212,252
+[ShipFleetMotion] part: tick-120; id=13; index=5; sprite=ARMOR_1H0036; order=24; world=1212,252
+[ShipFleetMotion] part: tick-120; id=13; index=7; sprite=PARUS11H10036; order=25; world=1212,252
+[ShipFleetMotion] queue: stage=tick-120; node=20; kind=separate_shadow; id=0000002a; part=0; depth=21000; order=10
+[ShipFleetMotion] queue: stage=tick-120; node=18; kind=separate_shadow; id=00000029; part=0; depth=21000; order=11
+[ShipFleetMotion] queue: stage=tick-120; node=16; kind=separate_shadow; id=00000028; part=0; depth=21000; order=12
+[ShipFleetMotion] queue: stage=tick-120; node=14; kind=separate_shadow; id=00000027; part=0; depth=21000; order=13
+[ShipFleetMotion] queue: stage=tick-120; node=11; kind=separate_shadow; id=00000010; part=0; depth=21000; order=14
+[ShipFleetMotion] queue: stage=tick-120; node=9; kind=separate_shadow; id=0000000d; part=0; depth=21000; order=15
+[ShipFleetMotion] queue: stage=tick-120; node=7; kind=separate_shadow; id=0000000c; part=0; depth=21000; order=16
+[ShipFleetMotion] queue: stage=tick-120; node=5; kind=separate_shadow; id=0000000b; part=0; depth=21000; order=17
+[ShipFleetMotion] queue: stage=tick-120; node=12; kind=reef; id=00000021; part=-1; depth=20200; order=18
+[ShipFleetMotion] queue: stage=tick-120; node=3; kind=reef; id=0000000a; part=-1; depth=20200; order=19
+[ShipFleetMotion] queue: stage=tick-120; node=2; kind=reef; id=00000009; part=-1; depth=20200; order=20
+[ShipFleetMotion] queue: stage=tick-120; node=1; kind=reef; id=00000006; part=-1; depth=20200; order=21
+[ShipFleetMotion] queue: stage=tick-120; node=0; kind=reef; id=00000005; part=-1; depth=20200; order=22
+[ShipFleetMotion] queue: stage=tick-120; node=8; kind=inline_parent; id=0000000d; part=1; depth=19676; order=23
+[ShipFleetMotion] queue: stage=tick-120; node=8; kind=inline_parent; id=0000000d; part=5; depth=19676; order=24
+[ShipFleetMotion] queue: stage=tick-120; node=8; kind=inline_parent; id=0000000d; part=7; depth=19676; order=25
+[ShipFleetMotion] queue: stage=tick-120; node=4; kind=inline_parent; id=0000000b; part=1; depth=19620; order=26
+[ShipFleetMotion] queue: stage=tick-120; node=4; kind=inline_parent; id=0000000b; part=7; depth=19620; order=27
+[ShipFleetMotion] queue: stage=tick-120; node=6; kind=inline_parent; id=0000000c; part=1; depth=19556; order=28
+[ShipFleetMotion] queue: stage=tick-120; node=6; kind=inline_parent; id=0000000c; part=7; depth=19556; order=29
+[ShipFleetMotion] queue: stage=tick-120; node=17; kind=inline_parent; id=00000029; part=1; depth=19100; order=30
+[ShipFleetMotion] queue: stage=tick-120; node=17; kind=inline_parent; id=00000029; part=3; depth=19100; order=31
+[ShipFleetMotion] queue: stage=tick-120; node=17; kind=inline_parent; id=00000029; part=7; depth=19100; order=32
+[ShipFleetMotion] queue: stage=tick-120; node=19; kind=inline_parent; id=0000002a; part=1; depth=19036; order=33
+[ShipFleetMotion] queue: stage=tick-120; node=19; kind=inline_parent; id=0000002a; part=3; depth=19036; order=34
+[ShipFleetMotion] queue: stage=tick-120; node=19; kind=inline_parent; id=0000002a; part=7; depth=19036; order=35
+[ShipFleetMotion] queue: stage=tick-120; node=10; kind=inline_parent; id=00000010; part=1; depth=18784; order=36
+[ShipFleetMotion] queue: stage=tick-120; node=10; kind=inline_parent; id=00000010; part=7; depth=18784; order=37
+[ShipFleetMotion] queue: stage=tick-120; node=13; kind=inline_parent; id=00000027; part=1; depth=18588; order=38
+[ShipFleetMotion] queue: stage=tick-120; node=13; kind=inline_parent; id=00000027; part=3; depth=18588; order=39
+[ShipFleetMotion] queue: stage=tick-120; node=13; kind=inline_parent; id=00000027; part=7; depth=18588; order=40
+[ShipFleetMotion] queue: stage=tick-120; node=15; kind=inline_parent; id=00000028; part=1; depth=18524; order=41
+[ShipFleetMotion] queue: stage=tick-120; node=15; kind=inline_parent; id=00000028; part=3; depth=18524; order=42
+[ShipFleetMotion] queue: stage=tick-120; node=15; kind=inline_parent; id=00000028; part=7; depth=18524; order=43
+[ShipFleetMotion] end: tick-120
+[ShipFleetMotion] publication: 121; id=12; index=0; frame=79; world=1284,388; depth=19556
+[ShipFleetMotion] publication: 127; id=13; index=0; frame=73; world=1212,252; depth=19676
+[ShipFleetMotion] publication: 137; id=11; index=0; frame=82; world=1156,324; depth=19620
+[ShipFleetMotion] publication: 140; id=12; index=0; frame=79; world=1284,388; depth=19556
+[ShipFleetMotion] publication: 145; id=13; index=0; frame=72; world=1212,252; depth=19676
+[ShipFleetMotion] publication: 155; id=11; index=0; frame=83; world=1156,324; depth=19620
+[ShipFleetMotion] publication: 158; id=12; index=0; frame=78; world=1284,388; depth=19556
+[ShipFleetSelection] checkpoint: stage=tick-160; members=0000000b,0000000c,0000000d; pending=False; selected=True; counter=160
+[ShipFleetControl] selection: stage=tick-160; group=0; temporary=0; dispatched=True
+[ShipFleetMotion] stage: tick-160; counter=160
+[ShipFleetMotion] actor: tick-160	11	18	5	1156	324	0	1	6	6	-1	0	1410	-2511	-1	138	138	1	2	83	155	160	263435057	1200	0	0	83	1156	324			115,13;138,11;164,12;318,41;342,42;443,16;513,39;538,40	0	1024	0	0	4294967295	4294965247	18	5	18	5	0	73	25	0	0	18	5	18	4	12000400061200050006		0000000012000000050000000000000000000000000000000000	0
+[ShipFleetMotion] part: tick-160; id=11; index=0; sprite=BLB1A025; order=17; world=1156,324
+[ShipFleetMotion] part: tick-160; id=11; index=1; sprite=CORP_1A0018; order=26; world=1156,324
+[ShipFleetMotion] part: tick-160; id=11; index=7; sprite=PARUS11A10018; order=27; world=1156,324
+[ShipFleetMotion] actor: tick-160	12	20	6	1284	388	0	1	5	5	-1	0	8623	-832	-1	164	164	1	2	77	158	160	468395383	1200	0	0	78	1284	388			115,13;138,11;164,12;318,41;342,42;443,16;513,39;538,40	0	1024	0	0	4294967295	4294965247	20	6	20	6	0	1	25	0	0	20	6	21	5	15000500051400060005		0000000014000000060000000000000000000000000000000000	0
+[ShipFleetMotion] part: tick-160; id=12; index=0; sprite=BLB1A069; order=16; world=1284,388
+[ShipFleetMotion] part: tick-160; id=12; index=1; sprite=CORP_1A0037; order=28; world=1284,388
+[ShipFleetMotion] part: tick-160; id=12; index=7; sprite=PARUS11A10037; order=29; world=1284,388
+[ShipFleetMotion] actor: tick-160	13	19	4	1212	252	0	0	4	0	1	0	0	0	-1	0	0	0	0	72	145	160	3430701024	884	0	0	72	1212	252			115,13;138,11;164,12;318,41;342,42;443,16;513,39;538,40	0	1152	0	0	4294967295	4294967039	19	4	19	4	1	0	25	0	0	19	4	19	4			0000000013000000040000000000000000000000000000000000	0
+[ShipFleetMotion] part: tick-160; id=13; index=0; sprite=BLB1H060; order=15; world=1212,252
+[ShipFleetMotion] part: tick-160; id=13; index=1; sprite=CORP_1H0060; order=23; world=1212,252
+[ShipFleetMotion] part: tick-160; id=13; index=5; sprite=ARMOR_1H0028; order=24; world=1212,252
+[ShipFleetMotion] part: tick-160; id=13; index=7; sprite=PARUS11H10028; order=25; world=1212,252
+[ShipFleetMotion] queue: stage=tick-160; node=20; kind=separate_shadow; id=0000002a; part=0; depth=21000; order=10
+[ShipFleetMotion] queue: stage=tick-160; node=18; kind=separate_shadow; id=00000029; part=0; depth=21000; order=11
+[ShipFleetMotion] queue: stage=tick-160; node=16; kind=separate_shadow; id=00000028; part=0; depth=21000; order=12
+[ShipFleetMotion] queue: stage=tick-160; node=14; kind=separate_shadow; id=00000027; part=0; depth=21000; order=13
+[ShipFleetMotion] queue: stage=tick-160; node=11; kind=separate_shadow; id=00000010; part=0; depth=21000; order=14
+[ShipFleetMotion] queue: stage=tick-160; node=9; kind=separate_shadow; id=0000000d; part=0; depth=21000; order=15
+[ShipFleetMotion] queue: stage=tick-160; node=7; kind=separate_shadow; id=0000000c; part=0; depth=21000; order=16
+[ShipFleetMotion] queue: stage=tick-160; node=5; kind=separate_shadow; id=0000000b; part=0; depth=21000; order=17
+[ShipFleetMotion] queue: stage=tick-160; node=12; kind=reef; id=00000021; part=-1; depth=20200; order=18
+[ShipFleetMotion] queue: stage=tick-160; node=3; kind=reef; id=0000000a; part=-1; depth=20200; order=19
+[ShipFleetMotion] queue: stage=tick-160; node=2; kind=reef; id=00000009; part=-1; depth=20200; order=20
+[ShipFleetMotion] queue: stage=tick-160; node=1; kind=reef; id=00000006; part=-1; depth=20200; order=21
+[ShipFleetMotion] queue: stage=tick-160; node=0; kind=reef; id=00000005; part=-1; depth=20200; order=22
+[ShipFleetMotion] queue: stage=tick-160; node=8; kind=inline_parent; id=0000000d; part=1; depth=19676; order=23
+[ShipFleetMotion] queue: stage=tick-160; node=8; kind=inline_parent; id=0000000d; part=5; depth=19676; order=24
+[ShipFleetMotion] queue: stage=tick-160; node=8; kind=inline_parent; id=0000000d; part=7; depth=19676; order=25
+[ShipFleetMotion] queue: stage=tick-160; node=4; kind=inline_parent; id=0000000b; part=1; depth=19620; order=26
+[ShipFleetMotion] queue: stage=tick-160; node=4; kind=inline_parent; id=0000000b; part=7; depth=19620; order=27
+[ShipFleetMotion] queue: stage=tick-160; node=6; kind=inline_parent; id=0000000c; part=1; depth=19556; order=28
+[ShipFleetMotion] queue: stage=tick-160; node=6; kind=inline_parent; id=0000000c; part=7; depth=19556; order=29
+[ShipFleetMotion] queue: stage=tick-160; node=17; kind=inline_parent; id=00000029; part=1; depth=19100; order=30
+[ShipFleetMotion] queue: stage=tick-160; node=17; kind=inline_parent; id=00000029; part=3; depth=19100; order=31
+[ShipFleetMotion] queue: stage=tick-160; node=17; kind=inline_parent; id=00000029; part=7; depth=19100; order=32
+[ShipFleetMotion] queue: stage=tick-160; node=19; kind=inline_parent; id=0000002a; part=1; depth=19036; order=33
+[ShipFleetMotion] queue: stage=tick-160; node=19; kind=inline_parent; id=0000002a; part=3; depth=19036; order=34
+[ShipFleetMotion] queue: stage=tick-160; node=19; kind=inline_parent; id=0000002a; part=7; depth=19036; order=35
+[ShipFleetMotion] queue: stage=tick-160; node=10; kind=inline_parent; id=00000010; part=1; depth=18784; order=36
+[ShipFleetMotion] queue: stage=tick-160; node=10; kind=inline_parent; id=00000010; part=7; depth=18784; order=37
+[ShipFleetMotion] queue: stage=tick-160; node=13; kind=inline_parent; id=00000027; part=1; depth=18588; order=38
+[ShipFleetMotion] queue: stage=tick-160; node=13; kind=inline_parent; id=00000027; part=3; depth=18588; order=39
+[ShipFleetMotion] queue: stage=tick-160; node=13; kind=inline_parent; id=00000027; part=7; depth=18588; order=40
+[ShipFleetMotion] queue: stage=tick-160; node=15; kind=inline_parent; id=00000028; part=1; depth=18524; order=41
+[ShipFleetMotion] queue: stage=tick-160; node=15; kind=inline_parent; id=00000028; part=3; depth=18524; order=42
+[ShipFleetMotion] queue: stage=tick-160; node=15; kind=inline_parent; id=00000028; part=7; depth=18524; order=43
+[ShipFleetMotion] end: tick-160
+[ShipFleetMotion] publication: 163; id=13; index=0; frame=72; world=1212,252; depth=19676
+[ShipFleetMotion] publication: 174; id=11; index=0; frame=83; world=1156,324; depth=19620
+[ShipFleetMotion] publication: 179; id=12; index=0; frame=77; world=1284,388; depth=19556
+[ShipFleetMotion] publication: 179; id=13; index=0; frame=73; world=1212,252; depth=19676
+[ShipFleetMotion] publication: 192; id=11; index=0; frame=82; world=1156,324; depth=19620
+[ShipFleetMotion] publication: 198; id=12; index=0; frame=76; world=1284,388; depth=19556
+[ShipFleetMotion] publication: 198; id=13; index=0; frame=74; world=1212,252; depth=19676
+[ShipFleetSelection] checkpoint: stage=tick-200; members=0000000b,0000000c,0000000d; pending=False; selected=True; counter=200
+[ShipFleetControl] selection: stage=tick-200; group=0; temporary=0; dispatched=True
+[ShipFleetMotion] stage: tick-200; counter=200
+[ShipFleetMotion] actor: tick-200	11	18	5	1156	324	0	1	6	6	-1	0	1410	-2511	-1	138	138	1	2	81	192	200	450231881	1200	0	0	82	1156	324			115,13;138,11;164,12;318,41;342,42;443,16;513,39;538,40	0	1024	0	0	4294967295	4294965247	18	5	18	5	0	73	25	0	0	18	5	18	4	12000400061200050006		0000000012000000050000000000000000000000000000000000	0
+[ShipFleetMotion] part: tick-200; id=11; index=0; sprite=BLB1A070; order=17; world=1156,324
+[ShipFleetMotion] part: tick-200; id=11; index=1; sprite=CORP_1A0038; order=26; world=1156,324
+[ShipFleetMotion] part: tick-200; id=11; index=7; sprite=PARUS11A10038; order=27; world=1156,324
+[ShipFleetMotion] actor: tick-200	12	20	6	1284	388	0	1	5	5	1	0	8623	-832	-1	164	164	1	2	76	198	200	2038935119	1200	0	0	76	1284	388			115,13;138,11;164,12;318,41;342,42;443,16;513,39;538,40	0	1024	0	0	4294967295	4294965247	20	6	20	6	0	1	25	0	0	20	6	21	5	15000500051400060005		0000000014000000060000000000000000000000000000000000	0
+[ShipFleetMotion] part: tick-200; id=12; index=0; sprite=BLB1A061; order=16; world=1284,388
+[ShipFleetMotion] part: tick-200; id=12; index=1; sprite=CORP_1A0029; order=28; world=1284,388
+[ShipFleetMotion] part: tick-200; id=12; index=7; sprite=PARUS11A10029; order=29; world=1284,388
+[ShipFleetMotion] actor: tick-200	13	19	4	1212	252	0	0	4	0	1	0	0	0	-1	0	0	0	0	75	198	200	3970538840	884	0	0	74	1212	252			115,13;138,11;164,12;318,41;342,42;443,16;513,39;538,40	0	1152	0	0	4294967295	4294967039	19	4	19	4	1	0	25	0	0	19	4	19	4			0000000013000000040000000000000000000000000000000000	0
+[ShipFleetMotion] part: tick-200; id=13; index=0; sprite=BLB1H068; order=15; world=1212,252
+[ShipFleetMotion] part: tick-200; id=13; index=1; sprite=CORP_1H0068; order=23; world=1212,252
+[ShipFleetMotion] part: tick-200; id=13; index=5; sprite=ARMOR_1H0036; order=24; world=1212,252
+[ShipFleetMotion] part: tick-200; id=13; index=7; sprite=PARUS11H10036; order=25; world=1212,252
+[ShipFleetMotion] queue: stage=tick-200; node=20; kind=separate_shadow; id=0000002a; part=0; depth=21000; order=10
+[ShipFleetMotion] queue: stage=tick-200; node=18; kind=separate_shadow; id=00000029; part=0; depth=21000; order=11
+[ShipFleetMotion] queue: stage=tick-200; node=16; kind=separate_shadow; id=00000028; part=0; depth=21000; order=12
+[ShipFleetMotion] queue: stage=tick-200; node=14; kind=separate_shadow; id=00000027; part=0; depth=21000; order=13
+[ShipFleetMotion] queue: stage=tick-200; node=11; kind=separate_shadow; id=00000010; part=0; depth=21000; order=14
+[ShipFleetMotion] queue: stage=tick-200; node=9; kind=separate_shadow; id=0000000d; part=0; depth=21000; order=15
+[ShipFleetMotion] queue: stage=tick-200; node=7; kind=separate_shadow; id=0000000c; part=0; depth=21000; order=16
+[ShipFleetMotion] queue: stage=tick-200; node=5; kind=separate_shadow; id=0000000b; part=0; depth=21000; order=17
+[ShipFleetMotion] queue: stage=tick-200; node=12; kind=reef; id=00000021; part=-1; depth=20200; order=18
+[ShipFleetMotion] queue: stage=tick-200; node=3; kind=reef; id=0000000a; part=-1; depth=20200; order=19
+[ShipFleetMotion] queue: stage=tick-200; node=2; kind=reef; id=00000009; part=-1; depth=20200; order=20
+[ShipFleetMotion] queue: stage=tick-200; node=1; kind=reef; id=00000006; part=-1; depth=20200; order=21
+[ShipFleetMotion] queue: stage=tick-200; node=0; kind=reef; id=00000005; part=-1; depth=20200; order=22
+[ShipFleetMotion] queue: stage=tick-200; node=8; kind=inline_parent; id=0000000d; part=1; depth=19676; order=23
+[ShipFleetMotion] queue: stage=tick-200; node=8; kind=inline_parent; id=0000000d; part=5; depth=19676; order=24
+[ShipFleetMotion] queue: stage=tick-200; node=8; kind=inline_parent; id=0000000d; part=7; depth=19676; order=25
+[ShipFleetMotion] queue: stage=tick-200; node=4; kind=inline_parent; id=0000000b; part=1; depth=19620; order=26
+[ShipFleetMotion] queue: stage=tick-200; node=4; kind=inline_parent; id=0000000b; part=7; depth=19620; order=27
+[ShipFleetMotion] queue: stage=tick-200; node=6; kind=inline_parent; id=0000000c; part=1; depth=19556; order=28
+[ShipFleetMotion] queue: stage=tick-200; node=6; kind=inline_parent; id=0000000c; part=7; depth=19556; order=29
+[ShipFleetMotion] queue: stage=tick-200; node=17; kind=inline_parent; id=00000029; part=1; depth=19100; order=30
+[ShipFleetMotion] queue: stage=tick-200; node=17; kind=inline_parent; id=00000029; part=3; depth=19100; order=31
+[ShipFleetMotion] queue: stage=tick-200; node=17; kind=inline_parent; id=00000029; part=7; depth=19100; order=32
+[ShipFleetMotion] queue: stage=tick-200; node=19; kind=inline_parent; id=0000002a; part=1; depth=19036; order=33
+[ShipFleetMotion] queue: stage=tick-200; node=19; kind=inline_parent; id=0000002a; part=3; depth=19036; order=34
+[ShipFleetMotion] queue: stage=tick-200; node=19; kind=inline_parent; id=0000002a; part=7; depth=19036; order=35
+[ShipFleetMotion] queue: stage=tick-200; node=10; kind=inline_parent; id=00000010; part=1; depth=18784; order=36
+[ShipFleetMotion] queue: stage=tick-200; node=10; kind=inline_parent; id=00000010; part=7; depth=18784; order=37
+[ShipFleetMotion] queue: stage=tick-200; node=13; kind=inline_parent; id=00000027; part=1; depth=18588; order=38
+[ShipFleetMotion] queue: stage=tick-200; node=13; kind=inline_parent; id=00000027; part=3; depth=18588; order=39
+[ShipFleetMotion] queue: stage=tick-200; node=13; kind=inline_parent; id=00000027; part=7; depth=18588; order=40
+[ShipFleetMotion] queue: stage=tick-200; node=15; kind=inline_parent; id=00000028; part=1; depth=18524; order=41
+[ShipFleetMotion] queue: stage=tick-200; node=15; kind=inline_parent; id=00000028; part=3; depth=18524; order=42
+[ShipFleetMotion] queue: stage=tick-200; node=15; kind=inline_parent; id=00000028; part=7; depth=18524; order=43
+[ShipFleetMotion] end: tick-200
+[ShipFleetSelection] checkpoint: stage=clear-point; members=0000000b,0000000c,0000000d; pending=False; selected=True; counter=200
+[ShipFleetControl] selection: stage=clear-point; group=0; temporary=0; dispatched=True
+[ShipFleetMotion] stage: clear-point; counter=200
+[ShipFleetMotion] actor: clear-point	11	18	5	1156	324	0	1	6	6	-1	0	1410	-2511	-1	138	138	1	2	81	192	200	450231881	1200	0	0	82	1156	324			115,13;138,11;164,12;318,41;342,42;443,16;513,39;538,40	0	1024	0	0	4294967295	4294965247	18	5	18	5	0	73	25	0	0	18	5	18	4	12000400061200050006		0000000012000000050000000000000000000000000000000000	0
+[ShipFleetMotion] part: clear-point; id=11; index=0; sprite=BLB1A070; order=17; world=1156,324
+[ShipFleetMotion] part: clear-point; id=11; index=1; sprite=CORP_1A0038; order=26; world=1156,324
+[ShipFleetMotion] part: clear-point; id=11; index=7; sprite=PARUS11A10038; order=27; world=1156,324
+[ShipFleetMotion] actor: clear-point	12	20	6	1284	388	0	1	5	5	1	0	8623	-832	-1	164	164	1	2	76	198	200	2038935119	1200	0	0	76	1284	388			115,13;138,11;164,12;318,41;342,42;443,16;513,39;538,40	0	1024	0	0	4294967295	4294965247	20	6	20	6	0	1	25	0	0	20	6	21	5	15000500051400060005		0000000014000000060000000000000000000000000000000000	0
+[ShipFleetMotion] part: clear-point; id=12; index=0; sprite=BLB1A061; order=16; world=1284,388
+[ShipFleetMotion] part: clear-point; id=12; index=1; sprite=CORP_1A0029; order=28; world=1284,388
+[ShipFleetMotion] part: clear-point; id=12; index=7; sprite=PARUS11A10029; order=29; world=1284,388
+[ShipFleetMotion] actor: clear-point	13	19	4	1212	252	0	0	4	0	1	0	0	0	-1	0	0	0	0	75	198	200	3970538840	884	0	0	74	1212	252			115,13;138,11;164,12;318,41;342,42;443,16;513,39;538,40	0	1152	0	0	4294967295	4294967039	19	4	19	4	1	0	25	0	0	19	4	19	4			0000000013000000040000000000000000000000000000000000	0
+[ShipFleetMotion] part: clear-point; id=13; index=0; sprite=BLB1H068; order=15; world=1212,252
+[ShipFleetMotion] part: clear-point; id=13; index=1; sprite=CORP_1H0068; order=23; world=1212,252
+[ShipFleetMotion] part: clear-point; id=13; index=5; sprite=ARMOR_1H0036; order=24; world=1212,252
+[ShipFleetMotion] part: clear-point; id=13; index=7; sprite=PARUS11H10036; order=25; world=1212,252
+[ShipFleetMotion] queue: stage=clear-point; node=20; kind=separate_shadow; id=0000002a; part=0; depth=21000; order=10
+[ShipFleetMotion] queue: stage=clear-point; node=18; kind=separate_shadow; id=00000029; part=0; depth=21000; order=11
+[ShipFleetMotion] queue: stage=clear-point; node=16; kind=separate_shadow; id=00000028; part=0; depth=21000; order=12
+[ShipFleetMotion] queue: stage=clear-point; node=14; kind=separate_shadow; id=00000027; part=0; depth=21000; order=13
+[ShipFleetMotion] queue: stage=clear-point; node=11; kind=separate_shadow; id=00000010; part=0; depth=21000; order=14
+[ShipFleetMotion] queue: stage=clear-point; node=9; kind=separate_shadow; id=0000000d; part=0; depth=21000; order=15
+[ShipFleetMotion] queue: stage=clear-point; node=7; kind=separate_shadow; id=0000000c; part=0; depth=21000; order=16
+[ShipFleetMotion] queue: stage=clear-point; node=5; kind=separate_shadow; id=0000000b; part=0; depth=21000; order=17
+[ShipFleetMotion] queue: stage=clear-point; node=12; kind=reef; id=00000021; part=-1; depth=20200; order=18
+[ShipFleetMotion] queue: stage=clear-point; node=3; kind=reef; id=0000000a; part=-1; depth=20200; order=19
+[ShipFleetMotion] queue: stage=clear-point; node=2; kind=reef; id=00000009; part=-1; depth=20200; order=20
+[ShipFleetMotion] queue: stage=clear-point; node=1; kind=reef; id=00000006; part=-1; depth=20200; order=21
+[ShipFleetMotion] queue: stage=clear-point; node=0; kind=reef; id=00000005; part=-1; depth=20200; order=22
+[ShipFleetMotion] queue: stage=clear-point; node=8; kind=inline_parent; id=0000000d; part=1; depth=19676; order=23
+[ShipFleetMotion] queue: stage=clear-point; node=8; kind=inline_parent; id=0000000d; part=5; depth=19676; order=24
+[ShipFleetMotion] queue: stage=clear-point; node=8; kind=inline_parent; id=0000000d; part=7; depth=19676; order=25
+[ShipFleetMotion] queue: stage=clear-point; node=4; kind=inline_parent; id=0000000b; part=1; depth=19620; order=26
+[ShipFleetMotion] queue: stage=clear-point; node=4; kind=inline_parent; id=0000000b; part=7; depth=19620; order=27
+[ShipFleetMotion] queue: stage=clear-point; node=6; kind=inline_parent; id=0000000c; part=1; depth=19556; order=28
+[ShipFleetMotion] queue: stage=clear-point; node=6; kind=inline_parent; id=0000000c; part=7; depth=19556; order=29
+[ShipFleetMotion] queue: stage=clear-point; node=17; kind=inline_parent; id=00000029; part=1; depth=19100; order=30
+[ShipFleetMotion] queue: stage=clear-point; node=17; kind=inline_parent; id=00000029; part=3; depth=19100; order=31
+[ShipFleetMotion] queue: stage=clear-point; node=17; kind=inline_parent; id=00000029; part=7; depth=19100; order=32
+[ShipFleetMotion] queue: stage=clear-point; node=19; kind=inline_parent; id=0000002a; part=1; depth=19036; order=33
+[ShipFleetMotion] queue: stage=clear-point; node=19; kind=inline_parent; id=0000002a; part=3; depth=19036; order=34
+[ShipFleetMotion] queue: stage=clear-point; node=19; kind=inline_parent; id=0000002a; part=7; depth=19036; order=35
+[ShipFleetMotion] queue: stage=clear-point; node=10; kind=inline_parent; id=00000010; part=1; depth=18784; order=36
+[ShipFleetMotion] queue: stage=clear-point; node=10; kind=inline_parent; id=00000010; part=7; depth=18784; order=37
+[ShipFleetMotion] queue: stage=clear-point; node=13; kind=inline_parent; id=00000027; part=1; depth=18588; order=38
+[ShipFleetMotion] queue: stage=clear-point; node=13; kind=inline_parent; id=00000027; part=3; depth=18588; order=39
+[ShipFleetMotion] queue: stage=clear-point; node=13; kind=inline_parent; id=00000027; part=7; depth=18588; order=40
+[ShipFleetMotion] queue: stage=clear-point; node=15; kind=inline_parent; id=00000028; part=1; depth=18524; order=41
+[ShipFleetMotion] queue: stage=clear-point; node=15; kind=inline_parent; id=00000028; part=3; depth=18524; order=42
+[ShipFleetMotion] queue: stage=clear-point; node=15; kind=inline_parent; id=00000028; part=7; depth=18524; order=43
+[ShipFleetMotion] end: clear-point
+[ShipFleetSelection] checkpoint: stage=clear-right-down; members=0000000b,0000000c,0000000d; pending=False; selected=True; counter=200
+[ShipFleetControl] selection: stage=clear-right-down; group=0; temporary=0; dispatched=True
+[ShipFleetMotion] stage: clear-right-down; counter=200
+[ShipFleetMotion] actor: clear-right-down	11	18	5	1156	324	0	1	6	6	-1	0	1410	-2511	-1	138	138	1	2	81	192	200	450231881	1200	0	0	82	1156	324			115,13;138,11;164,12;318,41;342,42;443,16;513,39;538,40	0	1024	0	0	4294967295	4294965247	18	5	18	5	0	73	25	0	0	18	5	18	4	12000400061200050006		0000000012000000050000000000000000000000000000000000	0
+[ShipFleetMotion] part: clear-right-down; id=11; index=0; sprite=BLB1A070; order=17; world=1156,324
+[ShipFleetMotion] part: clear-right-down; id=11; index=1; sprite=CORP_1A0038; order=26; world=1156,324
+[ShipFleetMotion] part: clear-right-down; id=11; index=7; sprite=PARUS11A10038; order=27; world=1156,324
+[ShipFleetMotion] actor: clear-right-down	12	20	6	1284	388	0	1	5	5	1	0	8623	-832	-1	164	164	1	2	76	198	200	2038935119	1200	0	0	76	1284	388			115,13;138,11;164,12;318,41;342,42;443,16;513,39;538,40	0	1024	0	0	4294967295	4294965247	20	6	20	6	0	1	25	0	0	20	6	21	5	15000500051400060005		0000000014000000060000000000000000000000000000000000	0
+[ShipFleetMotion] part: clear-right-down; id=12; index=0; sprite=BLB1A061; order=16; world=1284,388
+[ShipFleetMotion] part: clear-right-down; id=12; index=1; sprite=CORP_1A0029; order=28; world=1284,388
+[ShipFleetMotion] part: clear-right-down; id=12; index=7; sprite=PARUS11A10029; order=29; world=1284,388
+[ShipFleetMotion] actor: clear-right-down	13	19	4	1212	252	0	0	4	0	1	0	0	0	-1	0	0	0	0	75	198	200	3970538840	884	0	0	74	1212	252			115,13;138,11;164,12;318,41;342,42;443,16;513,39;538,40	0	1152	0	0	4294967295	4294967039	19	4	19	4	1	0	25	0	0	19	4	19	4			0000000013000000040000000000000000000000000000000000	0
+[ShipFleetMotion] part: clear-right-down; id=13; index=0; sprite=BLB1H068; order=15; world=1212,252
+[ShipFleetMotion] part: clear-right-down; id=13; index=1; sprite=CORP_1H0068; order=23; world=1212,252
+[ShipFleetMotion] part: clear-right-down; id=13; index=5; sprite=ARMOR_1H0036; order=24; world=1212,252
+[ShipFleetMotion] part: clear-right-down; id=13; index=7; sprite=PARUS11H10036; order=25; world=1212,252
+[ShipFleetMotion] queue: stage=clear-right-down; node=20; kind=separate_shadow; id=0000002a; part=0; depth=21000; order=10
+[ShipFleetMotion] queue: stage=clear-right-down; node=18; kind=separate_shadow; id=00000029; part=0; depth=21000; order=11
+[ShipFleetMotion] queue: stage=clear-right-down; node=16; kind=separate_shadow; id=00000028; part=0; depth=21000; order=12
+[ShipFleetMotion] queue: stage=clear-right-down; node=14; kind=separate_shadow; id=00000027; part=0; depth=21000; order=13
+[ShipFleetMotion] queue: stage=clear-right-down; node=11; kind=separate_shadow; id=00000010; part=0; depth=21000; order=14
+[ShipFleetMotion] queue: stage=clear-right-down; node=9; kind=separate_shadow; id=0000000d; part=0; depth=21000; order=15
+[ShipFleetMotion] queue: stage=clear-right-down; node=7; kind=separate_shadow; id=0000000c; part=0; depth=21000; order=16
+[ShipFleetMotion] queue: stage=clear-right-down; node=5; kind=separate_shadow; id=0000000b; part=0; depth=21000; order=17
+[ShipFleetMotion] queue: stage=clear-right-down; node=12; kind=reef; id=00000021; part=-1; depth=20200; order=18
+[ShipFleetMotion] queue: stage=clear-right-down; node=3; kind=reef; id=0000000a; part=-1; depth=20200; order=19
+[ShipFleetMotion] queue: stage=clear-right-down; node=2; kind=reef; id=00000009; part=-1; depth=20200; order=20
+[ShipFleetMotion] queue: stage=clear-right-down; node=1; kind=reef; id=00000006; part=-1; depth=20200; order=21
+[ShipFleetMotion] queue: stage=clear-right-down; node=0; kind=reef; id=00000005; part=-1; depth=20200; order=22
+[ShipFleetMotion] queue: stage=clear-right-down; node=8; kind=inline_parent; id=0000000d; part=1; depth=19676; order=23
+[ShipFleetMotion] queue: stage=clear-right-down; node=8; kind=inline_parent; id=0000000d; part=5; depth=19676; order=24
+[ShipFleetMotion] queue: stage=clear-right-down; node=8; kind=inline_parent; id=0000000d; part=7; depth=19676; order=25
+[ShipFleetMotion] queue: stage=clear-right-down; node=4; kind=inline_parent; id=0000000b; part=1; depth=19620; order=26
+[ShipFleetMotion] queue: stage=clear-right-down; node=4; kind=inline_parent; id=0000000b; part=7; depth=19620; order=27
+[ShipFleetMotion] queue: stage=clear-right-down; node=6; kind=inline_parent; id=0000000c; part=1; depth=19556; order=28
+[ShipFleetMotion] queue: stage=clear-right-down; node=6; kind=inline_parent; id=0000000c; part=7; depth=19556; order=29
+[ShipFleetMotion] queue: stage=clear-right-down; node=17; kind=inline_parent; id=00000029; part=1; depth=19100; order=30
+[ShipFleetMotion] queue: stage=clear-right-down; node=17; kind=inline_parent; id=00000029; part=3; depth=19100; order=31
+[ShipFleetMotion] queue: stage=clear-right-down; node=17; kind=inline_parent; id=00000029; part=7; depth=19100; order=32
+[ShipFleetMotion] queue: stage=clear-right-down; node=19; kind=inline_parent; id=0000002a; part=1; depth=19036; order=33
+[ShipFleetMotion] queue: stage=clear-right-down; node=19; kind=inline_parent; id=0000002a; part=3; depth=19036; order=34
+[ShipFleetMotion] queue: stage=clear-right-down; node=19; kind=inline_parent; id=0000002a; part=7; depth=19036; order=35
+[ShipFleetMotion] queue: stage=clear-right-down; node=10; kind=inline_parent; id=00000010; part=1; depth=18784; order=36
+[ShipFleetMotion] queue: stage=clear-right-down; node=10; kind=inline_parent; id=00000010; part=7; depth=18784; order=37
+[ShipFleetMotion] queue: stage=clear-right-down; node=13; kind=inline_parent; id=00000027; part=1; depth=18588; order=38
+[ShipFleetMotion] queue: stage=clear-right-down; node=13; kind=inline_parent; id=00000027; part=3; depth=18588; order=39
+[ShipFleetMotion] queue: stage=clear-right-down; node=13; kind=inline_parent; id=00000027; part=7; depth=18588; order=40
+[ShipFleetMotion] queue: stage=clear-right-down; node=15; kind=inline_parent; id=00000028; part=1; depth=18524; order=41
+[ShipFleetMotion] queue: stage=clear-right-down; node=15; kind=inline_parent; id=00000028; part=3; depth=18524; order=42
+[ShipFleetMotion] queue: stage=clear-right-down; node=15; kind=inline_parent; id=00000028; part=7; depth=18524; order=43
+[ShipFleetMotion] end: clear-right-down
+[ShipFleetSelection] checkpoint: stage=clear-right-up; members=none; pending=False; selected=False; counter=200
+[ShipFleetControl] selection: stage=clear-right-up; group=-1; temporary=0; dispatched=True
+[ShipFleetMotion] stage: clear-right-up; counter=200
+[ShipFleetMotion] actor: clear-right-up	11	18	5	1156	324	0	1	6	6	-1	0	1410	-2511	-1	138	138	1	2	81	192	200	450231881	1200	0	0	82	1156	324			115,13;138,11;164,12;318,41;342,42;443,16;513,39;538,40	0	1024	0	0	4294967295	4294965247	18	5	18	5	0	73	25	0	0	18	5	18	4	12000400061200050006		0000000012000000050000000000000000000000000000000000	0
+[ShipFleetMotion] part: clear-right-up; id=11; index=0; sprite=BLB1A070; order=17; world=1156,324
+[ShipFleetMotion] part: clear-right-up; id=11; index=1; sprite=CORP_1A0038; order=26; world=1156,324
+[ShipFleetMotion] part: clear-right-up; id=11; index=7; sprite=PARUS11A10038; order=27; world=1156,324
+[ShipFleetMotion] actor: clear-right-up	12	20	6	1284	388	0	1	5	5	1	0	8623	-832	-1	164	164	1	2	76	198	200	2038935119	1200	0	0	76	1284	388			115,13;138,11;164,12;318,41;342,42;443,16;513,39;538,40	0	1024	0	0	4294967295	4294965247	20	6	20	6	0	1	25	0	0	20	6	21	5	15000500051400060005		0000000014000000060000000000000000000000000000000000	0
+[ShipFleetMotion] part: clear-right-up; id=12; index=0; sprite=BLB1A061; order=16; world=1284,388
+[ShipFleetMotion] part: clear-right-up; id=12; index=1; sprite=CORP_1A0029; order=28; world=1284,388
+[ShipFleetMotion] part: clear-right-up; id=12; index=7; sprite=PARUS11A10029; order=29; world=1284,388
+[ShipFleetMotion] actor: clear-right-up	13	19	4	1212	252	0	0	4	0	1	0	0	0	-1	0	0	0	0	75	198	200	3970538840	884	0	0	74	1212	252			115,13;138,11;164,12;318,41;342,42;443,16;513,39;538,40	0	1152	0	0	4294967295	4294967039	19	4	19	4	1	0	25	0	0	19	4	19	4			0000000013000000040000000000000000000000000000000000	0
+[ShipFleetMotion] part: clear-right-up; id=13; index=0; sprite=BLB1H068; order=15; world=1212,252
+[ShipFleetMotion] part: clear-right-up; id=13; index=1; sprite=CORP_1H0068; order=23; world=1212,252
+[ShipFleetMotion] part: clear-right-up; id=13; index=5; sprite=ARMOR_1H0036; order=24; world=1212,252
+[ShipFleetMotion] part: clear-right-up; id=13; index=7; sprite=PARUS11H10036; order=25; world=1212,252
+[ShipFleetMotion] queue: stage=clear-right-up; node=20; kind=separate_shadow; id=0000002a; part=0; depth=21000; order=10
+[ShipFleetMotion] queue: stage=clear-right-up; node=18; kind=separate_shadow; id=00000029; part=0; depth=21000; order=11
+[ShipFleetMotion] queue: stage=clear-right-up; node=16; kind=separate_shadow; id=00000028; part=0; depth=21000; order=12
+[ShipFleetMotion] queue: stage=clear-right-up; node=14; kind=separate_shadow; id=00000027; part=0; depth=21000; order=13
+[ShipFleetMotion] queue: stage=clear-right-up; node=11; kind=separate_shadow; id=00000010; part=0; depth=21000; order=14
+[ShipFleetMotion] queue: stage=clear-right-up; node=9; kind=separate_shadow; id=0000000d; part=0; depth=21000; order=15
+[ShipFleetMotion] queue: stage=clear-right-up; node=7; kind=separate_shadow; id=0000000c; part=0; depth=21000; order=16
+[ShipFleetMotion] queue: stage=clear-right-up; node=5; kind=separate_shadow; id=0000000b; part=0; depth=21000; order=17
+[ShipFleetMotion] queue: stage=clear-right-up; node=12; kind=reef; id=00000021; part=-1; depth=20200; order=18
+[ShipFleetMotion] queue: stage=clear-right-up; node=3; kind=reef; id=0000000a; part=-1; depth=20200; order=19
+[ShipFleetMotion] queue: stage=clear-right-up; node=2; kind=reef; id=00000009; part=-1; depth=20200; order=20
+[ShipFleetMotion] queue: stage=clear-right-up; node=1; kind=reef; id=00000006; part=-1; depth=20200; order=21
+[ShipFleetMotion] queue: stage=clear-right-up; node=0; kind=reef; id=00000005; part=-1; depth=20200; order=22
+[ShipFleetMotion] queue: stage=clear-right-up; node=8; kind=inline_parent; id=0000000d; part=1; depth=19676; order=23
+[ShipFleetMotion] queue: stage=clear-right-up; node=8; kind=inline_parent; id=0000000d; part=5; depth=19676; order=24
+[ShipFleetMotion] queue: stage=clear-right-up; node=8; kind=inline_parent; id=0000000d; part=7; depth=19676; order=25
+[ShipFleetMotion] queue: stage=clear-right-up; node=4; kind=inline_parent; id=0000000b; part=1; depth=19620; order=26
+[ShipFleetMotion] queue: stage=clear-right-up; node=4; kind=inline_parent; id=0000000b; part=7; depth=19620; order=27
+[ShipFleetMotion] queue: stage=clear-right-up; node=6; kind=inline_parent; id=0000000c; part=1; depth=19556; order=28
+[ShipFleetMotion] queue: stage=clear-right-up; node=6; kind=inline_parent; id=0000000c; part=7; depth=19556; order=29
+[ShipFleetMotion] queue: stage=clear-right-up; node=17; kind=inline_parent; id=00000029; part=1; depth=19100; order=30
+[ShipFleetMotion] queue: stage=clear-right-up; node=17; kind=inline_parent; id=00000029; part=3; depth=19100; order=31
+[ShipFleetMotion] queue: stage=clear-right-up; node=17; kind=inline_parent; id=00000029; part=7; depth=19100; order=32
+[ShipFleetMotion] queue: stage=clear-right-up; node=19; kind=inline_parent; id=0000002a; part=1; depth=19036; order=33
+[ShipFleetMotion] queue: stage=clear-right-up; node=19; kind=inline_parent; id=0000002a; part=3; depth=19036; order=34
+[ShipFleetMotion] queue: stage=clear-right-up; node=19; kind=inline_parent; id=0000002a; part=7; depth=19036; order=35
+[ShipFleetMotion] queue: stage=clear-right-up; node=10; kind=inline_parent; id=00000010; part=1; depth=18784; order=36
+[ShipFleetMotion] queue: stage=clear-right-up; node=10; kind=inline_parent; id=00000010; part=7; depth=18784; order=37
+[ShipFleetMotion] queue: stage=clear-right-up; node=13; kind=inline_parent; id=00000027; part=1; depth=18588; order=38
+[ShipFleetMotion] queue: stage=clear-right-up; node=13; kind=inline_parent; id=00000027; part=3; depth=18588; order=39
+[ShipFleetMotion] queue: stage=clear-right-up; node=13; kind=inline_parent; id=00000027; part=7; depth=18588; order=40
+[ShipFleetMotion] queue: stage=clear-right-up; node=15; kind=inline_parent; id=00000028; part=1; depth=18524; order=41
+[ShipFleetMotion] queue: stage=clear-right-up; node=15; kind=inline_parent; id=00000028; part=3; depth=18524; order=42
+[ShipFleetMotion] queue: stage=clear-right-up; node=15; kind=inline_parent; id=00000028; part=7; depth=18524; order=43
+[ShipFleetMotion] end: clear-right-up
+[ShipFleetSelection] checkpoint: stage=recall-c-down; members=none; pending=False; selected=False; counter=200
+[ShipFleetControl] selection: stage=recall-c-down; group=-1; temporary=0; dispatched=True
+[ShipFleetMotion] stage: recall-c-down; counter=200
+[ShipFleetMotion] actor: recall-c-down	11	18	5	1156	324	0	1	6	6	-1	0	1410	-2511	-1	138	138	1	2	81	192	200	450231881	1200	0	0	82	1156	324			115,13;138,11;164,12;318,41;342,42;443,16;513,39;538,40	0	1024	0	0	4294967295	4294965247	18	5	18	5	0	73	25	0	0	18	5	18	4	12000400061200050006		0000000012000000050000000000000000000000000000000000	0
+[ShipFleetMotion] part: recall-c-down; id=11; index=0; sprite=BLB1A070; order=17; world=1156,324
+[ShipFleetMotion] part: recall-c-down; id=11; index=1; sprite=CORP_1A0038; order=26; world=1156,324
+[ShipFleetMotion] part: recall-c-down; id=11; index=7; sprite=PARUS11A10038; order=27; world=1156,324
+[ShipFleetMotion] actor: recall-c-down	12	20	6	1284	388	0	1	5	5	1	0	8623	-832	-1	164	164	1	2	76	198	200	2038935119	1200	0	0	76	1284	388			115,13;138,11;164,12;318,41;342,42;443,16;513,39;538,40	0	1024	0	0	4294967295	4294965247	20	6	20	6	0	1	25	0	0	20	6	21	5	15000500051400060005		0000000014000000060000000000000000000000000000000000	0
+[ShipFleetMotion] part: recall-c-down; id=12; index=0; sprite=BLB1A061; order=16; world=1284,388
+[ShipFleetMotion] part: recall-c-down; id=12; index=1; sprite=CORP_1A0029; order=28; world=1284,388
+[ShipFleetMotion] part: recall-c-down; id=12; index=7; sprite=PARUS11A10029; order=29; world=1284,388
+[ShipFleetMotion] actor: recall-c-down	13	19	4	1212	252	0	0	4	0	1	0	0	0	-1	0	0	0	0	75	198	200	3970538840	884	0	0	74	1212	252			115,13;138,11;164,12;318,41;342,42;443,16;513,39;538,40	0	1152	0	0	4294967295	4294967039	19	4	19	4	1	0	25	0	0	19	4	19	4			0000000013000000040000000000000000000000000000000000	0
+[ShipFleetMotion] part: recall-c-down; id=13; index=0; sprite=BLB1H068; order=15; world=1212,252
+[ShipFleetMotion] part: recall-c-down; id=13; index=1; sprite=CORP_1H0068; order=23; world=1212,252
+[ShipFleetMotion] part: recall-c-down; id=13; index=5; sprite=ARMOR_1H0036; order=24; world=1212,252
+[ShipFleetMotion] part: recall-c-down; id=13; index=7; sprite=PARUS11H10036; order=25; world=1212,252
+[ShipFleetMotion] queue: stage=recall-c-down; node=20; kind=separate_shadow; id=0000002a; part=0; depth=21000; order=10
+[ShipFleetMotion] queue: stage=recall-c-down; node=18; kind=separate_shadow; id=00000029; part=0; depth=21000; order=11
+[ShipFleetMotion] queue: stage=recall-c-down; node=16; kind=separate_shadow; id=00000028; part=0; depth=21000; order=12
+[ShipFleetMotion] queue: stage=recall-c-down; node=14; kind=separate_shadow; id=00000027; part=0; depth=21000; order=13
+[ShipFleetMotion] queue: stage=recall-c-down; node=11; kind=separate_shadow; id=00000010; part=0; depth=21000; order=14
+[ShipFleetMotion] queue: stage=recall-c-down; node=9; kind=separate_shadow; id=0000000d; part=0; depth=21000; order=15
+[ShipFleetMotion] queue: stage=recall-c-down; node=7; kind=separate_shadow; id=0000000c; part=0; depth=21000; order=16
+[ShipFleetMotion] queue: stage=recall-c-down; node=5; kind=separate_shadow; id=0000000b; part=0; depth=21000; order=17
+[ShipFleetMotion] queue: stage=recall-c-down; node=12; kind=reef; id=00000021; part=-1; depth=20200; order=18
+[ShipFleetMotion] queue: stage=recall-c-down; node=3; kind=reef; id=0000000a; part=-1; depth=20200; order=19
+[ShipFleetMotion] queue: stage=recall-c-down; node=2; kind=reef; id=00000009; part=-1; depth=20200; order=20
+[ShipFleetMotion] queue: stage=recall-c-down; node=1; kind=reef; id=00000006; part=-1; depth=20200; order=21
+[ShipFleetMotion] queue: stage=recall-c-down; node=0; kind=reef; id=00000005; part=-1; depth=20200; order=22
+[ShipFleetMotion] queue: stage=recall-c-down; node=8; kind=inline_parent; id=0000000d; part=1; depth=19676; order=23
+[ShipFleetMotion] queue: stage=recall-c-down; node=8; kind=inline_parent; id=0000000d; part=5; depth=19676; order=24
+[ShipFleetMotion] queue: stage=recall-c-down; node=8; kind=inline_parent; id=0000000d; part=7; depth=19676; order=25
+[ShipFleetMotion] queue: stage=recall-c-down; node=4; kind=inline_parent; id=0000000b; part=1; depth=19620; order=26
+[ShipFleetMotion] queue: stage=recall-c-down; node=4; kind=inline_parent; id=0000000b; part=7; depth=19620; order=27
+[ShipFleetMotion] queue: stage=recall-c-down; node=6; kind=inline_parent; id=0000000c; part=1; depth=19556; order=28
+[ShipFleetMotion] queue: stage=recall-c-down; node=6; kind=inline_parent; id=0000000c; part=7; depth=19556; order=29
+[ShipFleetMotion] queue: stage=recall-c-down; node=17; kind=inline_parent; id=00000029; part=1; depth=19100; order=30
+[ShipFleetMotion] queue: stage=recall-c-down; node=17; kind=inline_parent; id=00000029; part=3; depth=19100; order=31
+[ShipFleetMotion] queue: stage=recall-c-down; node=17; kind=inline_parent; id=00000029; part=7; depth=19100; order=32
+[ShipFleetMotion] queue: stage=recall-c-down; node=19; kind=inline_parent; id=0000002a; part=1; depth=19036; order=33
+[ShipFleetMotion] queue: stage=recall-c-down; node=19; kind=inline_parent; id=0000002a; part=3; depth=19036; order=34
+[ShipFleetMotion] queue: stage=recall-c-down; node=19; kind=inline_parent; id=0000002a; part=7; depth=19036; order=35
+[ShipFleetMotion] queue: stage=recall-c-down; node=10; kind=inline_parent; id=00000010; part=1; depth=18784; order=36
+[ShipFleetMotion] queue: stage=recall-c-down; node=10; kind=inline_parent; id=00000010; part=7; depth=18784; order=37
+[ShipFleetMotion] queue: stage=recall-c-down; node=13; kind=inline_parent; id=00000027; part=1; depth=18588; order=38
+[ShipFleetMotion] queue: stage=recall-c-down; node=13; kind=inline_parent; id=00000027; part=3; depth=18588; order=39
+[ShipFleetMotion] queue: stage=recall-c-down; node=13; kind=inline_parent; id=00000027; part=7; depth=18588; order=40
+[ShipFleetMotion] queue: stage=recall-c-down; node=15; kind=inline_parent; id=00000028; part=1; depth=18524; order=41
+[ShipFleetMotion] queue: stage=recall-c-down; node=15; kind=inline_parent; id=00000028; part=3; depth=18524; order=42
+[ShipFleetMotion] queue: stage=recall-c-down; node=15; kind=inline_parent; id=00000028; part=7; depth=18524; order=43
+[ShipFleetMotion] end: recall-c-down
+[ShipFleetSelection] checkpoint: stage=recall-c-up; members=0000000b,0000000c,0000000d; pending=False; selected=True; counter=200
+[ShipFleetControl] selection: stage=recall-c-up; group=0; temporary=0; dispatched=True
+[ShipFleetMotion] stage: recall-c-up; counter=200
+[ShipFleetMotion] actor: recall-c-up	11	18	5	1156	324	0	1	6	6	-1	0	1410	-2511	-1	138	138	1	2	81	192	200	450231881	1200	0	0	82	1156	324			115,13;138,11;164,12;318,41;342,42;443,16;513,39;538,40	0	1024	0	0	4294967295	4294965247	18	5	18	5	0	73	25	0	0	18	5	18	4	12000400061200050006		0000000012000000050000000000000000000000000000000000	0
+[ShipFleetMotion] part: recall-c-up; id=11; index=0; sprite=BLB1A070; order=17; world=1156,324
+[ShipFleetMotion] part: recall-c-up; id=11; index=1; sprite=CORP_1A0038; order=26; world=1156,324
+[ShipFleetMotion] part: recall-c-up; id=11; index=7; sprite=PARUS11A10038; order=27; world=1156,324
+[ShipFleetMotion] actor: recall-c-up	12	20	6	1284	388	0	1	5	5	1	0	8623	-832	-1	164	164	1	2	76	198	200	2038935119	1200	0	0	76	1284	388			115,13;138,11;164,12;318,41;342,42;443,16;513,39;538,40	0	1024	0	0	4294967295	4294965247	20	6	20	6	0	1	25	0	0	20	6	21	5	15000500051400060005		0000000014000000060000000000000000000000000000000000	0
+[ShipFleetMotion] part: recall-c-up; id=12; index=0; sprite=BLB1A061; order=16; world=1284,388
+[ShipFleetMotion] part: recall-c-up; id=12; index=1; sprite=CORP_1A0029; order=28; world=1284,388
+[ShipFleetMotion] part: recall-c-up; id=12; index=7; sprite=PARUS11A10029; order=29; world=1284,388
+[ShipFleetMotion] actor: recall-c-up	13	19	4	1212	252	0	0	4	0	1	0	0	0	-1	0	0	0	0	75	198	200	3970538840	884	0	0	74	1212	252			115,13;138,11;164,12;318,41;342,42;443,16;513,39;538,40	0	1152	0	0	4294967295	4294967039	19	4	19	4	1	0	25	0	0	19	4	19	4			0000000013000000040000000000000000000000000000000000	0
+[ShipFleetMotion] part: recall-c-up; id=13; index=0; sprite=BLB1H068; order=15; world=1212,252
+[ShipFleetMotion] part: recall-c-up; id=13; index=1; sprite=CORP_1H0068; order=23; world=1212,252
+[ShipFleetMotion] part: recall-c-up; id=13; index=5; sprite=ARMOR_1H0036; order=24; world=1212,252
+[ShipFleetMotion] part: recall-c-up; id=13; index=7; sprite=PARUS11H10036; order=25; world=1212,252
+[ShipFleetMotion] queue: stage=recall-c-up; node=20; kind=separate_shadow; id=0000002a; part=0; depth=21000; order=10
+[ShipFleetMotion] queue: stage=recall-c-up; node=18; kind=separate_shadow; id=00000029; part=0; depth=21000; order=11
+[ShipFleetMotion] queue: stage=recall-c-up; node=16; kind=separate_shadow; id=00000028; part=0; depth=21000; order=12
+[ShipFleetMotion] queue: stage=recall-c-up; node=14; kind=separate_shadow; id=00000027; part=0; depth=21000; order=13
+[ShipFleetMotion] queue: stage=recall-c-up; node=11; kind=separate_shadow; id=00000010; part=0; depth=21000; order=14
+[ShipFleetMotion] queue: stage=recall-c-up; node=9; kind=separate_shadow; id=0000000d; part=0; depth=21000; order=15
+[ShipFleetMotion] queue: stage=recall-c-up; node=7; kind=separate_shadow; id=0000000c; part=0; depth=21000; order=16
+[ShipFleetMotion] queue: stage=recall-c-up; node=5; kind=separate_shadow; id=0000000b; part=0; depth=21000; order=17
+[ShipFleetMotion] queue: stage=recall-c-up; node=12; kind=reef; id=00000021; part=-1; depth=20200; order=18
+[ShipFleetMotion] queue: stage=recall-c-up; node=3; kind=reef; id=0000000a; part=-1; depth=20200; order=19
+[ShipFleetMotion] queue: stage=recall-c-up; node=2; kind=reef; id=00000009; part=-1; depth=20200; order=20
+[ShipFleetMotion] queue: stage=recall-c-up; node=1; kind=reef; id=00000006; part=-1; depth=20200; order=21
+[ShipFleetMotion] queue: stage=recall-c-up; node=0; kind=reef; id=00000005; part=-1; depth=20200; order=22
+[ShipFleetMotion] queue: stage=recall-c-up; node=8; kind=inline_parent; id=0000000d; part=1; depth=19676; order=23
+[ShipFleetMotion] queue: stage=recall-c-up; node=8; kind=inline_parent; id=0000000d; part=5; depth=19676; order=24
+[ShipFleetMotion] queue: stage=recall-c-up; node=8; kind=inline_parent; id=0000000d; part=7; depth=19676; order=25
+[ShipFleetMotion] queue: stage=recall-c-up; node=4; kind=inline_parent; id=0000000b; part=1; depth=19620; order=26
+[ShipFleetMotion] queue: stage=recall-c-up; node=4; kind=inline_parent; id=0000000b; part=7; depth=19620; order=27
+[ShipFleetMotion] queue: stage=recall-c-up; node=6; kind=inline_parent; id=0000000c; part=1; depth=19556; order=28
+[ShipFleetMotion] queue: stage=recall-c-up; node=6; kind=inline_parent; id=0000000c; part=7; depth=19556; order=29
+[ShipFleetMotion] queue: stage=recall-c-up; node=17; kind=inline_parent; id=00000029; part=1; depth=19100; order=30
+[ShipFleetMotion] queue: stage=recall-c-up; node=17; kind=inline_parent; id=00000029; part=3; depth=19100; order=31
+[ShipFleetMotion] queue: stage=recall-c-up; node=17; kind=inline_parent; id=00000029; part=7; depth=19100; order=32
+[ShipFleetMotion] queue: stage=recall-c-up; node=19; kind=inline_parent; id=0000002a; part=1; depth=19036; order=33
+[ShipFleetMotion] queue: stage=recall-c-up; node=19; kind=inline_parent; id=0000002a; part=3; depth=19036; order=34
+[ShipFleetMotion] queue: stage=recall-c-up; node=19; kind=inline_parent; id=0000002a; part=7; depth=19036; order=35
+[ShipFleetMotion] queue: stage=recall-c-up; node=10; kind=inline_parent; id=00000010; part=1; depth=18784; order=36
+[ShipFleetMotion] queue: stage=recall-c-up; node=10; kind=inline_parent; id=00000010; part=7; depth=18784; order=37
+[ShipFleetMotion] queue: stage=recall-c-up; node=13; kind=inline_parent; id=00000027; part=1; depth=18588; order=38
+[ShipFleetMotion] queue: stage=recall-c-up; node=13; kind=inline_parent; id=00000027; part=3; depth=18588; order=39
+[ShipFleetMotion] queue: stage=recall-c-up; node=13; kind=inline_parent; id=00000027; part=7; depth=18588; order=40
+[ShipFleetMotion] queue: stage=recall-c-up; node=15; kind=inline_parent; id=00000028; part=1; depth=18524; order=41
+[ShipFleetMotion] queue: stage=recall-c-up; node=15; kind=inline_parent; id=00000028; part=3; depth=18524; order=42
+[ShipFleetMotion] queue: stage=recall-c-up; node=15; kind=inline_parent; id=00000028; part=7; depth=18524; order=43
+[ShipFleetMotion] end: recall-c-up
+[ShipFleetMoveReplay] complete: counter=200; input=synthetic-InputSystem-QueueStateEvent; os_input=False; movement=first-normal-order
+[ShipFleetMotion] cleanup: pose_owners=3; visual_refs_cleared=True

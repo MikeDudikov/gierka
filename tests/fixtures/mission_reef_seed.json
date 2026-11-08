@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "original_exe_sha256": "cb7746b288d23de2a0343ba51c154f961b3e3683b73bcc31e9a38b2c6b1e2021",
+  "mission_dkx_sha256": "b4b2fda60bb38e837b6d0548caa86229e1fbebf8cb9fd806c4f39c9bd75835ce",
+  "mission_dkd_sha256": "a77e801a93baafd6942db9087d7541f8c85ed2f3c88d440b9f9e81b45ba9a0d1",
+  "source_execution": "Original Reef ctor430070, message2 4306d0, SetState430320, LoadImages4300a0; base GameObj message50c970 also executed",
+  "conditions": [
+    "empty24x24 collision grid",
+    "factory fields and source seed supplied",
+    "no Life/AI or other mission objects executed"
+  ],
+  "intercepted_services": [
+    "setjmp normal return",
+    "wsprintfA formatting",
+    "InitSprite",
+    "GetSprite",
+    "SetImages with verified count30",
+    "RegisterSprite",
+    "world occupancy-cache refresh"
+  ],
+  "records": [
+    {
+      "name": "OBJ_00000005",
+      "payload_hex": "5902000002000000000000000000000000000000160000001300000002000000",
+      "payload_sha256": "c71f24d4c18a4076792f1621c952ba84089dfa971e2f631430eb48212f584afa",
+      "instance_id": 5,
+      "cell": [
+        22,
+        19
+      ],
+      "variant": 2,
+      "reference_state": 1,
+      "reference_frame_index": 0,
+      "world_pixel": [
+        1408,
+        1216
+      ],
+      "resource": "BREEF2SPR_1"
+    },
+    {
+      "name": "OBJ_00000006",
+      "payload_hex": "5902000002000000000000000000000000000000100000001600000003000000",
+      "payload_sha256": "0e771a387a2ad10fb716f2051342b43038b4778db9526226b53199a718e11da3",
+      "instance_id": 6,
+      "cell": [
+        16,
+        22
+      ],
+      "variant": 3,
+      "reference_state": 1,
+      "reference_frame_index": 0,
+      "world_pixel": [
+        1024,
+        1408
+      ],
+      "resource": "BREEF3SPR_1"
+    },
+    {
+      "name": "OBJ_00000009",
+      "payload_hex": "5902000002000000000000000000000000000000030000000500000002000000",
+      "payload_sha256": "d6b575cd493fc9bd3ce866384bb7501d48c266b022a1cbbfcc88b7a21f3991c5",
+      "instance_id": 9,
+      "cell": [
+        3,
+        5
+      ],
+      "variant": 2,
+      "reference_state": 1,
+      "reference_frame_index": 0,
+      "world_pixel": [
+        192,
+        320
+      ],
+      "resource": "BREEF2SPR_1"
+    },
+    {
+      "name": "OBJ_0000000a",
+      "payload_hex": "5902000002000000000000000000000000000000140000000a00000002000000",
+      "payload_sha256": "fe6d2dc42dd6681393b9f6deb1fa762770632ff905348391fbc8f61a78a7f7f6",
+      "instance_id": 10,
+      "cell": [
+        20,
+        10
+      ],
+      "variant": 2,
+      "reference_state": 1,
+      "reference_frame_index": 0,
+      "world_pixel": [
+        1280,
+        640
+      ],
+      "resource": "BREEF2SPR_1"
+    },
+    {
+      "name": "OBJ_00000021",
+      "payload_hex": "5902000002000000000000000000000000000000050000001500000002000000",
+      "payload_sha256": "c9dda7f51048ff37d6e69559c3e3befe36464133ca5acd55d144cd2038f0e60a",
+      "instance_id": 33,
+      "cell": [
+        5,
+        21
+      ],
+      "variant": 2,
+      "reference_state": 1,
+      "reference_frame_index": 0,
+      "world_pixel": [
+        320,
+        1344
+      ],
+      "resource": "BREEF2SPR_1"
+    }
+  ]
+}

@@ -1,0 +1,4281 @@
+{
+  "schema_version": 1,
+  "original_exe_sha256": "cb7746b288d23de2a0343ba51c154f961b3e3683b73bcc31e9a38b2c6b1e2021",
+  "cases": [
+    {
+      "label": "normal-transitions-and-confirms",
+      "operations": [
+        [
+          "S",
+          0,
+          false,
+          0,
+          100,
+          100
+        ],
+        [
+          "S",
+          5,
+          false,
+          0,
+          100,
+          100
+        ],
+        [
+          "S",
+          6,
+          false,
+          0,
+          100,
+          100
+        ],
+        [
+          "S",
+          7,
+          false,
+          0,
+          200,
+          200
+        ],
+        [
+          "C",
+          1184,
+          352
+        ],
+        [
+          "D",
+          0,
+          -1,
+          -1
+        ],
+        [
+          "D",
+          149,
+          -1,
+          -1
+        ],
+        [
+          "D",
+          150,
+          -1,
+          -1
+        ],
+        [
+          "D",
+          249,
+          -1,
+          -1
+        ],
+        [
+          "D",
+          250,
+          -1,
+          -1
+        ],
+        [
+          "D",
+          300,
+          -1,
+          -1
+        ],
+        [
+          "D",
+          499,
+          -1,
+          -1
+        ],
+        [
+          "D",
+          500,
+          -1,
+          -1
+        ],
+        [
+          "D",
+          600,
+          -1,
+          -1
+        ],
+        [
+          "D",
+          749,
+          -1,
+          -1
+        ],
+        [
+          "D",
+          750,
+          -1,
+          -1
+        ],
+        [
+          "D",
+          751,
+          -1,
+          -1
+        ],
+        [
+          "D",
+          900,
+          -1,
+          -1
+        ],
+        [
+          "D",
+          901,
+          -1,
+          -1
+        ],
+        [
+          "D",
+          10000,
+          -1,
+          -1
+        ],
+        [
+          "D",
+          10001,
+          -1,
+          -1
+        ],
+        [
+          "S",
+          0,
+          false,
+          10001,
+          100,
+          100
+        ],
+        [
+          "S",
+          7,
+          false,
+          20001,
+          200,
+          200
+        ],
+        [
+          "C",
+          1024,
+          256
+        ],
+        [
+          "D",
+          20001,
+          -1,
+          -1
+        ],
+        [
+          "C",
+          1280,
+          384
+        ],
+        [
+          "D",
+          20251,
+          500,
+          500
+        ],
+        [
+          "D",
+          20501,
+          -1,
+          -1
+        ],
+        [
+          "D",
+          20751,
+          -1,
+          -1
+        ],
+        [
+          "D",
+          20752,
+          -1,
+          -1
+        ]
+      ],
+      "rows": [
+        {
+          "type": 0,
+          "green": false,
+          "frame": 0,
+          "screen": [
+            100,
+            100
+          ],
+          "visible": true,
+          "draw_position": [
+            100,
+            100
+          ],
+          "last_tick": 0,
+          "interval": 10000,
+          "confirm_exists": false,
+          "confirm_frame": 0,
+          "confirm_drawn": -1,
+          "confirm_visible": false,
+          "confirm_world": [
+            0,
+            0
+          ],
+          "confirm_last_tick": 0,
+          "cursor_publishes": true,
+          "confirm_publishes": false,
+          "deletes_confirm": false,
+          "resources": [
+            "CUR_STD_N"
+          ],
+          "draws": [
+            {
+              "node": 0,
+              "frame_argument": 0,
+              "position": [
+                0,
+                0
+              ]
+            },
+            {
+              "node": 0,
+              "frame_argument": -2,
+              "position": [
+                100,
+                100
+              ]
+            }
+          ]
+        },
+        {
+          "type": 5,
+          "green": false,
+          "frame": 0,
+          "screen": [
+            100,
+            100
+          ],
+          "visible": true,
+          "draw_position": [
+            100,
+            100
+          ],
+          "last_tick": 0,
+          "interval": 10000,
+          "confirm_exists": false,
+          "confirm_frame": 0,
+          "confirm_drawn": -1,
+          "confirm_visible": false,
+          "confirm_world": [
+            0,
+            0
+          ],
+          "confirm_last_tick": 0,
+          "cursor_publishes": true,
+          "confirm_publishes": false,
+          "deletes_confirm": false,
+          "resources": [
+            "CUR_OWN_N"
+          ],
+          "draws": [
+            {
+              "node": 0,
+              "frame_argument": 0,
+              "position": [
+                100,
+                100
+              ]
+            },
+            {
+              "node": 0,
+              "frame_argument": -2,
+              "position": [
+                100,
+                100
+              ]
+            }
+          ]
+        },
+        {
+          "type": 6,
+          "green": false,
+          "frame": 0,
+          "screen": [
+            100,
+            100
+          ],
+          "visible": true,
+          "draw_position": [
+            100,
+            100
+          ],
+          "last_tick": 0,
+          "interval": 10000,
+          "confirm_exists": false,
+          "confirm_frame": 0,
+          "confirm_drawn": -1,
+          "confirm_visible": false,
+          "confirm_world": [
+            0,
+            0
+          ],
+          "confirm_last_tick": 0,
+          "cursor_publishes": true,
+          "confirm_publishes": false,
+          "deletes_confirm": false,
+          "resources": [
+            "CUR_SELECT_N"
+          ],
+          "draws": [
+            {
+              "node": 0,
+              "frame_argument": 0,
+              "position": [
+                100,
+                100
+              ]
+            },
+            {
+              "node": 0,
+              "frame_argument": -2,
+              "position": [
+                100,
+                100
+              ]
+            }
+          ]
+        },
+        {
+          "type": 7,
+          "green": false,
+          "frame": 0,
+          "screen": [
+            200,
+            200
+          ],
+          "visible": true,
+          "draw_position": [
+            182,
+            183
+          ],
+          "last_tick": 0,
+          "interval": 150,
+          "confirm_exists": false,
+          "confirm_frame": 0,
+          "confirm_drawn": -1,
+          "confirm_visible": false,
+          "confirm_world": [
+            0,
+            0
+          ],
+          "confirm_last_tick": 0,
+          "cursor_publishes": true,
+          "confirm_publishes": false,
+          "deletes_confirm": false,
+          "resources": [
+            "CUR_SEA_N"
+          ],
+          "draws": [
+            {
+              "node": 0,
+              "frame_argument": 0,
+              "position": [
+                100,
+                100
+              ]
+            },
+            {
+              "node": 0,
+              "frame_argument": -2,
+              "position": [
+                182,
+                183
+              ]
+            }
+          ]
+        },
+        {
+          "type": 7,
+          "green": false,
+          "frame": 0,
+          "screen": [
+            200,
+            200
+          ],
+          "visible": true,
+          "draw_position": [
+            182,
+            183
+          ],
+          "last_tick": 0,
+          "interval": 150,
+          "confirm_exists": true,
+          "confirm_frame": 0,
+          "confirm_drawn": -1,
+          "confirm_visible": false,
+          "confirm_world": [
+            1173,
+            328
+          ],
+          "confirm_last_tick": 0,
+          "cursor_publishes": false,
+          "confirm_publishes": false,
+          "deletes_confirm": false,
+          "resources": [
+            "TAKE_CMD"
+          ],
+          "draws": []
+        },
+        {
+          "type": 7,
+          "green": false,
+          "frame": 0,
+          "screen": [
+            200,
+            200
+          ],
+          "visible": true,
+          "draw_position": [
+            182,
+            183
+          ],
+          "last_tick": 0,
+          "interval": 150,
+          "confirm_exists": true,
+          "confirm_frame": 0,
+          "confirm_drawn": -1,
+          "confirm_visible": false,
+          "confirm_world": [
+            1173,
+            328
+          ],
+          "confirm_last_tick": 0,
+          "cursor_publishes": false,
+          "confirm_publishes": false,
+          "deletes_confirm": false,
+          "resources": [],
+          "draws": []
+        },
+        {
+          "type": 7,
+          "green": false,
+          "frame": 0,
+          "screen": [
+            200,
+            200
+          ],
+          "visible": true,
+          "draw_position": [
+            182,
+            183
+          ],
+          "last_tick": 0,
+          "interval": 150,
+          "confirm_exists": true,
+          "confirm_frame": 0,
+          "confirm_drawn": -1,
+          "confirm_visible": false,
+          "confirm_world": [
+            1173,
+            328
+          ],
+          "confirm_last_tick": 0,
+          "cursor_publishes": false,
+          "confirm_publishes": false,
+          "deletes_confirm": false,
+          "resources": [],
+          "draws": []
+        },
+        {
+          "type": 7,
+          "green": false,
+          "frame": 1,
+          "screen": [
+            200,
+            200
+          ],
+          "visible": true,
+          "draw_position": [
+            182,
+            183
+          ],
+          "last_tick": 150,
+          "interval": 150,
+          "confirm_exists": true,
+          "confirm_frame": 0,
+          "confirm_drawn": -1,
+          "confirm_visible": false,
+          "confirm_world": [
+            1173,
+            328
+          ],
+          "confirm_last_tick": 0,
+          "cursor_publishes": true,
+          "confirm_publishes": false,
+          "deletes_confirm": false,
+          "resources": [],
+          "draws": [
+            {
+              "node": 0,
+              "frame_argument": -1,
+              "position": [
+                182,
+                183
+              ]
+            }
+          ]
+        },
+        {
+          "type": 7,
+          "green": false,
+          "frame": 1,
+          "screen": [
+            200,
+            200
+          ],
+          "visible": true,
+          "draw_position": [
+            182,
+            183
+          ],
+          "last_tick": 150,
+          "interval": 150,
+          "confirm_exists": true,
+          "confirm_frame": 0,
+          "confirm_drawn": -1,
+          "confirm_visible": false,
+          "confirm_world": [
+            1173,
+            328
+          ],
+          "confirm_last_tick": 0,
+          "cursor_publishes": false,
+          "confirm_publishes": false,
+          "deletes_confirm": false,
+          "resources": [],
+          "draws": []
+        },
+        {
+          "type": 7,
+          "green": false,
+          "frame": 1,
+          "screen": [
+            200,
+            200
+          ],
+          "visible": true,
+          "draw_position": [
+            182,
+            183
+          ],
+          "last_tick": 150,
+          "interval": 150,
+          "confirm_exists": true,
+          "confirm_frame": 1,
+          "confirm_drawn": 1,
+          "confirm_visible": true,
+          "confirm_world": [
+            1173,
+            328
+          ],
+          "confirm_last_tick": 250,
+          "cursor_publishes": false,
+          "confirm_publishes": true,
+          "deletes_confirm": false,
+          "resources": [],
+          "draws": [
+            {
+              "node": 1,
+              "frame_argument": 1,
+              "position": [
+                1173,
+                328
+              ]
+            }
+          ]
+        },
+        {
+          "type": 7,
+          "green": false,
+          "frame": 2,
+          "screen": [
+            200,
+            200
+          ],
+          "visible": true,
+          "draw_position": [
+            182,
+            183
+          ],
+          "last_tick": 300,
+          "interval": 150,
+          "confirm_exists": true,
+          "confirm_frame": 1,
+          "confirm_drawn": 1,
+          "confirm_visible": true,
+          "confirm_world": [
+            1173,
+            328
+          ],
+          "confirm_last_tick": 250,
+          "cursor_publishes": true,
+          "confirm_publishes": false,
+          "deletes_confirm": false,
+          "resources": [],
+          "draws": [
+            {
+              "node": 0,
+              "frame_argument": -1,
+              "position": [
+                182,
+                183
+              ]
+            }
+          ]
+        },
+        {
+          "type": 7,
+          "green": false,
+          "frame": 3,
+          "screen": [
+            200,
+            200
+          ],
+          "visible": true,
+          "draw_position": [
+            182,
+            183
+          ],
+          "last_tick": 499,
+          "interval": 150,
+          "confirm_exists": true,
+          "confirm_frame": 1,
+          "confirm_drawn": 1,
+          "confirm_visible": true,
+          "confirm_world": [
+            1173,
+            328
+          ],
+          "confirm_last_tick": 250,
+          "cursor_publishes": true,
+          "confirm_publishes": false,
+          "deletes_confirm": false,
+          "resources": [],
+          "draws": [
+            {
+              "node": 0,
+              "frame_argument": -1,
+              "position": [
+                182,
+                183
+              ]
+            }
+          ]
+        },
+        {
+          "type": 7,
+          "green": false,
+          "frame": 3,
+          "screen": [
+            200,
+            200
+          ],
+          "visible": true,
+          "draw_position": [
+            182,
+            183
+          ],
+          "last_tick": 499,
+          "interval": 150,
+          "confirm_exists": true,
+          "confirm_frame": 2,
+          "confirm_drawn": 2,
+          "confirm_visible": true,
+          "confirm_world": [
+            1173,
+            328
+          ],
+          "confirm_last_tick": 500,
+          "cursor_publishes": false,
+          "confirm_publishes": true,
+          "deletes_confirm": false,
+          "resources": [],
+          "draws": [
+            {
+              "node": 1,
+              "frame_argument": 2,
+              "position": [
+                1173,
+                328
+              ]
+            }
+          ]
+        },
+        {
+          "type": 7,
+          "green": false,
+          "frame": 3,
+          "screen": [
+            200,
+            200
+          ],
+          "visible": true,
+          "draw_position": [
+            182,
+            183
+          ],
+          "last_tick": 499,
+          "interval": 150,
+          "confirm_exists": true,
+          "confirm_frame": 2,
+          "confirm_drawn": 2,
+          "confirm_visible": true,
+          "confirm_world": [
+            1173,
+            328
+          ],
+          "confirm_last_tick": 500,
+          "cursor_publishes": false,
+          "confirm_publishes": false,
+          "deletes_confirm": false,
+          "resources": [],
+          "draws": []
+        },
+        {
+          "type": 7,
+          "green": false,
+          "frame": 0,
+          "screen": [
+            200,
+            200
+          ],
+          "visible": true,
+          "draw_position": [
+            182,
+            183
+          ],
+          "last_tick": 749,
+          "interval": 150,
+          "confirm_exists": true,
+          "confirm_frame": 2,
+          "confirm_drawn": 2,
+          "confirm_visible": true,
+          "confirm_world": [
+            1173,
+            328
+          ],
+          "confirm_last_tick": 500,
+          "cursor_publishes": true,
+          "confirm_publishes": false,
+          "deletes_confirm": false,
+          "resources": [],
+          "draws": [
+            {
+              "node": 0,
+              "frame_argument": -1,
+              "position": [
+                182,
+                183
+              ]
+            }
+          ]
+        },
+        {
+          "type": 7,
+          "green": false,
+          "frame": 0,
+          "screen": [
+            200,
+            200
+          ],
+          "visible": true,
+          "draw_position": [
+            182,
+            183
+          ],
+          "last_tick": 749,
+          "interval": 150,
+          "confirm_exists": true,
+          "confirm_frame": 3,
+          "confirm_drawn": 3,
+          "confirm_visible": true,
+          "confirm_world": [
+            1173,
+            328
+          ],
+          "confirm_last_tick": 750,
+          "cursor_publishes": false,
+          "confirm_publishes": true,
+          "deletes_confirm": false,
+          "resources": [],
+          "draws": [
+            {
+              "node": 1,
+              "frame_argument": 3,
+              "position": [
+                1173,
+                328
+              ]
+            }
+          ]
+        },
+        {
+          "type": 7,
+          "green": false,
+          "frame": 0,
+          "screen": [
+            200,
+            200
+          ],
+          "visible": true,
+          "draw_position": [
+            182,
+            183
+          ],
+          "last_tick": 749,
+          "interval": 150,
+          "confirm_exists": false,
+          "confirm_frame": 3,
+          "confirm_drawn": 3,
+          "confirm_visible": false,
+          "confirm_world": [
+            1173,
+            328
+          ],
+          "confirm_last_tick": 750,
+          "cursor_publishes": false,
+          "confirm_publishes": false,
+          "deletes_confirm": true,
+          "resources": [],
+          "draws": []
+        },
+        {
+          "type": 7,
+          "green": false,
+          "frame": 1,
+          "screen": [
+            200,
+            200
+          ],
+          "visible": true,
+          "draw_position": [
+            182,
+            183
+          ],
+          "last_tick": 900,
+          "interval": 150,
+          "confirm_exists": false,
+          "confirm_frame": 3,
+          "confirm_drawn": 3,
+          "confirm_visible": false,
+          "confirm_world": [
+            1173,
+            328
+          ],
+          "confirm_last_tick": 750,
+          "cursor_publishes": true,
+          "confirm_publishes": false,
+          "deletes_confirm": false,
+          "resources": [],
+          "draws": [
+            {
+              "node": 0,
+              "frame_argument": -1,
+              "position": [
+                182,
+                183
+              ]
+            }
+          ]
+        },
+        {
+          "type": 7,
+          "green": false,
+          "frame": 1,
+          "screen": [
+            200,
+            200
+          ],
+          "visible": true,
+          "draw_position": [
+            182,
+            183
+          ],
+          "last_tick": 900,
+          "interval": 150,
+          "confirm_exists": false,
+          "confirm_frame": 3,
+          "confirm_drawn": 3,
+          "confirm_visible": false,
+          "confirm_world": [
+            1173,
+            328
+          ],
+          "confirm_last_tick": 750,
+          "cursor_publishes": false,
+          "confirm_publishes": false,
+          "deletes_confirm": false,
+          "resources": [],
+          "draws": []
+        },
+        {
+          "type": 7,
+          "green": false,
+          "frame": 2,
+          "screen": [
+            200,
+            200
+          ],
+          "visible": true,
+          "draw_position": [
+            182,
+            183
+          ],
+          "last_tick": 10000,
+          "interval": 150,
+          "confirm_exists": false,
+          "confirm_frame": 3,
+          "confirm_drawn": 3,
+          "confirm_visible": false,
+          "confirm_world": [
+            1173,
+            328
+          ],
+          "confirm_last_tick": 750,
+          "cursor_publishes": true,
+          "confirm_publishes": false,
+          "deletes_confirm": false,
+          "resources": [],
+          "draws": [
+            {
+              "node": 0,
+              "frame_argument": -1,
+              "position": [
+                182,
+                183
+              ]
+            }
+          ]
+        },
+        {
+          "type": 7,
+          "green": false,
+          "frame": 2,
+          "screen": [
+            200,
+            200
+          ],
+          "visible": true,
+          "draw_position": [
+            182,
+            183
+          ],
+          "last_tick": 10000,
+          "interval": 150,
+          "confirm_exists": false,
+          "confirm_frame": 3,
+          "confirm_drawn": 3,
+          "confirm_visible": false,
+          "confirm_world": [
+            1173,
+            328
+          ],
+          "confirm_last_tick": 750,
+          "cursor_publishes": false,
+          "confirm_publishes": false,
+          "deletes_confirm": false,
+          "resources": [],
+          "draws": []
+        },
+        {
+          "type": 0,
+          "green": false,
+          "frame": 0,
+          "screen": [
+            100,
+            100
+          ],
+          "visible": true,
+          "draw_position": [
+            100,
+            100
+          ],
+          "last_tick": 10000,
+          "interval": 10000,
+          "confirm_exists": false,
+          "confirm_frame": 3,
+          "confirm_drawn": 3,
+          "confirm_visible": false,
+          "confirm_world": [
+            1173,
+            328
+          ],
+          "confirm_last_tick": 750,
+          "cursor_publishes": true,
+          "confirm_publishes": false,
+          "deletes_confirm": false,
+          "resources": [
+            "CUR_STD_N"
+          ],
+          "draws": [
+            {
+              "node": 0,
+              "frame_argument": 2,
+              "position": [
+                182,
+                183
+              ]
+            },
+            {
+              "node": 0,
+              "frame_argument": -2,
+              "position": [
+                100,
+                100
+              ]
+            }
+          ]
+        },
+        {
+          "type": 7,
+          "green": false,
+          "frame": 1,
+          "screen": [
+            200,
+            200
+          ],
+          "visible": true,
+          "draw_position": [
+            182,
+            183
+          ],
+          "last_tick": 20001,
+          "interval": 150,
+          "confirm_exists": false,
+          "confirm_frame": 3,
+          "confirm_drawn": 3,
+          "confirm_visible": false,
+          "confirm_world": [
+            1173,
+            328
+          ],
+          "confirm_last_tick": 750,
+          "cursor_publishes": true,
+          "confirm_publishes": false,
+          "deletes_confirm": false,
+          "resources": [
+            "CUR_SEA_N"
+          ],
+          "draws": [
+            {
+              "node": 0,
+              "frame_argument": 0,
+              "position": [
+                100,
+                100
+              ]
+            },
+            {
+              "node": 0,
+              "frame_argument": -1,
+              "position": [
+                182,
+                183
+              ]
+            }
+          ]
+        },
+        {
+          "type": 7,
+          "green": false,
+          "frame": 1,
+          "screen": [
+            200,
+            200
+          ],
+          "visible": true,
+          "draw_position": [
+            182,
+            183
+          ],
+          "last_tick": 20001,
+          "interval": 150,
+          "confirm_exists": true,
+          "confirm_frame": 0,
+          "confirm_drawn": -1,
+          "confirm_visible": false,
+          "confirm_world": [
+            1013,
+            232
+          ],
+          "confirm_last_tick": 0,
+          "cursor_publishes": false,
+          "confirm_publishes": false,
+          "deletes_confirm": false,
+          "resources": [
+            "TAKE_CMD"
+          ],
+          "draws": []
+        },
+        {
+          "type": 7,
+          "green": false,
+          "frame": 1,
+          "screen": [
+            200,
+            200
+          ],
+          "visible": true,
+          "draw_position": [
+            182,
+            183
+          ],
+          "last_tick": 20001,
+          "interval": 150,
+          "confirm_exists": true,
+          "confirm_frame": 1,
+          "confirm_drawn": 1,
+          "confirm_visible": true,
+          "confirm_world": [
+            1013,
+            232
+          ],
+          "confirm_last_tick": 20001,
+          "cursor_publishes": false,
+          "confirm_publishes": true,
+          "deletes_confirm": false,
+          "resources": [],
+          "draws": [
+            {
+              "node": 1,
+              "frame_argument": 1,
+              "position": [
+                1013,
+                232
+              ]
+            }
+          ]
+        },
+        {
+          "type": 7,
+          "green": false,
+          "frame": 1,
+          "screen": [
+            200,
+            200
+          ],
+          "visible": true,
+          "draw_position": [
+            182,
+            183
+          ],
+          "last_tick": 20001,
+          "interval": 150,
+          "confirm_exists": true,
+          "confirm_frame": 0,
+          "confirm_drawn": -1,
+          "confirm_visible": false,
+          "confirm_world": [
+            1269,
+            360
+          ],
+          "confirm_last_tick": 0,
+          "cursor_publishes": false,
+          "confirm_publishes": false,
+          "deletes_confirm": true,
+          "resources": [
+            "TAKE_CMD"
+          ],
+          "draws": []
+        },
+        {
+          "type": 7,
+          "green": false,
+          "frame": 2,
+          "screen": [
+            500,
+            500
+          ],
+          "visible": true,
+          "draw_position": [
+            482,
+            483
+          ],
+          "last_tick": 20251,
+          "interval": 150,
+          "confirm_exists": true,
+          "confirm_frame": 1,
+          "confirm_drawn": 1,
+          "confirm_visible": true,
+          "confirm_world": [
+            1269,
+            360
+          ],
+          "confirm_last_tick": 20251,
+          "cursor_publishes": true,
+          "confirm_publishes": true,
+          "deletes_confirm": false,
+          "resources": [],
+          "draws": [
+            {
+              "node": 0,
+              "frame_argument": -1,
+              "position": [
+                482,
+                483
+              ]
+            },
+            {
+              "node": 1,
+              "frame_argument": 1,
+              "position": [
+                1269,
+                360
+              ]
+            }
+          ]
+        },
+        {
+          "type": 7,
+          "green": false,
+          "frame": 3,
+          "screen": [
+            500,
+            500
+          ],
+          "visible": true,
+          "draw_position": [
+            482,
+            483
+          ],
+          "last_tick": 20501,
+          "interval": 150,
+          "confirm_exists": true,
+          "confirm_frame": 2,
+          "confirm_drawn": 2,
+          "confirm_visible": true,
+          "confirm_world": [
+            1269,
+            360
+          ],
+          "confirm_last_tick": 20501,
+          "cursor_publishes": true,
+          "confirm_publishes": true,
+          "deletes_confirm": false,
+          "resources": [],
+          "draws": [
+            {
+              "node": 0,
+              "frame_argument": -1,
+              "position": [
+                482,
+                483
+              ]
+            },
+            {
+              "node": 1,
+              "frame_argument": 2,
+              "position": [
+                1269,
+                360
+              ]
+            }
+          ]
+        },
+        {
+          "type": 7,
+          "green": false,
+          "frame": 0,
+          "screen": [
+            500,
+            500
+          ],
+          "visible": true,
+          "draw_position": [
+            482,
+            483
+          ],
+          "last_tick": 20751,
+          "interval": 150,
+          "confirm_exists": true,
+          "confirm_frame": 3,
+          "confirm_drawn": 3,
+          "confirm_visible": true,
+          "confirm_world": [
+            1269,
+            360
+          ],
+          "confirm_last_tick": 20751,
+          "cursor_publishes": true,
+          "confirm_publishes": true,
+          "deletes_confirm": false,
+          "resources": [],
+          "draws": [
+            {
+              "node": 0,
+              "frame_argument": -1,
+              "position": [
+                482,
+                483
+              ]
+            },
+            {
+              "node": 1,
+              "frame_argument": 3,
+              "position": [
+                1269,
+                360
+              ]
+            }
+          ]
+        },
+        {
+          "type": 7,
+          "green": false,
+          "frame": 0,
+          "screen": [
+            500,
+            500
+          ],
+          "visible": true,
+          "draw_position": [
+            482,
+            483
+          ],
+          "last_tick": 20751,
+          "interval": 150,
+          "confirm_exists": false,
+          "confirm_frame": 3,
+          "confirm_drawn": 3,
+          "confirm_visible": false,
+          "confirm_world": [
+            1269,
+            360
+          ],
+          "confirm_last_tick": 20751,
+          "cursor_publishes": false,
+          "confirm_publishes": false,
+          "deletes_confirm": true,
+          "resources": [],
+          "draws": []
+        }
+      ]
+    },
+    {
+      "label": "suffix-and-typechanges",
+      "operations": [
+        [
+          "S",
+          0,
+          false,
+          0,
+          1,
+          1
+        ],
+        [
+          "S",
+          5,
+          false,
+          12345,
+          23,
+          45
+        ],
+        [
+          "D",
+          12345,
+          -1,
+          -1
+        ],
+        [
+          "D",
+          12495,
+          -1,
+          -1
+        ],
+        [
+          "S",
+          5,
+          true,
+          12345,
+          23,
+          45
+        ],
+        [
+          "D",
+          12345,
+          -1,
+          -1
+        ],
+        [
+          "D",
+          12495,
+          -1,
+          -1
+        ],
+        [
+          "S",
+          6,
+          false,
+          12345,
+          23,
+          45
+        ],
+        [
+          "D",
+          12345,
+          -1,
+          -1
+        ],
+        [
+          "D",
+          12495,
+          -1,
+          -1
+        ],
+        [
+          "S",
+          6,
+          true,
+          12345,
+          23,
+          45
+        ],
+        [
+          "D",
+          12345,
+          -1,
+          -1
+        ],
+        [
+          "D",
+          12495,
+          -1,
+          -1
+        ],
+        [
+          "S",
+          7,
+          false,
+          12345,
+          23,
+          45
+        ],
+        [
+          "D",
+          12345,
+          -1,
+          -1
+        ],
+        [
+          "D",
+          12495,
+          -1,
+          -1
+        ],
+        [
+          "S",
+          7,
+          true,
+          12345,
+          23,
+          45
+        ],
+        [
+          "D",
+          12345,
+          -1,
+          -1
+        ],
+        [
+          "D",
+          12495,
+          -1,
+          -1
+        ],
+        [
+          "S",
+          0,
+          false,
+          12345,
+          23,
+          45
+        ],
+        [
+          "D",
+          12345,
+          -1,
+          -1
+        ],
+        [
+          "D",
+          12495,
+          -1,
+          -1
+        ],
+        [
+          "S",
+          0,
+          true,
+          12345,
+          23,
+          45
+        ],
+        [
+          "D",
+          12345,
+          -1,
+          -1
+        ],
+        [
+          "D",
+          12495,
+          -1,
+          -1
+        ]
+      ],
+      "rows": [
+        {
+          "type": 0,
+          "green": false,
+          "frame": 0,
+          "screen": [
+            1,
+            1
+          ],
+          "visible": true,
+          "draw_position": [
+            1,
+            1
+          ],
+          "last_tick": 0,
+          "interval": 10000,
+          "confirm_exists": false,
+          "confirm_frame": 0,
+          "confirm_drawn": -1,
+          "confirm_visible": false,
+          "confirm_world": [
+            0,
+            0
+          ],
+          "confirm_last_tick": 0,
+          "cursor_publishes": true,
+          "confirm_publishes": false,
+          "deletes_confirm": false,
+          "resources": [
+            "CUR_STD_N"
+          ],
+          "draws": [
+            {
+              "node": 0,
+              "frame_argument": 0,
+              "position": [
+                0,
+                0
+              ]
+            },
+            {
+              "node": 0,
+              "frame_argument": -2,
+              "position": [
+                1,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "type": 5,
+          "green": false,
+          "frame": 0,
+          "screen": [
+            23,
+            45
+          ],
+          "visible": true,
+          "draw_position": [
+            23,
+            45
+          ],
+          "last_tick": 12345,
+          "interval": 10000,
+          "confirm_exists": false,
+          "confirm_frame": 0,
+          "confirm_drawn": -1,
+          "confirm_visible": false,
+          "confirm_world": [
+            0,
+            0
+          ],
+          "confirm_last_tick": 0,
+          "cursor_publishes": true,
+          "confirm_publishes": false,
+          "deletes_confirm": false,
+          "resources": [
+            "CUR_OWN_N"
+          ],
+          "draws": [
+            {
+              "node": 0,
+              "frame_argument": 0,
+              "position": [
+                1,
+                1
+              ]
+            },
+            {
+              "node": 0,
+              "frame_argument": -1,
+              "position": [
+                23,
+                45
+              ]
+            }
+          ]
+        },
+        {
+          "type": 5,
+          "green": false,
+          "frame": 0,
+          "screen": [
+            23,
+            45
+          ],
+          "visible": true,
+          "draw_position": [
+            23,
+            45
+          ],
+          "last_tick": 12345,
+          "interval": 10000,
+          "confirm_exists": false,
+          "confirm_frame": 0,
+          "confirm_drawn": -1,
+          "confirm_visible": false,
+          "confirm_world": [
+            0,
+            0
+          ],
+          "confirm_last_tick": 0,
+          "cursor_publishes": false,
+          "confirm_publishes": false,
+          "deletes_confirm": false,
+          "resources": [],
+          "draws": []
+        },
+        {
+          "type": 5,
+          "green": false,
+          "frame": 0,
+          "screen": [
+            23,
+            45
+          ],
+          "visible": true,
+          "draw_position": [
+            23,
+            45
+          ],
+          "last_tick": 12345,
+          "interval": 10000,
+          "confirm_exists": false,
+          "confirm_frame": 0,
+          "confirm_drawn": -1,
+          "confirm_visible": false,
+          "confirm_world": [
+            0,
+            0
+          ],
+          "confirm_last_tick": 0,
+          "cursor_publishes": false,
+          "confirm_publishes": false,
+          "deletes_confirm": false,
+          "resources": [],
+          "draws": []
+        },
+        {
+          "type": 5,
+          "green": true,
+          "frame": 0,
+          "screen": [
+            23,
+            45
+          ],
+          "visible": true,
+          "draw_position": [
+            23,
+            45
+          ],
+          "last_tick": 12345,
+          "interval": 10000,
+          "confirm_exists": false,
+          "confirm_frame": 0,
+          "confirm_drawn": -1,
+          "confirm_visible": false,
+          "confirm_world": [
+            0,
+            0
+          ],
+          "confirm_last_tick": 0,
+          "cursor_publishes": true,
+          "confirm_publishes": false,
+          "deletes_confirm": false,
+          "resources": [
+            "CUR_OWN_G"
+          ],
+          "draws": [
+            {
+              "node": 0,
+              "frame_argument": 0,
+              "position": [
+                23,
+                45
+              ]
+            },
+            {
+              "node": 0,
+              "frame_argument": -2,
+              "position": [
+                23,
+                45
+              ]
+            }
+          ]
+        },
+        {
+          "type": 5,
+          "green": true,
+          "frame": 0,
+          "screen": [
+            23,
+            45
+          ],
+          "visible": true,
+          "draw_position": [
+            23,
+            45
+          ],
+          "last_tick": 12345,
+          "interval": 10000,
+          "confirm_exists": false,
+          "confirm_frame": 0,
+          "confirm_drawn": -1,
+          "confirm_visible": false,
+          "confirm_world": [
+            0,
+            0
+          ],
+          "confirm_last_tick": 0,
+          "cursor_publishes": false,
+          "confirm_publishes": false,
+          "deletes_confirm": false,
+          "resources": [],
+          "draws": []
+        },
+        {
+          "type": 5,
+          "green": true,
+          "frame": 0,
+          "screen": [
+            23,
+            45
+          ],
+          "visible": true,
+          "draw_position": [
+            23,
+            45
+          ],
+          "last_tick": 12345,
+          "interval": 10000,
+          "confirm_exists": false,
+          "confirm_frame": 0,
+          "confirm_drawn": -1,
+          "confirm_visible": false,
+          "confirm_world": [
+            0,
+            0
+          ],
+          "confirm_last_tick": 0,
+          "cursor_publishes": false,
+          "confirm_publishes": false,
+          "deletes_confirm": false,
+          "resources": [],
+          "draws": []
+        },
+        {
+          "type": 6,
+          "green": false,
+          "frame": 0,
+          "screen": [
+            23,
+            45
+          ],
+          "visible": true,
+          "draw_position": [
+            23,
+            45
+          ],
+          "last_tick": 12345,
+          "interval": 10000,
+          "confirm_exists": false,
+          "confirm_frame": 0,
+          "confirm_drawn": -1,
+          "confirm_visible": false,
+          "confirm_world": [
+            0,
+            0
+          ],
+          "confirm_last_tick": 0,
+          "cursor_publishes": true,
+          "confirm_publishes": false,
+          "deletes_confirm": false,
+          "resources": [
+            "CUR_SELECT_N"
+          ],
+          "draws": [
+            {
+              "node": 0,
+              "frame_argument": 0,
+              "position": [
+                23,
+                45
+              ]
+            },
+            {
+              "node": 0,
+              "frame_argument": -2,
+              "position": [
+                23,
+                45
+              ]
+            }
+          ]
+        },
+        {
+          "type": 6,
+          "green": false,
+          "frame": 0,
+          "screen": [
+            23,
+            45
+          ],
+          "visible": true,
+          "draw_position": [
+            23,
+            45
+          ],
+          "last_tick": 12345,
+          "interval": 10000,
+          "confirm_exists": false,
+          "confirm_frame": 0,
+          "confirm_drawn": -1,
+          "confirm_visible": false,
+          "confirm_world": [
+            0,
+            0
+          ],
+          "confirm_last_tick": 0,
+          "cursor_publishes": false,
+          "confirm_publishes": false,
+          "deletes_confirm": false,
+          "resources": [],
+          "draws": []
+        },
+        {
+          "type": 6,
+          "green": false,
+          "frame": 0,
+          "screen": [
+            23,
+            45
+          ],
+          "visible": true,
+          "draw_position": [
+            23,
+            45
+          ],
+          "last_tick": 12345,
+          "interval": 10000,
+          "confirm_exists": false,
+          "confirm_frame": 0,
+          "confirm_drawn": -1,
+          "confirm_visible": false,
+          "confirm_world": [
+            0,
+            0
+          ],
+          "confirm_last_tick": 0,
+          "cursor_publishes": false,
+          "confirm_publishes": false,
+          "deletes_confirm": false,
+          "resources": [],
+          "draws": []
+        },
+        {
+          "type": 6,
+          "green": true,
+          "frame": 0,
+          "screen": [
+            23,
+            45
+          ],
+          "visible": true,
+          "draw_position": [
+            23,
+            45
+          ],
+          "last_tick": 12345,
+          "interval": 10000,
+          "confirm_exists": false,
+          "confirm_frame": 0,
+          "confirm_drawn": -1,
+          "confirm_visible": false,
+          "confirm_world": [
+            0,
+            0
+          ],
+          "confirm_last_tick": 0,
+          "cursor_publishes": true,
+          "confirm_publishes": false,
+          "deletes_confirm": false,
+          "resources": [
+            "CUR_SELECT_G"
+          ],
+          "draws": [
+            {
+              "node": 0,
+              "frame_argument": 0,
+              "position": [
+                23,
+                45
+              ]
+            },
+            {
+              "node": 0,
+              "frame_argument": -2,
+              "position": [
+                23,
+                45
+              ]
+            }
+          ]
+        },
+        {
+          "type": 6,
+          "green": true,
+          "frame": 0,
+          "screen": [
+            23,
+            45
+          ],
+          "visible": true,
+          "draw_position": [
+            23,
+            45
+          ],
+          "last_tick": 12345,
+          "interval": 10000,
+          "confirm_exists": false,
+          "confirm_frame": 0,
+          "confirm_drawn": -1,
+          "confirm_visible": false,
+          "confirm_world": [
+            0,
+            0
+          ],
+          "confirm_last_tick": 0,
+          "cursor_publishes": false,
+          "confirm_publishes": false,
+          "deletes_confirm": false,
+          "resources": [],
+          "draws": []
+        },
+        {
+          "type": 6,
+          "green": true,
+          "frame": 0,
+          "screen": [
+            23,
+            45
+          ],
+          "visible": true,
+          "draw_position": [
+            23,
+            45
+          ],
+          "last_tick": 12345,
+          "interval": 10000,
+          "confirm_exists": false,
+          "confirm_frame": 0,
+          "confirm_drawn": -1,
+          "confirm_visible": false,
+          "confirm_world": [
+            0,
+            0
+          ],
+          "confirm_last_tick": 0,
+          "cursor_publishes": false,
+          "confirm_publishes": false,
+          "deletes_confirm": false,
+          "resources": [],
+          "draws": []
+        },
+        {
+          "type": 7,
+          "green": false,
+          "frame": 0,
+          "screen": [
+            23,
+            45
+          ],
+          "visible": true,
+          "draw_position": [
+            5,
+            28
+          ],
+          "last_tick": 12345,
+          "interval": 150,
+          "confirm_exists": false,
+          "confirm_frame": 0,
+          "confirm_drawn": -1,
+          "confirm_visible": false,
+          "confirm_world": [
+            0,
+            0
+          ],
+          "confirm_last_tick": 0,
+          "cursor_publishes": true,
+          "confirm_publishes": false,
+          "deletes_confirm": false,
+          "resources": [
+            "CUR_SEA_N"
+          ],
+          "draws": [
+            {
+              "node": 0,
+              "frame_argument": 0,
+              "position": [
+                23,
+                45
+              ]
+            },
+            {
+              "node": 0,
+              "frame_argument": -2,
+              "position": [
+                5,
+                28
+              ]
+            }
+          ]
+        },
+        {
+          "type": 7,
+          "green": false,
+          "frame": 0,
+          "screen": [
+            23,
+            45
+          ],
+          "visible": true,
+          "draw_position": [
+            5,
+            28
+          ],
+          "last_tick": 12345,
+          "interval": 150,
+          "confirm_exists": false,
+          "confirm_frame": 0,
+          "confirm_drawn": -1,
+          "confirm_visible": false,
+          "confirm_world": [
+            0,
+            0
+          ],
+          "confirm_last_tick": 0,
+          "cursor_publishes": false,
+          "confirm_publishes": false,
+          "deletes_confirm": false,
+          "resources": [],
+          "draws": []
+        },
+        {
+          "type": 7,
+          "green": false,
+          "frame": 1,
+          "screen": [
+            23,
+            45
+          ],
+          "visible": true,
+          "draw_position": [
+            5,
+            28
+          ],
+          "last_tick": 12495,
+          "interval": 150,
+          "confirm_exists": false,
+          "confirm_frame": 0,
+          "confirm_drawn": -1,
+          "confirm_visible": false,
+          "confirm_world": [
+            0,
+            0
+          ],
+          "confirm_last_tick": 0,
+          "cursor_publishes": true,
+          "confirm_publishes": false,
+          "deletes_confirm": false,
+          "resources": [],
+          "draws": [
+            {
+              "node": 0,
+              "frame_argument": -1,
+              "position": [
+                5,
+                28
+              ]
+            }
+          ]
+        },
+        {
+          "type": 7,
+          "green": true,
+          "frame": 1,
+          "screen": [
+            23,
+            45
+          ],
+          "visible": true,
+          "draw_position": [
+            5,
+            28
+          ],
+          "last_tick": 12495,
+          "interval": 150,
+          "confirm_exists": false,
+          "confirm_frame": 0,
+          "confirm_drawn": -1,
+          "confirm_visible": false,
+          "confirm_world": [
+            0,
+            0
+          ],
+          "confirm_last_tick": 0,
+          "cursor_publishes": true,
+          "confirm_publishes": false,
+          "deletes_confirm": false,
+          "resources": [
+            "CUR_SEA_G"
+          ],
+          "draws": [
+            {
+              "node": 0,
+              "frame_argument": 1,
+              "position": [
+                5,
+                28
+              ]
+            },
+            {
+              "node": 0,
+              "frame_argument": -2,
+              "position": [
+                5,
+                28
+              ]
+            }
+          ]
+        },
+        {
+          "type": 7,
+          "green": true,
+          "frame": 1,
+          "screen": [
+            23,
+            45
+          ],
+          "visible": true,
+          "draw_position": [
+            5,
+            28
+          ],
+          "last_tick": 12495,
+          "interval": 150,
+          "confirm_exists": false,
+          "confirm_frame": 0,
+          "confirm_drawn": -1,
+          "confirm_visible": false,
+          "confirm_world": [
+            0,
+            0
+          ],
+          "confirm_last_tick": 0,
+          "cursor_publishes": false,
+          "confirm_publishes": false,
+          "deletes_confirm": false,
+          "resources": [],
+          "draws": []
+        },
+        {
+          "type": 7,
+          "green": true,
+          "frame": 1,
+          "screen": [
+            23,
+            45
+          ],
+          "visible": true,
+          "draw_position": [
+            5,
+            28
+          ],
+          "last_tick": 12495,
+          "interval": 150,
+          "confirm_exists": false,
+          "confirm_frame": 0,
+          "confirm_drawn": -1,
+          "confirm_visible": false,
+          "confirm_world": [
+            0,
+            0
+          ],
+          "confirm_last_tick": 0,
+          "cursor_publishes": false,
+          "confirm_publishes": false,
+          "deletes_confirm": false,
+          "resources": [],
+          "draws": []
+        },
+        {
+          "type": 0,
+          "green": false,
+          "frame": 0,
+          "screen": [
+            23,
+            45
+          ],
+          "visible": true,
+          "draw_position": [
+            23,
+            45
+          ],
+          "last_tick": 12495,
+          "interval": 10000,
+          "confirm_exists": false,
+          "confirm_frame": 0,
+          "confirm_drawn": -1,
+          "confirm_visible": false,
+          "confirm_world": [
+            0,
+            0
+          ],
+          "confirm_last_tick": 0,
+          "cursor_publishes": true,
+          "confirm_publishes": false,
+          "deletes_confirm": false,
+          "resources": [
+            "CUR_STD_N"
+          ],
+          "draws": [
+            {
+              "node": 0,
+              "frame_argument": 1,
+              "position": [
+                5,
+                28
+              ]
+            },
+            {
+              "node": 0,
+              "frame_argument": -2,
+              "position": [
+                23,
+                45
+              ]
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "green": false,
+          "frame": 0,
+          "screen": [
+            23,
+            45
+          ],
+          "visible": true,
+          "draw_position": [
+            23,
+            45
+          ],
+          "last_tick": 12495,
+          "interval": 10000,
+          "confirm_exists": false,
+          "confirm_frame": 0,
+          "confirm_drawn": -1,
+          "confirm_visible": false,
+          "confirm_world": [
+            0,
+            0
+          ],
+          "confirm_last_tick": 0,
+          "cursor_publishes": false,
+          "confirm_publishes": false,
+          "deletes_confirm": false,
+          "resources": [],
+          "draws": []
+        },
+        {
+          "type": 0,
+          "green": false,
+          "frame": 0,
+          "screen": [
+            23,
+            45
+          ],
+          "visible": true,
+          "draw_position": [
+            23,
+            45
+          ],
+          "last_tick": 12495,
+          "interval": 10000,
+          "confirm_exists": false,
+          "confirm_frame": 0,
+          "confirm_drawn": -1,
+          "confirm_visible": false,
+          "confirm_world": [
+            0,
+            0
+          ],
+          "confirm_last_tick": 0,
+          "cursor_publishes": false,
+          "confirm_publishes": false,
+          "deletes_confirm": false,
+          "resources": [],
+          "draws": []
+        },
+        {
+          "type": 0,
+          "green": true,
+          "frame": 0,
+          "screen": [
+            23,
+            45
+          ],
+          "visible": true,
+          "draw_position": [
+            23,
+            45
+          ],
+          "last_tick": 12495,
+          "interval": 10000,
+          "confirm_exists": false,
+          "confirm_frame": 0,
+          "confirm_drawn": -1,
+          "confirm_visible": false,
+          "confirm_world": [
+            0,
+            0
+          ],
+          "confirm_last_tick": 0,
+          "cursor_publishes": true,
+          "confirm_publishes": false,
+          "deletes_confirm": false,
+          "resources": [
+            "CUR_STD_G"
+          ],
+          "draws": [
+            {
+              "node": 0,
+              "frame_argument": 0,
+              "position": [
+                23,
+                45
+              ]
+            },
+            {
+              "node": 0,
+              "frame_argument": -2,
+              "position": [
+                23,
+                45
+              ]
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "green": true,
+          "frame": 0,
+          "screen": [
+            23,
+            45
+          ],
+          "visible": true,
+          "draw_position": [
+            23,
+            45
+          ],
+          "last_tick": 12495,
+          "interval": 10000,
+          "confirm_exists": false,
+          "confirm_frame": 0,
+          "confirm_drawn": -1,
+          "confirm_visible": false,
+          "confirm_world": [
+            0,
+            0
+          ],
+          "confirm_last_tick": 0,
+          "cursor_publishes": false,
+          "confirm_publishes": false,
+          "deletes_confirm": false,
+          "resources": [],
+          "draws": []
+        },
+        {
+          "type": 0,
+          "green": true,
+          "frame": 0,
+          "screen": [
+            23,
+            45
+          ],
+          "visible": true,
+          "draw_position": [
+            23,
+            45
+          ],
+          "last_tick": 12495,
+          "interval": 10000,
+          "confirm_exists": false,
+          "confirm_frame": 0,
+          "confirm_drawn": -1,
+          "confirm_visible": false,
+          "confirm_world": [
+            0,
+            0
+          ],
+          "confirm_last_tick": 0,
+          "cursor_publishes": false,
+          "confirm_publishes": false,
+          "deletes_confirm": false,
+          "resources": [],
+          "draws": []
+        }
+      ]
+    },
+    {
+      "label": "unsigned-clock-wrap",
+      "operations": [
+        [
+          "S",
+          7,
+          false,
+          4294967294,
+          1,
+          1
+        ],
+        [
+          "C",
+          1024,
+          256
+        ],
+        [
+          "D",
+          4294967294,
+          -1,
+          -1
+        ],
+        [
+          "D",
+          4294967295,
+          -1,
+          -1
+        ],
+        [
+          "D",
+          0,
+          -1,
+          -1
+        ],
+        [
+          "D",
+          1,
+          -1,
+          -1
+        ],
+        [
+          "D",
+          2,
+          -1,
+          -1
+        ],
+        [
+          "D",
+          149,
+          -1,
+          -1
+        ],
+        [
+          "D",
+          150,
+          -1,
+          -1
+        ],
+        [
+          "D",
+          249,
+          -1,
+          -1
+        ],
+        [
+          "D",
+          250,
+          -1,
+          -1
+        ],
+        [
+          "D",
+          251,
+          -1,
+          -1
+        ],
+        [
+          "D",
+          500,
+          -1,
+          -1
+        ]
+      ],
+      "rows": [
+        {
+          "type": 7,
+          "green": false,
+          "frame": 1,
+          "screen": [
+            1,
+            1
+          ],
+          "visible": true,
+          "draw_position": [
+            -17,
+            -16
+          ],
+          "last_tick": 4294967294,
+          "interval": 150,
+          "confirm_exists": false,
+          "confirm_frame": 0,
+          "confirm_drawn": -1,
+          "confirm_visible": false,
+          "confirm_world": [
+            0,
+            0
+          ],
+          "confirm_last_tick": 0,
+          "cursor_publishes": true,
+          "confirm_publishes": false,
+          "deletes_confirm": false,
+          "resources": [
+            "CUR_SEA_N"
+          ],
+          "draws": [
+            {
+              "node": 0,
+              "frame_argument": 0,
+              "position": [
+                0,
+                0
+              ]
+            },
+            {
+              "node": 0,
+              "frame_argument": -1,
+              "position": [
+                -17,
+                -16
+              ]
+            }
+          ]
+        },
+        {
+          "type": 7,
+          "green": false,
+          "frame": 1,
+          "screen": [
+            1,
+            1
+          ],
+          "visible": true,
+          "draw_position": [
+            -17,
+            -16
+          ],
+          "last_tick": 4294967294,
+          "interval": 150,
+          "confirm_exists": true,
+          "confirm_frame": 0,
+          "confirm_drawn": -1,
+          "confirm_visible": false,
+          "confirm_world": [
+            1013,
+            232
+          ],
+          "confirm_last_tick": 0,
+          "cursor_publishes": false,
+          "confirm_publishes": false,
+          "deletes_confirm": false,
+          "resources": [
+            "TAKE_CMD"
+          ],
+          "draws": []
+        },
+        {
+          "type": 7,
+          "green": false,
+          "frame": 2,
+          "screen": [
+            1,
+            1
+          ],
+          "visible": true,
+          "draw_position": [
+            -17,
+            -16
+          ],
+          "last_tick": 4294967294,
+          "interval": 150,
+          "confirm_exists": true,
+          "confirm_frame": 1,
+          "confirm_drawn": 1,
+          "confirm_visible": true,
+          "confirm_world": [
+            1013,
+            232
+          ],
+          "confirm_last_tick": 4294967294,
+          "cursor_publishes": true,
+          "confirm_publishes": true,
+          "deletes_confirm": false,
+          "resources": [],
+          "draws": [
+            {
+              "node": 0,
+              "frame_argument": -1,
+              "position": [
+                -17,
+                -16
+              ]
+            },
+            {
+              "node": 1,
+              "frame_argument": 1,
+              "position": [
+                1013,
+                232
+              ]
+            }
+          ]
+        },
+        {
+          "type": 7,
+          "green": false,
+          "frame": 3,
+          "screen": [
+            1,
+            1
+          ],
+          "visible": true,
+          "draw_position": [
+            -17,
+            -16
+          ],
+          "last_tick": 4294967295,
+          "interval": 150,
+          "confirm_exists": true,
+          "confirm_frame": 2,
+          "confirm_drawn": 2,
+          "confirm_visible": true,
+          "confirm_world": [
+            1013,
+            232
+          ],
+          "confirm_last_tick": 4294967295,
+          "cursor_publishes": true,
+          "confirm_publishes": true,
+          "deletes_confirm": false,
+          "resources": [],
+          "draws": [
+            {
+              "node": 0,
+              "frame_argument": -1,
+              "position": [
+                -17,
+                -16
+              ]
+            },
+            {
+              "node": 1,
+              "frame_argument": 2,
+              "position": [
+                1013,
+                232
+              ]
+            }
+          ]
+        },
+        {
+          "type": 7,
+          "green": false,
+          "frame": 3,
+          "screen": [
+            1,
+            1
+          ],
+          "visible": true,
+          "draw_position": [
+            -17,
+            -16
+          ],
+          "last_tick": 4294967295,
+          "interval": 150,
+          "confirm_exists": true,
+          "confirm_frame": 2,
+          "confirm_drawn": 2,
+          "confirm_visible": true,
+          "confirm_world": [
+            1013,
+            232
+          ],
+          "confirm_last_tick": 4294967295,
+          "cursor_publishes": false,
+          "confirm_publishes": false,
+          "deletes_confirm": false,
+          "resources": [],
+          "draws": []
+        },
+        {
+          "type": 7,
+          "green": false,
+          "frame": 3,
+          "screen": [
+            1,
+            1
+          ],
+          "visible": true,
+          "draw_position": [
+            -17,
+            -16
+          ],
+          "last_tick": 4294967295,
+          "interval": 150,
+          "confirm_exists": true,
+          "confirm_frame": 2,
+          "confirm_drawn": 2,
+          "confirm_visible": true,
+          "confirm_world": [
+            1013,
+            232
+          ],
+          "confirm_last_tick": 4294967295,
+          "cursor_publishes": false,
+          "confirm_publishes": false,
+          "deletes_confirm": false,
+          "resources": [],
+          "draws": []
+        },
+        {
+          "type": 7,
+          "green": false,
+          "frame": 3,
+          "screen": [
+            1,
+            1
+          ],
+          "visible": true,
+          "draw_position": [
+            -17,
+            -16
+          ],
+          "last_tick": 4294967295,
+          "interval": 150,
+          "confirm_exists": true,
+          "confirm_frame": 2,
+          "confirm_drawn": 2,
+          "confirm_visible": true,
+          "confirm_world": [
+            1013,
+            232
+          ],
+          "confirm_last_tick": 4294967295,
+          "cursor_publishes": false,
+          "confirm_publishes": false,
+          "deletes_confirm": false,
+          "resources": [],
+          "draws": []
+        },
+        {
+          "type": 7,
+          "green": false,
+          "frame": 0,
+          "screen": [
+            1,
+            1
+          ],
+          "visible": true,
+          "draw_position": [
+            -17,
+            -16
+          ],
+          "last_tick": 149,
+          "interval": 150,
+          "confirm_exists": true,
+          "confirm_frame": 2,
+          "confirm_drawn": 2,
+          "confirm_visible": true,
+          "confirm_world": [
+            1013,
+            232
+          ],
+          "confirm_last_tick": 4294967295,
+          "cursor_publishes": true,
+          "confirm_publishes": false,
+          "deletes_confirm": false,
+          "resources": [],
+          "draws": [
+            {
+              "node": 0,
+              "frame_argument": -1,
+              "position": [
+                -17,
+                -16
+              ]
+            }
+          ]
+        },
+        {
+          "type": 7,
+          "green": false,
+          "frame": 0,
+          "screen": [
+            1,
+            1
+          ],
+          "visible": true,
+          "draw_position": [
+            -17,
+            -16
+          ],
+          "last_tick": 149,
+          "interval": 150,
+          "confirm_exists": true,
+          "confirm_frame": 2,
+          "confirm_drawn": 2,
+          "confirm_visible": true,
+          "confirm_world": [
+            1013,
+            232
+          ],
+          "confirm_last_tick": 4294967295,
+          "cursor_publishes": false,
+          "confirm_publishes": false,
+          "deletes_confirm": false,
+          "resources": [],
+          "draws": []
+        },
+        {
+          "type": 7,
+          "green": false,
+          "frame": 0,
+          "screen": [
+            1,
+            1
+          ],
+          "visible": true,
+          "draw_position": [
+            -17,
+            -16
+          ],
+          "last_tick": 149,
+          "interval": 150,
+          "confirm_exists": true,
+          "confirm_frame": 3,
+          "confirm_drawn": 3,
+          "confirm_visible": true,
+          "confirm_world": [
+            1013,
+            232
+          ],
+          "confirm_last_tick": 249,
+          "cursor_publishes": false,
+          "confirm_publishes": true,
+          "deletes_confirm": false,
+          "resources": [],
+          "draws": [
+            {
+              "node": 1,
+              "frame_argument": 3,
+              "position": [
+                1013,
+                232
+              ]
+            }
+          ]
+        },
+        {
+          "type": 7,
+          "green": false,
+          "frame": 0,
+          "screen": [
+            1,
+            1
+          ],
+          "visible": true,
+          "draw_position": [
+            -17,
+            -16
+          ],
+          "last_tick": 149,
+          "interval": 150,
+          "confirm_exists": false,
+          "confirm_frame": 3,
+          "confirm_drawn": 3,
+          "confirm_visible": false,
+          "confirm_world": [
+            1013,
+            232
+          ],
+          "confirm_last_tick": 249,
+          "cursor_publishes": false,
+          "confirm_publishes": false,
+          "deletes_confirm": true,
+          "resources": [],
+          "draws": []
+        },
+        {
+          "type": 7,
+          "green": false,
+          "frame": 0,
+          "screen": [
+            1,
+            1
+          ],
+          "visible": true,
+          "draw_position": [
+            -17,
+            -16
+          ],
+          "last_tick": 149,
+          "interval": 150,
+          "confirm_exists": false,
+          "confirm_frame": 3,
+          "confirm_drawn": 3,
+          "confirm_visible": false,
+          "confirm_world": [
+            1013,
+            232
+          ],
+          "confirm_last_tick": 249,
+          "cursor_publishes": false,
+          "confirm_publishes": false,
+          "deletes_confirm": false,
+          "resources": [],
+          "draws": []
+        },
+        {
+          "type": 7,
+          "green": false,
+          "frame": 1,
+          "screen": [
+            1,
+            1
+          ],
+          "visible": true,
+          "draw_position": [
+            -17,
+            -16
+          ],
+          "last_tick": 500,
+          "interval": 150,
+          "confirm_exists": false,
+          "confirm_frame": 3,
+          "confirm_drawn": 3,
+          "confirm_visible": false,
+          "confirm_world": [
+            1013,
+            232
+          ],
+          "confirm_last_tick": 249,
+          "cursor_publishes": true,
+          "confirm_publishes": false,
+          "deletes_confirm": false,
+          "resources": [],
+          "draws": [
+            {
+              "node": 0,
+              "frame_argument": -1,
+              "position": [
+                -17,
+                -16
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "initial-sea-old500-0",
+      "operations": [
+        [
+          "S",
+          7,
+          false,
+          0,
+          20,
+          30
+        ],
+        [
+          "D",
+          0,
+          -1,
+          -1
+        ],
+        [
+          "D",
+          150,
+          -1,
+          -1
+        ],
+        [
+          "C",
+          1024,
+          256
+        ],
+        [
+          "D",
+          250,
+          -1,
+          -1
+        ]
+      ],
+      "rows": [
+        {
+          "type": 7,
+          "green": false,
+          "frame": 0,
+          "screen": [
+            20,
+            30
+          ],
+          "visible": true,
+          "draw_position": [
+            2,
+            13
+          ],
+          "last_tick": 0,
+          "interval": 150,
+          "confirm_exists": false,
+          "confirm_frame": 0,
+          "confirm_drawn": -1,
+          "confirm_visible": false,
+          "confirm_world": [
+            0,
+            0
+          ],
+          "confirm_last_tick": 0,
+          "cursor_publishes": true,
+          "confirm_publishes": false,
+          "deletes_confirm": false,
+          "resources": [
+            "CUR_SEA_N"
+          ],
+          "draws": [
+            {
+              "node": 0,
+              "frame_argument": 0,
+              "position": [
+                0,
+                0
+              ]
+            },
+            {
+              "node": 0,
+              "frame_argument": -2,
+              "position": [
+                2,
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "type": 7,
+          "green": false,
+          "frame": 0,
+          "screen": [
+            20,
+            30
+          ],
+          "visible": true,
+          "draw_position": [
+            2,
+            13
+          ],
+          "last_tick": 0,
+          "interval": 150,
+          "confirm_exists": false,
+          "confirm_frame": 0,
+          "confirm_drawn": -1,
+          "confirm_visible": false,
+          "confirm_world": [
+            0,
+            0
+          ],
+          "confirm_last_tick": 0,
+          "cursor_publishes": false,
+          "confirm_publishes": false,
+          "deletes_confirm": false,
+          "resources": [],
+          "draws": []
+        },
+        {
+          "type": 7,
+          "green": false,
+          "frame": 1,
+          "screen": [
+            20,
+            30
+          ],
+          "visible": true,
+          "draw_position": [
+            2,
+            13
+          ],
+          "last_tick": 150,
+          "interval": 150,
+          "confirm_exists": false,
+          "confirm_frame": 0,
+          "confirm_drawn": -1,
+          "confirm_visible": false,
+          "confirm_world": [
+            0,
+            0
+          ],
+          "confirm_last_tick": 0,
+          "cursor_publishes": true,
+          "confirm_publishes": false,
+          "deletes_confirm": false,
+          "resources": [],
+          "draws": [
+            {
+              "node": 0,
+              "frame_argument": -1,
+              "position": [
+                2,
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "type": 7,
+          "green": false,
+          "frame": 1,
+          "screen": [
+            20,
+            30
+          ],
+          "visible": true,
+          "draw_position": [
+            2,
+            13
+          ],
+          "last_tick": 150,
+          "interval": 150,
+          "confirm_exists": true,
+          "confirm_frame": 0,
+          "confirm_drawn": -1,
+          "confirm_visible": false,
+          "confirm_world": [
+            1013,
+            232
+          ],
+          "confirm_last_tick": 0,
+          "cursor_publishes": false,
+          "confirm_publishes": false,
+          "deletes_confirm": false,
+          "resources": [
+            "TAKE_CMD"
+          ],
+          "draws": []
+        },
+        {
+          "type": 7,
+          "green": false,
+          "frame": 1,
+          "screen": [
+            20,
+            30
+          ],
+          "visible": true,
+          "draw_position": [
+            2,
+            13
+          ],
+          "last_tick": 150,
+          "interval": 150,
+          "confirm_exists": true,
+          "confirm_frame": 1,
+          "confirm_drawn": 1,
+          "confirm_visible": true,
+          "confirm_world": [
+            1013,
+            232
+          ],
+          "confirm_last_tick": 250,
+          "cursor_publishes": false,
+          "confirm_publishes": true,
+          "deletes_confirm": false,
+          "resources": [],
+          "draws": [
+            {
+              "node": 1,
+              "frame_argument": 1,
+              "position": [
+                1013,
+                232
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "initial-sea-old500-499",
+      "operations": [
+        [
+          "S",
+          7,
+          false,
+          499,
+          20,
+          30
+        ],
+        [
+          "D",
+          499,
+          -1,
+          -1
+        ],
+        [
+          "D",
+          649,
+          -1,
+          -1
+        ],
+        [
+          "C",
+          1024,
+          256
+        ],
+        [
+          "D",
+          749,
+          -1,
+          -1
+        ]
+      ],
+      "rows": [
+        {
+          "type": 7,
+          "green": false,
+          "frame": 0,
+          "screen": [
+            20,
+            30
+          ],
+          "visible": true,
+          "draw_position": [
+            2,
+            13
+          ],
+          "last_tick": 0,
+          "interval": 150,
+          "confirm_exists": false,
+          "confirm_frame": 0,
+          "confirm_drawn": -1,
+          "confirm_visible": false,
+          "confirm_world": [
+            0,
+            0
+          ],
+          "confirm_last_tick": 0,
+          "cursor_publishes": true,
+          "confirm_publishes": false,
+          "deletes_confirm": false,
+          "resources": [
+            "CUR_SEA_N"
+          ],
+          "draws": [
+            {
+              "node": 0,
+              "frame_argument": 0,
+              "position": [
+                0,
+                0
+              ]
+            },
+            {
+              "node": 0,
+              "frame_argument": -2,
+              "position": [
+                2,
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "type": 7,
+          "green": false,
+          "frame": 1,
+          "screen": [
+            20,
+            30
+          ],
+          "visible": true,
+          "draw_position": [
+            2,
+            13
+          ],
+          "last_tick": 499,
+          "interval": 150,
+          "confirm_exists": false,
+          "confirm_frame": 0,
+          "confirm_drawn": -1,
+          "confirm_visible": false,
+          "confirm_world": [
+            0,
+            0
+          ],
+          "confirm_last_tick": 0,
+          "cursor_publishes": true,
+          "confirm_publishes": false,
+          "deletes_confirm": false,
+          "resources": [],
+          "draws": [
+            {
+              "node": 0,
+              "frame_argument": -1,
+              "position": [
+                2,
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "type": 7,
+          "green": false,
+          "frame": 2,
+          "screen": [
+            20,
+            30
+          ],
+          "visible": true,
+          "draw_position": [
+            2,
+            13
+          ],
+          "last_tick": 649,
+          "interval": 150,
+          "confirm_exists": false,
+          "confirm_frame": 0,
+          "confirm_drawn": -1,
+          "confirm_visible": false,
+          "confirm_world": [
+            0,
+            0
+          ],
+          "confirm_last_tick": 0,
+          "cursor_publishes": true,
+          "confirm_publishes": false,
+          "deletes_confirm": false,
+          "resources": [],
+          "draws": [
+            {
+              "node": 0,
+              "frame_argument": -1,
+              "position": [
+                2,
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "type": 7,
+          "green": false,
+          "frame": 2,
+          "screen": [
+            20,
+            30
+          ],
+          "visible": true,
+          "draw_position": [
+            2,
+            13
+          ],
+          "last_tick": 649,
+          "interval": 150,
+          "confirm_exists": true,
+          "confirm_frame": 0,
+          "confirm_drawn": -1,
+          "confirm_visible": false,
+          "confirm_world": [
+            1013,
+            232
+          ],
+          "confirm_last_tick": 0,
+          "cursor_publishes": false,
+          "confirm_publishes": false,
+          "deletes_confirm": false,
+          "resources": [
+            "TAKE_CMD"
+          ],
+          "draws": []
+        },
+        {
+          "type": 7,
+          "green": false,
+          "frame": 2,
+          "screen": [
+            20,
+            30
+          ],
+          "visible": true,
+          "draw_position": [
+            2,
+            13
+          ],
+          "last_tick": 649,
+          "interval": 150,
+          "confirm_exists": true,
+          "confirm_frame": 1,
+          "confirm_drawn": 1,
+          "confirm_visible": true,
+          "confirm_world": [
+            1013,
+            232
+          ],
+          "confirm_last_tick": 749,
+          "cursor_publishes": false,
+          "confirm_publishes": true,
+          "deletes_confirm": false,
+          "resources": [],
+          "draws": [
+            {
+              "node": 1,
+              "frame_argument": 1,
+              "position": [
+                1013,
+                232
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "initial-sea-old500-500",
+      "operations": [
+        [
+          "S",
+          7,
+          false,
+          500,
+          20,
+          30
+        ],
+        [
+          "D",
+          500,
+          -1,
+          -1
+        ],
+        [
+          "D",
+          650,
+          -1,
+          -1
+        ],
+        [
+          "C",
+          1024,
+          256
+        ],
+        [
+          "D",
+          750,
+          -1,
+          -1
+        ]
+      ],
+      "rows": [
+        {
+          "type": 7,
+          "green": false,
+          "frame": 1,
+          "screen": [
+            20,
+            30
+          ],
+          "visible": true,
+          "draw_position": [
+            2,
+            13
+          ],
+          "last_tick": 500,
+          "interval": 150,
+          "confirm_exists": false,
+          "confirm_frame": 0,
+          "confirm_drawn": -1,
+          "confirm_visible": false,
+          "confirm_world": [
+            0,
+            0
+          ],
+          "confirm_last_tick": 0,
+          "cursor_publishes": true,
+          "confirm_publishes": false,
+          "deletes_confirm": false,
+          "resources": [
+            "CUR_SEA_N"
+          ],
+          "draws": [
+            {
+              "node": 0,
+              "frame_argument": 0,
+              "position": [
+                0,
+                0
+              ]
+            },
+            {
+              "node": 0,
+              "frame_argument": -1,
+              "position": [
+                2,
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "type": 7,
+          "green": false,
+          "frame": 1,
+          "screen": [
+            20,
+            30
+          ],
+          "visible": true,
+          "draw_position": [
+            2,
+            13
+          ],
+          "last_tick": 500,
+          "interval": 150,
+          "confirm_exists": false,
+          "confirm_frame": 0,
+          "confirm_drawn": -1,
+          "confirm_visible": false,
+          "confirm_world": [
+            0,
+            0
+          ],
+          "confirm_last_tick": 0,
+          "cursor_publishes": false,
+          "confirm_publishes": false,
+          "deletes_confirm": false,
+          "resources": [],
+          "draws": []
+        },
+        {
+          "type": 7,
+          "green": false,
+          "frame": 2,
+          "screen": [
+            20,
+            30
+          ],
+          "visible": true,
+          "draw_position": [
+            2,
+            13
+          ],
+          "last_tick": 650,
+          "interval": 150,
+          "confirm_exists": false,
+          "confirm_frame": 0,
+          "confirm_drawn": -1,
+          "confirm_visible": false,
+          "confirm_world": [
+            0,
+            0
+          ],
+          "confirm_last_tick": 0,
+          "cursor_publishes": true,
+          "confirm_publishes": false,
+          "deletes_confirm": false,
+          "resources": [],
+          "draws": [
+            {
+              "node": 0,
+              "frame_argument": -1,
+              "position": [
+                2,
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "type": 7,
+          "green": false,
+          "frame": 2,
+          "screen": [
+            20,
+            30
+          ],
+          "visible": true,
+          "draw_position": [
+            2,
+            13
+          ],
+          "last_tick": 650,
+          "interval": 150,
+          "confirm_exists": true,
+          "confirm_frame": 0,
+          "confirm_drawn": -1,
+          "confirm_visible": false,
+          "confirm_world": [
+            1013,
+            232
+          ],
+          "confirm_last_tick": 0,
+          "cursor_publishes": false,
+          "confirm_publishes": false,
+          "deletes_confirm": false,
+          "resources": [
+            "TAKE_CMD"
+          ],
+          "draws": []
+        },
+        {
+          "type": 7,
+          "green": false,
+          "frame": 2,
+          "screen": [
+            20,
+            30
+          ],
+          "visible": true,
+          "draw_position": [
+            2,
+            13
+          ],
+          "last_tick": 650,
+          "interval": 150,
+          "confirm_exists": true,
+          "confirm_frame": 1,
+          "confirm_drawn": 1,
+          "confirm_visible": true,
+          "confirm_world": [
+            1013,
+            232
+          ],
+          "confirm_last_tick": 750,
+          "cursor_publishes": false,
+          "confirm_publishes": true,
+          "deletes_confirm": false,
+          "resources": [],
+          "draws": [
+            {
+              "node": 1,
+              "frame_argument": 1,
+              "position": [
+                1013,
+                232
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "initial-sea-old500-10000",
+      "operations": [
+        [
+          "S",
+          7,
+          false,
+          10000,
+          20,
+          30
+        ],
+        [
+          "D",
+          10000,
+          -1,
+          -1
+        ],
+        [
+          "D",
+          10150,
+          -1,
+          -1
+        ],
+        [
+          "C",
+          1024,
+          256
+        ],
+        [
+          "D",
+          10250,
+          -1,
+          -1
+        ]
+      ],
+      "rows": [
+        {
+          "type": 7,
+          "green": false,
+          "frame": 1,
+          "screen": [
+            20,
+            30
+          ],
+          "visible": true,
+          "draw_position": [
+            2,
+            13
+          ],
+          "last_tick": 10000,
+          "interval": 150,
+          "confirm_exists": false,
+          "confirm_frame": 0,
+          "confirm_drawn": -1,
+          "confirm_visible": false,
+          "confirm_world": [
+            0,
+            0
+          ],
+          "confirm_last_tick": 0,
+          "cursor_publishes": true,
+          "confirm_publishes": false,
+          "deletes_confirm": false,
+          "resources": [
+            "CUR_SEA_N"
+          ],
+          "draws": [
+            {
+              "node": 0,
+              "frame_argument": 0,
+              "position": [
+                0,
+                0
+              ]
+            },
+            {
+              "node": 0,
+              "frame_argument": -1,
+              "position": [
+                2,
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "type": 7,
+          "green": false,
+          "frame": 1,
+          "screen": [
+            20,
+            30
+          ],
+          "visible": true,
+          "draw_position": [
+            2,
+            13
+          ],
+          "last_tick": 10000,
+          "interval": 150,
+          "confirm_exists": false,
+          "confirm_frame": 0,
+          "confirm_drawn": -1,
+          "confirm_visible": false,
+          "confirm_world": [
+            0,
+            0
+          ],
+          "confirm_last_tick": 0,
+          "cursor_publishes": false,
+          "confirm_publishes": false,
+          "deletes_confirm": false,
+          "resources": [],
+          "draws": []
+        },
+        {
+          "type": 7,
+          "green": false,
+          "frame": 2,
+          "screen": [
+            20,
+            30
+          ],
+          "visible": true,
+          "draw_position": [
+            2,
+            13
+          ],
+          "last_tick": 10150,
+          "interval": 150,
+          "confirm_exists": false,
+          "confirm_frame": 0,
+          "confirm_drawn": -1,
+          "confirm_visible": false,
+          "confirm_world": [
+            0,
+            0
+          ],
+          "confirm_last_tick": 0,
+          "cursor_publishes": true,
+          "confirm_publishes": false,
+          "deletes_confirm": false,
+          "resources": [],
+          "draws": [
+            {
+              "node": 0,
+              "frame_argument": -1,
+              "position": [
+                2,
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "type": 7,
+          "green": false,
+          "frame": 2,
+          "screen": [
+            20,
+            30
+          ],
+          "visible": true,
+          "draw_position": [
+            2,
+            13
+          ],
+          "last_tick": 10150,
+          "interval": 150,
+          "confirm_exists": true,
+          "confirm_frame": 0,
+          "confirm_drawn": -1,
+          "confirm_visible": false,
+          "confirm_world": [
+            1013,
+            232
+          ],
+          "confirm_last_tick": 0,
+          "cursor_publishes": false,
+          "confirm_publishes": false,
+          "deletes_confirm": false,
+          "resources": [
+            "TAKE_CMD"
+          ],
+          "draws": []
+        },
+        {
+          "type": 7,
+          "green": false,
+          "frame": 2,
+          "screen": [
+            20,
+            30
+          ],
+          "visible": true,
+          "draw_position": [
+            2,
+            13
+          ],
+          "last_tick": 10150,
+          "interval": 150,
+          "confirm_exists": true,
+          "confirm_frame": 1,
+          "confirm_drawn": 1,
+          "confirm_visible": true,
+          "confirm_world": [
+            1013,
+            232
+          ],
+          "confirm_last_tick": 10250,
+          "cursor_publishes": false,
+          "confirm_publishes": true,
+          "deletes_confirm": false,
+          "resources": [],
+          "draws": [
+            {
+              "node": 1,
+              "frame_argument": 1,
+              "position": [
+                1013,
+                232
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "global-move-typechange-two-draw-boundary",
+      "operations": [
+        [
+          "S",
+          7,
+          false,
+          0,
+          100,
+          100
+        ],
+        [
+          "C",
+          1184,
+          352
+        ],
+        [
+          "D",
+          250,
+          -1,
+          -1
+        ],
+        [
+          "D",
+          500,
+          -1,
+          -1
+        ],
+        [
+          "S",
+          5,
+          false,
+          750,
+          100,
+          100
+        ],
+        [
+          "D",
+          750,
+          120,
+          140
+        ]
+      ],
+      "rows": [
+        {
+          "type": 7,
+          "green": false,
+          "frame": 0,
+          "screen": [
+            100,
+            100
+          ],
+          "visible": true,
+          "draw_position": [
+            82,
+            83
+          ],
+          "last_tick": 0,
+          "interval": 150,
+          "confirm_exists": false,
+          "confirm_frame": 0,
+          "confirm_drawn": -1,
+          "confirm_visible": false,
+          "confirm_world": [
+            0,
+            0
+          ],
+          "confirm_last_tick": 0,
+          "cursor_publishes": true,
+          "confirm_publishes": false,
+          "deletes_confirm": false,
+          "resources": [
+            "CUR_SEA_N"
+          ],
+          "draws": [
+            {
+              "node": 0,
+              "frame_argument": 0,
+              "position": [
+                0,
+                0
+              ]
+            },
+            {
+              "node": 0,
+              "frame_argument": -2,
+              "position": [
+                82,
+                83
+              ]
+            }
+          ]
+        },
+        {
+          "type": 7,
+          "green": false,
+          "frame": 0,
+          "screen": [
+            100,
+            100
+          ],
+          "visible": true,
+          "draw_position": [
+            82,
+            83
+          ],
+          "last_tick": 0,
+          "interval": 150,
+          "confirm_exists": true,
+          "confirm_frame": 0,
+          "confirm_drawn": -1,
+          "confirm_visible": false,
+          "confirm_world": [
+            1173,
+            328
+          ],
+          "confirm_last_tick": 0,
+          "cursor_publishes": false,
+          "confirm_publishes": false,
+          "deletes_confirm": false,
+          "resources": [
+            "TAKE_CMD"
+          ],
+          "draws": []
+        },
+        {
+          "type": 7,
+          "green": false,
+          "frame": 1,
+          "screen": [
+            100,
+            100
+          ],
+          "visible": true,
+          "draw_position": [
+            82,
+            83
+          ],
+          "last_tick": 250,
+          "interval": 150,
+          "confirm_exists": true,
+          "confirm_frame": 1,
+          "confirm_drawn": 1,
+          "confirm_visible": true,
+          "confirm_world": [
+            1173,
+            328
+          ],
+          "confirm_last_tick": 250,
+          "cursor_publishes": true,
+          "confirm_publishes": true,
+          "deletes_confirm": false,
+          "resources": [],
+          "draws": [
+            {
+              "node": 0,
+              "frame_argument": -1,
+              "position": [
+                82,
+                83
+              ]
+            },
+            {
+              "node": 1,
+              "frame_argument": 1,
+              "position": [
+                1173,
+                328
+              ]
+            }
+          ]
+        },
+        {
+          "type": 7,
+          "green": false,
+          "frame": 2,
+          "screen": [
+            100,
+            100
+          ],
+          "visible": true,
+          "draw_position": [
+            82,
+            83
+          ],
+          "last_tick": 500,
+          "interval": 150,
+          "confirm_exists": true,
+          "confirm_frame": 2,
+          "confirm_drawn": 2,
+          "confirm_visible": true,
+          "confirm_world": [
+            1173,
+            328
+          ],
+          "confirm_last_tick": 500,
+          "cursor_publishes": true,
+          "confirm_publishes": true,
+          "deletes_confirm": false,
+          "resources": [],
+          "draws": [
+            {
+              "node": 0,
+              "frame_argument": -1,
+              "position": [
+                82,
+                83
+              ]
+            },
+            {
+              "node": 1,
+              "frame_argument": 2,
+              "position": [
+                1173,
+                328
+              ]
+            }
+          ]
+        },
+        {
+          "type": 5,
+          "green": false,
+          "frame": 0,
+          "screen": [
+            100,
+            100
+          ],
+          "visible": true,
+          "draw_position": [
+            100,
+            100
+          ],
+          "last_tick": 750,
+          "interval": 10000,
+          "confirm_exists": true,
+          "confirm_frame": 3,
+          "confirm_drawn": 3,
+          "confirm_visible": true,
+          "confirm_world": [
+            1173,
+            328
+          ],
+          "confirm_last_tick": 750,
+          "cursor_publishes": true,
+          "confirm_publishes": true,
+          "deletes_confirm": false,
+          "resources": [
+            "CUR_OWN_N"
+          ],
+          "draws": [
+            {
+              "node": 0,
+              "frame_argument": 2,
+              "position": [
+                82,
+                83
+              ]
+            },
+            {
+              "node": 0,
+              "frame_argument": -1,
+              "position": [
+                100,
+                100
+              ]
+            },
+            {
+              "node": 1,
+              "frame_argument": 3,
+              "position": [
+                1173,
+                328
+              ]
+            }
+          ]
+        },
+        {
+          "type": 5,
+          "green": false,
+          "frame": 0,
+          "screen": [
+            120,
+            140
+          ],
+          "visible": true,
+          "draw_position": [
+            120,
+            140
+          ],
+          "last_tick": 750,
+          "interval": 10000,
+          "confirm_exists": false,
+          "confirm_frame": 3,
+          "confirm_drawn": 3,
+          "confirm_visible": false,
+          "confirm_world": [
+            1173,
+            328
+          ],
+          "confirm_last_tick": 750,
+          "cursor_publishes": true,
+          "confirm_publishes": false,
+          "deletes_confirm": true,
+          "resources": [],
+          "draws": [
+            {
+              "node": 0,
+              "frame_argument": -2,
+              "position": [
+                120,
+                140
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "native_entries": [
+    "0x515c50",
+    "0x516e30",
+    "0x516640",
+    "0x515df0",
+    "0x545e00",
+    "0x545e80",
+    "0x546160",
+    "0x55e0e0",
+    "0x55eb50",
+    "0x546050",
+    "0x55ed60",
+    "0x5417d0"
+  ],
+  "boundaries": [
+    "normal setjmp",
+    "resource-loader returnschecked source type7 framepointer tables",
+    "operatornew/delete arena"
+  ],
+  "precondition": "Ready gameplay cursor: source Init515c50 loadsMENU_CUR/interval500; callerUIactivation has shownnode before SetGCType. Explicit cachedapp+18 millis input, actual5417d0readexecutes.",
+  "scope": "Normalmap1 cursors0/5/6/7 and TAKE_CMD sprite transactions; noOSinput/screenblitter/fullworld"
+}

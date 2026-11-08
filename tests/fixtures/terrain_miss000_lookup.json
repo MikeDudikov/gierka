@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "original_exe_sha256": "cb7746b288d23de2a0343ba51c154f961b3e3683b73bcc31e9a38b2c6b1e2021",
+  "map_sha256": "931138965e7ff49641ff28e389a48104f113d66666badf6de027c8d6e716cfe3",
+  "cases": 4608,
+  "active_cases": 1007,
+  "bounds_cases": 6,
+  "row_format": "<HhB: word, frame_index(-1 null), drawing_type(255 null)",
+  "row_order": "x outer, y inner, layer0..7",
+  "rows_sha256": "2c26432812ce2c1a4862c0b36f4d5716da972bb5d78e64298469b057ab0d018d",
+  "entry_va": "0x00545190",
+  "intercepted_functions": [],
+  "scope": "Original accessor code and callees; reconstructed runtime libraries/DArray inputs, loader excluded"
+}

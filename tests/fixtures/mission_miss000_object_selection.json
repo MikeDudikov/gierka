@@ -1,0 +1,838 @@
+{
+  "schema_version": 1,
+  "original_sha256": "cb7746b288d23de2a0343ba51c154f961b3e3683b73bcc31e9a38b2c6b1e2021",
+  "mission_source_hashes": {
+    "installed/ancient.exe": "cb7746b288d23de2a0343ba51c154f961b3e3683b73bcc31e9a38b2c6b1e2021",
+    "installed/missions/miss000.dkx": "b4b2fda60bb38e837b6d0548caa86229e1fbebf8cb9fd806c4f39c9bd75835ce",
+    "installed/missions/miss000.dkd": "a77e801a93baafd6942db9087d7541f8c85ed2f3c88d440b9f9e81b45ba9a0d1"
+  },
+  "provenance": "Original mapped DKX B-tree iterator/prefix filter without hooks; original offline CreateSystemObjects with only setjmp and constructor-boundary interception",
+  "start_scenario_players_desc_hex": "0000000000010000000000000000000003000000",
+  "original_enumeration": {
+    "all_record_count": 63,
+    "object_count": 45,
+    "records": [
+      {
+        "type": 12,
+        "name": "OBJ_00000001",
+        "data_offset": 5612
+      },
+      {
+        "type": 12,
+        "name": "OBJ_00000002",
+        "data_offset": 5708
+      },
+      {
+        "type": 12,
+        "name": "OBJ_00000003",
+        "data_offset": 5804
+      },
+      {
+        "type": 12,
+        "name": "OBJ_00000004",
+        "data_offset": 5900
+      },
+      {
+        "type": 12,
+        "name": "OBJ_00000005",
+        "data_offset": 5948
+      },
+      {
+        "type": 12,
+        "name": "OBJ_00000006",
+        "data_offset": 5984
+      },
+      {
+        "type": 12,
+        "name": "OBJ_00000007",
+        "data_offset": 6020
+      },
+      {
+        "type": 12,
+        "name": "OBJ_00000008",
+        "data_offset": 6116
+      },
+      {
+        "type": 12,
+        "name": "OBJ_00000009",
+        "data_offset": 6212
+      },
+      {
+        "type": 12,
+        "name": "OBJ_0000000a",
+        "data_offset": 6248
+      },
+      {
+        "type": 12,
+        "name": "OBJ_0000000b",
+        "data_offset": 6284
+      },
+      {
+        "type": 12,
+        "name": "OBJ_0000000c",
+        "data_offset": 6904
+      },
+      {
+        "type": 12,
+        "name": "OBJ_0000000d",
+        "data_offset": 7524
+      },
+      {
+        "type": 12,
+        "name": "OBJ_0000000e",
+        "data_offset": 8144
+      },
+      {
+        "type": 12,
+        "name": "OBJ_0000000f",
+        "data_offset": 8240
+      },
+      {
+        "type": 12,
+        "name": "OBJ_00000010",
+        "data_offset": 8336
+      },
+      {
+        "type": 12,
+        "name": "OBJ_00000011",
+        "data_offset": 8956
+      },
+      {
+        "type": 12,
+        "name": "OBJ_00000012",
+        "data_offset": 9004
+      },
+      {
+        "type": 12,
+        "name": "OBJ_00000013",
+        "data_offset": 10252
+      },
+      {
+        "type": 12,
+        "name": "OBJ_00000014",
+        "data_offset": 10344
+      },
+      {
+        "type": 12,
+        "name": "OBJ_00000015",
+        "data_offset": 10436
+      },
+      {
+        "type": 12,
+        "name": "OBJ_00000016",
+        "data_offset": 10480
+      },
+      {
+        "type": 12,
+        "name": "OBJ_00000017",
+        "data_offset": 10524
+      },
+      {
+        "type": 12,
+        "name": "OBJ_00000018",
+        "data_offset": 10568
+      },
+      {
+        "type": 12,
+        "name": "OBJ_00000019",
+        "data_offset": 10620
+      },
+      {
+        "type": 12,
+        "name": "OBJ_0000001a",
+        "data_offset": 10668
+      },
+      {
+        "type": 12,
+        "name": "OBJ_0000001b",
+        "data_offset": 10716
+      },
+      {
+        "type": 12,
+        "name": "OBJ_0000001c",
+        "data_offset": 10764
+      },
+      {
+        "type": 12,
+        "name": "OBJ_0000001d",
+        "data_offset": 10812
+      },
+      {
+        "type": 12,
+        "name": "OBJ_0000001e",
+        "data_offset": 10860
+      },
+      {
+        "type": 12,
+        "name": "OBJ_0000001f",
+        "data_offset": 10904
+      },
+      {
+        "type": 12,
+        "name": "OBJ_00000020",
+        "data_offset": 10948
+      },
+      {
+        "type": 12,
+        "name": "OBJ_00000021",
+        "data_offset": 10992
+      },
+      {
+        "type": 12,
+        "name": "OBJ_00000022",
+        "data_offset": 11028
+      },
+      {
+        "type": 12,
+        "name": "OBJ_00000023",
+        "data_offset": 11076
+      },
+      {
+        "type": 12,
+        "name": "OBJ_00000024",
+        "data_offset": 11164
+      },
+      {
+        "type": 12,
+        "name": "OBJ_00000025",
+        "data_offset": 11252
+      },
+      {
+        "type": 12,
+        "name": "OBJ_00000026",
+        "data_offset": 11300
+      },
+      {
+        "type": 12,
+        "name": "OBJ_00000027",
+        "data_offset": 11560
+      },
+      {
+        "type": 12,
+        "name": "OBJ_00000028",
+        "data_offset": 12180
+      },
+      {
+        "type": 12,
+        "name": "OBJ_00000029",
+        "data_offset": 12800
+      },
+      {
+        "type": 12,
+        "name": "OBJ_0000002a",
+        "data_offset": 13420
+      },
+      {
+        "type": 12,
+        "name": "OBJ_0000002b",
+        "data_offset": 14040
+      },
+      {
+        "type": 12,
+        "name": "OBJ_0000002c",
+        "data_offset": 14088
+      },
+      {
+        "type": 12,
+        "name": "OBJ_0000002e",
+        "data_offset": 14124
+      }
+    ],
+    "hooks": {}
+  },
+  "source_start_scenario": [
+    {
+      "name": "OBJ_00000001",
+      "class_tag": 401,
+      "kind": 2,
+      "side_index": 0,
+      "player_index": 0,
+      "byte_length": 92,
+      "payload_sha256": "0a611eb3b273d3bc24c4fe6ea941121606007eb18cd493c999906d4bae4825d8",
+      "selected": true,
+      "factory_type": 5756,
+      "instance_id": 1,
+      "setjmp_calls": 1
+    },
+    {
+      "name": "OBJ_00000002",
+      "class_tag": 401,
+      "kind": 2,
+      "side_index": 0,
+      "player_index": 0,
+      "byte_length": 92,
+      "payload_sha256": "fce11858cb16fba745e32822ccad17169d071abd36cb2d2923036e85e25abe86",
+      "selected": true,
+      "factory_type": 5756,
+      "instance_id": 2,
+      "setjmp_calls": 1
+    },
+    {
+      "name": "OBJ_00000003",
+      "class_tag": 401,
+      "kind": 2,
+      "side_index": 0,
+      "player_index": 0,
+      "byte_length": 92,
+      "payload_sha256": "5bef9d9619ebbd7a01b19564addf62f091f3099469876cd30107d3eb0b67a87f",
+      "selected": true,
+      "factory_type": 5756,
+      "instance_id": 3,
+      "setjmp_calls": 1
+    },
+    {
+      "name": "OBJ_00000004",
+      "class_tag": 400,
+      "kind": 2,
+      "side_index": 0,
+      "player_index": 0,
+      "byte_length": 44,
+      "payload_sha256": "d10b425d827f0b277501deff0ca63c6e56c6af583a2a90c00e857cb2c2aa5c7e",
+      "selected": true,
+      "factory_type": 5758,
+      "instance_id": 4,
+      "setjmp_calls": 1
+    },
+    {
+      "name": "OBJ_00000005",
+      "class_tag": 601,
+      "kind": 2,
+      "side_index": 0,
+      "player_index": 0,
+      "byte_length": 32,
+      "payload_sha256": "c71f24d4c18a4076792f1621c952ba84089dfa971e2f631430eb48212f584afa",
+      "selected": true,
+      "factory_type": 6756,
+      "instance_id": 5,
+      "setjmp_calls": 1
+    },
+    {
+      "name": "OBJ_00000006",
+      "class_tag": 601,
+      "kind": 2,
+      "side_index": 0,
+      "player_index": 0,
+      "byte_length": 32,
+      "payload_sha256": "0e771a387a2ad10fb716f2051342b43038b4778db9526226b53199a718e11da3",
+      "selected": true,
+      "factory_type": 6756,
+      "instance_id": 6,
+      "setjmp_calls": 1
+    },
+    {
+      "name": "OBJ_00000007",
+      "class_tag": 401,
+      "kind": 2,
+      "side_index": 0,
+      "player_index": 0,
+      "byte_length": 92,
+      "payload_sha256": "d45d14fc72fd3371fb0c9db726e2318a37b6f9010efc8f7e4570a52fff431b36",
+      "selected": true,
+      "factory_type": 5756,
+      "instance_id": 7,
+      "setjmp_calls": 1
+    },
+    {
+      "name": "OBJ_00000008",
+      "class_tag": 401,
+      "kind": 2,
+      "side_index": 0,
+      "player_index": 0,
+      "byte_length": 92,
+      "payload_sha256": "5b5348f84148db525d5810b1ada8dd7f49a6df46dabf84d431bfb093bb2cffcb",
+      "selected": true,
+      "factory_type": 5756,
+      "instance_id": 8,
+      "setjmp_calls": 1
+    },
+    {
+      "name": "OBJ_00000009",
+      "class_tag": 601,
+      "kind": 2,
+      "side_index": 0,
+      "player_index": 0,
+      "byte_length": 32,
+      "payload_sha256": "d6b575cd493fc9bd3ce866384bb7501d48c266b022a1cbbfcc88b7a21f3991c5",
+      "selected": true,
+      "factory_type": 6756,
+      "instance_id": 9,
+      "setjmp_calls": 1
+    },
+    {
+      "name": "OBJ_0000000a",
+      "class_tag": 601,
+      "kind": 2,
+      "side_index": 0,
+      "player_index": 0,
+      "byte_length": 32,
+      "payload_sha256": "fe6d2dc42dd6681393b9f6deb1fa762770632ff905348391fbc8f61a78a7f7f6",
+      "selected": true,
+      "factory_type": 6756,
+      "instance_id": 10,
+      "setjmp_calls": 1
+    },
+    {
+      "name": "OBJ_0000000b",
+      "class_tag": 200,
+      "kind": 1,
+      "side_index": 1,
+      "player_index": 1,
+      "byte_length": 616,
+      "payload_sha256": "fbcbf7c873f418fffdd9761954cea7b3844c2567b08baa85b0f3489faa51bbdb",
+      "selected": true,
+      "factory_type": 5256,
+      "instance_id": 11,
+      "setjmp_calls": 1
+    },
+    {
+      "name": "OBJ_0000000c",
+      "class_tag": 200,
+      "kind": 1,
+      "side_index": 1,
+      "player_index": 1,
+      "byte_length": 616,
+      "payload_sha256": "fb1b0660fc734d1d7e2dc6109015770eebd4554a57c70dd1060f845968235836",
+      "selected": true,
+      "factory_type": 5256,
+      "instance_id": 12,
+      "setjmp_calls": 1
+    },
+    {
+      "name": "OBJ_0000000d",
+      "class_tag": 200,
+      "kind": 1,
+      "side_index": 1,
+      "player_index": 1,
+      "byte_length": 616,
+      "payload_sha256": "65d3daa53cf819ebbb32855f9bab1a8a13f7e35cc1866aa437758c71850674ca",
+      "selected": true,
+      "factory_type": 5256,
+      "instance_id": 13,
+      "setjmp_calls": 1
+    },
+    {
+      "name": "OBJ_0000000e",
+      "class_tag": 401,
+      "kind": 2,
+      "side_index": 0,
+      "player_index": 0,
+      "byte_length": 92,
+      "payload_sha256": "209dbadb480cec89b75b70a309d2687661d2d7ed3eb96384de70a787d8490f6c",
+      "selected": true,
+      "factory_type": 5756,
+      "instance_id": 14,
+      "setjmp_calls": 1
+    },
+    {
+      "name": "OBJ_0000000f",
+      "class_tag": 401,
+      "kind": 2,
+      "side_index": 0,
+      "player_index": 0,
+      "byte_length": 92,
+      "payload_sha256": "bce762ae0c9852f7ae0b29ce5464addf57192c8a6882e3b8353288ab762e6e41",
+      "selected": true,
+      "factory_type": 5756,
+      "instance_id": 15,
+      "setjmp_calls": 1
+    },
+    {
+      "name": "OBJ_00000010",
+      "class_tag": 200,
+      "kind": 1,
+      "side_index": 4,
+      "player_index": 0,
+      "byte_length": 616,
+      "payload_sha256": "7dbb59c48cfd9d1b091e1b8712944b0e5518785eddc3a84d1df31564bfbb9f04",
+      "selected": true,
+      "factory_type": 5256,
+      "instance_id": 16,
+      "setjmp_calls": 1
+    },
+    {
+      "name": "OBJ_00000011",
+      "class_tag": 400,
+      "kind": 2,
+      "side_index": 0,
+      "player_index": 0,
+      "byte_length": 44,
+      "payload_sha256": "f811eff6b115b173d07131fcf723bf8920abc20e274780d10cd300c7fccec1b0",
+      "selected": true,
+      "factory_type": 5758,
+      "instance_id": 17,
+      "setjmp_calls": 1
+    },
+    {
+      "name": "OBJ_00000012",
+      "class_tag": 50,
+      "kind": 1,
+      "side_index": 1,
+      "player_index": 1,
+      "byte_length": 1244,
+      "payload_sha256": "baf2032043cbe22c8554350d43ec6b77f6ab992c281806403d87abd2f0251146",
+      "selected": true,
+      "factory_type": 5265,
+      "instance_id": 18,
+      "setjmp_calls": 1
+    },
+    {
+      "name": "OBJ_00000013",
+      "class_tag": 57,
+      "kind": 1,
+      "side_index": 1,
+      "player_index": 1,
+      "byte_length": 88,
+      "payload_sha256": "aee2be68996a9cbcd64dc126fbf6ccfceec569a5135ae6e50c826a686275228f",
+      "selected": true,
+      "factory_type": 5275,
+      "instance_id": 19,
+      "setjmp_calls": 1
+    },
+    {
+      "name": "OBJ_00000014",
+      "class_tag": 58,
+      "kind": 1,
+      "side_index": 1,
+      "player_index": 1,
+      "byte_length": 88,
+      "payload_sha256": "d2fe3f99c4b082c8875aad4e8804500099bb44c789192731a8f0116ede20bdc4",
+      "selected": true,
+      "factory_type": 5276,
+      "instance_id": 20,
+      "setjmp_calls": 1
+    },
+    {
+      "name": "OBJ_00000015",
+      "class_tag": 606,
+      "kind": 2,
+      "side_index": 0,
+      "player_index": 0,
+      "byte_length": 40,
+      "payload_sha256": "e238c1c5a81d649e69787aa9d61b31ae95d87a442d8c00d2ef877a38d457834a",
+      "selected": true,
+      "factory_type": 6165,
+      "instance_id": 21,
+      "setjmp_calls": 1
+    },
+    {
+      "name": "OBJ_00000016",
+      "class_tag": 606,
+      "kind": 2,
+      "side_index": 0,
+      "player_index": 0,
+      "byte_length": 40,
+      "payload_sha256": "7860e7d64fe61c5a90e09b4a03bce6db9bda05f91548d13cb6b43fcdcb6d7748",
+      "selected": true,
+      "factory_type": 6165,
+      "instance_id": 22,
+      "setjmp_calls": 1
+    },
+    {
+      "name": "OBJ_00000017",
+      "class_tag": 606,
+      "kind": 2,
+      "side_index": 0,
+      "player_index": 0,
+      "byte_length": 40,
+      "payload_sha256": "d5d028e4d6b8bb18c7c8fafd597cd6eca3f35c30d349a66a09506a29c1dddcc9",
+      "selected": true,
+      "factory_type": 6165,
+      "instance_id": 23,
+      "setjmp_calls": 1
+    },
+    {
+      "name": "OBJ_00000018",
+      "class_tag": 700,
+      "kind": 0,
+      "side_index": 0,
+      "player_index": 0,
+      "byte_length": 48,
+      "payload_sha256": "9f1d3c48b5ec844d2d2f06e5972301d8f93c6cdaf57ed99fc8a2cd7e9ce433da",
+      "selected": true,
+      "factory_type": 5859,
+      "instance_id": 24,
+      "setjmp_calls": 1
+    },
+    {
+      "name": "OBJ_00000019",
+      "class_tag": 400,
+      "kind": 2,
+      "side_index": 0,
+      "player_index": 0,
+      "byte_length": 44,
+      "payload_sha256": "a07718a63663ec497ea7f21d19731040df832125efac491b6c7721a102aba880",
+      "selected": true,
+      "factory_type": 5758,
+      "instance_id": 25,
+      "setjmp_calls": 1
+    },
+    {
+      "name": "OBJ_0000001a",
+      "class_tag": 400,
+      "kind": 2,
+      "side_index": 0,
+      "player_index": 0,
+      "byte_length": 44,
+      "payload_sha256": "45c79c52c64450128de213dc0d13ec6ae10b5d4848f7a28eb5a0c69dcebfb0cf",
+      "selected": true,
+      "factory_type": 5758,
+      "instance_id": 26,
+      "setjmp_calls": 1
+    },
+    {
+      "name": "OBJ_0000001b",
+      "class_tag": 400,
+      "kind": 2,
+      "side_index": 0,
+      "player_index": 0,
+      "byte_length": 44,
+      "payload_sha256": "4fb05431f112a1ede968a4ff9ecea5c06540a4a7fb223a874db52be94933d7aa",
+      "selected": true,
+      "factory_type": 5758,
+      "instance_id": 27,
+      "setjmp_calls": 1
+    },
+    {
+      "name": "OBJ_0000001c",
+      "class_tag": 400,
+      "kind": 2,
+      "side_index": 0,
+      "player_index": 0,
+      "byte_length": 44,
+      "payload_sha256": "51e3f632cb25d49fb17330dd84addf2db193893d2f4118f92e46a7726fe72a92",
+      "selected": true,
+      "factory_type": 5758,
+      "instance_id": 28,
+      "setjmp_calls": 1
+    },
+    {
+      "name": "OBJ_0000001d",
+      "class_tag": 400,
+      "kind": 2,
+      "side_index": 0,
+      "player_index": 0,
+      "byte_length": 44,
+      "payload_sha256": "93fe73d1f6b7462a8dfe831dfa62f6d48c817db124ec498c71b3f4f8218ed58e",
+      "selected": true,
+      "factory_type": 5758,
+      "instance_id": 29,
+      "setjmp_calls": 1
+    },
+    {
+      "name": "OBJ_0000001e",
+      "class_tag": 606,
+      "kind": 2,
+      "side_index": 0,
+      "player_index": 0,
+      "byte_length": 40,
+      "payload_sha256": "e49bff134f7afe9daf3a88101e3a2c2ddc73eea9ea54537d010c186e9aa715af",
+      "selected": true,
+      "factory_type": 6165,
+      "instance_id": 30,
+      "setjmp_calls": 1
+    },
+    {
+      "name": "OBJ_0000001f",
+      "class_tag": 606,
+      "kind": 2,
+      "side_index": 0,
+      "player_index": 0,
+      "byte_length": 40,
+      "payload_sha256": "cf72968f6fb6346bcf1da57d438441801e5c2b693247b6f9adca6e52e6c5689d",
+      "selected": true,
+      "factory_type": 6165,
+      "instance_id": 31,
+      "setjmp_calls": 1
+    },
+    {
+      "name": "OBJ_00000020",
+      "class_tag": 606,
+      "kind": 2,
+      "side_index": 0,
+      "player_index": 0,
+      "byte_length": 40,
+      "payload_sha256": "faec2e99c5e5e2926533a4f941278c880892eefb98019a50638abf49efc79ae6",
+      "selected": true,
+      "factory_type": 6165,
+      "instance_id": 32,
+      "setjmp_calls": 1
+    },
+    {
+      "name": "OBJ_00000021",
+      "class_tag": 601,
+      "kind": 2,
+      "side_index": 0,
+      "player_index": 0,
+      "byte_length": 32,
+      "payload_sha256": "c9dda7f51048ff37d6e69559c3e3befe36464133ca5acd55d144cd2038f0e60a",
+      "selected": true,
+      "factory_type": 6756,
+      "instance_id": 33,
+      "setjmp_calls": 1
+    },
+    {
+      "name": "OBJ_00000022",
+      "class_tag": 400,
+      "kind": 2,
+      "side_index": 0,
+      "player_index": 0,
+      "byte_length": 44,
+      "payload_sha256": "f3ea11a902630012bc131e7151b77593b6841a81db4421be2c2209745d78971f",
+      "selected": true,
+      "factory_type": 5758,
+      "instance_id": 34,
+      "setjmp_calls": 1
+    },
+    {
+      "name": "OBJ_00000023",
+      "class_tag": 72,
+      "kind": 2,
+      "side_index": 0,
+      "player_index": 0,
+      "byte_length": 84,
+      "payload_sha256": "b33f4a5dd702352ef4b4d175ea84344a10419fed177af9404b673254285a57b8",
+      "selected": true,
+      "factory_type": 5775,
+      "instance_id": 35,
+      "setjmp_calls": 1
+    },
+    {
+      "name": "OBJ_00000024",
+      "class_tag": 72,
+      "kind": 2,
+      "side_index": 0,
+      "player_index": 0,
+      "byte_length": 84,
+      "payload_sha256": "fff91498c8cb5b043406830c139dac1d097b91c317ebe947e42df527766e9ae8",
+      "selected": true,
+      "factory_type": 5775,
+      "instance_id": 36,
+      "setjmp_calls": 1
+    },
+    {
+      "name": "OBJ_00000025",
+      "class_tag": 400,
+      "kind": 2,
+      "side_index": 0,
+      "player_index": 0,
+      "byte_length": 44,
+      "payload_sha256": "ba2f784ad901308f32c0107aa34b479f5d2c2db2751dfcf04088c5dc8e9afe01",
+      "selected": true,
+      "factory_type": 5758,
+      "instance_id": 37,
+      "setjmp_calls": 1
+    },
+    {
+      "name": "OBJ_00000026",
+      "class_tag": 63,
+      "kind": 1,
+      "side_index": 4,
+      "player_index": 0,
+      "byte_length": 256,
+      "payload_sha256": "bffdc9a9264528bae090fd20f4630d00ccc3d3dcbb54d616ecf1fe226fae3e39",
+      "selected": true,
+      "factory_type": 6763,
+      "instance_id": 38,
+      "setjmp_calls": 1
+    },
+    {
+      "name": "OBJ_00000027",
+      "class_tag": 200,
+      "kind": 1,
+      "side_index": 4,
+      "player_index": 0,
+      "byte_length": 616,
+      "payload_sha256": "8c5172f680a16b1902863c43bf179da7f33a2ae3997055075fd19e9052788688",
+      "selected": true,
+      "factory_type": 5256,
+      "instance_id": 39,
+      "setjmp_calls": 1
+    },
+    {
+      "name": "OBJ_00000028",
+      "class_tag": 200,
+      "kind": 1,
+      "side_index": 4,
+      "player_index": 0,
+      "byte_length": 616,
+      "payload_sha256": "7f315a418fa846ca174e622f75814611deefc0495a06063998593b110e8fec4f",
+      "selected": true,
+      "factory_type": 5256,
+      "instance_id": 40,
+      "setjmp_calls": 1
+    },
+    {
+      "name": "OBJ_00000029",
+      "class_tag": 200,
+      "kind": 1,
+      "side_index": 4,
+      "player_index": 0,
+      "byte_length": 616,
+      "payload_sha256": "9ab8f62cadb965a8730614bcb0b4fc699b3bb585cc03c591f432c1cf8f6b0322",
+      "selected": true,
+      "factory_type": 5256,
+      "instance_id": 41,
+      "setjmp_calls": 1
+    },
+    {
+      "name": "OBJ_0000002a",
+      "class_tag": 200,
+      "kind": 1,
+      "side_index": 4,
+      "player_index": 0,
+      "byte_length": 616,
+      "payload_sha256": "bcd16c61cf49a12516668a6865b77e2ec21715f3a5419e54df433a8b6147d4f6",
+      "selected": true,
+      "factory_type": 5256,
+      "instance_id": 42,
+      "setjmp_calls": 1
+    },
+    {
+      "name": "OBJ_0000002b",
+      "class_tag": 400,
+      "kind": 2,
+      "side_index": 0,
+      "player_index": 0,
+      "byte_length": 44,
+      "payload_sha256": "b5cef7885327879996939c4a07db07008c891a407c90ad6d6bd0ab0497473f1d",
+      "selected": true,
+      "factory_type": 5758,
+      "instance_id": 43,
+      "setjmp_calls": 1
+    },
+    {
+      "name": "OBJ_0000002c",
+      "class_tag": 702,
+      "kind": 2,
+      "side_index": 0,
+      "player_index": 0,
+      "byte_length": 32,
+      "payload_sha256": "82ae9f94d1df8b6cc24edeebd73263eb9d75ddc1db56208071cc09b9bdeb4ca0",
+      "selected": true,
+      "factory_type": 5855,
+      "instance_id": 44,
+      "setjmp_calls": 1
+    },
+    {
+      "name": "OBJ_0000002e",
+      "class_tag": 703,
+      "kind": 0,
+      "side_index": 0,
+      "player_index": 0,
+      "byte_length": 20,
+      "payload_sha256": "eb5ba741c86088662edc0a8763ea5049a979af9836adc980d7464ed727cf518b",
+      "selected": true,
+      "factory_type": 5776,
+      "instance_id": 46,
+      "setjmp_calls": 1
+    }
+  ],
+  "limits": [
+    "No constructor, class Init, object state, graphics, simulation or AI is executed",
+    "Local offline branch only; network/replay recording and DB allocation are excluded",
+    "Original DB traversal uses raw mapped verified index, not original OS file opening",
+    "Canonical OBJ_8hex names only; noncanonical parser/error behavior is excluded",
+    "C# rejects malformed kind1 slots; original uses raw unchecked memory indexing",
+    "General DB key order is type, signed16 name length, raw name bytes; canonical OBJ names all have length12"
+  ]
+}

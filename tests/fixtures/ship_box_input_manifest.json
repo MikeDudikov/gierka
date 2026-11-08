@@ -1,0 +1,10 @@
+{
+  "sha256": "24d58431afcad0ff26eab4b10025be382ea420312ba4b6081c8919f7b639d1c6",
+  "bytes": 197754,
+  "report_sha256": "e9868a0e095ee9e919b2d6871868951ec4d02243a5e8dcc67f384044148b19eb",
+  "qa_helper_sha256": "621f2b5f9dcf2ec5943b6251c59e966027a514a0a709a8f39834f62a21fd141c",
+  "runtime_dll_sha256": "8ed5e4c2bfd5cc7780ab55426a66797e0c9631792e01bccfb5dfdfea2fe76fe1",
+  "stages": 30,
+  "events": 33,
+  "scope": "single0b box diagnostic"
+}

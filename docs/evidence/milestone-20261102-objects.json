@@ -1,0 +1,265 @@
+{
+  "date": "2026-11-02",
+  "base_commit": "864d5bdcb6c727495676c7a0d439615077a206a6",
+  "working_tree": true,
+  "published": false,
+  "target": [
+    1920,
+    1080
+  ],
+  "scope": "45 immutable source seeds and source filter/factory-code selection; five frozen state1/frame0 reef references on empty collision cells, not a playable mission",
+  "tests": 109,
+  "skipped": 0,
+  "comparisons": {
+    "object_selection_x86_csharp": 1450,
+    "object_selection_csharp_contract_checks": 36,
+    "source_btree_all_keys": 63,
+    "source_btree_obj_keys": 45,
+    "initial_setup_x86_csharp": 177,
+    "initial_setup_csharp_contract_checks": 25,
+    "reef_x86_csharp": 104,
+    "reef_csharp_contract_checks": 11,
+    "animation_frame_names": 60,
+    "animation_bounding_boxes": 180,
+    "reef_rle_pixel_buffers": 360,
+    "object_frame_checker_controls": 48
+  },
+  "source_initial_setup": {
+    "player": [
+      1,
+      1
+    ],
+    "active_slots": {
+      "5": 1,
+      "16": 3
+    },
+    "saved_origin_cells": [
+      15,
+      0
+    ],
+    "source_view_cells": [
+      9,
+      8
+    ],
+    "meaning": "Bounded original initialization data; does not change diagnostic camera or establish original first framebuffer"
+  },
+  "build": {
+    "result": "Succeeded",
+    "platform": "StandaloneWindows64",
+    "output": "/workspace/gierka/artifacts/unity-reference/Windows/AncientConquestReference.exe",
+    "editorVersion": "6000.3.27f2",
+    "warnings": 0,
+    "errors": 0,
+    "bytes": 143756027,
+    "resolution": "1920x1080",
+    "development": false
+  },
+  "runtime_dll_sha256": "086b6336947ea73315854addb4c21713b5999d94697b19be729cb8234e8f8817",
+  "objects_runtime": {
+    "report": "artifacts/objects/runtime-final/report.json",
+    "cases": [
+      {
+        "name": "reef-00000009",
+        "mean_rgb_error": 0.0,
+        "max_channel_error": 0,
+        "exact_pixel_fraction": 1.0,
+        "reef_regions": [
+          {
+            "instance_id": 9,
+            "rect": [
+              384,
+              128,
+              512,
+              256
+            ],
+            "mean_rgb_error": 0.0,
+            "covered_pixel_mean_rgb_error": 0.0,
+            "max_channel_error": 0,
+            "matched": true
+          }
+        ],
+        "exit": 0,
+        "capture": "artifacts/objects/runtime-final/reef-00000009/frame-01.png"
+      },
+      {
+        "name": "reef-0000000a",
+        "mean_rgb_error": 0.0,
+        "max_channel_error": 0,
+        "exact_pixel_fraction": 1.0,
+        "reef_regions": [
+          {
+            "instance_id": 10,
+            "rect": [
+              1408,
+              256,
+              1536,
+              384
+            ],
+            "mean_rgb_error": 0.0,
+            "covered_pixel_mean_rgb_error": 0.0,
+            "max_channel_error": 0,
+            "matched": true
+          }
+        ],
+        "exit": 0,
+        "capture": "artifacts/objects/runtime-final/reef-0000000a/frame-01.png"
+      },
+      {
+        "name": "reefs-00000005-00000006",
+        "mean_rgb_error": 0.0,
+        "max_channel_error": 0,
+        "exact_pixel_fraction": 1.0,
+        "reef_regions": [
+          {
+            "instance_id": 5,
+            "rect": [
+              1664,
+              512,
+              1792,
+              640
+            ],
+            "mean_rgb_error": 0.0,
+            "covered_pixel_mean_rgb_error": 0.0,
+            "max_channel_error": 0,
+            "matched": true
+          },
+          {
+            "instance_id": 6,
+            "rect": [
+              896,
+              896,
+              1024,
+              1024
+            ],
+            "mean_rgb_error": 0.0,
+            "covered_pixel_mean_rgb_error": 0.0,
+            "max_channel_error": 0,
+            "matched": true
+          }
+        ],
+        "exit": 0,
+        "capture": "artifacts/objects/runtime-final/reefs-00000005-00000006/frame-01.png"
+      },
+      {
+        "name": "reef-00000021",
+        "mean_rgb_error": 0.0,
+        "max_channel_error": 0,
+        "exact_pixel_fraction": 1.0,
+        "reef_regions": [
+          {
+            "instance_id": 33,
+            "rect": [
+              640,
+              768,
+              768,
+              896
+            ],
+            "mean_rgb_error": 0.0,
+            "covered_pixel_mean_rgb_error": 0.0,
+            "max_channel_error": 0,
+            "matched": true
+          }
+        ],
+        "exit": 0,
+        "capture": "artifacts/objects/runtime-final/reef-00000021/frame-01.png"
+      }
+    ]
+  },
+  "terrain_regression": {
+    "report": "artifacts/objects/terrain-regression-final/report.json",
+    "cases": [
+      {
+        "name": "origin-0-0",
+        "mean_rgb_error": 0.0,
+        "exit": 0
+      },
+      {
+        "name": "interior-4-4",
+        "mean_rgb_error": 0.0,
+        "exit": 0
+      },
+      {
+        "name": "clamped-999-999",
+        "mean_rgb_error": 0.0,
+        "exit": 0
+      }
+    ]
+  },
+  "briefing_regression": {
+    "report": "artifacts/objects/briefing-regression-final/report.json",
+    "stages": 39,
+    "captures": 11,
+    "exit": 0
+  },
+  "menu_regression": {
+    "report": "artifacts/objects/menu-regression-final/report.json",
+    "stages": 27,
+    "captures": 5,
+    "commands": 6,
+    "exit": 0
+  },
+  "archive": {
+    "archive": "artifacts/objects/AncientConquest-Prototype-Objects-Windows-x64-1920x1080.zip",
+    "bytes": 47046455,
+    "sha256": "6084edd56b3de5d2daadfe959c5abb037bf2b22209da9ed7dea2d20bd9ea757e",
+    "file_count": 179,
+    "validation": "ZIP CRC and SHA256 of every decompressed file matched build or explicit package extra"
+  },
+  "source_sha256": {
+    "Unity/AncientConquest/Assets/AncientConquest/Editor/BuildReferenceWindows.cs": "b6c86348b749f3b56911a3ea1c3f0ae55ae42902dd8f839ec1643892a988beee",
+    "Unity/AncientConquest/Assets/AncientConquest/Editor/ValidateMenuInput.cs": "16ea4e733569bfb1a8fa1c8fd763e6f13570adfcb8f5f20d070b5ab43b98fb95",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/BriefingDifficultySelection.cs": "d068062ede1d046f700393c84a8e258780c9d1d54b20908f91a24b1395472611",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/BriefingPanel.cs": "5f7dfa1606ee556a7c879022a443b91926b8a2204c12c4da0aa97f4f067adc22",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/Diagnostics/BriefingInputReplay.cs": "da45e210a0ac0c3d6d8a46dd5764229809af8dcb7240a3124400b4bff4339993",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/Diagnostics/MenuInputReplay.cs": "9de40ee0d552c01cd93aaccc398c89e9e4cc44e5bb8ca2eb67501c3cff371dda",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/MainMenuButton.cs": "1cfe6db61bdba6237eb748bd7df3f92b8a6c33955ac88b50fc1d3da330e54aac",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/MissionInitialSetup.cs": "e354d48e69e56cc59b71d142c5a68d49f73f5966174ad3408a0feb59d23ebd8e",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/MissionObjectReference.cs": "bdd20f7eace46cb788a4f1e71ebb2d4fba9c9252879c97e36c3a2e9ffa19ef7a",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/MissionObjectSeed.cs": "65b6f22142fbdb26fa0239f6d0ed11d921dedaa0eec55d470f48e76f401c1c14",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/MissionObjectSelection.cs": "f2ec3c49d62bd6598992f154c4fe58e8948da21dcf2ece1c6e42643dc2a58fbd",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/MissionReefSeed.cs": "9f823f56e6605d6931c903026ff8b0249b84efe75f9b8c0748bc070e320686e6",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/NativeMenuCanvas.cs": "c8ee8a644ef3c960ddf63a7b450d35042163fe7c906edf0dae0795c10be6598f",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/NativeMenuFrame.cs": "9adfbf8465576c712e5d306c7564e802c56ae16f9a38985e60480f00f3089e91",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/RgbaResourceTexture.cs": "bfe98339b9fdc0d1c8e17154f306bcb74f45b37985f7a39cc76191fab87f6038",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/Simulation/BossAiMessageGate.cs": "92b0efb4fb6dfcbf1a47a103455bcaf10194f47576e6c490b10e0c1551a031dd",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/Simulation/SingleStepClock.cs": "e30a65784197edbcf174039dec5f72cea252b289f14972d4fafc0a488ec69539",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/TerrainMapData.cs": "bfe77e756982948f3018ea67a50098d87d7b8b973d24da5bc9930a080d65f815",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/TerrainReferenceFrame.cs": "a1d51af28c718ed740f272eec79a34b69de9e61f5cff29212df5db0cb30e8d97",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/TerrainViewport.cs": "01884de20a9d1dd9f8d4acdda170005822de414913753563447840e195f3f3e8"
+  },
+  "artifact_sha256": {
+    "artifacts/objects/build-report-first.json": "65bcef25c92e944351a2d5fc21d336e476dd7a2a20460018769c5d9cb9647a38",
+    "artifacts/objects/windows-build-objects-first.log": "d38ddd4fb10a862aa67670f93e11b6c75d64bd598f81c1608f8dd181ca27b379",
+    "artifacts/objects/full-tests-objects-final.txt": "da008031fcea7d228cc6e7b9d7b64d22801936a89ff46707f8e1cb63522ef84b",
+    "artifacts/objects/source-integrity.json": "e5bc4b91d3ecb55a8b360592707c783c316c6520054e73ebeabcf136c8f28b34",
+    "artifacts/objects/prototype-package-manifest.json": "2c48a6c4e07f265240864bb35e2da349c12ba0b65fdba319f7412ea046719ee8",
+    "artifacts/objects/runtime-final/report.json": "4c1dafbc1c23e438d40eee378346cf7873d5da70b6599a6bb46ebf6ed2dd4039",
+    "artifacts/objects/terrain-regression-final/report.json": "60bd397c8ce4b00f3abf1faa37c2912bb8c7512b137eb47f4c87bdc4933dce34",
+    "artifacts/objects/briefing-regression-final/report.json": "9b3f8ba62555cd64754ec9593af6350e9da79d2ddefdb2aac61c514699814f09",
+    "artifacts/objects/menu-regression-final/report.json": "e3bd96bd68aee928e382c9a178efc1d3c335c2941d6b13f627806dba683ef18a",
+    "artifacts/objects/loader/selection-validation.json": "0f33a076aa9fe3c04bcf2a67c8612cc6d6b7bf9ff36b89a90285945ed14420f9",
+    "artifacts/objects/position/reef-seed-csharp-validation.json": "167bdb9964d5c866b97e710daae17e68e576a6d171dad263149fb75929c6cc06",
+    "artifacts/objects/camera/mission-initial-setup-validation.json": "cecc9682e6a7fbda74165114020118f9e1dee2f2fb5a5d2a6982517f8cc9f0f9",
+    "artifacts/objects/animation/reef-animation-validation.json": "90f88fe9e59d0f6227abb0455ba71619de101011fb0934ae1cab8c1a132fb815",
+    "artifacts/objects/animation/reef-rle-validation.json": "8714bcf8dfcf4d68fdff0a1de9f70b82bc3c15fb424c3968c75731a316cfb488",
+    "artifacts/objects/position/qa-helper-controls/report.json": "cf70ebf7f9ca36d4e163687dfe4d09293edf8e7e76099b4a178b7aa68fec750c"
+  },
+  "meta_integrity": {
+    "missing_cs_metas": [],
+    "duplicate_guids": {},
+    "meta_count": 59
+  },
+  "limits": [
+    "Windows Mono player under Wine/Xvfb; native Windows11 and target laptop not tested",
+    "Five frozen state1/frame0 reef references with empty collision cells; not complete initial mission state",
+    "45 source seeds selected/parsed, zero original constructors executed by C#; no full spawning or simulation",
+    "Diagnostic Point2x camera is unchanged; saved source origin15,0/view9x8 is reported, not imposed as modern FOV",
+    "No OS input, navigation, panning, animation, AI, mission audio or gameplay validated",
+    "Timed diagnostic Application.Quit(0) is not product/menu Quit evidence",
+    "Source base-palette graphics remain a fidelity reference, not final2026art or hardware performance proof",
+    "Normal Start remains disabled; other classes, complete world order and full AI/simulation remain incomplete",
+    "Menu/briefing synthetic replay does not establish OS mouse routing",
+    "Pre-existing ComputeBuffer GC warning retained",
+    "Original gameplay session, final2026art and target laptop performance not validated"
+  ]
+}

@@ -1,0 +1,2932 @@
+{
+  "schema_version": 1,
+  "original_exe_sha256": "cb7746b288d23de2a0343ba51c154f961b3e3683b73bcc31e9a38b2c6b1e2021",
+  "native_entries": [
+    "0x518070",
+    "0x518c90",
+    "0x49ab30",
+    "0x49e230",
+    "0x49ca60",
+    "0x49b990",
+    "0x49bd60",
+    "0x4cf070",
+    "0x520c50",
+    "0x5593a0",
+    "0x4dc630",
+    "0x50c970"
+  ],
+  "cases": [
+    {
+      "label": "source-up-only-selection-and-two-orders",
+      "operations": [
+        {
+          "operation": "release",
+          "input": {
+            "cursor_type": 5,
+            "hover_self": true,
+            "cell": [
+              16,
+              2
+            ],
+            "mask": 0,
+            "bit": 0,
+            "blocked": false,
+            "enabled": true
+          },
+          "message": 98,
+          "flags": 0
+        },
+        {
+          "operation": "release",
+          "input": {
+            "cursor_type": 6,
+            "hover_self": true,
+            "cell": [
+              16,
+              2
+            ],
+            "mask": 0,
+            "bit": 0,
+            "blocked": false,
+            "enabled": true
+          },
+          "message": 98,
+          "flags": 0
+        },
+        {
+          "operation": "release",
+          "input": {
+            "cursor_type": 7,
+            "hover_self": false,
+            "cell": [
+              18,
+              5
+            ],
+            "mask": 0,
+            "bit": 0,
+            "blocked": false,
+            "enabled": true
+          },
+          "message": 98,
+          "flags": 0
+        },
+        {
+          "operation": "consume41",
+          "group": 0
+        },
+        {
+          "operation": "release",
+          "input": {
+            "cursor_type": 7,
+            "hover_self": false,
+            "cell": [
+              16,
+              4
+            ],
+            "mask": 0,
+            "bit": 0,
+            "blocked": false,
+            "enabled": true
+          },
+          "message": 98,
+          "flags": 0
+        }
+      ],
+      "rows": [
+        {
+          "group_count": 0,
+          "selected": true,
+          "pending": true,
+          "current_group": -1,
+          "ui_group": -1,
+          "sim_group": -1,
+          "visual": 1,
+          "cursor_type": 0,
+          "mask": 0,
+          "bit": 0,
+          "blocked": false,
+          "commands": [],
+          "clear_count": 0,
+          "select_count": 1,
+          "confirm_count": 0,
+          "rng": 0,
+          "rng_writes": [],
+          "render_boundaries": [
+            {
+              "entry": "0x516d90",
+              "label": "cursor asset load"
+            },
+            {
+              "entry": "0x516640",
+              "label": "cursor draw"
+            },
+            {
+              "entry": "0x4e0b80",
+              "label": "selection sprite create"
+            },
+            {
+              "entry": "0x516640",
+              "label": "cursor draw"
+            }
+          ],
+          "sound_backend_enabled": false
+        },
+        {
+          "group_count": 0,
+          "selected": true,
+          "pending": true,
+          "current_group": -1,
+          "ui_group": -1,
+          "sim_group": -1,
+          "visual": 1,
+          "cursor_type": 6,
+          "mask": 0,
+          "bit": 0,
+          "blocked": false,
+          "commands": [],
+          "clear_count": 0,
+          "select_count": 0,
+          "confirm_count": 0,
+          "rng": 0,
+          "rng_writes": [],
+          "render_boundaries": [
+            {
+              "entry": "0x516640",
+              "label": "cursor draw"
+            }
+          ],
+          "sound_backend_enabled": false
+        },
+        {
+          "group_count": 1,
+          "selected": true,
+          "pending": false,
+          "current_group": 0,
+          "ui_group": 0,
+          "sim_group": -1,
+          "visual": 1,
+          "cursor_type": 7,
+          "mask": 0,
+          "bit": 0,
+          "blocked": false,
+          "commands": [
+            {
+              "actor": 11,
+              "action": 41,
+              "payload_hex": "010000000000"
+            },
+            {
+              "actor": 11,
+              "action": 20,
+              "payload_hex": "120000000500000000"
+            }
+          ],
+          "clear_count": 0,
+          "select_count": 0,
+          "confirm_count": 1,
+          "rng": 0,
+          "rng_writes": [],
+          "render_boundaries": [
+            {
+              "entry": "0x515df0",
+              "label": "confirm sprite"
+            },
+            {
+              "entry": "0x516640",
+              "label": "cursor draw"
+            }
+          ],
+          "sound_backend_enabled": false
+        },
+        {
+          "group_count": 1,
+          "selected": true,
+          "pending": false,
+          "current_group": 0,
+          "ui_group": 0,
+          "sim_group": 0,
+          "visual": 1,
+          "cursor_type": 7,
+          "mask": 0,
+          "bit": 0,
+          "blocked": false,
+          "commands": [
+            {
+              "actor": 11,
+              "action": 41,
+              "payload_hex": "010000000000"
+            },
+            {
+              "actor": 11,
+              "action": 20,
+              "payload_hex": "120000000500000000"
+            }
+          ],
+          "clear_count": 0,
+          "select_count": 0,
+          "confirm_count": 1,
+          "rng": 0,
+          "rng_writes": [],
+          "render_boundaries": [
+            {
+              "entry": "0x515df0",
+              "label": "confirm sprite"
+            },
+            {
+              "entry": "0x516640",
+              "label": "cursor draw"
+            }
+          ],
+          "sound_backend_enabled": false
+        },
+        {
+          "group_count": 1,
+          "selected": true,
+          "pending": false,
+          "current_group": 0,
+          "ui_group": 0,
+          "sim_group": 0,
+          "visual": 1,
+          "cursor_type": 7,
+          "mask": 0,
+          "bit": 0,
+          "blocked": false,
+          "commands": [
+            {
+              "actor": 11,
+              "action": 20,
+              "payload_hex": "100000000400000000"
+            }
+          ],
+          "clear_count": 0,
+          "select_count": 0,
+          "confirm_count": 1,
+          "rng": 0,
+          "rng_writes": [],
+          "render_boundaries": [
+            {
+              "entry": "0x515df0",
+              "label": "confirm sprite"
+            },
+            {
+              "entry": "0x516640",
+              "label": "cursor draw"
+            }
+          ],
+          "sound_backend_enabled": false
+        }
+      ]
+    },
+    {
+      "label": "down-held-up-does-not-latch",
+      "operations": [
+        {
+          "operation": "release",
+          "input": {
+            "cursor_type": 5,
+            "hover_self": true,
+            "cell": [
+              18,
+              5
+            ],
+            "mask": 0,
+            "bit": 0,
+            "blocked": false,
+            "enabled": true
+          },
+          "message": 97,
+          "flags": 0
+        },
+        {
+          "operation": "release",
+          "input": {
+            "cursor_type": 5,
+            "hover_self": true,
+            "cell": [
+              18,
+              5
+            ],
+            "mask": 0,
+            "bit": 0,
+            "blocked": false,
+            "enabled": true
+          },
+          "message": 97,
+          "flags": 0
+        },
+        {
+          "operation": "release",
+          "input": {
+            "cursor_type": 5,
+            "hover_self": true,
+            "cell": [
+              16,
+              2
+            ],
+            "mask": 0,
+            "bit": 0,
+            "blocked": false,
+            "enabled": true
+          },
+          "message": 98,
+          "flags": 0
+        },
+        {
+          "operation": "release",
+          "input": {
+            "cursor_type": 5,
+            "hover_self": true,
+            "cell": [
+              18,
+              5
+            ],
+            "mask": 0,
+            "bit": 0,
+            "blocked": false,
+            "enabled": true
+          },
+          "message": 96,
+          "flags": 0
+        },
+        {
+          "operation": "release",
+          "input": {
+            "cursor_type": 6,
+            "hover_self": true,
+            "cell": [
+              18,
+              5
+            ],
+            "mask": 0,
+            "bit": 0,
+            "blocked": false,
+            "enabled": true
+          },
+          "message": 99,
+          "flags": 0
+        },
+        {
+          "operation": "release",
+          "input": {
+            "cursor_type": 7,
+            "hover_self": false,
+            "cell": [
+              18,
+              5
+            ],
+            "mask": 0,
+            "bit": 0,
+            "blocked": false,
+            "enabled": true
+          },
+          "message": 97,
+          "flags": 0
+        },
+        {
+          "operation": "release",
+          "input": {
+            "cursor_type": 7,
+            "hover_self": false,
+            "cell": [
+              18,
+              5
+            ],
+            "mask": 0,
+            "bit": 0,
+            "blocked": false,
+            "enabled": true
+          },
+          "message": 98,
+          "flags": 0
+        },
+        {
+          "operation": "consume41",
+          "group": 0
+        }
+      ],
+      "rows": [
+        {
+          "group_count": 0,
+          "selected": false,
+          "pending": false,
+          "current_group": -1,
+          "ui_group": -1,
+          "sim_group": -1,
+          "visual": 0,
+          "cursor_type": 5,
+          "mask": 0,
+          "bit": 0,
+          "blocked": false,
+          "commands": [],
+          "clear_count": 0,
+          "select_count": 0,
+          "confirm_count": 0,
+          "rng": 0,
+          "rng_writes": [],
+          "render_boundaries": [
+            {
+              "entry": "0x516640",
+              "label": "cursor draw"
+            }
+          ],
+          "sound_backend_enabled": false
+        },
+        {
+          "group_count": 0,
+          "selected": false,
+          "pending": false,
+          "current_group": -1,
+          "ui_group": -1,
+          "sim_group": -1,
+          "visual": 0,
+          "cursor_type": 5,
+          "mask": 0,
+          "bit": 0,
+          "blocked": false,
+          "commands": [],
+          "clear_count": 0,
+          "select_count": 0,
+          "confirm_count": 0,
+          "rng": 0,
+          "rng_writes": [],
+          "render_boundaries": [
+            {
+              "entry": "0x516640",
+              "label": "cursor draw"
+            }
+          ],
+          "sound_backend_enabled": false
+        },
+        {
+          "group_count": 0,
+          "selected": true,
+          "pending": true,
+          "current_group": -1,
+          "ui_group": -1,
+          "sim_group": -1,
+          "visual": 1,
+          "cursor_type": 0,
+          "mask": 0,
+          "bit": 0,
+          "blocked": false,
+          "commands": [],
+          "clear_count": 0,
+          "select_count": 1,
+          "confirm_count": 0,
+          "rng": 0,
+          "rng_writes": [],
+          "render_boundaries": [
+            {
+              "entry": "0x516d90",
+              "label": "cursor asset load"
+            },
+            {
+              "entry": "0x516640",
+              "label": "cursor draw"
+            },
+            {
+              "entry": "0x4e0b80",
+              "label": "selection sprite create"
+            },
+            {
+              "entry": "0x516640",
+              "label": "cursor draw"
+            }
+          ],
+          "sound_backend_enabled": false
+        },
+        {
+          "group_count": 0,
+          "selected": true,
+          "pending": true,
+          "current_group": -1,
+          "ui_group": -1,
+          "sim_group": -1,
+          "visual": 1,
+          "cursor_type": 5,
+          "mask": 0,
+          "bit": 0,
+          "blocked": false,
+          "commands": [],
+          "clear_count": 0,
+          "select_count": 0,
+          "confirm_count": 0,
+          "rng": 0,
+          "rng_writes": [],
+          "render_boundaries": [
+            {
+              "entry": "0x516640",
+              "label": "cursor draw"
+            }
+          ],
+          "sound_backend_enabled": false
+        },
+        {
+          "group_count": 0,
+          "selected": true,
+          "pending": true,
+          "current_group": -1,
+          "ui_group": -1,
+          "sim_group": -1,
+          "visual": 1,
+          "cursor_type": 6,
+          "mask": 0,
+          "bit": 0,
+          "blocked": false,
+          "commands": [],
+          "clear_count": 0,
+          "select_count": 0,
+          "confirm_count": 0,
+          "rng": 0,
+          "rng_writes": [],
+          "render_boundaries": [
+            {
+              "entry": "0x516640",
+              "label": "cursor draw"
+            }
+          ],
+          "sound_backend_enabled": false
+        },
+        {
+          "group_count": 0,
+          "selected": true,
+          "pending": true,
+          "current_group": -1,
+          "ui_group": -1,
+          "sim_group": -1,
+          "visual": 1,
+          "cursor_type": 7,
+          "mask": 0,
+          "bit": 0,
+          "blocked": false,
+          "commands": [],
+          "clear_count": 0,
+          "select_count": 0,
+          "confirm_count": 0,
+          "rng": 0,
+          "rng_writes": [],
+          "render_boundaries": [
+            {
+              "entry": "0x516640",
+              "label": "cursor draw"
+            }
+          ],
+          "sound_backend_enabled": false
+        },
+        {
+          "group_count": 1,
+          "selected": true,
+          "pending": false,
+          "current_group": 0,
+          "ui_group": 0,
+          "sim_group": -1,
+          "visual": 1,
+          "cursor_type": 7,
+          "mask": 0,
+          "bit": 0,
+          "blocked": false,
+          "commands": [
+            {
+              "actor": 11,
+              "action": 41,
+              "payload_hex": "010000000000"
+            },
+            {
+              "actor": 11,
+              "action": 20,
+              "payload_hex": "120000000500000000"
+            }
+          ],
+          "clear_count": 0,
+          "select_count": 0,
+          "confirm_count": 1,
+          "rng": 0,
+          "rng_writes": [],
+          "render_boundaries": [
+            {
+              "entry": "0x515df0",
+              "label": "confirm sprite"
+            },
+            {
+              "entry": "0x516640",
+              "label": "cursor draw"
+            }
+          ],
+          "sound_backend_enabled": false
+        },
+        {
+          "group_count": 1,
+          "selected": true,
+          "pending": false,
+          "current_group": 0,
+          "ui_group": 0,
+          "sim_group": 0,
+          "visual": 1,
+          "cursor_type": 7,
+          "mask": 0,
+          "bit": 0,
+          "blocked": false,
+          "commands": [
+            {
+              "actor": 11,
+              "action": 41,
+              "payload_hex": "010000000000"
+            },
+            {
+              "actor": 11,
+              "action": 20,
+              "payload_hex": "120000000500000000"
+            }
+          ],
+          "clear_count": 0,
+          "select_count": 0,
+          "confirm_count": 1,
+          "rng": 0,
+          "rng_writes": [],
+          "render_boundaries": [
+            {
+              "entry": "0x515df0",
+              "label": "confirm sprite"
+            },
+            {
+              "entry": "0x516640",
+              "label": "cursor draw"
+            }
+          ],
+          "sound_backend_enabled": false
+        }
+      ]
+    },
+    {
+      "label": "clear-reselect-group1-group2",
+      "operations": [
+        {
+          "operation": "release",
+          "input": {
+            "cursor_type": 5,
+            "hover_self": true,
+            "cell": [
+              16,
+              2
+            ],
+            "mask": 0,
+            "bit": 0,
+            "blocked": false,
+            "enabled": true
+          },
+          "message": 98,
+          "flags": 0
+        },
+        {
+          "operation": "release",
+          "input": {
+            "cursor_type": 7,
+            "hover_self": false,
+            "cell": [
+              18,
+              5
+            ],
+            "mask": 0,
+            "bit": 0,
+            "blocked": false,
+            "enabled": true
+          },
+          "message": 98,
+          "flags": 0
+        },
+        {
+          "operation": "consume41",
+          "group": 0
+        },
+        {
+          "operation": "release",
+          "input": {
+            "cursor_type": 7,
+            "hover_self": false,
+            "cell": [
+              18,
+              5
+            ],
+            "mask": 0,
+            "bit": 0,
+            "blocked": false,
+            "enabled": true
+          },
+          "message": 100,
+          "flags": 0
+        },
+        {
+          "operation": "release",
+          "input": {
+            "cursor_type": 5,
+            "hover_self": true,
+            "cell": [
+              16,
+              2
+            ],
+            "mask": 0,
+            "bit": 0,
+            "blocked": false,
+            "enabled": true
+          },
+          "message": 98,
+          "flags": 0
+        },
+        {
+          "operation": "release",
+          "input": {
+            "cursor_type": 7,
+            "hover_self": false,
+            "cell": [
+              18,
+              5
+            ],
+            "mask": 0,
+            "bit": 0,
+            "blocked": false,
+            "enabled": true
+          },
+          "message": 98,
+          "flags": 0
+        },
+        {
+          "operation": "consume41",
+          "group": -1
+        },
+        {
+          "operation": "consume41",
+          "group": 1
+        },
+        {
+          "operation": "release",
+          "input": {
+            "cursor_type": 7,
+            "hover_self": false,
+            "cell": [
+              18,
+              5
+            ],
+            "mask": 0,
+            "bit": 0,
+            "blocked": false,
+            "enabled": true
+          },
+          "message": 100,
+          "flags": 0
+        },
+        {
+          "operation": "release",
+          "input": {
+            "cursor_type": 5,
+            "hover_self": true,
+            "cell": [
+              16,
+              2
+            ],
+            "mask": 0,
+            "bit": 0,
+            "blocked": false,
+            "enabled": true
+          },
+          "message": 98,
+          "flags": 0
+        },
+        {
+          "operation": "release",
+          "input": {
+            "cursor_type": 7,
+            "hover_self": false,
+            "cell": [
+              18,
+              5
+            ],
+            "mask": 0,
+            "bit": 0,
+            "blocked": false,
+            "enabled": true
+          },
+          "message": 98,
+          "flags": 0
+        },
+        {
+          "operation": "consume41",
+          "group": -1
+        },
+        {
+          "operation": "consume41",
+          "group": 2
+        }
+      ],
+      "rows": [
+        {
+          "group_count": 0,
+          "selected": true,
+          "pending": true,
+          "current_group": -1,
+          "ui_group": -1,
+          "sim_group": -1,
+          "visual": 1,
+          "cursor_type": 0,
+          "mask": 0,
+          "bit": 0,
+          "blocked": false,
+          "commands": [],
+          "clear_count": 0,
+          "select_count": 1,
+          "confirm_count": 0,
+          "rng": 0,
+          "rng_writes": [],
+          "render_boundaries": [
+            {
+              "entry": "0x516d90",
+              "label": "cursor asset load"
+            },
+            {
+              "entry": "0x516640",
+              "label": "cursor draw"
+            },
+            {
+              "entry": "0x4e0b80",
+              "label": "selection sprite create"
+            },
+            {
+              "entry": "0x516640",
+              "label": "cursor draw"
+            }
+          ],
+          "sound_backend_enabled": false
+        },
+        {
+          "group_count": 1,
+          "selected": true,
+          "pending": false,
+          "current_group": 0,
+          "ui_group": 0,
+          "sim_group": -1,
+          "visual": 1,
+          "cursor_type": 7,
+          "mask": 0,
+          "bit": 0,
+          "blocked": false,
+          "commands": [
+            {
+              "actor": 11,
+              "action": 41,
+              "payload_hex": "010000000000"
+            },
+            {
+              "actor": 11,
+              "action": 20,
+              "payload_hex": "120000000500000000"
+            }
+          ],
+          "clear_count": 0,
+          "select_count": 0,
+          "confirm_count": 1,
+          "rng": 0,
+          "rng_writes": [],
+          "render_boundaries": [
+            {
+              "entry": "0x515df0",
+              "label": "confirm sprite"
+            },
+            {
+              "entry": "0x516640",
+              "label": "cursor draw"
+            }
+          ],
+          "sound_backend_enabled": false
+        },
+        {
+          "group_count": 1,
+          "selected": true,
+          "pending": false,
+          "current_group": 0,
+          "ui_group": 0,
+          "sim_group": 0,
+          "visual": 1,
+          "cursor_type": 7,
+          "mask": 0,
+          "bit": 0,
+          "blocked": false,
+          "commands": [
+            {
+              "actor": 11,
+              "action": 41,
+              "payload_hex": "010000000000"
+            },
+            {
+              "actor": 11,
+              "action": 20,
+              "payload_hex": "120000000500000000"
+            }
+          ],
+          "clear_count": 0,
+          "select_count": 0,
+          "confirm_count": 1,
+          "rng": 0,
+          "rng_writes": [],
+          "render_boundaries": [
+            {
+              "entry": "0x515df0",
+              "label": "confirm sprite"
+            },
+            {
+              "entry": "0x516640",
+              "label": "cursor draw"
+            }
+          ],
+          "sound_backend_enabled": false
+        },
+        {
+          "group_count": 1,
+          "selected": false,
+          "pending": false,
+          "current_group": -1,
+          "ui_group": 0,
+          "sim_group": 0,
+          "visual": 2,
+          "cursor_type": 0,
+          "mask": 0,
+          "bit": 0,
+          "blocked": false,
+          "commands": [],
+          "clear_count": 1,
+          "select_count": 0,
+          "confirm_count": 0,
+          "rng": 0,
+          "rng_writes": [],
+          "render_boundaries": [
+            {
+              "entry": "0x516d90",
+              "label": "cursor asset load"
+            },
+            {
+              "entry": "0x516640",
+              "label": "cursor draw"
+            },
+            {
+              "entry": "0x516640",
+              "label": "cursor draw"
+            }
+          ],
+          "sound_backend_enabled": false
+        },
+        {
+          "group_count": 1,
+          "selected": true,
+          "pending": true,
+          "current_group": -1,
+          "ui_group": 0,
+          "sim_group": 0,
+          "visual": 1,
+          "cursor_type": 0,
+          "mask": 0,
+          "bit": 0,
+          "blocked": false,
+          "commands": [],
+          "clear_count": 0,
+          "select_count": 1,
+          "confirm_count": 0,
+          "rng": 0,
+          "rng_writes": [],
+          "render_boundaries": [
+            {
+              "entry": "0x516d90",
+              "label": "cursor asset load"
+            },
+            {
+              "entry": "0x516640",
+              "label": "cursor draw"
+            },
+            {
+              "entry": "0x4e0b80",
+              "label": "selection sprite create"
+            },
+            {
+              "entry": "0x516640",
+              "label": "cursor draw"
+            }
+          ],
+          "sound_backend_enabled": false
+        },
+        {
+          "group_count": 2,
+          "selected": true,
+          "pending": false,
+          "current_group": 1,
+          "ui_group": 1,
+          "sim_group": 0,
+          "visual": 1,
+          "cursor_type": 7,
+          "mask": 0,
+          "bit": 0,
+          "blocked": false,
+          "commands": [
+            {
+              "actor": 11,
+              "action": 41,
+              "payload_hex": "01ffffffff00"
+            },
+            {
+              "actor": 11,
+              "action": 41,
+              "payload_hex": "010100000000"
+            },
+            {
+              "actor": 11,
+              "action": 20,
+              "payload_hex": "120000000500000000"
+            }
+          ],
+          "clear_count": 0,
+          "select_count": 0,
+          "confirm_count": 1,
+          "rng": 0,
+          "rng_writes": [],
+          "render_boundaries": [
+            {
+              "entry": "0x515df0",
+              "label": "confirm sprite"
+            },
+            {
+              "entry": "0x516640",
+              "label": "cursor draw"
+            }
+          ],
+          "sound_backend_enabled": false
+        },
+        {
+          "group_count": 2,
+          "selected": true,
+          "pending": false,
+          "current_group": 1,
+          "ui_group": 1,
+          "sim_group": -1,
+          "visual": 1,
+          "cursor_type": 7,
+          "mask": 0,
+          "bit": 0,
+          "blocked": false,
+          "commands": [
+            {
+              "actor": 11,
+              "action": 41,
+              "payload_hex": "01ffffffff00"
+            },
+            {
+              "actor": 11,
+              "action": 41,
+              "payload_hex": "010100000000"
+            },
+            {
+              "actor": 11,
+              "action": 20,
+              "payload_hex": "120000000500000000"
+            }
+          ],
+          "clear_count": 0,
+          "select_count": 0,
+          "confirm_count": 1,
+          "rng": 0,
+          "rng_writes": [],
+          "render_boundaries": [
+            {
+              "entry": "0x515df0",
+              "label": "confirm sprite"
+            },
+            {
+              "entry": "0x516640",
+              "label": "cursor draw"
+            }
+          ],
+          "sound_backend_enabled": false
+        },
+        {
+          "group_count": 2,
+          "selected": true,
+          "pending": false,
+          "current_group": 1,
+          "ui_group": 1,
+          "sim_group": 1,
+          "visual": 1,
+          "cursor_type": 7,
+          "mask": 0,
+          "bit": 0,
+          "blocked": false,
+          "commands": [
+            {
+              "actor": 11,
+              "action": 41,
+              "payload_hex": "01ffffffff00"
+            },
+            {
+              "actor": 11,
+              "action": 41,
+              "payload_hex": "010100000000"
+            },
+            {
+              "actor": 11,
+              "action": 20,
+              "payload_hex": "120000000500000000"
+            }
+          ],
+          "clear_count": 0,
+          "select_count": 0,
+          "confirm_count": 1,
+          "rng": 0,
+          "rng_writes": [],
+          "render_boundaries": [
+            {
+              "entry": "0x515df0",
+              "label": "confirm sprite"
+            },
+            {
+              "entry": "0x516640",
+              "label": "cursor draw"
+            }
+          ],
+          "sound_backend_enabled": false
+        },
+        {
+          "group_count": 2,
+          "selected": false,
+          "pending": false,
+          "current_group": -1,
+          "ui_group": 1,
+          "sim_group": 1,
+          "visual": 2,
+          "cursor_type": 0,
+          "mask": 0,
+          "bit": 0,
+          "blocked": false,
+          "commands": [],
+          "clear_count": 1,
+          "select_count": 0,
+          "confirm_count": 0,
+          "rng": 0,
+          "rng_writes": [],
+          "render_boundaries": [
+            {
+              "entry": "0x516d90",
+              "label": "cursor asset load"
+            },
+            {
+              "entry": "0x516640",
+              "label": "cursor draw"
+            },
+            {
+              "entry": "0x516640",
+              "label": "cursor draw"
+            }
+          ],
+          "sound_backend_enabled": false
+        },
+        {
+          "group_count": 2,
+          "selected": true,
+          "pending": true,
+          "current_group": -1,
+          "ui_group": 1,
+          "sim_group": 1,
+          "visual": 1,
+          "cursor_type": 0,
+          "mask": 0,
+          "bit": 0,
+          "blocked": false,
+          "commands": [],
+          "clear_count": 0,
+          "select_count": 1,
+          "confirm_count": 0,
+          "rng": 0,
+          "rng_writes": [],
+          "render_boundaries": [
+            {
+              "entry": "0x516d90",
+              "label": "cursor asset load"
+            },
+            {
+              "entry": "0x516640",
+              "label": "cursor draw"
+            },
+            {
+              "entry": "0x4e0b80",
+              "label": "selection sprite create"
+            },
+            {
+              "entry": "0x516640",
+              "label": "cursor draw"
+            }
+          ],
+          "sound_backend_enabled": false
+        },
+        {
+          "group_count": 3,
+          "selected": true,
+          "pending": false,
+          "current_group": 2,
+          "ui_group": 2,
+          "sim_group": 1,
+          "visual": 1,
+          "cursor_type": 7,
+          "mask": 0,
+          "bit": 0,
+          "blocked": false,
+          "commands": [
+            {
+              "actor": 11,
+              "action": 41,
+              "payload_hex": "01ffffffff00"
+            },
+            {
+              "actor": 11,
+              "action": 41,
+              "payload_hex": "010200000000"
+            },
+            {
+              "actor": 11,
+              "action": 20,
+              "payload_hex": "120000000500000000"
+            }
+          ],
+          "clear_count": 0,
+          "select_count": 0,
+          "confirm_count": 1,
+          "rng": 0,
+          "rng_writes": [],
+          "render_boundaries": [
+            {
+              "entry": "0x515df0",
+              "label": "confirm sprite"
+            },
+            {
+              "entry": "0x516640",
+              "label": "cursor draw"
+            }
+          ],
+          "sound_backend_enabled": false
+        },
+        {
+          "group_count": 3,
+          "selected": true,
+          "pending": false,
+          "current_group": 2,
+          "ui_group": 2,
+          "sim_group": -1,
+          "visual": 1,
+          "cursor_type": 7,
+          "mask": 0,
+          "bit": 0,
+          "blocked": false,
+          "commands": [
+            {
+              "actor": 11,
+              "action": 41,
+              "payload_hex": "01ffffffff00"
+            },
+            {
+              "actor": 11,
+              "action": 41,
+              "payload_hex": "010200000000"
+            },
+            {
+              "actor": 11,
+              "action": 20,
+              "payload_hex": "120000000500000000"
+            }
+          ],
+          "clear_count": 0,
+          "select_count": 0,
+          "confirm_count": 1,
+          "rng": 0,
+          "rng_writes": [],
+          "render_boundaries": [
+            {
+              "entry": "0x515df0",
+              "label": "confirm sprite"
+            },
+            {
+              "entry": "0x516640",
+              "label": "cursor draw"
+            }
+          ],
+          "sound_backend_enabled": false
+        },
+        {
+          "group_count": 3,
+          "selected": true,
+          "pending": false,
+          "current_group": 2,
+          "ui_group": 2,
+          "sim_group": 2,
+          "visual": 1,
+          "cursor_type": 7,
+          "mask": 0,
+          "bit": 0,
+          "blocked": false,
+          "commands": [
+            {
+              "actor": 11,
+              "action": 41,
+              "payload_hex": "01ffffffff00"
+            },
+            {
+              "actor": 11,
+              "action": 41,
+              "payload_hex": "010200000000"
+            },
+            {
+              "actor": 11,
+              "action": 20,
+              "payload_hex": "120000000500000000"
+            }
+          ],
+          "clear_count": 0,
+          "select_count": 0,
+          "confirm_count": 1,
+          "rng": 0,
+          "rng_writes": [],
+          "render_boundaries": [
+            {
+              "entry": "0x515df0",
+              "label": "confirm sprite"
+            },
+            {
+              "entry": "0x516640",
+              "label": "cursor draw"
+            }
+          ],
+          "sound_backend_enabled": false
+        }
+      ]
+    },
+    {
+      "label": "self-right-cancels-cursor-keeps-selection",
+      "operations": [
+        {
+          "operation": "release",
+          "input": {
+            "cursor_type": 5,
+            "hover_self": true,
+            "cell": [
+              16,
+              2
+            ],
+            "mask": 0,
+            "bit": 0,
+            "blocked": false,
+            "enabled": true
+          },
+          "message": 98,
+          "flags": 0
+        },
+        {
+          "operation": "release",
+          "input": {
+            "cursor_type": 6,
+            "hover_self": true,
+            "cell": [
+              18,
+              5
+            ],
+            "mask": 0,
+            "bit": 4,
+            "blocked": false,
+            "enabled": true
+          },
+          "message": 100,
+          "flags": 0
+        },
+        {
+          "operation": "release",
+          "input": {
+            "cursor_type": 7,
+            "hover_self": false,
+            "cell": [
+              18,
+              5
+            ],
+            "mask": 0,
+            "bit": 0,
+            "blocked": false,
+            "enabled": true
+          },
+          "message": 98,
+          "flags": 0
+        },
+        {
+          "operation": "consume41",
+          "group": 0
+        }
+      ],
+      "rows": [
+        {
+          "group_count": 0,
+          "selected": true,
+          "pending": true,
+          "current_group": -1,
+          "ui_group": -1,
+          "sim_group": -1,
+          "visual": 1,
+          "cursor_type": 0,
+          "mask": 0,
+          "bit": 0,
+          "blocked": false,
+          "commands": [],
+          "clear_count": 0,
+          "select_count": 1,
+          "confirm_count": 0,
+          "rng": 0,
+          "rng_writes": [],
+          "render_boundaries": [
+            {
+              "entry": "0x516d90",
+              "label": "cursor asset load"
+            },
+            {
+              "entry": "0x516640",
+              "label": "cursor draw"
+            },
+            {
+              "entry": "0x4e0b80",
+              "label": "selection sprite create"
+            },
+            {
+              "entry": "0x516640",
+              "label": "cursor draw"
+            }
+          ],
+          "sound_backend_enabled": false
+        },
+        {
+          "group_count": 0,
+          "selected": true,
+          "pending": true,
+          "current_group": -1,
+          "ui_group": -1,
+          "sim_group": -1,
+          "visual": 1,
+          "cursor_type": 0,
+          "mask": 0,
+          "bit": 4,
+          "blocked": false,
+          "commands": [],
+          "clear_count": 0,
+          "select_count": 0,
+          "confirm_count": 0,
+          "rng": 0,
+          "rng_writes": [],
+          "render_boundaries": [
+            {
+              "entry": "0x516d90",
+              "label": "cursor asset load"
+            },
+            {
+              "entry": "0x516640",
+              "label": "cursor draw"
+            }
+          ],
+          "sound_backend_enabled": false
+        },
+        {
+          "group_count": 1,
+          "selected": true,
+          "pending": false,
+          "current_group": 0,
+          "ui_group": 0,
+          "sim_group": -1,
+          "visual": 1,
+          "cursor_type": 7,
+          "mask": 0,
+          "bit": 0,
+          "blocked": false,
+          "commands": [
+            {
+              "actor": 11,
+              "action": 41,
+              "payload_hex": "010000000000"
+            },
+            {
+              "actor": 11,
+              "action": 20,
+              "payload_hex": "120000000500000000"
+            }
+          ],
+          "clear_count": 0,
+          "select_count": 0,
+          "confirm_count": 1,
+          "rng": 0,
+          "rng_writes": [],
+          "render_boundaries": [
+            {
+              "entry": "0x515df0",
+              "label": "confirm sprite"
+            },
+            {
+              "entry": "0x516640",
+              "label": "cursor draw"
+            }
+          ],
+          "sound_backend_enabled": false
+        },
+        {
+          "group_count": 1,
+          "selected": true,
+          "pending": false,
+          "current_group": 0,
+          "ui_group": 0,
+          "sim_group": 0,
+          "visual": 1,
+          "cursor_type": 7,
+          "mask": 0,
+          "bit": 0,
+          "blocked": false,
+          "commands": [
+            {
+              "actor": 11,
+              "action": 41,
+              "payload_hex": "010000000000"
+            },
+            {
+              "actor": 11,
+              "action": 20,
+              "payload_hex": "120000000500000000"
+            }
+          ],
+          "clear_count": 0,
+          "select_count": 0,
+          "confirm_count": 1,
+          "rng": 0,
+          "rng_writes": [],
+          "render_boundaries": [
+            {
+              "entry": "0x515df0",
+              "label": "confirm sprite"
+            },
+            {
+              "entry": "0x516640",
+              "label": "cursor draw"
+            }
+          ],
+          "sound_backend_enabled": false
+        }
+      ]
+    },
+    {
+      "label": "blank-zero-clear-retains-mask-bit",
+      "operations": [
+        {
+          "operation": "release",
+          "input": {
+            "cursor_type": 5,
+            "hover_self": true,
+            "cell": [
+              16,
+              2
+            ],
+            "mask": 0,
+            "bit": 0,
+            "blocked": false,
+            "enabled": true
+          },
+          "message": 98,
+          "flags": 0
+        },
+        {
+          "operation": "release",
+          "input": {
+            "cursor_type": 0,
+            "hover_self": false,
+            "cell": [
+              18,
+              5
+            ],
+            "mask": 257,
+            "bit": 1,
+            "blocked": false,
+            "enabled": true
+          },
+          "message": 100,
+          "flags": 0
+        }
+      ],
+      "rows": [
+        {
+          "group_count": 0,
+          "selected": true,
+          "pending": true,
+          "current_group": -1,
+          "ui_group": -1,
+          "sim_group": -1,
+          "visual": 1,
+          "cursor_type": 0,
+          "mask": 0,
+          "bit": 0,
+          "blocked": false,
+          "commands": [],
+          "clear_count": 0,
+          "select_count": 1,
+          "confirm_count": 0,
+          "rng": 0,
+          "rng_writes": [],
+          "render_boundaries": [
+            {
+              "entry": "0x516d90",
+              "label": "cursor asset load"
+            },
+            {
+              "entry": "0x516640",
+              "label": "cursor draw"
+            },
+            {
+              "entry": "0x4e0b80",
+              "label": "selection sprite create"
+            },
+            {
+              "entry": "0x516640",
+              "label": "cursor draw"
+            }
+          ],
+          "sound_backend_enabled": false
+        },
+        {
+          "group_count": 0,
+          "selected": false,
+          "pending": false,
+          "current_group": -1,
+          "ui_group": -1,
+          "sim_group": -1,
+          "visual": 2,
+          "cursor_type": 0,
+          "mask": 257,
+          "bit": 1,
+          "blocked": false,
+          "commands": [],
+          "clear_count": 1,
+          "select_count": 0,
+          "confirm_count": 0,
+          "rng": 0,
+          "rng_writes": [],
+          "render_boundaries": [
+            {
+              "entry": "0x516640",
+              "label": "cursor draw"
+            }
+          ],
+          "sound_backend_enabled": false
+        }
+      ]
+    },
+    {
+      "label": "friendly-reselect-clears-before-select",
+      "operations": [
+        {
+          "operation": "release",
+          "input": {
+            "cursor_type": 5,
+            "hover_self": true,
+            "cell": [
+              16,
+              2
+            ],
+            "mask": 0,
+            "bit": 0,
+            "blocked": false,
+            "enabled": true
+          },
+          "message": 98,
+          "flags": 0
+        },
+        {
+          "operation": "release",
+          "input": {
+            "cursor_type": 5,
+            "hover_self": true,
+            "cell": [
+              16,
+              2
+            ],
+            "mask": 0,
+            "bit": 0,
+            "blocked": false,
+            "enabled": true
+          },
+          "message": 98,
+          "flags": 0
+        },
+        {
+          "operation": "release",
+          "input": {
+            "cursor_type": 7,
+            "hover_self": false,
+            "cell": [
+              18,
+              5
+            ],
+            "mask": 0,
+            "bit": 0,
+            "blocked": false,
+            "enabled": true
+          },
+          "message": 98,
+          "flags": 0
+        },
+        {
+          "operation": "consume41",
+          "group": 0
+        }
+      ],
+      "rows": [
+        {
+          "group_count": 0,
+          "selected": true,
+          "pending": true,
+          "current_group": -1,
+          "ui_group": -1,
+          "sim_group": -1,
+          "visual": 1,
+          "cursor_type": 0,
+          "mask": 0,
+          "bit": 0,
+          "blocked": false,
+          "commands": [],
+          "clear_count": 0,
+          "select_count": 1,
+          "confirm_count": 0,
+          "rng": 0,
+          "rng_writes": [],
+          "render_boundaries": [
+            {
+              "entry": "0x516d90",
+              "label": "cursor asset load"
+            },
+            {
+              "entry": "0x516640",
+              "label": "cursor draw"
+            },
+            {
+              "entry": "0x4e0b80",
+              "label": "selection sprite create"
+            },
+            {
+              "entry": "0x516640",
+              "label": "cursor draw"
+            }
+          ],
+          "sound_backend_enabled": false
+        },
+        {
+          "group_count": 0,
+          "selected": true,
+          "pending": true,
+          "current_group": -1,
+          "ui_group": -1,
+          "sim_group": -1,
+          "visual": 1,
+          "cursor_type": 0,
+          "mask": 0,
+          "bit": 0,
+          "blocked": false,
+          "commands": [],
+          "clear_count": 1,
+          "select_count": 1,
+          "confirm_count": 0,
+          "rng": 0,
+          "rng_writes": [],
+          "render_boundaries": [
+            {
+              "entry": "0x516d90",
+              "label": "cursor asset load"
+            },
+            {
+              "entry": "0x516640",
+              "label": "cursor draw"
+            },
+            {
+              "entry": "0x4e0b80",
+              "label": "selection sprite create"
+            },
+            {
+              "entry": "0x516640",
+              "label": "cursor draw"
+            }
+          ],
+          "sound_backend_enabled": false
+        },
+        {
+          "group_count": 1,
+          "selected": true,
+          "pending": false,
+          "current_group": 0,
+          "ui_group": 0,
+          "sim_group": -1,
+          "visual": 1,
+          "cursor_type": 7,
+          "mask": 0,
+          "bit": 0,
+          "blocked": false,
+          "commands": [
+            {
+              "actor": 11,
+              "action": 41,
+              "payload_hex": "010000000000"
+            },
+            {
+              "actor": 11,
+              "action": 20,
+              "payload_hex": "120000000500000000"
+            }
+          ],
+          "clear_count": 0,
+          "select_count": 0,
+          "confirm_count": 1,
+          "rng": 0,
+          "rng_writes": [],
+          "render_boundaries": [
+            {
+              "entry": "0x515df0",
+              "label": "confirm sprite"
+            },
+            {
+              "entry": "0x516640",
+              "label": "cursor draw"
+            }
+          ],
+          "sound_backend_enabled": false
+        },
+        {
+          "group_count": 1,
+          "selected": true,
+          "pending": false,
+          "current_group": 0,
+          "ui_group": 0,
+          "sim_group": 0,
+          "visual": 1,
+          "cursor_type": 7,
+          "mask": 0,
+          "bit": 0,
+          "blocked": false,
+          "commands": [
+            {
+              "actor": 11,
+              "action": 41,
+              "payload_hex": "010000000000"
+            },
+            {
+              "actor": 11,
+              "action": 20,
+              "payload_hex": "120000000500000000"
+            }
+          ],
+          "clear_count": 0,
+          "select_count": 0,
+          "confirm_count": 1,
+          "rng": 0,
+          "rng_writes": [],
+          "render_boundaries": [
+            {
+              "entry": "0x515df0",
+              "label": "confirm sprite"
+            },
+            {
+              "entry": "0x516640",
+              "label": "cursor draw"
+            }
+          ],
+          "sound_backend_enabled": false
+        }
+      ]
+    },
+    {
+      "label": "blocked-and-disabled-context",
+      "operations": [
+        {
+          "operation": "release",
+          "input": {
+            "cursor_type": 5,
+            "hover_self": true,
+            "cell": [
+              18,
+              5
+            ],
+            "mask": 0,
+            "bit": 0,
+            "blocked": true,
+            "enabled": true
+          },
+          "message": 98,
+          "flags": 0
+        },
+        {
+          "operation": "release",
+          "input": {
+            "cursor_type": 5,
+            "hover_self": true,
+            "cell": [
+              18,
+              5
+            ],
+            "mask": 0,
+            "bit": 0,
+            "blocked": false,
+            "enabled": false
+          },
+          "message": 98,
+          "flags": 0
+        },
+        {
+          "operation": "release",
+          "input": {
+            "cursor_type": 5,
+            "hover_self": true,
+            "cell": [
+              16,
+              2
+            ],
+            "mask": 0,
+            "bit": 0,
+            "blocked": false,
+            "enabled": true
+          },
+          "message": 98,
+          "flags": 0
+        },
+        {
+          "operation": "release",
+          "input": {
+            "cursor_type": 7,
+            "hover_self": false,
+            "cell": [
+              18,
+              5
+            ],
+            "mask": 0,
+            "bit": 0,
+            "blocked": true,
+            "enabled": true
+          },
+          "message": 98,
+          "flags": 0
+        },
+        {
+          "operation": "release",
+          "input": {
+            "cursor_type": 7,
+            "hover_self": false,
+            "cell": [
+              18,
+              5
+            ],
+            "mask": 0,
+            "bit": 0,
+            "blocked": false,
+            "enabled": false
+          },
+          "message": 98,
+          "flags": 0
+        },
+        {
+          "operation": "release",
+          "input": {
+            "cursor_type": 5,
+            "hover_self": true,
+            "cell": [
+              18,
+              5
+            ],
+            "mask": 257,
+            "bit": 1,
+            "blocked": true,
+            "enabled": true
+          },
+          "message": 100,
+          "flags": 0
+        },
+        {
+          "operation": "release",
+          "input": {
+            "cursor_type": 7,
+            "hover_self": false,
+            "cell": [
+              18,
+              5
+            ],
+            "mask": 0,
+            "bit": 0,
+            "blocked": false,
+            "enabled": true
+          },
+          "message": 98,
+          "flags": 0
+        },
+        {
+          "operation": "consume41",
+          "group": 0
+        }
+      ],
+      "rows": [
+        {
+          "group_count": 0,
+          "selected": false,
+          "pending": false,
+          "current_group": -1,
+          "ui_group": -1,
+          "sim_group": -1,
+          "visual": 0,
+          "cursor_type": 5,
+          "mask": 0,
+          "bit": 0,
+          "blocked": true,
+          "commands": [],
+          "clear_count": 0,
+          "select_count": 0,
+          "confirm_count": 0,
+          "rng": 0,
+          "rng_writes": [],
+          "render_boundaries": [
+            {
+              "entry": "0x516640",
+              "label": "cursor draw"
+            }
+          ],
+          "sound_backend_enabled": false
+        },
+        {
+          "group_count": 0,
+          "selected": false,
+          "pending": false,
+          "current_group": -1,
+          "ui_group": -1,
+          "sim_group": -1,
+          "visual": 0,
+          "cursor_type": 5,
+          "mask": 0,
+          "bit": 0,
+          "blocked": false,
+          "commands": [],
+          "clear_count": 0,
+          "select_count": 0,
+          "confirm_count": 0,
+          "rng": 0,
+          "rng_writes": [],
+          "render_boundaries": [],
+          "sound_backend_enabled": false
+        },
+        {
+          "group_count": 0,
+          "selected": true,
+          "pending": true,
+          "current_group": -1,
+          "ui_group": -1,
+          "sim_group": -1,
+          "visual": 1,
+          "cursor_type": 0,
+          "mask": 0,
+          "bit": 0,
+          "blocked": false,
+          "commands": [],
+          "clear_count": 0,
+          "select_count": 1,
+          "confirm_count": 0,
+          "rng": 0,
+          "rng_writes": [],
+          "render_boundaries": [
+            {
+              "entry": "0x516d90",
+              "label": "cursor asset load"
+            },
+            {
+              "entry": "0x516640",
+              "label": "cursor draw"
+            },
+            {
+              "entry": "0x4e0b80",
+              "label": "selection sprite create"
+            },
+            {
+              "entry": "0x516640",
+              "label": "cursor draw"
+            }
+          ],
+          "sound_backend_enabled": false
+        },
+        {
+          "group_count": 0,
+          "selected": true,
+          "pending": true,
+          "current_group": -1,
+          "ui_group": -1,
+          "sim_group": -1,
+          "visual": 1,
+          "cursor_type": 7,
+          "mask": 0,
+          "bit": 0,
+          "blocked": true,
+          "commands": [],
+          "clear_count": 0,
+          "select_count": 0,
+          "confirm_count": 0,
+          "rng": 0,
+          "rng_writes": [],
+          "render_boundaries": [
+            {
+              "entry": "0x516640",
+              "label": "cursor draw"
+            }
+          ],
+          "sound_backend_enabled": false
+        },
+        {
+          "group_count": 0,
+          "selected": true,
+          "pending": true,
+          "current_group": -1,
+          "ui_group": -1,
+          "sim_group": -1,
+          "visual": 1,
+          "cursor_type": 7,
+          "mask": 0,
+          "bit": 0,
+          "blocked": false,
+          "commands": [],
+          "clear_count": 0,
+          "select_count": 0,
+          "confirm_count": 0,
+          "rng": 0,
+          "rng_writes": [],
+          "render_boundaries": [],
+          "sound_backend_enabled": false
+        },
+        {
+          "group_count": 0,
+          "selected": true,
+          "pending": true,
+          "current_group": -1,
+          "ui_group": -1,
+          "sim_group": -1,
+          "visual": 1,
+          "cursor_type": 0,
+          "mask": 0,
+          "bit": 1,
+          "blocked": false,
+          "commands": [],
+          "clear_count": 0,
+          "select_count": 0,
+          "confirm_count": 0,
+          "rng": 0,
+          "rng_writes": [],
+          "render_boundaries": [
+            {
+              "entry": "0x516d90",
+              "label": "cursor asset load"
+            },
+            {
+              "entry": "0x516640",
+              "label": "cursor draw"
+            }
+          ],
+          "sound_backend_enabled": false
+        },
+        {
+          "group_count": 1,
+          "selected": true,
+          "pending": false,
+          "current_group": 0,
+          "ui_group": 0,
+          "sim_group": -1,
+          "visual": 1,
+          "cursor_type": 7,
+          "mask": 0,
+          "bit": 0,
+          "blocked": false,
+          "commands": [
+            {
+              "actor": 11,
+              "action": 41,
+              "payload_hex": "010000000000"
+            },
+            {
+              "actor": 11,
+              "action": 20,
+              "payload_hex": "120000000500000000"
+            }
+          ],
+          "clear_count": 0,
+          "select_count": 0,
+          "confirm_count": 1,
+          "rng": 0,
+          "rng_writes": [],
+          "render_boundaries": [
+            {
+              "entry": "0x515df0",
+              "label": "confirm sprite"
+            },
+            {
+              "entry": "0x516640",
+              "label": "cursor draw"
+            }
+          ],
+          "sound_backend_enabled": false
+        },
+        {
+          "group_count": 1,
+          "selected": true,
+          "pending": false,
+          "current_group": 0,
+          "ui_group": 0,
+          "sim_group": 0,
+          "visual": 1,
+          "cursor_type": 7,
+          "mask": 0,
+          "bit": 0,
+          "blocked": false,
+          "commands": [
+            {
+              "actor": 11,
+              "action": 41,
+              "payload_hex": "010000000000"
+            },
+            {
+              "actor": 11,
+              "action": 20,
+              "payload_hex": "120000000500000000"
+            }
+          ],
+          "clear_count": 0,
+          "select_count": 0,
+          "confirm_count": 1,
+          "rng": 0,
+          "rng_writes": [],
+          "render_boundaries": [
+            {
+              "entry": "0x515df0",
+              "label": "confirm sprite"
+            },
+            {
+              "entry": "0x516640",
+              "label": "cursor draw"
+            }
+          ],
+          "sound_backend_enabled": false
+        }
+      ]
+    },
+    {
+      "label": "right-friendly-no-action-and-empty-clear",
+      "operations": [
+        {
+          "operation": "release",
+          "input": {
+            "cursor_type": 5,
+            "hover_self": true,
+            "cell": [
+              18,
+              5
+            ],
+            "mask": 0,
+            "bit": 0,
+            "blocked": false,
+            "enabled": true
+          },
+          "message": 100,
+          "flags": 0
+        },
+        {
+          "operation": "release",
+          "input": {
+            "cursor_type": 0,
+            "hover_self": false,
+            "cell": [
+              18,
+              5
+            ],
+            "mask": 0,
+            "bit": 0,
+            "blocked": false,
+            "enabled": true
+          },
+          "message": 100,
+          "flags": 0
+        },
+        {
+          "operation": "release",
+          "input": {
+            "cursor_type": 5,
+            "hover_self": true,
+            "cell": [
+              16,
+              2
+            ],
+            "mask": 0,
+            "bit": 0,
+            "blocked": false,
+            "enabled": true
+          },
+          "message": 98,
+          "flags": 0
+        },
+        {
+          "operation": "release",
+          "input": {
+            "cursor_type": 5,
+            "hover_self": true,
+            "cell": [
+              18,
+              5
+            ],
+            "mask": 0,
+            "bit": 0,
+            "blocked": false,
+            "enabled": true
+          },
+          "message": 100,
+          "flags": 0
+        },
+        {
+          "operation": "release",
+          "input": {
+            "cursor_type": 7,
+            "hover_self": false,
+            "cell": [
+              18,
+              5
+            ],
+            "mask": 0,
+            "bit": 0,
+            "blocked": false,
+            "enabled": true
+          },
+          "message": 100,
+          "flags": 0
+        }
+      ],
+      "rows": [
+        {
+          "group_count": 0,
+          "selected": false,
+          "pending": false,
+          "current_group": -1,
+          "ui_group": -1,
+          "sim_group": -1,
+          "visual": 0,
+          "cursor_type": 5,
+          "mask": 0,
+          "bit": 0,
+          "blocked": false,
+          "commands": [],
+          "clear_count": 0,
+          "select_count": 0,
+          "confirm_count": 0,
+          "rng": 0,
+          "rng_writes": [],
+          "render_boundaries": [
+            {
+              "entry": "0x516640",
+              "label": "cursor draw"
+            }
+          ],
+          "sound_backend_enabled": false
+        },
+        {
+          "group_count": 0,
+          "selected": false,
+          "pending": false,
+          "current_group": -1,
+          "ui_group": -1,
+          "sim_group": -1,
+          "visual": 0,
+          "cursor_type": 0,
+          "mask": 0,
+          "bit": 0,
+          "blocked": false,
+          "commands": [],
+          "clear_count": 0,
+          "select_count": 0,
+          "confirm_count": 0,
+          "rng": 0,
+          "rng_writes": [],
+          "render_boundaries": [
+            {
+              "entry": "0x516640",
+              "label": "cursor draw"
+            }
+          ],
+          "sound_backend_enabled": false
+        },
+        {
+          "group_count": 0,
+          "selected": true,
+          "pending": true,
+          "current_group": -1,
+          "ui_group": -1,
+          "sim_group": -1,
+          "visual": 1,
+          "cursor_type": 0,
+          "mask": 0,
+          "bit": 0,
+          "blocked": false,
+          "commands": [],
+          "clear_count": 0,
+          "select_count": 1,
+          "confirm_count": 0,
+          "rng": 0,
+          "rng_writes": [],
+          "render_boundaries": [
+            {
+              "entry": "0x516d90",
+              "label": "cursor asset load"
+            },
+            {
+              "entry": "0x516640",
+              "label": "cursor draw"
+            },
+            {
+              "entry": "0x4e0b80",
+              "label": "selection sprite create"
+            },
+            {
+              "entry": "0x516640",
+              "label": "cursor draw"
+            }
+          ],
+          "sound_backend_enabled": false
+        },
+        {
+          "group_count": 0,
+          "selected": true,
+          "pending": true,
+          "current_group": -1,
+          "ui_group": -1,
+          "sim_group": -1,
+          "visual": 1,
+          "cursor_type": 5,
+          "mask": 0,
+          "bit": 0,
+          "blocked": false,
+          "commands": [],
+          "clear_count": 0,
+          "select_count": 0,
+          "confirm_count": 0,
+          "rng": 0,
+          "rng_writes": [],
+          "render_boundaries": [
+            {
+              "entry": "0x516640",
+              "label": "cursor draw"
+            }
+          ],
+          "sound_backend_enabled": false
+        },
+        {
+          "group_count": 0,
+          "selected": false,
+          "pending": false,
+          "current_group": -1,
+          "ui_group": -1,
+          "sim_group": -1,
+          "visual": 2,
+          "cursor_type": 0,
+          "mask": 0,
+          "bit": 0,
+          "blocked": false,
+          "commands": [],
+          "clear_count": 1,
+          "select_count": 0,
+          "confirm_count": 0,
+          "rng": 0,
+          "rng_writes": [],
+          "render_boundaries": [
+            {
+              "entry": "0x516d90",
+              "label": "cursor asset load"
+            },
+            {
+              "entry": "0x516640",
+              "label": "cursor draw"
+            },
+            {
+              "entry": "0x516640",
+              "label": "cursor draw"
+            }
+          ],
+          "sound_backend_enabled": false
+        }
+      ]
+    },
+    {
+      "label": "cached-map-corners-byte0",
+      "operations": [
+        {
+          "operation": "release",
+          "input": {
+            "cursor_type": 5,
+            "hover_self": true,
+            "cell": [
+              16,
+              2
+            ],
+            "mask": 0,
+            "bit": 0,
+            "blocked": false,
+            "enabled": true
+          },
+          "message": 98,
+          "flags": 0
+        },
+        {
+          "operation": "release",
+          "input": {
+            "cursor_type": 7,
+            "hover_self": false,
+            "cell": [
+              0,
+              0
+            ],
+            "mask": 0,
+            "bit": 0,
+            "blocked": false,
+            "enabled": true
+          },
+          "message": 98,
+          "flags": 0
+        },
+        {
+          "operation": "consume41",
+          "group": 0
+        },
+        {
+          "operation": "release",
+          "input": {
+            "cursor_type": 7,
+            "hover_self": false,
+            "cell": [
+              23,
+              23
+            ],
+            "mask": 0,
+            "bit": 0,
+            "blocked": false,
+            "enabled": true
+          },
+          "message": 98,
+          "flags": 0
+        },
+        {
+          "operation": "release",
+          "input": {
+            "cursor_type": 7,
+            "hover_self": false,
+            "cell": [
+              18,
+              2
+            ],
+            "mask": 0,
+            "bit": 0,
+            "blocked": false,
+            "enabled": true
+          },
+          "message": 98,
+          "flags": 0
+        },
+        {
+          "operation": "release",
+          "input": {
+            "cursor_type": 7,
+            "hover_self": false,
+            "cell": [
+              16,
+              1
+            ],
+            "mask": 0,
+            "bit": 0,
+            "blocked": false,
+            "enabled": true
+          },
+          "message": 98,
+          "flags": 0
+        }
+      ],
+      "rows": [
+        {
+          "group_count": 0,
+          "selected": true,
+          "pending": true,
+          "current_group": -1,
+          "ui_group": -1,
+          "sim_group": -1,
+          "visual": 1,
+          "cursor_type": 0,
+          "mask": 0,
+          "bit": 0,
+          "blocked": false,
+          "commands": [],
+          "clear_count": 0,
+          "select_count": 1,
+          "confirm_count": 0,
+          "rng": 0,
+          "rng_writes": [],
+          "render_boundaries": [
+            {
+              "entry": "0x516d90",
+              "label": "cursor asset load"
+            },
+            {
+              "entry": "0x516640",
+              "label": "cursor draw"
+            },
+            {
+              "entry": "0x4e0b80",
+              "label": "selection sprite create"
+            },
+            {
+              "entry": "0x516640",
+              "label": "cursor draw"
+            }
+          ],
+          "sound_backend_enabled": false
+        },
+        {
+          "group_count": 1,
+          "selected": true,
+          "pending": false,
+          "current_group": 0,
+          "ui_group": 0,
+          "sim_group": -1,
+          "visual": 1,
+          "cursor_type": 7,
+          "mask": 0,
+          "bit": 0,
+          "blocked": false,
+          "commands": [
+            {
+              "actor": 11,
+              "action": 41,
+              "payload_hex": "010000000000"
+            },
+            {
+              "actor": 11,
+              "action": 20,
+              "payload_hex": "000000000000000000"
+            }
+          ],
+          "clear_count": 0,
+          "select_count": 0,
+          "confirm_count": 1,
+          "rng": 0,
+          "rng_writes": [],
+          "render_boundaries": [
+            {
+              "entry": "0x515df0",
+              "label": "confirm sprite"
+            },
+            {
+              "entry": "0x516640",
+              "label": "cursor draw"
+            }
+          ],
+          "sound_backend_enabled": false
+        },
+        {
+          "group_count": 1,
+          "selected": true,
+          "pending": false,
+          "current_group": 0,
+          "ui_group": 0,
+          "sim_group": 0,
+          "visual": 1,
+          "cursor_type": 7,
+          "mask": 0,
+          "bit": 0,
+          "blocked": false,
+          "commands": [
+            {
+              "actor": 11,
+              "action": 41,
+              "payload_hex": "010000000000"
+            },
+            {
+              "actor": 11,
+              "action": 20,
+              "payload_hex": "000000000000000000"
+            }
+          ],
+          "clear_count": 0,
+          "select_count": 0,
+          "confirm_count": 1,
+          "rng": 0,
+          "rng_writes": [],
+          "render_boundaries": [
+            {
+              "entry": "0x515df0",
+              "label": "confirm sprite"
+            },
+            {
+              "entry": "0x516640",
+              "label": "cursor draw"
+            }
+          ],
+          "sound_backend_enabled": false
+        },
+        {
+          "group_count": 1,
+          "selected": true,
+          "pending": false,
+          "current_group": 0,
+          "ui_group": 0,
+          "sim_group": 0,
+          "visual": 1,
+          "cursor_type": 7,
+          "mask": 0,
+          "bit": 0,
+          "blocked": false,
+          "commands": [
+            {
+              "actor": 11,
+              "action": 20,
+              "payload_hex": "170000001700000000"
+            }
+          ],
+          "clear_count": 0,
+          "select_count": 0,
+          "confirm_count": 1,
+          "rng": 0,
+          "rng_writes": [],
+          "render_boundaries": [
+            {
+              "entry": "0x515df0",
+              "label": "confirm sprite"
+            },
+            {
+              "entry": "0x516640",
+              "label": "cursor draw"
+            }
+          ],
+          "sound_backend_enabled": false
+        },
+        {
+          "group_count": 1,
+          "selected": true,
+          "pending": false,
+          "current_group": 0,
+          "ui_group": 0,
+          "sim_group": 0,
+          "visual": 1,
+          "cursor_type": 7,
+          "mask": 0,
+          "bit": 0,
+          "blocked": false,
+          "commands": [
+            {
+              "actor": 11,
+              "action": 20,
+              "payload_hex": "120000000200000000"
+            }
+          ],
+          "clear_count": 0,
+          "select_count": 0,
+          "confirm_count": 1,
+          "rng": 0,
+          "rng_writes": [],
+          "render_boundaries": [
+            {
+              "entry": "0x515df0",
+              "label": "confirm sprite"
+            },
+            {
+              "entry": "0x516640",
+              "label": "cursor draw"
+            }
+          ],
+          "sound_backend_enabled": false
+        },
+        {
+          "group_count": 1,
+          "selected": true,
+          "pending": false,
+          "current_group": 0,
+          "ui_group": 0,
+          "sim_group": 0,
+          "visual": 1,
+          "cursor_type": 7,
+          "mask": 0,
+          "bit": 0,
+          "blocked": false,
+          "commands": [
+            {
+              "actor": 11,
+              "action": 20,
+              "payload_hex": "100000000100000000"
+            }
+          ],
+          "clear_count": 0,
+          "select_count": 0,
+          "confirm_count": 1,
+          "rng": 0,
+          "rng_writes": [],
+          "render_boundaries": [
+            {
+              "entry": "0x515df0",
+              "label": "confirm sprite"
+            },
+            {
+              "entry": "0x516640",
+              "label": "cursor draw"
+            }
+          ],
+          "sound_backend_enabled": false
+        }
+      ]
+    }
+  ],
+  "selection_removal": [
+    {
+      "selection": 1,
+      "exists": true,
+      "frame": 0,
+      "drawn_frame": -1,
+      "last_counter": 0,
+      "visible": false,
+      "world": [
+        1026,
+        130
+      ],
+      "health_exists": true,
+      "health_visible": false,
+      "health_world": [
+        0,
+        0
+      ],
+      "publishes": false,
+      "deletes": false,
+      "hides_health": false,
+      "publications": []
+    },
+    {
+      "selection": 2,
+      "exists": true,
+      "frame": 0,
+      "drawn_frame": -1,
+      "last_counter": 0,
+      "visible": false,
+      "world": [
+        1026,
+        130
+      ],
+      "health_exists": true,
+      "health_visible": false,
+      "health_world": [
+        0,
+        0
+      ],
+      "publishes": false,
+      "deletes": false,
+      "hides_health": false,
+      "publications": []
+    },
+    {
+      "selection": 0,
+      "exists": false,
+      "frame": -1,
+      "drawn_frame": 0,
+      "last_counter": 1,
+      "visible": false,
+      "world": [
+        1026,
+        130
+      ],
+      "health_exists": false,
+      "health_visible": false,
+      "health_world": [
+        0,
+        0
+      ],
+      "publishes": true,
+      "deletes": true,
+      "hides_health": true,
+      "publications": [
+        {
+          "frame": 0,
+          "world": [
+            1026,
+            130
+          ]
+        }
+      ]
+    }
+  ],
+  "scope": "Normal unmodified single0b; explicit upstream hover/cachedcell and map gates; normal actor/fleet release, pendinggroup conversion, serialized20/41 and membership consumption execute actualx86.",
+  "boundaries": [
+    "Original initialized WorkOracle0b and seven static peers with frozen constructor/load boundaries",
+    "Controlled Fleet owner slot5 with source actor registry and empty group vector",
+    "Actual50e500 and525300 execute with audio backend disabled; renderer516640,assetloader516d90,confirm515df0,selectionctor4e0b80 are intercepted boundaries",
+    "CRT malloc/realloc isolated allocation; original memory wrappers execute",
+    "Visual removal uses separate actual4e0d00 NativeSelection fixture; renderer/allocation boundaries documented there"
+  ],
+  "excluded": [
+    "OS/window input and full actorLife",
+    "modified selection/queued commands",
+    "other actors and contextual right-release cycles",
+    "busy motion replacement",
+    "audible backend and complete rendering construction"
+  ]
+}

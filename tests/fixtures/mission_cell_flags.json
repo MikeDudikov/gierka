@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "original_exe_sha256": "cb7746b288d23de2a0343ba51c154f961b3e3683b73bcc31e9a38b2c6b1e2021",
+  "source_hashes": {
+    "installed/ancient.exe": "cb7746b288d23de2a0343ba51c154f961b3e3683b73bcc31e9a38b2c6b1e2021",
+    "installed/missions/maplib.dkx": "05484166ca374630f7c29c26e561656a11941ef331fb014e52f72aed81c23650",
+    "installed/missions/maplib.dkd": "7fe0623d957e196e5279c6bced55db292648b5c9ebc6f1420fcd293c0685b685",
+    "installed/missions/miss000.dkx": "b4b2fda60bb38e837b6d0548caa86229e1fbebf8cb9fd806c4f39c9bd75835ce",
+    "installed/missions/miss000.dkd": "a77e801a93baafd6942db9087d7541f8c85ed2f3c88d440b9f9e81b45ba9a0d1"
+  },
+  "grid_create": {
+    "entry": "0x545780",
+    "zeroing_entry": "0x558f80",
+    "lookup_entry": "0x544ba0",
+    "cell_flags_entry": "0x545650",
+    "hooks": {
+      "setjmp": 577,
+      "malloc": 1
+    },
+    "hook_scope": [
+      "setjmp normal return",
+      "malloc supplies prefilled memory; source zeroing still executes"
+    ],
+    "width": 24,
+    "height": 24,
+    "tile": [
+      64,
+      64
+    ],
+    "allocation_bytes": 13856,
+    "header_bytes": 8,
+    "cell_stride": 24,
+    "cell_count": 576,
+    "sha256": "b0dc1c3abbcaf5848bdb31149ce4074d4d8744519d1b4350f7808e09b57e823c",
+    "flags_sha256": "eb8c22b2dc3a3d6de5be5c5a28560701333cbc8610e8dd687052f4f93b260283",
+    "all_nonflag_cell_bytes_initially_zero": true
+  },
+  "flag_row_order": "y outer, x inner; uint32 little-endian",
+  "scope": "Original zeroing and metadata-to-grid creation; only setjmp/malloc intercepted; no mission object initialization or gameplay"
+}

@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "unity_baseline_files": 279,
+  "original_source_hashes": 9,
+  "unity_unchanged_since_checkpoint": true,
+  "checkpoint": "docs/evidence/milestone-20261104-source-app-activation.json",
+  "checkpoint_sha256": "97300b269a9662eeeffffbdb8ed9ff6c359f1a21d2e27612beac39efd5925669",
+  "game_selected_tests_passed": 12,
+  "game_discovery": 349,
+  "full_suite_run": false,
+  "delivery_verifier_negative_controls": [
+    "changed_content",
+    "missing_file",
+    "path_traversal"
+  ],
+  "bootstrap_tested_in_current_environment": true,
+  "devcontainer_json_valid": true,
+  "devcontainer_cold_build_tested": false,
+  "original_installation_complete": false,
+  "development_stopped": true,
+  "published": false,
+  "pushed": false,
+  "archive_verification": "See adjacent archive .verification.json;individual sums embedded in TRANSFER_MANIFEST.json"
+}

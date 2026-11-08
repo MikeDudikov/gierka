@@ -1,0 +1,9 @@
+Kontynuuj rozwój istniejącego remake'u Ancient Conquest według CLAUDE.md,
+handoff/STAN_I_PLAN.md i docs/REMAKE_PLAN.md. Najpierw sprawdź kompletność
+przeniesienia narzędziem tools/handoff_verify.py i odczytaj stan ostatniej
+diagnostyki. Pracuj autonomicznie małymi krokami, bez pytania mnie po każdym
+etapie. Nie zmieniaj architektury, kolejności ticka ani zachowania x86.
+Każdą nową funkcję logiki powiąż z dowodem z oryginalnego kodu maszynowego.
+Nie publikuj, nie pushuj, nie resetuj repozytorium i nie generuj co krok ZIP
+lub podglądów. Odpowiadaj po polsku. Najpierw odtwórz środowisko i potwierdź
+baseline; nie uznawaj zablokowanej instalacji oryginału za ukończoną.

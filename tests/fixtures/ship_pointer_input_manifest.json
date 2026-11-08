@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "purpose": "Recorded Unity metadata for parser negative controls, not an original-binary oracle",
+  "player_source": "artifacts/pointer-input/runtime-final-two-02/player.log",
+  "player_sha256": "b6e41e9cc3083b7277e520d580d938c78e6c86f8630588a0e1bde431cde083ed",
+  "runtime_dll_sha256": "3a4f400a7e499ff2e78763240f7cbb30d55d57bf05c23bce0b0b0ddfe42ab054",
+  "runtime_qa_helper_sha256": "291b13389d25107ee707e8efeb7b2eb360ff8d9e936141e0664381f6173e1491",
+  "extraction": "Only ShipPointerReference, ShipPointerReplay and Mission unit reference cleanup complete lines; all original field values retained",
+  "fixture_sha256": "fdc8a07fee8834e80fa0f8195ef2a400548505cf60b7fa0faa82f0d40c30cf07",
+  "renderer_contract": "URP Point SpriteRenderer cursor order32767; cursor_gui=False",
+  "field_adaptations": []
+}

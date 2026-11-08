@@ -1,0 +1,4161 @@
+{
+  "schema_version": 1,
+  "native_canvas_width": 1920,
+  "native_canvas_height": 1080,
+  "atlas_width": 640,
+  "atlas_height": 400,
+  "frame_count": 33,
+  "frames": [
+    {
+      "name": "RAM_056X05600",
+      "atlas_x": 0,
+      "atlas_y": 340,
+      "width": 60,
+      "height": 60,
+      "rgba_sha256": "4b07cf6b08a492b42991247d972eb879adb25bdd269697945f0b13fe9ab1437a",
+      "payload_sha256": "45a9617c0695591fabd96c836945e57e64ea8aed4bd2e1d1df60891d72ec8f5a"
+    },
+    {
+      "name": "RAM_056X05601",
+      "atlas_x": 80,
+      "atlas_y": 340,
+      "width": 60,
+      "height": 60,
+      "rgba_sha256": "85401748a7f5189080a47a14e31a649076328f7eff00d3244d005745f2b17267",
+      "payload_sha256": "0a0419fdfe3acacecb0d55ebcfdb118bd0cf8470f1b80f642a555b3b46ea5158"
+    },
+    {
+      "name": "RAM_056X05602",
+      "atlas_x": 160,
+      "atlas_y": 340,
+      "width": 60,
+      "height": 60,
+      "rgba_sha256": "77bfba59fdd3c80ce4c2f5092e84163cb1412fb7aa40d96ba1610a34ed05459d",
+      "payload_sha256": "6ea10401a2dad75215e0d79e36a028807bf9a05a5062bf798baacf567367bd84"
+    },
+    {
+      "name": "RAM_056X05603",
+      "atlas_x": 240,
+      "atlas_y": 340,
+      "width": 60,
+      "height": 60,
+      "rgba_sha256": "e749dd502f76b6de64db1a0b05d6a7f5af047e2631038788b87da16af8f2300d",
+      "payload_sha256": "42839ebb3d39698b5f6d7acccb7b0070de43d88608a36e712af66706d6f2392a"
+    },
+    {
+      "name": "RAM_056X05604",
+      "atlas_x": 320,
+      "atlas_y": 340,
+      "width": 60,
+      "height": 60,
+      "rgba_sha256": "3b80da3084fd80b3f7635157958a21081447dbd054a5a4fb9ef3259ee10b8b27",
+      "payload_sha256": "d09a7a0fcbd88a209aad40646609f084445ee6f4ea69595a7d8f6bdd0741b522"
+    },
+    {
+      "name": "RAM_056X05605",
+      "atlas_x": 400,
+      "atlas_y": 340,
+      "width": 60,
+      "height": 60,
+      "rgba_sha256": "205afcddfb3301fb08ca122257cc2ad0d52cc26007d1977094b9cf0dbe4888b0",
+      "payload_sha256": "21b346c2f1bfda98252f8ae475539837d8d39c563f3e32eabdca1e708e07b12c"
+    },
+    {
+      "name": "RAM_056X05606",
+      "atlas_x": 480,
+      "atlas_y": 340,
+      "width": 60,
+      "height": 60,
+      "rgba_sha256": "84817ec82d60145727f2b280b1bd065fb546c01ae915fa0668658d716b55e25e",
+      "payload_sha256": "84b8b29b8a082b5ea658a3f30c8341c2d43d79cc18691ef4563bd4d6d4a35742"
+    },
+    {
+      "name": "RAM_056X05607",
+      "atlas_x": 560,
+      "atlas_y": 340,
+      "width": 60,
+      "height": 60,
+      "rgba_sha256": "b738853eb1c77498eb20b4aa715310b920ffb2a53df19b29ed3c7bc7174fd264",
+      "payload_sha256": "8f9cb572cc48cda41f752c799aefa6fc0c2e93ebad54f26a28b6b44839d0be24"
+    },
+    {
+      "name": "RAM_056X05608",
+      "atlas_x": 0,
+      "atlas_y": 260,
+      "width": 60,
+      "height": 60,
+      "rgba_sha256": "6050ab06557812e98c20e89615c781149e903b9572edebec8209671955f4904b",
+      "payload_sha256": "244ea561393def14bd36d5487798053698973edfa628dd7b26d7c419f4f9b1b4"
+    },
+    {
+      "name": "RAM_056X05609",
+      "atlas_x": 80,
+      "atlas_y": 260,
+      "width": 60,
+      "height": 60,
+      "rgba_sha256": "ed5f68e27244fd8b5fc44812e50ba799c1e6ca547430d6bfd65bb12ffe2e570c",
+      "payload_sha256": "38c4c2fd8727592ce4f87938fd0d05c776b566b815b52650fdc7afcae424c37f"
+    },
+    {
+      "name": "HEALTH_100_60",
+      "atlas_x": 160,
+      "atlas_y": 316,
+      "width": 34,
+      "height": 4,
+      "rgba_sha256": "799e3913c5d94c75e4365476c9193255e7be7c901e3e8e84c78d22803233848c",
+      "source": "50c890/50c650 full-health callback"
+    },
+    {
+      "name": "RAM_064X06400",
+      "atlas_x": 240,
+      "atlas_y": 252,
+      "width": 68,
+      "height": 68,
+      "rgba_sha256": "ccbb591adc6ae5911ee0defdc6f7a2c7bf03abd1b4e25359679289f17066488b",
+      "payload_sha256": "697f0b112d0d4d91264205cd49374f3f5a649e082f667fdd719b8d5dce614a5c"
+    },
+    {
+      "name": "RAM_064X06401",
+      "atlas_x": 320,
+      "atlas_y": 252,
+      "width": 68,
+      "height": 68,
+      "rgba_sha256": "be5e40bf44a41728b1e820e2ff855ff460724352cdd8893ca1b2db27dbd52511",
+      "payload_sha256": "ab5d0434dbbde8c99a123e558ccb5b3f8363df0746af836af40fcf2d89968952"
+    },
+    {
+      "name": "RAM_064X06402",
+      "atlas_x": 400,
+      "atlas_y": 252,
+      "width": 68,
+      "height": 68,
+      "rgba_sha256": "baa84e8c07601a4322de6ee61232bebeb28066a4f646341db519096465efeae5",
+      "payload_sha256": "093cea7563810a5fb9198bf613bdc5a14fea17d687428a0a7eda614bc3d803d0"
+    },
+    {
+      "name": "RAM_064X06403",
+      "atlas_x": 480,
+      "atlas_y": 252,
+      "width": 68,
+      "height": 68,
+      "rgba_sha256": "1df1bf549e44b3229dfef4370979639b6cf565fb9c3c57cfda589a8e97c9c93f",
+      "payload_sha256": "a6f482c4164f368c69dadc7fe9cd7a7c339beb815797aa39a59932e940c7a1ac"
+    },
+    {
+      "name": "RAM_064X06404",
+      "atlas_x": 560,
+      "atlas_y": 252,
+      "width": 68,
+      "height": 68,
+      "rgba_sha256": "e1c9b17f6d977ce074eb7209973e0d2f57f1ff32dfa1353745592c7eaa99af7b",
+      "payload_sha256": "8607f4adc45b530fd9662ab9032de6f3350553a6ad66795a2f42ce4b5202daa7"
+    },
+    {
+      "name": "RAM_064X06405",
+      "atlas_x": 0,
+      "atlas_y": 172,
+      "width": 68,
+      "height": 68,
+      "rgba_sha256": "049c3af31787a9aa3dd95a1def7690d400dd7815d38af1d9a5398402953e7e4f",
+      "payload_sha256": "70e049052fbd6ca6005ff16aa9eb99f6d21118456b741050a24f9ebe99c2da97"
+    },
+    {
+      "name": "RAM_064X06406",
+      "atlas_x": 80,
+      "atlas_y": 172,
+      "width": 68,
+      "height": 68,
+      "rgba_sha256": "535d6b83d3fd2178e465580db8a65ef0c12183c9e8712d96e10a5bcb9a4d52c9",
+      "payload_sha256": "dd7337a6f9743e9b530f248bad5b22b63e03d4241490749dc687728c993f549e"
+    },
+    {
+      "name": "RAM_064X06407",
+      "atlas_x": 160,
+      "atlas_y": 172,
+      "width": 68,
+      "height": 68,
+      "rgba_sha256": "54634c3808bf6d30a4cc8593019c1e4c530b40cc4cb6924bdfd22f8e433054cc",
+      "payload_sha256": "993fefe164f2c92b97a1be0c4386729433a176374f7f7c0e08335f17cc40c373"
+    },
+    {
+      "name": "RAM_064X06408",
+      "atlas_x": 240,
+      "atlas_y": 172,
+      "width": 68,
+      "height": 68,
+      "rgba_sha256": "df5d1c29493798cfde5fe3a79b82fb66dce1f7e8396d6d03915abc54c9021b39",
+      "payload_sha256": "c7d7d92b5fc6e96336651cf7cb928abf86aa0883dcb5c3e39afa3d9cc4e77b0b"
+    },
+    {
+      "name": "RAM_064X06409",
+      "atlas_x": 320,
+      "atlas_y": 172,
+      "width": 68,
+      "height": 68,
+      "rgba_sha256": "0cf6486cc7eb9083137cbaabf7e2356ff1a6d6eac6cfd4d76010cdc49ee8cb51",
+      "payload_sha256": "89ffc8c13cbe9f89bfe453e240ed0b9e85f52ada3a281166b73c25a2e2908f26"
+    },
+    {
+      "name": "HEALTH_100_68",
+      "atlas_x": 400,
+      "atlas_y": 236,
+      "width": 42,
+      "height": 4,
+      "rgba_sha256": "ab8b59e25210195be47c42ab1d605fe23504901bde0354eacde01f9b0d07f22b",
+      "source": "50c890/50c650 full-health callback"
+    },
+    {
+      "name": "RAM_072X07200",
+      "atlas_x": 480,
+      "atlas_y": 164,
+      "width": 76,
+      "height": 76,
+      "rgba_sha256": "ca249ab4669f7e29352d98c5aee8146ac942a8d5f56bbf2a36607f707d928aea",
+      "payload_sha256": "2a62cd328c658822bb8ba70ba5ff2ccef34e975243e2f9d02562cd2a577e02f8"
+    },
+    {
+      "name": "RAM_072X07201",
+      "atlas_x": 560,
+      "atlas_y": 164,
+      "width": 76,
+      "height": 76,
+      "rgba_sha256": "a116241e7acf225d284e00a85c534a3979bc7ea99b19b9bf74262bd51d139b32",
+      "payload_sha256": "494692d1e8e127b58a2e28e2d16badf15f54c1d53cbde27f3658cfaf94c5208a"
+    },
+    {
+      "name": "RAM_072X07202",
+      "atlas_x": 0,
+      "atlas_y": 84,
+      "width": 76,
+      "height": 76,
+      "rgba_sha256": "2b2f1c6d73dceac79dc35342f15542dd6cee92c28d01ba1c23ab9646957cc809",
+      "payload_sha256": "03b39b477f2d9852da336624fa4916541fc74cfb820fd52fe15cf08b6443d661"
+    },
+    {
+      "name": "RAM_072X07203",
+      "atlas_x": 80,
+      "atlas_y": 84,
+      "width": 76,
+      "height": 76,
+      "rgba_sha256": "97f2cdc3d02eff56c156edc49e1ca283d21b594b542f0a0c9dd06e704dc73420",
+      "payload_sha256": "d66e92f854b7104d6069b49203e91fb2843db6e59989e69418500ac9b49a175a"
+    },
+    {
+      "name": "RAM_072X07204",
+      "atlas_x": 160,
+      "atlas_y": 84,
+      "width": 76,
+      "height": 76,
+      "rgba_sha256": "0ad70271a6da3f03206ef7726e1244a33947952cb9a138426d088a2b1375f4db",
+      "payload_sha256": "bfc8594231557370333e5b65cdedbe18a7d503af648858bbb3fb999da820e998"
+    },
+    {
+      "name": "RAM_072X07205",
+      "atlas_x": 240,
+      "atlas_y": 84,
+      "width": 76,
+      "height": 76,
+      "rgba_sha256": "7d2223067d4255a2a35ced90e604a2e17acd464b5f392ce88c06cdc0109689fd",
+      "payload_sha256": "5c58992db508c401b4b134911bf33016359657c64a43ce51f86e48ed395e714d"
+    },
+    {
+      "name": "RAM_072X07206",
+      "atlas_x": 320,
+      "atlas_y": 84,
+      "width": 76,
+      "height": 76,
+      "rgba_sha256": "e407b4b854210f8e9b4f14696541e40b764a454b7258dba4734e1f48198b6171",
+      "payload_sha256": "313a478526bc6373527ff0628c4eae5a1f21959fabd53bc1a78eab834f0beea8"
+    },
+    {
+      "name": "RAM_072X07207",
+      "atlas_x": 400,
+      "atlas_y": 84,
+      "width": 76,
+      "height": 76,
+      "rgba_sha256": "f8b277695d10e19fda45c40127b48ddce5196685f3f760024381e07e076b3077",
+      "payload_sha256": "3790facecc2c610d379f25c595f716ef49d3d2830e23bdf6f5842f63b86539f3"
+    },
+    {
+      "name": "RAM_072X07208",
+      "atlas_x": 480,
+      "atlas_y": 84,
+      "width": 76,
+      "height": 76,
+      "rgba_sha256": "9e6a057b1a1ceaf6cfb48f4b35c9cea740ec7a4bcf4e7b9e85dd9869ac9449cb",
+      "payload_sha256": "31f518e2ab954ac98028169c72f2680996da2f14bec852bf5307940dc8d61f48"
+    },
+    {
+      "name": "RAM_072X07209",
+      "atlas_x": 560,
+      "atlas_y": 84,
+      "width": 76,
+      "height": 76,
+      "rgba_sha256": "b1e5efc5de026b3ff762a17c835fc7ec64ec40201e39b851e7c36f77c6a95ff1",
+      "payload_sha256": "ff45337cb41381d0cf42688fe62431f872271082354265e90a744c15925be082"
+    },
+    {
+      "name": "HEALTH_100_76",
+      "atlas_x": 0,
+      "atlas_y": 76,
+      "width": 50,
+      "height": 4,
+      "rgba_sha256": "b97a884d1223d0268acd10f2e702605d2e6a6938856da340033dd54f5fef1953",
+      "source": "50c890/50c650 full-health callback"
+    }
+  ],
+  "families": [
+    {
+      "logical_size": 56,
+      "selector_size": 60,
+      "frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "health_frame": 10,
+      "health_width": 34
+    },
+    {
+      "logical_size": 64,
+      "selector_size": 68,
+      "frames": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "health_frame": 21,
+      "health_width": 42
+    },
+    {
+      "logical_size": 72,
+      "selector_size": 76,
+      "frames": [
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "health_frame": 32,
+      "health_width": 50
+    }
+  ],
+  "wp_move": {
+    "resource": "ShipFleetVisualsGenerated/WpMoveRgba",
+    "width": 400,
+    "height": 320,
+    "payload_sha256": "0ac2022c492095566cc5ea9ae05ec304da93e0a08b11006cd6fc59db3246b0d9",
+    "frames": [
+      {
+        "name": "WPMOVE_0",
+        "mask": 1050625,
+        "atlas_x": 0,
+        "atlas_y": 291,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "516e260974f09044a6872f5e80f78d87f40af63c162b31c9c6670536eb6d652e",
+        "parts": [
+          {
+            "index": 0,
+            "name": "_WPNUM0",
+            "x": 19,
+            "y": 18,
+            "depth": 0,
+            "sha256": "f8616e19bd5a0ba292dc6ab2bdf1847c10eb189aa1a3d078877407fc37f110d0"
+          },
+          {
+            "index": 11,
+            "name": "_WPNUM1",
+            "x": 29,
+            "y": 18,
+            "depth": 11,
+            "sha256": "772574545145d7ec1457efbf97b367cf2e3b1e40591e600d62a27a82a56f40fc"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_1",
+        "mask": 1052673,
+        "atlas_x": 40,
+        "atlas_y": 291,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "48b90e527116e9d372f865981abbc1dad8100ec75bed89274f7264f9c8c4cae7",
+        "parts": [
+          {
+            "index": 0,
+            "name": "_WPNUM0",
+            "x": 19,
+            "y": 18,
+            "depth": 0,
+            "sha256": "f8616e19bd5a0ba292dc6ab2bdf1847c10eb189aa1a3d078877407fc37f110d0"
+          },
+          {
+            "index": 12,
+            "name": "_WPNUM2",
+            "x": 29,
+            "y": 18,
+            "depth": 12,
+            "sha256": "a28426a442812bc21a28f7199af8dfcb86f10af21b955057fe20fbe0e979af63"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_2",
+        "mask": 1056769,
+        "atlas_x": 80,
+        "atlas_y": 291,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "cff57620c20deb7b576e91525896c58f167be2ae8e8fb9532a5b3df73044da8d",
+        "parts": [
+          {
+            "index": 0,
+            "name": "_WPNUM0",
+            "x": 19,
+            "y": 18,
+            "depth": 0,
+            "sha256": "f8616e19bd5a0ba292dc6ab2bdf1847c10eb189aa1a3d078877407fc37f110d0"
+          },
+          {
+            "index": 13,
+            "name": "_WPNUM3",
+            "x": 29,
+            "y": 18,
+            "depth": 13,
+            "sha256": "38665a5fa75474c04d80eec88e83805f903da7afcdb468a8a4e6774adea26b74"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_3",
+        "mask": 1064961,
+        "atlas_x": 120,
+        "atlas_y": 291,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "ad79461d7703e1dcbdee42ed7ec551871ee74fac05ab8aa35f217d9b68424f9a",
+        "parts": [
+          {
+            "index": 0,
+            "name": "_WPNUM0",
+            "x": 19,
+            "y": 18,
+            "depth": 0,
+            "sha256": "f8616e19bd5a0ba292dc6ab2bdf1847c10eb189aa1a3d078877407fc37f110d0"
+          },
+          {
+            "index": 14,
+            "name": "_WPNUM4",
+            "x": 29,
+            "y": 18,
+            "depth": 14,
+            "sha256": "1f6e04e0261837ef5cf35f4d94c11203b2625ae436b18e5315db2f19bd559570"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_4",
+        "mask": 1081345,
+        "atlas_x": 160,
+        "atlas_y": 291,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "400e32414dc1c79c42d8ffd9c40949f34d2265c34e0961b023550568cdec89d6",
+        "parts": [
+          {
+            "index": 0,
+            "name": "_WPNUM0",
+            "x": 19,
+            "y": 18,
+            "depth": 0,
+            "sha256": "f8616e19bd5a0ba292dc6ab2bdf1847c10eb189aa1a3d078877407fc37f110d0"
+          },
+          {
+            "index": 15,
+            "name": "_WPNUM5",
+            "x": 29,
+            "y": 18,
+            "depth": 15,
+            "sha256": "4dba6350de959d7c5c9935ae0d180e6beaa47a44738c6d26d74e3e4d46ec6a48"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_5",
+        "mask": 1114113,
+        "atlas_x": 200,
+        "atlas_y": 291,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "11cf80921be645d4c2af2837c1ab730e6c2caf5129ca7a5575e7dc6403fe16d0",
+        "parts": [
+          {
+            "index": 0,
+            "name": "_WPNUM0",
+            "x": 19,
+            "y": 18,
+            "depth": 0,
+            "sha256": "f8616e19bd5a0ba292dc6ab2bdf1847c10eb189aa1a3d078877407fc37f110d0"
+          },
+          {
+            "index": 16,
+            "name": "_WPNUM6",
+            "x": 29,
+            "y": 18,
+            "depth": 16,
+            "sha256": "5974e985381d66be769bd84a5e2fcd643021ab94e5859b512d3d5a2e6fe9e587"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_6",
+        "mask": 1179649,
+        "atlas_x": 240,
+        "atlas_y": 291,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "5ada5e8f51a7bfb6b7a965e7f9fe4a5c665173bae48e730baee2221e42035e33",
+        "parts": [
+          {
+            "index": 0,
+            "name": "_WPNUM0",
+            "x": 19,
+            "y": 18,
+            "depth": 0,
+            "sha256": "f8616e19bd5a0ba292dc6ab2bdf1847c10eb189aa1a3d078877407fc37f110d0"
+          },
+          {
+            "index": 17,
+            "name": "_WPNUM7",
+            "x": 29,
+            "y": 18,
+            "depth": 17,
+            "sha256": "b338b4fd9081075f799b8012bf0c9790f50673c00fea58b38fbbb5a5720b4a98"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_7",
+        "mask": 1310721,
+        "atlas_x": 280,
+        "atlas_y": 291,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "f2577b9f07b95f8441f69c1d8553acb917b11e78ae6be7915b42466229be9a46",
+        "parts": [
+          {
+            "index": 0,
+            "name": "_WPNUM0",
+            "x": 19,
+            "y": 18,
+            "depth": 0,
+            "sha256": "f8616e19bd5a0ba292dc6ab2bdf1847c10eb189aa1a3d078877407fc37f110d0"
+          },
+          {
+            "index": 18,
+            "name": "_WPNUM8",
+            "x": 29,
+            "y": 18,
+            "depth": 18,
+            "sha256": "e76469c3c71a31c13f3f5f540a28c0f5ba3084b093d7bddeeee490c9f20a8c8d"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_8",
+        "mask": 1572865,
+        "atlas_x": 320,
+        "atlas_y": 291,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "bf66138721f3e1cae17909eab3fac3e26f766043b3efc418715e3b7ecf9f3b65",
+        "parts": [
+          {
+            "index": 0,
+            "name": "_WPNUM0",
+            "x": 19,
+            "y": 18,
+            "depth": 0,
+            "sha256": "f8616e19bd5a0ba292dc6ab2bdf1847c10eb189aa1a3d078877407fc37f110d0"
+          },
+          {
+            "index": 19,
+            "name": "_WPNUM9",
+            "x": 29,
+            "y": 18,
+            "depth": 19,
+            "sha256": "b663e134da262c93a15673b75f6d2bdcd55e9b27200ca8b562c6f307f60f2c03"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_9",
+        "mask": 1049602,
+        "atlas_x": 360,
+        "atlas_y": 291,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "b5719b54049fed7936d4b931ae74d4560e74a76b3fe3e2b52c6cd6a834049c15",
+        "parts": [
+          {
+            "index": 1,
+            "name": "_WPNUM1",
+            "x": 19,
+            "y": 18,
+            "depth": 1,
+            "sha256": "772574545145d7ec1457efbf97b367cf2e3b1e40591e600d62a27a82a56f40fc"
+          },
+          {
+            "index": 10,
+            "name": "_WPNUM0",
+            "x": 29,
+            "y": 18,
+            "depth": 10,
+            "sha256": "f8616e19bd5a0ba292dc6ab2bdf1847c10eb189aa1a3d078877407fc37f110d0"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_10",
+        "mask": 1050626,
+        "atlas_x": 0,
+        "atlas_y": 259,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "9d74fd541ade9d8a8c6ed0a8088ea32e66d94f3c107f857fae933d14a61c8bb9",
+        "parts": [
+          {
+            "index": 1,
+            "name": "_WPNUM1",
+            "x": 19,
+            "y": 18,
+            "depth": 1,
+            "sha256": "772574545145d7ec1457efbf97b367cf2e3b1e40591e600d62a27a82a56f40fc"
+          },
+          {
+            "index": 11,
+            "name": "_WPNUM1",
+            "x": 29,
+            "y": 18,
+            "depth": 11,
+            "sha256": "772574545145d7ec1457efbf97b367cf2e3b1e40591e600d62a27a82a56f40fc"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_11",
+        "mask": 1052674,
+        "atlas_x": 40,
+        "atlas_y": 259,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "13abf3a07490b9bac386d1ea3537b71517316c19ec90b0f453c4d1db3cfa0770",
+        "parts": [
+          {
+            "index": 1,
+            "name": "_WPNUM1",
+            "x": 19,
+            "y": 18,
+            "depth": 1,
+            "sha256": "772574545145d7ec1457efbf97b367cf2e3b1e40591e600d62a27a82a56f40fc"
+          },
+          {
+            "index": 12,
+            "name": "_WPNUM2",
+            "x": 29,
+            "y": 18,
+            "depth": 12,
+            "sha256": "a28426a442812bc21a28f7199af8dfcb86f10af21b955057fe20fbe0e979af63"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_12",
+        "mask": 1056770,
+        "atlas_x": 80,
+        "atlas_y": 259,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "9d203ac01e74219931c72fca18ef724d51f282bb4ead655b556d266480f747d6",
+        "parts": [
+          {
+            "index": 1,
+            "name": "_WPNUM1",
+            "x": 19,
+            "y": 18,
+            "depth": 1,
+            "sha256": "772574545145d7ec1457efbf97b367cf2e3b1e40591e600d62a27a82a56f40fc"
+          },
+          {
+            "index": 13,
+            "name": "_WPNUM3",
+            "x": 29,
+            "y": 18,
+            "depth": 13,
+            "sha256": "38665a5fa75474c04d80eec88e83805f903da7afcdb468a8a4e6774adea26b74"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_13",
+        "mask": 1064962,
+        "atlas_x": 120,
+        "atlas_y": 259,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "afd9fd91c664849ccbe1e463915a2187cf7f542474081a41499ad0987be1f9a8",
+        "parts": [
+          {
+            "index": 1,
+            "name": "_WPNUM1",
+            "x": 19,
+            "y": 18,
+            "depth": 1,
+            "sha256": "772574545145d7ec1457efbf97b367cf2e3b1e40591e600d62a27a82a56f40fc"
+          },
+          {
+            "index": 14,
+            "name": "_WPNUM4",
+            "x": 29,
+            "y": 18,
+            "depth": 14,
+            "sha256": "1f6e04e0261837ef5cf35f4d94c11203b2625ae436b18e5315db2f19bd559570"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_14",
+        "mask": 1081346,
+        "atlas_x": 160,
+        "atlas_y": 259,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "6f68aef65309611f53698043ebdead1b344fdad22eeb423f2e759d30b4f6d08f",
+        "parts": [
+          {
+            "index": 1,
+            "name": "_WPNUM1",
+            "x": 19,
+            "y": 18,
+            "depth": 1,
+            "sha256": "772574545145d7ec1457efbf97b367cf2e3b1e40591e600d62a27a82a56f40fc"
+          },
+          {
+            "index": 15,
+            "name": "_WPNUM5",
+            "x": 29,
+            "y": 18,
+            "depth": 15,
+            "sha256": "4dba6350de959d7c5c9935ae0d180e6beaa47a44738c6d26d74e3e4d46ec6a48"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_15",
+        "mask": 1114114,
+        "atlas_x": 200,
+        "atlas_y": 259,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "70146833c2ea5bed498a2032fa42feec5435f437668b2d0caa2cbe71dca348fb",
+        "parts": [
+          {
+            "index": 1,
+            "name": "_WPNUM1",
+            "x": 19,
+            "y": 18,
+            "depth": 1,
+            "sha256": "772574545145d7ec1457efbf97b367cf2e3b1e40591e600d62a27a82a56f40fc"
+          },
+          {
+            "index": 16,
+            "name": "_WPNUM6",
+            "x": 29,
+            "y": 18,
+            "depth": 16,
+            "sha256": "5974e985381d66be769bd84a5e2fcd643021ab94e5859b512d3d5a2e6fe9e587"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_16",
+        "mask": 1179650,
+        "atlas_x": 240,
+        "atlas_y": 259,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "25608475d3c2ee59bf9ff352cb2ac4fe01b400242acf164f452e8f4c4c9b182e",
+        "parts": [
+          {
+            "index": 1,
+            "name": "_WPNUM1",
+            "x": 19,
+            "y": 18,
+            "depth": 1,
+            "sha256": "772574545145d7ec1457efbf97b367cf2e3b1e40591e600d62a27a82a56f40fc"
+          },
+          {
+            "index": 17,
+            "name": "_WPNUM7",
+            "x": 29,
+            "y": 18,
+            "depth": 17,
+            "sha256": "b338b4fd9081075f799b8012bf0c9790f50673c00fea58b38fbbb5a5720b4a98"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_17",
+        "mask": 1310722,
+        "atlas_x": 280,
+        "atlas_y": 259,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "3d984a9099357e906ec0c0c21d0ab3c9fbc91add8adf866606dcb9b031ffd99c",
+        "parts": [
+          {
+            "index": 1,
+            "name": "_WPNUM1",
+            "x": 19,
+            "y": 18,
+            "depth": 1,
+            "sha256": "772574545145d7ec1457efbf97b367cf2e3b1e40591e600d62a27a82a56f40fc"
+          },
+          {
+            "index": 18,
+            "name": "_WPNUM8",
+            "x": 29,
+            "y": 18,
+            "depth": 18,
+            "sha256": "e76469c3c71a31c13f3f5f540a28c0f5ba3084b093d7bddeeee490c9f20a8c8d"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_18",
+        "mask": 1572866,
+        "atlas_x": 320,
+        "atlas_y": 259,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "7a4b34a78df940e8f5f8e043a189e2016300d3b3d25e5c039f56137322ea322c",
+        "parts": [
+          {
+            "index": 1,
+            "name": "_WPNUM1",
+            "x": 19,
+            "y": 18,
+            "depth": 1,
+            "sha256": "772574545145d7ec1457efbf97b367cf2e3b1e40591e600d62a27a82a56f40fc"
+          },
+          {
+            "index": 19,
+            "name": "_WPNUM9",
+            "x": 29,
+            "y": 18,
+            "depth": 19,
+            "sha256": "b663e134da262c93a15673b75f6d2bdcd55e9b27200ca8b562c6f307f60f2c03"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_19",
+        "mask": 1049604,
+        "atlas_x": 360,
+        "atlas_y": 259,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "9f499edb8ebd2fc0e861bc78261be2844ff9d2270f7f741c124f5450feed0751",
+        "parts": [
+          {
+            "index": 2,
+            "name": "_WPNUM2",
+            "x": 19,
+            "y": 18,
+            "depth": 2,
+            "sha256": "a28426a442812bc21a28f7199af8dfcb86f10af21b955057fe20fbe0e979af63"
+          },
+          {
+            "index": 10,
+            "name": "_WPNUM0",
+            "x": 29,
+            "y": 18,
+            "depth": 10,
+            "sha256": "f8616e19bd5a0ba292dc6ab2bdf1847c10eb189aa1a3d078877407fc37f110d0"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_20",
+        "mask": 1050628,
+        "atlas_x": 0,
+        "atlas_y": 227,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "701b53170762128392f4af1c7c88a3e67f9500539e8dcd9d8a96737997e30331",
+        "parts": [
+          {
+            "index": 2,
+            "name": "_WPNUM2",
+            "x": 19,
+            "y": 18,
+            "depth": 2,
+            "sha256": "a28426a442812bc21a28f7199af8dfcb86f10af21b955057fe20fbe0e979af63"
+          },
+          {
+            "index": 11,
+            "name": "_WPNUM1",
+            "x": 29,
+            "y": 18,
+            "depth": 11,
+            "sha256": "772574545145d7ec1457efbf97b367cf2e3b1e40591e600d62a27a82a56f40fc"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_21",
+        "mask": 1052676,
+        "atlas_x": 40,
+        "atlas_y": 227,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "72fa0d5b674cd96de59e70aea8f862b3282aa3d637709026c4fba9fe9f595377",
+        "parts": [
+          {
+            "index": 2,
+            "name": "_WPNUM2",
+            "x": 19,
+            "y": 18,
+            "depth": 2,
+            "sha256": "a28426a442812bc21a28f7199af8dfcb86f10af21b955057fe20fbe0e979af63"
+          },
+          {
+            "index": 12,
+            "name": "_WPNUM2",
+            "x": 29,
+            "y": 18,
+            "depth": 12,
+            "sha256": "a28426a442812bc21a28f7199af8dfcb86f10af21b955057fe20fbe0e979af63"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_22",
+        "mask": 1056772,
+        "atlas_x": 80,
+        "atlas_y": 227,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "607f6a72488cc0620d97f0f41a2d05c661adbd573e9ea9b8243a3a14875a6c19",
+        "parts": [
+          {
+            "index": 2,
+            "name": "_WPNUM2",
+            "x": 19,
+            "y": 18,
+            "depth": 2,
+            "sha256": "a28426a442812bc21a28f7199af8dfcb86f10af21b955057fe20fbe0e979af63"
+          },
+          {
+            "index": 13,
+            "name": "_WPNUM3",
+            "x": 29,
+            "y": 18,
+            "depth": 13,
+            "sha256": "38665a5fa75474c04d80eec88e83805f903da7afcdb468a8a4e6774adea26b74"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_23",
+        "mask": 1064964,
+        "atlas_x": 120,
+        "atlas_y": 227,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "aed3a3828b3527f001d8ae5ff414d1eda979b98250ca86ad4e750e2124268ffb",
+        "parts": [
+          {
+            "index": 2,
+            "name": "_WPNUM2",
+            "x": 19,
+            "y": 18,
+            "depth": 2,
+            "sha256": "a28426a442812bc21a28f7199af8dfcb86f10af21b955057fe20fbe0e979af63"
+          },
+          {
+            "index": 14,
+            "name": "_WPNUM4",
+            "x": 29,
+            "y": 18,
+            "depth": 14,
+            "sha256": "1f6e04e0261837ef5cf35f4d94c11203b2625ae436b18e5315db2f19bd559570"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_24",
+        "mask": 1081348,
+        "atlas_x": 160,
+        "atlas_y": 227,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "911c7d21f30ef45aa8de184dbcfab7e140d0580c5b41bf3047da37fbb8547e67",
+        "parts": [
+          {
+            "index": 2,
+            "name": "_WPNUM2",
+            "x": 19,
+            "y": 18,
+            "depth": 2,
+            "sha256": "a28426a442812bc21a28f7199af8dfcb86f10af21b955057fe20fbe0e979af63"
+          },
+          {
+            "index": 15,
+            "name": "_WPNUM5",
+            "x": 29,
+            "y": 18,
+            "depth": 15,
+            "sha256": "4dba6350de959d7c5c9935ae0d180e6beaa47a44738c6d26d74e3e4d46ec6a48"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_25",
+        "mask": 1114116,
+        "atlas_x": 200,
+        "atlas_y": 227,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "4417a8598c45ca7dd8a1762589e0736f508e2f3384ac294e4eb97ce0eab33d3a",
+        "parts": [
+          {
+            "index": 2,
+            "name": "_WPNUM2",
+            "x": 19,
+            "y": 18,
+            "depth": 2,
+            "sha256": "a28426a442812bc21a28f7199af8dfcb86f10af21b955057fe20fbe0e979af63"
+          },
+          {
+            "index": 16,
+            "name": "_WPNUM6",
+            "x": 29,
+            "y": 18,
+            "depth": 16,
+            "sha256": "5974e985381d66be769bd84a5e2fcd643021ab94e5859b512d3d5a2e6fe9e587"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_26",
+        "mask": 1179652,
+        "atlas_x": 240,
+        "atlas_y": 227,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "5e789f1eb861fe98a1f06964a37fe533d542f830ba55f43025dcb6a6a2f1e5c2",
+        "parts": [
+          {
+            "index": 2,
+            "name": "_WPNUM2",
+            "x": 19,
+            "y": 18,
+            "depth": 2,
+            "sha256": "a28426a442812bc21a28f7199af8dfcb86f10af21b955057fe20fbe0e979af63"
+          },
+          {
+            "index": 17,
+            "name": "_WPNUM7",
+            "x": 29,
+            "y": 18,
+            "depth": 17,
+            "sha256": "b338b4fd9081075f799b8012bf0c9790f50673c00fea58b38fbbb5a5720b4a98"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_27",
+        "mask": 1310724,
+        "atlas_x": 280,
+        "atlas_y": 227,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "0659237c5a0562fe09f912817ae2023798a3c82c7dfb6d5158305241eefdff15",
+        "parts": [
+          {
+            "index": 2,
+            "name": "_WPNUM2",
+            "x": 19,
+            "y": 18,
+            "depth": 2,
+            "sha256": "a28426a442812bc21a28f7199af8dfcb86f10af21b955057fe20fbe0e979af63"
+          },
+          {
+            "index": 18,
+            "name": "_WPNUM8",
+            "x": 29,
+            "y": 18,
+            "depth": 18,
+            "sha256": "e76469c3c71a31c13f3f5f540a28c0f5ba3084b093d7bddeeee490c9f20a8c8d"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_28",
+        "mask": 1572868,
+        "atlas_x": 320,
+        "atlas_y": 227,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "c6f096e7eb6ad200e47cb413b92373eb72a55e9762f0e557e5c8dd28da14ccbf",
+        "parts": [
+          {
+            "index": 2,
+            "name": "_WPNUM2",
+            "x": 19,
+            "y": 18,
+            "depth": 2,
+            "sha256": "a28426a442812bc21a28f7199af8dfcb86f10af21b955057fe20fbe0e979af63"
+          },
+          {
+            "index": 19,
+            "name": "_WPNUM9",
+            "x": 29,
+            "y": 18,
+            "depth": 19,
+            "sha256": "b663e134da262c93a15673b75f6d2bdcd55e9b27200ca8b562c6f307f60f2c03"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_29",
+        "mask": 1049608,
+        "atlas_x": 360,
+        "atlas_y": 227,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "ccc219e7cee77964c815e9d6d5a8650f4eace964aaa8dbb3efafb43283ccff12",
+        "parts": [
+          {
+            "index": 3,
+            "name": "_WPNUM3",
+            "x": 19,
+            "y": 18,
+            "depth": 3,
+            "sha256": "38665a5fa75474c04d80eec88e83805f903da7afcdb468a8a4e6774adea26b74"
+          },
+          {
+            "index": 10,
+            "name": "_WPNUM0",
+            "x": 29,
+            "y": 18,
+            "depth": 10,
+            "sha256": "f8616e19bd5a0ba292dc6ab2bdf1847c10eb189aa1a3d078877407fc37f110d0"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_30",
+        "mask": 1050632,
+        "atlas_x": 0,
+        "atlas_y": 195,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "96fbe3ebe3f98e9348934ef584a62d0507a9747d9f2c2dea4bd6eec38c1b4b42",
+        "parts": [
+          {
+            "index": 3,
+            "name": "_WPNUM3",
+            "x": 19,
+            "y": 18,
+            "depth": 3,
+            "sha256": "38665a5fa75474c04d80eec88e83805f903da7afcdb468a8a4e6774adea26b74"
+          },
+          {
+            "index": 11,
+            "name": "_WPNUM1",
+            "x": 29,
+            "y": 18,
+            "depth": 11,
+            "sha256": "772574545145d7ec1457efbf97b367cf2e3b1e40591e600d62a27a82a56f40fc"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_31",
+        "mask": 1052680,
+        "atlas_x": 40,
+        "atlas_y": 195,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "47d8e13693f91859df93fa0a7ef0e9c3d3784d3d253aca7360f9e2e53f17a3e1",
+        "parts": [
+          {
+            "index": 3,
+            "name": "_WPNUM3",
+            "x": 19,
+            "y": 18,
+            "depth": 3,
+            "sha256": "38665a5fa75474c04d80eec88e83805f903da7afcdb468a8a4e6774adea26b74"
+          },
+          {
+            "index": 12,
+            "name": "_WPNUM2",
+            "x": 29,
+            "y": 18,
+            "depth": 12,
+            "sha256": "a28426a442812bc21a28f7199af8dfcb86f10af21b955057fe20fbe0e979af63"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_32",
+        "mask": 1056776,
+        "atlas_x": 80,
+        "atlas_y": 195,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "0e5bad55bed3515bef6299677a3ff41839d4aa52cca4b8b5e93813686d495224",
+        "parts": [
+          {
+            "index": 3,
+            "name": "_WPNUM3",
+            "x": 19,
+            "y": 18,
+            "depth": 3,
+            "sha256": "38665a5fa75474c04d80eec88e83805f903da7afcdb468a8a4e6774adea26b74"
+          },
+          {
+            "index": 13,
+            "name": "_WPNUM3",
+            "x": 29,
+            "y": 18,
+            "depth": 13,
+            "sha256": "38665a5fa75474c04d80eec88e83805f903da7afcdb468a8a4e6774adea26b74"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_33",
+        "mask": 1064968,
+        "atlas_x": 120,
+        "atlas_y": 195,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "452eaf88f1d6290e01e1f5e3e62f62f8f1e813becfa2252d75cce5fa8111b04d",
+        "parts": [
+          {
+            "index": 3,
+            "name": "_WPNUM3",
+            "x": 19,
+            "y": 18,
+            "depth": 3,
+            "sha256": "38665a5fa75474c04d80eec88e83805f903da7afcdb468a8a4e6774adea26b74"
+          },
+          {
+            "index": 14,
+            "name": "_WPNUM4",
+            "x": 29,
+            "y": 18,
+            "depth": 14,
+            "sha256": "1f6e04e0261837ef5cf35f4d94c11203b2625ae436b18e5315db2f19bd559570"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_34",
+        "mask": 1081352,
+        "atlas_x": 160,
+        "atlas_y": 195,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "a91eab487988700a18a1d2b6461a6ebc345d917c3e958cb6a48e0cbdc1a46f6c",
+        "parts": [
+          {
+            "index": 3,
+            "name": "_WPNUM3",
+            "x": 19,
+            "y": 18,
+            "depth": 3,
+            "sha256": "38665a5fa75474c04d80eec88e83805f903da7afcdb468a8a4e6774adea26b74"
+          },
+          {
+            "index": 15,
+            "name": "_WPNUM5",
+            "x": 29,
+            "y": 18,
+            "depth": 15,
+            "sha256": "4dba6350de959d7c5c9935ae0d180e6beaa47a44738c6d26d74e3e4d46ec6a48"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_35",
+        "mask": 1114120,
+        "atlas_x": 200,
+        "atlas_y": 195,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "84e7f64a8a4cc38ef2d62bd1cd1852e9591da49720fffa14f67e9aa1407c26a2",
+        "parts": [
+          {
+            "index": 3,
+            "name": "_WPNUM3",
+            "x": 19,
+            "y": 18,
+            "depth": 3,
+            "sha256": "38665a5fa75474c04d80eec88e83805f903da7afcdb468a8a4e6774adea26b74"
+          },
+          {
+            "index": 16,
+            "name": "_WPNUM6",
+            "x": 29,
+            "y": 18,
+            "depth": 16,
+            "sha256": "5974e985381d66be769bd84a5e2fcd643021ab94e5859b512d3d5a2e6fe9e587"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_36",
+        "mask": 1179656,
+        "atlas_x": 240,
+        "atlas_y": 195,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "4f943c574e1d57db55d6a0a26ddbde61aec28c57bd80da7977d149cb2c07926e",
+        "parts": [
+          {
+            "index": 3,
+            "name": "_WPNUM3",
+            "x": 19,
+            "y": 18,
+            "depth": 3,
+            "sha256": "38665a5fa75474c04d80eec88e83805f903da7afcdb468a8a4e6774adea26b74"
+          },
+          {
+            "index": 17,
+            "name": "_WPNUM7",
+            "x": 29,
+            "y": 18,
+            "depth": 17,
+            "sha256": "b338b4fd9081075f799b8012bf0c9790f50673c00fea58b38fbbb5a5720b4a98"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_37",
+        "mask": 1310728,
+        "atlas_x": 280,
+        "atlas_y": 195,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "e307803c92ddfc891013749fd80c92be5b3f4761a7e9fd890b6d9de5790a8ad5",
+        "parts": [
+          {
+            "index": 3,
+            "name": "_WPNUM3",
+            "x": 19,
+            "y": 18,
+            "depth": 3,
+            "sha256": "38665a5fa75474c04d80eec88e83805f903da7afcdb468a8a4e6774adea26b74"
+          },
+          {
+            "index": 18,
+            "name": "_WPNUM8",
+            "x": 29,
+            "y": 18,
+            "depth": 18,
+            "sha256": "e76469c3c71a31c13f3f5f540a28c0f5ba3084b093d7bddeeee490c9f20a8c8d"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_38",
+        "mask": 1572872,
+        "atlas_x": 320,
+        "atlas_y": 195,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "83494dfe3747e88d73160115043917c1e5d0808843fa99505bdce0f62fbd6a42",
+        "parts": [
+          {
+            "index": 3,
+            "name": "_WPNUM3",
+            "x": 19,
+            "y": 18,
+            "depth": 3,
+            "sha256": "38665a5fa75474c04d80eec88e83805f903da7afcdb468a8a4e6774adea26b74"
+          },
+          {
+            "index": 19,
+            "name": "_WPNUM9",
+            "x": 29,
+            "y": 18,
+            "depth": 19,
+            "sha256": "b663e134da262c93a15673b75f6d2bdcd55e9b27200ca8b562c6f307f60f2c03"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_39",
+        "mask": 1049616,
+        "atlas_x": 360,
+        "atlas_y": 195,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "09ef0ffd161b62becd7ad96d3494659b64a90bdaff005b1da14fa90018011ac5",
+        "parts": [
+          {
+            "index": 4,
+            "name": "_WPNUM4",
+            "x": 19,
+            "y": 18,
+            "depth": 4,
+            "sha256": "1f6e04e0261837ef5cf35f4d94c11203b2625ae436b18e5315db2f19bd559570"
+          },
+          {
+            "index": 10,
+            "name": "_WPNUM0",
+            "x": 29,
+            "y": 18,
+            "depth": 10,
+            "sha256": "f8616e19bd5a0ba292dc6ab2bdf1847c10eb189aa1a3d078877407fc37f110d0"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_40",
+        "mask": 1050640,
+        "atlas_x": 0,
+        "atlas_y": 163,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "07e4f385690bcf5d09bae35c7ad89dce90c6f7529ff3cb1929478351b5d61111",
+        "parts": [
+          {
+            "index": 4,
+            "name": "_WPNUM4",
+            "x": 19,
+            "y": 18,
+            "depth": 4,
+            "sha256": "1f6e04e0261837ef5cf35f4d94c11203b2625ae436b18e5315db2f19bd559570"
+          },
+          {
+            "index": 11,
+            "name": "_WPNUM1",
+            "x": 29,
+            "y": 18,
+            "depth": 11,
+            "sha256": "772574545145d7ec1457efbf97b367cf2e3b1e40591e600d62a27a82a56f40fc"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_41",
+        "mask": 1052688,
+        "atlas_x": 40,
+        "atlas_y": 163,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "3748101db04578d1dcb9669c10906a4f6ca5ab591e91b16fc5287e5f1a1b3de5",
+        "parts": [
+          {
+            "index": 4,
+            "name": "_WPNUM4",
+            "x": 19,
+            "y": 18,
+            "depth": 4,
+            "sha256": "1f6e04e0261837ef5cf35f4d94c11203b2625ae436b18e5315db2f19bd559570"
+          },
+          {
+            "index": 12,
+            "name": "_WPNUM2",
+            "x": 29,
+            "y": 18,
+            "depth": 12,
+            "sha256": "a28426a442812bc21a28f7199af8dfcb86f10af21b955057fe20fbe0e979af63"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_42",
+        "mask": 1056784,
+        "atlas_x": 80,
+        "atlas_y": 163,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "1370c5e682ebc85bf55666f74dc89bf30cf9e1000017421f1e6e3a368bbc3ba5",
+        "parts": [
+          {
+            "index": 4,
+            "name": "_WPNUM4",
+            "x": 19,
+            "y": 18,
+            "depth": 4,
+            "sha256": "1f6e04e0261837ef5cf35f4d94c11203b2625ae436b18e5315db2f19bd559570"
+          },
+          {
+            "index": 13,
+            "name": "_WPNUM3",
+            "x": 29,
+            "y": 18,
+            "depth": 13,
+            "sha256": "38665a5fa75474c04d80eec88e83805f903da7afcdb468a8a4e6774adea26b74"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_43",
+        "mask": 1064976,
+        "atlas_x": 120,
+        "atlas_y": 163,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "53fc45f21189cf6ee0143536070cc33adbc197a7c4c81754465f0cbc8f6f7021",
+        "parts": [
+          {
+            "index": 4,
+            "name": "_WPNUM4",
+            "x": 19,
+            "y": 18,
+            "depth": 4,
+            "sha256": "1f6e04e0261837ef5cf35f4d94c11203b2625ae436b18e5315db2f19bd559570"
+          },
+          {
+            "index": 14,
+            "name": "_WPNUM4",
+            "x": 29,
+            "y": 18,
+            "depth": 14,
+            "sha256": "1f6e04e0261837ef5cf35f4d94c11203b2625ae436b18e5315db2f19bd559570"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_44",
+        "mask": 1081360,
+        "atlas_x": 160,
+        "atlas_y": 163,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "f59cfaa89e22c43e39777885cef13941b0784eb69fa11b9694ed4b0513004db5",
+        "parts": [
+          {
+            "index": 4,
+            "name": "_WPNUM4",
+            "x": 19,
+            "y": 18,
+            "depth": 4,
+            "sha256": "1f6e04e0261837ef5cf35f4d94c11203b2625ae436b18e5315db2f19bd559570"
+          },
+          {
+            "index": 15,
+            "name": "_WPNUM5",
+            "x": 29,
+            "y": 18,
+            "depth": 15,
+            "sha256": "4dba6350de959d7c5c9935ae0d180e6beaa47a44738c6d26d74e3e4d46ec6a48"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_45",
+        "mask": 1114128,
+        "atlas_x": 200,
+        "atlas_y": 163,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "a6519ba4936287f88805b99d0038cb2ffc7d70d3bee865b340e1bfaadafd35dc",
+        "parts": [
+          {
+            "index": 4,
+            "name": "_WPNUM4",
+            "x": 19,
+            "y": 18,
+            "depth": 4,
+            "sha256": "1f6e04e0261837ef5cf35f4d94c11203b2625ae436b18e5315db2f19bd559570"
+          },
+          {
+            "index": 16,
+            "name": "_WPNUM6",
+            "x": 29,
+            "y": 18,
+            "depth": 16,
+            "sha256": "5974e985381d66be769bd84a5e2fcd643021ab94e5859b512d3d5a2e6fe9e587"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_46",
+        "mask": 1179664,
+        "atlas_x": 240,
+        "atlas_y": 163,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "168e64375772e3d5fb3da036b676afa58a111ef959c5db52e269265206813b6d",
+        "parts": [
+          {
+            "index": 4,
+            "name": "_WPNUM4",
+            "x": 19,
+            "y": 18,
+            "depth": 4,
+            "sha256": "1f6e04e0261837ef5cf35f4d94c11203b2625ae436b18e5315db2f19bd559570"
+          },
+          {
+            "index": 17,
+            "name": "_WPNUM7",
+            "x": 29,
+            "y": 18,
+            "depth": 17,
+            "sha256": "b338b4fd9081075f799b8012bf0c9790f50673c00fea58b38fbbb5a5720b4a98"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_47",
+        "mask": 1310736,
+        "atlas_x": 280,
+        "atlas_y": 163,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "a561f2c40db978927706c0c35360fa7bf07ac3e41963f18771beaed4eabf51ee",
+        "parts": [
+          {
+            "index": 4,
+            "name": "_WPNUM4",
+            "x": 19,
+            "y": 18,
+            "depth": 4,
+            "sha256": "1f6e04e0261837ef5cf35f4d94c11203b2625ae436b18e5315db2f19bd559570"
+          },
+          {
+            "index": 18,
+            "name": "_WPNUM8",
+            "x": 29,
+            "y": 18,
+            "depth": 18,
+            "sha256": "e76469c3c71a31c13f3f5f540a28c0f5ba3084b093d7bddeeee490c9f20a8c8d"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_48",
+        "mask": 1572880,
+        "atlas_x": 320,
+        "atlas_y": 163,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "0a63fc8b955fc0c870ace2da46b366c30c435af246a5781d8dee0711cef79cd8",
+        "parts": [
+          {
+            "index": 4,
+            "name": "_WPNUM4",
+            "x": 19,
+            "y": 18,
+            "depth": 4,
+            "sha256": "1f6e04e0261837ef5cf35f4d94c11203b2625ae436b18e5315db2f19bd559570"
+          },
+          {
+            "index": 19,
+            "name": "_WPNUM9",
+            "x": 29,
+            "y": 18,
+            "depth": 19,
+            "sha256": "b663e134da262c93a15673b75f6d2bdcd55e9b27200ca8b562c6f307f60f2c03"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_49",
+        "mask": 1049632,
+        "atlas_x": 360,
+        "atlas_y": 163,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "ab88956320bf7446fe23efdd041cd3a4b118b0ae931c6ce5b99a116e1729c816",
+        "parts": [
+          {
+            "index": 5,
+            "name": "_WPNUM5",
+            "x": 19,
+            "y": 18,
+            "depth": 5,
+            "sha256": "4dba6350de959d7c5c9935ae0d180e6beaa47a44738c6d26d74e3e4d46ec6a48"
+          },
+          {
+            "index": 10,
+            "name": "_WPNUM0",
+            "x": 29,
+            "y": 18,
+            "depth": 10,
+            "sha256": "f8616e19bd5a0ba292dc6ab2bdf1847c10eb189aa1a3d078877407fc37f110d0"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_50",
+        "mask": 1050656,
+        "atlas_x": 0,
+        "atlas_y": 131,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "f9289373709b41e371d04479f04fc89b1503a33b5ec13f92a253f4f1b9ccefd1",
+        "parts": [
+          {
+            "index": 5,
+            "name": "_WPNUM5",
+            "x": 19,
+            "y": 18,
+            "depth": 5,
+            "sha256": "4dba6350de959d7c5c9935ae0d180e6beaa47a44738c6d26d74e3e4d46ec6a48"
+          },
+          {
+            "index": 11,
+            "name": "_WPNUM1",
+            "x": 29,
+            "y": 18,
+            "depth": 11,
+            "sha256": "772574545145d7ec1457efbf97b367cf2e3b1e40591e600d62a27a82a56f40fc"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_51",
+        "mask": 1052704,
+        "atlas_x": 40,
+        "atlas_y": 131,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "ff545f9f03661354b032f14bc57dca4f23ea5fc1c1396d2cbc24b33247db7d7b",
+        "parts": [
+          {
+            "index": 5,
+            "name": "_WPNUM5",
+            "x": 19,
+            "y": 18,
+            "depth": 5,
+            "sha256": "4dba6350de959d7c5c9935ae0d180e6beaa47a44738c6d26d74e3e4d46ec6a48"
+          },
+          {
+            "index": 12,
+            "name": "_WPNUM2",
+            "x": 29,
+            "y": 18,
+            "depth": 12,
+            "sha256": "a28426a442812bc21a28f7199af8dfcb86f10af21b955057fe20fbe0e979af63"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_52",
+        "mask": 1056800,
+        "atlas_x": 80,
+        "atlas_y": 131,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "ee01f14387a1433ad66cc42f06025852e1066ce6a0f07da5e6ed17f3dba9b97c",
+        "parts": [
+          {
+            "index": 5,
+            "name": "_WPNUM5",
+            "x": 19,
+            "y": 18,
+            "depth": 5,
+            "sha256": "4dba6350de959d7c5c9935ae0d180e6beaa47a44738c6d26d74e3e4d46ec6a48"
+          },
+          {
+            "index": 13,
+            "name": "_WPNUM3",
+            "x": 29,
+            "y": 18,
+            "depth": 13,
+            "sha256": "38665a5fa75474c04d80eec88e83805f903da7afcdb468a8a4e6774adea26b74"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_53",
+        "mask": 1064992,
+        "atlas_x": 120,
+        "atlas_y": 131,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "0572892c089f7765099b20afa7d9629910b0fcc310ffbbb5f54b9735a3961f0f",
+        "parts": [
+          {
+            "index": 5,
+            "name": "_WPNUM5",
+            "x": 19,
+            "y": 18,
+            "depth": 5,
+            "sha256": "4dba6350de959d7c5c9935ae0d180e6beaa47a44738c6d26d74e3e4d46ec6a48"
+          },
+          {
+            "index": 14,
+            "name": "_WPNUM4",
+            "x": 29,
+            "y": 18,
+            "depth": 14,
+            "sha256": "1f6e04e0261837ef5cf35f4d94c11203b2625ae436b18e5315db2f19bd559570"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_54",
+        "mask": 1081376,
+        "atlas_x": 160,
+        "atlas_y": 131,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "dac8f7566472ecdf7c645202b4e327c20ed1174bd527a369757103b69ea23ee9",
+        "parts": [
+          {
+            "index": 5,
+            "name": "_WPNUM5",
+            "x": 19,
+            "y": 18,
+            "depth": 5,
+            "sha256": "4dba6350de959d7c5c9935ae0d180e6beaa47a44738c6d26d74e3e4d46ec6a48"
+          },
+          {
+            "index": 15,
+            "name": "_WPNUM5",
+            "x": 29,
+            "y": 18,
+            "depth": 15,
+            "sha256": "4dba6350de959d7c5c9935ae0d180e6beaa47a44738c6d26d74e3e4d46ec6a48"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_55",
+        "mask": 1114144,
+        "atlas_x": 200,
+        "atlas_y": 131,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "70a244ad3354c683419257d06b0a4682965886a59b03e108b9f5f03996f1270e",
+        "parts": [
+          {
+            "index": 5,
+            "name": "_WPNUM5",
+            "x": 19,
+            "y": 18,
+            "depth": 5,
+            "sha256": "4dba6350de959d7c5c9935ae0d180e6beaa47a44738c6d26d74e3e4d46ec6a48"
+          },
+          {
+            "index": 16,
+            "name": "_WPNUM6",
+            "x": 29,
+            "y": 18,
+            "depth": 16,
+            "sha256": "5974e985381d66be769bd84a5e2fcd643021ab94e5859b512d3d5a2e6fe9e587"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_56",
+        "mask": 1179680,
+        "atlas_x": 240,
+        "atlas_y": 131,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "af9d8151bebd0bbbc4a8f2dc9e73c86cee88da4a8e3bd398598deff41712619b",
+        "parts": [
+          {
+            "index": 5,
+            "name": "_WPNUM5",
+            "x": 19,
+            "y": 18,
+            "depth": 5,
+            "sha256": "4dba6350de959d7c5c9935ae0d180e6beaa47a44738c6d26d74e3e4d46ec6a48"
+          },
+          {
+            "index": 17,
+            "name": "_WPNUM7",
+            "x": 29,
+            "y": 18,
+            "depth": 17,
+            "sha256": "b338b4fd9081075f799b8012bf0c9790f50673c00fea58b38fbbb5a5720b4a98"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_57",
+        "mask": 1310752,
+        "atlas_x": 280,
+        "atlas_y": 131,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "fa0e45ed16211f7d1f222be163bdc7c70113cc5658046c0dc54637a72d5651f3",
+        "parts": [
+          {
+            "index": 5,
+            "name": "_WPNUM5",
+            "x": 19,
+            "y": 18,
+            "depth": 5,
+            "sha256": "4dba6350de959d7c5c9935ae0d180e6beaa47a44738c6d26d74e3e4d46ec6a48"
+          },
+          {
+            "index": 18,
+            "name": "_WPNUM8",
+            "x": 29,
+            "y": 18,
+            "depth": 18,
+            "sha256": "e76469c3c71a31c13f3f5f540a28c0f5ba3084b093d7bddeeee490c9f20a8c8d"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_58",
+        "mask": 1572896,
+        "atlas_x": 320,
+        "atlas_y": 131,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "6440c367ee23b73db16a3719f69c52f410b80d6dc9fcc396093c14e360c3c94c",
+        "parts": [
+          {
+            "index": 5,
+            "name": "_WPNUM5",
+            "x": 19,
+            "y": 18,
+            "depth": 5,
+            "sha256": "4dba6350de959d7c5c9935ae0d180e6beaa47a44738c6d26d74e3e4d46ec6a48"
+          },
+          {
+            "index": 19,
+            "name": "_WPNUM9",
+            "x": 29,
+            "y": 18,
+            "depth": 19,
+            "sha256": "b663e134da262c93a15673b75f6d2bdcd55e9b27200ca8b562c6f307f60f2c03"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_59",
+        "mask": 1049664,
+        "atlas_x": 360,
+        "atlas_y": 131,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "229d8e0c837f555f4cdb1e0377c9d94e831e13763a16666a1d5d379150a69988",
+        "parts": [
+          {
+            "index": 6,
+            "name": "_WPNUM6",
+            "x": 19,
+            "y": 18,
+            "depth": 6,
+            "sha256": "5974e985381d66be769bd84a5e2fcd643021ab94e5859b512d3d5a2e6fe9e587"
+          },
+          {
+            "index": 10,
+            "name": "_WPNUM0",
+            "x": 29,
+            "y": 18,
+            "depth": 10,
+            "sha256": "f8616e19bd5a0ba292dc6ab2bdf1847c10eb189aa1a3d078877407fc37f110d0"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_60",
+        "mask": 1050688,
+        "atlas_x": 0,
+        "atlas_y": 99,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "0b6460f884a6c76022fa6add2fed19375177b6797abf27547352869514443c5e",
+        "parts": [
+          {
+            "index": 6,
+            "name": "_WPNUM6",
+            "x": 19,
+            "y": 18,
+            "depth": 6,
+            "sha256": "5974e985381d66be769bd84a5e2fcd643021ab94e5859b512d3d5a2e6fe9e587"
+          },
+          {
+            "index": 11,
+            "name": "_WPNUM1",
+            "x": 29,
+            "y": 18,
+            "depth": 11,
+            "sha256": "772574545145d7ec1457efbf97b367cf2e3b1e40591e600d62a27a82a56f40fc"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_61",
+        "mask": 1052736,
+        "atlas_x": 40,
+        "atlas_y": 99,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "5aa7d4797e387761822eabebb028658f3fadae0a62a71a8d30b704a71af1e121",
+        "parts": [
+          {
+            "index": 6,
+            "name": "_WPNUM6",
+            "x": 19,
+            "y": 18,
+            "depth": 6,
+            "sha256": "5974e985381d66be769bd84a5e2fcd643021ab94e5859b512d3d5a2e6fe9e587"
+          },
+          {
+            "index": 12,
+            "name": "_WPNUM2",
+            "x": 29,
+            "y": 18,
+            "depth": 12,
+            "sha256": "a28426a442812bc21a28f7199af8dfcb86f10af21b955057fe20fbe0e979af63"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_62",
+        "mask": 1056832,
+        "atlas_x": 80,
+        "atlas_y": 99,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "3d1ea1fe6a60d0af64dfc499d1a00db2507836b1fb67740f67ec53c3d3809378",
+        "parts": [
+          {
+            "index": 6,
+            "name": "_WPNUM6",
+            "x": 19,
+            "y": 18,
+            "depth": 6,
+            "sha256": "5974e985381d66be769bd84a5e2fcd643021ab94e5859b512d3d5a2e6fe9e587"
+          },
+          {
+            "index": 13,
+            "name": "_WPNUM3",
+            "x": 29,
+            "y": 18,
+            "depth": 13,
+            "sha256": "38665a5fa75474c04d80eec88e83805f903da7afcdb468a8a4e6774adea26b74"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_63",
+        "mask": 1065024,
+        "atlas_x": 120,
+        "atlas_y": 99,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "5e3b10a596c51269180fb25b9651b3652f8a1330d2d14001e955a68e0b4a4cd7",
+        "parts": [
+          {
+            "index": 6,
+            "name": "_WPNUM6",
+            "x": 19,
+            "y": 18,
+            "depth": 6,
+            "sha256": "5974e985381d66be769bd84a5e2fcd643021ab94e5859b512d3d5a2e6fe9e587"
+          },
+          {
+            "index": 14,
+            "name": "_WPNUM4",
+            "x": 29,
+            "y": 18,
+            "depth": 14,
+            "sha256": "1f6e04e0261837ef5cf35f4d94c11203b2625ae436b18e5315db2f19bd559570"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_64",
+        "mask": 1081408,
+        "atlas_x": 160,
+        "atlas_y": 99,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "6d7ebcd314af4d8436278b64ff61add5460eea96e7e6bb5f2b6714b61ac54033",
+        "parts": [
+          {
+            "index": 6,
+            "name": "_WPNUM6",
+            "x": 19,
+            "y": 18,
+            "depth": 6,
+            "sha256": "5974e985381d66be769bd84a5e2fcd643021ab94e5859b512d3d5a2e6fe9e587"
+          },
+          {
+            "index": 15,
+            "name": "_WPNUM5",
+            "x": 29,
+            "y": 18,
+            "depth": 15,
+            "sha256": "4dba6350de959d7c5c9935ae0d180e6beaa47a44738c6d26d74e3e4d46ec6a48"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_65",
+        "mask": 1114176,
+        "atlas_x": 200,
+        "atlas_y": 99,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "ce1113a34ff989b276d1a87608273be3ac7025e9d479452370cd31785cf4c92e",
+        "parts": [
+          {
+            "index": 6,
+            "name": "_WPNUM6",
+            "x": 19,
+            "y": 18,
+            "depth": 6,
+            "sha256": "5974e985381d66be769bd84a5e2fcd643021ab94e5859b512d3d5a2e6fe9e587"
+          },
+          {
+            "index": 16,
+            "name": "_WPNUM6",
+            "x": 29,
+            "y": 18,
+            "depth": 16,
+            "sha256": "5974e985381d66be769bd84a5e2fcd643021ab94e5859b512d3d5a2e6fe9e587"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_66",
+        "mask": 1179712,
+        "atlas_x": 240,
+        "atlas_y": 99,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "7ac4cf05ced3937c695feb06ac48e11960fe748e485ec4d69aacf73b324937a4",
+        "parts": [
+          {
+            "index": 6,
+            "name": "_WPNUM6",
+            "x": 19,
+            "y": 18,
+            "depth": 6,
+            "sha256": "5974e985381d66be769bd84a5e2fcd643021ab94e5859b512d3d5a2e6fe9e587"
+          },
+          {
+            "index": 17,
+            "name": "_WPNUM7",
+            "x": 29,
+            "y": 18,
+            "depth": 17,
+            "sha256": "b338b4fd9081075f799b8012bf0c9790f50673c00fea58b38fbbb5a5720b4a98"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_67",
+        "mask": 1310784,
+        "atlas_x": 280,
+        "atlas_y": 99,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "ae9561ee04d9685664acf152dab7240243a413c6097a5270d84e7b195d32f7c6",
+        "parts": [
+          {
+            "index": 6,
+            "name": "_WPNUM6",
+            "x": 19,
+            "y": 18,
+            "depth": 6,
+            "sha256": "5974e985381d66be769bd84a5e2fcd643021ab94e5859b512d3d5a2e6fe9e587"
+          },
+          {
+            "index": 18,
+            "name": "_WPNUM8",
+            "x": 29,
+            "y": 18,
+            "depth": 18,
+            "sha256": "e76469c3c71a31c13f3f5f540a28c0f5ba3084b093d7bddeeee490c9f20a8c8d"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_68",
+        "mask": 1572928,
+        "atlas_x": 320,
+        "atlas_y": 99,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "eef8977a5b72d5336acf0c42c9abc66ada9937cb897eb876e92528e80d18023e",
+        "parts": [
+          {
+            "index": 6,
+            "name": "_WPNUM6",
+            "x": 19,
+            "y": 18,
+            "depth": 6,
+            "sha256": "5974e985381d66be769bd84a5e2fcd643021ab94e5859b512d3d5a2e6fe9e587"
+          },
+          {
+            "index": 19,
+            "name": "_WPNUM9",
+            "x": 29,
+            "y": 18,
+            "depth": 19,
+            "sha256": "b663e134da262c93a15673b75f6d2bdcd55e9b27200ca8b562c6f307f60f2c03"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_69",
+        "mask": 1049728,
+        "atlas_x": 360,
+        "atlas_y": 99,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "1bbfdad2e5eaee604f7ea04dc314750be0077b8e0a9704586ccebfafc8c154ba",
+        "parts": [
+          {
+            "index": 7,
+            "name": "_WPNUM7",
+            "x": 19,
+            "y": 18,
+            "depth": 7,
+            "sha256": "b338b4fd9081075f799b8012bf0c9790f50673c00fea58b38fbbb5a5720b4a98"
+          },
+          {
+            "index": 10,
+            "name": "_WPNUM0",
+            "x": 29,
+            "y": 18,
+            "depth": 10,
+            "sha256": "f8616e19bd5a0ba292dc6ab2bdf1847c10eb189aa1a3d078877407fc37f110d0"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_70",
+        "mask": 1050752,
+        "atlas_x": 0,
+        "atlas_y": 67,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "33fd16f8d806010fdc48f3510e86e468dab6736bbbd7b8dce5f2f1331480a3ec",
+        "parts": [
+          {
+            "index": 7,
+            "name": "_WPNUM7",
+            "x": 19,
+            "y": 18,
+            "depth": 7,
+            "sha256": "b338b4fd9081075f799b8012bf0c9790f50673c00fea58b38fbbb5a5720b4a98"
+          },
+          {
+            "index": 11,
+            "name": "_WPNUM1",
+            "x": 29,
+            "y": 18,
+            "depth": 11,
+            "sha256": "772574545145d7ec1457efbf97b367cf2e3b1e40591e600d62a27a82a56f40fc"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_71",
+        "mask": 1052800,
+        "atlas_x": 40,
+        "atlas_y": 67,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "b6c0c0789bba2241377f169d46570a9d93d30d01b21543ffd87cb73ed90c700c",
+        "parts": [
+          {
+            "index": 7,
+            "name": "_WPNUM7",
+            "x": 19,
+            "y": 18,
+            "depth": 7,
+            "sha256": "b338b4fd9081075f799b8012bf0c9790f50673c00fea58b38fbbb5a5720b4a98"
+          },
+          {
+            "index": 12,
+            "name": "_WPNUM2",
+            "x": 29,
+            "y": 18,
+            "depth": 12,
+            "sha256": "a28426a442812bc21a28f7199af8dfcb86f10af21b955057fe20fbe0e979af63"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_72",
+        "mask": 1056896,
+        "atlas_x": 80,
+        "atlas_y": 67,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "1f31b714a7da833ad3e7bc89b87292be91f622c519275cfeae4436a014f2565c",
+        "parts": [
+          {
+            "index": 7,
+            "name": "_WPNUM7",
+            "x": 19,
+            "y": 18,
+            "depth": 7,
+            "sha256": "b338b4fd9081075f799b8012bf0c9790f50673c00fea58b38fbbb5a5720b4a98"
+          },
+          {
+            "index": 13,
+            "name": "_WPNUM3",
+            "x": 29,
+            "y": 18,
+            "depth": 13,
+            "sha256": "38665a5fa75474c04d80eec88e83805f903da7afcdb468a8a4e6774adea26b74"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_73",
+        "mask": 1065088,
+        "atlas_x": 120,
+        "atlas_y": 67,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "b7a8150189cc5b4f889641efb85ddec92e53474eb4b6cae275306f66e070efcc",
+        "parts": [
+          {
+            "index": 7,
+            "name": "_WPNUM7",
+            "x": 19,
+            "y": 18,
+            "depth": 7,
+            "sha256": "b338b4fd9081075f799b8012bf0c9790f50673c00fea58b38fbbb5a5720b4a98"
+          },
+          {
+            "index": 14,
+            "name": "_WPNUM4",
+            "x": 29,
+            "y": 18,
+            "depth": 14,
+            "sha256": "1f6e04e0261837ef5cf35f4d94c11203b2625ae436b18e5315db2f19bd559570"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_74",
+        "mask": 1081472,
+        "atlas_x": 160,
+        "atlas_y": 67,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "6023ee1c8812b1facb625a642984d70c4ca6ee83531641b69601e8ddb001d6bd",
+        "parts": [
+          {
+            "index": 7,
+            "name": "_WPNUM7",
+            "x": 19,
+            "y": 18,
+            "depth": 7,
+            "sha256": "b338b4fd9081075f799b8012bf0c9790f50673c00fea58b38fbbb5a5720b4a98"
+          },
+          {
+            "index": 15,
+            "name": "_WPNUM5",
+            "x": 29,
+            "y": 18,
+            "depth": 15,
+            "sha256": "4dba6350de959d7c5c9935ae0d180e6beaa47a44738c6d26d74e3e4d46ec6a48"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_75",
+        "mask": 1114240,
+        "atlas_x": 200,
+        "atlas_y": 67,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "548af062cd9a17d841b8b81c4547cfe8fe2206d32e0dc1ac1916349ffa323216",
+        "parts": [
+          {
+            "index": 7,
+            "name": "_WPNUM7",
+            "x": 19,
+            "y": 18,
+            "depth": 7,
+            "sha256": "b338b4fd9081075f799b8012bf0c9790f50673c00fea58b38fbbb5a5720b4a98"
+          },
+          {
+            "index": 16,
+            "name": "_WPNUM6",
+            "x": 29,
+            "y": 18,
+            "depth": 16,
+            "sha256": "5974e985381d66be769bd84a5e2fcd643021ab94e5859b512d3d5a2e6fe9e587"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_76",
+        "mask": 1179776,
+        "atlas_x": 240,
+        "atlas_y": 67,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "ae1675e339afcc88190ff2cdd049d9e430be6e3c7b47f3c550245bd512ae85dc",
+        "parts": [
+          {
+            "index": 7,
+            "name": "_WPNUM7",
+            "x": 19,
+            "y": 18,
+            "depth": 7,
+            "sha256": "b338b4fd9081075f799b8012bf0c9790f50673c00fea58b38fbbb5a5720b4a98"
+          },
+          {
+            "index": 17,
+            "name": "_WPNUM7",
+            "x": 29,
+            "y": 18,
+            "depth": 17,
+            "sha256": "b338b4fd9081075f799b8012bf0c9790f50673c00fea58b38fbbb5a5720b4a98"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_77",
+        "mask": 1310848,
+        "atlas_x": 280,
+        "atlas_y": 67,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "132f338a3c09450c452332ec4f842f5250ea994da768b7380fcbae84e94b9704",
+        "parts": [
+          {
+            "index": 7,
+            "name": "_WPNUM7",
+            "x": 19,
+            "y": 18,
+            "depth": 7,
+            "sha256": "b338b4fd9081075f799b8012bf0c9790f50673c00fea58b38fbbb5a5720b4a98"
+          },
+          {
+            "index": 18,
+            "name": "_WPNUM8",
+            "x": 29,
+            "y": 18,
+            "depth": 18,
+            "sha256": "e76469c3c71a31c13f3f5f540a28c0f5ba3084b093d7bddeeee490c9f20a8c8d"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_78",
+        "mask": 1572992,
+        "atlas_x": 320,
+        "atlas_y": 67,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "e27acb19a1961c4e8770dfd3228c9a6a91e44217f5e63ca04d21abff267632de",
+        "parts": [
+          {
+            "index": 7,
+            "name": "_WPNUM7",
+            "x": 19,
+            "y": 18,
+            "depth": 7,
+            "sha256": "b338b4fd9081075f799b8012bf0c9790f50673c00fea58b38fbbb5a5720b4a98"
+          },
+          {
+            "index": 19,
+            "name": "_WPNUM9",
+            "x": 29,
+            "y": 18,
+            "depth": 19,
+            "sha256": "b663e134da262c93a15673b75f6d2bdcd55e9b27200ca8b562c6f307f60f2c03"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_79",
+        "mask": 1049856,
+        "atlas_x": 360,
+        "atlas_y": 67,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "31cabe2280d5ea0706bbd7643380e7aa04711d315a14f37561568b2c05486909",
+        "parts": [
+          {
+            "index": 8,
+            "name": "_WPNUM8",
+            "x": 19,
+            "y": 18,
+            "depth": 8,
+            "sha256": "e76469c3c71a31c13f3f5f540a28c0f5ba3084b093d7bddeeee490c9f20a8c8d"
+          },
+          {
+            "index": 10,
+            "name": "_WPNUM0",
+            "x": 29,
+            "y": 18,
+            "depth": 10,
+            "sha256": "f8616e19bd5a0ba292dc6ab2bdf1847c10eb189aa1a3d078877407fc37f110d0"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_80",
+        "mask": 1050880,
+        "atlas_x": 0,
+        "atlas_y": 35,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "5aa026a8ed6f0d23828eefc05e8a3dea62c7c42ccb602961335dcb3bf313bae6",
+        "parts": [
+          {
+            "index": 8,
+            "name": "_WPNUM8",
+            "x": 19,
+            "y": 18,
+            "depth": 8,
+            "sha256": "e76469c3c71a31c13f3f5f540a28c0f5ba3084b093d7bddeeee490c9f20a8c8d"
+          },
+          {
+            "index": 11,
+            "name": "_WPNUM1",
+            "x": 29,
+            "y": 18,
+            "depth": 11,
+            "sha256": "772574545145d7ec1457efbf97b367cf2e3b1e40591e600d62a27a82a56f40fc"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_81",
+        "mask": 1052928,
+        "atlas_x": 40,
+        "atlas_y": 35,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "4c0b7954052957064e96190c453b4d85e0ceb3b2b187d15f64f1e0e34c4ce40b",
+        "parts": [
+          {
+            "index": 8,
+            "name": "_WPNUM8",
+            "x": 19,
+            "y": 18,
+            "depth": 8,
+            "sha256": "e76469c3c71a31c13f3f5f540a28c0f5ba3084b093d7bddeeee490c9f20a8c8d"
+          },
+          {
+            "index": 12,
+            "name": "_WPNUM2",
+            "x": 29,
+            "y": 18,
+            "depth": 12,
+            "sha256": "a28426a442812bc21a28f7199af8dfcb86f10af21b955057fe20fbe0e979af63"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_82",
+        "mask": 1057024,
+        "atlas_x": 80,
+        "atlas_y": 35,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "a39868a1fbf9819c873737600b86e2e98c93bb739017cd09b1728e7338fccb78",
+        "parts": [
+          {
+            "index": 8,
+            "name": "_WPNUM8",
+            "x": 19,
+            "y": 18,
+            "depth": 8,
+            "sha256": "e76469c3c71a31c13f3f5f540a28c0f5ba3084b093d7bddeeee490c9f20a8c8d"
+          },
+          {
+            "index": 13,
+            "name": "_WPNUM3",
+            "x": 29,
+            "y": 18,
+            "depth": 13,
+            "sha256": "38665a5fa75474c04d80eec88e83805f903da7afcdb468a8a4e6774adea26b74"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_83",
+        "mask": 1065216,
+        "atlas_x": 120,
+        "atlas_y": 35,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "262861df670af10b32502a2a6b9cbd8c099a570dd1ec461d5c8b7820567187fd",
+        "parts": [
+          {
+            "index": 8,
+            "name": "_WPNUM8",
+            "x": 19,
+            "y": 18,
+            "depth": 8,
+            "sha256": "e76469c3c71a31c13f3f5f540a28c0f5ba3084b093d7bddeeee490c9f20a8c8d"
+          },
+          {
+            "index": 14,
+            "name": "_WPNUM4",
+            "x": 29,
+            "y": 18,
+            "depth": 14,
+            "sha256": "1f6e04e0261837ef5cf35f4d94c11203b2625ae436b18e5315db2f19bd559570"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_84",
+        "mask": 1081600,
+        "atlas_x": 160,
+        "atlas_y": 35,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "816bb419b98c96f8a2ac60a8f33effec38f8ccf9cde55ba09df55b46b8ff8ba7",
+        "parts": [
+          {
+            "index": 8,
+            "name": "_WPNUM8",
+            "x": 19,
+            "y": 18,
+            "depth": 8,
+            "sha256": "e76469c3c71a31c13f3f5f540a28c0f5ba3084b093d7bddeeee490c9f20a8c8d"
+          },
+          {
+            "index": 15,
+            "name": "_WPNUM5",
+            "x": 29,
+            "y": 18,
+            "depth": 15,
+            "sha256": "4dba6350de959d7c5c9935ae0d180e6beaa47a44738c6d26d74e3e4d46ec6a48"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_85",
+        "mask": 1114368,
+        "atlas_x": 200,
+        "atlas_y": 35,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "88e21c3ca55371f4df77b79beb738fe708c528c63aad65fa4edcab53b3a4893a",
+        "parts": [
+          {
+            "index": 8,
+            "name": "_WPNUM8",
+            "x": 19,
+            "y": 18,
+            "depth": 8,
+            "sha256": "e76469c3c71a31c13f3f5f540a28c0f5ba3084b093d7bddeeee490c9f20a8c8d"
+          },
+          {
+            "index": 16,
+            "name": "_WPNUM6",
+            "x": 29,
+            "y": 18,
+            "depth": 16,
+            "sha256": "5974e985381d66be769bd84a5e2fcd643021ab94e5859b512d3d5a2e6fe9e587"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_86",
+        "mask": 1179904,
+        "atlas_x": 240,
+        "atlas_y": 35,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "de8982e6e251cd580821055e95dff0c27fd2ab4e70873977f5902233c94026ca",
+        "parts": [
+          {
+            "index": 8,
+            "name": "_WPNUM8",
+            "x": 19,
+            "y": 18,
+            "depth": 8,
+            "sha256": "e76469c3c71a31c13f3f5f540a28c0f5ba3084b093d7bddeeee490c9f20a8c8d"
+          },
+          {
+            "index": 17,
+            "name": "_WPNUM7",
+            "x": 29,
+            "y": 18,
+            "depth": 17,
+            "sha256": "b338b4fd9081075f799b8012bf0c9790f50673c00fea58b38fbbb5a5720b4a98"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_87",
+        "mask": 1310976,
+        "atlas_x": 280,
+        "atlas_y": 35,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "3fcc9a58b890effa8f0020436d51a712825042a3e2e44ae8b3b2bfc77255bc87",
+        "parts": [
+          {
+            "index": 8,
+            "name": "_WPNUM8",
+            "x": 19,
+            "y": 18,
+            "depth": 8,
+            "sha256": "e76469c3c71a31c13f3f5f540a28c0f5ba3084b093d7bddeeee490c9f20a8c8d"
+          },
+          {
+            "index": 18,
+            "name": "_WPNUM8",
+            "x": 29,
+            "y": 18,
+            "depth": 18,
+            "sha256": "e76469c3c71a31c13f3f5f540a28c0f5ba3084b093d7bddeeee490c9f20a8c8d"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_88",
+        "mask": 1573120,
+        "atlas_x": 320,
+        "atlas_y": 35,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "efdde9b85990bcca4bc92ca797dab04bd343416bc67a1b0b29bef13366f26cf8",
+        "parts": [
+          {
+            "index": 8,
+            "name": "_WPNUM8",
+            "x": 19,
+            "y": 18,
+            "depth": 8,
+            "sha256": "e76469c3c71a31c13f3f5f540a28c0f5ba3084b093d7bddeeee490c9f20a8c8d"
+          },
+          {
+            "index": 19,
+            "name": "_WPNUM9",
+            "x": 29,
+            "y": 18,
+            "depth": 19,
+            "sha256": "b663e134da262c93a15673b75f6d2bdcd55e9b27200ca8b562c6f307f60f2c03"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_89",
+        "mask": 1050112,
+        "atlas_x": 360,
+        "atlas_y": 35,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "bac37eeac36ef1e7e11a103c1f29e8e942c3d7fe233e7d395ee546377c86d46d",
+        "parts": [
+          {
+            "index": 9,
+            "name": "_WPNUM9",
+            "x": 19,
+            "y": 18,
+            "depth": 9,
+            "sha256": "b663e134da262c93a15673b75f6d2bdcd55e9b27200ca8b562c6f307f60f2c03"
+          },
+          {
+            "index": 10,
+            "name": "_WPNUM0",
+            "x": 29,
+            "y": 18,
+            "depth": 10,
+            "sha256": "f8616e19bd5a0ba292dc6ab2bdf1847c10eb189aa1a3d078877407fc37f110d0"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_90",
+        "mask": 1051136,
+        "atlas_x": 0,
+        "atlas_y": 3,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "0c7d0b27a392c8d7f9d163df8b8a979ee32e8e912cfcc4da6bbdefd03f65ebfd",
+        "parts": [
+          {
+            "index": 9,
+            "name": "_WPNUM9",
+            "x": 19,
+            "y": 18,
+            "depth": 9,
+            "sha256": "b663e134da262c93a15673b75f6d2bdcd55e9b27200ca8b562c6f307f60f2c03"
+          },
+          {
+            "index": 11,
+            "name": "_WPNUM1",
+            "x": 29,
+            "y": 18,
+            "depth": 11,
+            "sha256": "772574545145d7ec1457efbf97b367cf2e3b1e40591e600d62a27a82a56f40fc"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_91",
+        "mask": 1053184,
+        "atlas_x": 40,
+        "atlas_y": 3,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "8f37c8888b9d26429fc0c513328f5c7ff18a6dd8e798eac3baa0340ce03c987f",
+        "parts": [
+          {
+            "index": 9,
+            "name": "_WPNUM9",
+            "x": 19,
+            "y": 18,
+            "depth": 9,
+            "sha256": "b663e134da262c93a15673b75f6d2bdcd55e9b27200ca8b562c6f307f60f2c03"
+          },
+          {
+            "index": 12,
+            "name": "_WPNUM2",
+            "x": 29,
+            "y": 18,
+            "depth": 12,
+            "sha256": "a28426a442812bc21a28f7199af8dfcb86f10af21b955057fe20fbe0e979af63"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_92",
+        "mask": 1057280,
+        "atlas_x": 80,
+        "atlas_y": 3,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "3fe5153d51ed962c3266cf046b12a68957a2532599888180079f49a37919ce64",
+        "parts": [
+          {
+            "index": 9,
+            "name": "_WPNUM9",
+            "x": 19,
+            "y": 18,
+            "depth": 9,
+            "sha256": "b663e134da262c93a15673b75f6d2bdcd55e9b27200ca8b562c6f307f60f2c03"
+          },
+          {
+            "index": 13,
+            "name": "_WPNUM3",
+            "x": 29,
+            "y": 18,
+            "depth": 13,
+            "sha256": "38665a5fa75474c04d80eec88e83805f903da7afcdb468a8a4e6774adea26b74"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_93",
+        "mask": 1065472,
+        "atlas_x": 120,
+        "atlas_y": 3,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "9fafa5da32b9f8903ca953ccb266921d0b1b2ff8359815ea3fe673e280fe3f0b",
+        "parts": [
+          {
+            "index": 9,
+            "name": "_WPNUM9",
+            "x": 19,
+            "y": 18,
+            "depth": 9,
+            "sha256": "b663e134da262c93a15673b75f6d2bdcd55e9b27200ca8b562c6f307f60f2c03"
+          },
+          {
+            "index": 14,
+            "name": "_WPNUM4",
+            "x": 29,
+            "y": 18,
+            "depth": 14,
+            "sha256": "1f6e04e0261837ef5cf35f4d94c11203b2625ae436b18e5315db2f19bd559570"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_94",
+        "mask": 1081856,
+        "atlas_x": 160,
+        "atlas_y": 3,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "c6948c26c07b5f2aca2742d7731ffe3e3166f83729324146d59c6484f269ea10",
+        "parts": [
+          {
+            "index": 9,
+            "name": "_WPNUM9",
+            "x": 19,
+            "y": 18,
+            "depth": 9,
+            "sha256": "b663e134da262c93a15673b75f6d2bdcd55e9b27200ca8b562c6f307f60f2c03"
+          },
+          {
+            "index": 15,
+            "name": "_WPNUM5",
+            "x": 29,
+            "y": 18,
+            "depth": 15,
+            "sha256": "4dba6350de959d7c5c9935ae0d180e6beaa47a44738c6d26d74e3e4d46ec6a48"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_95",
+        "mask": 1114624,
+        "atlas_x": 200,
+        "atlas_y": 3,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "af31252dde17859a2ed402533a75d1ee8058dc27751115485a7a296e13ef09ce",
+        "parts": [
+          {
+            "index": 9,
+            "name": "_WPNUM9",
+            "x": 19,
+            "y": 18,
+            "depth": 9,
+            "sha256": "b663e134da262c93a15673b75f6d2bdcd55e9b27200ca8b562c6f307f60f2c03"
+          },
+          {
+            "index": 16,
+            "name": "_WPNUM6",
+            "x": 29,
+            "y": 18,
+            "depth": 16,
+            "sha256": "5974e985381d66be769bd84a5e2fcd643021ab94e5859b512d3d5a2e6fe9e587"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_96",
+        "mask": 1180160,
+        "atlas_x": 240,
+        "atlas_y": 3,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "020068f6e2b1a3e81321dd78dd17174df10062de584fdef0adf9179527907fb7",
+        "parts": [
+          {
+            "index": 9,
+            "name": "_WPNUM9",
+            "x": 19,
+            "y": 18,
+            "depth": 9,
+            "sha256": "b663e134da262c93a15673b75f6d2bdcd55e9b27200ca8b562c6f307f60f2c03"
+          },
+          {
+            "index": 17,
+            "name": "_WPNUM7",
+            "x": 29,
+            "y": 18,
+            "depth": 17,
+            "sha256": "b338b4fd9081075f799b8012bf0c9790f50673c00fea58b38fbbb5a5720b4a98"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_97",
+        "mask": 1311232,
+        "atlas_x": 280,
+        "atlas_y": 3,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "0d845f2a7e2db86647e27a2b6d0cdea899ec53ae38ff5d5221bf8140dee1c190",
+        "parts": [
+          {
+            "index": 9,
+            "name": "_WPNUM9",
+            "x": 19,
+            "y": 18,
+            "depth": 9,
+            "sha256": "b663e134da262c93a15673b75f6d2bdcd55e9b27200ca8b562c6f307f60f2c03"
+          },
+          {
+            "index": 18,
+            "name": "_WPNUM8",
+            "x": 29,
+            "y": 18,
+            "depth": 18,
+            "sha256": "e76469c3c71a31c13f3f5f540a28c0f5ba3084b093d7bddeeee490c9f20a8c8d"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_98",
+        "mask": 1573376,
+        "atlas_x": 320,
+        "atlas_y": 3,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "52183590dff33047320a80bb879f24108aca150798d16fcb7b43b3e66a51653a",
+        "parts": [
+          {
+            "index": 9,
+            "name": "_WPNUM9",
+            "x": 19,
+            "y": 18,
+            "depth": 9,
+            "sha256": "b663e134da262c93a15673b75f6d2bdcd55e9b27200ca8b562c6f307f60f2c03"
+          },
+          {
+            "index": 19,
+            "name": "_WPNUM9",
+            "x": 29,
+            "y": 18,
+            "depth": 19,
+            "sha256": "b663e134da262c93a15673b75f6d2bdcd55e9b27200ca8b562c6f307f60f2c03"
+          },
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      },
+      {
+        "name": "WPMOVE_99",
+        "mask": 1048576,
+        "atlas_x": 360,
+        "atlas_y": 3,
+        "width": 36,
+        "height": 29,
+        "rgba_sha256": "161d361a185e7214c1096956454b79f13d2be58da81fe623b059cb59c1f8799f",
+        "parts": [
+          {
+            "index": 20,
+            "name": "_WPMOVE",
+            "x": 0,
+            "y": 0,
+            "depth": 20,
+            "sha256": "eebd5f21b14fa73f25466ded7b416c8c8c28e5575b1af64d69de0ada31abe5c7"
+          }
+        ]
+      }
+    ],
+    "ordinal_frames": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99
+    ],
+    "cell_size": 64,
+    "world_offset_x": 14,
+    "world_offset_y": 18,
+    "depth": 7,
+    "source_resource": "controlm:8:WPMOVE",
+    "source_descriptor": {
+      "name": "WPMOVE",
+      "type": 8,
+      "offset": 286428,
+      "stored_size": 924,
+      "raw_size": 924,
+      "compression": 0,
+      "allocation_size": 928,
+      "allocation_slack": 0,
+      "metadata_hex": "1500010024001d0000000000",
+      "width_hint": 21,
+      "height_hint": 1,
+      "index_offset": 45643,
+      "sha256": "85574bb427c690881d854180cf51ded0762d8a53ce116ef1e5cb6f83df829a11"
+    },
+    "constructor_fixture_sha256": "1b14a1a5c30b802ba81113b8f13fd4ae921609ca2636d9751096029512782d91",
+    "source_functions": [
+      "4ced80",
+      "545e80",
+      "4ced10",
+      "554d50",
+      "55e0e0"
+    ]
+  },
+  "source_hashes": {
+    "installed/ancient.exe": "cb7746b288d23de2a0343ba51c154f961b3e3683b73bcc31e9a38b2c6b1e2021",
+    "installed/missions/controlm.dkx": "b32a80c703650d8873938544ee4b0718c70a2fd5a577d1b2814bf21b97224974",
+    "installed/missions/controlm.dkd": "6f4b90903c880baf938d94577f8058904fafab5008b1963104cc8253cd842cbe",
+    "installed/missions/maplib.dkx": "05484166ca374630f7c29c26e561656a11941ef331fb014e52f72aed81c23650",
+    "installed/missions/maplib.dkd": "7fe0623d957e196e5279c6bced55db292648b5c9ebc6f1420fcd293c0685b685",
+    "files/DATA/OBJECTS.DKX": "67aa31b7e7728a1c4f215c63932b55ea66f3ac1ecdb732bfd368bae2a8375f60",
+    "files/DATA/OBJECTS.DKD": "01474065782a7170d54f564df2205572f8a0675411bef0f350dab55c3fd20e50"
+  },
+  "scope": "Normal selectors/full-health plus source WPMOVE mask table;not final2026 art",
+  "payloads": {
+    "ShipFleetVisualsRgba.bytes": {
+      "bytes": 1024000,
+      "sha256": "441afbc4aad4297550bba5a455271d2e2bf69b7774122a8a3578f03bfe881e25"
+    },
+    "WpMoveRgba.bytes": {
+      "bytes": 512000,
+      "sha256": "0ac2022c492095566cc5ea9ae05ec304da93e0a08b11006cd6fc59db3246b0d9"
+    }
+  }
+}

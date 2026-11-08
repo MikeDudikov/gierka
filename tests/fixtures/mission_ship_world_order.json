@@ -1,0 +1,483 @@
+{
+  "schema_version": 1,
+  "original_exe_sha256": "cb7746b288d23de2a0343ba51c154f961b3e3683b73bcc31e9a38b2c6b1e2021",
+  "scope": "Global group ordering for frozen source8ships and5reefs only; no complete initial world/visibility/AI claim",
+  "native_registration_and_sort": {
+    "functions": [
+      "0x55d670",
+      "0x55d960",
+      "0x571eb0"
+    ],
+    "intercepted_functions": [],
+    "equal_depth_regular_new_sprite": "ascending registry keeps older before newer; reverse drawing draws newer first"
+  },
+  "native_draw_dispatch": {
+    "range": [
+      "0x565247",
+      "0x5656f1"
+    ],
+    "intercepted_functions": [
+      "0x5646c0 pixel draw capture only"
+    ],
+    "synthetic_context": "all cohort nodes marked drawable in one enabled layer; no actual pixels rendered by this oracle"
+  },
+  "native_ship_depth": {
+    "function": "0x4df6e0",
+    "state": 1,
+    "formula": "max(10000, 20000 - logical_height - world_pixel_y)",
+    "cases": [
+      {
+        "logical_height": 56,
+        "world_y": 132,
+        "depth": 19812,
+        "state": 1,
+        "intercepted_functions": [
+          "setjmp normal return",
+          "SetLevel boundary capture",
+          "DrawSprite placement boundary"
+        ]
+      },
+      {
+        "logical_height": 56,
+        "world_y": 324,
+        "depth": 19620,
+        "state": 1,
+        "intercepted_functions": [
+          "setjmp normal return",
+          "SetLevel boundary capture",
+          "DrawSprite placement boundary"
+        ]
+      },
+      {
+        "logical_height": 72,
+        "world_y": 252,
+        "depth": 19676,
+        "state": 1,
+        "intercepted_functions": [
+          "setjmp normal return",
+          "SetLevel boundary capture",
+          "DrawSprite placement boundary"
+        ]
+      },
+      {
+        "logical_height": 64,
+        "world_y": 1152,
+        "depth": 18784,
+        "state": 1,
+        "intercepted_functions": [
+          "setjmp normal return",
+          "SetLevel boundary capture",
+          "DrawSprite placement boundary"
+        ]
+      },
+      {
+        "logical_height": 72,
+        "world_y": 1340,
+        "depth": 18588,
+        "state": 1,
+        "intercepted_functions": [
+          "setjmp normal return",
+          "SetLevel boundary capture",
+          "DrawSprite placement boundary"
+        ]
+      },
+      {
+        "logical_height": 72,
+        "world_y": 1404,
+        "depth": 18524,
+        "state": 1,
+        "intercepted_functions": [
+          "setjmp normal return",
+          "SetLevel boundary capture",
+          "DrawSprite placement boundary"
+        ]
+      },
+      {
+        "logical_height": 72,
+        "world_y": 828,
+        "depth": 19100,
+        "state": 1,
+        "intercepted_functions": [
+          "setjmp normal return",
+          "SetLevel boundary capture",
+          "DrawSprite placement boundary"
+        ]
+      },
+      {
+        "logical_height": 72,
+        "world_y": 892,
+        "depth": 19036,
+        "state": 1,
+        "intercepted_functions": [
+          "setjmp normal return",
+          "SetLevel boundary capture",
+          "DrawSprite placement boundary"
+        ]
+      },
+      {
+        "logical_height": 1,
+        "world_y": 9999,
+        "depth": 10000,
+        "state": 1,
+        "intercepted_functions": [
+          "setjmp normal return",
+          "SetLevel boundary capture",
+          "DrawSprite placement boundary"
+        ]
+      },
+      {
+        "logical_height": 1,
+        "world_y": 10000,
+        "depth": 10000,
+        "state": 1,
+        "intercepted_functions": [
+          "setjmp normal return",
+          "SetLevel boundary capture",
+          "DrawSprite placement boundary"
+        ]
+      },
+      {
+        "logical_height": 56,
+        "world_y": -30,
+        "depth": 19974,
+        "state": 1,
+        "intercepted_functions": [
+          "setjmp normal return",
+          "SetLevel boundary capture",
+          "DrawSprite placement boundary"
+        ]
+      }
+    ]
+  },
+  "native_negative_child": [
+    {
+      "component_depth": -21000,
+      "registered_depth": 21000,
+      "registered_flags": "0xa008210",
+      "range": [
+        "0x55e422",
+        "0x55e44b"
+      ],
+      "intercepted_functions": []
+    },
+    {
+      "component_depth": -1,
+      "registered_depth": 1,
+      "registered_flags": "0xa008210",
+      "range": [
+        "0x55e422",
+        "0x55e44b"
+      ],
+      "intercepted_functions": []
+    },
+    {
+      "component_depth": -32768,
+      "registered_depth": 32768,
+      "registered_flags": "0xa008210",
+      "range": [
+        "0x55e422",
+        "0x55e44b"
+      ],
+      "intercepted_functions": []
+    }
+  ],
+  "native_child_movement": [
+    {
+      "parent": [
+        1028,
+        132
+      ],
+      "offset": [
+        17,
+        -23
+      ],
+      "child_u32": [
+        1045,
+        109
+      ],
+      "intercepted_functions": []
+    },
+    {
+      "parent": [
+        -64,
+        128
+      ],
+      "offset": [
+        -7,
+        19
+      ],
+      "child_u32": [
+        4294967225,
+        147
+      ],
+      "intercepted_functions": []
+    },
+    {
+      "parent": [
+        2147483647,
+        -2147483648
+      ],
+      "offset": [
+        1,
+        -1
+      ],
+      "child_u32": [
+        2147483648,
+        2147483647
+      ],
+      "intercepted_functions": []
+    }
+  ],
+  "tie_controls": [
+    {
+      "input_depths": [
+        30,
+        20,
+        30,
+        10
+      ],
+      "ascending_ids": [
+        3,
+        1,
+        0,
+        2
+      ],
+      "draw_ids": [
+        2,
+        0,
+        1,
+        3
+      ],
+      "draw_depths": [
+        30,
+        30,
+        20,
+        10
+      ]
+    },
+    {
+      "input_depths": [
+        21000,
+        21000,
+        21000
+      ],
+      "ascending_ids": [
+        0,
+        1,
+        2
+      ],
+      "draw_ids": [
+        2,
+        1,
+        0
+      ],
+      "draw_depths": [
+        21000,
+        21000,
+        21000
+      ]
+    },
+    {
+      "input_depths": [
+        19812,
+        21000,
+        19676,
+        21000,
+        19620,
+        21000
+      ],
+      "ascending_ids": [
+        4,
+        2,
+        0,
+        1,
+        3,
+        5
+      ],
+      "draw_ids": [
+        5,
+        3,
+        1,
+        0,
+        2,
+        4
+      ],
+      "draw_depths": [
+        21000,
+        21000,
+        21000,
+        19812,
+        19676,
+        19620
+      ]
+    },
+    {
+      "input_depths": [
+        19100,
+        21000,
+        19036,
+        21000
+      ],
+      "ascending_ids": [
+        2,
+        0,
+        1,
+        3
+      ],
+      "draw_ids": [
+        3,
+        1,
+        0,
+        2
+      ],
+      "draw_depths": [
+        21000,
+        21000,
+        19100,
+        19036
+      ]
+    }
+  ],
+  "reef_depth": {
+    "value": 20200,
+    "source_init": "0x4306d0 calls InitSprite0x50cb80 with depth0x4ee8",
+    "source_draw": "0x4301f0 never changes depth in this path"
+  },
+  "groups_back_to_front": [
+    {
+      "resource_name": "OBJ_0000002a",
+      "kind": "separate_shadow",
+      "component_name": "BLB4G004",
+      "depth": 21000
+    },
+    {
+      "resource_name": "OBJ_00000029",
+      "kind": "separate_shadow",
+      "component_name": "BLB4G004",
+      "depth": 21000
+    },
+    {
+      "resource_name": "OBJ_00000028",
+      "kind": "separate_shadow",
+      "component_name": "BLB4G004",
+      "depth": 21000
+    },
+    {
+      "resource_name": "OBJ_00000027",
+      "kind": "separate_shadow",
+      "component_name": "BLB4G004",
+      "depth": 21000
+    },
+    {
+      "resource_name": "OBJ_00000010",
+      "kind": "separate_shadow",
+      "component_name": "BLB4B000",
+      "depth": 21000
+    },
+    {
+      "resource_name": "OBJ_0000000d",
+      "kind": "separate_shadow",
+      "component_name": "BLB1H016",
+      "depth": 21000
+    },
+    {
+      "resource_name": "OBJ_0000000c",
+      "kind": "separate_shadow",
+      "component_name": "BLB1A016",
+      "depth": 21000
+    },
+    {
+      "resource_name": "OBJ_0000000b",
+      "kind": "separate_shadow",
+      "component_name": "BLB1A020",
+      "depth": 21000
+    },
+    {
+      "resource_name": "OBJ_00000021",
+      "kind": "reef",
+      "component_name": null,
+      "depth": 20200
+    },
+    {
+      "resource_name": "OBJ_0000000a",
+      "kind": "reef",
+      "component_name": null,
+      "depth": 20200
+    },
+    {
+      "resource_name": "OBJ_00000009",
+      "kind": "reef",
+      "component_name": null,
+      "depth": 20200
+    },
+    {
+      "resource_name": "OBJ_00000006",
+      "kind": "reef",
+      "component_name": null,
+      "depth": 20200
+    },
+    {
+      "resource_name": "OBJ_00000005",
+      "kind": "reef",
+      "component_name": null,
+      "depth": 20200
+    },
+    {
+      "resource_name": "OBJ_0000000b",
+      "kind": "inline_parent",
+      "component_name": null,
+      "depth": 19812
+    },
+    {
+      "resource_name": "OBJ_0000000d",
+      "kind": "inline_parent",
+      "component_name": null,
+      "depth": 19676
+    },
+    {
+      "resource_name": "OBJ_0000000c",
+      "kind": "inline_parent",
+      "component_name": null,
+      "depth": 19620
+    },
+    {
+      "resource_name": "OBJ_00000029",
+      "kind": "inline_parent",
+      "component_name": null,
+      "depth": 19100
+    },
+    {
+      "resource_name": "OBJ_0000002a",
+      "kind": "inline_parent",
+      "component_name": null,
+      "depth": 19036
+    },
+    {
+      "resource_name": "OBJ_00000010",
+      "kind": "inline_parent",
+      "component_name": null,
+      "depth": 18784
+    },
+    {
+      "resource_name": "OBJ_00000027",
+      "kind": "inline_parent",
+      "component_name": null,
+      "depth": 18588
+    },
+    {
+      "resource_name": "OBJ_00000028",
+      "kind": "inline_parent",
+      "component_name": null,
+      "depth": 18524
+    }
+  ],
+  "inline_components": "Resolve each parent group with independently verified native type8 inline draw order; positive local component depths are not global depths",
+  "limits": [
+    "World lifecycle and actual complete registered world not executed",
+    "Cohort registration assumes source enumeration/one retained child per source parent, proven separately; only relative ordering of these21nodes tested",
+    "No callback-sprite bit0x4000 or recycled-slot tie contract claimed",
+    "Source parent depth formula executes for state1; source negative-child branch executes directly including its real registration and sorting",
+    "Local inline-composite order belongs to separate type8 validation; does not sort positive components globally",
+    "No fog, selection UI or native Windows game screenshot tested"
+  ]
+}

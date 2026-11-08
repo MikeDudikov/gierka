@@ -1,0 +1,915 @@
+{
+  "date": "2026-11-02",
+  "base_commit": "864d5bdcb6c727495676c7a0d439615077a206a6",
+  "working_tree": true,
+  "published": false,
+  "target": [
+    1920,
+    1080
+  ],
+  "scope": "Closed source0b initial adjacent planning/turns: six routes and two blocked goals, controlled weather and stationary other seven ships. No complete mission, general pathfinder, full Life or final2026art.",
+  "previous_milestone": "docs/evidence/milestone-20261102-movement.json",
+  "tests": 155,
+  "skipped": 0,
+  "test_duration_seconds": 58.16,
+  "comparisons": {
+    "navigation_query_x86_csharp": 7120,
+    "navigation_query_guards": 23,
+    "adjacent_native_planner_cases": 8,
+    "adjacent_planner_guards": 18,
+    "turn_source_trace_steps": 2480,
+    "turn_stress_cases": 1296,
+    "turn_full_caller_controls": 256,
+    "movement_cases": 38,
+    "movement_snapshots": 1271,
+    "movement_calls": 1233,
+    "movement_native_planner_calls": 38,
+    "movement_publications": 587,
+    "movement_guards": 42,
+    "qa_unittests": 5,
+    "qa_explicit_negative_controls": 31,
+    "support_timestamp_cases": 7,
+    "support_same_counter_dispatch_cases": 6,
+    "support_query_observations": 54,
+    "support_rank_shadow_cases": 9,
+    "support_depth_cases": 3
+  },
+  "build": {
+    "result": "Succeeded",
+    "platform": "StandaloneWindows64",
+    "output": "/workspace/gierka/artifacts/unity-reference/Windows/AncientConquestReference.exe",
+    "editorVersion": "6000.3.27f2",
+    "warnings": 0,
+    "errors": 0,
+    "bytes": 146207467,
+    "resolution": "1920x1080",
+    "development": false
+  },
+  "runtime_dll_sha256": "b4d0da08e2f6e1ec51e751de12a45c7057d4df0e6f827ace11576d15ffbb7cd1",
+  "runtime_adjacent": {
+    "report": "artifacts/adjacent/runtime-final/report.json",
+    "helper_sha256": "57ffd9f99c3727ec13c9617f03a3bb062dcd02380082f88c44d693cf614571c6",
+    "capture_count": 53,
+    "ship_region_count": 159,
+    "presentation_attempts": 75,
+    "rejected_presentation_attempts": 22,
+    "rejected_exact_previous_checkpoint_matches": 8,
+    "whole_frame_max_channel_error_limit": 4,
+    "sessions": [
+      {
+        "goal": [
+          17,
+          2
+        ],
+        "requested_heading": 0,
+        "accepted": true,
+        "stop_at_call": null,
+        "captures": [
+          {
+            "stage": "initial",
+            "screenshot": "initial-attempt-01.png",
+            "global_mean_rgb_error": 0,
+            "global_max_channel_error": 0,
+            "ship_regions": 3,
+            "presentation_attempts": 1
+          },
+          {
+            "stage": "turn-start",
+            "screenshot": "turn-start-attempt-01.png",
+            "global_mean_rgb_error": 0,
+            "global_max_channel_error": 0,
+            "ship_regions": 3,
+            "presentation_attempts": 1
+          },
+          {
+            "stage": "turn-published",
+            "screenshot": "turn-published-attempt-02.png",
+            "global_mean_rgb_error": 0,
+            "global_max_channel_error": 0,
+            "ship_regions": 3,
+            "presentation_attempts": 2
+          },
+          {
+            "stage": "turn-complete",
+            "screenshot": "turn-complete-attempt-01.png",
+            "global_mean_rgb_error": 0,
+            "global_max_channel_error": 0,
+            "ship_regions": 3,
+            "presentation_attempts": 1
+          },
+          {
+            "stage": "reserved",
+            "screenshot": "reserved-attempt-01.png",
+            "global_mean_rgb_error": 0,
+            "global_max_channel_error": 0,
+            "ship_regions": 3,
+            "presentation_attempts": 1
+          },
+          {
+            "stage": "first-pixel",
+            "screenshot": "first-pixel-attempt-01.png",
+            "global_mean_rgb_error": 0,
+            "global_max_channel_error": 0,
+            "ship_regions": 3,
+            "presentation_attempts": 1
+          },
+          {
+            "stage": "transferred",
+            "screenshot": "transferred-attempt-02.png",
+            "global_mean_rgb_error": 0,
+            "global_max_channel_error": 0,
+            "ship_regions": 3,
+            "presentation_attempts": 2
+          },
+          {
+            "stage": "arrived",
+            "screenshot": "arrived-attempt-02.png",
+            "global_mean_rgb_error": 0,
+            "global_max_channel_error": 0,
+            "ship_regions": 3,
+            "presentation_attempts": 2
+          }
+        ],
+        "released_claims": 8,
+        "exit_code": 0
+      },
+      {
+        "goal": [
+          17,
+          1
+        ],
+        "requested_heading": 1,
+        "accepted": true,
+        "stop_at_call": null,
+        "captures": [
+          {
+            "stage": "initial",
+            "screenshot": "initial-attempt-01.png",
+            "global_mean_rgb_error": 0,
+            "global_max_channel_error": 0,
+            "ship_regions": 3,
+            "presentation_attempts": 1
+          },
+          {
+            "stage": "turn-start",
+            "screenshot": "turn-start-attempt-01.png",
+            "global_mean_rgb_error": 0,
+            "global_max_channel_error": 0,
+            "ship_regions": 3,
+            "presentation_attempts": 1
+          },
+          {
+            "stage": "turn-published",
+            "screenshot": "turn-published-attempt-02.png",
+            "global_mean_rgb_error": 0,
+            "global_max_channel_error": 0,
+            "ship_regions": 3,
+            "presentation_attempts": 2
+          },
+          {
+            "stage": "turn-complete",
+            "screenshot": "turn-complete-attempt-02.png",
+            "global_mean_rgb_error": 0,
+            "global_max_channel_error": 0,
+            "ship_regions": 3,
+            "presentation_attempts": 2
+          },
+          {
+            "stage": "reserved",
+            "screenshot": "reserved-attempt-01.png",
+            "global_mean_rgb_error": 0,
+            "global_max_channel_error": 0,
+            "ship_regions": 3,
+            "presentation_attempts": 1
+          },
+          {
+            "stage": "first-pixel",
+            "screenshot": "first-pixel-attempt-02.png",
+            "global_mean_rgb_error": 0,
+            "global_max_channel_error": 0,
+            "ship_regions": 3,
+            "presentation_attempts": 2
+          },
+          {
+            "stage": "transferred",
+            "screenshot": "transferred-attempt-02.png",
+            "global_mean_rgb_error": 0,
+            "global_max_channel_error": 0,
+            "ship_regions": 3,
+            "presentation_attempts": 2
+          },
+          {
+            "stage": "arrived",
+            "screenshot": "arrived-attempt-02.png",
+            "global_mean_rgb_error": 0,
+            "global_max_channel_error": 0,
+            "ship_regions": 3,
+            "presentation_attempts": 2
+          }
+        ],
+        "released_claims": 8,
+        "exit_code": 0
+      },
+      {
+        "goal": [
+          16,
+          1
+        ],
+        "requested_heading": 2,
+        "accepted": false,
+        "stop_at_call": null,
+        "captures": [
+          {
+            "stage": "initial",
+            "screenshot": "initial-attempt-01.png",
+            "global_mean_rgb_error": 0,
+            "global_max_channel_error": 0,
+            "ship_regions": 3,
+            "presentation_attempts": 1
+          },
+          {
+            "stage": "rejected",
+            "screenshot": "rejected-attempt-01.png",
+            "global_mean_rgb_error": 0,
+            "global_max_channel_error": 0,
+            "ship_regions": 3,
+            "presentation_attempts": 1
+          }
+        ],
+        "released_claims": 8,
+        "exit_code": 0
+      },
+      {
+        "goal": [
+          15,
+          1
+        ],
+        "requested_heading": 3,
+        "accepted": false,
+        "stop_at_call": null,
+        "captures": [
+          {
+            "stage": "initial",
+            "screenshot": "initial-attempt-01.png",
+            "global_mean_rgb_error": 0,
+            "global_max_channel_error": 0,
+            "ship_regions": 3,
+            "presentation_attempts": 1
+          },
+          {
+            "stage": "rejected",
+            "screenshot": "rejected-attempt-01.png",
+            "global_mean_rgb_error": 0,
+            "global_max_channel_error": 0,
+            "ship_regions": 3,
+            "presentation_attempts": 1
+          }
+        ],
+        "released_claims": 8,
+        "exit_code": 0
+      },
+      {
+        "goal": [
+          15,
+          2
+        ],
+        "requested_heading": 4,
+        "accepted": true,
+        "stop_at_call": null,
+        "captures": [
+          {
+            "stage": "initial",
+            "screenshot": "initial-attempt-01.png",
+            "global_mean_rgb_error": 0,
+            "global_max_channel_error": 0,
+            "ship_regions": 3,
+            "presentation_attempts": 1
+          },
+          {
+            "stage": "turn-start",
+            "screenshot": "turn-start-attempt-01.png",
+            "global_mean_rgb_error": 0,
+            "global_max_channel_error": 0,
+            "ship_regions": 3,
+            "presentation_attempts": 1
+          },
+          {
+            "stage": "turn-published",
+            "screenshot": "turn-published-attempt-02.png",
+            "global_mean_rgb_error": 0,
+            "global_max_channel_error": 0,
+            "ship_regions": 3,
+            "presentation_attempts": 2
+          },
+          {
+            "stage": "turn-complete",
+            "screenshot": "turn-complete-attempt-02.png",
+            "global_mean_rgb_error": 0,
+            "global_max_channel_error": 0,
+            "ship_regions": 3,
+            "presentation_attempts": 2
+          },
+          {
+            "stage": "reserved",
+            "screenshot": "reserved-attempt-01.png",
+            "global_mean_rgb_error": 0,
+            "global_max_channel_error": 0,
+            "ship_regions": 3,
+            "presentation_attempts": 1
+          },
+          {
+            "stage": "first-pixel",
+            "screenshot": "first-pixel-attempt-02.png",
+            "global_mean_rgb_error": 0,
+            "global_max_channel_error": 0,
+            "ship_regions": 3,
+            "presentation_attempts": 2
+          },
+          {
+            "stage": "transferred",
+            "screenshot": "transferred-attempt-02.png",
+            "global_mean_rgb_error": 0,
+            "global_max_channel_error": 0,
+            "ship_regions": 3,
+            "presentation_attempts": 2
+          },
+          {
+            "stage": "arrived",
+            "screenshot": "arrived-attempt-02.png",
+            "global_mean_rgb_error": 0,
+            "global_max_channel_error": 0,
+            "ship_regions": 3,
+            "presentation_attempts": 2
+          }
+        ],
+        "released_claims": 8,
+        "exit_code": 0
+      },
+      {
+        "goal": [
+          15,
+          3
+        ],
+        "requested_heading": 5,
+        "accepted": true,
+        "stop_at_call": null,
+        "captures": [
+          {
+            "stage": "initial",
+            "screenshot": "initial-attempt-01.png",
+            "global_mean_rgb_error": 0,
+            "global_max_channel_error": 0,
+            "ship_regions": 3,
+            "presentation_attempts": 1
+          },
+          {
+            "stage": "reserved",
+            "screenshot": "reserved-attempt-01.png",
+            "global_mean_rgb_error": 0,
+            "global_max_channel_error": 0,
+            "ship_regions": 3,
+            "presentation_attempts": 1
+          },
+          {
+            "stage": "first-pixel",
+            "screenshot": "first-pixel-attempt-01.png",
+            "global_mean_rgb_error": 0,
+            "global_max_channel_error": 0,
+            "ship_regions": 3,
+            "presentation_attempts": 1
+          },
+          {
+            "stage": "transferred",
+            "screenshot": "transferred-attempt-02.png",
+            "global_mean_rgb_error": 0,
+            "global_max_channel_error": 0,
+            "ship_regions": 3,
+            "presentation_attempts": 2
+          },
+          {
+            "stage": "arrived",
+            "screenshot": "arrived-attempt-02.png",
+            "global_mean_rgb_error": 0,
+            "global_max_channel_error": 0,
+            "ship_regions": 3,
+            "presentation_attempts": 2
+          }
+        ],
+        "released_claims": 8,
+        "exit_code": 0
+      },
+      {
+        "goal": [
+          16,
+          3
+        ],
+        "requested_heading": 6,
+        "accepted": true,
+        "stop_at_call": null,
+        "captures": [
+          {
+            "stage": "initial",
+            "screenshot": "initial-attempt-01.png",
+            "global_mean_rgb_error": 0,
+            "global_max_channel_error": 0,
+            "ship_regions": 3,
+            "presentation_attempts": 1
+          },
+          {
+            "stage": "turn-start",
+            "screenshot": "turn-start-attempt-01.png",
+            "global_mean_rgb_error": 0,
+            "global_max_channel_error": 0,
+            "ship_regions": 3,
+            "presentation_attempts": 1
+          },
+          {
+            "stage": "turn-published",
+            "screenshot": "turn-published-attempt-02.png",
+            "global_mean_rgb_error": 0,
+            "global_max_channel_error": 0,
+            "ship_regions": 3,
+            "presentation_attempts": 2
+          },
+          {
+            "stage": "turn-complete",
+            "screenshot": "turn-complete-attempt-01.png",
+            "global_mean_rgb_error": 0,
+            "global_max_channel_error": 0,
+            "ship_regions": 3,
+            "presentation_attempts": 1
+          },
+          {
+            "stage": "reserved",
+            "screenshot": "reserved-attempt-01.png",
+            "global_mean_rgb_error": 0,
+            "global_max_channel_error": 0,
+            "ship_regions": 3,
+            "presentation_attempts": 1
+          },
+          {
+            "stage": "first-pixel",
+            "screenshot": "first-pixel-attempt-02.png",
+            "global_mean_rgb_error": 0,
+            "global_max_channel_error": 0,
+            "ship_regions": 3,
+            "presentation_attempts": 2
+          },
+          {
+            "stage": "transferred",
+            "screenshot": "transferred-attempt-02.png",
+            "global_mean_rgb_error": 0,
+            "global_max_channel_error": 0,
+            "ship_regions": 3,
+            "presentation_attempts": 2
+          },
+          {
+            "stage": "arrived",
+            "screenshot": "arrived-attempt-01.png",
+            "global_mean_rgb_error": 0,
+            "global_max_channel_error": 0,
+            "ship_regions": 3,
+            "presentation_attempts": 1
+          }
+        ],
+        "released_claims": 8,
+        "exit_code": 0
+      },
+      {
+        "goal": [
+          17,
+          3
+        ],
+        "requested_heading": 7,
+        "accepted": true,
+        "stop_at_call": null,
+        "captures": [
+          {
+            "stage": "initial",
+            "screenshot": "initial-attempt-01.png",
+            "global_mean_rgb_error": 0,
+            "global_max_channel_error": 0,
+            "ship_regions": 3,
+            "presentation_attempts": 1
+          },
+          {
+            "stage": "turn-start",
+            "screenshot": "turn-start-attempt-01.png",
+            "global_mean_rgb_error": 0,
+            "global_max_channel_error": 0,
+            "ship_regions": 3,
+            "presentation_attempts": 1
+          },
+          {
+            "stage": "turn-published",
+            "screenshot": "turn-published-attempt-01.png",
+            "global_mean_rgb_error": 0,
+            "global_max_channel_error": 0,
+            "ship_regions": 3,
+            "presentation_attempts": 1
+          },
+          {
+            "stage": "turn-complete",
+            "screenshot": "turn-complete-attempt-02.png",
+            "global_mean_rgb_error": 0,
+            "global_max_channel_error": 0,
+            "ship_regions": 3,
+            "presentation_attempts": 2
+          },
+          {
+            "stage": "reserved",
+            "screenshot": "reserved-attempt-01.png",
+            "global_mean_rgb_error": 0,
+            "global_max_channel_error": 0,
+            "ship_regions": 3,
+            "presentation_attempts": 1
+          },
+          {
+            "stage": "first-pixel",
+            "screenshot": "first-pixel-attempt-02.png",
+            "global_mean_rgb_error": 0,
+            "global_max_channel_error": 0,
+            "ship_regions": 3,
+            "presentation_attempts": 2
+          },
+          {
+            "stage": "transferred",
+            "screenshot": "transferred-attempt-02.png",
+            "global_mean_rgb_error": 0,
+            "global_max_channel_error": 0,
+            "ship_regions": 3,
+            "presentation_attempts": 2
+          },
+          {
+            "stage": "arrived",
+            "screenshot": "arrived-attempt-02.png",
+            "global_mean_rgb_error": 0,
+            "global_max_channel_error": 0,
+            "ship_regions": 3,
+            "presentation_attempts": 2
+          }
+        ],
+        "released_claims": 8,
+        "exit_code": 0
+      },
+      {
+        "goal": [
+          17,
+          2
+        ],
+        "requested_heading": 0,
+        "accepted": true,
+        "stop_at_call": 1,
+        "captures": [
+          {
+            "stage": "initial",
+            "screenshot": "initial-attempt-01.png",
+            "global_mean_rgb_error": 0,
+            "global_max_channel_error": 0,
+            "ship_regions": 3,
+            "presentation_attempts": 1
+          },
+          {
+            "stage": "turn-start",
+            "screenshot": "turn-start-attempt-01.png",
+            "global_mean_rgb_error": 0,
+            "global_max_channel_error": 0,
+            "ship_regions": 3,
+            "presentation_attempts": 1
+          }
+        ],
+        "released_claims": 8,
+        "exit_code": 0
+      },
+      {
+        "goal": [
+          15,
+          3
+        ],
+        "requested_heading": 5,
+        "accepted": true,
+        "stop_at_call": 1,
+        "captures": [
+          {
+            "stage": "initial",
+            "screenshot": "initial-attempt-01.png",
+            "global_mean_rgb_error": 0,
+            "global_max_channel_error": 0,
+            "ship_regions": 3,
+            "presentation_attempts": 1
+          },
+          {
+            "stage": "reserved",
+            "screenshot": "reserved-attempt-01.png",
+            "global_mean_rgb_error": 0,
+            "global_max_channel_error": 0,
+            "ship_regions": 3,
+            "presentation_attempts": 1
+          }
+        ],
+        "released_claims": 9,
+        "exit_code": 0
+      }
+    ]
+  },
+  "regressions": {
+    "movement": {
+      "sessions": 2,
+      "captures": 9,
+      "regions": 27,
+      "rgb_mean_max": 0,
+      "cleanup": [
+        8,
+        9
+      ]
+    },
+    "units": {
+      "sessions": 3,
+      "regions": 8,
+      "rgb_mean_max": 0
+    },
+    "objects": {
+      "sessions": 4,
+      "rgb_mean_max": 0
+    },
+    "terrain": {
+      "sessions": 3,
+      "rgb_mean_max": 0
+    },
+    "briefing": {
+      "stages": 39,
+      "captures": 11,
+      "normal_quit_exit_code": 0,
+      "synthetic_input": true
+    },
+    "menu": {
+      "stages": 27,
+      "captures": 5,
+      "commands": 6,
+      "normal_quit_exit_code": 0,
+      "synthetic_input": true
+    }
+  },
+  "deliverables": {
+    "code_and_documentation": true,
+    "new_zip_created": false,
+    "new_preview_after_latest_preference": false,
+    "reason": "User requested continuation without automatic preview or ZIP generation; internal QA frames retained as validation evidence."
+  },
+  "config_draft": {
+    "draft_id": "a772870d-781c-4522-aa6f-de8b982b96ff~cecfgdraft_f63c6e07355c8192a0f34be8e0fde31c",
+    "revision": 13,
+    "published": false,
+    "requires_publish": true,
+    "preserved": {
+      "repositories": true,
+      "network_policy": true,
+      "secrets": true,
+      "runtime_requirements": true,
+      "pending_runtime_requirements": true,
+      "install_script": true
+    },
+    "prior_start_instructions_preserved": true,
+    "no_automatic_preview_or_zip": true,
+    "milestone_path_correct": true
+  },
+  "source_integrity": {
+    "missing_cs_metas": [],
+    "malformed_guids": [],
+    "duplicate_guids": {},
+    "meta_count": 79
+  },
+  "source_sha256": {
+    "Unity/AncientConquest/Assets/AncientConquest/Editor/BuildReferenceWindows.cs": "f88179e2117bb1b4f76e37b9162412b4bbeaecbe7a7aa9077b8e46d4beffa589",
+    "Unity/AncientConquest/Assets/AncientConquest/Editor/ValidateMenuInput.cs": "16ea4e733569bfb1a8fa1c8fd763e6f13570adfcb8f5f20d070b5ab43b98fb95",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/BriefingDifficultySelection.cs": "d068062ede1d046f700393c84a8e258780c9d1d54b20908f91a24b1395472611",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/BriefingPanel.cs": "5f7dfa1606ee556a7c879022a443b91926b8a2204c12c4da0aa97f4f067adc22",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/Diagnostics/BriefingInputReplay.cs": "da45e210a0ac0c3d6d8a46dd5764229809af8dcb7240a3124400b4bff4339993",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/Diagnostics/MenuInputReplay.cs": "9de40ee0d552c01cd93aaccc398c89e9e4cc44e5bb8ca2eb67501c3cff371dda",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/MainMenuButton.cs": "1cfe6db61bdba6237eb748bd7df3f92b8a6c33955ac88b50fc1d3da330e54aac",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/MissionInitialSetup.cs": "e354d48e69e56cc59b71d142c5a68d49f73f5966174ad3408a0feb59d23ebd8e",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/MissionObjectReference.cs": "d59505104262d2cab5dd165504b30375ea66d405f46dcf2063dec976eca5ed8d",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/MissionObjectSeed.cs": "65b6f22142fbdb26fa0239f6d0ed11d921dedaa0eec55d470f48e76f401c1c14",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/MissionObjectSelection.cs": "f2ec3c49d62bd6598992f154c4fe58e8948da21dcf2ece1c6e42643dc2a58fbd",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/MissionOccupancyGrid.cs": "7c38445f0ab30250458966db8f559fdabba3dafa2273a17c5d7edba9178f3bbd",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/MissionReefSeed.cs": "9f823f56e6605d6931c903026ff8b0249b84efe75f9b8c0748bc070e320686e6",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/MissionShipReference.cs": "dbdcd4c5a49e5f47e5eb397aa992d3225067c399c74a77421b9bb983ac9228ae",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/MissionShipSeed.cs": "7cf66a30c96092ae0a0eff341dab9e07fe37b1ba227369368d44a65252ac3c7b",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/NativeMenuCanvas.cs": "c8ee8a644ef3c960ddf63a7b450d35042163fe7c906edf0dae0795c10be6598f",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/NativeMenuFrame.cs": "9adfbf8465576c712e5d306c7564e802c56ae16f9a38985e60480f00f3089e91",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/RgbaResourceTexture.cs": "bfe98339b9fdc0d1c8e17154f306bcb74f45b37985f7a39cc76191fab87f6038",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/ShipAdjacentReference.cs": "c43652565ebca9e9826594077e2f5f2ee455a0e7bc43d6e77502487ff232e67a",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/ShipMovementReference.cs": "b2bd54ab289f9d4b831e6958ef046c4ce36f2a3a3cbf621f24048df90b7c838d",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/Simulation/BossAiMessageGate.cs": "92b0efb4fb6dfcbf1a47a103455bcaf10194f47576e6c490b10e0c1551a031dd",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/Simulation/PreparedShipMovement.cs": "dc56968babe342bfa9dfedb5b417a3acae6e3cb69e997c2f13c07b07be35467d",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/Simulation/ShipAdjacentMovement.cs": "b9c8fe2c2b062b6dc2281fd4f2225ae6ee3a759f94ef2502597a392383f2c55f",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/Simulation/ShipAdjacentPlanner.cs": "0849f2906628c2023283f405ed8dd5c6ca09988c65ceea82bbcd3959597f5b76",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/Simulation/ShipAdjacentQuery.cs": "cefdc73085476fd738a55b2feed8c8586cc1b741bcc1cdaff2a5f7b5b3278721",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/Simulation/ShipFrameProgression.cs": "761c5349e390ea00c46c8ed93a7212a6fa4f941d856c8727145a4de1968cafcf",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/Simulation/ShipMoveRequestInbox.cs": "62eb735aae590d46f42a12f789f4b2278ec71d0ca98bfbe0b6633ceacd183217",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/Simulation/ShipTurnProgression.cs": "8b6f6c0afb043c49bc10748062d087c309b54db689a6f0037969d62fc6ccb2c8",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/Simulation/SingleStepClock.cs": "e30a65784197edbcf174039dec5f72cea252b289f14972d4fafc0a488ec69539",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/SourceShipPoseReference.cs": "5ba875b7eb083ecf0700cdf8fa2d22064369748a74faca8e9210f475d1467c38",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/TerrainMapData.cs": "bfe77e756982948f3018ea67a50098d87d7b8b973d24da5bc9930a080d65f815",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/TerrainReferenceFrame.cs": "0d4565978e3b40f2d69e49e008839de7f6930945d75a380bd7100595e8ab9277",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/TerrainViewport.cs": "01884de20a9d1dd9f8d4acdda170005822de414913753563447840e195f3f3e8"
+  },
+  "evidence": {
+    "README.md": {
+      "bytes": 21470,
+      "sha256": "7b412c3504827a901902927b5555efdadc7cde48fb78c2da5fc0756a2ca26a3a"
+    },
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/ShipAdjacentReference.cs": {
+      "bytes": 11122,
+      "sha256": "c43652565ebca9e9826594077e2f5f2ee455a0e7bc43d6e77502487ff232e67a"
+    },
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/SourceShipPoseReference.cs": {
+      "bytes": 7548,
+      "sha256": "5ba875b7eb083ecf0700cdf8fa2d22064369748a74faca8e9210f475d1467c38"
+    },
+    "artifacts/adjacent/briefing-regression/report.json": {
+      "bytes": 13036,
+      "sha256": "e1b47758ac3c9b5c8d99dea97654c59982b04d98e8437a0c93adcbfb7b7a4e77"
+    },
+    "artifacts/adjacent/build-report.json": {
+      "bytes": 319,
+      "sha256": "baace28c3e5ea3f6889650f97e5a4b7a965a07c104005db12891f8fe4ba0c556"
+    },
+    "artifacts/adjacent/config-draft-verification.json": {
+      "bytes": 488,
+      "sha256": "b3365cee9379b057ac095fbfb6ed440b47e75cff2cd27704d13989ef444d5c5a"
+    },
+    "artifacts/adjacent/kinematics/ship-adjacent-csharp-validation.json": {
+      "bytes": 57086,
+      "sha256": "b797c0ca9aa3355acb2cb434fecd76915326f627f98cf38e69c75dc0f663cf58"
+    },
+    "artifacts/adjacent/menu-regression/report.json": {
+      "bytes": 5952,
+      "sha256": "e1c039ad65e90fea6fc89e0ba123a5afd7c3ef8206dbf52f0db16a7b73a5d0b9"
+    },
+    "artifacts/adjacent/movement-regression/report.json": {
+      "bytes": 112154,
+      "sha256": "518784434b08bdc08638a8ec3ccdd29da79830e9fe7eb36e3959b2e5bc935b66"
+    },
+    "artifacts/adjacent/objects-regression/report.json": {
+      "bytes": 37239,
+      "sha256": "424ec6a213c6ba1e8595a0a7edf8526b2f1bf16d70c1232063a85a798045edda"
+    },
+    "artifacts/adjacent/runtime-final/report.json": {
+      "bytes": 672745,
+      "sha256": "450e4932edd6ed66f5f10b6559ca31d60f7da037defa816cec0a12962f724575"
+    },
+    "artifacts/adjacent/runtime-first-h0/report.json": {
+      "bytes": 106779,
+      "sha256": "49397f8bc4c3d87cd6a2a432a013a3e6cc5d903684008b9afbc369b05d906447"
+    },
+    "artifacts/adjacent/source-integrity.json": {
+      "bytes": 5209,
+      "sha256": "388d75bf869631062acf4dbf935c685b8d2d80d695c5e2cc8d250d99c11a6677"
+    },
+    "artifacts/adjacent/terrain-regression/report.json": {
+      "bytes": 17324,
+      "sha256": "84e47f30ca3c0a7ad7cc5feccf09033aa8d63ca08bf4cec0cbcb9274029caf73"
+    },
+    "artifacts/adjacent/time-depth/adjacent-support-validation-final.json": {
+      "bytes": 16884,
+      "sha256": "b10c80edd382813a2ad90b5bd207439eb9e89046ad8628364f1f656fb547708c"
+    },
+    "artifacts/adjacent/units-regression/report.json": {
+      "bytes": 63880,
+      "sha256": "b324924d86e64c0a78ebb7917794593b8fff3a0179a256852ee00246c34c1a9f"
+    },
+    "artifacts/adjacent/unittest-final.log": {
+      "bytes": 27490,
+      "sha256": "24a618bea7afe413096f57e9abdaccef47d435748cd99448548d68d4a6a9685f"
+    },
+    "artifacts/adjacent/windows-build-01.log": {
+      "bytes": 616809,
+      "sha256": "cbd55811c8ba97eb72116bb95a7ffe0953ebd88d9fe2f9c913d96fb18c980c45"
+    },
+    "artifacts/movement/adjacent-evidence/animation/turn-csharp-caller-validation.json": {
+      "bytes": 1924788,
+      "sha256": "c4da9ad7f1c5cbd39761c4cfe326e3afbf87b61094ed4dc44da54dcbce6728b5"
+    },
+    "artifacts/movement/adjacent-evidence/animation/turn-csharp-validation.json": {
+      "bytes": 1924599,
+      "sha256": "ac92565771ead665e38de27600deb7c6d43ef0cf4a11625c47903fe3acb456d4"
+    },
+    "artifacts/navigation/adjacent/csharp-validation.json": {
+      "bytes": 22591,
+      "sha256": "f6bba13e8b3dd21b803df76b3a355167177c39385834defa881ef91e92929434"
+    },
+    "artifacts/navigation/query-review/csharp-validation.json": {
+      "bytes": 5049987,
+      "sha256": "27a6f5020d7925080a0eb905691138160002c33d229720d2c3c747418cd9164a"
+    },
+    "docs/REFERENCE_MATRIX.csv": {
+      "bytes": 20030,
+      "sha256": "22949898236d3962de2882803270ef96ce80e75c438e0f0202f53ac0990e3e7c"
+    },
+    "docs/REMAKE_PLAN.md": {
+      "bytes": 34414,
+      "sha256": "894938ffdb57a8cb54463c56659953b25531ca0b2754ed125721e7ee60358700"
+    },
+    "docs/SHIP_ADJACENT_MOVEMENT_EVIDENCE.md": {
+      "bytes": 10472,
+      "sha256": "c2d58bbe3903379db46679360fcb7a30b9752833619021dbe3e5c0b20c01143e"
+    },
+    "docs/SHIP_ADJACENT_NAVIGATION_EVIDENCE.md": {
+      "bytes": 9887,
+      "sha256": "8b10d3027f359ab779af95c43885cc8272cb19c23238e1b7fc3e14961eb6062b"
+    },
+    "docs/SHIP_ADJACENT_RUNTIME_VALIDATION.md": {
+      "bytes": 5798,
+      "sha256": "03ce01d367ae307bb159f1eb1cb1ba0394fcb5641bc22f3cf4286f591e74302f"
+    },
+    "docs/SHIP_ADJACENT_WORLD_EVIDENCE.md": {
+      "bytes": 9113,
+      "sha256": "d2ea0baefef280e17209e178082b0b3a8d1dfbf45a9fdcf78f58a2d2bf5f9169"
+    },
+    "docs/SHIP_TURN_ANIMATION_EVIDENCE.md": {
+      "bytes": 8546,
+      "sha256": "159ce00b19dc34b245b3f32b3f521463ea3a3750e573afdc372fb9e0b298f1c2"
+    },
+    "docs/UnityProjectContext.md": {
+      "bytes": 36852,
+      "sha256": "86876c47217f8e7e662021113671de11b995878e415647cc159ebc3a77090ed9"
+    },
+    "docs/VALIDATION.md": {
+      "bytes": 8834,
+      "sha256": "44d316057666ef8ba495c440ef044898b5e2a2f10201779bd6cf39058bc8055c"
+    },
+    "tests/fixtures/ship_adjacent_movement.json": {
+      "bytes": 1651816,
+      "sha256": "2ffc6d70e131770dc065b252e88818e02aca203f681ea1ff373875883f8e9075"
+    },
+    "tests/fixtures/ship_adjacent_planner.json": {
+      "bytes": 4298,
+      "sha256": "73295e933946ffab36abb7282f4b51c280995f6a85aa29c37e448dffd3cf3c0a"
+    },
+    "tests/fixtures/ship_turn_traces.json": {
+      "bytes": 793971,
+      "sha256": "298be52cb4d4cd867b6060bf84cb6a2eb7ee65d9e91b1edfd98830a387a488dd"
+    },
+    "tests/test_ship_adjacent_movement.py": {
+      "bytes": 2366,
+      "sha256": "93d90c87e0f7b3443efb811e2243dc151e5339187c7d58ae416cb944fbad78e3"
+    },
+    "tests/test_ship_adjacent_planner.py": {
+      "bytes": 796,
+      "sha256": "4161bff1681c2292529d80cca61d6dbba5aaa155a4d2d49ff1549361c72085e9"
+    },
+    "tests/test_ship_adjacent_query.py": {
+      "bytes": 1213,
+      "sha256": "f8d6f185de7f9bf6f4b34e4d7752705329c7b4f1964b9412479d1d36afb5ff38"
+    },
+    "tests/test_ship_turn_progression.py": {
+      "bytes": 6361,
+      "sha256": "6817660c99e0fba917ff38d54a82d04673c28c8fdbdb8be435df6f4c37e955ee"
+    },
+    "tests/test_smoke_ship_adjacent.py": {
+      "bytes": 15104,
+      "sha256": "26c8e7c58395207e3f9e3778985680f596749eb39087933aa6fc7fca8d893589"
+    },
+    "tools/probe_ship_adjacent.py": {
+      "bytes": 16131,
+      "sha256": "91068cc2364f005a2c00e712d03655eeb9d4f98033f464d07f80207ff2d2fa09"
+    },
+    "tools/probe_ship_adjacent_navigation.py": {
+      "bytes": 11510,
+      "sha256": "de1669b31467ce9717dd2f68eda556f652aaa55f0e9677d2593d51d033739203"
+    },
+    "tools/smoke_ship_adjacent.py": {
+      "bytes": 29433,
+      "sha256": "57ffd9f99c3727ec13c9617f03a3bb062dcd02380082f88c44d693cf614571c6"
+    },
+    "tools/validate_ship_adjacent_movement.py": {
+      "bytes": 9783,
+      "sha256": "37d862269a27069420d3117b46152cb75a2d1b30adfe6b1b47d14ff014e22573"
+    },
+    "tools/validate_ship_adjacent_planner.py": {
+      "bytes": 6470,
+      "sha256": "685b430f906aab7a44d3f42a5466079f9b6ccf216690430a3f017a98f91be5ca"
+    },
+    "tools/validate_ship_adjacent_query.py": {
+      "bytes": 18523,
+      "sha256": "6756557873dba948cedf227fb31746385db01f73e2afd3dea0e2af1d4f7fb104"
+    },
+    "tools/validate_ship_turn_progression.py": {
+      "bytes": 14163,
+      "sha256": "8aff308b04ed9d6693e32231019e529c996780858b948271e25fbec82a83649f"
+    }
+  },
+  "limitations": [
+    "Windows Mono player under Wine/Xvfb; native Windows11 and target i5/RTX3050Ti laptop not tested",
+    "Only eight adjacent requests from source0b16,2/heading5: six source routes and two source terrain rejections",
+    "Controlled wind0/heading5, owner upgrade0, quantum40 and pending_steps1; not complete mission world initialization",
+    "No OS input, distant routes, combat, enemy AI, fog lifecycle or complete gameplay validated",
+    "Planner at counter1 then movement at counters2.. is an explicit diagnostic schedule; full source Life may plan/move at the same counter",
+    "Checkpoint holds freeze diagnostic source time; they do not establish wall-clock cadence or original pause behavior",
+    "Whole1920x1080 viewport and full source0b/c/d planes at camera9,0 scale2; other seven ships remain frozen",
+    "Known34-component cohort order only; no general dynamic full-world sorter",
+    "Source base-palette art is a fidelity reference, not final2026art or target hardware performance proof",
+    "Diagnostic Application.Quit(0) is not evidence for the product/menu Quit callback"
+  ]
+}

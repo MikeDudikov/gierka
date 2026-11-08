@@ -1,0 +1,13 @@
+{
+  "closed": true,
+  "installed_original": false,
+  "unity_project_changed": false,
+  "active_vm": false,
+  "original_setup_unchanged": true,
+  "last_attempt": "artifacts/original-install-vm/install-02",
+  "control32_exit": 137,
+  "registry_export_exit": 1,
+  "reason": "Wine service/loader failure before installer;not a successful installation",
+  "next_step": "Stabilize control32 in private guest before repeating installer",
+  "new_development_stopped_for_handoff": true
+}

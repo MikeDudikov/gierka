@@ -1,0 +1,70 @@
+{
+  "volumes": [
+    {
+      "name": "[PC] Ancient Conquest.part01.rar",
+      "size_bytes": 31457280,
+      "sha256": "0d0228a158c01891adc75816fbfbce7395570e4bb797f081a05c35d22197ee10"
+    },
+    {
+      "name": "[PC] Ancient Conquest.part02.rar",
+      "size_bytes": 31457280,
+      "sha256": "c40fc93812e4e4706e2088509bbddd7b78a3498c179f2e8b4345837c7a6881a5"
+    },
+    {
+      "name": "[PC] Ancient Conquest.part03.rar",
+      "size_bytes": 31457280,
+      "sha256": "48382eb35f5d7f63aa36934a04c3c5b5030645d86f70723428ece120fbf8edea"
+    },
+    {
+      "name": "[PC] Ancient Conquest.part04.rar",
+      "size_bytes": 31457280,
+      "sha256": "ec0d7803f63e90417c1c025bb4276231370b3defd39e1460e93a93be7110e36e"
+    },
+    {
+      "name": "[PC] Ancient Conquest.part05.rar",
+      "size_bytes": 31457280,
+      "sha256": "4e45048336185cd7d970a3dd263d526f84332f4185b17d83290942a2908ef823"
+    },
+    {
+      "name": "[PC] Ancient Conquest.part06.rar",
+      "size_bytes": 31457280,
+      "sha256": "b9f08682b09601022755e71a496f4688b880296b01d20c7b4cc47ca159aa508a"
+    },
+    {
+      "name": "[PC] Ancient Conquest.part07.rar",
+      "size_bytes": 31457280,
+      "sha256": "00bb52e4d463540f266671a5b14b50a993abebb948572257027bd03a18d8fb52"
+    },
+    {
+      "name": "[PC] Ancient Conquest.part08.rar",
+      "size_bytes": 31457280,
+      "sha256": "9f16f25424601a34a6ab9206227414cf017e836886d115c0e034dc86b2a0141d"
+    },
+    {
+      "name": "[PC] Ancient Conquest.part09.rar",
+      "size_bytes": 31457280,
+      "sha256": "72e369ea11e57bcb12834e570553a819733aae5005913d3405a99776d1e86016"
+    },
+    {
+      "name": "[PC] Ancient Conquest.part10.rar",
+      "size_bytes": 31457280,
+      "sha256": "3f4a1b811eaec617a844f645be8e52cd3d3da8f777c9eceb17926b5380db6855"
+    },
+    {
+      "name": "[PC] Ancient Conquest.part11.rar",
+      "size_bytes": 31457280,
+      "sha256": "e60c2b17cba48c2d675693ecb50705fd2e84f3a6719c17d260857ad84220caa0"
+    },
+    {
+      "name": "[PC] Ancient Conquest.part12.rar",
+      "size_bytes": 31457280,
+      "sha256": "1f01390283c5a15d8775762ec8417612922c98787e9e6a3f17f5aa0e519cc415"
+    },
+    {
+      "name": "[PC] Ancient Conquest.part13.rar",
+      "size_bytes": 23630481,
+      "sha256": "1e68cb48becb8c653755e26619ffe8998639c2509defaf8b57db34613b7126d4"
+    }
+  ],
+  "total_bytes": 401117841
+}

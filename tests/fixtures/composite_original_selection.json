@@ -1,0 +1,4747 @@
+{
+  "original_sha256": "cb7746b288d23de2a0343ba51c154f961b3e3683b73bcc31e9a38b2c6b1e2021",
+  "sources": {
+    "installed/ancient.exe": "cb7746b288d23de2a0343ba51c154f961b3e3683b73bcc31e9a38b2c6b1e2021",
+    "files/DATA/OBJECTS.DKX": "67aa31b7e7728a1c4f215c63932b55ea66f3ac1ecdb732bfd368bae2a8375f60",
+    "files/DATA/OBJECTS.DKD": "01474065782a7170d54f564df2205572f8a0675411bef0f350dab55c3fd20e50"
+  },
+  "loader_va": "0x554d50",
+  "sort_range": [
+    "0x55e56b",
+    "0x55e659"
+  ],
+  "loader_cases": 12,
+  "sort_cases": 340,
+  "hooks": {
+    "0x587318": "setjmp returns0",
+    "0x543a80": "source type8 payload I/O",
+    "0x543ed0": "source type8 metadata I/O",
+    "0x558f80": "allocation",
+    "0x542e50": "source type6 frame I/O/cache",
+    "0x543cc0": "resource release"
+  },
+  "sort_hooks": {},
+  "passed": true,
+  "cases": [
+    {
+      "descriptor": "SHIP_A1110",
+      "mask": 131,
+      "width": 56,
+      "height": 56,
+      "frame_count": 152,
+      "selected_parts": 3,
+      "resource_load_calls": 456,
+      "frames": [
+        {
+          "frame_index": 16,
+          "components": [
+            {
+              "name": "BLB1A016",
+              "offset_x": 0,
+              "offset_y": 0,
+              "depth": -21000
+            },
+            {
+              "name": "CORP_1A0012",
+              "offset_x": 0,
+              "offset_y": 0,
+              "depth": 10
+            },
+            {
+              "name": "PARUS11A10012",
+              "offset_x": 0,
+              "offset_y": 0,
+              "depth": 4
+            }
+          ],
+          "inline_names": [
+            "CORP_1A0012",
+            "PARUS11A10012"
+          ]
+        },
+        {
+          "frame_index": 20,
+          "components": [
+            {
+              "name": "BLB1A020",
+              "offset_x": 0,
+              "offset_y": 0,
+              "depth": -21000
+            },
+            {
+              "name": "CORP_1A0015",
+              "offset_x": 0,
+              "offset_y": 0,
+              "depth": 10
+            },
+            {
+              "name": "PARUS11A10015",
+              "offset_x": 0,
+              "offset_y": 0,
+              "depth": 4
+            }
+          ],
+          "inline_names": [
+            "CORP_1A0015",
+            "PARUS11A10015"
+          ]
+        }
+      ]
+    },
+    {
+      "descriptor": "SHIP_H1110",
+      "mask": 163,
+      "width": 72,
+      "height": 72,
+      "frame_count": 152,
+      "selected_parts": 4,
+      "resource_load_calls": 608,
+      "frames": [
+        {
+          "frame_index": 16,
+          "components": [
+            {
+              "name": "BLB1H016",
+              "offset_x": 0,
+              "offset_y": 0,
+              "depth": -21000
+            },
+            {
+              "name": "CORP_1H0016",
+              "offset_x": 0,
+              "offset_y": 0,
+              "depth": 10
+            },
+            {
+              "name": "ARMOR_1H0012",
+              "offset_x": 0,
+              "offset_y": 0,
+              "depth": 5
+            },
+            {
+              "name": "PARUS11H10012",
+              "offset_x": 0,
+              "offset_y": 0,
+              "depth": 4
+            }
+          ],
+          "inline_names": [
+            "CORP_1H0016",
+            "ARMOR_1H0012",
+            "PARUS11H10012"
+          ]
+        }
+      ]
+    },
+    {
+      "descriptor": "SHIP_B4400",
+      "mask": 131,
+      "width": 64,
+      "height": 64,
+      "frame_count": 152,
+      "selected_parts": 3,
+      "resource_load_calls": 456,
+      "frames": [
+        {
+          "frame_index": 0,
+          "components": [
+            {
+              "name": "BLB4B000",
+              "offset_x": 0,
+              "offset_y": 0,
+              "depth": -21000
+            },
+            {
+              "name": "CORP_4B0000",
+              "offset_x": 0,
+              "offset_y": 0,
+              "depth": 10
+            },
+            {
+              "name": "PARUS40B40000",
+              "offset_x": 0,
+              "offset_y": 0,
+              "depth": 4
+            }
+          ],
+          "inline_names": [
+            "CORP_4B0000",
+            "PARUS40B40000"
+          ]
+        }
+      ]
+    },
+    {
+      "descriptor": "SHIP_G4400",
+      "mask": 139,
+      "width": 72,
+      "height": 72,
+      "frame_count": 152,
+      "selected_parts": 4,
+      "resource_load_calls": 608,
+      "frames": [
+        {
+          "frame_index": 4,
+          "components": [
+            {
+              "name": "BLB4G004",
+              "offset_x": 0,
+              "offset_y": 0,
+              "depth": -21000
+            },
+            {
+              "name": "CORP_4G0004",
+              "offset_x": 0,
+              "offset_y": 0,
+              "depth": 10
+            },
+            {
+              "name": "TARAN_4G0003",
+              "offset_x": 0,
+              "offset_y": 0,
+              "depth": 7
+            },
+            {
+              "name": "PARUS40G40003",
+              "offset_x": 0,
+              "offset_y": 0,
+              "depth": 4
+            }
+          ],
+          "inline_names": [
+            "CORP_4G0004",
+            "TARAN_4G0003",
+            "PARUS40G40003"
+          ]
+        }
+      ]
+    },
+    {
+      "descriptor": "SHIP_A1110",
+      "mask": 1,
+      "width": 56,
+      "height": 56,
+      "frame_count": 152,
+      "selected_parts": 1,
+      "resource_load_calls": 152,
+      "frames": [
+        {
+          "frame_index": 16,
+          "components": [
+            {
+              "name": "BLB1A016",
+              "offset_x": 0,
+              "offset_y": 0,
+              "depth": -21000
+            }
+          ],
+          "inline_names": []
+        },
+        {
+          "frame_index": 20,
+          "components": [
+            {
+              "name": "BLB1A020",
+              "offset_x": 0,
+              "offset_y": 0,
+              "depth": -21000
+            }
+          ],
+          "inline_names": []
+        }
+      ]
+    },
+    {
+      "descriptor": "SHIP_A1110",
+      "mask": 2,
+      "width": 56,
+      "height": 56,
+      "frame_count": 152,
+      "selected_parts": 1,
+      "resource_load_calls": 152,
+      "frames": [
+        {
+          "frame_index": 16,
+          "components": [
+            {
+              "name": "CORP_1A0012",
+              "offset_x": 0,
+              "offset_y": 0,
+              "depth": 10
+            }
+          ],
+          "inline_names": [
+            "CORP_1A0012"
+          ]
+        },
+        {
+          "frame_index": 20,
+          "components": [
+            {
+              "name": "CORP_1A0015",
+              "offset_x": 0,
+              "offset_y": 0,
+              "depth": 10
+            }
+          ],
+          "inline_names": [
+            "CORP_1A0015"
+          ]
+        }
+      ]
+    },
+    {
+      "descriptor": "SHIP_A1110",
+      "mask": 128,
+      "width": 56,
+      "height": 56,
+      "frame_count": 152,
+      "selected_parts": 1,
+      "resource_load_calls": 152,
+      "frames": [
+        {
+          "frame_index": 16,
+          "components": [
+            {
+              "name": "PARUS11A10012",
+              "offset_x": 0,
+              "offset_y": 0,
+              "depth": 4
+            }
+          ],
+          "inline_names": [
+            "PARUS11A10012"
+          ]
+        },
+        {
+          "frame_index": 20,
+          "components": [
+            {
+              "name": "PARUS11A10015",
+              "offset_x": 0,
+              "offset_y": 0,
+              "depth": 4
+            }
+          ],
+          "inline_names": [
+            "PARUS11A10015"
+          ]
+        }
+      ]
+    },
+    {
+      "descriptor": "SHIP_A1110",
+      "mask": 3,
+      "width": 56,
+      "height": 56,
+      "frame_count": 152,
+      "selected_parts": 2,
+      "resource_load_calls": 304,
+      "frames": [
+        {
+          "frame_index": 16,
+          "components": [
+            {
+              "name": "BLB1A016",
+              "offset_x": 0,
+              "offset_y": 0,
+              "depth": -21000
+            },
+            {
+              "name": "CORP_1A0012",
+              "offset_x": 0,
+              "offset_y": 0,
+              "depth": 10
+            }
+          ],
+          "inline_names": [
+            "CORP_1A0012"
+          ]
+        },
+        {
+          "frame_index": 20,
+          "components": [
+            {
+              "name": "BLB1A020",
+              "offset_x": 0,
+              "offset_y": 0,
+              "depth": -21000
+            },
+            {
+              "name": "CORP_1A0015",
+              "offset_x": 0,
+              "offset_y": 0,
+              "depth": 10
+            }
+          ],
+          "inline_names": [
+            "CORP_1A0015"
+          ]
+        }
+      ]
+    },
+    {
+      "descriptor": "SHIP_A1110",
+      "mask": 130,
+      "width": 56,
+      "height": 56,
+      "frame_count": 152,
+      "selected_parts": 2,
+      "resource_load_calls": 304,
+      "frames": [
+        {
+          "frame_index": 16,
+          "components": [
+            {
+              "name": "CORP_1A0012",
+              "offset_x": 0,
+              "offset_y": 0,
+              "depth": 10
+            },
+            {
+              "name": "PARUS11A10012",
+              "offset_x": 0,
+              "offset_y": 0,
+              "depth": 4
+            }
+          ],
+          "inline_names": [
+            "CORP_1A0012",
+            "PARUS11A10012"
+          ]
+        },
+        {
+          "frame_index": 20,
+          "components": [
+            {
+              "name": "CORP_1A0015",
+              "offset_x": 0,
+              "offset_y": 0,
+              "depth": 10
+            },
+            {
+              "name": "PARUS11A10015",
+              "offset_x": 0,
+              "offset_y": 0,
+              "depth": 4
+            }
+          ],
+          "inline_names": [
+            "CORP_1A0015",
+            "PARUS11A10015"
+          ]
+        }
+      ]
+    },
+    {
+      "descriptor": "TSPR_15013",
+      "mask": 4294967295,
+      "width": 128,
+      "height": 128,
+      "frame_count": 1,
+      "selected_parts": 1,
+      "resource_load_calls": 1,
+      "frames": [
+        {
+          "frame_index": 0,
+          "components": [
+            {
+              "name": "GRCNB_11",
+              "offset_x": 0,
+              "offset_y": 0,
+              "depth": 5
+            }
+          ],
+          "inline_names": [
+            "GRCNB_11"
+          ]
+        }
+      ]
+    },
+    {
+      "descriptor": "PTSPR_157163",
+      "mask": 4294967295,
+      "width": 64,
+      "height": 78,
+      "frame_count": 1,
+      "selected_parts": 1,
+      "resource_load_calls": 1,
+      "frames": [
+        {
+          "frame_index": 0,
+          "components": [
+            {
+              "name": "GRPRDNL_00",
+              "offset_x": 0,
+              "offset_y": 0,
+              "depth": 5
+            }
+          ],
+          "inline_names": [
+            "GRPRDNL_00"
+          ]
+        }
+      ]
+    },
+    {
+      "descriptor": "DKSPR_158163",
+      "mask": 4294967295,
+      "width": 64,
+      "height": 78,
+      "frame_count": 1,
+      "selected_parts": 1,
+      "resource_load_calls": 1,
+      "frames": [
+        {
+          "frame_index": 0,
+          "components": [
+            {
+              "name": "GRSYDNL_00",
+              "offset_x": 0,
+              "offset_y": 0,
+              "depth": 5
+            }
+          ],
+          "inline_names": [
+            "GRSYDNL_00"
+          ]
+        }
+      ]
+    }
+  ],
+  "synthetic_sort_cases": [
+    {
+      "depths": [
+        -21000
+      ],
+      "inline_source_indices": []
+    },
+    {
+      "depths": [
+        0
+      ],
+      "inline_source_indices": [
+        0
+      ]
+    },
+    {
+      "depths": [
+        4
+      ],
+      "inline_source_indices": [
+        0
+      ]
+    },
+    {
+      "depths": [
+        10
+      ],
+      "inline_source_indices": [
+        0
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        -21000
+      ],
+      "inline_source_indices": []
+    },
+    {
+      "depths": [
+        -21000,
+        0
+      ],
+      "inline_source_indices": [
+        1
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        4
+      ],
+      "inline_source_indices": [
+        1
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        10
+      ],
+      "inline_source_indices": [
+        1
+      ]
+    },
+    {
+      "depths": [
+        0,
+        -21000
+      ],
+      "inline_source_indices": [
+        0
+      ]
+    },
+    {
+      "depths": [
+        0,
+        0
+      ],
+      "inline_source_indices": [
+        0,
+        1
+      ]
+    },
+    {
+      "depths": [
+        0,
+        4
+      ],
+      "inline_source_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "depths": [
+        0,
+        10
+      ],
+      "inline_source_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "depths": [
+        4,
+        -21000
+      ],
+      "inline_source_indices": [
+        0
+      ]
+    },
+    {
+      "depths": [
+        4,
+        0
+      ],
+      "inline_source_indices": [
+        0,
+        1
+      ]
+    },
+    {
+      "depths": [
+        4,
+        4
+      ],
+      "inline_source_indices": [
+        0,
+        1
+      ]
+    },
+    {
+      "depths": [
+        4,
+        10
+      ],
+      "inline_source_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "depths": [
+        10,
+        -21000
+      ],
+      "inline_source_indices": [
+        0
+      ]
+    },
+    {
+      "depths": [
+        10,
+        0
+      ],
+      "inline_source_indices": [
+        0,
+        1
+      ]
+    },
+    {
+      "depths": [
+        10,
+        4
+      ],
+      "inline_source_indices": [
+        0,
+        1
+      ]
+    },
+    {
+      "depths": [
+        10,
+        10
+      ],
+      "inline_source_indices": [
+        0,
+        1
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        -21000,
+        -21000
+      ],
+      "inline_source_indices": []
+    },
+    {
+      "depths": [
+        -21000,
+        -21000,
+        0
+      ],
+      "inline_source_indices": [
+        2
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        -21000,
+        4
+      ],
+      "inline_source_indices": [
+        2
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        -21000,
+        10
+      ],
+      "inline_source_indices": [
+        2
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        0,
+        -21000
+      ],
+      "inline_source_indices": [
+        1
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        0,
+        0
+      ],
+      "inline_source_indices": [
+        1,
+        2
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        0,
+        4
+      ],
+      "inline_source_indices": [
+        2,
+        1
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        0,
+        10
+      ],
+      "inline_source_indices": [
+        2,
+        1
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        4,
+        -21000
+      ],
+      "inline_source_indices": [
+        1
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        4,
+        0
+      ],
+      "inline_source_indices": [
+        1,
+        2
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        4,
+        4
+      ],
+      "inline_source_indices": [
+        1,
+        2
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        4,
+        10
+      ],
+      "inline_source_indices": [
+        2,
+        1
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        10,
+        -21000
+      ],
+      "inline_source_indices": [
+        1
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        10,
+        0
+      ],
+      "inline_source_indices": [
+        1,
+        2
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        10,
+        4
+      ],
+      "inline_source_indices": [
+        1,
+        2
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        10,
+        10
+      ],
+      "inline_source_indices": [
+        1,
+        2
+      ]
+    },
+    {
+      "depths": [
+        0,
+        -21000,
+        -21000
+      ],
+      "inline_source_indices": [
+        0
+      ]
+    },
+    {
+      "depths": [
+        0,
+        -21000,
+        0
+      ],
+      "inline_source_indices": [
+        0,
+        2
+      ]
+    },
+    {
+      "depths": [
+        0,
+        -21000,
+        4
+      ],
+      "inline_source_indices": [
+        2,
+        0
+      ]
+    },
+    {
+      "depths": [
+        0,
+        -21000,
+        10
+      ],
+      "inline_source_indices": [
+        2,
+        0
+      ]
+    },
+    {
+      "depths": [
+        0,
+        0,
+        -21000
+      ],
+      "inline_source_indices": [
+        0,
+        1
+      ]
+    },
+    {
+      "depths": [
+        0,
+        0,
+        0
+      ],
+      "inline_source_indices": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "depths": [
+        0,
+        0,
+        4
+      ],
+      "inline_source_indices": [
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "depths": [
+        0,
+        0,
+        10
+      ],
+      "inline_source_indices": [
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "depths": [
+        0,
+        4,
+        -21000
+      ],
+      "inline_source_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "depths": [
+        0,
+        4,
+        0
+      ],
+      "inline_source_indices": [
+        1,
+        0,
+        2
+      ]
+    },
+    {
+      "depths": [
+        0,
+        4,
+        4
+      ],
+      "inline_source_indices": [
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "depths": [
+        0,
+        4,
+        10
+      ],
+      "inline_source_indices": [
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "depths": [
+        0,
+        10,
+        -21000
+      ],
+      "inline_source_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "depths": [
+        0,
+        10,
+        0
+      ],
+      "inline_source_indices": [
+        1,
+        0,
+        2
+      ]
+    },
+    {
+      "depths": [
+        0,
+        10,
+        4
+      ],
+      "inline_source_indices": [
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "depths": [
+        0,
+        10,
+        10
+      ],
+      "inline_source_indices": [
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "depths": [
+        4,
+        -21000,
+        -21000
+      ],
+      "inline_source_indices": [
+        0
+      ]
+    },
+    {
+      "depths": [
+        4,
+        -21000,
+        0
+      ],
+      "inline_source_indices": [
+        0,
+        2
+      ]
+    },
+    {
+      "depths": [
+        4,
+        -21000,
+        4
+      ],
+      "inline_source_indices": [
+        0,
+        2
+      ]
+    },
+    {
+      "depths": [
+        4,
+        -21000,
+        10
+      ],
+      "inline_source_indices": [
+        2,
+        0
+      ]
+    },
+    {
+      "depths": [
+        4,
+        0,
+        -21000
+      ],
+      "inline_source_indices": [
+        0,
+        1
+      ]
+    },
+    {
+      "depths": [
+        4,
+        0,
+        0
+      ],
+      "inline_source_indices": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "depths": [
+        4,
+        0,
+        4
+      ],
+      "inline_source_indices": [
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "depths": [
+        4,
+        0,
+        10
+      ],
+      "inline_source_indices": [
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "depths": [
+        4,
+        4,
+        -21000
+      ],
+      "inline_source_indices": [
+        0,
+        1
+      ]
+    },
+    {
+      "depths": [
+        4,
+        4,
+        0
+      ],
+      "inline_source_indices": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "depths": [
+        4,
+        4,
+        4
+      ],
+      "inline_source_indices": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "depths": [
+        4,
+        4,
+        10
+      ],
+      "inline_source_indices": [
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "depths": [
+        4,
+        10,
+        -21000
+      ],
+      "inline_source_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "depths": [
+        4,
+        10,
+        0
+      ],
+      "inline_source_indices": [
+        1,
+        0,
+        2
+      ]
+    },
+    {
+      "depths": [
+        4,
+        10,
+        4
+      ],
+      "inline_source_indices": [
+        1,
+        0,
+        2
+      ]
+    },
+    {
+      "depths": [
+        4,
+        10,
+        10
+      ],
+      "inline_source_indices": [
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "depths": [
+        10,
+        -21000,
+        -21000
+      ],
+      "inline_source_indices": [
+        0
+      ]
+    },
+    {
+      "depths": [
+        10,
+        -21000,
+        0
+      ],
+      "inline_source_indices": [
+        0,
+        2
+      ]
+    },
+    {
+      "depths": [
+        10,
+        -21000,
+        4
+      ],
+      "inline_source_indices": [
+        0,
+        2
+      ]
+    },
+    {
+      "depths": [
+        10,
+        -21000,
+        10
+      ],
+      "inline_source_indices": [
+        0,
+        2
+      ]
+    },
+    {
+      "depths": [
+        10,
+        0,
+        -21000
+      ],
+      "inline_source_indices": [
+        0,
+        1
+      ]
+    },
+    {
+      "depths": [
+        10,
+        0,
+        0
+      ],
+      "inline_source_indices": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "depths": [
+        10,
+        0,
+        4
+      ],
+      "inline_source_indices": [
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "depths": [
+        10,
+        0,
+        10
+      ],
+      "inline_source_indices": [
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "depths": [
+        10,
+        4,
+        -21000
+      ],
+      "inline_source_indices": [
+        0,
+        1
+      ]
+    },
+    {
+      "depths": [
+        10,
+        4,
+        0
+      ],
+      "inline_source_indices": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "depths": [
+        10,
+        4,
+        4
+      ],
+      "inline_source_indices": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "depths": [
+        10,
+        4,
+        10
+      ],
+      "inline_source_indices": [
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "depths": [
+        10,
+        10,
+        -21000
+      ],
+      "inline_source_indices": [
+        0,
+        1
+      ]
+    },
+    {
+      "depths": [
+        10,
+        10,
+        0
+      ],
+      "inline_source_indices": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "depths": [
+        10,
+        10,
+        4
+      ],
+      "inline_source_indices": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "depths": [
+        10,
+        10,
+        10
+      ],
+      "inline_source_indices": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        -21000,
+        -21000,
+        -21000
+      ],
+      "inline_source_indices": []
+    },
+    {
+      "depths": [
+        -21000,
+        -21000,
+        -21000,
+        0
+      ],
+      "inline_source_indices": [
+        3
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        -21000,
+        -21000,
+        4
+      ],
+      "inline_source_indices": [
+        3
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        -21000,
+        -21000,
+        10
+      ],
+      "inline_source_indices": [
+        3
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        -21000,
+        0,
+        -21000
+      ],
+      "inline_source_indices": [
+        2
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        -21000,
+        0,
+        0
+      ],
+      "inline_source_indices": [
+        2,
+        3
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        -21000,
+        0,
+        4
+      ],
+      "inline_source_indices": [
+        3,
+        2
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        -21000,
+        0,
+        10
+      ],
+      "inline_source_indices": [
+        3,
+        2
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        -21000,
+        4,
+        -21000
+      ],
+      "inline_source_indices": [
+        2
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        -21000,
+        4,
+        0
+      ],
+      "inline_source_indices": [
+        2,
+        3
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        -21000,
+        4,
+        4
+      ],
+      "inline_source_indices": [
+        2,
+        3
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        -21000,
+        4,
+        10
+      ],
+      "inline_source_indices": [
+        3,
+        2
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        -21000,
+        10,
+        -21000
+      ],
+      "inline_source_indices": [
+        2
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        -21000,
+        10,
+        0
+      ],
+      "inline_source_indices": [
+        2,
+        3
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        -21000,
+        10,
+        4
+      ],
+      "inline_source_indices": [
+        2,
+        3
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        -21000,
+        10,
+        10
+      ],
+      "inline_source_indices": [
+        2,
+        3
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        0,
+        -21000,
+        -21000
+      ],
+      "inline_source_indices": [
+        1
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        0,
+        -21000,
+        0
+      ],
+      "inline_source_indices": [
+        1,
+        3
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        0,
+        -21000,
+        4
+      ],
+      "inline_source_indices": [
+        3,
+        1
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        0,
+        -21000,
+        10
+      ],
+      "inline_source_indices": [
+        3,
+        1
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        0,
+        0,
+        -21000
+      ],
+      "inline_source_indices": [
+        1,
+        2
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        0,
+        0,
+        0
+      ],
+      "inline_source_indices": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        0,
+        0,
+        4
+      ],
+      "inline_source_indices": [
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        0,
+        0,
+        10
+      ],
+      "inline_source_indices": [
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        0,
+        4,
+        -21000
+      ],
+      "inline_source_indices": [
+        2,
+        1
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        0,
+        4,
+        0
+      ],
+      "inline_source_indices": [
+        2,
+        1,
+        3
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        0,
+        4,
+        4
+      ],
+      "inline_source_indices": [
+        2,
+        3,
+        1
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        0,
+        4,
+        10
+      ],
+      "inline_source_indices": [
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        0,
+        10,
+        -21000
+      ],
+      "inline_source_indices": [
+        2,
+        1
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        0,
+        10,
+        0
+      ],
+      "inline_source_indices": [
+        2,
+        1,
+        3
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        0,
+        10,
+        4
+      ],
+      "inline_source_indices": [
+        2,
+        3,
+        1
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        0,
+        10,
+        10
+      ],
+      "inline_source_indices": [
+        2,
+        3,
+        1
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        4,
+        -21000,
+        -21000
+      ],
+      "inline_source_indices": [
+        1
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        4,
+        -21000,
+        0
+      ],
+      "inline_source_indices": [
+        1,
+        3
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        4,
+        -21000,
+        4
+      ],
+      "inline_source_indices": [
+        1,
+        3
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        4,
+        -21000,
+        10
+      ],
+      "inline_source_indices": [
+        3,
+        1
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        4,
+        0,
+        -21000
+      ],
+      "inline_source_indices": [
+        1,
+        2
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        4,
+        0,
+        0
+      ],
+      "inline_source_indices": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        4,
+        0,
+        4
+      ],
+      "inline_source_indices": [
+        1,
+        3,
+        2
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        4,
+        0,
+        10
+      ],
+      "inline_source_indices": [
+        3,
+        1,
+        2
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        4,
+        4,
+        -21000
+      ],
+      "inline_source_indices": [
+        1,
+        2
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        4,
+        4,
+        0
+      ],
+      "inline_source_indices": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        4,
+        4,
+        4
+      ],
+      "inline_source_indices": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        4,
+        4,
+        10
+      ],
+      "inline_source_indices": [
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        4,
+        10,
+        -21000
+      ],
+      "inline_source_indices": [
+        2,
+        1
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        4,
+        10,
+        0
+      ],
+      "inline_source_indices": [
+        2,
+        1,
+        3
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        4,
+        10,
+        4
+      ],
+      "inline_source_indices": [
+        2,
+        1,
+        3
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        4,
+        10,
+        10
+      ],
+      "inline_source_indices": [
+        2,
+        3,
+        1
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        10,
+        -21000,
+        -21000
+      ],
+      "inline_source_indices": [
+        1
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        10,
+        -21000,
+        0
+      ],
+      "inline_source_indices": [
+        1,
+        3
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        10,
+        -21000,
+        4
+      ],
+      "inline_source_indices": [
+        1,
+        3
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        10,
+        -21000,
+        10
+      ],
+      "inline_source_indices": [
+        1,
+        3
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        10,
+        0,
+        -21000
+      ],
+      "inline_source_indices": [
+        1,
+        2
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        10,
+        0,
+        0
+      ],
+      "inline_source_indices": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        10,
+        0,
+        4
+      ],
+      "inline_source_indices": [
+        1,
+        3,
+        2
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        10,
+        0,
+        10
+      ],
+      "inline_source_indices": [
+        1,
+        3,
+        2
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        10,
+        4,
+        -21000
+      ],
+      "inline_source_indices": [
+        1,
+        2
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        10,
+        4,
+        0
+      ],
+      "inline_source_indices": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        10,
+        4,
+        4
+      ],
+      "inline_source_indices": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        10,
+        4,
+        10
+      ],
+      "inline_source_indices": [
+        1,
+        3,
+        2
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        10,
+        10,
+        -21000
+      ],
+      "inline_source_indices": [
+        1,
+        2
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        10,
+        10,
+        0
+      ],
+      "inline_source_indices": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        10,
+        10,
+        4
+      ],
+      "inline_source_indices": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "depths": [
+        -21000,
+        10,
+        10,
+        10
+      ],
+      "inline_source_indices": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "depths": [
+        0,
+        -21000,
+        -21000,
+        -21000
+      ],
+      "inline_source_indices": [
+        0
+      ]
+    },
+    {
+      "depths": [
+        0,
+        -21000,
+        -21000,
+        0
+      ],
+      "inline_source_indices": [
+        0,
+        3
+      ]
+    },
+    {
+      "depths": [
+        0,
+        -21000,
+        -21000,
+        4
+      ],
+      "inline_source_indices": [
+        3,
+        0
+      ]
+    },
+    {
+      "depths": [
+        0,
+        -21000,
+        -21000,
+        10
+      ],
+      "inline_source_indices": [
+        3,
+        0
+      ]
+    },
+    {
+      "depths": [
+        0,
+        -21000,
+        0,
+        -21000
+      ],
+      "inline_source_indices": [
+        0,
+        2
+      ]
+    },
+    {
+      "depths": [
+        0,
+        -21000,
+        0,
+        0
+      ],
+      "inline_source_indices": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "depths": [
+        0,
+        -21000,
+        0,
+        4
+      ],
+      "inline_source_indices": [
+        3,
+        2,
+        0
+      ]
+    },
+    {
+      "depths": [
+        0,
+        -21000,
+        0,
+        10
+      ],
+      "inline_source_indices": [
+        3,
+        2,
+        0
+      ]
+    },
+    {
+      "depths": [
+        0,
+        -21000,
+        4,
+        -21000
+      ],
+      "inline_source_indices": [
+        2,
+        0
+      ]
+    },
+    {
+      "depths": [
+        0,
+        -21000,
+        4,
+        0
+      ],
+      "inline_source_indices": [
+        2,
+        0,
+        3
+      ]
+    },
+    {
+      "depths": [
+        0,
+        -21000,
+        4,
+        4
+      ],
+      "inline_source_indices": [
+        2,
+        3,
+        0
+      ]
+    },
+    {
+      "depths": [
+        0,
+        -21000,
+        4,
+        10
+      ],
+      "inline_source_indices": [
+        3,
+        2,
+        0
+      ]
+    },
+    {
+      "depths": [
+        0,
+        -21000,
+        10,
+        -21000
+      ],
+      "inline_source_indices": [
+        2,
+        0
+      ]
+    },
+    {
+      "depths": [
+        0,
+        -21000,
+        10,
+        0
+      ],
+      "inline_source_indices": [
+        2,
+        0,
+        3
+      ]
+    },
+    {
+      "depths": [
+        0,
+        -21000,
+        10,
+        4
+      ],
+      "inline_source_indices": [
+        2,
+        3,
+        0
+      ]
+    },
+    {
+      "depths": [
+        0,
+        -21000,
+        10,
+        10
+      ],
+      "inline_source_indices": [
+        2,
+        3,
+        0
+      ]
+    },
+    {
+      "depths": [
+        0,
+        0,
+        -21000,
+        -21000
+      ],
+      "inline_source_indices": [
+        0,
+        1
+      ]
+    },
+    {
+      "depths": [
+        0,
+        0,
+        -21000,
+        0
+      ],
+      "inline_source_indices": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "depths": [
+        0,
+        0,
+        -21000,
+        4
+      ],
+      "inline_source_indices": [
+        3,
+        1,
+        0
+      ]
+    },
+    {
+      "depths": [
+        0,
+        0,
+        -21000,
+        10
+      ],
+      "inline_source_indices": [
+        3,
+        1,
+        0
+      ]
+    },
+    {
+      "depths": [
+        0,
+        0,
+        0,
+        -21000
+      ],
+      "inline_source_indices": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "depths": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "inline_source_indices": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "depths": [
+        0,
+        0,
+        0,
+        4
+      ],
+      "inline_source_indices": [
+        3,
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "depths": [
+        0,
+        0,
+        0,
+        10
+      ],
+      "inline_source_indices": [
+        3,
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "depths": [
+        0,
+        0,
+        4,
+        -21000
+      ],
+      "inline_source_indices": [
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "depths": [
+        0,
+        0,
+        4,
+        0
+      ],
+      "inline_source_indices": [
+        2,
+        1,
+        0,
+        3
+      ]
+    },
+    {
+      "depths": [
+        0,
+        0,
+        4,
+        4
+      ],
+      "inline_source_indices": [
+        2,
+        3,
+        0,
+        1
+      ]
+    },
+    {
+      "depths": [
+        0,
+        0,
+        4,
+        10
+      ],
+      "inline_source_indices": [
+        3,
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "depths": [
+        0,
+        0,
+        10,
+        -21000
+      ],
+      "inline_source_indices": [
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "depths": [
+        0,
+        0,
+        10,
+        0
+      ],
+      "inline_source_indices": [
+        2,
+        1,
+        0,
+        3
+      ]
+    },
+    {
+      "depths": [
+        0,
+        0,
+        10,
+        4
+      ],
+      "inline_source_indices": [
+        2,
+        3,
+        0,
+        1
+      ]
+    },
+    {
+      "depths": [
+        0,
+        0,
+        10,
+        10
+      ],
+      "inline_source_indices": [
+        2,
+        3,
+        0,
+        1
+      ]
+    },
+    {
+      "depths": [
+        0,
+        4,
+        -21000,
+        -21000
+      ],
+      "inline_source_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "depths": [
+        0,
+        4,
+        -21000,
+        0
+      ],
+      "inline_source_indices": [
+        1,
+        0,
+        3
+      ]
+    },
+    {
+      "depths": [
+        0,
+        4,
+        -21000,
+        4
+      ],
+      "inline_source_indices": [
+        1,
+        3,
+        0
+      ]
+    },
+    {
+      "depths": [
+        0,
+        4,
+        -21000,
+        10
+      ],
+      "inline_source_indices": [
+        3,
+        1,
+        0
+      ]
+    },
+    {
+      "depths": [
+        0,
+        4,
+        0,
+        -21000
+      ],
+      "inline_source_indices": [
+        1,
+        0,
+        2
+      ]
+    },
+    {
+      "depths": [
+        0,
+        4,
+        0,
+        0
+      ],
+      "inline_source_indices": [
+        1,
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "depths": [
+        0,
+        4,
+        0,
+        4
+      ],
+      "inline_source_indices": [
+        1,
+        3,
+        2,
+        0
+      ]
+    },
+    {
+      "depths": [
+        0,
+        4,
+        0,
+        10
+      ],
+      "inline_source_indices": [
+        3,
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "depths": [
+        0,
+        4,
+        4,
+        -21000
+      ],
+      "inline_source_indices": [
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "depths": [
+        0,
+        4,
+        4,
+        0
+      ],
+      "inline_source_indices": [
+        1,
+        2,
+        0,
+        3
+      ]
+    },
+    {
+      "depths": [
+        0,
+        4,
+        4,
+        4
+      ],
+      "inline_source_indices": [
+        1,
+        2,
+        3,
+        0
+      ]
+    },
+    {
+      "depths": [
+        0,
+        4,
+        4,
+        10
+      ],
+      "inline_source_indices": [
+        3,
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "depths": [
+        0,
+        4,
+        10,
+        -21000
+      ],
+      "inline_source_indices": [
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "depths": [
+        0,
+        4,
+        10,
+        0
+      ],
+      "inline_source_indices": [
+        2,
+        1,
+        0,
+        3
+      ]
+    },
+    {
+      "depths": [
+        0,
+        4,
+        10,
+        4
+      ],
+      "inline_source_indices": [
+        2,
+        1,
+        3,
+        0
+      ]
+    },
+    {
+      "depths": [
+        0,
+        4,
+        10,
+        10
+      ],
+      "inline_source_indices": [
+        2,
+        3,
+        1,
+        0
+      ]
+    },
+    {
+      "depths": [
+        0,
+        10,
+        -21000,
+        -21000
+      ],
+      "inline_source_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "depths": [
+        0,
+        10,
+        -21000,
+        0
+      ],
+      "inline_source_indices": [
+        1,
+        0,
+        3
+      ]
+    },
+    {
+      "depths": [
+        0,
+        10,
+        -21000,
+        4
+      ],
+      "inline_source_indices": [
+        1,
+        3,
+        0
+      ]
+    },
+    {
+      "depths": [
+        0,
+        10,
+        -21000,
+        10
+      ],
+      "inline_source_indices": [
+        1,
+        3,
+        0
+      ]
+    },
+    {
+      "depths": [
+        0,
+        10,
+        0,
+        -21000
+      ],
+      "inline_source_indices": [
+        1,
+        0,
+        2
+      ]
+    },
+    {
+      "depths": [
+        0,
+        10,
+        0,
+        0
+      ],
+      "inline_source_indices": [
+        1,
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "depths": [
+        0,
+        10,
+        0,
+        4
+      ],
+      "inline_source_indices": [
+        1,
+        3,
+        2,
+        0
+      ]
+    },
+    {
+      "depths": [
+        0,
+        10,
+        0,
+        10
+      ],
+      "inline_source_indices": [
+        1,
+        3,
+        2,
+        0
+      ]
+    },
+    {
+      "depths": [
+        0,
+        10,
+        4,
+        -21000
+      ],
+      "inline_source_indices": [
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "depths": [
+        0,
+        10,
+        4,
+        0
+      ],
+      "inline_source_indices": [
+        1,
+        2,
+        0,
+        3
+      ]
+    },
+    {
+      "depths": [
+        0,
+        10,
+        4,
+        4
+      ],
+      "inline_source_indices": [
+        1,
+        2,
+        3,
+        0
+      ]
+    },
+    {
+      "depths": [
+        0,
+        10,
+        4,
+        10
+      ],
+      "inline_source_indices": [
+        1,
+        3,
+        2,
+        0
+      ]
+    },
+    {
+      "depths": [
+        0,
+        10,
+        10,
+        -21000
+      ],
+      "inline_source_indices": [
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "depths": [
+        0,
+        10,
+        10,
+        0
+      ],
+      "inline_source_indices": [
+        1,
+        2,
+        0,
+        3
+      ]
+    },
+    {
+      "depths": [
+        0,
+        10,
+        10,
+        4
+      ],
+      "inline_source_indices": [
+        1,
+        2,
+        3,
+        0
+      ]
+    },
+    {
+      "depths": [
+        0,
+        10,
+        10,
+        10
+      ],
+      "inline_source_indices": [
+        1,
+        2,
+        3,
+        0
+      ]
+    },
+    {
+      "depths": [
+        4,
+        -21000,
+        -21000,
+        -21000
+      ],
+      "inline_source_indices": [
+        0
+      ]
+    },
+    {
+      "depths": [
+        4,
+        -21000,
+        -21000,
+        0
+      ],
+      "inline_source_indices": [
+        0,
+        3
+      ]
+    },
+    {
+      "depths": [
+        4,
+        -21000,
+        -21000,
+        4
+      ],
+      "inline_source_indices": [
+        0,
+        3
+      ]
+    },
+    {
+      "depths": [
+        4,
+        -21000,
+        -21000,
+        10
+      ],
+      "inline_source_indices": [
+        3,
+        0
+      ]
+    },
+    {
+      "depths": [
+        4,
+        -21000,
+        0,
+        -21000
+      ],
+      "inline_source_indices": [
+        0,
+        2
+      ]
+    },
+    {
+      "depths": [
+        4,
+        -21000,
+        0,
+        0
+      ],
+      "inline_source_indices": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "depths": [
+        4,
+        -21000,
+        0,
+        4
+      ],
+      "inline_source_indices": [
+        0,
+        3,
+        2
+      ]
+    },
+    {
+      "depths": [
+        4,
+        -21000,
+        0,
+        10
+      ],
+      "inline_source_indices": [
+        3,
+        0,
+        2
+      ]
+    },
+    {
+      "depths": [
+        4,
+        -21000,
+        4,
+        -21000
+      ],
+      "inline_source_indices": [
+        0,
+        2
+      ]
+    },
+    {
+      "depths": [
+        4,
+        -21000,
+        4,
+        0
+      ],
+      "inline_source_indices": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "depths": [
+        4,
+        -21000,
+        4,
+        4
+      ],
+      "inline_source_indices": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "depths": [
+        4,
+        -21000,
+        4,
+        10
+      ],
+      "inline_source_indices": [
+        3,
+        2,
+        0
+      ]
+    },
+    {
+      "depths": [
+        4,
+        -21000,
+        10,
+        -21000
+      ],
+      "inline_source_indices": [
+        2,
+        0
+      ]
+    },
+    {
+      "depths": [
+        4,
+        -21000,
+        10,
+        0
+      ],
+      "inline_source_indices": [
+        2,
+        0,
+        3
+      ]
+    },
+    {
+      "depths": [
+        4,
+        -21000,
+        10,
+        4
+      ],
+      "inline_source_indices": [
+        2,
+        0,
+        3
+      ]
+    },
+    {
+      "depths": [
+        4,
+        -21000,
+        10,
+        10
+      ],
+      "inline_source_indices": [
+        2,
+        3,
+        0
+      ]
+    },
+    {
+      "depths": [
+        4,
+        0,
+        -21000,
+        -21000
+      ],
+      "inline_source_indices": [
+        0,
+        1
+      ]
+    },
+    {
+      "depths": [
+        4,
+        0,
+        -21000,
+        0
+      ],
+      "inline_source_indices": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "depths": [
+        4,
+        0,
+        -21000,
+        4
+      ],
+      "inline_source_indices": [
+        0,
+        3,
+        1
+      ]
+    },
+    {
+      "depths": [
+        4,
+        0,
+        -21000,
+        10
+      ],
+      "inline_source_indices": [
+        3,
+        0,
+        1
+      ]
+    },
+    {
+      "depths": [
+        4,
+        0,
+        0,
+        -21000
+      ],
+      "inline_source_indices": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "depths": [
+        4,
+        0,
+        0,
+        0
+      ],
+      "inline_source_indices": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "depths": [
+        4,
+        0,
+        0,
+        4
+      ],
+      "inline_source_indices": [
+        0,
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "depths": [
+        4,
+        0,
+        0,
+        10
+      ],
+      "inline_source_indices": [
+        3,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "depths": [
+        4,
+        0,
+        4,
+        -21000
+      ],
+      "inline_source_indices": [
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "depths": [
+        4,
+        0,
+        4,
+        0
+      ],
+      "inline_source_indices": [
+        0,
+        2,
+        1,
+        3
+      ]
+    },
+    {
+      "depths": [
+        4,
+        0,
+        4,
+        4
+      ],
+      "inline_source_indices": [
+        0,
+        2,
+        3,
+        1
+      ]
+    },
+    {
+      "depths": [
+        4,
+        0,
+        4,
+        10
+      ],
+      "inline_source_indices": [
+        3,
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "depths": [
+        4,
+        0,
+        10,
+        -21000
+      ],
+      "inline_source_indices": [
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "depths": [
+        4,
+        0,
+        10,
+        0
+      ],
+      "inline_source_indices": [
+        2,
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "depths": [
+        4,
+        0,
+        10,
+        4
+      ],
+      "inline_source_indices": [
+        2,
+        0,
+        3,
+        1
+      ]
+    },
+    {
+      "depths": [
+        4,
+        0,
+        10,
+        10
+      ],
+      "inline_source_indices": [
+        2,
+        3,
+        0,
+        1
+      ]
+    },
+    {
+      "depths": [
+        4,
+        4,
+        -21000,
+        -21000
+      ],
+      "inline_source_indices": [
+        0,
+        1
+      ]
+    },
+    {
+      "depths": [
+        4,
+        4,
+        -21000,
+        0
+      ],
+      "inline_source_indices": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "depths": [
+        4,
+        4,
+        -21000,
+        4
+      ],
+      "inline_source_indices": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "depths": [
+        4,
+        4,
+        -21000,
+        10
+      ],
+      "inline_source_indices": [
+        3,
+        1,
+        0
+      ]
+    },
+    {
+      "depths": [
+        4,
+        4,
+        0,
+        -21000
+      ],
+      "inline_source_indices": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "depths": [
+        4,
+        4,
+        0,
+        0
+      ],
+      "inline_source_indices": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "depths": [
+        4,
+        4,
+        0,
+        4
+      ],
+      "inline_source_indices": [
+        0,
+        1,
+        3,
+        2
+      ]
+    },
+    {
+      "depths": [
+        4,
+        4,
+        0,
+        10
+      ],
+      "inline_source_indices": [
+        3,
+        1,
+        0,
+        2
+      ]
+    },
+    {
+      "depths": [
+        4,
+        4,
+        4,
+        -21000
+      ],
+      "inline_source_indices": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "depths": [
+        4,
+        4,
+        4,
+        0
+      ],
+      "inline_source_indices": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "depths": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "inline_source_indices": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "depths": [
+        4,
+        4,
+        4,
+        10
+      ],
+      "inline_source_indices": [
+        3,
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "depths": [
+        4,
+        4,
+        10,
+        -21000
+      ],
+      "inline_source_indices": [
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "depths": [
+        4,
+        4,
+        10,
+        0
+      ],
+      "inline_source_indices": [
+        2,
+        1,
+        0,
+        3
+      ]
+    },
+    {
+      "depths": [
+        4,
+        4,
+        10,
+        4
+      ],
+      "inline_source_indices": [
+        2,
+        1,
+        0,
+        3
+      ]
+    },
+    {
+      "depths": [
+        4,
+        4,
+        10,
+        10
+      ],
+      "inline_source_indices": [
+        2,
+        3,
+        0,
+        1
+      ]
+    },
+    {
+      "depths": [
+        4,
+        10,
+        -21000,
+        -21000
+      ],
+      "inline_source_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "depths": [
+        4,
+        10,
+        -21000,
+        0
+      ],
+      "inline_source_indices": [
+        1,
+        0,
+        3
+      ]
+    },
+    {
+      "depths": [
+        4,
+        10,
+        -21000,
+        4
+      ],
+      "inline_source_indices": [
+        1,
+        0,
+        3
+      ]
+    },
+    {
+      "depths": [
+        4,
+        10,
+        -21000,
+        10
+      ],
+      "inline_source_indices": [
+        1,
+        3,
+        0
+      ]
+    },
+    {
+      "depths": [
+        4,
+        10,
+        0,
+        -21000
+      ],
+      "inline_source_indices": [
+        1,
+        0,
+        2
+      ]
+    },
+    {
+      "depths": [
+        4,
+        10,
+        0,
+        0
+      ],
+      "inline_source_indices": [
+        1,
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "depths": [
+        4,
+        10,
+        0,
+        4
+      ],
+      "inline_source_indices": [
+        1,
+        0,
+        3,
+        2
+      ]
+    },
+    {
+      "depths": [
+        4,
+        10,
+        0,
+        10
+      ],
+      "inline_source_indices": [
+        1,
+        3,
+        0,
+        2
+      ]
+    },
+    {
+      "depths": [
+        4,
+        10,
+        4,
+        -21000
+      ],
+      "inline_source_indices": [
+        1,
+        0,
+        2
+      ]
+    },
+    {
+      "depths": [
+        4,
+        10,
+        4,
+        0
+      ],
+      "inline_source_indices": [
+        1,
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "depths": [
+        4,
+        10,
+        4,
+        4
+      ],
+      "inline_source_indices": [
+        1,
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "depths": [
+        4,
+        10,
+        4,
+        10
+      ],
+      "inline_source_indices": [
+        1,
+        3,
+        2,
+        0
+      ]
+    },
+    {
+      "depths": [
+        4,
+        10,
+        10,
+        -21000
+      ],
+      "inline_source_indices": [
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "depths": [
+        4,
+        10,
+        10,
+        0
+      ],
+      "inline_source_indices": [
+        1,
+        2,
+        0,
+        3
+      ]
+    },
+    {
+      "depths": [
+        4,
+        10,
+        10,
+        4
+      ],
+      "inline_source_indices": [
+        1,
+        2,
+        0,
+        3
+      ]
+    },
+    {
+      "depths": [
+        4,
+        10,
+        10,
+        10
+      ],
+      "inline_source_indices": [
+        1,
+        2,
+        3,
+        0
+      ]
+    },
+    {
+      "depths": [
+        10,
+        -21000,
+        -21000,
+        -21000
+      ],
+      "inline_source_indices": [
+        0
+      ]
+    },
+    {
+      "depths": [
+        10,
+        -21000,
+        -21000,
+        0
+      ],
+      "inline_source_indices": [
+        0,
+        3
+      ]
+    },
+    {
+      "depths": [
+        10,
+        -21000,
+        -21000,
+        4
+      ],
+      "inline_source_indices": [
+        0,
+        3
+      ]
+    },
+    {
+      "depths": [
+        10,
+        -21000,
+        -21000,
+        10
+      ],
+      "inline_source_indices": [
+        0,
+        3
+      ]
+    },
+    {
+      "depths": [
+        10,
+        -21000,
+        0,
+        -21000
+      ],
+      "inline_source_indices": [
+        0,
+        2
+      ]
+    },
+    {
+      "depths": [
+        10,
+        -21000,
+        0,
+        0
+      ],
+      "inline_source_indices": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "depths": [
+        10,
+        -21000,
+        0,
+        4
+      ],
+      "inline_source_indices": [
+        0,
+        3,
+        2
+      ]
+    },
+    {
+      "depths": [
+        10,
+        -21000,
+        0,
+        10
+      ],
+      "inline_source_indices": [
+        0,
+        3,
+        2
+      ]
+    },
+    {
+      "depths": [
+        10,
+        -21000,
+        4,
+        -21000
+      ],
+      "inline_source_indices": [
+        0,
+        2
+      ]
+    },
+    {
+      "depths": [
+        10,
+        -21000,
+        4,
+        0
+      ],
+      "inline_source_indices": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "depths": [
+        10,
+        -21000,
+        4,
+        4
+      ],
+      "inline_source_indices": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "depths": [
+        10,
+        -21000,
+        4,
+        10
+      ],
+      "inline_source_indices": [
+        0,
+        3,
+        2
+      ]
+    },
+    {
+      "depths": [
+        10,
+        -21000,
+        10,
+        -21000
+      ],
+      "inline_source_indices": [
+        0,
+        2
+      ]
+    },
+    {
+      "depths": [
+        10,
+        -21000,
+        10,
+        0
+      ],
+      "inline_source_indices": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "depths": [
+        10,
+        -21000,
+        10,
+        4
+      ],
+      "inline_source_indices": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "depths": [
+        10,
+        -21000,
+        10,
+        10
+      ],
+      "inline_source_indices": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "depths": [
+        10,
+        0,
+        -21000,
+        -21000
+      ],
+      "inline_source_indices": [
+        0,
+        1
+      ]
+    },
+    {
+      "depths": [
+        10,
+        0,
+        -21000,
+        0
+      ],
+      "inline_source_indices": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "depths": [
+        10,
+        0,
+        -21000,
+        4
+      ],
+      "inline_source_indices": [
+        0,
+        3,
+        1
+      ]
+    },
+    {
+      "depths": [
+        10,
+        0,
+        -21000,
+        10
+      ],
+      "inline_source_indices": [
+        0,
+        3,
+        1
+      ]
+    },
+    {
+      "depths": [
+        10,
+        0,
+        0,
+        -21000
+      ],
+      "inline_source_indices": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "depths": [
+        10,
+        0,
+        0,
+        0
+      ],
+      "inline_source_indices": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "depths": [
+        10,
+        0,
+        0,
+        4
+      ],
+      "inline_source_indices": [
+        0,
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "depths": [
+        10,
+        0,
+        0,
+        10
+      ],
+      "inline_source_indices": [
+        0,
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "depths": [
+        10,
+        0,
+        4,
+        -21000
+      ],
+      "inline_source_indices": [
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "depths": [
+        10,
+        0,
+        4,
+        0
+      ],
+      "inline_source_indices": [
+        0,
+        2,
+        1,
+        3
+      ]
+    },
+    {
+      "depths": [
+        10,
+        0,
+        4,
+        4
+      ],
+      "inline_source_indices": [
+        0,
+        2,
+        3,
+        1
+      ]
+    },
+    {
+      "depths": [
+        10,
+        0,
+        4,
+        10
+      ],
+      "inline_source_indices": [
+        0,
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "depths": [
+        10,
+        0,
+        10,
+        -21000
+      ],
+      "inline_source_indices": [
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "depths": [
+        10,
+        0,
+        10,
+        0
+      ],
+      "inline_source_indices": [
+        0,
+        2,
+        1,
+        3
+      ]
+    },
+    {
+      "depths": [
+        10,
+        0,
+        10,
+        4
+      ],
+      "inline_source_indices": [
+        0,
+        2,
+        3,
+        1
+      ]
+    },
+    {
+      "depths": [
+        10,
+        0,
+        10,
+        10
+      ],
+      "inline_source_indices": [
+        0,
+        2,
+        3,
+        1
+      ]
+    },
+    {
+      "depths": [
+        10,
+        4,
+        -21000,
+        -21000
+      ],
+      "inline_source_indices": [
+        0,
+        1
+      ]
+    },
+    {
+      "depths": [
+        10,
+        4,
+        -21000,
+        0
+      ],
+      "inline_source_indices": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "depths": [
+        10,
+        4,
+        -21000,
+        4
+      ],
+      "inline_source_indices": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "depths": [
+        10,
+        4,
+        -21000,
+        10
+      ],
+      "inline_source_indices": [
+        0,
+        3,
+        1
+      ]
+    },
+    {
+      "depths": [
+        10,
+        4,
+        0,
+        -21000
+      ],
+      "inline_source_indices": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "depths": [
+        10,
+        4,
+        0,
+        0
+      ],
+      "inline_source_indices": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "depths": [
+        10,
+        4,
+        0,
+        4
+      ],
+      "inline_source_indices": [
+        0,
+        1,
+        3,
+        2
+      ]
+    },
+    {
+      "depths": [
+        10,
+        4,
+        0,
+        10
+      ],
+      "inline_source_indices": [
+        0,
+        3,
+        1,
+        2
+      ]
+    },
+    {
+      "depths": [
+        10,
+        4,
+        4,
+        -21000
+      ],
+      "inline_source_indices": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "depths": [
+        10,
+        4,
+        4,
+        0
+      ],
+      "inline_source_indices": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "depths": [
+        10,
+        4,
+        4,
+        4
+      ],
+      "inline_source_indices": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "depths": [
+        10,
+        4,
+        4,
+        10
+      ],
+      "inline_source_indices": [
+        0,
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "depths": [
+        10,
+        4,
+        10,
+        -21000
+      ],
+      "inline_source_indices": [
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "depths": [
+        10,
+        4,
+        10,
+        0
+      ],
+      "inline_source_indices": [
+        0,
+        2,
+        1,
+        3
+      ]
+    },
+    {
+      "depths": [
+        10,
+        4,
+        10,
+        4
+      ],
+      "inline_source_indices": [
+        0,
+        2,
+        1,
+        3
+      ]
+    },
+    {
+      "depths": [
+        10,
+        4,
+        10,
+        10
+      ],
+      "inline_source_indices": [
+        0,
+        2,
+        3,
+        1
+      ]
+    },
+    {
+      "depths": [
+        10,
+        10,
+        -21000,
+        -21000
+      ],
+      "inline_source_indices": [
+        0,
+        1
+      ]
+    },
+    {
+      "depths": [
+        10,
+        10,
+        -21000,
+        0
+      ],
+      "inline_source_indices": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "depths": [
+        10,
+        10,
+        -21000,
+        4
+      ],
+      "inline_source_indices": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "depths": [
+        10,
+        10,
+        -21000,
+        10
+      ],
+      "inline_source_indices": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "depths": [
+        10,
+        10,
+        0,
+        -21000
+      ],
+      "inline_source_indices": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "depths": [
+        10,
+        10,
+        0,
+        0
+      ],
+      "inline_source_indices": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "depths": [
+        10,
+        10,
+        0,
+        4
+      ],
+      "inline_source_indices": [
+        0,
+        1,
+        3,
+        2
+      ]
+    },
+    {
+      "depths": [
+        10,
+        10,
+        0,
+        10
+      ],
+      "inline_source_indices": [
+        0,
+        1,
+        3,
+        2
+      ]
+    },
+    {
+      "depths": [
+        10,
+        10,
+        4,
+        -21000
+      ],
+      "inline_source_indices": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "depths": [
+        10,
+        10,
+        4,
+        0
+      ],
+      "inline_source_indices": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "depths": [
+        10,
+        10,
+        4,
+        4
+      ],
+      "inline_source_indices": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "depths": [
+        10,
+        10,
+        4,
+        10
+      ],
+      "inline_source_indices": [
+        0,
+        1,
+        3,
+        2
+      ]
+    },
+    {
+      "depths": [
+        10,
+        10,
+        10,
+        -21000
+      ],
+      "inline_source_indices": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "depths": [
+        10,
+        10,
+        10,
+        0
+      ],
+      "inline_source_indices": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "depths": [
+        10,
+        10,
+        10,
+        4
+      ],
+      "inline_source_indices": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "depths": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "inline_source_indices": [
+        0,
+        1,
+        2,
+        3
+      ]
+    }
+  ],
+  "limits": [
+    "not complete SpriteEngine or original game runtime",
+    "negative-depth sprite world ordering is separate",
+    "no animation time or palette effects"
+  ],
+  "decoder_sha256": "8f5b0bc713089ae6d42fc1419d51c55784ee5d56b618507af7d239de29549826"
+}

@@ -1,0 +1,1260 @@
+{
+  "date": "2026-11-03",
+  "base_commit": "864d5bdcb6c727495676c7a0d439615077a206a6",
+  "working_tree": true,
+  "published": false,
+  "target": [
+    1920,
+    1080
+  ],
+  "scope": "Bounded ship-only world picker, loaded actual mask resources and actualUnity pose/claim querydiagnostic. No mouse/selection integration.",
+  "previous_milestone": "docs/evidence/milestone-20261103-ship-pointer-masks.json",
+  "tests": {
+    "full_discovery": 196,
+    "skipped": 0,
+    "seconds": 175.263,
+    "core_targeted": 2,
+    "core_targeted_seconds": 1.701,
+    "core_included_in_full": true,
+    "additional_qa_tests": 7,
+    "additional_qa_seconds": 6.968,
+    "qa_included_in_full": false
+  },
+  "native_csharp": {
+    "passed": true,
+    "query_count": 1206,
+    "visited_predicate_count": 5665,
+    "all_map_cells": 576,
+    "first_hit_cases": 49,
+    "duplicate_occupant_cases": 1,
+    "overlapping_masks_cases": 4,
+    "guard_count": 21,
+    "guards": [
+      "null-grid",
+      "width-contract",
+      "height-contract",
+      "null-describe",
+      "negative-x",
+      "past-x",
+      "negative-y",
+      "past-y",
+      "min-x",
+      "max-y",
+      "null-mask",
+      "class-before-ships",
+      "class-after-ships",
+      "class-max",
+      "default-pose",
+      "invalid-before-callback",
+      "empty-no-callback",
+      "coarse-before-geometry",
+      "identity-zero",
+      "class211",
+      "grid-unchanged"
+    ],
+    "fixture_sha256": "cee2e9f5c46c2de4db20068a78b63f3090428534f3d67948f2056abbb92a720b",
+    "original_exe_sha256": "cb7746b288d23de2a0343ba51c154f961b3e3683b73bcc31e9a38b2c6b1e2021",
+    "source_sha256": {
+      "Unity/AncientConquest/Assets/AncientConquest/Runtime/MissionOccupancyGrid.cs": "7c38445f0ab30250458966db8f559fdabba3dafa2273a17c5d7edba9178f3bbd",
+      "Unity/AncientConquest/Assets/AncientConquest/Runtime/Simulation/ShipPointerMask.cs": "8fdad43ca202e37020efb20c53d3025dcaec2f8386ced66bc89697a2a6d44d1c",
+      "Unity/AncientConquest/Assets/AncientConquest/Runtime/Simulation/ShipWorldPicker.cs": "877539746bbc49afad876cef0435422b1b5eba53ade49d77c15e544734045930",
+      "tests/fixtures/ShipWorldPickerProbe.cs": "aa96daa2a9d8e0ff8975bf4d7ca574bad604c15cf756fe1c359c864558c27977",
+      "tools/probe_ship_world_picker.py": "7edab6c5f33b9a3ec4bf2b01e79a7403330959ece8580b60ab960aaa260d2632"
+    },
+    "validator_sha256": "545d3b7de4c74c96a59676986d1219998f82159eba1060a695ca4d25963b8008",
+    "checked_compilation": true,
+    "warnings_as_errors": true,
+    "mono_runtime": "/workspace/toolchains/Unity/6000.3.27f2/Editor/Data/MonoBleedingEdge/bin-linux64/mono",
+    "compiler_command": [
+      "/workspace/toolchains/Unity/6000.3.27f2/Editor/Data/MonoBleedingEdge/bin-linux64/mono",
+      "/workspace/toolchains/Unity/6000.3.27f2/Editor/Data/MonoBleedingEdge/lib/mono/4.5/csc.exe"
+    ],
+    "unicorn_version": "2.1.4",
+    "native_intercepted_callees": [],
+    "scope": "Normalclass200 ship-only query order with controlled noFog and other object slots empty; synthetic allone masks",
+    "excluded": [
+      "Full fog/other object slots/classes/mission lifecycle",
+      "Original mask shapes (separatelyvalidated)",
+      "Unity/renderer/OS input"
+    ]
+  },
+  "build": {
+    "result": "Succeeded",
+    "platform": "StandaloneWindows64",
+    "output": "/workspace/gierka/artifacts/unity-reference/Windows/AncientConquestReference.exe",
+    "editorVersion": "6000.3.27f2",
+    "warnings": 0,
+    "errors": 0,
+    "bytes": 146377147,
+    "resolution": "1920x1080",
+    "development": false
+  },
+  "runtime_dll_sha256": "a706aa5e9d9a5966b78c84bc1eace6f669f655a0e94601f82aeb2002e5305409",
+  "source_integrity": {
+    "csharp_count": 49,
+    "meta_count": 98,
+    "unchanged_after_build": true,
+    "resource_sets_unchanged": 7
+  },
+  "source_sha256": {
+    "Unity/AncientConquest/Assets/AncientConquest/Editor/BuildReferenceWindows.cs": "d22bfcc9605e8dc3989600cdda72a135320da79a93411a94944104eb50727411",
+    "Unity/AncientConquest/Assets/AncientConquest/Editor/ValidateMenuInput.cs": "16ea4e733569bfb1a8fa1c8fd763e6f13570adfcb8f5f20d070b5ab43b98fb95",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/BriefingDifficultySelection.cs": "d068062ede1d046f700393c84a8e258780c9d1d54b20908f91a24b1395472611",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/BriefingPanel.cs": "5f7dfa1606ee556a7c879022a443b91926b8a2204c12c4da0aa97f4f067adc22",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/Diagnostics/BriefingInputReplay.cs": "da45e210a0ac0c3d6d8a46dd5764229809af8dcb7240a3124400b4bff4339993",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/Diagnostics/MenuInputReplay.cs": "9de40ee0d552c01cd93aaccc398c89e9e4cc44e5bb8ca2eb67501c3cff371dda",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/MainMenuButton.cs": "1cfe6db61bdba6237eb748bd7df3f92b8a6c33955ac88b50fc1d3da330e54aac",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/MissionInitialSetup.cs": "e354d48e69e56cc59b71d142c5a68d49f73f5966174ad3408a0feb59d23ebd8e",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/MissionObjectReference.cs": "1fe041d48006ff3791883294857b2d7dc8ec3102848f900f74247f1eeb123582",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/MissionObjectSeed.cs": "65b6f22142fbdb26fa0239f6d0ed11d921dedaa0eec55d470f48e76f401c1c14",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/MissionObjectSelection.cs": "f2ec3c49d62bd6598992f154c4fe58e8948da21dcf2ece1c6e42643dc2a58fbd",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/MissionOccupancyGrid.cs": "7c38445f0ab30250458966db8f559fdabba3dafa2273a17c5d7edba9178f3bbd",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/MissionReefSeed.cs": "9f823f56e6605d6931c903026ff8b0249b84efe75f9b8c0748bc070e320686e6",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/MissionShipReference.cs": "118b9dfe623d13841859bb7ab1e37dd231fda39debe88c633f8dc43e9d78d5cb",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/MissionShipSeed.cs": "7cf66a30c96092ae0a0eff341dab9e07fe37b1ba227369368d44a65252ac3c7b",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/NativeMenuCanvas.cs": "c8ee8a644ef3c960ddf63a7b450d35042163fe7c906edf0dae0795c10be6598f",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/NativeMenuFrame.cs": "9adfbf8465576c712e5d306c7564e802c56ae16f9a38985e60480f00f3089e91",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/RgbaResourceTexture.cs": "bfe98339b9fdc0d1c8e17154f306bcb74f45b37985f7a39cc76191fab87f6038",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/ShipAdjacentReference.cs": "c43652565ebca9e9826594077e2f5f2ee455a0e7bc43d6e77502487ff232e67a",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/ShipMovementReference.cs": "b2bd54ab289f9d4b831e6958ef046c4ce36f2a3a3cbf621f24048df90b7c838d",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/ShipOrderReference.cs": "d9c5c0485860374a2e692dceafacf99f964fe17c7795afa80fad35e4df0bad7a",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/ShipPickingReference.cs": "e87b121ed9786cf2b50e99b91f81aa80b9dc71bab8d95c4ee4deaef65e6aae39",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/ShipRouteReference.cs": "7a87711c43821041f50ae3deb5ac502c70c4e13ca360aef88041465c9978e61b",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/Simulation/BossAiMessageGate.cs": "92b0efb4fb6dfcbf1a47a103455bcaf10194f47576e6c490b10e0c1551a031dd",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/Simulation/PreparedShipMovement.cs": "dc56968babe342bfa9dfedb5b417a3acae6e3cb69e997c2f13c07b07be35467d",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/Simulation/ShipAdjacentMovement.cs": "b9c8fe2c2b062b6dc2281fd4f2225ae6ee3a759f94ef2502597a392383f2c55f",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/Simulation/ShipAdjacentPlanner.cs": "0849f2906628c2023283f405ed8dd5c6ca09988c65ceea82bbcd3959597f5b76",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/Simulation/ShipAdjacentQuery.cs": "cefdc73085476fd738a55b2feed8c8586cc1b741bcc1cdaff2a5f7b5b3278721",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/Simulation/ShipFrameProgression.cs": "761c5349e390ea00c46c8ed93a7212a6fa4f941d856c8727145a4de1968cafcf",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/Simulation/ShipIdleProgression.cs": "d0c5499d81e0ceab9ced84d03146b1ae1eea2c856b214ba9f4e735ebb38ab9f4",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/Simulation/ShipMoveOrder.cs": "caa73d42265622175b3b9d44c4125972beae0d682c768d8ca263dbc1b9561cd9",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/Simulation/ShipMoveRequestInbox.cs": "62eb735aae590d46f42a12f789f4b2278ec71d0ca98bfbe0b6633ceacd183217",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/Simulation/ShipPointerMask.cs": "8fdad43ca202e37020efb20c53d3025dcaec2f8386ced66bc89697a2a6d44d1c",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/Simulation/ShipReplanPlanner.cs": "10c24c31a9e0a21e7e5dc135128dbb57639806cfac5891dd8ec412ba3001a705",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/Simulation/ShipRouteMovement.cs": "e5abd93a0e5792739dbda684d8309564e373b79fdffa47820a7c2f2dccd2a076",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/Simulation/ShipRoutePlan.cs": "fc51279b1219c6a34370813fdde82a3dc87423dd995ccfa6c1f52850397e127f",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/Simulation/ShipRoutePlanner.cs": "ca758c38adca07087cf3f113c2edf729ae28aeba23e07444cb9e22198bb3f3af",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/Simulation/ShipTurnProgression.cs": "8b6f6c0afb043c49bc10748062d087c309b54db689a6f0037969d62fc6ccb2c8",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/Simulation/ShipWorldPicker.cs": "877539746bbc49afad876cef0435422b1b5eba53ade49d77c15e544734045930",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/Simulation/SingleStepClock.cs": "e30a65784197edbcf174039dec5f72cea252b289f14972d4fafc0a488ec69539",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/Simulation/SourceNearestPathfinder.cs": "d52ed7ef3c5a0da7999db732be4144ee2b6b65ae87e4a2953f3c12b3f9941774",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/Simulation/SourcePathfinder.cs": "124870a6bd2142722696108ed904f127d9d425d9f6e7135c0dec7ced4a29a38a",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/Simulation/SourceWaveField.cs": "f0bf73ebf4ba2018acf29c6b679a8ecc577e7e95d384585d2eb88c24334e055c",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/SourceCohortOrderReference.cs": "d679acf26b9828e0e2f08c5814aff80be260d5a2e21d314bd0f787dd33d8a44e",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/SourceShipPoseReference.cs": "5ba875b7eb083ecf0700cdf8fa2d22064369748a74faca8e9210f475d1467c38",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/SourceSpriteDepthQueue.cs": "29cfd8a9b7ca3dbcbd8d7cc33261c5d1304405da42eb64250e20ad101e39447f",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/TerrainMapData.cs": "bfe77e756982948f3018ea67a50098d87d7b8b973d24da5bc9930a080d65f815",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/TerrainReferenceFrame.cs": "a0d7c2eb62cca0a31d975065ba54299fd9178ca5e25953b9e2981bdbe525696b",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/TerrainViewport.cs": "01884de20a9d1dd9f8d4acdda170005822de414913753563447840e195f3f3e8"
+  },
+  "runtime": {
+    "cases": 4,
+    "frames": 53,
+    "queries": 1353,
+    "actor_bindings": 424,
+    "rois": 159,
+    "mean_rgb_max": 0,
+    "channel_error_max": 0,
+    "attempts": 58,
+    "rejected": 5,
+    "cleanup": [
+      8,
+      8,
+      8,
+      9
+    ],
+    "queue_reads": 1802
+  },
+  "independent_audit": {
+    "frames": 53,
+    "rois": 159,
+    "actors": 424,
+    "queries": 1353,
+    "visits": 1243,
+    "duplicate_queries": 57,
+    "queue_reads": 1802,
+    "attempts": 58,
+    "rejected": 5,
+    "prior_matches": 4,
+    "unclassified": 1,
+    "png_sha_checked": 111,
+    "decoded_rgb_checked": 111,
+    "checkpoint_complete_count": 53,
+    "cleanup": [
+      8,
+      8,
+      8,
+      9
+    ],
+    "passed": true,
+    "report": "artifacts/world-picker/runtime-final/report.json",
+    "report_sha256": "887423bbd288868c3ced681e9b34a221e095cdbab398bcc6fc03f8ee442515be",
+    "helper_sha256": "9821b72b0de19edb00fb69ec0f50cb17e4433546df4680f10c328a8487bd6994",
+    "dll_sha256": "a706aa5e9d9a5966b78c84bc1eace6f669f655a0e94601f82aeb2002e5305409",
+    "all_report_provenance_hashes_current": true,
+    "base_motion_renderer_fields_equal_previous_pinned_runtime": true,
+    "all_image_rgb_errors_zero": true,
+    "scope": "Read-only actualreport/nativeboundary/pose/claims/PNG/decodedRGB audit; no services or tests"
+  },
+  "query_visits": 1243,
+  "query_rows_with_duplicate_owner": 57,
+  "complete_576_owner_nonmutation_fences": 53,
+  "query_qa_helper_sha256": "9821b72b0de19edb00fb69ec0f50cb17e4433546df4680f10c328a8487bd6994",
+  "regressions": {
+    "legacy_order": {
+      "sessions": 1,
+      "frames": 12,
+      "rois": 36,
+      "rgb_mean_max_error": 0,
+      "cleanup": 8,
+      "exit_code": 0,
+      "query_observer_null": true
+    },
+    "menu": {
+      "stages": 27,
+      "frames": 5,
+      "commands": 6,
+      "exit_code": 0,
+      "termination": "application Quit",
+      "input": "synthetic InputSystem,notOSmouse"
+    }
+  },
+  "next_source_membership_evidence": {
+    "native_cases": 8,
+    "snapshots": 1212,
+    "ticks": 1192,
+    "actual41_updates_simulation_group_5e": true,
+    "ui_group_5c_is_distinct": true,
+    "different_group_motion_and_planner_map_equivalence_on_two_routes": true,
+    "not_ported_into_ui": true
+  },
+  "config_draft": {
+    "draft_id": "a772870d-781c-4522-aa6f-de8b982b96ff~cecfgdraft_f63c6e07355c8192a0f34be8e0fde31c",
+    "previous_revision": 18,
+    "revision": 19,
+    "start_saved": true,
+    "other_settings_unchanged": true,
+    "published": false
+  },
+  "deliverables": {
+    "zip_generated": false,
+    "presentation_preview_generated": false,
+    "internal_framebuffers_only": true
+  },
+  "evidence": {
+    "README.md": {
+      "bytes": 36088,
+      "sha256": "0fd3181181170c200e4016a1f8234654c2a520cf4ea6a69e168a02506c5b4a92"
+    },
+    "artifacts/world-input/commands/membership-motion/ctor-groups-run.log": {
+      "bytes": 1227,
+      "sha256": "68f31acc2d4800dd6c20ddc412c5db148810314bab71e637ab8d0d6848dad534"
+    },
+    "artifacts/world-input/commands/membership-motion/evidence-manifest.json": {
+      "bytes": 2981,
+      "sha256": "c8a6bc4ce2b81a71b70fdcf9927d33d7bf89f438cdd7f2304bff097904fee8c1"
+    },
+    "artifacts/world-input/commands/membership-motion/native-ctor-groups.json": {
+      "bytes": 1753,
+      "sha256": "279a44a3a635c3ea6824498806a74db9952b1db85fa0ed42733af6ff6afea134"
+    },
+    "artifacts/world-input/commands/membership-motion/native-membership-motion-with-maps.json": {
+      "bytes": 6161200,
+      "sha256": "527171688dc773e82ce2f86f8f36ba015c7d3d35ab38df453e9560821c79b84d"
+    },
+    "artifacts/world-input/commands/membership-motion/native-membership-motion.json": {
+      "bytes": 6082648,
+      "sha256": "e6b6f050b81e504314c36e5e98998c5b71942e2efd4ac35a995622f70f5332d4"
+    },
+    "artifacts/world-input/commands/membership-motion/probe.py": {
+      "bytes": 6047,
+      "sha256": "c9378bea7789e01762a69203d7fc50d55eb28bdec32715dc9c9451461fdad650"
+    },
+    "artifacts/world-input/commands/membership-motion/probe_ctor_groups.py": {
+      "bytes": 1648,
+      "sha256": "9bc03e9eada728ec35fd23ee7c68d4c01849f0853855e82b13f4deb5f2ec3a41"
+    },
+    "artifacts/world-input/commands/membership-motion/run-02.log": {
+      "bytes": 4267,
+      "sha256": "c202c2e1c72271d9c7ae9c4851789c010a9259fad8d2ae47ca5a75e509d143c8"
+    },
+    "artifacts/world-input/commands/membership-motion/run-final-with-maps.log": {
+      "bytes": 4839,
+      "sha256": "f8a37f2fcc2a425eba76d482b0007aab3936aa18050411d6e2a3960efcb5c81d"
+    },
+    "artifacts/world-input/commands/membership-motion/run-first.log": {
+      "bytes": 238,
+      "sha256": "a58033994ded85f6d6af5ec07d0f6b810e1561fcd97dc072104cce45ccadcc4e"
+    },
+    "artifacts/world-input/picking/picking-qa-targeted-tests.log": {
+      "bytes": 2013,
+      "sha256": "46779c521215a7b3c8eaf9ed94af6c98a88a5ccdbb13b95ec4d72cc1efc3585a"
+    },
+    "artifacts/world-input/picking/world-picker-csharp-validation.json": {
+      "bytes": 2381,
+      "sha256": "3761c32ca116031859b524a09f07c764b106b1641a7d203787169c3a10ee7e70"
+    },
+    "artifacts/world-input/picking/world-picker-targeted-tests.log": {
+      "bytes": 490,
+      "sha256": "8bf6f286cd79cee03e3a690e429bf7abb733efdf817819024e574a7b51d906eb"
+    },
+    "artifacts/world-picker/baseline-source/MissionObjectReference.cs": {
+      "bytes": 11017,
+      "sha256": "78890d7b912d0edf358f3babe69f19f9459b7c25df6c28ea15e4cc97986d53bc"
+    },
+    "artifacts/world-picker/baseline-source/MissionShipReference.cs": {
+      "bytes": 21054,
+      "sha256": "8ef861619917f421c8b0894f9aada1e21312066e84fc423732df6303ac2d5dc2"
+    },
+    "artifacts/world-picker/baseline-source/ShipOrderReference.cs": {
+      "bytes": 15240,
+      "sha256": "fc490f5ee857d040cdfa3f728d4f6e18c951f0eb7b9a9829fe96ac9fa119e4c5"
+    },
+    "artifacts/world-picker/baseline-source/TerrainReferenceFrame.cs": {
+      "bytes": 12924,
+      "sha256": "209b8abc2c1a9d4892d37ffebcf9b025dc6c955f6167161bdc0cda8f8149499d"
+    },
+    "artifacts/world-picker/build-report.json": {
+      "bytes": 319,
+      "sha256": "bd1a3c8fff27dd25dc796469e0ae11358d5818c6fba2625aa2861c7608e738b1"
+    },
+    "artifacts/world-picker/config-draft-save.json": {
+      "bytes": 227,
+      "sha256": "dca0fdcf7e553c91b1a6aa9ae59579ca2980796794fa0dfb5582e0678b210bff"
+    },
+    "artifacts/world-picker/legacy-order-regression/normal/active-cleared-1-attempts.json": {
+      "bytes": 2276,
+      "sha256": "5d461146e8d596e99d91cc8707cdfb581013f49f23f2f2935d06ecf760da9c34"
+    },
+    "artifacts/world-picker/legacy-order-regression/normal/active-cleared-1-metrics.json": {
+      "bytes": 1333,
+      "sha256": "c68e9936b3d04812e12dc54204aeacd1e43f072d11e638601564278fb76f85b5"
+    },
+    "artifacts/world-picker/legacy-order-regression/normal/captures.json": {
+      "bytes": 55542,
+      "sha256": "bad51373ebe5dada753db5eb3b26abbba54621f7f214a2dbf28eeb04142ea163"
+    },
+    "artifacts/world-picker/legacy-order-regression/normal/geometry.txt": {
+      "bytes": 56,
+      "sha256": "df3cefe0e71af78e8e7c35481055e5b5d26f74dd7a61f72f7e59ac82203acc3d"
+    },
+    "artifacts/world-picker/legacy-order-regression/normal/idle-published-1-attempts.json": {
+      "bytes": 2329,
+      "sha256": "392cfdc81b843e4789a97168abbd7475b88a8992795fa1c0bccb07741ffed582"
+    },
+    "artifacts/world-picker/legacy-order-regression/normal/idle-published-1-metrics.json": {
+      "bytes": 1333,
+      "sha256": "aded4697874a16351a4bd1f08e12a93b41556a0e4928a39d0d447a130ff9576d"
+    },
+    "artifacts/world-picker/legacy-order-regression/normal/initial-attempts.json": {
+      "bytes": 1853,
+      "sha256": "529938c82574b7bc1e1d1379f1579ac24954853e86198834e7b29752679cce65"
+    },
+    "artifacts/world-picker/legacy-order-regression/normal/initial-metrics.json": {
+      "bytes": 1332,
+      "sha256": "8b184664438cd560b09c87f42ccf44e751f747812f553f867817e14ae4567404"
+    },
+    "artifacts/world-picker/legacy-order-regression/normal/launch.json": {
+      "bytes": 44110,
+      "sha256": "acfb8764529876a23656a1b217a9535e1afa9c61521d351df1f5cd38397266a2"
+    },
+    "artifacts/world-picker/legacy-order-regression/normal/moving-1-attempts.json": {
+      "bytes": 2071,
+      "sha256": "db6292dbc9e8add7afed4eb5a7cbf04055767953f3ee127780c37d1bae096100"
+    },
+    "artifacts/world-picker/legacy-order-regression/normal/moving-1-metrics.json": {
+      "bytes": 1332,
+      "sha256": "bcbae3d2ffe95d35be13a17d9fd574887665a71884a6e74178649c617ed444f0"
+    },
+    "artifacts/world-picker/legacy-order-regression/normal/path-1-attempts.json": {
+      "bytes": 1962,
+      "sha256": "70c9cb69cbd69152495004bd7d114eb0062ea46949230a820fc5db8d6584645c"
+    },
+    "artifacts/world-picker/legacy-order-regression/normal/path-1-metrics.json": {
+      "bytes": 1332,
+      "sha256": "8b184664438cd560b09c87f42ccf44e751f747812f553f867817e14ae4567404"
+    },
+    "artifacts/world-picker/legacy-order-regression/normal/path-complete-1-attempts.json": {
+      "bytes": 4432,
+      "sha256": "da9d97a47022188acc9e7e17130cb5608924aec4ab962ff142be6740ee660ac2"
+    },
+    "artifacts/world-picker/legacy-order-regression/normal/path-complete-1-metrics.json": {
+      "bytes": 1333,
+      "sha256": "c68e9936b3d04812e12dc54204aeacd1e43f072d11e638601564278fb76f85b5"
+    },
+    "artifacts/world-picker/legacy-order-regression/normal/player.log": {
+      "bytes": 73453,
+      "sha256": "e0d41cb51330e23a30376983b3c9e65bc802094d7bedfc2803eb93c323f75067"
+    },
+    "artifacts/world-picker/legacy-order-regression/normal/promoted-1-attempts.json": {
+      "bytes": 1934,
+      "sha256": "4dd1d214c59ef5c706126699b29cc82a5f4406e05ff61ee8ba3a2c22692ba1a1"
+    },
+    "artifacts/world-picker/legacy-order-regression/normal/promoted-1-metrics.json": {
+      "bytes": 1332,
+      "sha256": "8b184664438cd560b09c87f42ccf44e751f747812f553f867817e14ae4567404"
+    },
+    "artifacts/world-picker/legacy-order-regression/normal/report.json": {
+      "bytes": 220050,
+      "sha256": "da9f2a2b2cf263bac2a3fff2d139b4eed0afe5390ac9de7a055895783ecd979e"
+    },
+    "artifacts/world-picker/legacy-order-regression/normal/request-1-attempts.json": {
+      "bytes": 1893,
+      "sha256": "f44b02d977854d55e2d206741050d5d96a2d9153a9351094efc70bbbf718b80d"
+    },
+    "artifacts/world-picker/legacy-order-regression/normal/request-1-metrics.json": {
+      "bytes": 1332,
+      "sha256": "8b184664438cd560b09c87f42ccf44e751f747812f553f867817e14ae4567404"
+    },
+    "artifacts/world-picker/legacy-order-regression/normal/reserved-1-attempts.json": {
+      "bytes": 2038,
+      "sha256": "c90213fdde96c1b611149ef7885ce8dc88c6a321cbc5f1cb67eebd676903fb67"
+    },
+    "artifacts/world-picker/legacy-order-regression/normal/reserved-1-metrics.json": {
+      "bytes": 1332,
+      "sha256": "6b7d9d6380391abb95f12f5e74fb96aa8f1b573483c763d7756e92e3b60f604f"
+    },
+    "artifacts/world-picker/legacy-order-regression/normal/stop-request-1-attempts.json": {
+      "bytes": 2223,
+      "sha256": "77ce108458278aa5f88cc125216d6a7644e2a63e09df9f6b2c5f1a7c8b16a63e"
+    },
+    "artifacts/world-picker/legacy-order-regression/normal/stop-request-1-metrics.json": {
+      "bytes": 1333,
+      "sha256": "c68e9936b3d04812e12dc54204aeacd1e43f072d11e638601564278fb76f85b5"
+    },
+    "artifacts/world-picker/legacy-order-regression/normal/transferred-1-attempts.json": {
+      "bytes": 2122,
+      "sha256": "0c1350b29eebdf1f6e56cc56073227c170e98cd175727c7a856bfedff4b4f651"
+    },
+    "artifacts/world-picker/legacy-order-regression/normal/transferred-1-metrics.json": {
+      "bytes": 1332,
+      "sha256": "6ff29d4cb24ed52b9e2475449c053fbc21fd8a25501e2fad4784e46bcbc235ae"
+    },
+    "artifacts/world-picker/legacy-order-regression/normal/turn-1-attempts.json": {
+      "bytes": 1994,
+      "sha256": "fc0c014c69dc63f564acc01bebcdf0938a0548ef0da4b2a866a5949f14971052"
+    },
+    "artifacts/world-picker/legacy-order-regression/normal/turn-1-metrics.json": {
+      "bytes": 1332,
+      "sha256": "6f05033cf040ececf769b529c92cdd0679e391b20e0bebb41357539994d9d0cd"
+    },
+    "artifacts/world-picker/legacy-order-regression/normal/wine-launch.log": {
+      "bytes": 3302,
+      "sha256": "5fc989c067d2a86fde0446714efbbbe96b0920309d8694755814162ae415b57e"
+    },
+    "artifacts/world-picker/legacy-order-regression/normal/xvfb.log": {
+      "bytes": 64,
+      "sha256": "87e9572cf030493a1f7ba83d385129046b224374ca1414911674b30fc44276d7"
+    },
+    "artifacts/world-picker/legacy-order-regression/report.json": {
+      "bytes": 278019,
+      "sha256": "dbaeb524b297e1bdb46bdff47d9fb4b9edcf2ae4b58876dbad6cfa40c9cd4217"
+    },
+    "artifacts/world-picker/legacy-order-regression-launch.log": {
+      "bytes": 133,
+      "sha256": "f000c4f7654ff16ca76fb16fde0204c8fa6fa1d3731c09de4c1974aa5d96d1da"
+    },
+    "artifacts/world-picker/menu-regression/launch.json": {
+      "bytes": 535,
+      "sha256": "3e247bc83c33cd033573571c3dd98274dc89854bcbef0dde6c20cd9247bd26b1"
+    },
+    "artifacts/world-picker/menu-regression/player.log": {
+      "bytes": 5550,
+      "sha256": "66cc04972cf1303278d33c6615a1729468472ac7313862aeaa8df8c46c5cd540"
+    },
+    "artifacts/world-picker/menu-regression/report.json": {
+      "bytes": 5952,
+      "sha256": "3892f6aee65a26009bfc5e0e1c8510bf16b0f835eb8b4b2de664365cd45e6f47"
+    },
+    "artifacts/world-picker/menu-regression/wine-launch.log": {
+      "bytes": 3302,
+      "sha256": "5fc989c067d2a86fde0446714efbbbe96b0920309d8694755814162ae415b57e"
+    },
+    "artifacts/world-picker/menu-regression/xvfb.log": {
+      "bytes": 64,
+      "sha256": "87e9572cf030493a1f7ba83d385129046b224374ca1414911674b30fc44276d7"
+    },
+    "artifacts/world-picker/menu-regression-launch.log": {
+      "bytes": 5952,
+      "sha256": "3892f6aee65a26009bfc5e0e1c8510bf16b0f835eb8b4b2de664365cd45e6f47"
+    },
+    "artifacts/world-picker/qa-pilot-independent-audit.json": {
+      "bytes": 802,
+      "sha256": "af7723f609c72d449bc657760634555fdaca7bdac5541ee1a50f3e319642c1d0"
+    },
+    "artifacts/world-picker/qa-runtime-final-independent-audit.json": {
+      "bytes": 955,
+      "sha256": "bb956620353e4cedbda2c28664d989a9b6bf51a9ad97eec416fd35fb235fc703"
+    },
+    "artifacts/world-picker/regression-aggregate.json": {
+      "bytes": 358,
+      "sha256": "2c26d4fe7f31bf5d83b2003d8ba397b1b72f3ed684435787f16e75c65ac1d097"
+    },
+    "artifacts/world-picker/runtime-aggregate.json": {
+      "bytes": 244,
+      "sha256": "0d4ded9b7d0bdfc128299abeb27d24be9d516762bb5b84dcf71cf6a25103f353"
+    },
+    "artifacts/world-picker/runtime-final/halt-reservation/captures.json": {
+      "bytes": 34323,
+      "sha256": "44d1e6cd9460e6a93e4cb7ca4a0019ddcbfdcdc1467aaa1c2202f29ea5ad3edb"
+    },
+    "artifacts/world-picker/runtime-final/halt-reservation/geometry.txt": {
+      "bytes": 56,
+      "sha256": "822e348f1875ebdefc935fc13650d9d38cf1d03426e3ce189fef88e5c0feffa8"
+    },
+    "artifacts/world-picker/runtime-final/halt-reservation/halted-attempts.json": {
+      "bytes": 2102,
+      "sha256": "8079947b94b73ff9286733c505f8087166a8906074ab32f91d5d0759776a6815"
+    },
+    "artifacts/world-picker/runtime-final/halt-reservation/halted-metrics.json": {
+      "bytes": 1332,
+      "sha256": "66fc2de5b99b33742f5c1dc2f59b5ebf2a10c7446029939788c4b1e04b3ef4b4"
+    },
+    "artifacts/world-picker/runtime-final/halt-reservation/initial-attempts.json": {
+      "bytes": 1853,
+      "sha256": "360ae571b8dde2fa0a2563a6c5bf7eb8541b130f9f1b1fbc8827d335f35fb910"
+    },
+    "artifacts/world-picker/runtime-final/halt-reservation/initial-metrics.json": {
+      "bytes": 1332,
+      "sha256": "8b184664438cd560b09c87f42ccf44e751f747812f553f867817e14ae4567404"
+    },
+    "artifacts/world-picker/runtime-final/halt-reservation/launch.json": {
+      "bytes": 155655,
+      "sha256": "7c927eb0d606ed1b55f7e6f567b599629627a98a99c3e1ebd4362aa18f3a1f00"
+    },
+    "artifacts/world-picker/runtime-final/halt-reservation/moving-1-attempts.json": {
+      "bytes": 2072,
+      "sha256": "d1d100ee0f311b79d56600fc5b1f3a455d609ec644d714d067b555853e95f9b9"
+    },
+    "artifacts/world-picker/runtime-final/halt-reservation/moving-1-metrics.json": {
+      "bytes": 1332,
+      "sha256": "bcbae3d2ffe95d35be13a17d9fd574887665a71884a6e74178649c617ed444f0"
+    },
+    "artifacts/world-picker/runtime-final/halt-reservation/path-1-attempts.json": {
+      "bytes": 1962,
+      "sha256": "42f3cf2472f986efe0084b7408c6b193a4d7e4b9803ce2e3cc729b711160ad08"
+    },
+    "artifacts/world-picker/runtime-final/halt-reservation/path-1-metrics.json": {
+      "bytes": 1332,
+      "sha256": "8b184664438cd560b09c87f42ccf44e751f747812f553f867817e14ae4567404"
+    },
+    "artifacts/world-picker/runtime-final/halt-reservation/player.log": {
+      "bytes": 97542,
+      "sha256": "c2334e86380603a63ced76a866d8f3354109a68c43e373f3e51cd5bcd3ba03a8"
+    },
+    "artifacts/world-picker/runtime-final/halt-reservation/promoted-1-attempts.json": {
+      "bytes": 1934,
+      "sha256": "d7ea926e271b0e8bf54a88e00041de9082705a3f0f4672f05731afb74dc7ace1"
+    },
+    "artifacts/world-picker/runtime-final/halt-reservation/promoted-1-metrics.json": {
+      "bytes": 1332,
+      "sha256": "8b184664438cd560b09c87f42ccf44e751f747812f553f867817e14ae4567404"
+    },
+    "artifacts/world-picker/runtime-final/halt-reservation/report.json": {
+      "bytes": 369040,
+      "sha256": "b45897b85aec8026a3eabec292fe490187c1a76d2f40a012dc34f1bad45af7c3"
+    },
+    "artifacts/world-picker/runtime-final/halt-reservation/request-1-attempts.json": {
+      "bytes": 1893,
+      "sha256": "7afb00cf7f4deba5ee1cbd0fb98acf726bcbf05b458e2af2de58332bad4879ca"
+    },
+    "artifacts/world-picker/runtime-final/halt-reservation/request-1-metrics.json": {
+      "bytes": 1332,
+      "sha256": "8b184664438cd560b09c87f42ccf44e751f747812f553f867817e14ae4567404"
+    },
+    "artifacts/world-picker/runtime-final/halt-reservation/reserved-1-attempts.json": {
+      "bytes": 2038,
+      "sha256": "e4ad99dee0598b40e2d4cc322c258ebeb2c68e3b0f84346b561a27d3e60322cb"
+    },
+    "artifacts/world-picker/runtime-final/halt-reservation/reserved-1-metrics.json": {
+      "bytes": 1332,
+      "sha256": "6b7d9d6380391abb95f12f5e74fb96aa8f1b573483c763d7756e92e3b60f604f"
+    },
+    "artifacts/world-picker/runtime-final/halt-reservation/turn-1-attempts.json": {
+      "bytes": 1994,
+      "sha256": "4f332fd8b699db41440812a085b921b465767d12e1d06c7c1809409ce8909200"
+    },
+    "artifacts/world-picker/runtime-final/halt-reservation/turn-1-metrics.json": {
+      "bytes": 1332,
+      "sha256": "6f05033cf040ececf769b529c92cdd0679e391b20e0bebb41357539994d9d0cd"
+    },
+    "artifacts/world-picker/runtime-final/halt-reservation/wine-launch.log": {
+      "bytes": 3238,
+      "sha256": "d0679f973a173c7db1bb4aabc4fd27f316c5f30d5d5bf607d145ff7ac8323edd"
+    },
+    "artifacts/world-picker/runtime-final/halt-reservation/xvfb.log": {
+      "bytes": 64,
+      "sha256": "87e9572cf030493a1f7ba83d385129046b224374ca1414911674b30fc44276d7"
+    },
+    "artifacts/world-picker/runtime-final/nearest/captures.json": {
+      "bytes": 48496,
+      "sha256": "6a9670198e8fdcf279715d75cbf2526903258bd95c5a6242b266da649b69fa9f"
+    },
+    "artifacts/world-picker/runtime-final/nearest/geometry.txt": {
+      "bytes": 56,
+      "sha256": "822e348f1875ebdefc935fc13650d9d38cf1d03426e3ce189fef88e5c0feffa8"
+    },
+    "artifacts/world-picker/runtime-final/nearest/halted-attempts.json": {
+      "bytes": 2199,
+      "sha256": "30481405b8c115caff7adc820030a3ca713877619d29ebbba074371b23896d74"
+    },
+    "artifacts/world-picker/runtime-final/nearest/halted-metrics.json": {
+      "bytes": 1333,
+      "sha256": "07583fccd85b9ad9956409556fd3c6b26db41d2af549dec467b33f459ae73725"
+    },
+    "artifacts/world-picker/runtime-final/nearest/initial-attempts.json": {
+      "bytes": 1853,
+      "sha256": "e8b6c0336925e0b9dd4cea4073e94c43f1ce94bcde44136442f6f20eb654538c"
+    },
+    "artifacts/world-picker/runtime-final/nearest/initial-metrics.json": {
+      "bytes": 1332,
+      "sha256": "8b184664438cd560b09c87f42ccf44e751f747812f553f867817e14ae4567404"
+    },
+    "artifacts/world-picker/runtime-final/nearest/launch.json": {
+      "bytes": 184772,
+      "sha256": "abccb617ed9149d673f6ae530c41cd44e66259fd2d48068523b2d7198af0f147"
+    },
+    "artifacts/world-picker/runtime-final/nearest/moving-1-attempts.json": {
+      "bytes": 4247,
+      "sha256": "6aa199c29d8664b57feca9bbe14f0ff0f581c5c8a39e679e499732a6d79c7ae3"
+    },
+    "artifacts/world-picker/runtime-final/nearest/moving-1-metrics.json": {
+      "bytes": 1332,
+      "sha256": "b36d758593f372e7950998dd6fcbc7b8b07e453610276729cb9bc2e6cbc1a270"
+    },
+    "artifacts/world-picker/runtime-final/nearest/path-1-attempts.json": {
+      "bytes": 1962,
+      "sha256": "91f2a4cfccdad50ea934b4765ed53a8148256ebcecf7ad851faad5a652b9bb42"
+    },
+    "artifacts/world-picker/runtime-final/nearest/path-1-metrics.json": {
+      "bytes": 1332,
+      "sha256": "8b184664438cd560b09c87f42ccf44e751f747812f553f867817e14ae4567404"
+    },
+    "artifacts/world-picker/runtime-final/nearest/path-complete-1-attempts.json": {
+      "bytes": 2176,
+      "sha256": "542222dbe49e40363a7a826c6b608e45a26e45f743db7fbc60b4dedd0e445f66"
+    },
+    "artifacts/world-picker/runtime-final/nearest/path-complete-1-metrics.json": {
+      "bytes": 1333,
+      "sha256": "a17bf8dac5d6e4c5688ac9807c34906e82f293436600083b41d84d59e23cc8b4"
+    },
+    "artifacts/world-picker/runtime-final/nearest/player.log": {
+      "bytes": 119590,
+      "sha256": "e033f056ea028e06b8e9d4efdca0fbd4c7743bc4760a3384ee3a9d2ac983dd16"
+    },
+    "artifacts/world-picker/runtime-final/nearest/promoted-1-attempts.json": {
+      "bytes": 1934,
+      "sha256": "4ccadece4d39f7f9cd523f94842778488f9f476bd4c4e5098fbc080026d1a25c"
+    },
+    "artifacts/world-picker/runtime-final/nearest/promoted-1-metrics.json": {
+      "bytes": 1332,
+      "sha256": "8b184664438cd560b09c87f42ccf44e751f747812f553f867817e14ae4567404"
+    },
+    "artifacts/world-picker/runtime-final/nearest/report.json": {
+      "bytes": 456336,
+      "sha256": "4d83375b64b323ec0bc1107b892f50650345d0074cb95e9f2d479c1ddc73f8a9"
+    },
+    "artifacts/world-picker/runtime-final/nearest/request-1-attempts.json": {
+      "bytes": 1893,
+      "sha256": "e4da55443b16aba03149fb0be8ca6c66f58a3214a10a3f6a95bb68ff5f0a22a3"
+    },
+    "artifacts/world-picker/runtime-final/nearest/request-1-metrics.json": {
+      "bytes": 1332,
+      "sha256": "8b184664438cd560b09c87f42ccf44e751f747812f553f867817e14ae4567404"
+    },
+    "artifacts/world-picker/runtime-final/nearest/reserved-1-attempts.json": {
+      "bytes": 2037,
+      "sha256": "71f12be5ab9fb5825afff0b74fbe5db2f25ffbd53a45ee2c5b181cc03d29d0e9"
+    },
+    "artifacts/world-picker/runtime-final/nearest/reserved-1-metrics.json": {
+      "bytes": 1332,
+      "sha256": "63e2fef633c1ac66eae71b1a9df36f3f58672aceedafc8592f21e6dfc4281a3c"
+    },
+    "artifacts/world-picker/runtime-final/nearest/transferred-1-attempts.json": {
+      "bytes": 2123,
+      "sha256": "7a0bc3864321da2bbc37b800e2b1dda44ad65ac51e8ea8304909d39519a36b59"
+    },
+    "artifacts/world-picker/runtime-final/nearest/transferred-1-metrics.json": {
+      "bytes": 1332,
+      "sha256": "04f7958ec09e379cf9d6ec1163a16578b7b0b3f9d86e53b3cf5162364643aaa9"
+    },
+    "artifacts/world-picker/runtime-final/nearest/turn-1-attempts.json": {
+      "bytes": 4144,
+      "sha256": "f360c4a2fef0a8f229d08b46a4b986aa46e59252a09a7708e9eee92ab2390b9d"
+    },
+    "artifacts/world-picker/runtime-final/nearest/turn-1-metrics.json": {
+      "bytes": 1332,
+      "sha256": "6f05033cf040ececf769b529c92cdd0679e391b20e0bebb41357539994d9d0cd"
+    },
+    "artifacts/world-picker/runtime-final/nearest/wine-launch.log": {
+      "bytes": 3302,
+      "sha256": "5fc989c067d2a86fde0446714efbbbe96b0920309d8694755814162ae415b57e"
+    },
+    "artifacts/world-picker/runtime-final/nearest/xvfb.log": {
+      "bytes": 64,
+      "sha256": "87e9572cf030493a1f7ba83d385129046b224374ca1414911674b30fc44276d7"
+    },
+    "artifacts/world-picker/runtime-final/normal/active-cleared-1-attempts.json": {
+      "bytes": 2277,
+      "sha256": "106f03f1c2207d8a5dc56ddaaa148458ba897d3cf91fc1d5c138015036680845"
+    },
+    "artifacts/world-picker/runtime-final/normal/active-cleared-1-metrics.json": {
+      "bytes": 1333,
+      "sha256": "c68e9936b3d04812e12dc54204aeacd1e43f072d11e638601564278fb76f85b5"
+    },
+    "artifacts/world-picker/runtime-final/normal/captures.json": {
+      "bytes": 55450,
+      "sha256": "d9fc5da0c6569fd6583204c8799b53eece841dcbafa5fd9636f4332ee7177dac"
+    },
+    "artifacts/world-picker/runtime-final/normal/geometry.txt": {
+      "bytes": 56,
+      "sha256": "df3cefe0e71af78e8e7c35481055e5b5d26f74dd7a61f72f7e59ac82203acc3d"
+    },
+    "artifacts/world-picker/runtime-final/normal/idle-published-1-attempts.json": {
+      "bytes": 2329,
+      "sha256": "42363a1d1560a1014e1b2827ace6f4dba1de623ca5961ede8d742f664b0ffce3"
+    },
+    "artifacts/world-picker/runtime-final/normal/idle-published-1-metrics.json": {
+      "bytes": 1333,
+      "sha256": "aded4697874a16351a4bd1f08e12a93b41556a0e4928a39d0d447a130ff9576d"
+    },
+    "artifacts/world-picker/runtime-final/normal/initial-attempts.json": {
+      "bytes": 1853,
+      "sha256": "9d03c8554022245226232294d0a93cf034915777f7aadb68e70509c4fc805abd"
+    },
+    "artifacts/world-picker/runtime-final/normal/initial-metrics.json": {
+      "bytes": 1332,
+      "sha256": "8b184664438cd560b09c87f42ccf44e751f747812f553f867817e14ae4567404"
+    },
+    "artifacts/world-picker/runtime-final/normal/launch.json": {
+      "bytes": 220334,
+      "sha256": "2067829b56e291a50725390e759353ea8aec56a18fc9747cd85ae9d3349c09ec"
+    },
+    "artifacts/world-picker/runtime-final/normal/moving-1-attempts.json": {
+      "bytes": 4247,
+      "sha256": "818d26966444acf8129f663dbf0adf1cd9ab8a67ba263e246289da54acc4caf0"
+    },
+    "artifacts/world-picker/runtime-final/normal/moving-1-metrics.json": {
+      "bytes": 1332,
+      "sha256": "bcbae3d2ffe95d35be13a17d9fd574887665a71884a6e74178649c617ed444f0"
+    },
+    "artifacts/world-picker/runtime-final/normal/path-1-attempts.json": {
+      "bytes": 1962,
+      "sha256": "a3785227561b3db71ca935eccc0863f7d7b3a70333b6df517b145600942f0c8f"
+    },
+    "artifacts/world-picker/runtime-final/normal/path-1-metrics.json": {
+      "bytes": 1332,
+      "sha256": "8b184664438cd560b09c87f42ccf44e751f747812f553f867817e14ae4567404"
+    },
+    "artifacts/world-picker/runtime-final/normal/path-complete-1-attempts.json": {
+      "bytes": 2176,
+      "sha256": "cb58e5eb759fd41b8736c0e2a779bc6e1e1b4ae895c0adbe002aa55577261a63"
+    },
+    "artifacts/world-picker/runtime-final/normal/path-complete-1-metrics.json": {
+      "bytes": 1333,
+      "sha256": "c68e9936b3d04812e12dc54204aeacd1e43f072d11e638601564278fb76f85b5"
+    },
+    "artifacts/world-picker/runtime-final/normal/player.log": {
+      "bytes": 143831,
+      "sha256": "0ac49b4747fbed401658b8a73b9c2fe26a35ad9bf3d6d21f0acceb8c97ea37fe"
+    },
+    "artifacts/world-picker/runtime-final/normal/promoted-1-attempts.json": {
+      "bytes": 1933,
+      "sha256": "26cbc1d846fe07fc8500834e1fdd21321e0d636d1472af9aa52976a5800690ec"
+    },
+    "artifacts/world-picker/runtime-final/normal/promoted-1-metrics.json": {
+      "bytes": 1332,
+      "sha256": "8b184664438cd560b09c87f42ccf44e751f747812f553f867817e14ae4567404"
+    },
+    "artifacts/world-picker/runtime-final/normal/report.json": {
+      "bytes": 544978,
+      "sha256": "e05a1cc2e2e2529e0062bb711a191a92cda012e3827e80cc68ee6c2e618dd845"
+    },
+    "artifacts/world-picker/runtime-final/normal/request-1-attempts.json": {
+      "bytes": 1892,
+      "sha256": "63f7fb6f2eaa25cac12c8f5d272211a466b86bdea3cdff4afe3a614c8472a8d7"
+    },
+    "artifacts/world-picker/runtime-final/normal/request-1-metrics.json": {
+      "bytes": 1332,
+      "sha256": "8b184664438cd560b09c87f42ccf44e751f747812f553f867817e14ae4567404"
+    },
+    "artifacts/world-picker/runtime-final/normal/reserved-1-attempts.json": {
+      "bytes": 2038,
+      "sha256": "3c80693ccb4477e92a25884f0e031d10976a36ae605b9d2f8a7288211eec727c"
+    },
+    "artifacts/world-picker/runtime-final/normal/reserved-1-metrics.json": {
+      "bytes": 1332,
+      "sha256": "6b7d9d6380391abb95f12f5e74fb96aa8f1b573483c763d7756e92e3b60f604f"
+    },
+    "artifacts/world-picker/runtime-final/normal/stop-request-1-attempts.json": {
+      "bytes": 2222,
+      "sha256": "39e05e935768c4f2348483651d896bab1708a103e98227b552d0b21bb830d1fb"
+    },
+    "artifacts/world-picker/runtime-final/normal/stop-request-1-metrics.json": {
+      "bytes": 1333,
+      "sha256": "c68e9936b3d04812e12dc54204aeacd1e43f072d11e638601564278fb76f85b5"
+    },
+    "artifacts/world-picker/runtime-final/normal/transferred-1-attempts.json": {
+      "bytes": 2123,
+      "sha256": "6715398c477a77b08ebd998a648424a09d401aa62bfd3eef7991298cc56291f1"
+    },
+    "artifacts/world-picker/runtime-final/normal/transferred-1-metrics.json": {
+      "bytes": 1332,
+      "sha256": "6ff29d4cb24ed52b9e2475449c053fbc21fd8a25501e2fad4784e46bcbc235ae"
+    },
+    "artifacts/world-picker/runtime-final/normal/turn-1-attempts.json": {
+      "bytes": 1993,
+      "sha256": "6ebb67507893d072942fd793f02cd8a27052ab35fd1ef3ff1a8199dca68bea7c"
+    },
+    "artifacts/world-picker/runtime-final/normal/turn-1-metrics.json": {
+      "bytes": 1332,
+      "sha256": "6f05033cf040ececf769b529c92cdd0679e391b20e0bebb41357539994d9d0cd"
+    },
+    "artifacts/world-picker/runtime-final/normal/wine-launch.log": {
+      "bytes": 3302,
+      "sha256": "5fc989c067d2a86fde0446714efbbbe96b0920309d8694755814162ae415b57e"
+    },
+    "artifacts/world-picker/runtime-final/normal/xvfb.log": {
+      "bytes": 64,
+      "sha256": "87e9572cf030493a1f7ba83d385129046b224374ca1414911674b30fc44276d7"
+    },
+    "artifacts/world-picker/runtime-final/report.json": {
+      "bytes": 2886572,
+      "sha256": "887423bbd288868c3ced681e9b34a221e095cdbab398bcc6fc03f8ee442515be"
+    },
+    "artifacts/world-picker/runtime-final/two-after-clear/active-cleared-1-attempts.json": {
+      "bytes": 2277,
+      "sha256": "afacc3b6f7142aeaa5b39a454b131d613e52828859519811c25a739f64d5efcf"
+    },
+    "artifacts/world-picker/runtime-final/two-after-clear/active-cleared-1-metrics.json": {
+      "bytes": 1333,
+      "sha256": "c68e9936b3d04812e12dc54204aeacd1e43f072d11e638601564278fb76f85b5"
+    },
+    "artifacts/world-picker/runtime-final/two-after-clear/active-cleared-2-attempts.json": {
+      "bytes": 2742,
+      "sha256": "72b410ac48561e307ec202c7c307ce79b2b0e19c2067f3c2c235a02854048763"
+    },
+    "artifacts/world-picker/runtime-final/two-after-clear/active-cleared-2-metrics.json": {
+      "bytes": 1332,
+      "sha256": "fdb606925ca29cb705f2a3f574b0e7eeb452d4cf7ee0b629bc6b8cf89b2c01d4"
+    },
+    "artifacts/world-picker/runtime-final/two-after-clear/captures.json": {
+      "bytes": 113518,
+      "sha256": "0f5c5a6ffb117a91b49806a548f811fc55b6b1105436a1ce7ee07bafdb3455ed"
+    },
+    "artifacts/world-picker/runtime-final/two-after-clear/geometry.txt": {
+      "bytes": 56,
+      "sha256": "822e348f1875ebdefc935fc13650d9d38cf1d03426e3ce189fef88e5c0feffa8"
+    },
+    "artifacts/world-picker/runtime-final/two-after-clear/idle-published-1-attempts.json": {
+      "bytes": 2329,
+      "sha256": "67a652b6b77cb657f21e64885deb05f53f33621c464def9f4b30bca014b32a5f"
+    },
+    "artifacts/world-picker/runtime-final/two-after-clear/idle-published-1-metrics.json": {
+      "bytes": 1333,
+      "sha256": "aded4697874a16351a4bd1f08e12a93b41556a0e4928a39d0d447a130ff9576d"
+    },
+    "artifacts/world-picker/runtime-final/two-after-clear/idle-published-2-attempts.json": {
+      "bytes": 2794,
+      "sha256": "f3aa51b299921edc626bde8d50809f302c14ff016c1d9b9c39de6f2f8fba4aa5"
+    },
+    "artifacts/world-picker/runtime-final/two-after-clear/idle-published-2-metrics.json": {
+      "bytes": 1332,
+      "sha256": "5fd198d2d33a3eb33c7a6c30419dfd0521372c55fd9ef62501338a165eda813f"
+    },
+    "artifacts/world-picker/runtime-final/two-after-clear/initial-attempts.json": {
+      "bytes": 1853,
+      "sha256": "d237abca4df92b1f2275481b4361a28481df9f564b9eb8b4dbee9fa01b71b25e"
+    },
+    "artifacts/world-picker/runtime-final/two-after-clear/initial-metrics.json": {
+      "bytes": 1332,
+      "sha256": "8b184664438cd560b09c87f42ccf44e751f747812f553f867817e14ae4567404"
+    },
+    "artifacts/world-picker/runtime-final/two-after-clear/launch.json": {
+      "bytes": 400498,
+      "sha256": "c0bcf8a05646ceb30ff5fa529a37fe227392f8ce46c2f371f78d11dbed80bd10"
+    },
+    "artifacts/world-picker/runtime-final/two-after-clear/moving-1-attempts.json": {
+      "bytes": 2072,
+      "sha256": "4400d8d5941e1c21fcc89519e5a3a4df2a8aab5990e5602571128a52b50b66a5"
+    },
+    "artifacts/world-picker/runtime-final/two-after-clear/moving-1-metrics.json": {
+      "bytes": 1332,
+      "sha256": "bcbae3d2ffe95d35be13a17d9fd574887665a71884a6e74178649c617ed444f0"
+    },
+    "artifacts/world-picker/runtime-final/two-after-clear/moving-2-attempts.json": {
+      "bytes": 5182,
+      "sha256": "f916a19b6d47e7e070a40c117b0ed60a86e4b02e390a28012158e209e8ac957d"
+    },
+    "artifacts/world-picker/runtime-final/two-after-clear/moving-2-metrics.json": {
+      "bytes": 1333,
+      "sha256": "6fcf1413f8b7983165a281f4d1be6d9ce9fb1a7e0d7b2940c9007705978b48a8"
+    },
+    "artifacts/world-picker/runtime-final/two-after-clear/path-1-attempts.json": {
+      "bytes": 1962,
+      "sha256": "58065d9d5a34f184c91dab8e8bf97984be340f0b8aee3c6823e71ee771c73b2f"
+    },
+    "artifacts/world-picker/runtime-final/two-after-clear/path-1-metrics.json": {
+      "bytes": 1332,
+      "sha256": "8b184664438cd560b09c87f42ccf44e751f747812f553f867817e14ae4567404"
+    },
+    "artifacts/world-picker/runtime-final/two-after-clear/path-2-attempts.json": {
+      "bytes": 2428,
+      "sha256": "7f4cc95fbd604479916713e34437f4130d5ed14d32f6be2dfe5d94f7caa36a17"
+    },
+    "artifacts/world-picker/runtime-final/two-after-clear/path-2-metrics.json": {
+      "bytes": 1333,
+      "sha256": "aded4697874a16351a4bd1f08e12a93b41556a0e4928a39d0d447a130ff9576d"
+    },
+    "artifacts/world-picker/runtime-final/two-after-clear/path-complete-1-attempts.json": {
+      "bytes": 4432,
+      "sha256": "35e77abc4b12e394877d1218411098b9fc233927c41b71852279b358505b20d7"
+    },
+    "artifacts/world-picker/runtime-final/two-after-clear/path-complete-1-metrics.json": {
+      "bytes": 1333,
+      "sha256": "c68e9936b3d04812e12dc54204aeacd1e43f072d11e638601564278fb76f85b5"
+    },
+    "artifacts/world-picker/runtime-final/two-after-clear/path-complete-2-attempts.json": {
+      "bytes": 2641,
+      "sha256": "ca9047e72269a6819ee684967450f3283422def46e92ad56679d2aad7cef5c1f"
+    },
+    "artifacts/world-picker/runtime-final/two-after-clear/path-complete-2-metrics.json": {
+      "bytes": 1332,
+      "sha256": "fdb606925ca29cb705f2a3f574b0e7eeb452d4cf7ee0b629bc6b8cf89b2c01d4"
+    },
+    "artifacts/world-picker/runtime-final/two-after-clear/player.log": {
+      "bytes": 267627,
+      "sha256": "fecd913ed00581a08d9cb4615e3f09ecf11523c58a012dc67b4ddb62e879bea6"
+    },
+    "artifacts/world-picker/runtime-final/two-after-clear/promoted-1-attempts.json": {
+      "bytes": 1934,
+      "sha256": "6a70037e09c81be4130488131680445c897616360d6d2262c481594d3b26b50f"
+    },
+    "artifacts/world-picker/runtime-final/two-after-clear/promoted-1-metrics.json": {
+      "bytes": 1332,
+      "sha256": "8b184664438cd560b09c87f42ccf44e751f747812f553f867817e14ae4567404"
+    },
+    "artifacts/world-picker/runtime-final/two-after-clear/promoted-2-attempts.json": {
+      "bytes": 2400,
+      "sha256": "c1e65b21725bb98509c51566bcbeb122f5f1a71cff17ea5c4d177a655d8fb7db"
+    },
+    "artifacts/world-picker/runtime-final/two-after-clear/promoted-2-metrics.json": {
+      "bytes": 1333,
+      "sha256": "aded4697874a16351a4bd1f08e12a93b41556a0e4928a39d0d447a130ff9576d"
+    },
+    "artifacts/world-picker/runtime-final/two-after-clear/report.json": {
+      "bytes": 1028683,
+      "sha256": "473c7fd49a7b3e86432f01f6060c06b3db7730f80ba9a9a4fdd31f738b004ab0"
+    },
+    "artifacts/world-picker/runtime-final/two-after-clear/request-1-attempts.json": {
+      "bytes": 1890,
+      "sha256": "75e079a18afd9054bdd7ba01da28d1718827f52d988431f570f31b55b025fc68"
+    },
+    "artifacts/world-picker/runtime-final/two-after-clear/request-1-metrics.json": {
+      "bytes": 1332,
+      "sha256": "8b184664438cd560b09c87f42ccf44e751f747812f553f867817e14ae4567404"
+    },
+    "artifacts/world-picker/runtime-final/two-after-clear/request-2-attempts.json": {
+      "bytes": 2360,
+      "sha256": "626088e540a2fd92f8a92302de699d5166051e5554d5567dc31f26a0e8793238"
+    },
+    "artifacts/world-picker/runtime-final/two-after-clear/request-2-metrics.json": {
+      "bytes": 1333,
+      "sha256": "aded4697874a16351a4bd1f08e12a93b41556a0e4928a39d0d447a130ff9576d"
+    },
+    "artifacts/world-picker/runtime-final/two-after-clear/reserved-1-attempts.json": {
+      "bytes": 2038,
+      "sha256": "622090c1c3d282f52742bbc4c1459c1d59da2b87600e5a567147a452afae03dd"
+    },
+    "artifacts/world-picker/runtime-final/two-after-clear/reserved-1-metrics.json": {
+      "bytes": 1332,
+      "sha256": "6b7d9d6380391abb95f12f5e74fb96aa8f1b573483c763d7756e92e3b60f604f"
+    },
+    "artifacts/world-picker/runtime-final/two-after-clear/reserved-2-attempts.json": {
+      "bytes": 2505,
+      "sha256": "3a5cb56cad0cef71b17302e268d33f4b9a10bab2ec456e394abcc95ef8d837a5"
+    },
+    "artifacts/world-picker/runtime-final/two-after-clear/reserved-2-metrics.json": {
+      "bytes": 1333,
+      "sha256": "5887357e205f71958788302577532cace72af5521cda02cb504dbdcc46b9b683"
+    },
+    "artifacts/world-picker/runtime-final/two-after-clear/stop-request-1-attempts.json": {
+      "bytes": 2223,
+      "sha256": "78327cb9270ddf4b294a7285cc6ec9ed43437112a7fa76cb34c22f5df1e3fcb2"
+    },
+    "artifacts/world-picker/runtime-final/two-after-clear/stop-request-1-metrics.json": {
+      "bytes": 1333,
+      "sha256": "c68e9936b3d04812e12dc54204aeacd1e43f072d11e638601564278fb76f85b5"
+    },
+    "artifacts/world-picker/runtime-final/two-after-clear/stop-request-2-attempts.json": {
+      "bytes": 2688,
+      "sha256": "2b56a14c04f57807996385c31a9625b67d8332f65bd0a68bb60795e60171f721"
+    },
+    "artifacts/world-picker/runtime-final/two-after-clear/stop-request-2-metrics.json": {
+      "bytes": 1332,
+      "sha256": "fdb606925ca29cb705f2a3f574b0e7eeb452d4cf7ee0b629bc6b8cf89b2c01d4"
+    },
+    "artifacts/world-picker/runtime-final/two-after-clear/transferred-1-attempts.json": {
+      "bytes": 2123,
+      "sha256": "8bcc407f850a9c91c0ec372770a5a8cc4fde0063f2097882a99654bb41e0d026"
+    },
+    "artifacts/world-picker/runtime-final/two-after-clear/transferred-1-metrics.json": {
+      "bytes": 1332,
+      "sha256": "6ff29d4cb24ed52b9e2475449c053fbc21fd8a25501e2fad4784e46bcbc235ae"
+    },
+    "artifacts/world-picker/runtime-final/two-after-clear/transferred-2-attempts.json": {
+      "bytes": 2590,
+      "sha256": "667777f22bfdfe68a7c6659023c1319238491e2fcf17561228c82742aa004751"
+    },
+    "artifacts/world-picker/runtime-final/two-after-clear/transferred-2-metrics.json": {
+      "bytes": 1333,
+      "sha256": "c34488f7ab50a1ff486de9b7b64a5e5415f1d42c7aa8168bafcd88b8d55b4766"
+    },
+    "artifacts/world-picker/runtime-final/two-after-clear/turn-1-attempts.json": {
+      "bytes": 1994,
+      "sha256": "dcf3bdf8d83ab0dc5f23936e707eabab752b64f23b9c77c8dbe1a638b7166f00"
+    },
+    "artifacts/world-picker/runtime-final/two-after-clear/turn-1-metrics.json": {
+      "bytes": 1332,
+      "sha256": "6f05033cf040ececf769b529c92cdd0679e391b20e0bebb41357539994d9d0cd"
+    },
+    "artifacts/world-picker/runtime-final/two-after-clear/turn-2-attempts.json": {
+      "bytes": 2461,
+      "sha256": "c21b6b58e7a9b2398e54707d7b9f1cded9a9defadbfea42fc71baa4ee165cb8d"
+    },
+    "artifacts/world-picker/runtime-final/two-after-clear/turn-2-metrics.json": {
+      "bytes": 1333,
+      "sha256": "809ee602161f65f79e237a697e8167625fcbb3252963a29ba343f0637689e84c"
+    },
+    "artifacts/world-picker/runtime-final/two-after-clear/wine-launch.log": {
+      "bytes": 3238,
+      "sha256": "d0679f973a173c7db1bb4aabc4fd27f316c5f30d5d5bf607d145ff7ac8323edd"
+    },
+    "artifacts/world-picker/runtime-final/two-after-clear/xvfb.log": {
+      "bytes": 64,
+      "sha256": "87e9572cf030493a1f7ba83d385129046b224374ca1414911674b30fc44276d7"
+    },
+    "artifacts/world-picker/runtime-final-launch.log": {
+      "bytes": 104,
+      "sha256": "990c6f753b4558d2412957174c05eebf02bc042e645af519fba557bb97828740"
+    },
+    "artifacts/world-picker/runtime-first-normal/normal/active-cleared-1-attempts.json": {
+      "bytes": 2276,
+      "sha256": "377e9725afc12d3a9af07b67cc4fa737883f51f8fbaa169f2fd59ed5fbba32f5"
+    },
+    "artifacts/world-picker/runtime-first-normal/normal/active-cleared-1-metrics.json": {
+      "bytes": 1333,
+      "sha256": "c68e9936b3d04812e12dc54204aeacd1e43f072d11e638601564278fb76f85b5"
+    },
+    "artifacts/world-picker/runtime-first-normal/normal/captures.json": {
+      "bytes": 55542,
+      "sha256": "28cfefd9966706116c10db77985e6a0ef3da2fe1bcd87ee9aa8dbba7e8e805b7"
+    },
+    "artifacts/world-picker/runtime-first-normal/normal/geometry.txt": {
+      "bytes": 56,
+      "sha256": "df3cefe0e71af78e8e7c35481055e5b5d26f74dd7a61f72f7e59ac82203acc3d"
+    },
+    "artifacts/world-picker/runtime-first-normal/normal/idle-published-1-attempts.json": {
+      "bytes": 2329,
+      "sha256": "111b1ec9fcb0a5b86b454378a1e4feb7903938525d40ddcbb4447a90e7081c6e"
+    },
+    "artifacts/world-picker/runtime-first-normal/normal/idle-published-1-metrics.json": {
+      "bytes": 1333,
+      "sha256": "aded4697874a16351a4bd1f08e12a93b41556a0e4928a39d0d447a130ff9576d"
+    },
+    "artifacts/world-picker/runtime-first-normal/normal/initial-attempts.json": {
+      "bytes": 1853,
+      "sha256": "a2d8e4839ac32bbe4875afc421c85e40ef5a868643d62b88ab7a4547e214d6b7"
+    },
+    "artifacts/world-picker/runtime-first-normal/normal/initial-metrics.json": {
+      "bytes": 1332,
+      "sha256": "8b184664438cd560b09c87f42ccf44e751f747812f553f867817e14ae4567404"
+    },
+    "artifacts/world-picker/runtime-first-normal/normal/launch.json": {
+      "bytes": 220341,
+      "sha256": "ce211276706ceda2824aa214cf19d72e4f8bed62ad43bd6744ad52700b536fed"
+    },
+    "artifacts/world-picker/runtime-first-normal/normal/moving-1-attempts.json": {
+      "bytes": 2072,
+      "sha256": "81e6086a28172252bec21359f00f7850b1d947bc3aae3d2e52042fd822cbc0a3"
+    },
+    "artifacts/world-picker/runtime-first-normal/normal/moving-1-metrics.json": {
+      "bytes": 1332,
+      "sha256": "bcbae3d2ffe95d35be13a17d9fd574887665a71884a6e74178649c617ed444f0"
+    },
+    "artifacts/world-picker/runtime-first-normal/normal/path-1-attempts.json": {
+      "bytes": 1961,
+      "sha256": "871fc6d6db4d9997f16ac388ab7220f68933a17d325df52f0a291c255cc30353"
+    },
+    "artifacts/world-picker/runtime-first-normal/normal/path-1-metrics.json": {
+      "bytes": 1332,
+      "sha256": "8b184664438cd560b09c87f42ccf44e751f747812f553f867817e14ae4567404"
+    },
+    "artifacts/world-picker/runtime-first-normal/normal/path-complete-1-attempts.json": {
+      "bytes": 4432,
+      "sha256": "d55ec0d078b2ce357429c625d28fb2ba0edbded276565652d29508e9e9312e79"
+    },
+    "artifacts/world-picker/runtime-first-normal/normal/path-complete-1-metrics.json": {
+      "bytes": 1333,
+      "sha256": "c68e9936b3d04812e12dc54204aeacd1e43f072d11e638601564278fb76f85b5"
+    },
+    "artifacts/world-picker/runtime-first-normal/normal/player.log": {
+      "bytes": 143831,
+      "sha256": "bdf6d279d1e1b8c6d9a33b1b08fd71a7b7d37ffe5413d67aeef3190c983bd403"
+    },
+    "artifacts/world-picker/runtime-first-normal/normal/promoted-1-attempts.json": {
+      "bytes": 1934,
+      "sha256": "aa927cf3f84d620f1748771609632b9bd0cbe8f667228ac7e09385c7aa4fbfcf"
+    },
+    "artifacts/world-picker/runtime-first-normal/normal/promoted-1-metrics.json": {
+      "bytes": 1332,
+      "sha256": "8b184664438cd560b09c87f42ccf44e751f747812f553f867817e14ae4567404"
+    },
+    "artifacts/world-picker/runtime-first-normal/normal/report.json": {
+      "bytes": 545089,
+      "sha256": "09bc37c2e2e2980802d36f5869d140cdfb72d0e9f8cbcdf973ed8f4fb66b5d2e"
+    },
+    "artifacts/world-picker/runtime-first-normal/normal/request-1-attempts.json": {
+      "bytes": 1893,
+      "sha256": "1c3068e5f89b3be171d032983abb351da6ddfd618ac4f309a8d41d0a37517e89"
+    },
+    "artifacts/world-picker/runtime-first-normal/normal/request-1-metrics.json": {
+      "bytes": 1332,
+      "sha256": "8b184664438cd560b09c87f42ccf44e751f747812f553f867817e14ae4567404"
+    },
+    "artifacts/world-picker/runtime-first-normal/normal/reserved-1-attempts.json": {
+      "bytes": 2038,
+      "sha256": "a2bd46ca26184509e739739848b468f65d2a6dd757e91331d22f5f7bcbd9ae70"
+    },
+    "artifacts/world-picker/runtime-first-normal/normal/reserved-1-metrics.json": {
+      "bytes": 1332,
+      "sha256": "6b7d9d6380391abb95f12f5e74fb96aa8f1b573483c763d7756e92e3b60f604f"
+    },
+    "artifacts/world-picker/runtime-first-normal/normal/stop-request-1-attempts.json": {
+      "bytes": 2223,
+      "sha256": "734e3a6ab3db6d5ad8a43b6aae7e2ddf0bb6a69b72e200367f22e93b743b8b61"
+    },
+    "artifacts/world-picker/runtime-first-normal/normal/stop-request-1-metrics.json": {
+      "bytes": 1333,
+      "sha256": "c68e9936b3d04812e12dc54204aeacd1e43f072d11e638601564278fb76f85b5"
+    },
+    "artifacts/world-picker/runtime-first-normal/normal/transferred-1-attempts.json": {
+      "bytes": 2122,
+      "sha256": "ab8ffd724bf31d346414be8304bd72ef2346a045f36ddae7b834627aff7a23a2"
+    },
+    "artifacts/world-picker/runtime-first-normal/normal/transferred-1-metrics.json": {
+      "bytes": 1332,
+      "sha256": "6ff29d4cb24ed52b9e2475449c053fbc21fd8a25501e2fad4784e46bcbc235ae"
+    },
+    "artifacts/world-picker/runtime-first-normal/normal/turn-1-attempts.json": {
+      "bytes": 1994,
+      "sha256": "789e0c0b1d58b0f939c0f9902d11e72f6400f0de801631ca30357a052e9608c0"
+    },
+    "artifacts/world-picker/runtime-first-normal/normal/turn-1-metrics.json": {
+      "bytes": 1332,
+      "sha256": "6f05033cf040ececf769b529c92cdd0679e391b20e0bebb41357539994d9d0cd"
+    },
+    "artifacts/world-picker/runtime-first-normal/normal/wine-launch.log": {
+      "bytes": 3238,
+      "sha256": "d0679f973a173c7db1bb4aabc4fd27f316c5f30d5d5bf607d145ff7ac8323edd"
+    },
+    "artifacts/world-picker/runtime-first-normal/normal/xvfb.log": {
+      "bytes": 64,
+      "sha256": "87e9572cf030493a1f7ba83d385129046b224374ca1414911674b30fc44276d7"
+    },
+    "artifacts/world-picker/runtime-first-normal/report.json": {
+      "bytes": 674727,
+      "sha256": "0c87bb424c98cfdb091074386dd2b7a5079122bd7e65b60a66ff7f10f5263f23"
+    },
+    "artifacts/world-picker/runtime-first-normal-launch.log": {
+      "bytes": 102,
+      "sha256": "70e65f802d41d2ff0a694e45ca0eef309527ad42f2a7f70885a452e806b7e064"
+    },
+    "artifacts/world-picker/source-integrity.json": {
+      "bytes": 7813,
+      "sha256": "99d7060b62b61aef6d7b62d443de024daacc2c895688376162bd812c5e646267"
+    },
+    "artifacts/world-picker/unittest-final.log": {
+      "bytes": 35474,
+      "sha256": "18b52e72dfd99c96bfabf4e4ce3bd1d5ce4892b62bd4db2c958fe69b57b83263"
+    },
+    "artifacts/world-picker/windows-build-01.log": {
+      "bytes": 618161,
+      "sha256": "42a5ab7646593690057821336c0c2ab5544c69639f66e8e558fb58e76cd8e07d"
+    },
+    "docs/REFERENCE_MATRIX.csv": {
+      "bytes": 30901,
+      "sha256": "7ba6c79003f44543dd5485063bd8ad64959e094c1128cbb8c32cf57199ecbc64"
+    },
+    "docs/REMAKE_PLAN.md": {
+      "bytes": 50407,
+      "sha256": "14b2fddf54cc6fb6235aa84421b706b375d488ad843e01a0ee14b982c6b5d03f"
+    },
+    "docs/SHIP_PICKING_QA_EVIDENCE.md": {
+      "bytes": 7408,
+      "sha256": "8ef3ecf2ff03737a7ef4df2e82734c726b205c53b0e457ec7e991c4537208ec1"
+    },
+    "docs/SHIP_POINTER_RESUME.md": {
+      "bytes": 6159,
+      "sha256": "904a196e08bec547b89e82950e6a1360863f323c4867d4c7016bce9500b6e6e7"
+    },
+    "docs/UnityProjectContext.md": {
+      "bytes": 58860,
+      "sha256": "2b6bb94a2d941890e392d1f5b5a5711f61196d44e8e5ebc5aeecd2533556822d"
+    },
+    "docs/VALIDATION.md": {
+      "bytes": 5862,
+      "sha256": "6d198b37cd5098b53d98a43ccabd1dd50eab0bbd65619b5c08ff2e6bfcb73f0b"
+    },
+    "docs/WORLD_MEMBERSHIP_MOVEMENT_EVIDENCE.md": {
+      "bytes": 4906,
+      "sha256": "fba0f03a44df8cc167ecce9c531c65efbbcecbfe911c3b68a53e32786f8c2d75"
+    },
+    "docs/WORLD_PICKER_ORDER_EVIDENCE.md": {
+      "bytes": 7529,
+      "sha256": "9a9418a57fed401101903bf9e9da7de53a9388d53b2bf0b1055f44e95f8c2dcd"
+    },
+    "docs/WORLD_PICKER_RUNTIME_VALIDATION.md": {
+      "bytes": 6702,
+      "sha256": "085a20115a5df90e80948b1ab4ebf69f9857de0f030fbaacf71e7bc7f8660b61"
+    },
+    "tests/fixtures/ShipWorldPickerProbe.cs": {
+      "bytes": 5409,
+      "sha256": "aa96daa2a9d8e0ff8975bf4d7ca574bad604c15cf756fe1c359c864558c27977"
+    },
+    "tests/fixtures/ship_world_picker.json": {
+      "bytes": 1307125,
+      "sha256": "cee2e9f5c46c2de4db20068a78b63f3090428534f3d67948f2056abbb92a720b"
+    },
+    "tests/test_ship_world_picker.py": {
+      "bytes": 1440,
+      "sha256": "751dd130172b3cddb9c5d6e97f4232af3100b283c671c7454417c9a1892163e9"
+    },
+    "tests/test_smoke_ship_picking.py": {
+      "bytes": 12770,
+      "sha256": "b3217f4f6f5f7167baf3fcdb572a51f69d700dee175986f9b5906e36bf208866"
+    },
+    "tools/probe_ship_world_picker.py": {
+      "bytes": 8018,
+      "sha256": "7edab6c5f33b9a3ec4bf2b01e79a7403330959ece8580b60ab960aaa260d2632"
+    },
+    "tools/smoke_ship_picking.py": {
+      "bytes": 25750,
+      "sha256": "9821b72b0de19edb00fb69ec0f50cb17e4433546df4680f10c328a8487bd6994"
+    },
+    "tools/validate_ship_world_picker.py": {
+      "bytes": 4473,
+      "sha256": "545d3b7de4c74c96a59676986d1219998f82159eba1060a695ca4d25963b8008"
+    }
+  },
+  "limitations": [
+    "No mouse/input/selection or fullgame validation;normalStartdisabled",
+    "Controlled24x24 noFog emptyotherobjectslots classes200..211;notall45sourceobjects",
+    "Actualrouteposes do not discriminate Stored/Drawnmaskindex orPublished/Physics;staticbindingreview+rawmaskproof areseparate",
+    "Projection group0 vspeerMinus1 provenonlytwo controlledroutes;general samegroup membershippolicy remains unimplemented",
+    "Rawmembership/command proofs notfullworldLife orfullclick/hover replay",
+    "WindowsMono underWine/Xvfb,notnativeWin11/OSmouse/laptopperformance",
+    "Only2focusedoldmode regressiongroups repeated;allhistoricalgroups notrerun",
+    "Sourceart remains reference,notfinal2026art"
+  ]
+}

@@ -1,0 +1,759 @@
+{
+  "schema_version": 1,
+  "native_canvas_width": 1920,
+  "native_canvas_height": 1080,
+  "format": "source type18, padded rows, most significant bit first, top to bottom",
+  "family_count": 4,
+  "mask_count": 96,
+  "families": [
+    {
+      "family": "A1",
+      "descriptor": "SHIP_A1009",
+      "descriptor_sha256": "154428ba8843d7abd9b993cdaaaa6931ab918b497dc7aef11f0e30b2498da261",
+      "geometry_resource": "SHIP_A1110",
+      "geometry_metadata_hex": "090098003800380000000000",
+      "width": 56,
+      "height": 56,
+      "row_bytes": 7,
+      "masks": [
+        {
+          "index": 0,
+          "name": "MASK_1A00",
+          "offset": 0,
+          "length": 392,
+          "sha256": "8d3ad30b807de21ddf9d4f95e3a37be9ebd3a035dfb83cd2da1d5fff9abcf201"
+        },
+        {
+          "index": 1,
+          "name": "MASK_1A01",
+          "offset": 392,
+          "length": 392,
+          "sha256": "acf22bf977a8c9c3dab3313c5f12bd7d0b9e592c8aaa919a3dbff13800a2dd9e"
+        },
+        {
+          "index": 2,
+          "name": "MASK_1A02",
+          "offset": 784,
+          "length": 392,
+          "sha256": "fa86c0ad282f8ed1272a384d6b4ece9aa202f5ac6c6ea75d8eabb55a98445506"
+        },
+        {
+          "index": 3,
+          "name": "MASK_1A03",
+          "offset": 1176,
+          "length": 392,
+          "sha256": "6615d96d7ce1b08de46bdfa757ebe2126aec52f48a0ddaaa24b24ec44adac07f"
+        },
+        {
+          "index": 4,
+          "name": "MASK_1A04",
+          "offset": 1568,
+          "length": 392,
+          "sha256": "ddfeacbcc3b00b165aae9ce18b93a71d87d77b59329845fb1dcc940872fda222"
+        },
+        {
+          "index": 5,
+          "name": "MASK_1A05",
+          "offset": 1960,
+          "length": 392,
+          "sha256": "7e9cb0f55ccacf5bec7521d069205d36d79611d6b8fabb63e763048900d40d55"
+        },
+        {
+          "index": 6,
+          "name": "MASK_1A06",
+          "offset": 2352,
+          "length": 392,
+          "sha256": "6d18a53622592a09c5e76d3cdc6f35bac3b8c93c5f415af577a47673b5eb36de"
+        },
+        {
+          "index": 7,
+          "name": "MASK_1A07",
+          "offset": 2744,
+          "length": 392,
+          "sha256": "a25d6dc9015069748ecffbb9f7e41700580685d2cafc27a7f8a08736dabaff24"
+        },
+        {
+          "index": 8,
+          "name": "MASK_1A08",
+          "offset": 3136,
+          "length": 392,
+          "sha256": "d730bcb11826788e25dabc6988cdfd8c9afa829ebee08f918319faa7f109daf5"
+        },
+        {
+          "index": 9,
+          "name": "MASK_1A09",
+          "offset": 3528,
+          "length": 392,
+          "sha256": "027b1c4406e626282a9a49c123df94c0a8db1210866e09f2bccb674c6985ac9b"
+        },
+        {
+          "index": 10,
+          "name": "MASK_1A10",
+          "offset": 3920,
+          "length": 392,
+          "sha256": "f00503313b63d533001f9b190a88b9eb307bffa8caf55f23d8138036679180e3"
+        },
+        {
+          "index": 11,
+          "name": "MASK_1A11",
+          "offset": 4312,
+          "length": 392,
+          "sha256": "514650c1c528e638cb1d1f24ec4a39ab3fec28e0faaddeac8223f724a9e6972d"
+        },
+        {
+          "index": 12,
+          "name": "MASK_1A12",
+          "offset": 4704,
+          "length": 392,
+          "sha256": "a8e9ccd728370a0ddca2aa6580eecd12209ad34790cb728d5d71784cfa49f519"
+        },
+        {
+          "index": 13,
+          "name": "MASK_1A13",
+          "offset": 5096,
+          "length": 392,
+          "sha256": "0efc0039928d74eb5e15068c8ea99794e838fe9df35be06905ac6451c5c7c974"
+        },
+        {
+          "index": 14,
+          "name": "MASK_1A14",
+          "offset": 5488,
+          "length": 392,
+          "sha256": "fd65207f519bc3245cb0bcddbfd5badcf3d30e5cd13827cb75997d160ece20a5"
+        },
+        {
+          "index": 15,
+          "name": "MASK_1A15",
+          "offset": 5880,
+          "length": 392,
+          "sha256": "fa5b8e1f083873e7b69b8a9f71009bd3a74042ae045ca50902b32a37aa9270ce"
+        },
+        {
+          "index": 16,
+          "name": "MASK_1A16",
+          "offset": 6272,
+          "length": 392,
+          "sha256": "e0d82afe4c417ef2d899dd2d0de11d798714e1ba6cbbfa88061e4c9fa9ccea4f"
+        },
+        {
+          "index": 17,
+          "name": "MASK_1A17",
+          "offset": 6664,
+          "length": 392,
+          "sha256": "4aae26face1af0fb3c674bfca0d03ed58f53ddaba7aceab5311925517afcafda"
+        },
+        {
+          "index": 18,
+          "name": "MASK_1A18",
+          "offset": 7056,
+          "length": 392,
+          "sha256": "affa1df53d52bdb81d74aa53d923ea489fe726514c5c655b1b32b1f2a3c7f1bb"
+        },
+        {
+          "index": 19,
+          "name": "MASK_1A19",
+          "offset": 7448,
+          "length": 392,
+          "sha256": "b076fde48eb01e522ccbbada7a67e38fd799af051f81f2db760b42b58d31b4cb"
+        },
+        {
+          "index": 20,
+          "name": "MASK_1A20",
+          "offset": 7840,
+          "length": 392,
+          "sha256": "087cf7f90fb49ee8bbc6e6592efc2f3fa7a73b0dafed15e0884a1b3f3d91ef1f"
+        },
+        {
+          "index": 21,
+          "name": "MASK_1A21",
+          "offset": 8232,
+          "length": 392,
+          "sha256": "f9c55bf6bdba126e28677903620d66901bcee23e26eacf8e787b35d398fb6321"
+        },
+        {
+          "index": 22,
+          "name": "MASK_1A22",
+          "offset": 8624,
+          "length": 392,
+          "sha256": "cdf1baaab21fada005b64fb1d0bdbe72851929c21081d96749f37a08d4b4ae32"
+        },
+        {
+          "index": 23,
+          "name": "MASK_1A23",
+          "offset": 9016,
+          "length": 392,
+          "sha256": "8d728e84ec6a6f4969331beb3c5a12e664b93bd4ff571745760ea80a825ddc20"
+        }
+      ]
+    },
+    {
+      "family": "H1",
+      "descriptor": "SHIP_H1009",
+      "descriptor_sha256": "2d87a4fb3c9c4613c3003e6ac148f84f91e9cb96bfa2e02a7cafa8474b62bf5e",
+      "geometry_resource": "SHIP_H1110",
+      "geometry_metadata_hex": "090098004800480000000000",
+      "width": 72,
+      "height": 72,
+      "row_bytes": 9,
+      "masks": [
+        {
+          "index": 0,
+          "name": "MASK_1H00",
+          "offset": 9408,
+          "length": 648,
+          "sha256": "3b1176f6e5a99b3d5f1972a7295267f7b05a43313ba36b44cadc1dbfa5cf33b1"
+        },
+        {
+          "index": 1,
+          "name": "MASK_1H01",
+          "offset": 10056,
+          "length": 648,
+          "sha256": "552fb86fa4c76351abe2bb626ee31d65cb89e57dcad1b4fab5bb0ac8a5d919c4"
+        },
+        {
+          "index": 2,
+          "name": "MASK_1H02",
+          "offset": 10704,
+          "length": 648,
+          "sha256": "fa9a81d599ddd0b67a08dbce0be6504cca09f2b7cb78ee124a147ba03b628a5e"
+        },
+        {
+          "index": 3,
+          "name": "MASK_1H03",
+          "offset": 11352,
+          "length": 648,
+          "sha256": "f82e6836234dacae4b192eaf91b269295813909fc76cb4a216073fe6e8267259"
+        },
+        {
+          "index": 4,
+          "name": "MASK_1H04",
+          "offset": 12000,
+          "length": 648,
+          "sha256": "91a2de02df60d26d98be5c03c0124014b9c5105fbb3f3f2293a590194e88ce64"
+        },
+        {
+          "index": 5,
+          "name": "MASK_1H05",
+          "offset": 12648,
+          "length": 648,
+          "sha256": "d18dbb19320d27d3e29fb5becf2764a909cf035369a6b5cd6dc3454d773ea9df"
+        },
+        {
+          "index": 6,
+          "name": "MASK_1H06",
+          "offset": 13296,
+          "length": 648,
+          "sha256": "8e7a7a3d39c7090da26a34f7e88c5ef1773d029d8cd543bc4d92f6941a97f07f"
+        },
+        {
+          "index": 7,
+          "name": "MASK_1H07",
+          "offset": 13944,
+          "length": 648,
+          "sha256": "e094d2bb734bdc966e18f6cf79ba1add49555510dea3d41920917607dde9d2d7"
+        },
+        {
+          "index": 8,
+          "name": "MASK_1H08",
+          "offset": 14592,
+          "length": 648,
+          "sha256": "7c1508c8a198930f444f5125b1a8e139658f14f8b990cf1d0808509a1ce58b28"
+        },
+        {
+          "index": 9,
+          "name": "MASK_1H09",
+          "offset": 15240,
+          "length": 648,
+          "sha256": "f076cf3c2b31cc935aac6d89522abf7e5312a5f54a040d275942b1b55d848908"
+        },
+        {
+          "index": 10,
+          "name": "MASK_1H10",
+          "offset": 15888,
+          "length": 648,
+          "sha256": "0cfbb0e06020be3f569e301c6ab7abc8b20194e62a3326b9935646f079ee07db"
+        },
+        {
+          "index": 11,
+          "name": "MASK_1H11",
+          "offset": 16536,
+          "length": 648,
+          "sha256": "f6fbfc91034cec6f18fb76bd7ec90c193445534931bbd32100335329628e88a6"
+        },
+        {
+          "index": 12,
+          "name": "MASK_1H12",
+          "offset": 17184,
+          "length": 648,
+          "sha256": "185f9b5eb09705df426995c9b6a85d16626fa79a855a9034d07bbb2cd80241d5"
+        },
+        {
+          "index": 13,
+          "name": "MASK_1H13",
+          "offset": 17832,
+          "length": 648,
+          "sha256": "0d83bc24f50be630473bb81854ff3bccbea004c08bf3f49756c3350121ed6bc1"
+        },
+        {
+          "index": 14,
+          "name": "MASK_1H14",
+          "offset": 18480,
+          "length": 648,
+          "sha256": "a4f8b1ff655160dc983d93ae14429d4d93a1f36364d2aa678eff3689fb63c8e6"
+        },
+        {
+          "index": 15,
+          "name": "MASK_1H15",
+          "offset": 19128,
+          "length": 648,
+          "sha256": "a5797f75baab9075ec8f6a24fc51717db9ff88faa8c27ba253acd4246c0d955e"
+        },
+        {
+          "index": 16,
+          "name": "MASK_1H16",
+          "offset": 19776,
+          "length": 648,
+          "sha256": "a188cfc0f35496994213f6434d09d9b5f26832a85debb93dd5cdba8276840b8f"
+        },
+        {
+          "index": 17,
+          "name": "MASK_1H17",
+          "offset": 20424,
+          "length": 648,
+          "sha256": "b5f1c8f83a3fb12e4b15e9537019408003050cf0dba78ffe0fed3453cb4a68d2"
+        },
+        {
+          "index": 18,
+          "name": "MASK_1H18",
+          "offset": 21072,
+          "length": 648,
+          "sha256": "d0186c227a2f8041a1393b31761cf632d7f3b8e945aaa76a6168731a8357fbe3"
+        },
+        {
+          "index": 19,
+          "name": "MASK_1H19",
+          "offset": 21720,
+          "length": 648,
+          "sha256": "a2722b844a476badfe7a9796167e238a64db61d273c271d196266f20465dc161"
+        },
+        {
+          "index": 20,
+          "name": "MASK_1H20",
+          "offset": 22368,
+          "length": 648,
+          "sha256": "ebc10de73144e378d22588813ea1318fe37ce60c5ec62fe7d9d0344ae35f3d39"
+        },
+        {
+          "index": 21,
+          "name": "MASK_1H21",
+          "offset": 23016,
+          "length": 648,
+          "sha256": "09df2757a39bcb0d8915a6a4071c55b2be00aa4d3069167f22f8048daed173b3"
+        },
+        {
+          "index": 22,
+          "name": "MASK_1H22",
+          "offset": 23664,
+          "length": 648,
+          "sha256": "98517ed73499cdbe73ebb932cf542dfee82a4ed552b3bb5498a84f457c3ff723"
+        },
+        {
+          "index": 23,
+          "name": "MASK_1H23",
+          "offset": 24312,
+          "length": 648,
+          "sha256": "91ea56ab74681978fa1167946f453cb03e194fc147d7838ffd153b8a25e2077a"
+        }
+      ]
+    },
+    {
+      "family": "B4",
+      "descriptor": "SHIP_B4009",
+      "descriptor_sha256": "a85b26be05d7443138df562b436999c6444e37243350ad063a2aa01c5c5f669e",
+      "geometry_resource": "SHIP_B4400",
+      "geometry_metadata_hex": "090098004000400000000000",
+      "width": 64,
+      "height": 64,
+      "row_bytes": 8,
+      "masks": [
+        {
+          "index": 0,
+          "name": "MASK_4B00",
+          "offset": 24960,
+          "length": 512,
+          "sha256": "ddc632b021a592b7fe77e491563ebb8cc137513513998cdc2f3f25ff035ed25c"
+        },
+        {
+          "index": 1,
+          "name": "MASK_4B01",
+          "offset": 25472,
+          "length": 512,
+          "sha256": "bb1228786c9243eb34c2b019c1734818912b510f84a9ce43ad518220428f6159"
+        },
+        {
+          "index": 2,
+          "name": "MASK_4B02",
+          "offset": 25984,
+          "length": 512,
+          "sha256": "07467bd59e289d78c6acaad0d5f24e68407269c049f8242165dab197fb10a006"
+        },
+        {
+          "index": 3,
+          "name": "MASK_4B03",
+          "offset": 26496,
+          "length": 512,
+          "sha256": "39ed992d75bcf6c083d80b01fa3b098c42f31c75520426aaaf0c3ad117c8e5c1"
+        },
+        {
+          "index": 4,
+          "name": "MASK_4B04",
+          "offset": 27008,
+          "length": 512,
+          "sha256": "c14a6f0b9f942ae4c0a38164343f26d9b507f11bfc02ba4403c27e1752a9d72c"
+        },
+        {
+          "index": 5,
+          "name": "MASK_4B05",
+          "offset": 27520,
+          "length": 512,
+          "sha256": "a52ef1c0c753b4ecd1ba0949230c0e3a850cee490ac9908f9be863cb49fb95c2"
+        },
+        {
+          "index": 6,
+          "name": "MASK_4B06",
+          "offset": 28032,
+          "length": 512,
+          "sha256": "a258602275f3505cfa8a7dfdc01031ef26981bce1fe706f49d1589f3e0e38c21"
+        },
+        {
+          "index": 7,
+          "name": "MASK_4B07",
+          "offset": 28544,
+          "length": 512,
+          "sha256": "47ec6c1672d75012831dfff8978b181523dde6d3af6244d1cd984fe0aa2ee5bf"
+        },
+        {
+          "index": 8,
+          "name": "MASK_4B08",
+          "offset": 29056,
+          "length": 512,
+          "sha256": "261e64545e84bc966cdb90c9dedebe05a283ffcabaddc0db115756682b0cc35f"
+        },
+        {
+          "index": 9,
+          "name": "MASK_4B09",
+          "offset": 29568,
+          "length": 512,
+          "sha256": "760734e5ea318c471c3cc91a578e6a51e8092e241c4a9a8f595ff0e6a2d25fc2"
+        },
+        {
+          "index": 10,
+          "name": "MASK_4B10",
+          "offset": 30080,
+          "length": 512,
+          "sha256": "b062fc28870e5930d1154d1ce0d409957b5362d0abbd01b12e679d3b8b7a3f9e"
+        },
+        {
+          "index": 11,
+          "name": "MASK_4B11",
+          "offset": 30592,
+          "length": 512,
+          "sha256": "9a9e796477df465dbdd7c5b90bc85a545dfd5452092765f75eb6b384fbaf0b80"
+        },
+        {
+          "index": 12,
+          "name": "MASK_4B12",
+          "offset": 31104,
+          "length": 512,
+          "sha256": "081f316c903eb9c42eb04808417e120b4f7cad7aaffaafb94a910e7710c1b108"
+        },
+        {
+          "index": 13,
+          "name": "MASK_4B13",
+          "offset": 31616,
+          "length": 512,
+          "sha256": "81fea9c3a36235281a071d1efbd58db840b199722760300a6cb1d1d24c949e33"
+        },
+        {
+          "index": 14,
+          "name": "MASK_4B14",
+          "offset": 32128,
+          "length": 512,
+          "sha256": "76197307d0f0239a2f762eafa01971a6c4a653131b78b0d2360478a1cb938c81"
+        },
+        {
+          "index": 15,
+          "name": "MASK_4B15",
+          "offset": 32640,
+          "length": 512,
+          "sha256": "600dd260db525cfd96f82f1f8039880651db1c4511fa9a6f778b8509961d9b16"
+        },
+        {
+          "index": 16,
+          "name": "MASK_4B16",
+          "offset": 33152,
+          "length": 512,
+          "sha256": "3b6a276971ebdd2de29403f40b9b167646f9bb4c3562d3dce3bacf05d2303b39"
+        },
+        {
+          "index": 17,
+          "name": "MASK_4B17",
+          "offset": 33664,
+          "length": 512,
+          "sha256": "e6c2a8e1483b6a169168236fe82d802f9b7e06c37bc34ee5a4a2a00446f0af12"
+        },
+        {
+          "index": 18,
+          "name": "MASK_4B18",
+          "offset": 34176,
+          "length": 512,
+          "sha256": "08679960146d73593b4dd8be5d8785d51eae5223aaae0e93f6b96161971030f2"
+        },
+        {
+          "index": 19,
+          "name": "MASK_4B19",
+          "offset": 34688,
+          "length": 512,
+          "sha256": "7ce3af16c63c0a755aa1a40bb22c26474c63fd65f0c1a0c47ff9168e54e42269"
+        },
+        {
+          "index": 20,
+          "name": "MASK_4B20",
+          "offset": 35200,
+          "length": 512,
+          "sha256": "3aa0848bd06e9e1e984f90936685d79ec83435504079a178a560b8348850b8e9"
+        },
+        {
+          "index": 21,
+          "name": "MASK_4B21",
+          "offset": 35712,
+          "length": 512,
+          "sha256": "674f6c4215d6fe9937b4a9b14eb049e3d1d3e4c16b94f909265f69f3edb5d1a4"
+        },
+        {
+          "index": 22,
+          "name": "MASK_4B22",
+          "offset": 36224,
+          "length": 512,
+          "sha256": "189a688a3bd2c1552c32ac72ecf557912976621f996d90f9248c372514f0f608"
+        },
+        {
+          "index": 23,
+          "name": "MASK_4B23",
+          "offset": 36736,
+          "length": 512,
+          "sha256": "2756a9f1b3870be234f7584c5c721253e723101d7fd8b47224ea36157be3b664"
+        }
+      ]
+    },
+    {
+      "family": "G4",
+      "descriptor": "SHIP_G4009",
+      "descriptor_sha256": "afb33f8ade335737a1d7284c5de0eb977aa6476adf4a7fa4a4bb058d829d29cb",
+      "geometry_resource": "SHIP_G4400",
+      "geometry_metadata_hex": "090098004800480000000000",
+      "width": 72,
+      "height": 72,
+      "row_bytes": 9,
+      "masks": [
+        {
+          "index": 0,
+          "name": "MASK_4G00",
+          "offset": 37248,
+          "length": 648,
+          "sha256": "4934a27842990378ec5b203ede93f02c35345cc9998effbc2a9972cb0a3f4ca1"
+        },
+        {
+          "index": 1,
+          "name": "MASK_4G01",
+          "offset": 37896,
+          "length": 648,
+          "sha256": "5519f1cc3e322ba31912e0878440ad465808a63495cd0c8d1c9a06c206752931"
+        },
+        {
+          "index": 2,
+          "name": "MASK_4G02",
+          "offset": 38544,
+          "length": 648,
+          "sha256": "0dee5857b19cfecf82c782671116b1fd38f18ff3ee001ca5d42ecfd6c59a2587"
+        },
+        {
+          "index": 3,
+          "name": "MASK_4G03",
+          "offset": 39192,
+          "length": 648,
+          "sha256": "93edc977a544f3a3075a313f682bdb0624b0a18f4e73880dde9cbc07c40723f8"
+        },
+        {
+          "index": 4,
+          "name": "MASK_4G04",
+          "offset": 39840,
+          "length": 648,
+          "sha256": "b5a3186d9c15abc421a7d83723531158b96217faa068c6c9f7e00151b2cb5ee4"
+        },
+        {
+          "index": 5,
+          "name": "MASK_4G05",
+          "offset": 40488,
+          "length": 648,
+          "sha256": "8158fe3e8b6dd15b27cd2911dffa4861f43cec7e0d896e7b31ee0c7f6fc2efac"
+        },
+        {
+          "index": 6,
+          "name": "MASK_4G06",
+          "offset": 41136,
+          "length": 648,
+          "sha256": "b02588436850849b3f4d689256cb11766f7d37dd3ec9f7035885083e5f63d719"
+        },
+        {
+          "index": 7,
+          "name": "MASK_4G07",
+          "offset": 41784,
+          "length": 648,
+          "sha256": "990c3999ea8e40d4bad956020d14094c0e43ac40ec0806143fa7a03104796ed3"
+        },
+        {
+          "index": 8,
+          "name": "MASK_4G08",
+          "offset": 42432,
+          "length": 648,
+          "sha256": "6a59f6c046bb9d1df8f736e7b712be1ae105c3c647c0bd19b5ba430cd7d0255a"
+        },
+        {
+          "index": 9,
+          "name": "MASK_4G09",
+          "offset": 43080,
+          "length": 648,
+          "sha256": "a42e8c55f8fc0b4ca00f1c154ad96c6abaf59f2f6e5ebf5d4ff0c7db34bf109f"
+        },
+        {
+          "index": 10,
+          "name": "MASK_4G10",
+          "offset": 43728,
+          "length": 648,
+          "sha256": "af1819149dfce7775438d63f2abacab4bd9bc83e4af11c967f4b96926c12ce95"
+        },
+        {
+          "index": 11,
+          "name": "MASK_4G11",
+          "offset": 44376,
+          "length": 648,
+          "sha256": "817905c70d94c154bc444376938d912d180ea578b1ff91daa190b05c71a06f35"
+        },
+        {
+          "index": 12,
+          "name": "MASK_4G12",
+          "offset": 45024,
+          "length": 648,
+          "sha256": "ac21b4c1a5b19410f1f92334b8fca1d419877e1d36fa361a4eb69fd6c4845e06"
+        },
+        {
+          "index": 13,
+          "name": "MASK_4G13",
+          "offset": 45672,
+          "length": 648,
+          "sha256": "123a57e2b0fe16b845ed511b39ffe85a02464289612faef25c0e08a691242b55"
+        },
+        {
+          "index": 14,
+          "name": "MASK_4G14",
+          "offset": 46320,
+          "length": 648,
+          "sha256": "44af353c31ffff4b32db0769e6a62f7af67c0d79e5bdb87e3c2cab8a4049d700"
+        },
+        {
+          "index": 15,
+          "name": "MASK_4G15",
+          "offset": 46968,
+          "length": 648,
+          "sha256": "defe76566a84049216120e1a306762d2ef934eb64d28810d6fbf8b483419fe46"
+        },
+        {
+          "index": 16,
+          "name": "MASK_4G16",
+          "offset": 47616,
+          "length": 648,
+          "sha256": "e2fba34ffbf87e27e9b816e67df85891f76cb483a876b521134f4fd5733980d6"
+        },
+        {
+          "index": 17,
+          "name": "MASK_4G17",
+          "offset": 48264,
+          "length": 648,
+          "sha256": "b1e71c6373b623e51db0a3738d12da8f2cf62974cdbbabcf729c843adbf41377"
+        },
+        {
+          "index": 18,
+          "name": "MASK_4G18",
+          "offset": 48912,
+          "length": 648,
+          "sha256": "f527188a69a678432c1247d8293fa20679b51dbdf48caa0ec8de78b8fcf150e1"
+        },
+        {
+          "index": 19,
+          "name": "MASK_4G19",
+          "offset": 49560,
+          "length": 648,
+          "sha256": "90db977e392bd8de6101bd21c0758a751194c87ea8a24ab9d6e2b609f1d2bdaa"
+        },
+        {
+          "index": 20,
+          "name": "MASK_4G20",
+          "offset": 50208,
+          "length": 648,
+          "sha256": "f6e24f54fe955de45cca1b2abbeae441747fb9c020accc1622e7a53f412bf83a"
+        },
+        {
+          "index": 21,
+          "name": "MASK_4G21",
+          "offset": 50856,
+          "length": 648,
+          "sha256": "e18d427d33f09e3f102bda7f1dfe45df50c039c0132e9f1a66305a33a430f9c6"
+        },
+        {
+          "index": 22,
+          "name": "MASK_4G22",
+          "offset": 51504,
+          "length": 648,
+          "sha256": "e712431681e74c6524a7ed73e10dabc91b5dae428aebda510488190a0e9e9d31"
+        },
+        {
+          "index": 23,
+          "name": "MASK_4G23",
+          "offset": 52152,
+          "length": 648,
+          "sha256": "54360f70cdecdc48eb12c3c46a70c23908063e9446d192ffb5357bc75df8d620"
+        }
+      ]
+    }
+  ],
+  "sources": {
+    "installed/ancient.exe": {
+      "bytes": 1904640,
+      "sha256": "cb7746b288d23de2a0343ba51c154f961b3e3683b73bcc31e9a38b2c6b1e2021"
+    },
+    "files/DATA/OBJECTS.DKX": {
+      "bytes": 4821056,
+      "sha256": "67aa31b7e7728a1c4f215c63932b55ea66f3ac1ecdb732bfd368bae2a8375f60"
+    },
+    "files/DATA/OBJECTS.DKD": {
+      "bytes": 72395548,
+      "sha256": "01474065782a7170d54f564df2205572f8a0675411bef0f350dab55c3fd20e50"
+    }
+  },
+  "scope": "Four source ship mask families; no world picking, ownership or input dispatch",
+  "excluded": [
+    "rendered alpha is not a hit mask",
+    "fog",
+    "other object slots",
+    "world neighbour ordering",
+    "selection state",
+    "mouse integration"
+  ],
+  "payloads": {
+    "ShipHitMasks.bytes": {
+      "bytes": 52800,
+      "sha256": "60f3696904880fa4c4a51da2094f96145b30859013463369d1b953aebf3ba240"
+    }
+  }
+}

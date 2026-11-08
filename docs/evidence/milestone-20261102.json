@@ -1,0 +1,60 @@
+{
+  "date": "2026-11-02",
+  "scope": "NativeUIprototypeplusisolatedAIgate; notcompletegame",
+  "resolution": [
+    1280,
+    1024
+  ],
+  "aspect_ratio": "5:4",
+  "fullscreen": true,
+  "letterbox": false,
+  "tests": {
+    "passed": 63,
+    "failed": 0,
+    "skipped": 0,
+    "original_x86_cases": 35
+  },
+  "build": {
+    "result": "Succeeded",
+    "platform": "StandaloneWindows64",
+    "output": "/workspace/gierka/artifacts/unity-reference/Windows/AncientConquestReference.exe",
+    "editorVersion": "6000.3.27f2",
+    "warnings": 0,
+    "errors": 0,
+    "bytes": 112827089,
+    "resolution": "1280x1024",
+    "development": false
+  },
+  "runtime_scope": "ActualWindows64playerunderWine11; nativeWindows11laptopnotvalidated",
+  "player_exe_sha256": "d91dbfa5c7d67cdf2c521d83112df029079f358519a1282d531baad4e1cd80c9",
+  "player_managed_sha256": "70ed3dc74b48d88af0261d3bb609208bd0a82ee07c0658f8059f78fe5cd83a55",
+  "screenshot_sha256": "600a4a196b56ba9d9d52332e7f2c439abd48c49c02050d02f982ea6df74b7233",
+  "package_sha256": "8508fa894364393c1186ddbe76a8923255916ef0cdf27beb724c483cef776d11",
+  "package_bytes": 41565200,
+  "sources": [
+    {
+      "path": "Unity/AncientConquest/Assets/AncientConquest/Editor/BuildReferenceWindows.cs",
+      "sha256": "396fe779116c52d10c6c01925c991a0332b4366bc174838b2733472d518ea574"
+    },
+    {
+      "path": "Unity/AncientConquest/Assets/AncientConquest/Runtime/NativeMenuCanvas.cs",
+      "sha256": "3505af2525fb72c0d6592d6e7fffd45507e1c707cfa3299de85da479752445e6"
+    },
+    {
+      "path": "Unity/AncientConquest/Assets/AncientConquest/Runtime/NativeMenuFrame.cs",
+      "sha256": "59614455830e6162b37394510f5b0f42bae498818519429314a956d3a56a0894"
+    },
+    {
+      "path": "Unity/AncientConquest/Assets/AncientConquest/Runtime/Simulation/BossAiMessageGate.cs",
+      "sha256": "92b0efb4fb6dfcbf1a47a103455bcaf10194f47576e6c490b10e0c1551a031dd"
+    }
+  ],
+  "remaining": [
+    "menuinteractions",
+    "completegameplay/missions/AI/timing",
+    "all2026worldtextures/models",
+    "runningoriginalreferenceonIA32capablehostorWindows",
+    "nativeWindows11targethardwarebenchmark"
+  ],
+  "publication_performed": false
+}

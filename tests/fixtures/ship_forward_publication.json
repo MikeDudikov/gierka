@@ -1,0 +1,439 @@
+{
+  "original_exe_sha256": "cb7746b288d23de2a0343ba51c154f961b3e3683b73bcc31e9a38b2c6b1e2021",
+  "source_hashes": {
+    "installed/ancient.exe": "cb7746b288d23de2a0343ba51c154f961b3e3683b73bcc31e9a38b2c6b1e2021",
+    "installed/missions/maplib.dkx": "05484166ca374630f7c29c26e561656a11941ef331fb014e52f72aed81c23650",
+    "installed/missions/maplib.dkd": "7fe0623d957e196e5279c6bced55db292648b5c9ebc6f1420fcd293c0685b685",
+    "installed/missions/miss000.dkx": "b4b2fda60bb38e837b6d0548caa86229e1fbebf8cb9fd806c4f39c9bd75835ce",
+    "installed/missions/miss000.dkd": "a77e801a93baafd6942db9087d7541f8c85ed2f3c88d440b9f9e81b45ba9a0d1",
+    "files/DATA/OBJECTS.DKX": "67aa31b7e7728a1c4f215c63932b55ea66f3ac1ecdb732bfd368bae2a8375f60",
+    "files/DATA/OBJECTS.DKD": "01474065782a7170d54f564df2205572f8a0675411bef0f350dab55c3fd20e50"
+  },
+  "movement_fixture_sha256": "28931c2849e05f46c7fd005c0f7b923f1d19bf26c045148a1a2388191cf2d374",
+  "movement_case": "southwest_pending1",
+  "setter_va": "0x55ec00",
+  "renderer_selection_range": [
+    "0x565686",
+    "0x5656c4"
+  ],
+  "hooked_callees": {},
+  "frame_field_offset": "0xc4",
+  "part_count_field_offset": "0xc0",
+  "composite_pointer_field_offset": "0xcc",
+  "source_frame_count": 152,
+  "source_part_count": 3,
+  "rows": [
+    {
+      "call": 0,
+      "stamp": 0,
+      "stored_frame": 20,
+      "drawn_frame": 20,
+      "published": false,
+      "render_world_x": 1028,
+      "render_world_y": 132
+    },
+    {
+      "call": 1,
+      "stamp": 1,
+      "stored_frame": 20,
+      "drawn_frame": 20,
+      "published": false,
+      "render_world_x": 1028,
+      "render_world_y": 132
+    },
+    {
+      "call": 2,
+      "stamp": 2,
+      "stored_frame": 20,
+      "drawn_frame": 20,
+      "published": false,
+      "render_world_x": 1028,
+      "render_world_y": 132
+    },
+    {
+      "call": 3,
+      "stamp": 3,
+      "stored_frame": 21,
+      "drawn_frame": 20,
+      "published": false,
+      "render_world_x": 1028,
+      "render_world_y": 132
+    },
+    {
+      "call": 4,
+      "stamp": 4,
+      "stored_frame": 21,
+      "drawn_frame": 20,
+      "published": false,
+      "render_world_x": 1028,
+      "render_world_y": 132
+    },
+    {
+      "call": 5,
+      "stamp": 5,
+      "stored_frame": 21,
+      "drawn_frame": 21,
+      "published": true,
+      "render_world_x": 1027,
+      "render_world_y": 133
+    },
+    {
+      "call": 6,
+      "stamp": 6,
+      "stored_frame": 22,
+      "drawn_frame": 21,
+      "published": false,
+      "render_world_x": 1027,
+      "render_world_y": 133
+    },
+    {
+      "call": 7,
+      "stamp": 7,
+      "stored_frame": 22,
+      "drawn_frame": 22,
+      "published": true,
+      "render_world_x": 1026,
+      "render_world_y": 134
+    },
+    {
+      "call": 8,
+      "stamp": 8,
+      "stored_frame": 22,
+      "drawn_frame": 22,
+      "published": false,
+      "render_world_x": 1026,
+      "render_world_y": 134
+    },
+    {
+      "call": 9,
+      "stamp": 9,
+      "stored_frame": 23,
+      "drawn_frame": 23,
+      "published": true,
+      "render_world_x": 1025,
+      "render_world_y": 135
+    },
+    {
+      "call": 10,
+      "stamp": 10,
+      "stored_frame": 23,
+      "drawn_frame": 23,
+      "published": true,
+      "render_world_x": 1024,
+      "render_world_y": 136
+    },
+    {
+      "call": 11,
+      "stamp": 11,
+      "stored_frame": 23,
+      "drawn_frame": 23,
+      "published": true,
+      "render_world_x": 1023,
+      "render_world_y": 137
+    },
+    {
+      "call": 12,
+      "stamp": 12,
+      "stored_frame": 20,
+      "drawn_frame": 20,
+      "published": true,
+      "render_world_x": 1022,
+      "render_world_y": 138
+    },
+    {
+      "call": 13,
+      "stamp": 13,
+      "stored_frame": 20,
+      "drawn_frame": 20,
+      "published": true,
+      "render_world_x": 1021,
+      "render_world_y": 139
+    },
+    {
+      "call": 14,
+      "stamp": 14,
+      "stored_frame": 20,
+      "drawn_frame": 20,
+      "published": true,
+      "render_world_x": 1020,
+      "render_world_y": 140
+    },
+    {
+      "call": 15,
+      "stamp": 15,
+      "stored_frame": 21,
+      "drawn_frame": 21,
+      "published": true,
+      "render_world_x": 1019,
+      "render_world_y": 141
+    },
+    {
+      "call": 16,
+      "stamp": 16,
+      "stored_frame": 21,
+      "drawn_frame": 21,
+      "published": true,
+      "render_world_x": 1018,
+      "render_world_y": 142
+    },
+    {
+      "call": 17,
+      "stamp": 17,
+      "stored_frame": 21,
+      "drawn_frame": 21,
+      "published": true,
+      "render_world_x": 1016,
+      "render_world_y": 144
+    },
+    {
+      "call": 18,
+      "stamp": 18,
+      "stored_frame": 22,
+      "drawn_frame": 22,
+      "published": true,
+      "render_world_x": 1015,
+      "render_world_y": 145
+    },
+    {
+      "call": 19,
+      "stamp": 19,
+      "stored_frame": 22,
+      "drawn_frame": 22,
+      "published": true,
+      "render_world_x": 1013,
+      "render_world_y": 147
+    },
+    {
+      "call": 20,
+      "stamp": 20,
+      "stored_frame": 22,
+      "drawn_frame": 22,
+      "published": true,
+      "render_world_x": 1012,
+      "render_world_y": 148
+    },
+    {
+      "call": 21,
+      "stamp": 21,
+      "stored_frame": 23,
+      "drawn_frame": 23,
+      "published": true,
+      "render_world_x": 1010,
+      "render_world_y": 150
+    },
+    {
+      "call": 22,
+      "stamp": 22,
+      "stored_frame": 23,
+      "drawn_frame": 23,
+      "published": true,
+      "render_world_x": 1008,
+      "render_world_y": 152
+    },
+    {
+      "call": 23,
+      "stamp": 23,
+      "stored_frame": 23,
+      "drawn_frame": 23,
+      "published": true,
+      "render_world_x": 1006,
+      "render_world_y": 154
+    },
+    {
+      "call": 24,
+      "stamp": 24,
+      "stored_frame": 20,
+      "drawn_frame": 20,
+      "published": true,
+      "render_world_x": 1004,
+      "render_world_y": 156
+    },
+    {
+      "call": 25,
+      "stamp": 25,
+      "stored_frame": 20,
+      "drawn_frame": 20,
+      "published": true,
+      "render_world_x": 1002,
+      "render_world_y": 158
+    },
+    {
+      "call": 26,
+      "stamp": 26,
+      "stored_frame": 20,
+      "drawn_frame": 20,
+      "published": true,
+      "render_world_x": 1000,
+      "render_world_y": 160
+    },
+    {
+      "call": 27,
+      "stamp": 27,
+      "stored_frame": 21,
+      "drawn_frame": 21,
+      "published": true,
+      "render_world_x": 998,
+      "render_world_y": 162
+    },
+    {
+      "call": 28,
+      "stamp": 28,
+      "stored_frame": 21,
+      "drawn_frame": 21,
+      "published": true,
+      "render_world_x": 996,
+      "render_world_y": 164
+    },
+    {
+      "call": 29,
+      "stamp": 29,
+      "stored_frame": 21,
+      "drawn_frame": 21,
+      "published": true,
+      "render_world_x": 994,
+      "render_world_y": 166
+    },
+    {
+      "call": 30,
+      "stamp": 30,
+      "stored_frame": 22,
+      "drawn_frame": 22,
+      "published": true,
+      "render_world_x": 991,
+      "render_world_y": 169
+    },
+    {
+      "call": 31,
+      "stamp": 31,
+      "stored_frame": 22,
+      "drawn_frame": 22,
+      "published": true,
+      "render_world_x": 989,
+      "render_world_y": 171
+    },
+    {
+      "call": 32,
+      "stamp": 32,
+      "stored_frame": 22,
+      "drawn_frame": 22,
+      "published": true,
+      "render_world_x": 987,
+      "render_world_y": 173
+    },
+    {
+      "call": 33,
+      "stamp": 33,
+      "stored_frame": 23,
+      "drawn_frame": 23,
+      "published": true,
+      "render_world_x": 984,
+      "render_world_y": 176
+    },
+    {
+      "call": 34,
+      "stamp": 34,
+      "stored_frame": 23,
+      "drawn_frame": 23,
+      "published": true,
+      "render_world_x": 982,
+      "render_world_y": 178
+    },
+    {
+      "call": 35,
+      "stamp": 35,
+      "stored_frame": 23,
+      "drawn_frame": 23,
+      "published": true,
+      "render_world_x": 980,
+      "render_world_y": 180
+    },
+    {
+      "call": 36,
+      "stamp": 36,
+      "stored_frame": 20,
+      "drawn_frame": 20,
+      "published": true,
+      "render_world_x": 978,
+      "render_world_y": 182
+    },
+    {
+      "call": 37,
+      "stamp": 37,
+      "stored_frame": 20,
+      "drawn_frame": 20,
+      "published": true,
+      "render_world_x": 976,
+      "render_world_y": 184
+    },
+    {
+      "call": 38,
+      "stamp": 38,
+      "stored_frame": 20,
+      "drawn_frame": 20,
+      "published": true,
+      "render_world_x": 974,
+      "render_world_y": 186
+    },
+    {
+      "call": 39,
+      "stamp": 39,
+      "stored_frame": 21,
+      "drawn_frame": 21,
+      "published": true,
+      "render_world_x": 972,
+      "render_world_y": 188
+    },
+    {
+      "call": 40,
+      "stamp": 40,
+      "stored_frame": 21,
+      "drawn_frame": 21,
+      "published": true,
+      "render_world_x": 970,
+      "render_world_y": 190
+    },
+    {
+      "call": 41,
+      "stamp": 41,
+      "stored_frame": 21,
+      "drawn_frame": 21,
+      "published": true,
+      "render_world_x": 969,
+      "render_world_y": 191
+    },
+    {
+      "call": 42,
+      "stamp": 42,
+      "stored_frame": 22,
+      "drawn_frame": 22,
+      "published": true,
+      "render_world_x": 967,
+      "render_world_y": 193
+    },
+    {
+      "call": 43,
+      "stamp": 43,
+      "stored_frame": 22,
+      "drawn_frame": 22,
+      "published": true,
+      "render_world_x": 965,
+      "render_world_y": 195
+    },
+    {
+      "call": 44,
+      "stamp": 44,
+      "stored_frame": 22,
+      "drawn_frame": 22,
+      "published": true,
+      "render_world_x": 964,
+      "render_world_y": 196
+    }
+  ],
+  "passed": true,
+  "limits": [
+    "Movement trace hooks frame/depth publication, visibility and arrival boundaries; not a full game run",
+    "Setter uses active composite node without immediate draw flags; whole55ec00 executes with no hooks",
+    "Renderer pointer prelude executes without hooks and stops before pixelcall; no framebuffer or DirectDraw",
+    "drawn_frame is the engine-selected pose, not a screenshot of the original game"
+  ]
+}

@@ -1,0 +1,291 @@
+{
+  "date": "2026-11-02",
+  "base_commit": "864d5bdcb6c727495676c7a0d439615077a206a6",
+  "working_tree": true,
+  "published": false,
+  "target": [
+    1920,
+    1080
+  ],
+  "scope": "Eight frozen full-health/no-order source ships, five frozen reefs and partial occupancy; not a playable mission or final2026art",
+  "tests": 129,
+  "skipped": 0,
+  "comparisons": {
+    "ship_x86_csharp": 184,
+    "ship_contract_checks": 9,
+    "source_cell_flags": 576,
+    "occupancy_x86_csharp": 1572,
+    "occupancy_contract_checks": 68,
+    "composite_loader_cases": 12,
+    "composite_selected_frame_comparisons": 18,
+    "composite_local_sort_cases": 340,
+    "graphics_selection_source_ships": 8,
+    "component_sprite_names": 17,
+    "component_rle_pixel_buffers": 96,
+    "native_global_nodes": 21,
+    "strict_checker_controls": 88
+  },
+  "build": {
+    "result": "Succeeded",
+    "platform": "StandaloneWindows64",
+    "output": "/workspace/gierka/artifacts/unity-reference/Windows/AncientConquestReference.exe",
+    "editorVersion": "6000.3.27f2",
+    "warnings": 0,
+    "errors": 0,
+    "bytes": 144110843,
+    "resolution": "1920x1080",
+    "development": false
+  },
+  "runtime_dll_sha256": "518838f1952b31309238cbf9187cb00ea4bf0b76a1d882d101d17d60fbb209bb",
+  "runtime_ship_reference": {
+    "report": "artifacts/units/runtime-strict-final/report.json",
+    "cases": [
+      {
+        "name": "home-fleet",
+        "global_mean_rgb_error": 0.0,
+        "global_max_channel_error": 0,
+        "exact_pixel_fraction": 1.0,
+        "ship_regions": [
+          {
+            "instance_id": 11,
+            "rect": [
+              904,
+              264,
+              1016,
+              376
+            ],
+            "mean_rgb_error": 0.0,
+            "covered_pixel_mean_rgb_error": 0.0,
+            "max_channel_error": 0,
+            "matched": true
+          },
+          {
+            "instance_id": 12,
+            "rect": [
+              1544,
+              648,
+              1656,
+              760
+            ],
+            "mean_rgb_error": 0.0,
+            "covered_pixel_mean_rgb_error": 0.0,
+            "max_channel_error": 0,
+            "matched": true
+          },
+          {
+            "instance_id": 13,
+            "rect": [
+              1272,
+              504,
+              1416,
+              648
+            ],
+            "mean_rgb_error": 0.0,
+            "covered_pixel_mean_rgb_error": 0.0,
+            "max_channel_error": 0,
+            "matched": true
+          }
+        ],
+        "queue_entries": 34,
+        "released_claims": 8,
+        "exit": 0,
+        "capture": "artifacts/units/runtime-strict-final/home-fleet/frame-01.png"
+      },
+      {
+        "name": "south-fleet",
+        "global_mean_rgb_error": 0.0,
+        "global_max_channel_error": 0,
+        "exact_pixel_fraction": 1.0,
+        "ship_regions": [
+          {
+            "instance_id": 16,
+            "rect": [
+              1408,
+              384,
+              1536,
+              512
+            ],
+            "mean_rgb_error": 0.0,
+            "covered_pixel_mean_rgb_error": 0.0,
+            "max_channel_error": 0,
+            "matched": true
+          },
+          {
+            "instance_id": 39,
+            "rect": [
+              1144,
+              760,
+              1288,
+              904
+            ],
+            "mean_rgb_error": 0.0,
+            "covered_pixel_mean_rgb_error": 0.0,
+            "max_channel_error": 0,
+            "matched": true
+          },
+          {
+            "instance_id": 40,
+            "rect": [
+              1272,
+              888,
+              1416,
+              1032
+            ],
+            "mean_rgb_error": 0.0,
+            "covered_pixel_mean_rgb_error": 0.0,
+            "max_channel_error": 0,
+            "matched": true
+          }
+        ],
+        "queue_entries": 34,
+        "released_claims": 8,
+        "exit": 0,
+        "capture": "artifacts/units/runtime-strict-final/south-fleet/frame-01.png"
+      },
+      {
+        "name": "adjacent-ships",
+        "global_mean_rgb_error": 0.0,
+        "global_max_channel_error": 0,
+        "exact_pixel_fraction": 1.0,
+        "ship_regions": [
+          {
+            "instance_id": 41,
+            "rect": [
+              760,
+              376,
+              904,
+              520
+            ],
+            "mean_rgb_error": 0.0,
+            "covered_pixel_mean_rgb_error": 0.0,
+            "max_channel_error": 0,
+            "matched": true
+          },
+          {
+            "instance_id": 42,
+            "rect": [
+              760,
+              504,
+              904,
+              648
+            ],
+            "mean_rgb_error": 0.0,
+            "covered_pixel_mean_rgb_error": 0.0,
+            "max_channel_error": 0,
+            "matched": true
+          }
+        ],
+        "queue_entries": 34,
+        "released_claims": 8,
+        "exit": 0,
+        "capture": "artifacts/units/runtime-strict-final/adjacent-ships/frame-01.png"
+      }
+    ]
+  },
+  "renderer_queue_evidence": "29actual ship sortingOrder property reads and5computed reef declarations with separately reviewed assignments; matches34flattened source draws in this bounded subset",
+  "objects_regression": {
+    "report": "artifacts/units/objects-regression-final/report.json",
+    "cases": 4,
+    "all_mean_rgb_error": 0
+  },
+  "terrain_regression": {
+    "report": "artifacts/units/terrain-regression-final/report.json",
+    "cases": 3,
+    "all_mean_rgb_error": 0
+  },
+  "briefing_regression": {
+    "report": "artifacts/units/briefing-regression-final/report.json",
+    "stages": 39,
+    "captures": 11,
+    "exit": 0
+  },
+  "menu_regression": {
+    "report": "artifacts/units/menu-regression-final/report.json",
+    "stages": 27,
+    "captures": 5,
+    "commands": 6,
+    "exit": 0
+  },
+  "archive": {
+    "archive": "artifacts/units/AncientConquest-Prototype-Ships-Windows-x64-1920x1080.zip",
+    "bytes": 47071067,
+    "sha256": "d6854c65e8cad75b9ca8be2599159d4fe91effe95ce9662a8a4b4836a2dfbc51",
+    "file_count": 182,
+    "validation": "ZIP CRC and SHA256 of every decompressed file matched build or explicit package extra"
+  },
+  "source_sha256": {
+    "Unity/AncientConquest/Assets/AncientConquest/Editor/BuildReferenceWindows.cs": "f3771646d82aff310b780c40c885b633824a8effff20cad1047177173c233a1c",
+    "Unity/AncientConquest/Assets/AncientConquest/Editor/ValidateMenuInput.cs": "16ea4e733569bfb1a8fa1c8fd763e6f13570adfcb8f5f20d070b5ab43b98fb95",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/BriefingDifficultySelection.cs": "d068062ede1d046f700393c84a8e258780c9d1d54b20908f91a24b1395472611",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/BriefingPanel.cs": "5f7dfa1606ee556a7c879022a443b91926b8a2204c12c4da0aa97f4f067adc22",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/Diagnostics/BriefingInputReplay.cs": "da45e210a0ac0c3d6d8a46dd5764229809af8dcb7240a3124400b4bff4339993",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/Diagnostics/MenuInputReplay.cs": "9de40ee0d552c01cd93aaccc398c89e9e4cc44e5bb8ca2eb67501c3cff371dda",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/MainMenuButton.cs": "1cfe6db61bdba6237eb748bd7df3f92b8a6c33955ac88b50fc1d3da330e54aac",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/MissionInitialSetup.cs": "e354d48e69e56cc59b71d142c5a68d49f73f5966174ad3408a0feb59d23ebd8e",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/MissionObjectReference.cs": "7f5f2ea34de3fadec118b577296f8f954e44f9fedae980c42fec99e5a84627c0",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/MissionObjectSeed.cs": "65b6f22142fbdb26fa0239f6d0ed11d921dedaa0eec55d470f48e76f401c1c14",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/MissionObjectSelection.cs": "f2ec3c49d62bd6598992f154c4fe58e8948da21dcf2ece1c6e42643dc2a58fbd",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/MissionOccupancyGrid.cs": "7c38445f0ab30250458966db8f559fdabba3dafa2273a17c5d7edba9178f3bbd",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/MissionReefSeed.cs": "9f823f56e6605d6931c903026ff8b0249b84efe75f9b8c0748bc070e320686e6",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/MissionShipReference.cs": "72ba1e406e70916a110c08003a900b17f0fab8c0f783f9deb09d98ea0f9f3af6",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/MissionShipSeed.cs": "7cf66a30c96092ae0a0eff341dab9e07fe37b1ba227369368d44a65252ac3c7b",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/NativeMenuCanvas.cs": "c8ee8a644ef3c960ddf63a7b450d35042163fe7c906edf0dae0795c10be6598f",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/NativeMenuFrame.cs": "9adfbf8465576c712e5d306c7564e802c56ae16f9a38985e60480f00f3089e91",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/RgbaResourceTexture.cs": "bfe98339b9fdc0d1c8e17154f306bcb74f45b37985f7a39cc76191fab87f6038",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/Simulation/BossAiMessageGate.cs": "92b0efb4fb6dfcbf1a47a103455bcaf10194f47576e6c490b10e0c1551a031dd",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/Simulation/SingleStepClock.cs": "e30a65784197edbcf174039dec5f72cea252b289f14972d4fafc0a488ec69539",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/TerrainMapData.cs": "bfe77e756982948f3018ea67a50098d87d7b8b973d24da5bc9930a080d65f815",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/TerrainReferenceFrame.cs": "793460d3ee610cb951f55aef084dcda600fa9e21d51e536a499922edd7ba6a37",
+    "Unity/AncientConquest/Assets/AncientConquest/Runtime/TerrainViewport.cs": "01884de20a9d1dd9f8d4acdda170005822de414913753563447840e195f3f3e8"
+  },
+  "artifact_sha256": {
+    "artifacts/units/build-report-final.json": "53be7f704e5796e5174a2c2ce420d5243beaab6cd6e16124395c31e9c840da94",
+    "artifacts/units/windows-build-units-final.log": "bff99c3ee6ce7e6b420f301501719d67bdf923ff56b3133059a735dc3dbc8d58",
+    "artifacts/units/full-tests-units-final.txt": "cc965c9e95918648351e6da8f6e06da534f50ddd80937bc309ba7b6f1144d464",
+    "artifacts/units/source-integrity.json": "2c500439b2fe103e49b9501e7cca1548f68682090988cddef1e3b91770d9e3ce",
+    "artifacts/units/prototype-package-manifest.json": "f87b7bb1acf078e1b15573d66f85d95bdfd5b9366720691ce18ba42bd4dfe8b7",
+    "artifacts/units/runtime-strict-final/report.json": "916ee8b7450872b719ce8612ad491a6183dd301512ea937eaaa5deb2c2a55f1e",
+    "artifacts/units/objects-regression-final/report.json": "efe9398ee02a487066f9d20aa1eaa8c611d20d15e2ad935a53de0f56d47e03a8",
+    "artifacts/units/terrain-regression-final/report.json": "335ddfeffb8274d451f8bd7cbbbd7e5e1570494a743d5a44eb744d2def2dd0f3",
+    "artifacts/units/briefing-regression-final/report.json": "319b63bf8222f890a9e1be1881de379a9f967f20b35f3f395843d75a78b8a6fd",
+    "artifacts/units/menu-regression-final/report.json": "835fedc610e113cd8c9fb1099dc198dde859b984993f20ecc939bf5e3bd8721c",
+    "artifacts/units/initialization/ship-seed-csharp-validation.json": "2cb55d6cf3f3f13f9aadfb404a4f84559bb9c353f7f24c545823201d872d0192",
+    "artifacts/units/collision/occupancy-csharp-validation-final.json": "05ae6f21787b1f3000a14912714595246dfd602c07458b82504c2a717d718e1b",
+    "artifacts/units/animation/composite-original-validation.json": "25e59c7365666e669edb6705b9c85fd5947cae5ba9c016a3563411a6d0818e50",
+    "artifacts/units/animation/ship-graphics-selection.json": "646d5781bb862488c6fb78be761ba45a1485bf0ec9978545c0aaab413e39345c",
+    "artifacts/units/animation/ship-component-rle-validation.json": "1c0b4c98e5d5c89f35bebeeece9d328dcaa350c1866278d9c3907c30e5c0c48f",
+    "artifacts/units/draw-order/world-order-with-reefs-validation.json": "c1f64b7240d1608efd1ba3d07367d450bdfaa3761bfd2d323634aa390afd94bb",
+    "artifacts/units/qa-helper-controls-strict/report.json": "1c7df76ab43c10b3f09ef7a231d1bfe9feae815781e85b4b3f262cdd1b858572"
+  },
+  "meta_integrity": {
+    "missing_cs_metas": [],
+    "duplicate_guids": {},
+    "meta_count": 66
+  },
+  "preserved_failures": [
+    {
+      "report": "artifacts/units/full-tests-units.txt",
+      "cause": "Staging test pinned older fixture metadata; native12loader/340sort results unchanged. Verified only decoder_sha256 changed, corrected pin, final129tests passed."
+    },
+    {
+      "report": "artifacts/units/qa-helper-controls/report.json",
+      "cause": "Five unexpected false accepts among86controls: missingTARANx4 and subtle adjacent ordering. Added per-ship ROI max error<=4 alongside existing means; strict88controls passed; preserved5PNG."
+    }
+  ],
+  "reef_preview": "artifacts/objects/runtime-final/reef-00000009/frame-01.png",
+  "limits": [
+    "Windows Mono player under Wine/Xvfb; native Windows11 and target laptop not tested",
+    "Eight frozen full-health/no-order ship references and five frozen reefs; not complete initial world state",
+    "Source component sprites, masks, anchors and known-cohort ordering only; other classes, fog and full-world order excluded",
+    "Partial576-cell occupancy grid with8claims and cleanup; no original constructors, movement, collision lifecycle or simulation",
+    "No OS input, navigation, panning, animation, AI, mission audio or playable mission validated",
+    "Timed diagnostic Application.Quit(0) is not evidence for the product/menu Quit callback",
+    "Source base-palette art is a fidelity reference, not final2026art or target hardware performance proof",
+    "Image comparisons can prove ordering only where source alpha coverage makes order observable",
+    "Renderer order logs read29ship fields and compute5reef declarations, whose assignments have separate static review",
+    "Normal Start disabled; other class initializations, movement, AI, combat, fog and animation cadence incomplete",
+    "Menu/briefing replay is synthetic, not OS mouse routing",
+    "Pre-existing ComputeBuffer GC-disposal and Pillow deprecation warnings retained",
+    "Original gameplay session and native Windows11/laptop performance not validated"
+  ]
+}

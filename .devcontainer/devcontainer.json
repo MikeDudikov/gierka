@@ -1,0 +1,10 @@
+{
+  "name": "Ancient Conquest — Claude Code",
+  "build": { "dockerfile": "Dockerfile", "context": "." },
+  "workspaceMount": "source=${localWorkspaceFolder},target=/workspace/gierka,type=bind",
+  "workspaceFolder": "/workspace/gierka",
+  "mounts": ["source=${localWorkspaceFolder}/../toolchains,target=/workspace/toolchains,type=bind"],
+  "postCreateCommand": "git config --global --add safe.directory /workspace/gierka && bash tools/handoff_bootstrap.sh",
+  "remoteUser": "root",
+  "shutdownAction": "stopContainer"
+}
