@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "archive": "AncientConquest-ClaudeCode-2026-11-04.tar.gz",
+  "bytes": 6211051481,
+  "sha256": "fa850d9df733e7ab8f0e295377ebbe2a255a0a25cbae1767e5372fdbc5a95060",
+  "parts": [
+    {
+      "name": "AncientConquest-ClaudeCode-2026-11-04.tar.gz.part001",
+      "bytes": 1073741824,
+      "sha256": "3a8f617dde7b5bfea9a32ea01e4ca20cb53a873057408db2516eec5972d74c2e",
+      "url": "https://media.githubusercontent.com/media/MikeDudikov/gierka/gierka/gierka/paczka/AncientConquest-ClaudeCode-2026-11-04.tar.gz.part001"
+    },
+    {
+      "name": "AncientConquest-ClaudeCode-2026-11-04.tar.gz.part002",
+      "bytes": 1073741824,
+      "sha256": "ab8033d3b0b02fb7683eb6a7db73b69c23152569b18a937380c698be0b36879c",
+      "url": "https://media.githubusercontent.com/media/MikeDudikov/gierka/gierka/gierka/paczka/AncientConquest-ClaudeCode-2026-11-04.tar.gz.part002"
+    },
+    {
+      "name": "AncientConquest-ClaudeCode-2026-11-04.tar.gz.part003",
+      "bytes": 1073741824,
+      "sha256": "a688c9a67078e39c573c8ef25df54dd5c2f158f99f0844ba8c04b55bbfbc575e",
+      "url": "https://media.githubusercontent.com/media/MikeDudikov/gierka/gierka/gierka/paczka/AncientConquest-ClaudeCode-2026-11-04.tar.gz.part003"
+    },
+    {
+      "name": "AncientConquest-ClaudeCode-2026-11-04.tar.gz.part004",
+      "bytes": 1073741824,
+      "sha256": "41643baa2d4801f33c8c4f47c5d0bfe29236eb86fc63038a3bc3726fb9d2c2aa",
+      "url": "https://media.githubusercontent.com/media/MikeDudikov/gierka/gierka/gierka/paczka/AncientConquest-ClaudeCode-2026-11-04.tar.gz.part004"
+    },
+    {
+      "name": "AncientConquest-ClaudeCode-2026-11-04.tar.gz.part005",
+      "bytes": 1073741824,
+      "sha256": "ef9a94e8a643f5ccd1f043bf86d5efaa6225de31ee5ef9abe5971d6f048f90ad",
+      "url": "https://media.githubusercontent.com/media/MikeDudikov/gierka/gierka/gierka/paczka/AncientConquest-ClaudeCode-2026-11-04.tar.gz.part005"
+    },
+    {
+      "name": "AncientConquest-ClaudeCode-2026-11-04.tar.gz.part006",
+      "bytes": 842342361,
+      "sha256": "6c5bf72c5630f6c03a21694ff5106b36d81a425451bda3ae1c667a7bc8749a87",
+      "url": "https://media.githubusercontent.com/media/MikeDudikov/gierka/gierka/gierka/paczka/AncientConquest-ClaudeCode-2026-11-04.tar.gz.part006"
+    }
+  ],
+  "github_folder": "https://github.com/MikeDudikov/gierka/tree/gierka/gierka"
+}

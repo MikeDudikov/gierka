@@ -1,3 +1,5 @@
+**Pełna paczka do pobrania: [gierka/START_TUTAJ.md](gierka/START_TUTAJ.md).** Zawiera sześć części Git LFS oraz skrypty automatycznego pobierania i scalania oryginalnego archiwum6,2GB.
+
 **Przekazanie do Claude Code przygotowane; rozwój w tej sesji zatrzymany.** Zacznij od [CLAUDE.md](CLAUDE.md) i [instrukcji przekazania](handoff/START_TUTAJ.md). Pełny stan, plan i blokada ostatniej diagnostyki: [handoff/STAN_I_PLAN.md](handoff/STAN_I_PLAN.md).
 
 **Prace trwają autonomicznie.** [Jawny reset kontekstu trasy](docs/SOURCE_APP_ACTIVATION.md): x86 i port C# zweryfikowane, dwa nowe replaye oraz wcześniejszy profil PASS. Build Windows1920×1080:0 błędów/ostrzeżeń; pełna gra pozostaje nieukończona.

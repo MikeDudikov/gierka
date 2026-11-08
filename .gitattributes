@@ -1,0 +1,1 @@
+gierka/paczka/*.part* filter=lfs diff=lfs merge=lfs -text
